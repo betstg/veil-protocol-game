@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cvd",
+    "name": "The CVD",
+    "what": "The institution that polices the veil."
+  },
+  {
+    "id": "grid",
+    "name": "The Grid",
+    "what": "The unregistered network. Starts not trusting you."
+  },
+  {
+    "id": "towers",
+    "name": "The Tower Families",
+    "what": "Old practitioner houses; the Kuroda among them."
+  },
+  {
+    "id": "street",
+    "name": "The Street",
+    "what": "Civilians, bars, hosts, the homeless."
+  },
+  {
+    "id": "vessel",
+    "name": "The Vessel Program",
+    "what": "Humans hosting contracted demons."
+  },
+  {
+    "id": "cult",
+    "name": "The Far-Shore Circle",
+    "what": "Kishin's grief cult; the vessel-farm."
+  },
+  {
+    "id": "axis",
+    "name": "The Axis line",
+    "what": "The 13 light anchors; the Axis at the centre."
+  }
+]

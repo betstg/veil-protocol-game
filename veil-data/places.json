@@ -1,0 +1,151 @@
+[
+  {
+    "id": "home",
+    "name": "Home — Gin's apartment",
+    "faction": "none",
+    "lat": 35.7528,
+    "lng": 139.7386,
+    "hours": "24h",
+    "known": true
+  },
+  {
+    "id": "oji",
+    "name": "Ōji Station",
+    "faction": "none",
+    "lat": 35.7525,
+    "lng": 139.7388,
+    "hours": "05:00–24:00",
+    "known": true
+  },
+  {
+    "id": "inari",
+    "name": "Ōji Inari shrine",
+    "faction": "none",
+    "lat": 35.756,
+    "lng": 139.7385,
+    "hours": "06:00–18:00",
+    "known": true,
+    "art": "place_shinto.png"
+  },
+  {
+    "id": "cvd",
+    "name": "CVD HQ (Marunouchi)",
+    "faction": "cvd",
+    "lat": 35.6812,
+    "lng": 139.766,
+    "hours": "08:00–20:00",
+    "known": true
+  },
+  {
+    "id": "suzuran",
+    "name": "The Suzuran (Golden Gai)",
+    "faction": "street",
+    "lat": 35.6945,
+    "lng": 139.705,
+    "hours": "19:00–04:00",
+    "known": false,
+    "art": "place_suzuran.png"
+  },
+  {
+    "id": "ramen",
+    "name": "Tatsu — ramen counter",
+    "faction": "street",
+    "lat": 35.7522,
+    "lng": 139.7382,
+    "hours": "11:30–14:30, 18:00–01:30",
+    "known": true,
+    "art": "place_tatsuya.png"
+  },
+  {
+    "id": "koenji",
+    "name": "Kōenji — Usami's bakery",
+    "faction": "vessel",
+    "lat": 35.7058,
+    "lng": 139.6497,
+    "hours": "07:00–19:00",
+    "known": false
+  },
+  {
+    "id": "sanya",
+    "name": "Sanya — Tanizaki's room",
+    "faction": "grid",
+    "lat": 35.7325,
+    "lng": 139.799,
+    "hours": "20:00–03:00",
+    "known": false
+  },
+  {
+    "id": "gathering",
+    "name": "The Gathering",
+    "faction": "grid",
+    "lat": null,
+    "lng": null,
+    "hours": "—",
+    "known": false,
+    "art": "place_gathering.png"
+  },
+  {
+    "id": "kemuri",
+    "name": "Kemuri — laundry safehouse",
+    "faction": "grid",
+    "lat": 35.733,
+    "lng": 139.799,
+    "hours": "—",
+    "known": false,
+    "art": "place_kemuri.png"
+  },
+  {
+    "id": "kurodacompound",
+    "name": "Kuroda compound (Nezu)",
+    "faction": "towers",
+    "lat": 35.72,
+    "lng": 139.766,
+    "hours": "—",
+    "known": false
+  },
+  {
+    "id": "takinogawa",
+    "name": "Takinogawa — the hospice",
+    "faction": "cult",
+    "lat": 35.748,
+    "lng": 139.725,
+    "hours": "24h",
+    "known": false
+  },
+  {
+    "id": "farshore",
+    "name": "The Far-Shore Circle",
+    "faction": "cult",
+    "lat": null,
+    "lng": null,
+    "hours": "—",
+    "known": false
+  },
+  {
+    "id": "kabuki",
+    "name": "Kabukichō",
+    "faction": "street",
+    "lat": 35.6938,
+    "lng": 139.7036,
+    "hours": "24h",
+    "known": false
+  },
+  {
+    "id": "shibuya",
+    "name": "Shibuya — Center-gai",
+    "faction": "none",
+    "lat": 35.6595,
+    "lng": 139.7005,
+    "hours": "24h",
+    "known": false
+  },
+  {
+    "id": "river",
+    "name": "The riverbank (Obon)",
+    "faction": "none",
+    "lat": 35.755,
+    "lng": 139.735,
+    "hours": "—",
+    "known": true
+  }
+]

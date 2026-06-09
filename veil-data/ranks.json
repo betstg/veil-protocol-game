@@ -1,0 +1,46 @@
+[
+  {
+    "rank": "0",
+    "name": "The Null",
+    "note": "No aperture."
+  },
+  {
+    "rank": "E",
+    "name": "—"
+  },
+  {
+    "rank": "D",
+    "name": "—"
+  },
+  {
+    "rank": "C",
+    "name": "—"
+  },
+  {
+    "rank": "B",
+    "name": "—"
+  },
+  {
+    "rank": "A",
+    "name": "—"
+  },
+  {
+    "rank": "S",
+    "name": "apex"
+  },
+  {
+    "rank": "SS",
+    "name": "singular"
+  },
+  {
+    "rank": "SSS",
+    "name": "singular",
+    "playerLearnsInStory": true
+  },
+  {
+    "rank": "X",
+    "name": "outside the scale",
+    "hiddenFromPlayer": true,
+    "note": "XXX must never surface to the player."
+  }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "id": "hagiwara-mizuki",
+    "name": "Hagiwara Mizuki",
+    "fullName": "Hagiwara Mizuki,   — Director of Public Confidence",
+    "faction": "cvd",
+    "role": "51",
+    "location": "A spotless apartment, alone. No photographs. She does not keep what she cannot c",
+    "links": []
+  },
+  {
+    "id": "fukai-rinka-kishin",
+    "name": "Fukai Rinka / Kishin",
+    "fullName": "Fukai Rinka / Kishin,   — \"Kanna-sensei\",",
+    "faction": "vessel",
+    "role": "Host body 38",
+    "location": "The Circle's house in a quiet residential ward; white rooms, floor cushions, a w",
+    "links": []
+  },
+  {
+    "id": "uedera-gin",
+    "name": "Uedera Gin",
+    "fullName": "Uedera Gin,",
+    "faction": "cvd",
+    "role": "28",
+    "location": "Kita-ku, a modest two-room flat shared with his brother Rei, near the line. Keys",
+    "links": []
+  },
+  {
+    "id": "yushiro",
+    "name": "Yushiro",
+    "fullName": "Yushiro,  — 'the Healer'",
+    "faction": "street",
+    "role": "Top-grade (Arbiter-class, pre-crossing)",
+    "location": "",
+    "links": []
+  },
+  {
+    "id": "nakamura-aoi",
+    "name": "Nakamura Aoi",
+    "fullName": "Nakamura Aoi,",
+    "faction": "cvd",
+    "role": "20",
+    "location": "Kita-ku, a small one-room flat two minutes from the Saikyō line, plants she forg",
+    "links": []
+  },
+  {
+    "id": "kato-ryusei",
+    "name": "Kato Ryusei",
+    "fullName": "Kato Ryusei,",
+    "faction": "cvd",
+    "role": "21",
+    "location": "Itabashi, a tidy flat over a hardware store, everything labelled.",
+    "links": []
+  },
+  {
+    "id": "katagiri-noa",
+    "name": "Katagiri Noa",
+    "fullName": "Katagiri Noa,",
+    "faction": "cvd",
+    "role": "38",
+    "location": "Kita-ku, the floor above an old veterinary clinic, more cats than the lease allo",
+    "links": []
+  },
+  {
+    "id": "tsukishiro-haruki",
+    "name": "Tsukishiro Haruki",
+    "fullName": "Tsukishiro Haruki,",
+    "faction": "grid",
+    "role": "31",
+    "location": "The Tsukishiro estate, Bunkyō — old money, older obligations, a wing that is his",
+    "links": []
+  },
+  {
+    "id": "fujiwara-kage-sena",
+    "name": "Fujiwara-Kage Sena",
+    "fullName": "Fujiwara-Kage Sena,",
+    "faction": "cvd",
+    "role": "24",
+    "location": "A serviced apartment near the CVD in ji — clean, anonymous, nothing on the walls",
+    "links": []
+  },
+  {
+    "id": "moriya-tatsuki",
+    "name": "Moriya Tatsuki",
+    "fullName": "Moriya Tatsuki,",
+    "faction": "cvd",
+    "role": "35",
+    "location": "Nakano, a salaryman’s flat, takeout containers, a bicycle he means to fix.",
+    "links": []
+  },
+  {
+    "id": "fujimoto-kenji-abe-takes",
+    "name": "Fujimoto Kenji / Abe Takeshi",
+    "fullName": "Fujimoto Kenji / Abe Takeshi,   /",
+    "faction": "grid",
+    "role": "33 (Kenji)",
+    "location": "A scholar’s clutter in Ōtsuka; papers in stacks with a logic only he knows.",
+    "links": []
+  },
+  {
+    "id": "usami-hinata-ren",
+    "name": "Usami Hinata / Ren",
+    "fullName": "Usami Hinata / Ren,   {Usa-kun}",
+    "faction": "vessel",
+    "role": "24",
+    "location": "A cute, too-tidy one-room in Kōenji; soft toys, a rabbit mug, CVD eyes he doesn’",
+    "links": []
+  },
+  {
+    "id": "ren",
+    "name": "Ren",
+    "fullName": "Ren,  — the Contracted",
+    "faction": "vessel",
+    "role": "Class C demon",
+    "location": "",
+    "links": []
+  },
+  {
+    "id": "okada-shizuka",
+    "name": "Okada Shizuka",
+    "fullName": "Okada Shizuka,",
+    "faction": "cvd",
+    "role": "32",
+    "location": "Ōji, Kita-ku — a neat flat near the shrine, a cat she swears is ordinary.",
+    "links": []
+  },
+  {
+    "id": "director-adachi-kenshin",
+    "name": "Director Adachi Kenshin",
+    "fullName": "Director Adachi Kenshin,",
+    "faction": "cvd",
+    "role": "56",
+    "location": "Setagaya, a good house behind a good wall; a wife who knows the public version o",
+    "links": []
+  },
+  {
+    "id": "shimizu-ren",
+    "name": "Shimizu Ren",
+    "fullName": "Shimizu Ren,",
+    "faction": "cvd",
+    "role": "29",
+    "location": "Kita-ku, sharing a flat with two non-practitioner roommates who think she does a",
+    "links": []
+  },
+  {
+    "id": "yamamoto-koji",
+    "name": "Yamamoto Koji",
+    "fullName": "Yamamoto Koji,",
+    "faction": "grid",
+    "role": "55",
+    "location": "A book-drowned flat near the building; the hallway is shelved on both sides.",
+    "links": []
+  },
+  {
+    "id": "tendo-akira",
+    "name": "Tendo Akira",
+    "fullName": "Tendo Akira,",
+    "faction": "cvd",
+    "role": "28",
+    "location": "A quiet flat on the edge of the city; the neighbours have never met him.",
+    "links": []
+  },
+  {
+    "id": "choi-hana",
+    "name": "Choi Hana",
+    "fullName": "Choi Hana,",
+    "faction": "grid",
+    "role": "19",
+    "location": "Shin-Ōkubo, above a Korean grocer; the smell of home cooking on the stairs.",
+    "links": []
+  },
+  {
+    "id": "kuroda-sei",
+    "name": "Kuroda Sei",
+    "fullName": "Kuroda Sei,",
+    "faction": "grid",
+    "role": "22",
+    "location": "No fixed address; squats and friends’ couches, never two weeks in one bed.",
+    "links": []
+  },
+  {
+    "id": "kuroda-itsuki",
+    "name": "Kuroda Itsuki",
+    "fullName": "Kuroda Itsuki,",
+    "faction": "grid",
+    "role": "20",
+    "location": "A small flat near Ueno, two stops from Geidai. Family-paid; sparsely furnished e",
+    "links": []
+  },
+  {
+    "id": "kurosawa-shou",
+    "name": "Kurosawa Shou",
+    "fullName": "Kurosawa Shou,",
+    "faction": "grid",
+    "role": "34",
+    "location": "Adachi-ku, a cheap flat shared with too many people and a good lock.",
+    "links": []
+  },
+  {
+    "id": "tanizaki-seiichi",
+    "name": "Tanizaki Seiichi",
+    "fullName": "Tanizaki Seiichi,",
+    "faction": "grid",
+    "role": "61",
+    "location": "A small old house in the Kita-ku old quarter, a garden gone to seed on purpose.",
+    "links": []
+  },
+  {
+    "id": "inoue-misaki",
+    "name": "Inoue Misaki",
+    "fullName": "Inoue Misaki,",
+    "faction": "grid",
+    "role": "27",
+    "location": "An apartment the CVD cannot keep on file — addresses slide off her. Kita-ku, pro",
+    "links": []
+  },
+  {
+    "id": "tanaka-ryu",
+    "name": "Tanaka Ryu",
+    "fullName": "Tanaka Ryu,",
+    "faction": "grid",
+    "role": "36",
+    "location": "Itabashi, Grid territory; a flat kept deliberately boring.",
+    "links": []
+  },
+  {
+    "id": "majima-kenji",
+    "name": "Majima Kenji",
+    "fullName": "Majima Kenji,",
+    "faction": "grid",
+    "role": "41",
+    "location": "Moves every few months; currently a weekly in Taitō, near the cheap hotels.",
+    "links": []
+  },
+  {
+    "id": "uehara",
+    "name": "Uehara",
+    "fullName": "Uehara,",
+    "faction": "cvd",
+    "role": "45",
+    "location": "Unknown. Even the Grid only has a phone that sometimes answers.",
+    "links": []
+  },
+  {
+    "id": "mochizuki-sora",
+    "name": "Mochizuki Sora",
+    "fullName": "Mochizuki Sora,",
+    "faction": "grid",
+    "role": "23",
+    "location": "A share-house in Kōenji with art students who don’t know what they live with.",
+    "links": []
+  },
+  {
+    "id": "kaneda-t-ru",
+    "name": "Kaneda Tōru",
+    "fullName": "Kaneda Tōru,",
+    "faction": "street",
+    "role": "35",
+    "location": "A small flat over the bar; he has built his whole adult life around that counter",
+    "links": []
+  },
+  {
+    "id": "hara-setsu",
+    "name": "Hara Setsu",
+    "fullName": "Hara Setsu,",
+    "faction": "grid",
+    "role": "71",
+    "location": "The rooms behind the bath house; the chimney is her landmark.",
+    "links": []
+  },
+  {
+    "id": "end-masa",
+    "name": "Endō Masa",
+    "fullName": "Endō Masa,",
+    "faction": "street",
+    "role": "38",
+    "location": "Azabu, a sublet over a laundry; sleeps days.",
+    "links": []
+  },
+  {
+    "id": "serizawa",
+    "name": "Serizawa",
+    "fullName": "Serizawa,",
+    "faction": "street",
+    "role": "63",
+    "location": "Tsukishima, a modest immaculate flat.",
+    "links": []
+  },
+  {
+    "id": "got-hideki",
+    "name": "Gotō Hideki",
+    "fullName": "Gotō Hideki,",
+    "faction": "street",
+    "role": "47",
+    "location": "Nishi-Shinjuku serviced high-rise, paid cash, nothing in his name.",
+    "links": []
+  },
+  {
+    "id": "mariko",
+    "name": "Mariko",
+    "fullName": "\"Mariko\",  — working name",
+    "faction": "street",
+    "role": "40s",
+    "location": "A weekly room nearby; she keeps her real name and address apart from this place ",
+    "links": []
+  },
+  {
+    "id": "the-beck-s-man",
+    "name": "The Beck's Man",
+    "fullName": "\"The Beck's Man\",  — platform clerk",
+    "faction": "street",
+    "role": "50s",
+    "location": "Nerima, an ordinary flat, an ordinary family.",
+    "links": []
+  },
+  {
+    "id": "yua",
+    "name": "Yua",
+    "fullName": "Yua,  — surname dropped",
+    "faction": "street",
+    "role": "16",
+    "location": "Nowhere fixed — the pavement by the cinema, a net cafe, a stranger's room.",
+    "links": []
+  },
+  {
+    "id": "kuroki-tatsuo",
+    "name": "Kuroki Tatsuo",
+    "fullName": "Kuroki Tatsuo,",
+    "faction": "street",
+    "role": "51",
+    "location": "A discreet house in Mejiro; family man at home, something else by night.",
+    "links": []
+  },
+  {
+    "id": "wada-sho",
+    "name": "Wada Sho",
+    "fullName": "Wada Sho,",
+    "faction": "street",
+    "role": "29",
+    "location": "A share-flat in kubo with two other soldiers.",
+    "links": []
+  },
+  {
+    "id": "it-kenta",
+    "name": "Itō Kenta",
+    "fullName": "Itō Kenta,",
+    "faction": "street",
+    "role": "18",
+    "location": "With an aunt who has given up on him, in Adachi-ku.",
+    "links": []
+  },
+  {
+    "id": "aizawa-yuto",
+    "name": "Aizawa Yuto",
+    "fullName": "Aizawa Yuto,",
+    "faction": "street",
+    "role": "22",
+    "location": "A family-owned apartment in Hiroo he rarely sleeps in sober.",
+    "links": []
+  },
+  {
+    "id": "sugimoto-tatsuya",
+    "name": "Sugimoto Tatsuya",
+    "fullName": "Sugimoto Tatsuya,",
+    "faction": "street",
+    "role": "68",
+    "location": "Cardboard and a bench in the park by the university; the library by day.",
+    "links": []
+  },
+  {
+    "id": "mori-haruto",
+    "name": "Mori Haruto",
+    "fullName": "Mori Haruto,",
+    "faction": "street",
+    "role": "17",
+    "location": "Public housing in Kita-ku with a mother on nights and a younger sister he raises",
+    "links": []
+  },
+  {
+    "id": "tanabe-isamu",
+    "name": "Tanabe Isamu",
+    "fullName": "Tanabe Isamu,",
+    "faction": "street",
+    "role": "63",
+    "location": "A tiny flat in Oji with his wife of forty years.",
+    "links": []
+  },
+  {
+    "id": "leo-sato",
+    "name": "Leo' (Sato)",
+    "fullName": "'Leo' (Sato),  — host, working name",
+    "faction": "grid",
+    "role": "26",
+    "location": "A sleek serviced flat near work; mirrors everywhere.",
+    "links": []
+  },
+  {
+    "id": "mali",
+    "name": "Mali",
+    "fullName": "'Mali',  — masseuse, working name",
+    "faction": "street",
+    "role": "44",
+    "location": "A flat in kubo shared with two friends from the Thai community.",
+    "links": []
+  },
+  {
+    "id": "komatsu-shigeru",
+    "name": "Komatsu Shigeru",
+    "fullName": "Komatsu Shigeru,",
+    "faction": "street",
+    "role": "74",
+    "location": "The rooms behind the kiosk; never lived anywhere else as an adult.",
+    "links": []
+  },
+  {
+    "id": "iwata-kenji",
+    "name": "Iwata Kenji",
+    "fullName": "Iwata Kenji,",
+    "faction": "street",
+    "role": "58",
+    "location": "A super's flat on the ground floor of the block.",
+    "links": []
+  },
+  {
+    "id": "saeki-reno",
+    "name": "Saeki Reno",
+    "fullName": "Saeki Reno,",
+    "faction": "street",
+    "role": "49",
+    "location": "A penthouse over one of his clubs; he likes to feel the bass.",
+    "links": []
+  },
+  {
+    "id": "sasaki-daiki",
+    "name": "Sasaki Daiki",
+    "fullName": "Sasaki Daiki,",
+    "faction": "street",
+    "role": "17",
+    "location": "Two stops from Rei, with parents and a little brother.",
+    "links": []
+  },
+  {
+    "id": "maruyama-toshio",
+    "name": "Maruyama Toshio",
+    "fullName": "Maruyama Toshio,",
+    "faction": "street",
+    "role": "60",
+    "location": "Above the cafe, alone since his wife passed.",
+    "links": []
+  },
+  {
+    "id": "kawai-yuki",
+    "name": "Kawai Yuki",
+    "fullName": "Kawai Yuki,",
+    "faction": "street",
+    "role": "57",
+    "location": "Behind the bakery; up at four, asleep by eight.",
+    "links": []
+  },
+  {
+    "id": "tatsu",
+    "name": "Tatsu",
+    "fullName": "'Tatsu',  — ramen master",
+    "faction": "street",
+    "role": "52",
+    "location": "A flat near the yards; the shop is six stools under an arch.",
+    "links": []
+  },
+  {
+    "id": "yoshida-goro",
+    "name": "Yoshida Goro",
+    "fullName": "Yoshida Goro,",
+    "faction": "street",
+    "role": "58",
+    "location": "A room above the bar.",
+    "links": []
+  },
+  {
+    "id": "the-woman-at-the-back",
+    "name": "The Woman at the Back",
+    "fullName": "'The Woman at the Back' — name unknown",
+    "faction": "street",
+    "role": "40s",
+    "location": "Unknown. No one has seen her arrive or leave.",
+    "links": []
+  },
+  {
+    "id": "miyamoto-kazuo",
+    "name": "Miyamoto Kazuo",
+    "fullName": "Miyamoto Kazuo,   — kannushi",
+    "faction": "street",
+    "role": "66",
+    "location": "The priest's house in the shrine grounds, with his family.",
+    "links": []
+  },
+  {
+    "id": "rev-egami-jak",
+    "name": "Rev. Egami Jakū",
+    "fullName": "Rev. Egami Jakū,   — Shingon priest",
+    "faction": "street",
+    "role": "59",
+    "location": "The temple precincts; a monk's spare quarters.",
+    "links": []
+  },
+  {
+    "id": "father-anselm-mbeki",
+    "name": "Father Anselm Mbeki",
+    "fullName": "Father Anselm Mbeki — Catholic priest",
+    "faction": "street",
+    "role": "61",
+    "location": "The parish house beside the church.",
+    "links": []
+  },
+  {
+    "id": "master-lin-wei",
+    "name": "Master Lin Wei",
+    "fullName": "Master Lin Wei,  — Taoist priest",
+    "faction": "street",
+    "role": "63",
+    "location": "The temple, with the small Chinese community.",
+    "links": []
+  },
+  {
+    "id": "pak-sun-ja",
+    "name": "Pak Sun-ja",
+    "fullName": "Pak Sun-ja — mudang",
+    "faction": "street",
+    "role": "55",
+    "location": "Above a Korean restaurant in Shin-kubo, a shrine room behind a curtain.",
+    "links": []
+  },
+  {
+    "id": "baba-adewale",
+    "name": "Baba Adewale",
+    "fullName": "Baba Adewale — community elder",
+    "faction": "street",
+    "role": "64",
+    "location": "A flat that doubles as a community house, candles always lit.",
+    "links": []
+  },
+  {
+    "id": "switch",
+    "name": "Switch",
+    "fullName": "'Switch' — Grid quartermaster",
+    "faction": "grid",
+    "role": "37",
+    "location": "Nowhere fixed — that is the job.",
+    "links": []
+  },
+  {
+    "id": "old-tomi",
+    "name": "Old Tomi",
+    "fullName": "Old Tomi — the freight-yard squatter",
+    "faction": "street",
+    "role": "60s",
+    "location": "The condemned housing by the freight yard; the last man who will not leave.",
+    "links": []
+  },
+  {
+    "id": "sato",
+    "name": "Sato",
+    "fullName": "Sato — the blind busker",
+    "faction": "street",
+    "role": "50s",
+    "location": "A shelter by night; the underpass by day, for coins and acoustics.",
+    "links": []
+  },
+  {
+    "id": "endo-sumi",
+    "name": "Endo Sumi",
+    "fullName": "Endo Sumi — the memorial keeper",
+    "faction": "street",
+    "role": "70s",
+    "location": "A flat overlooking the river; close enough to tend daily.",
+    "links": []
+  },
+  {
+    "id": "det-sgt-arai-goro",
+    "name": "Det. Sgt. Arai Goro",
+    "fullName": "Det. Sgt. Arai Goro,",
+    "faction": "street",
+    "role": "48",
+    "location": "A salaryman's flat in the ward with a wife who worries.",
+    "links": []
+  },
+  {
+    "id": "old-maki",
+    "name": "Old Maki",
+    "fullName": "'Old Maki',  — ironmonger",
+    "faction": "street",
+    "role": "66",
+    "location": "Behind the shop, alone, a widower.",
+    "links": []
+  },
+  {
+    "id": "ad-okonkwo",
+    "name": "Adé Okonkwo",
+    "fullName": "Adé Okonkwo — the trader",
+    "faction": "street",
+    "role": "49",
+    "location": "Above the shop with his family.",
+    "links": []
+  },
+  {
+    "id": "the-bookseller",
+    "name": "The Bookseller",
+    "fullName": "'The Bookseller',  — Higuchi",
+    "faction": "street",
+    "role": "57",
+    "location": "Among the books; a cot in the back room.",
+    "links": []
+  },
+  {
+    "id": "sone-kimiko",
+    "name": "Sone Kimiko",
+    "fullName": "Sone Kimiko,",
+    "faction": "street",
+    "role": "58",
+    "location": "Behind the shop, near ji shrine.",
+    "links": []
+  }
+]
