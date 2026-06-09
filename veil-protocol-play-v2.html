@@ -187,6 +187,7 @@
 <div class="overlay" id="ov-book"><div class="sheet"><div class="sheet-h"><h2>Gin's Book</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="bookBody"></div></div></div>
 <div class="overlay" id="ov-phone"><div class="phone"><div class="ph-status"><span id="ph-clock">07:50</span><span>● ▮▮▮ 86%</span></div><div class="ph-screen" id="phScreen"></div><div class="ph-tabbar" id="phTabbar"></div></div></div>
 <div class="overlay" id="ov-chapters"><div class="drawer"><div class="sheet-h"><h2>Chapters</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="chaptersBody"></div></div></div>
+<div class="overlay" id="ov-fight"><div class="sheet"><div class="sheet-h"><h2>Encounter</h2><button class="x" onclick="closeFight()">✕</button></div><div class="sheet-b" id="fightBody"></div></div></div>
 <div id="ov-map"><div id="map-bar"><h3>Tokyo</h3><span id="map-date" style="font-family:monospace;font-size:11px;color:var(--dim)"></span><button class="x" onclick="mapZoom(1.25)">+</button><button class="x" onclick="mapZoom(0.8)">−</button><button class="x" onclick="closeMap()">✕ Close</button></div><div id="bigmap"></div><div id="mapModal"></div></div>
 
 <script>
@@ -458,7 +459,7 @@ function renderChapters(){
   if(G.flags.path&&ROADS[G.flags.path]){const r=ROADS[G.flags.path];h+='<div class="chaprow on"><div class="ct">'+r[0]+'</div><div class="cd">'+r[1]+'</div></div>';}
   h+='<div class="chaprow" style="opacity:.5"><div class="ct">??? — locked</div><div class="cd">The road reveals itself as you walk it.</div></div>';
   h+='<div style="margin-top:14px;border-top:1px solid var(--bdr);padding-top:12px;display:flex;flex-direction:column;gap:8px">'+
-     '<button class="btn" onclick="window.open(\'veil-protocol-book.html\',\'_blank\')">Open the Lore Book ↗</button>'+
+     '<button class="btn" onclick="closeV();startFight(\'the-lingering\')">⚔ Test an encounter</button>'+'<button class="btn" onclick="window.open(\'veil-protocol-book.html\',\'_blank\')">Open the Lore Book ↗</button>'+
      '<button class="btn" onclick="if(confirm(\'Start over? This erases your saved game.\'))resetGame()">↻ Reset game</button></div>';
   document.getElementById('chaptersBody').innerHTML=h;
 }
@@ -810,8 +811,64 @@ function placeById(pid){return G.places.find(p=>p.id===pid);}
 function occHere(pid){let names=[];for(const id in G.contacts){const c=G.contacts[id];if(c.known&&c.shares&&whereNow(id)===pid)names.push(c.name);}return names.length?'<div class="pd" style="color:var(--ph-accent)">here now: '+names.join(', ')+'</div>':'';}
 function phPeople(){let h=phbar('People')+'<div class="ph-body" style="padding:6px 0"><p style="color:var(--ph-dim);font-size:11px;padding:0 14px 4px">Only people you know appear here \u2014 and you see a location only if they have shared it with you.</p>';let any=false;for(const id in G.contacts){const c=G.contacts[id];if(!c.known)continue;any=true;const pid=c.shares?whereNow(id):null;const pl=pid?placeById(pid):null;h+='<div class="place"><div style="flex:1"><div class="pn"><span class="cname" style="cursor:pointer" onclick="nav(function(){phProfile(\''+id+'\')})">'+c.name+'</span></div><div class="pd">'+(pl?('shared \u00b7 now at '+pl.name):(c.shares?'location unknown':'location not shared'))+'</div></div>';if(pl){const m=pl.walk!=null?pl.walk:(pl.train!=null?pl.train:pl.cab);const mode=pl.walk!=null?'walk':(pl.train!=null?'train':(pl.cab!=null?'cab':null));if(mode)h+='<div class="go"><button onclick="travel(\''+pl.id+'\','+m+',\''+mode+'\')">Go \u203a</button></div>';}h+='</div>';}if(!any)h+='<p style="color:var(--ph-dim);font-size:12px;padding:0 14px">You barely know anyone yet. Meet people and they\'ll show up here.</p>';h+='<div class="notif">Most people guard their location. Friends share it; strangers never will.</div></div>';ph(h);}
 
+/* =================== COMBAT (reads veil-data/entities.json) =================== */
+var ENTITIES_FALLBACK=[
+ {id:"the-lingering",name:"Residue — a Lingering",type:"spirit",register:"Fear",grade:"E",hp:7,atk:3,exorciseDC:7,absorb:"a thin Fear residue",anchor:"a scrap of where it last felt safe",tip:"It saw a man with the wrong shadow near the overpass."},
+ {id:"stairwell-child",name:"The Stairwell Child",type:"spirit",register:"Grief",grade:"E",hp:9,atk:3,exorciseDC:8,absorb:"a thin Grief residue",anchor:"the name of the building it died in",tip:"It saw who came up the stairs that night."},
+ {id:"the-tenant",name:"The Tenant",type:"demon",register:"Hunger",grade:"B",hp:35,atk:11,exorciseDC:15,absorb:"+a Hunger-path residue · a step toward the Thirteen",anchor:"its true name",tip:"It knows which doors were left open, and by whom."},
+ {id:"quiet-hour",name:"The Quiet Hour",type:"idea",register:"Despair",grade:"B",hp:28,atk:9,exorciseDC:18,absorb:"you cannot absorb an idea",anchor:"the first person who believed it",tip:"—"},
+ {id:"the-tide",name:"The Tide That Didn’t Recede",type:"spirit",register:"Grief",grade:"top",hp:90,atk:22,exorciseDC:30,absorb:"catastrophic power · half your soul gone",anchor:"the list of the village’s missing",tip:"—"}
+];
+var DB={entities:ENTITIES_FALLBACK,ranks:[],thirteen:[],factions:[],characters:[],places:[]};
+function loadDB(){['entities','ranks','thirteen','factions','characters','places'].forEach(function(f){fetch('veil-data/'+f+'.json').then(function(r){return r.ok?r.json():null;}).then(function(j){if(j&&j.length)DB[f]=j;}).catch(function(){});});}
+function entityById(id){return (DB.entities||ENTITIES_FALLBACK).find(function(e){return e.id===id;})||ENTITIES_FALLBACK.find(function(e){return e.id===id;});}
+function d6(){return 1+Math.floor(Math.random()*6);}
+function bestPath(){var b=0,n='—';for(var k in G.player.paths){if(G.player.paths[k].lvl>b){b=G.player.paths[k].lvl;n=k;}}return {lvl:b,name:n};}
+var GRADE_XP={E:2,D:3,C:5,B:8,A:12,top:20};var GRADE_MAD={E:1,D:1,C:2,B:2,A:3,top:4};
+var FIGHT=null;
+function startFight(id){var e=entityById(id);if(!e)return;var max=e.hp||10;FIGHT={e:e,ehp:max,emax:max,over:false,result:null,log:[e.name+' is here. '+(e.grade==='top'?'You should not be here.':'It is watching you.')]};document.getElementById('ov-fight').classList.add('show');renderFight();}
+function closeFight(){document.getElementById('ov-fight').classList.remove('show');}
+function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Math.round(100*f.ehp/f.emax));TIPN=0;
+ var h='<div style="border:1px solid #5a3a2a;border-radius:10px;background:#160e0b;padding:12px;margin-bottom:12px">';
+ h+='<div style="font-family:Cinzel,serif;color:#e8a08c;font-size:15px">'+e.name+'</div>';
+ h+='<div style="font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:1px;margin:2px 0 8px">'+e.type+' · '+e.register+' · grade '+e.grade.toUpperCase()+'</div>';
+ h+='<div class="bar"><i style="width:'+pct+'%;background:#b65a4c"></i></div><div style="font-size:11px;color:var(--dim);margin-top:3px;font-family:var(--mono)">presence '+Math.max(0,f.ehp)+' / '+f.emax+'</div></div>';
+ h+='<div class="sub">YOU</div>';
+ h+=statBar('Health',G.player.hp[0],G.player.hp[1],'#c0563f');
+ h+=statBar('Stability',G.player.stability,100,'#8fae74');
+ h+=statBar('Madness',G.player.madness,100,'#b65a4c');
+ h+='<div style="background:#0e0b08;border:1px solid var(--bdr);border-radius:8px;padding:8px 11px;margin:10px 0;font-size:12.5px;min-height:64px;line-height:1.5">'+f.log.slice(-4).map(function(l){return '<div style="margin:2px 0;color:var(--text)">'+l+'</div>';}).join('')+'</div>';
+ if(f.over){var col=(f.result==='banish'||f.result==='exorcise')?'#8fae74':(f.result==='absorb'?'#9a6ab6':(f.result==='flee'?'var(--dim)':'#c0563f'));
+   h+='<div style="text-align:center;font-family:Cinzel,serif;color:'+col+';font-size:15px;margin:6px 0 10px">'+({banish:'Banished',exorcise:'Sent back',absorb:'Absorbed',flee:'You broke away',down:'You went down',possessed:'It got a grip'}[f.result]||'')+'</div>';
+   h+='<div style="text-align:center"><button class="btn" onclick="closeFight()">Close</button></div>';
+ } else { var bp=bestPath();
+   h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">';
+   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'strike\')">⚔ Strike</button>';
+   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'power\')">✦ Power'+(bp.lvl?' · '+bp.name:' — locked')+'</button>';
+   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'exorcise\')">↩ Exorcise</button>';
+   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'absorb\')">◉ Absorb</button>';
+   h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3" onclick="fightAct(\'flee\')">↘ Flee</button></div>';
+ }
+ document.getElementById('fightBody').innerHTML=h;
+}
+function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;if(text)FIGHT.log.push(text);if(result==='banish'||result==='exorcise'||result==='absorb'){gainXP(GRADE_XP[FIGHT.e.grade]||3);}renderTop();renderFight();saveG();}
+function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
+ if(a==='flee'){p.madness=Math.min(100,p.madness+1);fightEnd('flee','You break away. It does not follow — this time.');return;}
+ if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike — '+dmg+' to its presence.');}
+ else if(a==='power'){var bp=bestPath();if(bp.lvl<1){f.log.push('No path is trained yet — nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6();f.ehp-=dmg;p.stability=Math.max(0,p.stability-8);p.veil=Math.min(100,p.veil+4);p.madness=Math.min(100,p.madness+2);f.log.push('You loose '+bp.name+' — '+dmg+'. The veil thins (−Stability, +Veil).');}
+ else if(a==='exorcise'){if(e.grade==='top'){f.log.push('Too strong to send back unnamed. You would need '+e.anchor+'.');renderFight();return;}var roll=p.attributes.Resolve+(p.humanSkills['Symbol Work']||0)+d6();var dc=e.exorciseDC||12;if(roll>=dc&&f.ehp<=f.emax*0.6){fightEnd('exorcise','You bind and send it back. It leaves a thread: “'+(e.tip||'nothing')+'”');return;}else{f.log.push('Exorcism falters ('+roll+' vs '+dc+(f.ehp>f.emax*0.6?', it is still too strong':'')+').');}}
+ else if(a==='absorb'){if(e.type==='idea'){f.log.push('You cannot absorb an idea — only believe it.');renderFight();return;}if(f.ehp>f.emax*0.35){f.log.push('Too strong to take in — wear it down first.');renderFight();return;}p.veil=Math.min(100,p.veil+12);p.madness=Math.min(100,p.madness+10);fightEnd('absorb','You take it into yourself: '+(e.absorb||'power')+'. The veil thins around you.');return;}
+ if(f.ehp<=0){fightEnd('banish','It comes apart and is gone.');return;}
+ var eatk=Math.max(1,(e.atk||4)+d6()-3);
+ if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will — Madness rises.');}
+ else{var dmg=eatk;if(p.stability>=dmg){p.stability-=dmg;f.log.push('It strikes at your nerve — −'+dmg+' Stability.');}else{var over=dmg-p.stability;p.stability=0;p.hp[0]=Math.max(0,p.hp[0]-over);f.log.push('It gets past your guard — −'+over+' Health.');}p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1));}
+ if(p.hp[0]<=0){fightEnd('down','You go down. (In the full build: rescued, or worse.)');return;}
+ if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return;}
+ renderTop();renderFight();saveG();
+}
+
 /* init */
-loadG();
+loadDB();loadG();
 if(G.flags&&G.flags.hasBook){var _db=document.getElementById('dock-book');if(_db)_db.classList.remove('hidden');}
 renderTop();renderScene();startClock();
 </script>
