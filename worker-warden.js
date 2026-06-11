@@ -32,7 +32,7 @@ export default {
   async fetch(request, env){
     if(request.method==="OPTIONS") return new Response(null,{headers:CORS});
     const url=new URL(request.url);
-    const key=(env.OPENROUTER_API_KEY||env.GROQ_API_KEY||env.XAI_API_KEY||env.GEMINI_API_KEY||env.GM_API_KEY||"").trim();
+    const key=(env.API_KEY||env.OPENROUTER_API_KEY||env.GROQ_API_KEY||env.XAI_API_KEY||env.GEMINI_API_KEY||env.GM_API_KEY||"").trim();
     if(url.pathname.endsWith("/health")){ let p="none"; if(key) p=provFor(key); return J({ok:!!key,provider:p,hasKey:!!key,server:"vercel"}); }
     if(request.method!=="POST") return J({err:"POST only"},405);
     let b; try{ b=await request.json(); }catch{ b={}; }
