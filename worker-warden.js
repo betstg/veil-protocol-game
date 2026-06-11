@@ -20,10 +20,10 @@ async function oai(prov, mode, prompt, ctx, key, env){
   }} return { err:last, ...fb(mode,"") };
 }
 async function gemini(mode, prompt, ctx, key, env){
-  const models = env.GM_MODEL?[env.GM_MODEL]:["gemini-2.0-flash","gemini-1.5-flash"];
+  const models = env.GM_MODEL?[env.GM_MODEL]:["gemini-2.5-flash","gemini-2.5-flash-lite","gemini-2.5-pro"];
   const sys = SYS[mode] + (ctx?("\n\nCONTEXT: "+ctx):""); let last="no models";
   for (const model of models){ const url="https://generativelanguage.googleapis.com/v1beta/models/"+model+":generateContent?key="+key;
-    try{ const r=await fetch(url,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:sys+"\n\n"+(prompt||"")}]}],generationConfig:{temperature:mode==="npc"?1.0:0.9,maxOutputTokens:mode==="gm"?400:200,responseMimeType:"application/json"}})});
+    try{ const r=await fetch(url,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({contents:[{parts:[{text:sys+"\n\n"+(prompt||"")}]}],safetySettings:["HARM_CATEGORY_HARASSMENT","HARM_CATEGORY_HATE_SPEECH","HARM_CATEGORY_SEXUALLY_EXPLICIT","HARM_CATEGORY_DANGEROUS_CONTENT"].map(function(c){return {category:c,threshold:"BLOCK_NONE"};}),generationConfig:{temperature:mode==="npc"?1.0:0.9,maxOutputTokens:mode==="gm"?700:300,responseMimeType:"application/json",thinkingConfig:{thinkingBudget:0}}})});
     if(!r.ok){last="HTTP "+r.status;continue;} const j=await r.json(); const raw=(((j.candidates||[{}])[0].content||{}).parts||[{}])[0].text||"";
     if(raw.trim()) return parse(raw.trim(),mode); last="empty"; }catch(e){last=String(e);} }
   return { err:last, ...fb(mode,"") };

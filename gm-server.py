@@ -14,7 +14,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Try these in order; if one is rate-limited/unavailable (429/404), fall through to the next.
 # Override with: GM_MODEL=some-model python3 gm-server.py
-_DEFAULT_MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash", "gemini-1.5-flash-8b"]
+_DEFAULT_MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-pro"]
 _envm = os.environ.get("GM_MODEL", "").strip()
 MODELS = ([_envm] if _envm else []) + [m for m in _DEFAULT_MODELS if m != _envm]
 MODEL = MODELS[0]
@@ -140,6 +140,9 @@ def gemini(mode, prompt, context):
   base = {
     "systemInstruction": {"parts": [{"text": SYS[mode] + (("\n\nCONTEXT: " + context) if context else "")}]},
     "contents": [{"role": "user", "parts": [{"text": prompt or ""}]}],
+    "safetySettings": [{"category": c, "threshold": "BLOCK_NONE"} for c in (
+      "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH",
+      "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")],
   }
   gen = {"temperature": 1.0 if mode == "npc" else 0.9, "maxOutputTokens": 380 if mode == "gm" else 140}
   full = dict(gen, responseMimeType="application/json", responseSchema=SCHEMA[mode])
