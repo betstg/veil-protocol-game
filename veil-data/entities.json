@@ -1,7 +1,72 @@
 [
-  {"id":"the-lingering","name":"Residue — a Lingering","type":"spirit","register":"Fear","grade":"E","hp":7,"atk":3,"exorciseDC":7,"absorb":"a thin Fear residue","anchor":"a scrap of where it last felt safe","tip":"It saw a man with the wrong shadow near the overpass."},
-  {"id":"stairwell-child","name":"The Stairwell Child","type":"spirit","register":"Grief","grade":"E","hp":9,"atk":3,"exorciseDC":8,"absorb":"a thin Grief residue (not worth it)","anchor":"the name of the building it died in","tip":"It saw who came up the stairs that night."},
-  {"id":"the-tenant","name":"The Tenant","type":"demon","register":"Hunger","grade":"B","hp":35,"atk":11,"exorciseDC":15,"absorb":"+a Hunger-path residue · a step toward the Thirteen","anchor":"its true name","tip":"It knows which doors in the building were left open, and by whom."},
-  {"id":"quiet-hour","name":"The Quiet Hour","type":"idea","register":"Despair","grade":"B","hp":28,"atk":9,"exorciseDC":18,"absorb":"you cannot absorb an idea — only become its prophet","anchor":"the first person who believed it","tip":"—"},
-  {"id":"the-tide","name":"The Tide That Didn't Recede","type":"spirit","register":"Grief","grade":"top","hp":90,"atk":22,"exorciseDC":30,"absorb":"catastrophic power · half your soul gone","anchor":"the list of the village's missing","tip":"—"}
+  {
+    "id": "the-lingering",
+    "name": "Residue — a Lingering",
+    "type": "spirit",
+    "register": "Fear",
+    "grade": "E",
+    "hp": 7,
+    "atk": 3,
+    "exorciseDC": 7,
+    "absorb": "a thin Fear residue",
+    "anchor": "a scrap of where it last felt safe",
+    "tip": "It saw a man with the wrong shadow near the overpass.",
+    "tier": 1
+  },
+  {
+    "id": "stairwell-child",
+    "name": "The Stairwell Child",
+    "type": "spirit",
+    "register": "Grief",
+    "grade": "E",
+    "hp": 9,
+    "atk": 3,
+    "exorciseDC": 8,
+    "absorb": "a thin Grief residue (not worth it)",
+    "anchor": "the name of the building it died in",
+    "tip": "It saw who came up the stairs that night.",
+    "tier": 1
+  },
+  {
+    "id": "the-tenant",
+    "name": "The Tenant",
+    "type": "demon",
+    "register": "Hunger",
+    "grade": "B",
+    "hp": 35,
+    "atk": 11,
+    "exorciseDC": 15,
+    "absorb": "+a Hunger-path residue · a step toward the Thirteen",
+    "anchor": "its true name",
+    "tip": "It knows which doors in the building were left open, and by whom.",
+    "tier": 3
+  },
+  {
+    "id": "quiet-hour",
+    "name": "The Quiet Hour",
+    "type": "idea",
+    "register": "Despair",
+    "grade": "B",
+    "hp": 28,
+    "atk": 9,
+    "exorciseDC": 18,
+    "absorb": "you cannot absorb an idea — only become its prophet",
+    "anchor": "the first person who believed it",
+    "tip": "—",
+    "tier": 3
+  },
+  {
+    "id": "the-tide",
+    "name": "The Tide That Didn't Recede",
+    "type": "spirit",
+    "register": "Grief",
+    "grade": "top",
+    "hp": 90,
+    "atk": 22,
+    "exorciseDC": 30,
+    "absorb": "catastrophic power · half your soul gone",
+    "anchor": "the list of the village's missing",
+    "tip": "—",
+    "tier": 5
+  }
 ]

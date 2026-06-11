@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veil Protocol — Systems &amp; Progression · v0.1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Crimson+Pro:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{--gold:#C9A84C;--bg:#0c0a08;--panel:#15110c;--panel2:#1a140c;--blood:#6e2b20;--red:#b65a4c;
+    --text:#d9cdba;--dim:#8a7d68;--green:#8fae74;--bdr:#3a2f22;
+    --serif:'Crimson Pro',Georgia,serif;--display:'Cinzel',serif;--mono:'Special Elite',monospace;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.65;
+    background-image:radial-gradient(circle at 50% -8%,#181208 0%,#0c0a08 55%);}
+  .wrap{max-width:840px;margin:0 auto;padding:30px 22px 90px}
+  h1{font-family:var(--display);font-size:26px;color:var(--gold);letter-spacing:1.5px;margin:0 0 2px}
+  h2{font-family:var(--display);font-size:18px;color:var(--gold);letter-spacing:1px;margin:30px 0 8px;border-bottom:1px solid var(--bdr);padding-bottom:6px}
+  h2 .k{font-family:var(--mono);font-size:11px;color:var(--blood);margin-right:8px}
+  h3{font-family:var(--display);font-size:13px;color:var(--green);letter-spacing:1px;margin:15px 0 4px}
+  .eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:3px;color:var(--dim);text-transform:uppercase}
+  .sub{color:var(--dim);font-style:italic}
+  .lead{border-left:3px solid var(--blood);padding:8px 0 8px 16px;margin:14px 0;font-size:16px}
+  b{color:var(--gold)} em{color:var(--text)}
+  ul{margin:6px 0;padding-left:20px} li{margin:5px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}
+  td,th{border:1px solid var(--bdr);padding:7px 9px;text-align:left;vertical-align:top}
+  th{font-family:var(--mono);font-size:9.5px;letter-spacing:1px;color:var(--gold);background:var(--panel2)}
+  .and{color:var(--green);font-family:var(--mono);font-size:11px} .or{color:var(--red);font-family:var(--mono);font-size:11px}
+  .callout{background:var(--panel);border:1px solid var(--green);border-radius:7px;padding:13px 16px;margin:14px 0}
+  .warn{background:#1a0f0c;border:1px dashed var(--blood);border-radius:7px;padding:13px 16px;margin:14px 0}
+  .warn .lock{font-family:var(--mono);font-size:10px;letter-spacing:2px;color:var(--red)}
+  .foot{font-size:12px;color:var(--dim);font-style:italic}
+  svg{width:100%;height:auto;border:1px solid var(--bdr);border-radius:8px;background:#0e0b08;margin:10px 0}
+  code{font-family:var(--mono);font-size:11px;color:var(--green)}
+  .pill{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:1.5px;color:var(--gold);border:1px solid var(--bdr);border-radius:3px;padding:3px 8px;margin-right:5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="eyebrow">Veil Protocol · Playable Edition</div>
+<h1>Systems &amp; Progression</h1>
+<p class="sub">Working spec · v0.1 · the simulation under the book</p>
+<div style="margin:10px 0"><span class="pill">reactive social-sim</span><span class="pill">clock-driven</span><span class="pill">gated paths</span><span class="pill">agent NPCs</span></div>
+
+<p class="lead">Seven interlocking systems turn the interactive book into a living world: a <b>clock</b>, <b>deadlines</b>,
+a <b>dependency graph</b> of paths, <b>relationships &amp; romance</b>, <b>reputation &amp; gossip</b>,
+<b>NPC agents</b>, and <b>channels</b>. Design assumes the full vision; the build fakes the costly parts with rules first.</p>
+
+<h2><span class="k">A</span>The Clock — Day + Hour</h2>
+<p>The campaign runs on <code>Day N · time-of-day</code>. Time is the real pressure (and, per the GM notes, it is felt, not announced).</p>
+<ul>
+  <li><b>Blocks.</b> Each day = <b>Morning · Afternoon · Evening · Night</b>. Actions and travel spend blocks.</li>
+  <li><b>Travel costs time, and it shifts.</b> Walking vs train differ; and both differ by time of day — morning/evening rush = frequent but crowded trains; midday = slower; <b>night = sparse trains, taxi or wait</b>. Each place's from-Ōji cost (already in <em>homes-distances</em>) gets a time-of-day modifier.</li>
+  <li><b>Actions cost blocks.</b> A meeting, a scene-read, a training session, a stakeout — each consumes time, so every day forces choices about what you <em>don't</em> do.</li>
+  <li><b>The world advances on the clock</b> even when you rest — NPCs move on their routines, the possession deepens.</li>
+  <li><b>It is a real 2015/2016 calendar.</b> The clock is anchored to a fixed real date — <b>the day Gin was abducted</b> — and the campaign opens <b>three days later, with Rei in the apartment</b>. We use a real date because opening hours vary by <b>day of the week</b>, so the engine must know it's a Tuesday vs. a Sunday. <span style="color:var(--red)">(Open decision: the book says only "Tokyo, 2015" — we pick the canonical abduction date.)</span></li>
+</ul>
+
+<h2><span class="k">B</span>Goals &amp; Deadlines</h2>
+<p>Each major objective has a <b>window</b>. Hard windows close endings; soft windows close opportunities.</p>
+<table>
+<tr><th>Goal</th><th>Window</th><th>Miss it →</th></tr>
+<tr><td>Join the CVD</td><td>soft, early</td><td>One route to the mentor/levels closes; Grid route still open</td></tr>
+<tr><td>Enter the Grid (earn trust)</td><td>soft</td><td>Loses the unregistered network, safehouses, the cat-girl lead</td></tr>
+<tr><td>Befriend a Tower family</td><td>soft, mid</td><td>Loses the aristocratic route to a Vanguard mentor</td></tr>
+<tr><td>Build trust / get information</td><td>rolling</td><td>Doors stay shut; people stay guarded</td></tr>
+<tr><td>Get the levels (ability growth)</td><td>gated, see C</td><td>Underpowered for the late fights</td></tr>
+<tr><td>Meet the cults</td><td>mid</td><td>A whole branch of the truth stays dark</td></tr>
+<tr><td>Talk to the Architect</td><td>hard, late</td><td>An ending path closes</td></tr>
+<tr><td style="color:#e8a08c"><b>Save Gin</b></td><td style="color:#e8a08c"><b>HARD — the master clock</b></td><td style="color:#e8a08c">The possession completes. The darkest endings lock in.</td></tr>
+</table>
+<p class="foot">Gin's possession timeline is the spine deadline everything else races. The other windows are how you spend the days you have before it.</p>
+
+<h2><span class="k">C</span>The Dependency Graph — the paths</h2>
+<p>You can't take a path until you've earned its prerequisites. Multiple <span class="or">OR</span>-routes reach the same gate — that's the replayability and the "all the paths."</p>
+<p style="color:var(--green)"><b>The routes below are examples, not a closed list.</b> The world should be able to open a path we never tabled — a chance encounter, a case lead, a renegade contact, a favour called in. Treat the graph as the <em>known</em> doors, and leave room for the engine (and the player's choices) to cut new ones. "Befriend a Tower family," for instance, doesn't have to mean the front door: it can mean going through a black-sheep son who lives apart from the house.</p>
+<table>
+<tr><th>To unlock…</th><th>You need…</th></tr>
+<tr><td>Meet a Vanguard (SS+) mentor</td><td>Join CVD <span class="or">OR</span> Befriend a Tower family <span class="or">OR</span> (Enter Grid <span class="and">AND</span> Grid-trust high)</td></tr>
+<tr><td>Open a 2nd ability path</td><td>Meet a Vanguard mentor <span class="and">AND</span> train (costs days)</td></tr>
+<tr><td>Learn Animal Handling</td><td>Befriend <b>Inoue Misaki</b> (the cat girl &amp; Renado) to a trust threshold — and you find her via the Grid or a case lead</td></tr>
+<tr><td>Level an existing path</td><td>Practice (time) <span class="and">AND</span> field use <span class="and">AND</span> Stability headroom</td></tr>
+<tr><td>Meet the cults</td><td>Grid contacts <span class="or">OR</span> a CVD case lead</td></tr>
+<tr><td>Talk to the Architect</td><td>High path levels <span class="and">AND</span> deep Font proximity <span class="and">AND</span> a route in (Gin's thread, a master, or the demon)</td></tr>
+<tr><td style="color:#e8a08c">Save Gin</td><td>Know what he is (truth axis) <span class="and">AND</span> a method (from the Architect / CVD / Grid masters) <span class="and">AND</span> act before the deadline</td></tr>
+</table>
+
+<svg viewBox="0 0 820 290" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Dependency graph: routes to the mentor and toward saving Gin</title>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#7a6648"/></marker>
+  <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#b6735f"/></marker></defs>
+  <!-- three entry routes -->
+  <g font-family="Cinzel,serif" font-size="11" font-weight="700" text-anchor="middle">
+    <rect x="20" y="30" width="140" height="40" rx="6" fill="#15110c" stroke="#C9A84C"/><text x="90" y="55" fill="#e8dcc6">Join CVD</text>
+    <rect x="20" y="120" width="140" height="40" rx="6" fill="#15110c" stroke="#C9A84C"/><text x="90" y="145" fill="#e8dcc6">Tower family</text>
+    <rect x="20" y="210" width="140" height="40" rx="6" fill="#15110c" stroke="#C9A84C"/><text x="90" y="235" fill="#e8dcc6">Grid + trust</text>
+  </g>
+  <!-- mentor -->
+  <rect x="250" y="120" width="150" height="44" rx="6" fill="#100d0a" stroke="#8fae74"/>
+  <text x="325" y="139" fill="#8fae74" font-family="Cinzel,serif" font-size="11" font-weight="700" text-anchor="middle">Vanguard mentor</text>
+  <text x="325" y="154" fill="#8a7d68" font-family="monospace" font-size="8.5" text-anchor="middle">any one route opens it</text>
+  <path d="M160,50 C210,50 210,128 248,132" fill="none" stroke="#7a6648" stroke-width="1.3" marker-end="url(#a)"/>
+  <path d="M160,140 L248,140" stroke="#7a6648" stroke-width="1.3" marker-end="url(#a)"/>
+  <path d="M160,230 C210,230 210,152 248,148" fill="none" stroke="#7a6648" stroke-width="1.3" marker-end="url(#a)"/>
+  <text x="205" y="22" fill="#b6735f" font-family="monospace" font-size="9" text-anchor="middle">OR</text>
+  <!-- paths -->
+  <rect x="450" y="60" width="150" height="40" rx="6" fill="#100d0a" stroke="#7a6648"/><text x="525" y="84" fill="#c9bfac" font-family="Cinzel,serif" font-size="10.5" font-weight="700" text-anchor="middle">2nd ability path</text>
+  <rect x="450" y="180" width="150" height="40" rx="6" fill="#100d0a" stroke="#7a6648"/><text x="525" y="198" fill="#c9bfac" font-family="Cinzel,serif" font-size="10" font-weight="700" text-anchor="middle">Animal Handling</text>
+  <text x="525" y="212" fill="#8a7d68" font-family="monospace" font-size="8" text-anchor="middle">← Inoue Misaki / cat</text>
+  <path d="M400,135 C425,120 425,90 448,84" fill="none" stroke="#7a6648" stroke-width="1.3" marker-end="url(#a)"/>
+  <path d="M400,150 C425,170 425,190 448,194" fill="none" stroke="#7a6648" stroke-width="1.3" marker-end="url(#a)"/>
+  <!-- converge to save gin -->
+  <rect x="650" y="120" width="150" height="46" rx="6" fill="#241310" stroke="#b6735f" stroke-width="1.5"/>
+  <text x="725" y="139" fill="#e8a08c" font-family="Cinzel,serif" font-size="11" font-weight="700" text-anchor="middle">Save Gin?</text>
+  <text x="725" y="154" fill="#c89a8c" font-family="monospace" font-size="8" text-anchor="middle">truth + method + time</text>
+  <path d="M600,80 C640,90 650,120 660,128" fill="none" stroke="#b6735f" stroke-width="1.3" marker-end="url(#ar)"/>
+  <path d="M600,200 C640,190 650,160 660,154" fill="none" stroke="#b6735f" stroke-width="1.3" marker-end="url(#ar)"/>
+</svg>
+
+<h2><span class="k">D</span>Relationships &amp; Romance</h2>
+<p>Every significant NPC holds a <b>stance</b> toward you (hostile → wary → neutral → warm → loyal) and a <b>trust</b> value that gates access, information, protection — or betrayal. Romance is a layer on top, with its own states:</p>
+<svg viewBox="0 0 820 150" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Romance state machine</title>
+  <g font-family="Cinzel,serif" font-size="10.5" font-weight="700" text-anchor="middle">
+    <rect x="20" y="55" width="110" height="38" rx="6" fill="#15110c" stroke="#7a6648"/><text x="75" y="78" fill="#c9bfac">Acquainted</text>
+    <rect x="170" y="55" width="100" height="38" rx="6" fill="#15110c" stroke="#C9A84C"/><text x="220" y="78" fill="#e8dcc6">Flirting</text>
+    <rect x="310" y="20" width="120" height="36" rx="6" fill="#15110c" stroke="#b6735f"/><text x="370" y="42" fill="#e8a08c">Making out</text>
+    <rect x="310" y="92" width="120" height="36" rx="6" fill="#1a0f0c" stroke="#7a4438"/><text x="370" y="114" fill="#d9b3a6">Rejected / cooled</text>
+    <rect x="470" y="20" width="110" height="36" rx="6" fill="#241310" stroke="#b6735f"/><text x="525" y="42" fill="#e8a08c">Together</text>
+    <rect x="470" y="92" width="110" height="36" rx="6" fill="#15110c" stroke="#7a6648"/><text x="525" y="114" fill="#c9bfac">Misunderstanding</text>
+    <rect x="620" y="55" width="170" height="38" rx="6" fill="#241310" stroke="#b6735f" stroke-width="1.5"/><text x="705" y="73" fill="#e8a08c">Intimacy / Sex</text><text x="705" y="86" fill="#c89a8c" font-family="monospace" font-size="7.5">consequences, bonds, secrets</text>
+  </g>
+  <g stroke="#7a6648" stroke-width="1.2" fill="none">
+    <path d="M130,74 L168,74"/><path d="M270,68 L308,42"/><path d="M270,80 L308,108"/>
+    <path d="M430,38 L468,38"/><path d="M430,110 L468,110"/><path d="M580,38 C610,50 610,55 618,64"/>
+    <path d="M525,92 L525,58" stroke="#b6735f"/>
+  </g>
+</svg>
+<ul>
+  <li><b>Public vs secret.</b> A romance carries a <code>known?</code> flag. Secret affairs can be <b>exposed</b> by gossip (system E) → jealousy, leverage, broken trust elsewhere.</li>
+  <li><b>What it causes.</b> Romance ≠ just flavor: it changes access, loyalty under pressure, who protects you, who turns on you, and which endings open. Rejecting someone has costs too.</li>
+  <li><b>Gated.</b> Some NPCs only become romanceable past a trust threshold or after you've visited their place (the avatar-unlock).</li>
+</ul>
+
+<h2><span class="k">E</span>Reputation &amp; Gossip</h2>
+<ul>
+  <li><b>Contextual reputation.</b> You hold separate standings with factions (CVD, Grid, Towers, the street) and with individuals. Being trusted by the Grid can <em>cost</em> you with the CVD.</li>
+  <li><b>Propagation.</b> NPCs talk. If you're known to associate with a bad-reputation person, the next person you meet may greet you accordingly — your social record arrives before you do.</li>
+  <li><b>Seeded by</b> <em>veil-protocol-relationships.html</em> — who already knows whom and how they're regarded.</li>
+</ul>
+
+<h2><span class="k">F</span>NPC Agents — the living world</h2>
+<p>Each significant NPC is modelled as an <b>agent</b>: their sheet, their goals, their <b>schedule</b> (straight out of <em>npc-routines</em>), their relationships to you and to each other, and what they currently <b>know</b>. They act off-screen — move on their routine, meet, talk, share or withhold, and <b>send messages, some of which you never see</b>, that still change the world.</p>
+<div class="warn">
+  <div class="lock">⚠ THE EXPENSIVE PART — BUILD IT TIERED</div>
+  <p style="margin:8px 0 0">Live AI agents conversing in the background is the most magical and the most costly/unpredictable idea here. So we tier it:</p>
+  <ul style="margin:8px 0 0">
+    <li><b>Tier 1 (build first):</b> <em>scripted simulation</em> — scheduled movements, rule-based gossip, flag changes, off-screen "messages" resolved as state updates. No live AI. Feels alive, costs nothing, never breaks canon.</li>
+    <li><b>Tier 2:</b> lightweight AI for the gossip/flavor text only, on top of the scripted state.</li>
+    <li><b>Tier 3 (far):</b> true live multi-agent chatter. Powerful, but only once the rest is solid and the cost is justified.</li>
+  </ul>
+</div>
+
+<h2><span class="k">G</span>Channels — how you reach people</h2>
+<table>
+<tr><th>Channel</th><th>Reach / cost</th><th>Notes</th></tr>
+<tr><td>In person — home</td><td>needs their routine to put them home + you travel there (time)</td><td>Most intimate; some talks only happen here</td></tr>
+<tr><td>In person — work</td><td>their work hours; semi-public</td><td>Constrained, watched; reputation-sensitive</td></tr>
+<tr><td>In person — a place they like</td><td>you must know the place &amp; the time they're there</td><td>Warmest non-home setting; raises bonds faster</td></tr>
+<tr><td>Phone call (shown as text)</td><td>need their number; quick; no travel</td><td>Rendered as a call even though it reads as text</td></tr>
+<tr><td>SMS</td><td>need their number; async; low intimacy</td><td>Can be screenshot/exposed → gossip</td></tr>
+<tr><td>2015 computer — email</td><td>CVD/Grid addresses; formal; async</td><td>Documents, case files, the archive</td></tr>
+<tr><td style="color:#8a7d68">Background (you don't see)</td><td>agent ↔ agent</td><td>Changes state behind your back; you feel the result</td></tr>
+</table>
+
+<div class="callout">
+  <h3 style="margin-top:0">You already built the engine's data</h3>
+  <p style="margin:6px 0 0"><b>npc-routines</b> = the schedules (clock + agents) · <b>homes-distances</b> = the travel-time engine (system A) · <b>relationships</b> = the seed social graph (D &amp; E). Formalizing these systems is mostly <em>wiring data you already have</em>, not inventing from zero.</p>
+</div>
+
+<h2><span class="k">H</span>Places — Stations, Weekday Hours, Access</h2>
+<h3>Travel runs through stations</h3>
+<ul>
+  <li>You don't teleport to a place — you go to its <b>nearest station</b>, then <b>walk (or a short hop) the last stretch</b>. Every place carries <code>nearestStation</code> + <code>walkFromStation</code>.</li>
+  <li>Each <b>station</b> holds a <b>list of the places around it</b> — arriving at a station shows you what's within reach. <b>Ōji</b> is the home hub; spoke→spoke trips route through it (times add), exactly as the engine prototype already does.</li>
+  <li><span style="color:var(--green)">Art needed:</span> an image <b>per station</b> used, plus a <b>train-scene</b> (the travelling-between moment). Logged in the Game Book pending list.</li>
+</ul>
+<h3>Opening hours are per weekday + hour</h3>
+<ul>
+  <li>A place isn't simply "open 9–17" — it's <b>open by day of week and hour</b> (the shrine on a festival Sunday, the bar closed Mondays, the police desk thin on weekends). This is <em>why</em> the clock is a real calendar (system A).</li>
+  <li>Data shape: <code>hours: { mon:[9,17], ..., sun:null }</code>. Arrive outside the window → a dark door, time still spent.</li>
+</ul>
+<h3>Access is gated — you can't go everywhere</h3>
+<ul>
+  <li><b>Rank-gated rooms.</b> CVD rooms check your <b>rank/clearance</b> — the vaults, the containment floor, the masters' level are closed until you've earned them. (Maps onto the CVD room set already in the book.)</li>
+  <li><b>Private space.</b> You can't walk into anyone's home — entry needs an <b>invitation / trust threshold / relationship</b>. Same for Grid safehouses (Grid trust), Tower property (family standing).</li>
+  <li>Data shape: each place/room carries an <code>access</code> rule — <code>public</code>, <code>rank&ge;X</code>, <code>member:CVD/Grid/Tower</code>, or <code>trust:npc&ge;N</code> — checked before any entry.</li>
+</ul>
+
+<h2><span class="k">I</span>The Investigation Layer</h2>
+<p>Rei is a clairsentient reading crime scenes — so the game is, mechanically, a <b>detective game</b>. Six surfaces (drawn from Sir Brante's consequence, Disco Elysium's reactivity, and modern detective UIs) carry it. All sit inside the oil-noir / 2015-archive skin.</p>
+<ul>
+  <li><b>Evidence Board.</b> A corkboard of photos, documents and entities with <b>string connections</b> (person ↔ clue ↔ location). The player draws links; correct ones unlock deductions. (Build: React Flow.)</li>
+  <li><b>Journal.</b> A persistent, <b>auto-logged</b> diary of discoveries, plus space for the player's own handwritten-style notes.</li>
+  <li><b>Dossier.</b> A <b>file per person</b>: portrait, known facts, suspected secrets, and the full interview-transcript history. The avatar fills in once you've been to their place.</li>
+  <li><b>AI Interrogation.</b> A per-NPC chat where the AI plays the character <b>strictly in role</b> — revealing only what that person knows and would choose to share, gated by trust/flags, returning to the spine at defined exits. (This is the system §F free-text talk, focused on interrogation.)</li>
+  <li><b>Case File cover.</b> A folder metaphor that <b>organizes everything per case</b> — evidence, persons, notes, map pins — so multiple investigations stay separate.</li>
+  <li><b>The Map.</b> See below.</li>
+</ul>
+<h3>The Map — real Tokyo, our own distances</h3>
+<p>Question on the table: a Google-Maps-style real render of Tokyo with place pins and foot/train distances. Feasible — two ways, and a clear recommendation:</p>
+<ul>
+  <li><b>Recommended — stylized diegetic map.</b> A hand-styled Tokyo (oil-noir / archive paper) with pins for known places, locations unlocking as the investigation progresses, and <b>our own authored foot/train times</b> (already in <em>homes-distances</em>, Ōji as hub). Works offline, matches the book's identity, no external dependency. The detective references you sent all use stylized maps, not live Google Maps.</li>
+  <li><b>Possible — real map tiles.</b> Leaflet + OpenStreetMap with true lat/long pins. More "real," but needs to be online, clashes with the painterly skin, and true door-to-door foot/train timing would need a routing API. Since we already track travel times ourselves, the real engine doesn't need live routing — so this is a look-and-feel choice, not a mechanical need.</li>
+  <li><b>Either way:</b> the map is a <em>view</em> on the same location/station data the engine already holds — pins and routes are drawn from it, so we can swap the skin later without touching the engine.</li>
+</ul>
+
+<h2><span class="k">J</span>Choices, the GM-AI, and finding people <span style="font-size:11px;color:var(--red)">NEW</span></h2>
+<h3>Abilities are locked until trained</h3>
+<ul>
+  <li>A path you haven't unlocked shows on the wheel as <b>locked</b> — not buyable, not grindable. It opens only through a <b>training method</b>: a recognition event, or a willing teacher of that path (Suppression training, a master, a Tower tutor). You can see the locked door; you cannot pick it.</li>
+  <li>Once open, it grows by <b>use</b> (per the progression spec). So the gate is <em>training</em>; the growth is <em>doing</em>.</li>
+</ul>
+<h3>Choices are real choices</h3>
+<ul>
+  <li><b>Two or more, almost always.</b> A single "continue" is narration, not a choice — reserve it for pure connective beats. Decision beats always branch.</li>
+  <li><b>Plus a free-text option.</b> Every meaningful beat also offers "<em>do something else — type it</em>." The player writes what they want to do, and the <b>GM-AI</b> responds in-world.</li>
+  <li><b>The book never goes off the rails.</b> The GM-AI's job is not to invent a new story — it's to take whatever the player typed, honour it in the fiction, and <b>steer them toward one of the authored next nodes</b>. Freedom of expression, bounded destinations. (Needs the AI runtime; until then the free-text option gives a written acknowledgement and nudges back to the listed choices.)</li>
+</ul>
+<h3>NPCs are agents, hidden on the map</h3>
+<ul>
+  <li>Every character is an <b>AI agent</b> with a schedule (system F) and a place on the map &mdash; but <b>hidden</b>. You do not see them as pins. <b>You find a person by going where they are.</b> Travel to a place at a time they're scheduled there, and they're there; the avatar unlocks (the "face on arrival" hook).</li>
+  <li><b>Asking for a number.</b> When you talk to someone, one of the choices (when it fits) is to <b>ask for their phone</b>. Say yes and they're added to your Contacts &mdash; now reachable by SMS/call without travelling. Relationship-gated: a wary contact won't give it.</li>
+</ul>
+
+<h2>Combat &amp; encounters</h2>
+<p>You rarely kill a bodiless thing — you <b>survive</b> it, <b>banish</b> it, or <b>take it in</b>. A round: <b>you act</b> — Strike (Body + Combat + d6) · Power (path&times;3 + d6, costs Stability + thins the Veil) · Exorcise (Resolve + Symbol Work + d6 vs the entity's DC, once worn down — and it gives a clue) · Absorb (when it's low → its power, +Veil +Madness, the villain road) · Flee (always). Then <b>it acts</b> — draining Stability, overflowing into Health when your nerve breaks, raising Madness. You <b>lose</b> by Health&nbsp;&rarr;&nbsp;0 (down) or Madness&nbsp;&rarr;&nbsp;100 (possession).</p>
+<ul>
+<li><b>Two dials:</b> Type (spirit / demon / idea — what it wants) &times; Grade (E&nbsp;&rarr;&nbsp;top — how hard it hits). A spirit can be top-grade; a demon is a spirit that fed and climbed.</li>
+<li><b>Met at the grade of its place, not the player.</b> The world is open; the soft gate is what lives there. Go somewhere ahead of the story and the entities are simply stronger — flee, and the story remembers what you saw.</li>
+<li><b>Zone tiers I&ndash;V:</b> Ordinary ground &rarr; the edges &rarr; the works &rarr; the inner doors &rarr; the thin places. Each place carries a tier; the engine draws an entity whose tier fits (bumped up when the local veil is thin).</li>
+<li><b>Survival by rank:</b> Postulate/Adept handle E; Arbiter up to B; Vanguard takes A; only Singularity/Guardian contest top-grade. Full table in the Warden's book.</li>
+</ul>
+<h2>The database <span style="font-weight:400;font-size:.7em;opacity:.7">veil-data/</span></h2>
+<p>Single source of truth, separate from presentation. JSON node-tables linked into a network: <b>characters &middot; places &middot; factions &middot; thirteen &middot; ranks &middot; entities</b>. Each node has an <code>id</code> and <code>links</code> (member_of, lives_at, knows&nbsp;&plusmn;100, rides, &hellip;). The game loads it at startup; combat already reads enemies from <em>entities.json</em>. Edit once, here — the book and game read from it. (See <em>veil-data/README.md</em>.)</p>
+<h2>Scope discipline</h2>
+<p>Design the whole simulation (this doc). Build it as thin vertical slices, faking the expensive layers with rules until they earn their cost. Order I'd suggest: <b>clock (+ real calendar) → station travel → weekday hours → access gates → goals/deadlines → dependency gates → relationships → reputation → scripted agents → channels → (later) live AI.</b></p>
+<p class="foot">Companion to <em>veil-protocol-game-architecture.html</em>. Living document — we adjust as we build.</p>
+
+</div>
+</body>
+</html>

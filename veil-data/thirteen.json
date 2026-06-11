@@ -3,78 +3,103 @@
     "seat": "I",
     "emotion": "Grief",
     "demon": null,
-    "holder": "Asakura Mio"
+    "holder": "Asakura Mio",
+    "image": "thirteen_I_asakura_mio.png",
+    "look": "Japanese woman, ~30. Dark damp messy hair, gaunt freckled face, deep-shadowed grief-stricken eyes, pale skin. Grey textured knit. Hollow, tear-worn, exhausted by sorrow."
   },
   {
     "seat": "II",
     "emotion": "Rage",
     "demon": null,
-    "holder": "Mori Takao"
+    "holder": "Mori Takao",
+    "image": "thirteen_II_mori_takao.png",
+    "look": "Japanese man, ~45. Short spiky black hair, weathered scarred face, heavy brow, furious burning glare, clenched jaw. Dark work shirt. Coiled and dangerous."
   },
   {
     "seat": "III",
     "emotion": "Love",
     "demon": null,
-    "holder": "Sasaki Kei"
+    "holder": "Sasaki Kei",
+    "image": "thirteen_III_sasaki_kei.png",
+    "look": "Japanese man, ~40. Wavy dark hair, round wire glasses, gentle stubbled face, soft warm eyes. Brown tweed jacket over an open collar. Tender, scholarly."
   },
   {
     "seat": "IV",
     "emotion": "Fear",
     "demon": null,
-    "holder": "Nakashima Yuna"
+    "holder": "Nakashima Yuna",
+    "image": "thirteen_IV_nakashima_yuna.png",
+    "look": "Japanese woman, ~45. Dark hair pulled back tight, strong lined face, wary alert eyes, tense set mouth. Dark blazer. Watchful and braced."
   },
   {
     "seat": "V",
     "emotion": "Wonder",
     "demon": null,
-    "holder": "Chen Lian"
+    "holder": "Chen Lian",
+    "image": "thirteen_V_chen_lian.png",
+    "look": "Japanese woman, ~30. Dark hair in a messy bun with bangs, round glasses, curious faraway eyes, paint-stained fingers. Floral patterned shirt. Dreamy and absorbed."
   },
   {
     "seat": "VI",
     "emotion": "Despair",
     "demon": "Kishin",
-    "holder": "Watanabe Jun (being usurped)"
+    "holder": "Watanabe Jun (being usurped)",
+    "image": "thirteen_VI_watanabe_jun.png",
+    "look": "Japanese man, ~45. Dark wavy hair, round wire glasses, mild exhausted face, faint stubble. Striped shirt, loosened tie, code-lit screens behind (a worn programmer). Quietly hollowed out."
   },
   {
     "seat": "VII",
     "emotion": "Joy",
     "demon": null,
-    "holder": "Hoshino Haru"
+    "holder": "Tanaka Haru ⚠(was Hoshino Haru — confirm)",
+    "look": "Japanese man, ~50. Weathered sun-browned face, broad cheekbones, short black hair under a white patterned hachimaki headband, grey stubble, calm contented eyes, stocky. Indigo work shirt, kanji apron, warm izakaya light.",
+    "image": "thirteen_VII_tanaka_haru.png"
   },
   {
     "seat": "VIII",
     "emotion": "Shame",
     "demon": null,
-    "holder": "Kobayashi Emi"
+    "holder": "Kobayashi Emi",
+    "image": "thirteen_VIII_kobayashi_emi.png",
+    "look": "Japanese woman, ~32. Short dark wavy hair, soft freckled face, eyes cast down and away, reserved. White striped shirt, library shelves behind. Withdrawn, quiet shame."
   },
   {
     "seat": "IX",
     "emotion": "Hunger",
     "demon": null,
-    "holder": "Inoue Satoru"
+    "holder": "Inoue Satoru",
+    "image": "thirteen_IX_inoue_satoru.png",
+    "look": "Japanese man, ~38. Dark wavy hair, gaunt hollow-cheeked face, stubble, intense wanting stare. Dark open shirt over a tee. Lean and famished, never satisfied."
   },
   {
     "seat": "X",
     "emotion": "Courage",
     "demon": null,
-    "holder": "Fujiwara Natsumi"
+    "holder": "Fujiwara Natsumi",
+    "image": "thirteen_X_fujiwara_natsumi.png",
+    "look": "Japanese woman, ~45. Short dark hair, strong weathered determined face, steady fearless eyes. Dark wet hooded jacket, gritty workshop. Resolute, unbowed."
   },
   {
     "seat": "XI",
     "emotion": "Longing",
     "demon": null,
-    "holder": "Park Junho"
+    "holder": "Park Junho",
+    "image": "thirteen_XI_park_junho.png",
+    "look": "Japanese man, ~45. Dark wavy hair, lined wistful face, soft melancholic faraway eyes. Grey cardigan over a collared shirt, Korean characters on the wall behind. Aching with longing."
   },
   {
     "seat": "XII",
     "emotion": "Awe",
     "demon": null,
-    "holder": null
+    "holder": "Yamamoto Shin ⚠(Awe seat was empty — confirm)",
+    "look": "Japanese man, ~38. Gaunt angular face, messy black hair, stubble, distant searching wide-eyed gaze. Dark open-collar shirt, dim amber interior. Struck, faraway with awe.",
+    "image": "thirteen_XII_yamamoto_shin.png"
   },
   {
     "seat": "XIII",
     "emotion": "Duty",
     "demon": "Yushiro",
-    "holder": "in Gin"
+    "holder": "in Gin",
+    "look": "Worn behind Gin's own face (see Gin) — the same young man, but the eyes too steady, too old; duty without rest."
   }
 ]

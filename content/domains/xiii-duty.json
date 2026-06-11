@@ -1,0 +1,97 @@
+{
+  "schema": "domain-pack/v1",
+  "numeral": "XIII",
+  "domain": "Duty",
+  "emotion": "Duty",
+  "status": "VACANT since 2009 — CRITICAL, membrane thinning",
+  "location": "Kita district, Tokyo",
+  "spoiler": true,
+  "warden_only": true,
+  "tagline": "The keystone. Everything stable depends on it, and no one holds it.",
+
+  "essence": "Duty is the quality of persisting in a function because stopping would cost everything, sustained across a duration that has outlasted every original reason to persist except the persistence itself. It is not the feeling of duty. It is what duty becomes when it has been the only thing for long enough that there is no self left that remembers a before. Where the other twelve registers vary, Duty holds. It does not rise or fall. It is fullness so complete that nothing else has room to exist beside it.",
+
+  "why_misclassified": "The CVD's instruments are calibrated for emotional variation. Domain XIII does not vary, so the instruments read its total stillness as null-emotive absence, an empty band on the register. They recorded fullness as nothing. The research team that encountered it moved on. Gin noticed the classification was wrong but could not name what was right. This gap is the campaign's first true thread: the player can feel the stillness long before any holder explains it.",
+
+  "holder": null,
+  "holder_history": "No holder since 2009. The seat has stood empty for the entire span of the campaign's backstory. In a vacancy, the Axis carries the register directly, on top of the other twelve he already shoulders. He is overstretched. Every year the seat stays empty the Kita membrane thins a measurable degree further. It has not failed. Barely.",
+
+  "demon": {
+    "name": "Yushiro",
+    "designation": "Top-grade, Arbiter-class before crossing",
+    "register": "Duty (the charge it died still carrying)",
+    "class": "Class B-equivalent in current taxonomy, functionally higher",
+    "crossed": "Forty years ago, chasing not the centre but its own interrupted second life",
+    "wants": "Not power, and not the Axis. To discharge a duty that death interrupted. It will tear a great deal open to manage it.",
+    "method": "Possession of a multi-spectrum host positioned near the XIII vacancy. It rides Gin not for his body but for his developmental line and his place in the succession.",
+    "threat": "It does not seek to TAKE Domain XIII. It seeks to prevent the succession from ever activating, because a resolved XIII expels it from the position it has spent years building."
+  },
+
+  "axis_link": "The Axis (the Architect) holds the membrane shut and carries the vacant Duty register himself. Duty is, of the thirteen, the register closest to what the Axis actually is: a man bonded to a task the way a hand is bonded to the weight it carries, persisting past the memory of why. A resolved XIII would lift that weight off him. Its vacancy is the slow ache under the whole campaign.",
+
+  "destabilization_track": [
+    {"clock": 0, "beat": "2009. The last holder is lost. The seat goes vacant. The Axis takes up the register directly. No alarm sounds; the loss reads as stillness, not crisis."},
+    {"clock": 1, "beat": "Slow thinning. The Kita membrane develops a thin spot. Influenced objects begin accumulating register faster than elsewhere. Practitioners feel 'off' in the district and cannot say why."},
+    {"clock": 2, "beat": "The demon arrives. Yushiro, reading the vacancy as a long-term consolidation opportunity, begins positioning. It surveys multi-spectrum lines in Kita."},
+    {"clock": 3, "beat": "Gin is selected and taken: Vanguard rank suppressed, strong aperture, isolated from welfare monitoring, positioned near the vacancy. Possession is gradual, not seizure."},
+    {"clock": 4, "beat": "Gin stops answering (campaign start). His shadow falls the wrong way. The domain, called toward his aperture, begins to resolve toward whoever he was protecting."},
+    {"clock": 5, "beat": "Rei arrives at the archive. The vacancy has begun, structurally, to resolve. The chain (domain → Gin's aperture → Rei → the archive) is causal, not metaphorical."},
+    {"clock": 6, "beat": "Acute thinning. Cult activity gorges in the shallows the thinning leaves. Other Under-pressure domains (Fear, Rage, Hunger, Longing) feel the strain transmit through the lattice."},
+    {"clock": 7, "beat": "Crisis point. The membrane in Kita approaches failure. The succession must activate or the district tears. The Warden's hidden clock reaches its face."}
+  ],
+
+  "succession": {
+    "requirement": "A multi-spectrum practitioner with specific aperture depth, able to hold the sustained, non-varying quality of Duty without resolving it into one of the twelve named registers.",
+    "target_line": "The Uedera line carries the specific developmental pattern that meets the requirement.",
+    "why_gin": "Gin sits in the succession line. This is what the demon wanted access to: not his body, his development and his position in the succession.",
+    "what_rei_is": "Rei carries the same line, suppression running, registered D but actual Arbiter approaching Vanguard. Rei is the succession the demon's whole strategy exists to prevent.",
+    "discovery": "Rei does not meet XIII. In Act Three Rei meets a DIFFERENT domain holder, who recognizes what Rei is. That recognition is the moment the entire sourcebook was building toward."
+  },
+
+  "locations": [
+    {"name": "Kita district thin spot", "ref": "places/kita", "note": "The membrane's weakest point; where influenced objects accumulate fastest."},
+    {"name": "The Ōji overpass", "ref": "places/oji-overpass", "note": "Where Gin's wrong shadow was logged at 1:14am; a recurring crossing point."},
+    {"name": "The riverbank, north", "ref": "places/kita-river", "note": "Obon membrane-thinning; the dead turn from what walks north; the Axis-pull's direction."},
+    {"name": "Gin and Rei's flat", "ref": "places/uedera-flat", "note": "Grounding anchor; the front-door key originates here."}
+  ],
+
+  "scenario_hooks": [
+    "Possession Rescue (Gin's campaign is the canonical instance): the host is positioned over the vacancy; freeing him resolves the seat.",
+    "Succession Threat: a rival line or a second demon learns of the Uedera pattern and moves to seize or erase the heir.",
+    "The Quiet Failure: a GM can run XIII as a slow loss instead of a rescue; the membrane thins to the point that a stable district visibly turns.",
+    "Holder Introduction: any campaign can use the Act-Three beat where a held domain's holder recognizes a multi-spectrum PC."
+  ],
+
+  "intersections": {
+    "cvd": "The CVD logged the second-presence indicators and sealed the case from a height (an office, not a name). Institutionally it has decided the heir is a thing to hide, not a person to find.",
+    "grid": "The unregistered feel the thinning first. A Grid sensitive can read a seat of the Thirteen riding a man; the charm goes dead on the word DUTY. Mediums kneel to what Gin carries.",
+    "tower": "The Tower Families fear a seated one on the move older than the wards; they will not follow it north and will not bring it to their door.",
+    "cult": "The Far-Shore Circle gorges in the shallows the thinning leaves, but goes out of Gin's way: the predators move aside for what he carries.",
+    "axis": "A resolved XIII lifts the Duty weight off the overstretched Axis. The campaign must never quite touch the centre.",
+    "other_domains": "Stable XIII is the keystone all twelve depend on; the Under-pressure domains (II Rage, IV Fear, IX Hunger, XI Longing) are the first to feel a worsening vacancy."
+  },
+
+  "skills_unlocked": [
+    "Clairsentience tier 2 reading of non-varying register (sensing the stillness that instruments miss)",
+    "Grounding against an absorbing presence (the front-door key as anchor under a seated one's pull)"
+  ],
+  "rituals_referenced": ["ritual/anchor-stone-crossing", "ritual/paper-lantern-obon", "seal/second-presence-detection"],
+
+  "ending_logic": {
+    "variable": "Gin's Window (open / closing / closed) × Rei reaching Domain XIII",
+    "states": [
+      {"ending": "Ending 1 — Resolution", "condition": "Rei reaches Domain XIII", "result": "The vacancy resolves, the Kita membrane stabilizes, the demon loses its primary strategic position and is expelled, and Gin is freed: damaged, but present."},
+      {"ending": "Ending 5 — The Quiet", "condition": "Mixed outcomes; window closes unreached", "result": "Gin's window closes without Rei reaching it, but the demon moves on rather than consolidating; the district stabilizes on its own timeline. The work is ongoing, incomplete, and done anyway."}
+    ],
+    "note": "These are two states of a variable-logic the Warden authors per campaign, not fixed scripted endings. Gin's example campaign yields five endings from three variables."
+  },
+
+  "warden_notes": "Domain XIII is the floor under everything and the thing the campaign must never quite touch directly. The player should FEEL the hidden clock before they understand it. Never tell the player the structural truth; let it be discovered through play. The demon is not evil: it wants the Veil open only to discharge an interrupted duty. The Axis is neither malevolent nor benevolent. Run XIII as pressure, not as a villain.",
+
+  "player_discovery_path": [
+    "Feel the stillness (the misclassified band) as a wrongness in Kita.",
+    "Gather the structural facts piecemeal across factions (CVD seal, Grid's dead charm, Tower fear, cult avoidance).",
+    "Meet a held domain's holder in Act Three; be recognized.",
+    "Understand, last, that the brother was not taken but reached, for someone he loved, and that the heir the demon feared is the player."
+  ]
+}

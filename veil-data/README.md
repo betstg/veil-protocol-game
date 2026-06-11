@@ -27,7 +27,7 @@ out by hand — it's **walked** along the links. That's the tree you asked for.
 | File | What it holds | Key fields |
 |------|---------------|-----------|
 | `characters.json` | every person (69) | `id, name, faction, role, location, links[]` |
-| `places.json` | every location (16) | `id, name, faction, lat, lng, hours, known, art` |
+| `places.json` | every location (32) | `id, name, faction, lat, lng, walk/train/cab, hours, owner, known, art` |
 | `factions.json` | the groups | `id, name, what` |
 | `thirteen.json` | the 13 emotion-seats | `seat, emotion, demon, holder` |
 | `ranks.json` | the power ladder | `rank, name, flags` |
@@ -40,6 +40,12 @@ out by hand — it's **walked** along the links. That's the tree you asked for.
   "faction": "towers",
   "role": "Teleportation master",
   "location": "Kuroda compound, Nezu",
+  "persona": {
+    "voice":  "How they talk — short description of tone and speech style.",
+    "traits": "three adjectives",
+    "wants":  "what drives them in one line",
+    "guard":  "what they must NEVER reveal (keeps secrets safe)"
+  },
   "links": [
     { "type": "member_of",  "to": "towers" },
     { "type": "lives_at",   "to": "kurodacompound" },
@@ -51,6 +57,22 @@ out by hand — it's **walked** along the links. That's the tree you asked for.
 To **add a character**: copy a card, change the `id` (lowercase-with-dashes,
 unique) and the fields. To **link** two things, add a `{ "type": ..., "to": ... }`
 to `links`. That's the whole skill.
+
+### Where everyone lives & works — `lives_at` / `works_at`
+Every character now has a **`lives_at`** link to a place (their home ward) and, if they
+run a shop or bar, a **`works_at`** link to that venue — both pulled from the home
+described in their book sheet. Venues carry an **`owner`** field pointing back at the
+character who runs them (e.g. `ramen.owner = "tatsu"`). The game reads these at startup
+to place every person on the map and in their daily schedule, so you set someone's home
+**once, here**, and the map, the People list, and "who's here now" all follow.
+
+### The `persona` block — this is what the AI reads
+Every character now carries a `persona`. When the player chats with someone, posts
+to VOOM, or the GM improvises, the game looks the character up **by name** in this
+file and hands their `persona` to the AI. So Hagiwara always sounds like Hagiwara,
+and the demons never spill their secrets (that's the `guard` line). Edit the persona
+here **once** and every agent — chat, social, GM — uses the new voice. You never
+type a personality twice.
 
 ### Link types we use
 `member_of` · `lives_at` · `works_at` · `knows` (with `value`) · `romance`

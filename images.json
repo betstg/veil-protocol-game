@@ -1,0 +1,1150 @@
+[
+  {
+    "_meta": true,
+    "art_style": "Painterly oil-portrait style, loose impressionistic brushwork, warm dark cinematic palette, Tokyo 2015 occult-noir, single character, shallow depth of field.",
+    "art_style_portrait": "Painterly oil-portrait, loose impressionistic brushwork, warm dark occult-noir palette, Tokyo 2015, single figure, shallow depth of field.",
+    "art_style_scene": "Painterly oil-painting, loose impressionistic brushwork, warm dark cinematic occult-noir palette, Tokyo 2015, atmospheric, no text.",
+    "axis_look": "A human figure made of pure cold light deep inside the veil — featureless and radiant, neither male nor female, arms slightly open, suspended in a vast grey-blue dark; thin threads of light run from it to thirteen distant points. Awe, stillness, luminous, minimal."
+  },
+  {
+    "id": "agenda_board",
+    "file": "agenda_board.png",
+    "category": "code",
+    "subject": "agenda_board",
+    "source": "./Book 5 Images/agenda_board.png"
+  },
+  {
+    "id": "ch10_develop",
+    "file": "ch10_develop.png",
+    "category": "code",
+    "subject": "ch10_develop",
+    "source": "./Book 2 Images/ch10_develop.png"
+  },
+  {
+    "id": "ch10_feeding",
+    "file": "ch10_feeding.png",
+    "category": "code",
+    "subject": "ch10_feeding",
+    "source": "./Book 2 Images/ch10_feeding.png"
+  },
+  {
+    "id": "ch10_vsdemon",
+    "file": "ch10_vsdemon.png",
+    "category": "code",
+    "subject": "ch10_vsdemon",
+    "source": "./Book 2 Images/ch10_vsdemon.png"
+  },
+  {
+    "id": "ch11_clearance",
+    "file": "ch11_clearance.png",
+    "category": "code",
+    "subject": "ch11_clearance",
+    "source": "./Book 2 Images/ch11_clearance.png"
+  },
+  {
+    "id": "ch11_space",
+    "file": "ch11_space.png",
+    "category": "code",
+    "subject": "ch11_space",
+    "source": "./Book 2 Images/ch11_space.png"
+  },
+  {
+    "id": "ch12_assess",
+    "file": "ch12_assess.png",
+    "category": "code",
+    "subject": "ch12_assess",
+    "source": "./Book 2 Images/ch12_assess.png"
+  },
+  {
+    "id": "ch12_case",
+    "file": "ch12_case.png",
+    "category": "code",
+    "subject": "ch12_case",
+    "source": "./Book 2 Images/ch12_case.png"
+  },
+  {
+    "id": "ch13_fragment",
+    "file": "ch13_fragment.png",
+    "category": "code",
+    "subject": "ch13_fragment",
+    "source": "./Book 2 Images/ch13_fragment.png"
+  },
+  {
+    "id": "ch13_intel",
+    "file": "ch13_intel.png",
+    "category": "code",
+    "subject": "ch13_intel",
+    "source": "./Book 2 Images/ch13_intel.png"
+  },
+  {
+    "id": "ch14_layer1",
+    "file": "ch14_layer1.png",
+    "category": "code",
+    "subject": "ch14_layer1",
+    "source": "./Book 2 Images/ch14_layer1.png"
+  },
+  {
+    "id": "ch14_layer2",
+    "file": "ch14_layer2.png",
+    "category": "code",
+    "subject": "ch14_layer2",
+    "source": "./Book 2 Images/ch14_layer2.png"
+  },
+  {
+    "id": "ch15_assessment",
+    "file": "ch15_assessment.png",
+    "category": "code",
+    "subject": "ch15_assessment",
+    "source": "./Book 2 Images/ch15_assessment.png"
+  },
+  {
+    "id": "ch15_squad",
+    "file": "ch15_squad.png",
+    "category": "code",
+    "subject": "ch15_squad",
+    "source": "./Book 2 Images/ch15_squad.png"
+  },
+  {
+    "id": "ch15_training",
+    "file": "ch15_training.png",
+    "category": "code",
+    "subject": "ch15_training",
+    "source": "./Book 2 Images/ch15_training.png"
+  },
+  {
+    "id": "ch16_cultivation",
+    "file": "ch16_cultivation.png",
+    "category": "code",
+    "subject": "ch16_cultivation",
+    "source": "./Book 2 Images/ch16_cultivation.png"
+  },
+  {
+    "id": "ch16_negotiation",
+    "file": "ch16_negotiation.png",
+    "category": "code",
+    "subject": "ch16_negotiation",
+    "source": "./Book 2 Images/ch16_negotiation.png"
+  },
+  {
+    "id": "ch17_knowledge",
+    "file": "ch17_knowledge.png",
+    "category": "code",
+    "subject": "ch17_knowledge",
+    "source": "./Book 2 Images/ch17_knowledge.png"
+  },
+  {
+    "id": "ch17_whojoins",
+    "file": "ch17_whojoins.png",
+    "category": "code",
+    "subject": "ch17_whojoins",
+    "source": "./Book 2 Images/ch17_whojoins.png"
+  },
+  {
+    "id": "ch18_knows",
+    "file": "ch18_knows.png",
+    "category": "code",
+    "subject": "ch18_knows",
+    "source": "./Book 2 Images/ch18_knows.png"
+  },
+  {
+    "id": "ch18_master",
+    "file": "ch18_master.png",
+    "category": "code",
+    "subject": "ch18_master",
+    "source": "./Book 2 Images/ch18_master.png"
+  },
+  {
+    "id": "ch19_infiltration",
+    "file": "ch19_infiltration.png",
+    "category": "code",
+    "subject": "ch19_infiltration",
+    "source": "./Book 2 Images/ch19_infiltration.png"
+  },
+  {
+    "id": "ch1_public",
+    "file": "ch1_public.png",
+    "category": "code",
+    "subject": "ch1_public",
+    "source": "./Book 1 Images/ch1_public.png"
+  },
+  {
+    "id": "ch20_layered",
+    "file": "ch20_layered.png",
+    "category": "code",
+    "subject": "ch20_layered",
+    "source": "./Book 2 Images/ch20_layered.png"
+  },
+  {
+    "id": "ch20b_cat",
+    "file": "ch20b_cat.png",
+    "category": "code",
+    "subject": "ch20b_cat",
+    "source": "./Book 2 Images/ch20b_cat.png"
+  },
+  {
+    "id": "ch21_entitysight",
+    "file": "ch21_entitysight.png",
+    "category": "code",
+    "subject": "ch21_entitysight",
+    "source": "./Book 3 Images/ch21_entitysight.png"
+  },
+  {
+    "id": "ch27_politics",
+    "file": "ch27_politics.png",
+    "category": "code",
+    "subject": "ch27_politics",
+    "source": "./Book 3 Images/ch27_politics.png"
+  },
+  {
+    "id": "ch2_architect",
+    "file": "ch2_architect.png",
+    "category": "code",
+    "subject": "ch2_architect",
+    "source": "./Book 1 Images/ch2_architect.png"
+  },
+  {
+    "id": "ch2_class",
+    "file": "ch2_class.png",
+    "category": "code",
+    "subject": "ch2_class",
+    "source": "./Book 1 Images/ch2_class.png"
+  },
+  {
+    "id": "ch3_thinspot",
+    "file": "ch3_thinspot.png",
+    "category": "code",
+    "subject": "ch3_thinspot",
+    "source": "./Book 1 Images/ch3_thinspot.png"
+  },
+  {
+    "id": "ch4_ranktiers",
+    "file": "ch4_ranktiers.png",
+    "category": "code",
+    "subject": "ch4_ranktiers",
+    "source": "./Book 1 Images/ch4_ranktiers.png"
+  },
+  {
+    "id": "ch5_depletion",
+    "file": "ch5_depletion.png",
+    "category": "code",
+    "subject": "ch5_depletion",
+    "source": "./Book 1 Images/ch5_depletion.png"
+  },
+  {
+    "id": "ch5_possession",
+    "file": "ch5_possession.png",
+    "category": "code",
+    "subject": "ch5_possession",
+    "source": "./Book 1 Images/ch5_possession.png"
+  },
+  {
+    "id": "ch6_reading",
+    "file": "ch6_reading.png",
+    "category": "code",
+    "subject": "ch6_reading",
+    "source": "./Book 1 Images/ch6_reading.png"
+  },
+  {
+    "id": "ch6_sixpaths",
+    "file": "ch6_sixpaths.png",
+    "category": "code",
+    "subject": "ch6_sixpaths",
+    "source": "./Book 1 Images/ch6_sixpaths.png"
+  },
+  {
+    "id": "ch6b_expulsion",
+    "file": "ch6b_expulsion.png",
+    "category": "code",
+    "subject": "ch6b_expulsion",
+    "source": "./Book 1 Images/ch6b_expulsion.png"
+  },
+  {
+    "id": "ch7_casefight",
+    "file": "ch7_casefight.png",
+    "category": "code",
+    "subject": "ch7_casefight",
+    "source": "./Book 1 Images/ch7_casefight.png.png"
+  },
+  {
+    "id": "ch7_preconflict",
+    "file": "ch7_preconflict.png",
+    "category": "code",
+    "subject": "ch7_preconflict",
+    "source": "./Book 1 Images/ch7_preconflict.png"
+  },
+  {
+    "id": "ch8_grid",
+    "file": "ch8_grid.png",
+    "category": "code",
+    "subject": "ch8_grid",
+    "source": "./Book 1 Images/ch8_grid.png"
+  },
+  {
+    "id": "ch8_surveillance",
+    "file": "ch8_surveillance.png",
+    "category": "code",
+    "subject": "ch8_surveillance",
+    "source": "./Book 1 Images/ch8_surveillance.png"
+  },
+  {
+    "id": "ch9_encounter",
+    "file": "ch9_encounter.png",
+    "category": "code",
+    "subject": "ch9_encounter",
+    "source": "./Book 1 Images/ch9_encounter.png"
+  },
+  {
+    "id": "ch9_identify",
+    "file": "ch9_identify.png",
+    "category": "code",
+    "subject": "ch9_identify",
+    "source": "./Book 1 Images/ch9_identify.png.png"
+  },
+  {
+    "id": "clairsent_crimescene",
+    "file": "clairsent_crimescene.png",
+    "category": "code",
+    "subject": "clairsent_crimescene",
+    "source": "./Book 3 Images/clairsent_crimescene.png"
+  },
+  {
+    "id": "currency_exchange",
+    "file": "currency_exchange.png",
+    "category": "code",
+    "subject": "currency_exchange",
+    "source": "./Book 5 Images/currency_exchange.png"
+  },
+  {
+    "id": "currency_prices",
+    "file": "currency_prices.png",
+    "category": "code",
+    "subject": "currency_prices",
+    "source": "./Book 5 Images/currency_prices.png"
+  },
+  {
+    "id": "cvd_camp",
+    "file": "cvd_camp.png",
+    "category": "code",
+    "subject": "cvd_camp",
+    "source": "./CVD Secret Rooms/cvd_camp.png"
+  },
+  {
+    "id": "cvd_sublevel",
+    "file": "cvd_sublevel.png",
+    "category": "code",
+    "subject": "cvd_sublevel",
+    "source": "./CVD Secret Rooms/cvd_sublevel.png"
+  },
+  {
+    "id": "cvd_withheld",
+    "file": "cvd_withheld.png",
+    "category": "code",
+    "subject": "cvd_withheld",
+    "source": "./CVD Secret Rooms/cvd_withheld.png"
+  },
+  {
+    "id": "entity_accounts_open",
+    "file": "entity_accounts_open.png",
+    "category": "code",
+    "subject": "entity_accounts_open",
+    "source": "./Book 5 Images/entity_accounts_open.png"
+  },
+  {
+    "id": "inventory_anchor",
+    "file": "inventory_anchor.png",
+    "category": "code",
+    "subject": "inventory_anchor",
+    "source": "./Book 5 Images/inventory_anchor.png"
+  },
+  {
+    "id": "inventory_flatlay",
+    "file": "inventory_flatlay.png",
+    "category": "code",
+    "subject": "inventory_flatlay",
+    "source": "./Book 5 Images/inventory_flatlay.png"
+  },
+  {
+    "id": "map_tokyo",
+    "file": "map_tokyo.png",
+    "category": "code",
+    "subject": "map_tokyo",
+    "source": "./Book 5 Images/map_tokyo.png"
+  },
+  {
+    "id": "map_trains",
+    "file": "map_trains.png",
+    "category": "code",
+    "subject": "map_trains",
+    "source": "./Book 5 Images/map_trains.png"
+  },
+  {
+    "id": "pkn_vsentity",
+    "file": "pkn_vsentity.png",
+    "category": "code",
+    "subject": "pkn_vsentity",
+    "source": "./Book 3 Images/pkn_vsentity.png"
+  },
+  {
+    "id": "place_akebono",
+    "file": "place_akebono.png",
+    "category": "code",
+    "subject": "place_akebono",
+    "source": "./Places/Places/place_akebono.png"
+  },
+  {
+    "id": "place_arcade",
+    "file": "place_arcade.png",
+    "category": "code",
+    "subject": "place_arcade",
+    "source": "./Disturbed Areas Images/place_arcade.png"
+  },
+  {
+    "id": "place_buddhist",
+    "file": "place_buddhist.png",
+    "category": "code",
+    "subject": "place_buddhist",
+    "source": "./Places/Religious/place_buddhist.png"
+  },
+  {
+    "id": "place_catholic",
+    "file": "place_catholic.png",
+    "category": "code",
+    "subject": "place_catholic",
+    "source": "./Places/Religious/place_catholic.png"
+  },
+  {
+    "id": "place_crimescene",
+    "file": "place_crimescene.png",
+    "category": "code",
+    "subject": "place_crimescene",
+    "source": "./Disturbed Areas Images/place_crimescene.png"
+  },
+  {
+    "id": "place_diaspora",
+    "file": "place_diaspora.png",
+    "category": "code",
+    "subject": "place_diaspora",
+    "source": "./Places/Religious/place_diaspora.png"
+  },
+  {
+    "id": "place_freightyard",
+    "file": "place_freightyard.png",
+    "category": "code",
+    "subject": "place_freightyard",
+    "source": "./Disturbed Areas Images/place_freightyard.png"
+  },
+  {
+    "id": "place_gathering",
+    "file": "place_gathering.png",
+    "category": "code",
+    "subject": "place_gathering",
+    "source": "./Places/Places/place_gathering.png"
+  },
+  {
+    "id": "place_kemuri",
+    "file": "place_kemuri.png",
+    "category": "code",
+    "subject": "place_kemuri",
+    "source": "./Places/Places/place_kemuri.png"
+  },
+  {
+    "id": "place_mikazuki",
+    "file": "place_mikazuki.png",
+    "category": "code",
+    "subject": "place_mikazuki",
+    "source": "./Places/Places/place_mikazuki.png"
+  },
+  {
+    "id": "place_mudang",
+    "file": "place_mudang.png",
+    "category": "code",
+    "subject": "place_mudang",
+    "source": "./Places/Religious/place_mudang.png"
+  },
+  {
+    "id": "place_riverside",
+    "file": "place_riverside.png",
+    "category": "code",
+    "subject": "place_riverside",
+    "source": "./Disturbed Areas Images/place_riverside.png"
+  },
+  {
+    "id": "place_shinto",
+    "file": "place_shinto.png",
+    "category": "code",
+    "subject": "place_shinto",
+    "source": "./Places/Religious/place_shinto.png"
+  },
+  {
+    "id": "place_suzuran",
+    "file": "place_suzuran.png",
+    "category": "code",
+    "subject": "place_suzuran",
+    "source": "./Places/Places/place_suzuran.png"
+  },
+  {
+    "id": "place_taoist",
+    "file": "place_taoist.png",
+    "category": "code",
+    "subject": "place_taoist",
+    "source": "./Places/Religious/place_taoist.png"
+  },
+  {
+    "id": "place_tatsuya",
+    "file": "place_tatsuya.png",
+    "category": "code",
+    "subject": "place_tatsuya",
+    "source": "./Places/Places/place_tatsuya.png"
+  },
+  {
+    "id": "place_toraya",
+    "file": "place_toraya.png",
+    "category": "code",
+    "subject": "place_toraya",
+    "source": "./Places/Places/place_toraya.png"
+  },
+  {
+    "id": "place_underpass",
+    "file": "place_underpass.png",
+    "category": "code",
+    "subject": "place_underpass",
+    "source": "./Disturbed Areas Images/place_underpass.png"
+  },
+  {
+    "id": "prac_clairsent",
+    "file": "prac_clairsent.png",
+    "category": "code",
+    "subject": "prac_clairsent",
+    "source": "./Book 3 Images/prac_clairsent.png"
+  },
+  {
+    "id": "prac_pkn",
+    "file": "prac_pkn.png",
+    "category": "code",
+    "subject": "prac_pkn",
+    "source": "./Book 3 Images/prac_pkn.png"
+  },
+  {
+    "id": "prac_psycho",
+    "file": "prac_psycho.png",
+    "category": "code",
+    "subject": "prac_psycho",
+    "source": "./Book 3 Images/prac_psycho.png"
+  },
+  {
+    "id": "prac_telepath",
+    "file": "prac_telepath.png",
+    "category": "code",
+    "subject": "prac_telepath",
+    "source": "./Book 3 Images/prac_telepath.png"
+  },
+  {
+    "id": "prac_tk",
+    "file": "prac_tk.png",
+    "category": "code",
+    "subject": "prac_tk",
+    "source": "./Book 3 Images/prac_tk.png"
+  },
+  {
+    "id": "prac_tp",
+    "file": "prac_tp.png",
+    "category": "code",
+    "subject": "prac_tp",
+    "source": "./Book 3 Images/prac_tp.png"
+  },
+  {
+    "id": "psycho_burnout",
+    "file": "psycho_burnout.png",
+    "category": "code",
+    "subject": "psycho_burnout",
+    "source": "./Book 3 Images/psycho_burnout.png"
+  },
+  {
+    "id": "rehab_cell",
+    "file": "rehab_cell.png",
+    "category": "code",
+    "subject": "rehab_cell",
+    "source": "./Book 2 Images/rehab_cell.png"
+  },
+  {
+    "id": "res_animals",
+    "file": "res_animals.png",
+    "category": "code",
+    "subject": "res_animals",
+    "source": "./Resources  - materials & shops/res_animals.png"
+  },
+  {
+    "id": "res_apartment",
+    "file": "res_apartment.png",
+    "category": "code",
+    "subject": "res_apartment",
+    "source": "./Resources-Training & people/res_apartment.png"
+  },
+  {
+    "id": "res_apartmentbathroom",
+    "file": "res_apartmentbathroom.png",
+    "category": "code",
+    "subject": "res_apartmentbathroom",
+    "source": "./Resources-Training & people/res_apartmentbathroom.png"
+  },
+  {
+    "id": "res_apartmentempty",
+    "file": "res_apartmentempty.png",
+    "category": "code",
+    "subject": "res_apartmentempty",
+    "source": "./Resources-Training & people/res_apartmentempty.png"
+  },
+  {
+    "id": "res_apartmentginroom",
+    "file": "res_apartmentginroom.png",
+    "category": "code",
+    "subject": "res_apartmentginroom",
+    "source": "./Resources-Training & people/res_apartmentginroom.png"
+  },
+  {
+    "id": "res_apartmentlivingroom",
+    "file": "res_apartmentlivingroom.png",
+    "category": "code",
+    "subject": "res_apartmentlivingroom",
+    "source": "./Resources-Training & people/res_apartmentlivingroom.png"
+  },
+  {
+    "id": "res_apartmentreiroom",
+    "file": "res_apartmentreiroom.png",
+    "category": "code",
+    "subject": "res_apartmentreiroom",
+    "source": "./Resources-Training & people/res_apartmentreiroom.png"
+  },
+  {
+    "id": "res_archive",
+    "file": "res_archive.png",
+    "category": "code",
+    "subject": "res_archive",
+    "source": "./Resources · libraries & archives/res_archive.png"
+  },
+  {
+    "id": "res_cvdarchive",
+    "file": "res_cvdarchive.png",
+    "category": "code",
+    "subject": "res_cvdarchive",
+    "source": "./Resources · libraries & archives/res_cvdarchive.png"
+  },
+  {
+    "id": "res_graveearth",
+    "file": "res_graveearth.png",
+    "category": "code",
+    "subject": "res_graveearth",
+    "source": "./Resources  - materials & shops/res_graveearth.png"
+  },
+  {
+    "id": "res_gridmentor",
+    "file": "res_gridmentor.png",
+    "category": "code",
+    "subject": "res_gridmentor",
+    "source": "./Resources-Training & people/res_gridmentor.png"
+  },
+  {
+    "id": "res_library",
+    "file": "res_library.png",
+    "category": "code",
+    "subject": "res_library",
+    "source": "./Resources · libraries & archives/res_library.png"
+  },
+  {
+    "id": "res_pharmacist",
+    "file": "res_pharmacist.png",
+    "category": "code",
+    "subject": "res_pharmacist",
+    "source": "./Resources  - materials & shops/res_pharmacist.png"
+  },
+  {
+    "id": "res_ritualshop",
+    "file": "res_ritualshop.png",
+    "category": "code",
+    "subject": "res_ritualshop",
+    "source": "./Resources  - materials & shops/res_ritualshop.png"
+  },
+  {
+    "id": "res_towerdojo",
+    "file": "res_towerdojo.png",
+    "category": "code",
+    "subject": "res_towerdojo",
+    "source": "./Resources-Training & people/res_towerdojo.png"
+  },
+  {
+    "id": "res_traininghall",
+    "file": "res_traininghall.png",
+    "category": "code",
+    "subject": "res_traininghall",
+    "source": "./Resources-Training & people/res_traininghall.png"
+  },
+  {
+    "id": "res_university",
+    "file": "res_university.png",
+    "category": "code",
+    "subject": "res_university",
+    "source": "./Resources · libraries & archives/res_university.png"
+  },
+  {
+    "id": "res_washi",
+    "file": "res_washi.png",
+    "category": "code",
+    "subject": "res_washi",
+    "source": "./Resources  - materials & shops/res_washi.png"
+  },
+  {
+    "id": "skill_paths",
+    "file": "skill_paths.png",
+    "category": "code",
+    "subject": "skill_paths",
+    "source": "./Book 3 Images/skill_paths.png"
+  },
+  {
+    "id": "telepath_distrust",
+    "file": "telepath_distrust.png",
+    "category": "code",
+    "subject": "telepath_distrust",
+    "source": "./Book 3 Images/telepath_distrust.png"
+  },
+  {
+    "id": "tk_suppression",
+    "file": "tk_suppression.png",
+    "category": "code",
+    "subject": "tk_suppression",
+    "source": "./Book 3 Images/tk_suppression.png"
+  },
+  {
+    "id": "tools_trap",
+    "file": "tools_trap.png",
+    "category": "code",
+    "subject": "tools_trap",
+    "source": "./Book 5 Images/tools_trap.png"
+  },
+  {
+    "id": "tp_neverarrived",
+    "file": "tp_neverarrived.png",
+    "category": "code",
+    "subject": "tp_neverarrived",
+    "source": "./Book 3 Images/tp_neverarrived.png"
+  },
+  {
+    "id": "cvdroom_assessment_registry",
+    "file": "cvdroom_assessment_registry.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Assessment & Registry.png"
+  },
+  {
+    "id": "cvdroom_cattery",
+    "file": "cvdroom_cattery.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Cattery.png"
+  },
+  {
+    "id": "cvdroom_containment_reintegration",
+    "file": "cvdroom_containment_reintegration.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/CONTAINMENT & REINTEGRATION.png"
+  },
+  {
+    "id": "cvdroom_field_operations_floor",
+    "file": "cvdroom_field_operations_floor.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/FIELD OPERATIONS FLOOR.png"
+  },
+  {
+    "id": "cvdroom_internal_affairs_audit",
+    "file": "cvdroom_internal_affairs_audit.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/INTERNAL AFFAIRS & AUDIT.png"
+  },
+  {
+    "id": "cvdroom_laboratory",
+    "file": "cvdroom_laboratory.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Laboratory.png"
+  },
+  {
+    "id": "cvdroom_mirror_room",
+    "file": "cvdroom_mirror_room.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Mirror room.png"
+  },
+  {
+    "id": "cvdroom_resting_room",
+    "file": "cvdroom_resting_room.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Resting room.png"
+  },
+  {
+    "id": "cvdroom_room_of_artifacts",
+    "file": "cvdroom_room_of_artifacts.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Room of artifacts.png"
+  },
+  {
+    "id": "cvdroom_sigil_room",
+    "file": "cvdroom_sigil_room.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Sigil room.png"
+  },
+  {
+    "id": "cvdroom_special_cases",
+    "file": "cvdroom_special_cases.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/Special cases.png"
+  },
+  {
+    "id": "cvdroom_the_armory",
+    "file": "cvdroom_the_armory.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE ARMORY.png"
+  },
+  {
+    "id": "cvdroom_the_classification_board",
+    "file": "cvdroom_the_classification_board.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE CLASSIFICATION BOARD.png"
+  },
+  {
+    "id": "cvdroom_the_cultivation_room",
+    "file": "cvdroom_the_cultivation_room.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE CULTIVATION ROOM.png"
+  },
+  {
+    "id": "cvdroom_the_dispatch_center",
+    "file": "cvdroom_the_dispatch_center.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE DISPATCH CENTER.png"
+  },
+  {
+    "id": "cvdroom_the_preparation_room",
+    "file": "cvdroom_the_preparation_room.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE PREPARATION ROOM.png"
+  },
+  {
+    "id": "cvdroom_the_records_archive",
+    "file": "cvdroom_the_records_archive.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/THE RECORDS ARCHIVE - add as cover maybe.png"
+  },
+  {
+    "id": "cvdroom_training_hall",
+    "file": "cvdroom_training_hall.png",
+    "category": "cvd_room",
+    "subject": null,
+    "source": "./CVD Locations/TRAINING HALL.png"
+  },
+  {
+    "id": "char_fujimoto-kenji-abe-takes",
+    "file": "char_fujimoto-kenji-abe-takes.png",
+    "category": "portrait",
+    "subject": "fujimoto-kenji-abe-takes",
+    "source": "./Missing characters v1/Fujimoto : Abe.png"
+  },
+  {
+    "id": "char_fujiwara-kage-sena",
+    "file": "char_fujiwara-kage-sena.png",
+    "category": "portrait",
+    "subject": "fujiwara-kage-sena",
+    "source": "./Missing characters v1/Fujiwara-Kage Sena.png"
+  },
+  {
+    "id": "char_inoue-misaki",
+    "file": "char_inoue-misaki.png",
+    "category": "portrait",
+    "subject": "inoue-misaki",
+    "source": "./Missing characters v2/Inoue Misaki.png"
+  },
+  {
+    "id": "char_kuroda-sei",
+    "file": "char_kuroda-sei.png",
+    "category": "portrait",
+    "subject": "kuroda-sei",
+    "source": "./Missing characters v1/Kuroda Sei.png"
+  },
+  {
+    "id": "char_mochizuki-sora",
+    "file": "char_mochizuki-sora.png",
+    "category": "portrait",
+    "subject": "mochizuki-sora",
+    "source": "./Missing characters v1/Mochizuki Sora.png"
+  },
+  {
+    "id": "char_moriya-tatsuki",
+    "file": "char_moriya-tatsuki.png",
+    "category": "portrait",
+    "subject": "moriya-tatsuki",
+    "source": "./Missing characters v1/Moriya Tatsuki.png"
+  },
+  {
+    "id": "char_tanaka-ryu",
+    "file": "char_tanaka-ryu.png",
+    "category": "portrait",
+    "subject": "tanaka-ryu",
+    "source": "./Missing characters v2/Tanaka Ryu.png"
+  },
+  {
+    "id": "char_tanizaki-seiichi",
+    "file": "char_tanizaki-seiichi.png",
+    "category": "portrait",
+    "subject": "tanizaki-seiichi",
+    "source": "./Missing characters v1/Tanizaki Seiichi.png"
+  },
+  {
+    "id": "char_tendo-akira",
+    "file": "char_tendo-akira.png",
+    "category": "portrait",
+    "subject": "tendo-akira",
+    "source": "./Missing characters v1/Tendo Akira.png"
+  },
+  {
+    "id": "char_uehara",
+    "file": "char_uehara.png",
+    "category": "portrait",
+    "subject": "uehara",
+    "source": "./Missing characters v1/Uehara.png"
+  },
+  {
+    "id": "char_usami-hinata-ren",
+    "file": "char_usami-hinata-ren.png",
+    "category": "portrait",
+    "subject": "usami-hinata-ren",
+    "source": "./Missing characters v2/Usami Hinata : Ren.png"
+  },
+  {
+    "id": "char_yamamoto-koji",
+    "file": "char_yamamoto-koji.png",
+    "category": "portrait",
+    "subject": "yamamoto-koji",
+    "source": "./Missing characters v1/Yamamoto Koji.png"
+  },
+  {
+    "id": "thirteen_III_sasaki_kei",
+    "file": "thirteen_III_sasaki_kei.png",
+    "category": "thirteen",
+    "subject": "III",
+    "source": "./thirteen_better/Sasaki_Kei.png"
+  },
+  {
+    "id": "thirteen_II_mori_takao",
+    "file": "thirteen_II_mori_takao.png",
+    "category": "thirteen",
+    "subject": "II",
+    "source": "./thirteen_better/Mori_Takao.png"
+  },
+  {
+    "id": "thirteen_IV_nakashima_yuna",
+    "file": "thirteen_IV_nakashima_yuna.png",
+    "category": "thirteen",
+    "subject": "IV",
+    "source": "./thirteen_better/Nakashima_Yuna.png"
+  },
+  {
+    "id": "thirteen_IX_inoue_satoru",
+    "file": "thirteen_IX_inoue_satoru.png",
+    "category": "thirteen",
+    "subject": "IX",
+    "source": "./thirteen_better/Inoue_Satoru.png"
+  },
+  {
+    "id": "thirteen_I_asakura_mio",
+    "file": "thirteen_I_asakura_mio.png",
+    "category": "thirteen",
+    "subject": "I",
+    "source": "./thirteen_better/Asakura_Mio.png"
+  },
+  {
+    "id": "thirteen_VIII_kobayashi_emi",
+    "file": "thirteen_VIII_kobayashi_emi.png",
+    "category": "thirteen",
+    "subject": "VIII",
+    "source": "./thirteen_better/Kobayashi_Emi.png"
+  },
+  {
+    "id": "thirteen_VI_watanabe_jun",
+    "file": "thirteen_VI_watanabe_jun.png",
+    "category": "thirteen",
+    "subject": "VI",
+    "source": "./thirteen_better/Watanabe_Jun.png"
+  },
+  {
+    "id": "thirteen_V_chen_lian",
+    "file": "thirteen_V_chen_lian.png",
+    "category": "thirteen",
+    "subject": "V",
+    "source": "./thirteen_better/Chen_Lian.png"
+  },
+  {
+    "id": "thirteen_XI_park_junho",
+    "file": "thirteen_XI_park_junho.png",
+    "category": "thirteen",
+    "subject": "XI",
+    "source": "./thirteen_better/Park_Junho.png"
+  },
+  {
+    "id": "thirteen_X_fujiwara_natsumi",
+    "file": "thirteen_X_fujiwara_natsumi.png",
+    "category": "thirteen",
+    "subject": "X",
+    "source": "./thirteen_better/Fujiwara_Natsumi.png"
+  },
+  {
+    "id": "animal_cat",
+    "file": "animal_cat.png",
+    "category": "animal",
+    "subject": "cat",
+    "source": "Animals and the veil/Cat.png"
+  },
+  {
+    "id": "animal_crow",
+    "file": "animal_crow.png",
+    "category": "animal",
+    "subject": "crow",
+    "source": "Animals and the veil/Crow.png"
+  },
+  {
+    "id": "animal_dog",
+    "file": "animal_dog.png",
+    "category": "animal",
+    "subject": "dog",
+    "source": "Animals and the veil/Dog.png"
+  },
+  {
+    "id": "animal_rats",
+    "file": "animal_rats.png",
+    "category": "animal",
+    "subject": "rats",
+    "source": "Animals and the veil/Rats.png"
+  },
+  {
+    "id": "animal_snake_venom",
+    "file": "animal_snake_venom.png",
+    "category": "animal",
+    "subject": "snake_venom",
+    "source": "Animals and the veil/Snake-Venom.png"
+  },
+  {
+    "id": "animal_snake",
+    "file": "animal_snake.png",
+    "category": "animal",
+    "subject": "snake",
+    "source": "Animals and the veil/Snake.png"
+  },
+  {
+    "id": "animal_toad",
+    "file": "animal_toad.png",
+    "category": "animal",
+    "subject": "toad",
+    "source": "Animals and the veil/Toad.png"
+  },
+  {
+    "id": "thirteen_VII_tanaka_haru",
+    "file": "thirteen_VII_tanaka_haru.png",
+    "category": "thirteen",
+    "subject": "VII",
+    "source": "thirteen_better/Tanaka_Haru.png"
+  },
+  {
+    "id": "thirteen_XII_yamamoto_shin",
+    "file": "thirteen_XII_yamamoto_shin.png",
+    "category": "thirteen",
+    "subject": "XII",
+    "source": "thirteen_better/Yamamoto_Shin.png"
+  },
+  {
+    "id": "npc_mariko",
+    "file": "npc_mariko.png",
+    "category": "portrait",
+    "subject": "npc_mariko",
+    "source": "npc_mariko.png"
+  },
+  {
+    "id": "npc_goto",
+    "file": "npc_goto.png",
+    "category": "portrait",
+    "subject": "npc_goto",
+    "source": "npc_goto.png"
+  },
+  {
+    "id": "npc_kuroki",
+    "file": "npc_kuroki.png",
+    "category": "portrait",
+    "subject": "npc_kuroki",
+    "source": "npc_kuroki.png"
+  },
+  {
+    "id": "npc_yua",
+    "file": "npc_yua.png",
+    "category": "portrait",
+    "subject": "npc_yua",
+    "source": "npc_yua.png"
+  },
+  {
+    "id": "npc_hara_setsu",
+    "file": "npc_hara_setsu.png",
+    "category": "portrait",
+    "subject": "npc_hara_setsu",
+    "source": "npc_hara_setsu.png"
+  },
+  {
+    "id": "npc_ito",
+    "file": "npc_ito.png",
+    "category": "portrait",
+    "subject": "npc_ito",
+    "source": "npc_ito.png"
+  },
+  {
+    "id": "npc_serizawa",
+    "file": "npc_serizawa.png",
+    "category": "portrait",
+    "subject": "npc_serizawa",
+    "source": "npc_serizawa.png"
+  },
+  {
+    "id": "npc_kaneda",
+    "file": "npc_kaneda.png",
+    "category": "portrait",
+    "subject": "npc_kaneda",
+    "source": "npc_kaneda.png"
+  },
+  {
+    "id": "npc_beckman",
+    "file": "npc_beckman.png",
+    "category": "portrait",
+    "subject": "npc_beckman",
+    "source": "npc_beckman.png"
+  },
+  {
+    "id": "npc_wada",
+    "file": "npc_wada.png",
+    "category": "portrait",
+    "subject": "npc_wada",
+    "source": "npc_wada.png"
+  },
+  {
+    "id": "npc_endo",
+    "file": "npc_endo.png",
+    "category": "portrait",
+    "subject": "npc_endo",
+    "source": "npc_endo.png"
+  }
+]

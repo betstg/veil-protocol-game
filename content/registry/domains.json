@@ -1,0 +1,136 @@
+{
+ "_note": "Canonical Thirteen Domains registry, from the Warden Book Domain Registry. Domain XIII (Duty) is the campaign keystone, vacant since 2009.",
+ "axis": "The Axis (X. the Architect): was human, holds the membrane shut; the Thirteen each carry one register so he need not hold them alone. Domain XIII Duty has no holder; the Axis carries it directly and is overstretched.",
+ "domains": [
+  {
+   "numeral": "I",
+   "domain": "Grief",
+   "emotion": "Grief",
+   "holder": "Asakura Mio",
+   "holder_status": "Asakura Mio",
+   "location": "Kyoto",
+   "status": "Stable",
+   "pack": "content/domains/i-grief.js"
+  },
+  {
+   "numeral": "II",
+   "domain": "Rage",
+   "emotion": "Rage",
+   "holder": "Mori Takao",
+   "holder_status": "Mori Takao",
+   "location": "Tokyo (hard to find)",
+   "status": "Under pressure",
+   "pack": "content/domains/ii-rage.js"
+  },
+  {
+   "numeral": "III",
+   "domain": "Love",
+   "emotion": "Love",
+   "holder": "Sasaki Kei",
+   "holder_status": "Sasaki Kei",
+   "location": "Tokyo",
+   "status": "Stable",
+   "pack": "content/domains/iii-love.js"
+  },
+  {
+   "numeral": "IV",
+   "domain": "Fear",
+   "emotion": "Fear",
+   "holder": "Nakashima Yuna",
+   "holder_status": "Nakashima Yuna",
+   "location": "Tokyo",
+   "status": "Under pressure",
+   "pack": "content/domains/iv-fear.js"
+  },
+  {
+   "numeral": "V",
+   "domain": "Wonder",
+   "emotion": "Wonder",
+   "holder": "Chen Lian",
+   "holder_status": "Chen Lian",
+   "location": "Tokyo (Grid Archive)",
+   "status": "Stable",
+   "pack": "content/domains/v-wonder.js"
+  },
+  {
+   "numeral": "VI",
+   "domain": "Despair",
+   "emotion": "Despair",
+   "holder": "Watanabe Jun",
+   "holder_status": "Watanabe Jun",
+   "location": "Variable",
+   "status": "Weakening",
+   "pack": "content/domains/vi-despair.js"
+  },
+  {
+   "numeral": "VII",
+   "domain": "Joy",
+   "emotion": "Joy",
+   "holder": "Hoshino Haru",
+   "holder_status": "Hoshino Haru",
+   "location": "Kita (Sakae St)",
+   "status": "Stable",
+   "pack": "content/domains/vii-joy.js"
+  },
+  {
+   "numeral": "VIII",
+   "domain": "Shame",
+   "emotion": "Shame",
+   "holder": "Kobayashi Emi",
+   "holder_status": "Kobayashi Emi",
+   "location": "Tokyo",
+   "status": "Stable",
+   "pack": "content/domains/viii-shame.js"
+  },
+  {
+   "numeral": "IX",
+   "domain": "Hunger",
+   "emotion": "Hunger",
+   "holder": "Inoue Satoru",
+   "holder_status": "Inoue Satoru",
+   "location": "No fixed location",
+   "status": "Under pressure",
+   "pack": "content/domains/ix-hunger.js"
+  },
+  {
+   "numeral": "X",
+   "domain": "Courage",
+   "emotion": "Courage",
+   "holder": "Fujiwara Natsumi",
+   "holder_status": "Fujiwara Natsumi",
+   "location": "Independent",
+   "status": "Stable",
+   "pack": "content/domains/x-courage.js"
+  },
+  {
+   "numeral": "XI",
+   "domain": "Longing",
+   "emotion": "Longing",
+   "holder": "Park Junho",
+   "holder_status": "Park Junho",
+   "location": "Shin-Okubo",
+   "status": "Under pressure",
+   "pack": "content/domains/xi-longing.js"
+  },
+  {
+   "numeral": "XII",
+   "domain": "Awe",
+   "emotion": "Awe",
+   "holder": "Kasumi Shin",
+   "holder_status": "Kasumi Shin",
+   "location": "Variable",
+   "status": "Stable",
+   "pack": "content/domains/xii-awe.js"
+  },
+  {
+   "numeral": "XIII",
+   "domain": "Duty",
+   "emotion": "Duty",
+   "holder": null,
+   "holder_status": "VACANT (since 2009)",
+   "location": "Kita district",
+   "status": "CRITICAL — membrane thinning",
+   "pack": "content/domains/xiii-duty.js"
+  }
+ ]
+}

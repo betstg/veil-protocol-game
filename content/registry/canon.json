@@ -1,0 +1,111 @@
+{
+ "_note": "Master canon lock, from Betty's full resume + the route-philosophy clarification + the Warden Book. Source of truth for the trigger, the five paths, the moral/outcome spectrum, the Axis mechanic, and the two-demon antagonist structure. Referenced by all corpus packs.",
+ "trigger": {
+  "what": "Gin, Rei's beloved older brother, a CVD field investigator, goes missing (in truth: gradually possessed by Yushiro, the Duty demon).",
+  "role": "The trigger and onboarding spine, NOT a cage. Searching for Gin is what pulls Rei across the threshold into the hidden world. The brother thread runs THROUGH every route; it is never fully abandoned, but it stops being the only thing.",
+  "turn": "Once inside, many paths open. Rei follows his heart. He can pursue more than one, but not all, and one ending fires first."
+ },
+ "progression_philosophy": {
+  "follow_your_heart": "After entry, the five paths are open simultaneously as sandboxes. The player is not assigned a route; they drift toward the ones that match what they care about, and the Warden grows whichever they lean into.",
+  "moral_outcome_spectrum": "EVERY path can turn good or evil, and can work out or go terribly wrong. A route is not 'win/lose'; it is a space where the player's choices decide whether their aim is reached, and whether reaching it cost them their decency. The same faction yields a hero, a tyrant, or a tragedy.",
+  "one_ending_first": "Whichever path's central variable resolves earliest fires the ending. Late-game routes can be foreclosed by an earlier one closing."
+ },
+ "five_main_routes": [
+  {
+   "id": "thirteen",
+   "name": "The Thirteen Seats / Axis",
+   "aim": "Help structure the Veil alongside the balance-god and the Thirteen; take up a seat (Duty is vacant) and hold the membrane.",
+   "faction_toolkit": "content/factions/thirteen-axis.json",
+   "framework": "content/frameworks/domain-succession.json",
+   "outcomes": {
+    "noble_success": "Rei takes a seat well, steadies Kita, eases the Axis's burden, and finds Gin freed.",
+    "dark_success": "Rei takes a seat but corrupted, a holder turned toward the demon-case of his register, holding power instead of balance.",
+    "tragedy": "The seat resolves too late or wrong; Gin dies, or Rei dissolves reaching too far into the centre."
+   }
+  },
+  {
+   "id": "cvd",
+   "name": "The Directorate (CVD)",
+   "aim": "Help organize the mediums and arrest the dangerous ones, from inside the official body.",
+   "faction_toolkit": "content/factions/cvd.json",
+   "outcomes": {
+    "noble_success": "Rei reforms from within, protects the vulnerable, brings real threats to justice without becoming a cog.",
+    "dark_success": "Rei rises by becoming the institution's instrument, filing people away, sealing inconvenient truths (including his brother's).",
+    "tragedy": "The system grinds him down or scapegoats him; the bad ones he chased were protected from above all along."
+   }
+  },
+  {
+   "id": "tower",
+   "name": "The Tower Families",
+   "aim": "Help one of the five families command the CVD with resources and put mediums into proper training under that family's flag.",
+   "faction_toolkit": "content/factions/tower.json",
+   "outcomes": {
+    "noble_success": "A patronage that genuinely trains and shelters mediums; old money spent well; Rei gains reach without a leash.",
+    "dark_success": "Rei becomes a family's enforcer; mediums become assets under a flag; the CVD becomes a tool of dynastic power.",
+    "tragedy": "He is spent like a debt, bled for a name (as Itsuki can be), and discarded when no longer useful."
+   }
+  },
+  {
+   "id": "brother",
+   "name": "Find Your Brother / Stop the Cult",
+   "aim": "Save Gin and stop the cult-demon whose ascension to Inverted God would start a war.",
+   "faction_toolkit": "content/factions/cult.json",
+   "framework": "content/frameworks/possession-rescue.json",
+   "outcomes": {
+    "noble_success": "Gin is freed (damaged but present), the Inverted God is denied its ascent, the war is averted.",
+    "dark_success": "Rei stops the cult by means that make him its successor, or lets Yushiro win to save Gin, dropping the veil.",
+    "tragedy": "Gin dies; or the cult wins and the war between the 13 demons and the 13 mediums begins."
+   }
+  },
+  {
+   "id": "grid",
+   "name": "The Grid (Clandestine)",
+   "aim": "Help the Grid free the unregistered from the orders of the CVD and the tower families.",
+   "faction_toolkit": "content/factions/grid.json",
+   "outcomes": {
+    "noble_success": "A real underground that keeps the unseen safe and self-governing; Rei earns trust paid in action.",
+    "dark_success": "The Grid becomes another power with its own coercions; liberation curdles into a different cage.",
+    "tragedy": "A sweep, a betrayal, a debt called in; the people who survive by being unseen are made very findable."
+   }
+  }
+ ],
+ "axis": {
+  "what": "The balance-god. A human who unlocked and MAXED all six psychic paths (telekinesis, telepathy, clairsentience, psychokinesis, psychometabolism, teleportation). No one knows having more than one path open is even possible.",
+  "mc_link": "Rei was born with TWO paths already unlocked, so he alone suspects the Axis must once have been human and multi-path.",
+  "behavior_default": "Stands at the centre as near-pure light, back to the world, whole attention on the wall, fixing the veil only where it breaks. Not asleep: bonded to the task the way a hand is bonded to a weight.",
+  "beyond_the_veil": "The player can travel beyond the veil and speak to the Axis. He answers, then shoves the player away with traces of uncontrollable abilities the player does not yet possess.",
+  "unlock_condition": "Only once the player reaches Level 5 in ALL six abilities does the Axis stop shoving them away.",
+  "the_turn": "Then, little by little, he remembers he was human and STOPS being mere balance. He begins absorbing all the strong, multi-path humans who make the passage, and begins to actually care for his world again. This is the cosmic danger the campaign edges toward but must never quite touch."
+ },
+ "two_demon_structure": {
+  "yushiro": {
+   "register": "Duty (XIII)",
+   "host": "Gin",
+   "goal": "Discharge an interrupted duty; willing to drop the veil and merge living and dead to do it. Hunting the Inverted-God aspirant.",
+   "not": "Does not want power or the Axis."
+  },
+  "inverted_god_aspirant": {
+   "role": "A higher demon running a human cult (the Far-Shore Circle / Higan-kai lineage) in the living world, feeding to become the Inverted God: the dark mirror of the Axis.",
+   "conflict": "Yushiro is trying to kill it before it ascends. The player is caught between them.",
+   "if_it_wins": "Open war between the 13 demons and the 13 strongest mediums."
+  }
+ },
+ "systems": {
+  "phone": "Free-form chat with any NPC; the AI Warden answers in the NPC's voice and steers the player back toward the mission.",
+  "battles": "RPG-style combat against demons, spirits, and possessed humans, resolved on Stability / Noise / Madness + dice pool.",
+  "abilities": "Six psychic paths, levels 1-9. L1-3 by XP advancement, L4+ by narrative unlock. Multi-path is the secret the MC embodies.",
+  "endings_examples": [
+   "Become one of the Thirteen AND find your brother (freed, damaged but present).",
+   "Become one of the Thirteen and your brother dies.",
+   "Cult wins: open war between the 13 demons and the 13 strongest mediums."
+  ]
+ },
+ "protagonist": {
+  "name": "Uedera Rei",
+  "age": 19,
+  "note": "Born with TWO psychic paths unlocked (the forbidden multi-path). Registered D, actual Arbiter approaching Vanguard, suppression running. The trigger for the whole story is his missing brother Gin."
+ },
+ "special_cases": {
+  "usami_ren_mindswap": "Usami Hinata (human host) and Ren (Class C demon, Love register 恋) underwent a MUTUAL MIND-SWAP: each consciousness now lives in the other body. The body presenting as Usami carries one mind, the demon-side the other. Romanceable as an adult; the swap is the core of their character and personal quest. (Replaces the earlier dead-vessel framing.)"
+ }
+}
