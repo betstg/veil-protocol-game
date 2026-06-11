@@ -580,7 +580,7 @@ function renderScene(){
 }
 // When the all-in-one server hosts the game (port 8787) the AI is same-origin (no CORS, nothing stale).
 // Falls back to the standalone proxy for the old two-server / file:// setup.
-var GM_ENDPOINT=(location.protocol.indexOf('http')===0 && location.port==='8787')?'':((location.protocol.indexOf('http')===0)?'/api':'http://localhost:8787');
+var GM_ENDPOINT=(location.protocol.indexOf('http')===0 && location.port==='8787')?'':((location.protocol.indexOf('http')===0)?'https://veil-protocol-game.betsstg.workers.dev':'http://localhost:8787');
 var AI_OK=null, AI_HEALTH=null;
 function aiBanner(){var b=document.getElementById('aibanner');if(!b)return;var msg='';
  if(AI_OK===null){b.innerHTML='';return;}

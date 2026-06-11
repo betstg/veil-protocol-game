@@ -1,0 +1,6 @@
+{
+  "name": "veil-protocol-game",
+  "main": "worker-warden.js",
+  "compatibility_date": "2024-12-01",
+  "observability": { "enabled": true }
+}
