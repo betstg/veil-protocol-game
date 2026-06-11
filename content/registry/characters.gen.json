@@ -1,0 +1,2126 @@
+[
+ {
+  "id": "rei",
+  "name": "Uedera Rei, 植寺 零",
+  "sub": "Entry Point: The Suppressed / Campaign: The Kita Archive / Archive Found",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 100,
+    "who": "Uedera GinYounger brother. Everything in the archive is for him; the keychain was the first message."
+   },
+   {
+    "with": "shimizu_ren",
+    "value": 33,
+    "who": "Shimizu RenKnows Rei by name, no direct contact yet"
+   },
+   {
+    "with": "nakamura_aoi",
+    "value": 33,
+    "who": "Nakamura Aoi(Rei track start)"
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 33,
+    "who": "Katagiri Noa(Rei track start)"
+   },
+   {
+    "with": "okada_shizuka",
+    "value": 33,
+    "who": "Okada Shizuka(Rei track start)"
+   },
+   {
+    "with": "tendo",
+    "value": 33,
+    "who": "Tendo Akira(Rei track start)"
+   },
+   {
+    "with": "kuroda_itsuki",
+    "value": 33,
+    "who": "Kuroda Itsuki(Rei track start)"
+   },
+   {
+    "with": "hagiwara_mizuki",
+    "value": 33,
+    "who": "Hagiwara MizukiA registered nobody who keeps turning up where the data says no one should be. A loose thread... to be recruited, audite"
+   },
+   {
+    "with": "usami_ren",
+    "value": 33,
+    "who": "Usami HinataTrack 0. Ren reads his register accurately from first contact. The read is warm. He decides what to do with it, and what"
+   },
+   {
+    "with": "kato_ryusei",
+    "value": 0,
+    "who": "Kato Ryusei(Rei track start)"
+   },
+   {
+    "with": "tsukishiro",
+    "value": 0,
+    "who": "Tsukishiro Haruki(Rei track start)"
+   },
+   {
+    "with": "moriya",
+    "value": 0,
+    "who": "Moriya Tatsuki(Rei track start)"
+   },
+   {
+    "with": "adachi",
+    "value": 0,
+    "who": "Director Adachi Kenshin(Rei track start)"
+   },
+   {
+    "with": "yamamoto",
+    "value": 0,
+    "who": "Yamamoto Koji(Rei track start)"
+   },
+   {
+    "with": "choi_hana",
+    "value": -33,
+    "who": "Choi Hana(Rei track start)"
+   },
+   {
+    "with": "fujiwarakage",
+    "value": -67,
+    "who": "Fujiwara-Kage Sena(Rei track start)"
+   },
+   {
+    "with": "kuroda_sei",
+    "value": -67,
+    "who": "Kuroda Sei(Rei track start)"
+   },
+   {
+    "with": "kishin",
+    "value": -67,
+    "who": "Fukai RinkaHostile by default. Rei is Yushiro’s anchor and the one person walking toward Gin instead of away. Kishin would rather r"
+   }
+  ]
+ },
+ {
+  "id": "hagiwara_mizuki",
+  "name": "Hagiwara Mizuki, &#33806;&#21407; &#32654;&#26376;... Director of Public Confidence",
+  "sub": "51 / F / CVD... Director, Office of Public Confidence (external relations) / no field rank... a faint, suppressed sensitivity she has spent her life refusing / Entry: The CVD / Antagonist... institutional",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiA registered nobody who keeps turning up where the data says no one should be. A loose thread... to be recruited, audite"
+   },
+   {
+    "with": "adachi",
+    "value": 33,
+    "who": "Director Adachi KenshinHer opposite number; the conscience she has out-funded. He is the door to the President, if Rei can move him."
+   }
+  ]
+ },
+ {
+  "id": "kishin",
+  "name": "Fukai Rinka / Kishin, &#28145;&#20117; &#20940;&#39321;... &ldquo;Kanna-sensei&rdquo;, &#39740;&#31070;",
+  "sub": "Host body 38 / F / Host: Fukai Rinka, registered clairsentient, consumed 2012 / Kishin: top-grade demon, despair-register, uncontracted / fronts as guide of the Far-Shore Circle (Higan-kai) / Entry: The Entity Cults / Primary Antagonist",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "yushiro",
+    "value": 33,
+    "who": "YushiroShe knows Yushiro means to absorb her to kill her, and that he needs Gin’s body to do it on this side. She is not yet af"
+   },
+   {
+    "with": "rei",
+    "value": -67,
+    "who": "Uedera ReiHostile by default. Rei is Yushiro’s anchor and the one person walking toward Gin instead of away. Kishin would rather r"
+   }
+  ]
+ },
+ {
+  "id": "gin",
+  "name": "Uedera Gin, &#19978;&#26543; &#37528;",
+  "sub": "28 / M / CVD Field Investigator (nominally) / Vanguard suppressed as Ritualist C / Kita District / Not playable",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 100,
+    "who": "Uedera ReiYounger brother. Everything in the archive is for him; the keychain was the first message."
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 100,
+    "who": "Katagiri NoaTwo years adjacent. She was in love with him."
+   },
+   {
+    "with": "tanizaki",
+    "value": 67,
+    "who": "Tanizaki SeiichiThirty years. The contact who shaped his field practice more than any other."
+   },
+   {
+    "with": "okada_shizuka",
+    "value": 67,
+    "who": "Okada ShizukaCarried a confidence of his for four years and never filed it."
+   },
+   {
+    "with": "nakamura_aoi",
+    "value": 67,
+    "who": "Nakamura AoiColleague, two years. She noticed the absence. It is the wrong shape."
+   },
+   {
+    "with": "tsukishiro",
+    "value": 67,
+    "who": "Tsukishiro HarukiTwo years, occasional cases. Respected him with specificity. The absence is a data point he is sitting with."
+   },
+   {
+    "with": "adachi",
+    "value": 67,
+    "who": "Director Adachi KenshinTwenty years of professional relationship. He should have reached out before Gin disappeared. He did not, because he was"
+   },
+   {
+    "with": "yamamoto",
+    "value": 67,
+    "who": "Yamamoto KojiKnew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,"
+   },
+   {
+    "with": "tendo",
+    "value": 67,
+    "who": "Tendo AkiraKnew him professionally, adjacent cases, three years. Respected the fieldwork. The absence is a thing he has been tracki"
+   },
+   {
+    "with": "kato_ryusei",
+    "value": 33,
+    "who": "Kato RyuseiColleague, one year overlap. Respected him. The absence is a thing he has been thinking about with precision."
+   },
+   {
+    "with": "fujiwarakage",
+    "value": 33,
+    "who": "Fujiwara-Kage SenaKnew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r"
+   },
+   {
+    "with": "moriya",
+    "value": 33,
+    "who": "Moriya TatsukiHas been reading the absence as a data point. Has not filed it yet."
+   },
+   {
+    "with": "usami_ren",
+    "value": 33,
+    "who": "Usami HinataNo prior contact. His Register Read is 10m; the demon is three districts away. His value is the conversation he can have"
+   },
+   {
+    "with": "shimizu_ren",
+    "value": 33,
+    "who": "Shimizu RenProfessional and specific respect. The absence is a thing she has been carrying without acknowledging."
+   },
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaKnew him by Grid reputation, one direct coordination. Professional respect. His absence worries her."
+   },
+   {
+    "with": "kuroda_sei",
+    "value": 33,
+    "who": "Kuroda SeiKnew him by district reputation. The Kuroda family has an opinion about Gin that is not entirely negative."
+   },
+   {
+    "with": "kuroda_itsuki",
+    "value": 33,
+    "who": "Kuroda ItsukiClose. Gin brings him food and good company; Itsuki illustrated the whole archive in thanks, never told what half of it"
+   },
+   {
+    "with": "kurosawa",
+    "value": 33,
+    "who": "Kurosawa ShouKnows him by reputation. Has not been near him since the disappearance."
+   }
+  ]
+ },
+ {
+  "id": "yushiro",
+  "name": "Yushiro, &#30290;&#22763;&#37070;... &lsquo;the Healer&rsquo;",
+  "sub": "Top-grade (Arbiter-class, pre-crossing) / Duty register... the charge he would not lay down / not a malign thing... it wants the veil open, not the city harmed / possessing Uedera Gin, and killing him by inches",
+  "entity": true,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "kishin",
+    "value": 33,
+    "who": "Fukai RinkaShe knows Yushiro means to absorb her to kill her, and that he needs Gin’s body to do it on this side. She is not yet af"
+   }
+  ]
+ },
+ {
+  "id": "nakamura_aoi",
+  "name": "Nakamura Aoi, &#20013;&#26449; &#33909;",
+  "sub": "20 / F / CVD Trainee, 2nd year / Channel... Psychokinesis L4 / Entry: The Registered Practitioner / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinColleague, two years. She noticed the absence. It is the wrong shape."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Gin spoke about him. She already has a shape for who he is."
+   },
+   {
+    "with": "shimizu_ren",
+    "value": 33,
+    "who": "Shimizu RenColleagues. She finds Shimizu intimidating and would not say so."
+   },
+   {
+    "with": "kato_ryusei",
+    "value": 33,
+    "who": "Kato RyuseiColleagues. The sharpness softens around her... he has not noticed this yet."
+   },
+   {
+    "with": "kawai_yuki",
+    "value": 33,
+    "who": "Kawai Yuki+1. Buys bread after a bad shift; always a kind word."
+   }
+  ]
+ },
+ {
+  "id": "kato_ryusei",
+  "name": "Kato Ryusei, &#21152;&#34276; &#40845;&#26143;",
+  "sub": "21 / M / CVD Trainee, 2nd year / Ritualist... Telepathy L3 / Tower-adjacent / Entry: The Registered Practitioner / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Gin mentioned him specifically. Cautious, genuine interest."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinColleague, one year overlap. Respected him. The absence is a thing he has been thinking about with precision."
+   },
+   {
+    "with": "nakamura_aoi",
+    "value": 33,
+    "who": "Nakamura AoiColleagues. The sharpness softens around her... he has not noticed this yet."
+   }
+  ]
+ },
+ {
+  "id": "katagiri_noa",
+  "name": "Katagiri Noa, &#29255;&#26690; &#20039;&#20124;",
+  "sub": "38 / F / CVD Investigation, senior / Channel... Clairsentience L5 / Entry: The Registered Practitioner / Track +1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 100,
+    "who": "Uedera GinTwo years, adjacent cases. She was in love with him. She has not said so to anyone."
+   },
+   {
+    "with": "adachi",
+    "value": 67,
+    "who": "Director Adachi KenshinProfessional trust, sixteen years."
+   },
+   {
+    "with": "fujiwarakage",
+    "value": 67,
+    "who": "Fujiwara-Kage SenaThe eight months are in the room, unspoken. Two years ago. Ended because the institutional conflict made it untenable. N"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack +1. She chose to notice him. Gin spoke about him; the recognition was confirmed."
+   },
+   {
+    "with": "shimizu_ren",
+    "value": 33,
+    "who": "Shimizu RenColleagues, mutual respect. Noa picks up what Shimizu cannot officially touch."
+   },
+   {
+    "with": "okada_shizuka",
+    "value": 33,
+    "who": "Okada ShizukaColleagues. They coordinate on Kita cases without institutional documentation."
+   },
+   {
+    "with": "hara_setsu",
+    "value": 33,
+    "who": "Hara Setsu+1. Comes to thaw out; Setsu feeds her."
+   }
+  ]
+ },
+ {
+  "id": "tsukishiro",
+  "name": "Tsukishiro Haruki, &#26376;&#22478; &#36965;&#27193;",
+  "sub": "31 / M / Independent investigator, Grid-adjacent / Ritualist... Clairsentience L4 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinTwo years, occasional cases. Respected him with specificity. The absence is a data point he is sitting with."
+   },
+   {
+    "with": "serizawa",
+    "value": 67,
+    "who": "Serizawa+2. Has served the family man and boy."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Gin spoke about him several times. Warm interest, no preconditions."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiWorked together directly. Mutual trust, low frequency."
+   }
+  ]
+ },
+ {
+  "id": "fujiwarakage",
+  "name": "Fujiwara-Kage Sena, &#34276;&#21407;&#24433; &#26143;&#22856;",
+  "sub": "24 / F / CVD Auditor / Fujiwara-Kage Tower Family / Channel... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "katagiri_noa",
+    "value": 67,
+    "who": "Katagiri NoaThe eight months are in the room, unspoken. Two years ago. Ended because the institutional conflict made it untenable. N"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack -2. Default institutional threat assessment, not personal... he is CVD-adjacent without institutional protection,"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r"
+   }
+  ]
+ },
+ {
+  "id": "moriya",
+  "name": "Moriya Tatsuki, &#23432;&#23627; &#36948;&#27193;",
+  "sub": "35 / M / CVD Internal Affairs / Channel... Psychometabolism L5 / Entry: The Institutional Enforcer / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "adachi",
+    "value": 67,
+    "who": "Director Adachi KenshinSixteen years. The director knows Moriya keeps accurate records."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. He knows Gin vouched for Rei and has noted it in his internal file. Watching with professional neutrality."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinHas been reading the absence as a data point. Has not filed it yet."
+   },
+   {
+    "with": "tatsu",
+    "value": 33,
+    "who": "‘Tatsu’+1. The operative who tells more over ramen than across his desk."
+   }
+  ]
+ },
+ {
+  "id": "fujimoto",
+  "name": "Fujimoto Kenji / Abe Takeshi, &#34276;&#26412; &#20581;&#20108; / &#38463;&#37096; &#27494;",
+  "sub": "33 (Kenji) / M / Vessel Program... voluntary cohabitation / Abe: spirit, ~8 yrs deceased / Grid-adjacent",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "rev_egami_jaku",
+    "value": 33,
+    "who": "Rev. Egami Jakū+1. They argue doctrine for hours."
+   },
+   {
+    "with": "the_bookseller",
+    "value": 33,
+    "who": "‘The Bookseller’+1. They argue provenance for hours."
+   }
+  ]
+ },
+ {
+  "id": "usami_ren",
+  "name": "Usami Hinata / Ren, &#23431;&#20304;&#35211; &#26085;&#21521; {Usa-kun}",
+  "sub": "24 / M (host body) / Vessel Program... Usami Hinata, host, deceased / Ren: Class C demon, love-register, contracted / Ritualist / Entry: The Vessel Program / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Ren reads his register accurately from first contact. The read is warm. He decides what to do with it, and what"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinNo prior contact. His Register Read is 10m; the demon is three districts away. His value is the conversation he can have"
+   }
+  ]
+ },
+ {
+  "id": "ren",
+  "name": "Ren, &#24651;... the Contracted",
+  "sub": "Class C demon / Love register (&#24651;) / Contracted to the Usami vessel / No body of its own",
+  "entity": true,
+  "romanceable": false,
+  "relationships": []
+ },
+ {
+  "id": "okada_shizuka",
+  "name": "Okada Shizuka, &#23713;&#30000; &#38745;",
+  "sub": "32 / F / CVD Investigation / Ritualist... Clairsentience L4 (biographical variant) / Entry: The Registered Practitioner / Track +1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinFour years of adjacent cases. She has been carrying a confidence of his for four years. The weight is visible if you kno"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack +1. Gin told her specifically to watch for him. This is the first time she has been watching for someone rather th"
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 33,
+    "who": "Katagiri NoaColleagues. They coordinate on Kita cases without institutional documentation."
+   },
+   {
+    "with": "kawai_yuki",
+    "value": 33,
+    "who": "Kawai Yuki+1. The Saturday regular."
+   }
+  ]
+ },
+ {
+  "id": "adachi",
+  "name": "Director Adachi Kenshin, &#36275;&#31435; &#20581;&#24515;",
+  "sub": "56 / M / CVD Director, Northern Tokyo / Vanguard... Clairsentience L9 / Entry: The Institutional Enforcer / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinTwenty years of professional relationship. He should have reached out before Gin disappeared. He did not, because he was"
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 67,
+    "who": "Katagiri NoaSixteen years. He knows she knows more than she files."
+   },
+   {
+    "with": "moriya",
+    "value": 67,
+    "who": "Moriya TatsukiSixteen years. The director knows Moriya keeps accurate records."
+   },
+   {
+    "with": "uehara",
+    "value": 67,
+    "who": "UeharaFormer direct reporting relationship, fifteen years. The departure was not hostile. Complicated in the way of two people"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Knows exactly what Rei is from the first perception. Deciding the appropriate moment to say so."
+   },
+   {
+    "with": "kurosawa",
+    "value": 33,
+    "who": "Kurosawa ShouKnows him by Vanguard-range read. Has not said what he knows."
+   },
+   {
+    "with": "hagiwara_mizuki",
+    "value": 33,
+    "who": "Hagiwara MizukiHer opposite number; the conscience she has out-funded. He is the door to the President, if Rei can move him."
+   },
+   {
+    "with": "tendo",
+    "value": 33,
+    "who": "Tendo AkiraHis father’s institutional relationship is the factor. Adachi knows about the anomalous readings. Has not filed them. Ye"
+   },
+   {
+    "with": "serizawa",
+    "value": 33,
+    "who": "Serizawa+1. A standing usual; knows his real tells."
+   },
+   {
+    "with": "arai",
+    "value": 0,
+    "who": "Det. Sgt. Arai Goro0. The official liaison; Arai is the unofficial one."
+   }
+  ]
+ },
+ {
+  "id": "shimizu_ren",
+  "name": "Shimizu Ren, &#28165;&#27700; &#34030;",
+  "sub": "29 / F / CVD Suppression, field specialist / Channel... Telekinesis L6 / Entry: The Registered Practitioner / Track +1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack +1. Gin spoke about him specifically, at length, which is unusual. From the moment she gets his contact, she is in"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinProfessional and specific respect. The absence is a thing she has been carrying without acknowledging."
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 33,
+    "who": "Katagiri NoaColleagues, mutual respect. Noa picks up what Shimizu cannot officially touch."
+   },
+   {
+    "with": "nakamura_aoi",
+    "value": 33,
+    "who": "Nakamura AoiColleagues. She finds Shimizu intimidating and would not say so."
+   },
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō Masa+1. A regular he steers from the bad ones unnoticed."
+   }
+  ]
+ },
+ {
+  "id": "yamamoto",
+  "name": "Yamamoto Koji, &#23665;&#26412; &#24184;&#20108;",
+  "sub": "55 / M / Independent archivist / Vanguard... Clairsentience L9 / Entry: The Grid Operative / Track 0 (exchange model)",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinKnew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,"
+   },
+   {
+    "with": "sugimoto_tatsuya",
+    "value": 67,
+    "who": "Sugimoto Tatsuya+2. Trades history for company; brings soup and questions."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. The exchange model applies. Rei has something Yamamoto does not yet have... direct contact with a Class B Ambit"
+   },
+   {
+    "with": "the_bookseller",
+    "value": 33,
+    "who": "‘The Bookseller’+1. Two keepers who trade the unspeakable."
+   }
+  ]
+ },
+ {
+  "id": "tendo",
+  "name": "Tendo Akira, &#22825;&#31461; &#26126;",
+  "sub": "28 / M / CVD Field Operative / Arbiter... Psychokinesis L6 / Entry: The Registered Practitioner / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinKnew him professionally, adjacent cases, three years. Respected the fieldwork. The absence is a thing he has been tracki"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Gin spoke about him; Tendo paid attention. The anomalous readings make him specifically interested in practitio"
+   },
+   {
+    "with": "adachi",
+    "value": 33,
+    "who": "Director Adachi KenshinHis father’s institutional relationship is the factor. Adachi knows about the anomalous readings. Has not filed them. Ye"
+   },
+   {
+    "with": "hara_setsu",
+    "value": 33,
+    "who": "Hara Setsu+1. The only one who comes before dawn."
+   },
+   {
+    "with": "miyamoto_kazuo",
+    "value": 33,
+    "who": "Miyamoto Kazuo+1. Comes for the quiet; Miyamoto asks nothing."
+   },
+   {
+    "with": "tanabe_isamu",
+    "value": 0,
+    "who": "Tanabe Isamu0. The one operative who says thank you. Tanabe remembers."
+   }
+  ]
+ },
+ {
+  "id": "choi_hana",
+  "name": "Choi Hana, &#52572; &#54616;&#45208;",
+  "sub": "19 / F / Grid operative, unregistered / Arbiter... Clairsentience L6 / Entry: The Grid Operative / Track -1 (starts hostile)",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "pak_sun_ja",
+    "value": 67,
+    "who": "Pak Sun-ja+2. Hana’s grandmother’s tradition; Pak watches her like blood."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack -1. He’s connected to Gin. She is waiting to see if that is a reason to trust him or be more careful."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him by Grid reputation, one direct coordination. Professional respect. His absence worries her."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiOne of three Grid practitioners she trusts at +1 without preconditions."
+   },
+   {
+    "with": "kaneda",
+    "value": 33,
+    "who": "Kaneda Tōru+1. A regular he treats like a niece; watches who watches her."
+   },
+   {
+    "with": "mariko",
+    "value": 33,
+    "who": "“Mariko”+1. The one Grid contact she half-trusts."
+   },
+   {
+    "with": "tatsu",
+    "value": 33,
+    "who": "‘Tatsu’+1. The late regular; he keeps her usual."
+   },
+   {
+    "with": "endo_sumi",
+    "value": 33,
+    "who": "Endo Sumi+1. Hana reads the grief; Mrs. Endō tends it."
+   },
+   {
+    "with": "leo_sato",
+    "value": 0,
+    "who": "‘Leo’ (Sato)0. She read him in one glance; he cannot stop thinking about it."
+   },
+   {
+    "with": "mali",
+    "value": 0,
+    "who": "‘Mali’0. Respect across the Korean and Thai lines."
+   },
+   {
+    "with": "the_woman_at_the_back",
+    "value": 0,
+    "who": "‘The Woman at the Back’0. Suspects the truth, never pushed."
+   }
+  ]
+ },
+ {
+  "id": "kuroda_sei",
+  "name": "Kuroda Sei, &#40658;&#30000; &#26143;",
+  "sub": "22 / M / Kuroda Tower Family operative... unregistered / Ritualist... Teleportation L5 / Entry: The Grid Operative / Track -2",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "kuroda_itsuki",
+    "value": 100,
+    "who": "Kuroda ItsukiHis older brother. Estranged in the quiet way... not anger, distance and guilt. Itsuki got out; Sei stayed. Through Itsu"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack -2. The grievance is inherited... Rei is CVD-adjacent, the category the grievance applies to. Waiting to see if ac"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him by district reputation. The Kuroda family has an opinion about Gin that is not entirely negative."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiGrid-to-Grid. Neutral professional relationship."
+   },
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō Masa+1. Lets him lose himself inside on the worst nights."
+   }
+  ]
+ },
+ {
+  "id": "kuroda_itsuki",
+  "name": "Kuroda Itsuki, &#40658;&#30000; &#27193;",
+  "sub": "20 / M / Geidai oil-painting student... unregistered / Civilian (dormant Teleportation) / Entry: The Friend Through Screens / Track +1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "kuroda_sei",
+    "value": 100,
+    "who": "Kuroda SeiHis older brother. Estranged in the quiet way... not anger, distance and guilt. Itsuki got out; Sei stayed. Through Itsu"
+   },
+   {
+    "with": "rei",
+    "value": 67,
+    "who": "Uedera ReiTrack +1... best friend since school. Daily through screens; in person every couple of weeks. The one person who treats"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinClose. Gin brings him food and good company; Itsuki illustrated the whole archive in thanks, never told what half of it"
+   }
+  ]
+ },
+ {
+  "id": "kurosawa",
+  "name": "Kurosawa Shou, &#40658;&#27810; &#32724;",
+  "sub": "34 / M / Independent, Grid-adjacent / Vanguard... Psychometabolism L9 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "tanaka_ryu",
+    "value": 67,
+    "who": "Tanaka RyuThe operational relationship. Ryu follows Kurosawa’s read of a situation. Has for ten years."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. A Vanguard Psychometabolist who can read possession signatures on contact. He needs Rei to bring him to the pro"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnows him by reputation. Has not been near him since the disappearance."
+   },
+   {
+    "with": "adachi",
+    "value": 33,
+    "who": "Director Adachi KenshinTold him about the secondary path development. Nobody else knows."
+   },
+   {
+    "with": "inoue",
+    "value": 33,
+    "who": "Inoue MisakiThe operational relationship that makes her accessible. He knows what she can do; she respects that he does not talk abo"
+   },
+   {
+    "with": "old_tomi",
+    "value": 33,
+    "who": "Old Tomi+1. The courier who cuts through; Tomi lets him."
+   }
+  ]
+ },
+ {
+  "id": "tanizaki",
+  "name": "Tanizaki Seiichi, &#35895;&#23822; &#28165;&#19968;",
+  "sub": "61 / M / Retired Grid operative, safe-house keeper / Channel... Psychokinesis L6 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 67,
+    "who": "Uedera GinThirty years. The relationship that shaped Gin’s field practice more than any other single contact."
+   },
+   {
+    "with": "hara_setsu",
+    "value": 67,
+    "who": "Hara Setsu+2. Old friends; they sit without speaking."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Gin sent people to him before. Assessment begins. The tea means something... Rei should know what it means befo"
+   },
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaKnows her. One of three Grid practitioners she trusts without preconditions."
+   },
+   {
+    "with": "majima",
+    "value": 33,
+    "who": "Majima KenjiKnows him. One of the Grid practitioners he respects without qualification."
+   },
+   {
+    "with": "tsukishiro",
+    "value": 33,
+    "who": "Tsukishiro HarukiWorked together directly. Mutual trust, low frequency."
+   },
+   {
+    "with": "kuroda_sei",
+    "value": 33,
+    "who": "Kuroda SeiGrid-to-Grid. Neutral professional relationship."
+   },
+   {
+    "with": "mochizuki",
+    "value": 33,
+    "who": "Mochizuki SoraKnows him. He provided safe-house access for recovery-support operations. Professional and warm."
+   },
+   {
+    "with": "sugimoto_tatsuya",
+    "value": 33,
+    "who": "Sugimoto Tatsuya+1. Two old men who saw too much and stayed kind."
+   },
+   {
+    "with": "maruyama_toshio",
+    "value": 33,
+    "who": "Maruyama Toshio+1. Two quiet men keeping company in silence."
+   },
+   {
+    "with": "miyamoto_kazuo",
+    "value": 33,
+    "who": "Miyamoto Kazuo+1. Old men who kept the old ways."
+   }
+  ]
+ },
+ {
+  "id": "inoue",
+  "name": "Inoue Misaki, &#20117;&#19978; &#32654;&#21652;",
+  "sub": "27 / F / Independent... high-threshold only / Singularity... Psychokinesis L7 / Entry: The Grid Operative / Track 0 (via Kurosawa at +3)",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Accessible through Kurosawa at +3. Before that she knows he exists, has read his register from a distance, has"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinAware of his situation by Singularity-range read. Has not reported it. The reasons are her own."
+   },
+   {
+    "with": "kurosawa",
+    "value": 33,
+    "who": "Kurosawa ShouThe operational relationship that makes her accessible. He knows what she can do; she respects that he does not talk abo"
+   }
+  ]
+ },
+ {
+  "id": "tanaka_ryu",
+  "name": "Tanaka Ryu, &#30000;&#20013; &#40845;",
+  "sub": "36 / M / Independent... field support &amp; stability specialist / Vanguard... Psychometabolism L6 / Entry: The Grid Operative / Track 0 (via Kurosawa)",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "kurosawa",
+    "value": 67,
+    "who": "Kurosawa ShouThe operational relationship. Ryu follows Kurosawa’s read of a situation. Has for ten years."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. Accessible through Kurosawa. The read is neutral... Ryu assesses people through operations, not meetings."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him by Grid reputation, one case coordination. Respected the fieldwork. The absence is registered as a threat condi"
+   },
+   {
+    "with": "switch",
+    "value": 33,
+    "who": "‘Switch’+1. Calls him for security; mutual reliance."
+   },
+   {
+    "with": "old_maki",
+    "value": 33,
+    "who": "‘Old Maki’+1. Restocks the Grid’s kit here; Maki sets iron aside."
+   },
+   {
+    "with": "mori_haruto",
+    "value": 0,
+    "who": "Mori Haruto0. The Grid has clocked him; deciding whether to reach out."
+   }
+  ]
+ },
+ {
+  "id": "majima",
+  "name": "Majima Kenji, &#38291;&#23798; &#20581;&#20108;",
+  "sub": "41 / M / Grid independent, combat specialist / Vanguard... Telekinesis L7 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. The case reached him through the Grid network. Neutral assessment in progress."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him by Grid reputation and one direct case. Has noted the absence and assigned it a threat level."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiOne of the Grid practitioners he respects without qualification."
+   },
+   {
+    "with": "kaneda",
+    "value": 33,
+    "who": "Kaneda Tōru−1. Served him once. ‘Not again. He sells the people who drink here.’"
+   },
+   {
+    "with": "goto_hideki",
+    "value": 33,
+    "who": "Gotō Hideki+1. Regular customer, occasional partner."
+   },
+   {
+    "with": "yoshida_goro",
+    "value": 33,
+    "who": "Yoshida Goro−1. Tried to buy what Goro heard; Goro does not sell."
+   }
+  ]
+ },
+ {
+  "id": "uehara",
+  "name": "Uehara, &#19978;&#21407;",
+  "sub": "45 / Independent... former CVD / Vanguard (deteriorating)... Clairsentience L7 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "adachi",
+    "value": 67,
+    "who": "Director Adachi KenshinFormer direct reporting relationship, fifteen years. The departure was not hostile. Complicated in the way of two people"
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. They have been waiting for someone going to the centre of this. Rei is going to the centre of this."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnew him. The case-file anomaly has been in the documentation for fourteen months. They have watched it with the dread o"
+   }
+  ]
+ },
+ {
+  "id": "mochizuki",
+  "name": "Mochizuki Sora, &#26395;&#26376; &#31354;",
+  "sub": "23 / F / Unregistered... library evenings / Arbiter (developing)... Clairsentience L5 / Entry: The Grid Operative / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiTrack 0. The Grid connected them... practitioners managing situations tied to the same demon’s regional pattern. She rea"
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnows him by Grid reputation and the case pattern. The Kita demon’s regional signature is in her mother’s case file. Doc"
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiKnows him. He provided safe-house access for recovery-support operations. Professional and warm."
+   },
+   {
+    "with": "the_bookseller",
+    "value": 33,
+    "who": "‘The Bookseller’+1. The young sensitive who comes seeking answers; Higuchi steers them gently."
+   }
+  ]
+ },
+ {
+  "id": "kaneda",
+  "name": "Kaneda T&#333;ru, &#37329;&#30000; &#24465;",
+  "sub": "35 / M / Bartender, The Lighthouse (Ni-ch&#333;me) / Civilian (aware) / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaA regular he treats like a niece; watches who watches her."
+   },
+   {
+    "with": "majima",
+    "value": 33,
+    "who": "Majima KenjiServed him once. ‘Not again. He sells the people who drink here.’"
+   },
+   {
+    "with": "yoshida_goro",
+    "value": 33,
+    "who": "Yoshida Goro+1. Two bartenders, one code across two wards."
+   },
+   {
+    "with": "gin",
+    "value": 0,
+    "who": "Uedera Gin+1. Mutual respect; buys the room a round, asks nothing."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "hara_setsu",
+  "name": "Hara Setsu, &#21407; &#31680;",
+  "sub": "71 / F / Bath-house keeper, Tsuru-no-yu (Kita-ku) / Hidden unregistered medium / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tanizaki",
+    "value": 67,
+    "who": "Tanizaki SeiichiOld friends; they sit without speaking."
+   },
+   {
+    "with": "katagiri_noa",
+    "value": 33,
+    "who": "Katagiri NoaComes to thaw out; Setsu feeds her."
+   },
+   {
+    "with": "tendo",
+    "value": 33,
+    "who": "Tendo AkiraThe only one who comes before dawn."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinHas told him twice to bring Rei more often."
+   },
+   {
+    "with": "endo_sumi",
+    "value": 33,
+    "who": "Endo Sumi+1. Two old women who keep the dead company."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "endo_masa",
+  "name": "End&#333; Masa, &#36960;&#34276; &#25919;",
+  "sub": "38 / M / Doorman, Vault (Roppongi) / Hidden low sensitive / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "shimizu_ren",
+    "value": 33,
+    "who": "Shimizu RenA regular he steers from the bad ones unnoticed."
+   },
+   {
+    "with": "kuroda_sei",
+    "value": 33,
+    "who": "Kuroda SeiLets him lose himself inside on the worst nights."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnows about the fire door; pretends not to."
+   },
+   {
+    "with": "goto_hideki",
+    "value": 33,
+    "who": "Gotō HidekiOld grudge, different strip."
+   },
+   {
+    "with": "yua",
+    "value": 33,
+    "who": "Yua+1. One of the few adults who only ever helped."
+   },
+   {
+    "with": "wada_sho",
+    "value": 33,
+    "who": "Wada Sho−1. Tried to push past him once. Did not."
+   },
+   {
+    "with": "saeki_reno",
+    "value": 33,
+    "who": "Saeki Reno+1. His best doorman; trusted, looked after."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   },
+   {
+    "with": "aizawa_yuto",
+    "value": 0,
+    "who": "Aizawa Yuto0. Has poured him into a taxi more than once."
+   }
+  ]
+ },
+ {
+  "id": "serizawa",
+  "name": "Serizawa, &#33437;&#27810;",
+  "sub": "63 / M / Head bartender, Kogane (Ginza) / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tsukishiro",
+    "value": 67,
+    "who": "Tsukishiro HarukiHas served the family man and boy."
+   },
+   {
+    "with": "adachi",
+    "value": 33,
+    "who": "Director Adachi KenshinA standing usual; knows his real tells."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinCannot afford the room; exquisitely polite about it."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   },
+   {
+    "with": "kuroki",
+    "value": 0,
+    "who": "Kuroki Tatsuo0. A standing table, mutual careful respect."
+   }
+  ]
+ },
+ {
+  "id": "goto_hideki",
+  "name": "Got&#333; Hideki, &#24460;&#34276; &#31168;&#27193;",
+  "sub": "47 / M / Floor manager, Tamaya Hall (Kabukich&#333;) / Civilian / Track &minus;1",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "majima",
+    "value": 33,
+    "who": "Majima KenjiRegular customer, occasional partner."
+   },
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō MasaOld grudge, different strip."
+   },
+   {
+    "with": "kuroki",
+    "value": 33,
+    "who": "Kuroki Tatsuo+1. Launders through his people; Gotō’s unnamed chain leads here."
+   },
+   {
+    "with": "saeki_reno",
+    "value": 33,
+    "who": "Saeki Reno−1. Gotō’s laundering keeps reaching for his floors; Saeki keeps refusing."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   },
+   {
+    "with": "wada_sho",
+    "value": 0,
+    "who": "Wada Sho0. Business; neither likes the other."
+   }
+  ]
+ },
+ {
+  "id": "mariko",
+  "name": "&ldquo;Mariko&rdquo;, &#30495;&#29702;&#23376;... working name",
+  "sub": "40s / F / Worker, The Peony Rooms (Uguisudani) / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaThe one Grid contact she half-trusts."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinHe helped her once and treated her like a person."
+   },
+   {
+    "with": "yua",
+    "value": 33,
+    "who": "Yua+1. Slips her food, asks nothing."
+   },
+   {
+    "with": "mali",
+    "value": 33,
+    "who": "‘Mali’+1. Two women watching out for the vulnerable on the same strip."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "the_beck_s_man",
+  "name": "&ldquo;The Beck&rsquo;s Man&rdquo;, &#22823;&#22618;... platform clerk",
+  "sub": "50s / M / Counter clerk, Beck&rsquo;s Stand Platform 3 (&#332;ji) / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "yua",
+  "name": "Yua, &#32048;&#23721;... surname dropped",
+  "sub": "16 / F / Street kid (Toyoko community), Kabukich&#333; / Civilian (vulnerable) / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō MasaOne of the few adults who only ever helped."
+   },
+   {
+    "with": "mariko",
+    "value": 33,
+    "who": "“Mariko”Slips her food, asks nothing."
+   },
+   {
+    "with": "ito_kenta",
+    "value": 33,
+    "who": "Itō KentaTried to put her to work. She got away."
+   },
+   {
+    "with": "mori_haruto",
+    "value": 33,
+    "who": "Mori Haruto+1. Treats the runaway like family."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "kuroki",
+  "name": "Kuroki Tatsuo, &#40658;&#26408; &#36948;&#22827;",
+  "sub": "51 / M / Yakuza lieutenant (Shinjuku family) / Organised crime / Track &minus;1",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "wada_sho",
+    "value": 33,
+    "who": "Wada ShoLoyal, tested, too eager."
+   },
+   {
+    "with": "goto_hideki",
+    "value": 33,
+    "who": "Gotō HidekiLaunders through his people; Gotō’s unnamed chain leads here."
+   },
+   {
+    "with": "serizawa",
+    "value": 0,
+    "who": "SerizawaA standing table, mutual careful respect."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "wada_sho",
+  "name": "Wada Sho, &#21644;&#30000; &#32724;",
+  "sub": "29 / M / Yakuza soldier (under Kuroki) / Organised crime / Track &minus;1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "kuroki",
+    "value": 67,
+    "who": "Kuroki TatsuoFather, boss, his only visible future."
+   },
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō MasaTried to push past him once. Did not."
+   },
+   {
+    "with": "goto_hideki",
+    "value": 0,
+    "who": "Gotō HidekiBusiness; neither likes the other."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "ito_kenta",
+  "name": "It&#333; Kenta, &#20234;&#34276; &#20581;&#22826;",
+  "sub": "18 / M / School-gang dealer / Civilian / Track &minus;1",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "mori_haruto",
+    "value": 33,
+    "who": "Mori HarutoRival gang; Mori’s calm enrages him."
+   },
+   {
+    "with": "aizawa_yuto",
+    "value": 33,
+    "who": "Aizawa YutoBest customer; despises and needs him."
+   },
+   {
+    "with": "yua",
+    "value": 33,
+    "who": "YuaShe refused him. He has not forgotten."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "aizawa_yuto",
+  "name": "Aizawa Yuto, &#30456;&#27810; &#24736;&#26007;",
+  "sub": "22 / M / Heir, addicted / Civilian / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "ito_kenta",
+    "value": 33,
+    "who": "Itō KentaA transaction both pretend is friendship."
+   },
+   {
+    "with": "leo_sato",
+    "value": 33,
+    "who": "‘Leo’ (Sato)+1. The friendship is bought and half-real."
+   },
+   {
+    "with": "endo_masa",
+    "value": 0,
+    "who": "Endō MasaHas poured him into a taxi more than once."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "sugimoto_tatsuya",
+  "name": "Sugimoto Tatsuya, &#26464;&#26412; &#36948;&#20063;",
+  "sub": "68 / M / Homeless; ex-history professor / Hidden burnt-out sensitive / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "yamamoto",
+    "value": 67,
+    "who": "Yamamoto KojiTrades history for company; brings soup and questions."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiTwo old men who saw too much and stayed kind."
+   },
+   {
+    "with": "the_woman_at_the_back",
+    "value": 33,
+    "who": "‘The Woman at the Back’+1. Two of a kind... sight that ruined an ordinary life."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "mori_haruto",
+  "name": "Mori Haruto, &#26862; &#38525;&#22826;",
+  "sub": "17 / M / School gang (rival to It&#333;) / Hidden latent sensitive / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "ito_kenta",
+    "value": 33,
+    "who": "Itō KentaThe rival; will not take the bait."
+   },
+   {
+    "with": "yua",
+    "value": 33,
+    "who": "YuaTreats the runaway like family."
+   },
+   {
+    "with": "tanaka_ryu",
+    "value": 0,
+    "who": "Tanaka RyuThe Grid has clocked him; deciding whether to reach out."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "tanabe_isamu",
+  "name": "Tanabe Isamu, &#30000;&#36794; &#21193;",
+  "sub": "63 / M / Public-toilet &amp; station cleaner (nights) / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "sato",
+    "value": 33,
+    "who": "Sato+1. The cleaner and the busker hold the underpass between them."
+   },
+   {
+    "with": "tendo",
+    "value": 0,
+    "who": "Tendo AkiraThe one operative who says thank you. Tanabe remembers."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "leo_sato",
+  "name": "&lsquo;Leo&rsquo; (Sato), &#20304;&#34276;... host, working name",
+  "sub": "26 / M / Host (Kabukich&#333; host club) / Clairsentience medium (unregistered) / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "aizawa_yuto",
+    "value": 33,
+    "who": "Aizawa YutoThe friendship is bought and half-real."
+   },
+   {
+    "with": "choi_hana",
+    "value": 0,
+    "who": "Choi HanaShe read him in one glance; he cannot stop thinking about it."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "mali",
+  "name": "&lsquo;Mali&rsquo;, &#12510;&#12522;... masseuse, working name",
+  "sub": "28 / lady-boy / Masseuse, a Thai parlour near the Peony / Civilian / Track 0",
+  "entity": false,
+  "romanceable": true,
+  "relationships": [
+   {
+    "with": "mariko",
+    "value": 33,
+    "who": "“Mariko”Two women watching out for the vulnerable on the same strip."
+   },
+   {
+    "with": "master_lin_wei",
+    "value": 33,
+    "who": "Master Lin Wei+1. Diaspora elders who respect each other’s grounds."
+   },
+   {
+    "with": "choi_hana",
+    "value": 0,
+    "who": "Choi HanaRespect across the Korean and Thai lines."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "komatsu_shigeru",
+  "name": "Komatsu Shigeru, &#23567;&#26494; &#33538;",
+  "sub": "74 / M / Tobacco &amp; sundries kiosk, Gin&rsquo;s corner / Civilian / Track +1",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinDaily customer; Komatsu worries about him openly."
+   },
+   {
+    "with": "rei",
+    "value": 33,
+    "who": "Uedera ReiWatched him since small; slips him sweets still."
+   },
+   {
+    "with": "iwata_kenji",
+    "value": 33,
+    "who": "Iwata KenjiCorner cronies; they trade news."
+   },
+   {
+    "with": "sone_kimiko",
+    "value": 33,
+    "who": "Sone Kimiko+1. Two old shopkeepers who trade the block’s news."
+   }
+  ]
+ },
+ {
+  "id": "iwata_kenji",
+  "name": "Iwata Kenji, &#23721;&#30000; &#20581;&#20108;",
+  "sub": "58 / M / Building handyman (Gin &amp; Rei&rsquo;s block) / Civilian / Track +1",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "komatsu_shigeru",
+    "value": 33,
+    "who": "Komatsu ShigeruCorner cronies; they trade block news."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "saeki_reno",
+  "name": "Saeki Reno, &#20304;&#20271; &#37666;&#37070;",
+  "sub": "49 / M / Club owner (Vault &amp; two others) / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "endo_masa",
+    "value": 33,
+    "who": "Endō MasaHis best doorman; trusted, looked after."
+   },
+   {
+    "with": "goto_hideki",
+    "value": 33,
+    "who": "Gotō HidekiGotō’s laundering keeps reaching for his floors; Saeki keeps refusing."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "daiki",
+  "name": "Sasaki Daiki, &#20304;&#12293;&#26408; &#22823;&#36028;",
+  "sub": "17 / M / Rei&rsquo;s closest school friend / Civilian / Track +2",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "rei",
+    "value": 67,
+    "who": "Uedera ReiBest friend; the anchor of Rei’s normal teenage life."
+   },
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinThe older brother who feeds him; Daiki thinks Gin is the coolest man alive."
+   }
+  ]
+ },
+ {
+  "id": "maruyama_toshio",
+  "name": "Maruyama Toshio, &#20024;&#23665; &#20426;&#22827;",
+  "sub": "60 / M / Kissaten owner, Caf&eacute; Mikazuki / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "gin",
+    "value": 33,
+    "who": "Uedera GinKnows the order, asks nothing else."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiTwo quiet men keeping company in silence."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "kawai_yuki",
+  "name": "Kawai Yuki, &#27827;&#21512; &#12422;&#12365;",
+  "sub": "57 / F / Baker, Akebono Bakery / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "nakamura_aoi",
+    "value": 33,
+    "who": "Nakamura AoiBuys bread after a bad shift; always a kind word."
+   },
+   {
+    "with": "okada_shizuka",
+    "value": 33,
+    "who": "Okada ShizukaThe Saturday regular."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "tatsu",
+  "name": "&lsquo;Tatsu&rsquo;, &#36948;&#35211;... ramen master",
+  "sub": "52 / M / Ramen master, Tatsuya / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "moriya",
+    "value": 33,
+    "who": "Moriya TatsukiThe operative who tells more over ramen than across his desk."
+   },
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaThe late regular; he keeps her usual."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "yoshida_goro",
+  "name": "Yoshida Goro, &#21513;&#30000; &#20116;&#37070;",
+  "sub": "58 / M / Bartender, Kemuri / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "kaneda",
+    "value": 33,
+    "who": "Kaneda TōruTwo bartenders, one code across two wards."
+   },
+   {
+    "with": "majima",
+    "value": 33,
+    "who": "Majima KenjiTried to buy what Goro heard; Goro does not sell."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "the_woman_at_the_back",
+  "name": "&lsquo;The Woman at the Back&rsquo;... name unknown",
+  "sub": "40s / F / Suzuran regular, 2am nightly / Hidden sensitive (insomniac) / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "sugimoto_tatsuya",
+    "value": 33,
+    "who": "Sugimoto TatsuyaTwo of a kind... sight that ruined an ordinary life."
+   },
+   {
+    "with": "choi_hana",
+    "value": 0,
+    "who": "Choi HanaSuspects the truth, never pushed."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "miyamoto_kazuo",
+  "name": "Miyamoto Kazuo, &#23470;&#26412; &#21644;&#22827;... kannushi",
+  "sub": "66 / M / Head priest, the Shinto shrine / Shrine-line practitioner / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tendo",
+    "value": 33,
+    "who": "Tendo AkiraComes for the quiet; Miyamoto asks nothing."
+   },
+   {
+    "with": "tanizaki",
+    "value": 33,
+    "who": "Tanizaki SeiichiOld men who kept the old ways."
+   },
+   {
+    "with": "sone_kimiko",
+    "value": 33,
+    "who": "Sone Kimiko+1. The shrine blesses the charms she sells; she sends the troubled his way."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "rev_egami_jaku",
+  "name": "Rev. Egami Jak&#363;, &#27743;&#19978; &#23492;... Shingon priest",
+  "sub": "59 / M / Temple priest (Shingon) / Esoteric ritualist / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "fujimoto",
+    "value": 33,
+    "who": "Fujimoto KenjiThey argue doctrine for hours."
+   },
+   {
+    "with": "father_anselm_mbeki",
+    "value": 33,
+    "who": "Father Anselm MbekiTwo reluctant exorcists, same hard knowledge."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "father_anselm_mbeki",
+  "name": "Father Anselm Mbeki... Catholic priest",
+  "sub": "61 / M / Catholic priest / Roman-rite exorcist / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "rev_egami_jaku",
+    "value": 33,
+    "who": "Rev. Egami JakūTwo reluctant exorcists comparing notes across faiths."
+   },
+   {
+    "with": "baba_adewale",
+    "value": 33,
+    "who": "Baba AdewaleNeighbouring immigrant faiths, mutual respect."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "master_lin_wei",
+  "name": "Master Lin Wei, &#26519;&#28553;... Taoist priest",
+  "sub": "63 / M / Taoist temple master / Fu-talisman ritualist / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "mali",
+    "value": 33,
+    "who": "‘Mali’Diaspora elders who respect each other’s grounds."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "pak_sun_ja",
+  "name": "Pak Sun-ja... mudang",
+  "sub": "55 / F / Korean shaman (mudang) / True shaman (gut rites) / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "choi_hana",
+    "value": 67,
+    "who": "Choi HanaHana’s grandmother’s tradition; Pak watches her like blood."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "baba_adewale",
+  "name": "Baba Adewale... community elder",
+  "sub": "64 / M / West African diaspora elder / Babalawo (Ifa tradition) / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "father_anselm_mbeki",
+    "value": 33,
+    "who": "Father Anselm MbekiTwo leaders of immigrant faiths who look out for each other."
+   },
+   {
+    "with": "ade_okonkwo",
+    "value": 33,
+    "who": "Adé Okonkwo+1. The elder’s word opens the back room."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "switch",
+  "name": "&lsquo;Switch&rsquo;... Grid quartermaster",
+  "sub": "37 / ? / Runs the rotating Grid meet / Grid (unregistered) / Track &minus;1",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tanaka_ryu",
+    "value": 33,
+    "who": "Tanaka RyuCalls him for security; mutual reliance."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "old_tomi",
+  "name": "Old Tomi... the freight-yard squatter",
+  "sub": "60s / M / Lives in the condemned blocks / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "kurosawa",
+    "value": 33,
+    "who": "Kurosawa ShouThe courier who cuts through; Tomi lets him."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "sato",
+  "name": "Sato... the blind busker",
+  "sub": "50s / M / Plays the station underpass / Hidden sensitive (blind) / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tanabe_isamu",
+    "value": 33,
+    "who": "Tanabe IsamuThe cleaner and the busker hold the underpass between them."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "endo_sumi",
+  "name": "Endo Sumi... the memorial keeper",
+  "sub": "70s / F / Tends the riverside memorial / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "choi_hana",
+    "value": 33,
+    "who": "Choi HanaHana reads the grief; Mrs. Endō tends it."
+   },
+   {
+    "with": "hara_setsu",
+    "value": 33,
+    "who": "Hara SetsuTwo old women who keep the dead company."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "arai",
+  "name": "Det. Sgt. Arai Goro, &#26032;&#20117; &#21449;&#37070;",
+  "sub": "48 / M / Police detective (Kita ward) / Knows more than he admits / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "adachi",
+    "value": 0,
+    "who": "Director Adachi KenshinThe official liaison; Arai is the unofficial one."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "old_maki",
+  "name": "&lsquo;Old Maki&rsquo;, &#30495;&#26408;... ironmonger",
+  "sub": "66 / M / Ironmonger, Maki Ironworks / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "tanaka_ryu",
+    "value": 33,
+    "who": "Tanaka RyuRestocks the Grid’s kit here; Maki sets iron aside."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "ade_okonkwo",
+  "name": "Ad&eacute; Okonkwo... the trader",
+  "sub": "49 / M / Importer, Ad&eacute; Imports / Civilian / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "baba_adewale",
+    "value": 33,
+    "who": "Baba AdewaleThe elder’s word opens the back room."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "the_bookseller",
+  "name": "&lsquo;The Bookseller&rsquo;, &#22581;&#21475;... Higuchi",
+  "sub": "57 / M / Bookseller, The Crooked Shelf / Reads what he sells / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "mochizuki",
+    "value": 33,
+    "who": "Mochizuki SoraThe young sensitive who comes seeking answers; Higuchi steers them gently."
+   },
+   {
+    "with": "fujimoto",
+    "value": 33,
+    "who": "Fujimoto KenjiThey argue provenance for hours."
+   },
+   {
+    "with": "yamamoto",
+    "value": 33,
+    "who": "Yamamoto KojiTwo keepers who trade the unspeakable."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ },
+ {
+  "id": "sone_kimiko",
+  "name": "Sone Kimiko, &#26365;&#26681; &#21531;&#23376;",
+  "sub": "58 / F / Gift &amp; charm shop, Engimono / Knows which charms are real / Track 0",
+  "entity": false,
+  "romanceable": false,
+  "relationships": [
+   {
+    "with": "miyamoto_kazuo",
+    "value": 33,
+    "who": "Miyamoto KazuoThe shrine blesses the charms she sells; she sends the troubled his way."
+   },
+   {
+    "with": "komatsu_shigeru",
+    "value": 33,
+    "who": "Komatsu ShigeruTwo old shopkeepers who trade the block’s news."
+   },
+   {
+    "with": "rei",
+    "value": 0,
+    "who": "Uedera Rei(Rei track start)"
+   }
+  ]
+ }
+]

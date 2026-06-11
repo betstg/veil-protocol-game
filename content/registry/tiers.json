@@ -1,0 +1,649 @@
+{
+ "rei": {
+  "name": "Uedera Rei",
+  "class_old": "",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Clairsentience": 3,
+   "Telepathy": 1
+  },
+  "override": true,
+  "presented": "Postulate"
+ },
+ "hagiwara_mizuki": {
+  "name": "Hagiwara Mizuki",
+  "class_old": "",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {},
+  "override": true
+ },
+ "kishin": {
+  "name": "Fukai Rinka / Kishin",
+  "class_old": "",
+  "tier": "Guardian",
+  "letter": "SS",
+  "paths": {
+   "Clairsentience": 5,
+   "Telepathy": 4,
+   "Telekinesis": 1,
+   "Psychometabolism": 3,
+   "Psychokinesis": 2
+  },
+  "override": true
+ },
+ "gin": {
+  "name": "Uedera Gin",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Clairsentience": 8,
+   "Telepathy": 2,
+   "Teleportation": 4
+  },
+  "override": true,
+  "presented": "Adept"
+ },
+ "yushiro": {
+  "name": "Yushiro",
+  "class_old": "Top-grade (Arbiter-class, pre-crossing)",
+  "tier": "Guardian",
+  "letter": "SS",
+  "paths": {},
+  "override": true
+ },
+ "nakamura_aoi": {
+  "name": "Nakamura Aoi",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Psychokinesis": 4
+  },
+  "override": false
+ },
+ "kato_ryusei": {
+  "name": "Kato Ryusei",
+  "class_old": "Ritualist",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Telepathy": 3
+  },
+  "override": false
+ },
+ "katagiri_noa": {
+  "name": "Katagiri Noa",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Clairsentience": 5
+  },
+  "override": false
+ },
+ "tsukishiro": {
+  "name": "Tsukishiro Haruki",
+  "class_old": "Ritualist",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Clairsentience": 4
+  },
+  "override": false
+ },
+ "fujiwarakage": {
+  "name": "Fujiwara-Kage Sena",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Clairsentience": 4
+  },
+  "override": false
+ },
+ "moriya": {
+  "name": "Moriya Tatsuki",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Psychometabolism": 5
+  },
+  "override": false
+ },
+ "fujimoto": {
+  "name": "Fujimoto Kenji / Abe Takeshi",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "usami_ren": {
+  "name": "Usami Hinata / Ren",
+  "class_old": "Class C demon, love-register, contracted",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Clairsentience": 2,
+   "Telepathy": 3,
+   "Psychometabolism": 2
+  },
+  "override": true
+ },
+ "ren": {
+  "name": "Ren",
+  "class_old": "Class C demon",
+  "tier": "Adept",
+  "letter": "C",
+  "paths": {
+   "Clairsentience": 2,
+   "Telepathy": 3,
+   "Psychometabolism": 2
+  },
+  "override": true
+ },
+ "okada_shizuka": {
+  "name": "Okada Shizuka",
+  "class_old": "Ritualist",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Clairsentience": 4
+  },
+  "override": false
+ },
+ "adachi": {
+  "name": "Director Adachi Kenshin",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Clairsentience": 9,
+   "Telepathy": 5
+  },
+  "override": false
+ },
+ "shimizu_ren": {
+  "name": "Shimizu Ren",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Telekinesis": 6
+  },
+  "override": false
+ },
+ "yamamoto": {
+  "name": "Yamamoto Koji",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Clairsentience": 9
+  },
+  "override": false
+ },
+ "tendo": {
+  "name": "Tendo Akira",
+  "class_old": "Arbiter",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Psychokinesis": 6
+  },
+  "override": false
+ },
+ "choi_hana": {
+  "name": "Choi Hana",
+  "class_old": "Arbiter",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Clairsentience": 6
+  },
+  "override": false
+ },
+ "kuroda_sei": {
+  "name": "Kuroda Sei",
+  "class_old": "Ritualist",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Teleportation": 5
+  },
+  "override": false
+ },
+ "kuroda_itsuki": {
+  "name": "Kuroda Itsuki",
+  "class_old": "Civilian (dormant Teleportation)",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "kurosawa": {
+  "name": "Kurosawa Shou",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Psychometabolism": 9,
+   "Psychokinesis": 5
+  },
+  "override": false
+ },
+ "tanizaki": {
+  "name": "Tanizaki Seiichi",
+  "class_old": "Channel",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Psychokinesis": 6
+  },
+  "override": false
+ },
+ "inoue": {
+  "name": "Inoue Misaki",
+  "class_old": "Singularity",
+  "tier": "Singularity",
+  "letter": "SSS",
+  "paths": {
+   "Clairsentience": 4,
+   "Psychokinesis": 7
+  },
+  "override": false
+ },
+ "tanaka_ryu": {
+  "name": "Tanaka Ryu",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Psychometabolism": 6
+  },
+  "override": false
+ },
+ "majima": {
+  "name": "Majima Kenji",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Telekinesis": 7,
+   "Psychometabolism": 2
+  },
+  "override": false
+ },
+ "uehara": {
+  "name": "Uehara",
+  "class_old": "Vanguard",
+  "tier": "Vanguard",
+  "letter": "S",
+  "paths": {
+   "Clairsentience": 7,
+   "Psychokinesis": 3
+  },
+  "override": false
+ },
+ "mochizuki": {
+  "name": "Mochizuki Sora",
+  "class_old": "Arbiter",
+  "tier": "Arbiter",
+  "letter": "A",
+  "paths": {
+   "Clairsentience": 5
+  },
+  "override": false
+ },
+ "kaneda": {
+  "name": "Kaneda Tōru",
+  "class_old": "Civilian (aware)",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "hara_setsu": {
+  "name": "Hara Setsu",
+  "class_old": "Hidden unregistered medium",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 4
+  },
+  "override": false
+ },
+ "endo_masa": {
+  "name": "Endō Masa",
+  "class_old": "Hidden low sensitive",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 1
+  },
+  "override": false
+ },
+ "serizawa": {
+  "name": "Serizawa",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "goto_hideki": {
+  "name": "Gotō Hideki",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "mariko": {
+  "name": "“Mariko”",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "the_beck_s_man": {
+  "name": "“The Beck’s Man”",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "yua": {
+  "name": "Yua",
+  "class_old": "Civilian (vulnerable)",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "kuroki": {
+  "name": "Kuroki Tatsuo",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": true
+ },
+ "wada_sho": {
+  "name": "Wada Sho",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": true
+ },
+ "ito_kenta": {
+  "name": "Itō Kenta",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "aizawa_yuto": {
+  "name": "Aizawa Yuto",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "sugimoto_tatsuya": {
+  "name": "Sugimoto Tatsuya",
+  "class_old": "Hidden burnt-out sensitive",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 1
+  },
+  "override": false
+ },
+ "mori_haruto": {
+  "name": "Mori Haruto",
+  "class_old": "Hidden latent sensitive",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 1,
+   "Telepathy": 1
+  },
+  "override": false
+ },
+ "tanabe_isamu": {
+  "name": "Tanabe Isamu",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "leo_sato": {
+  "name": "‘Leo’ (Sato)",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {
+   "Clairsentience": 5
+  },
+  "override": false
+ },
+ "mali": {
+  "name": "‘Mali’",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "komatsu_shigeru": {
+  "name": "Komatsu Shigeru",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "iwata_kenji": {
+  "name": "Iwata Kenji",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "saeki_reno": {
+  "name": "Saeki Reno",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "daiki": {
+  "name": "Sasaki Daiki",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "maruyama_toshio": {
+  "name": "Maruyama Toshio",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "kawai_yuki": {
+  "name": "Kawai Yuki",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "tatsu": {
+  "name": "‘Tatsu’",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "yoshida_goro": {
+  "name": "Yoshida Goro",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "the_woman_at_the_back": {
+  "name": "‘The Woman at the Back’... name unknown",
+  "class_old": "Hidden sensitive (insomniac)",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 2
+  },
+  "override": false
+ },
+ "miyamoto_kazuo": {
+  "name": "Miyamoto Kazuo",
+  "class_old": "",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {},
+  "override": true
+ },
+ "rev_egami_jaku": {
+  "name": "Rev. Egami Jakū",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "father_anselm_mbeki": {
+  "name": "Father Anselm Mbeki... Catholic priest",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "master_lin_wei": {
+  "name": "Master Lin Wei",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "pak_sun_ja": {
+  "name": "Pak Sun-ja... mudang",
+  "class_old": "",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Clairsentience": 5
+  },
+  "override": true
+ },
+ "baba_adewale": {
+  "name": "Baba Adewale... community elder",
+  "class_old": "",
+  "tier": "Ritualist",
+  "letter": "B",
+  "paths": {
+   "Clairsentience": 3
+  },
+  "override": true
+ },
+ "switch": {
+  "name": "‘Switch’... Grid quartermaster",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "old_tomi": {
+  "name": "Old Tomi... the freight-yard squatter",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "sato": {
+  "name": "Sato... the blind busker",
+  "class_old": "Hidden sensitive (blind)",
+  "tier": "Sensitive",
+  "letter": "E",
+  "paths": {
+   "Clairsentience": 2
+  },
+  "override": false
+ },
+ "endo_sumi": {
+  "name": "Endo Sumi... the memorial keeper",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "arai": {
+  "name": "Det. Sgt. Arai Goro",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": true
+ },
+ "old_maki": {
+  "name": "‘Old Maki’",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "ade_okonkwo": {
+  "name": "Adé Okonkwo... the trader",
+  "class_old": "Civilian",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "the_bookseller": {
+  "name": "‘The Bookseller’",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ },
+ "sone_kimiko": {
+  "name": "Sone Kimiko",
+  "class_old": "",
+  "tier": "The Null",
+  "letter": "0",
+  "paths": {},
+  "override": false
+ }
+}

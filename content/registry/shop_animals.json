@@ -1,0 +1,142 @@
+[
+ {
+  "id": "med-shiro",
+  "species": "Cat",
+  "name": "Shiro",
+  "ritual": "Object & Room Read — touches residue and tells what happened in a space.",
+  "mission": "Scouting & residue detection; goes ahead, freezes where a scene 'went wrong'.",
+  "temperament": "Aloof, precise, decides if it respects you within a week.",
+  "trained": "Clairsentience, journeyman",
+  "price": {
+   "money": 90000,
+   "tickets": 18
+  },
+  "blurb": "A white temple-bred cat trained by a Kita medium who passed last winter. Vacant, waiting for hands it judges steady. Reads a room better than most operatives."
+ },
+ {
+  "id": "med-kuro",
+  "species": "Cat",
+  "name": "Kuro",
+  "ritual": "Warding circle — sits the centre of a salt-and-iron ring and holds it stable.",
+  "mission": "Anchor for a protective ward during a ritual or a held position.",
+  "temperament": "Patient, heavy, unbothered by dread.",
+  "trained": "Ritual-support, journeyman",
+  "price": {
+   "money": 85000,
+   "tickets": 16
+  },
+  "blurb": "A black cat the Grid used as a living ward-anchor; calm enough to sit a circle while the air goes wrong around it."
+ },
+ {
+  "id": "med-kuma",
+  "species": "Dog",
+  "name": "Kuma",
+  "ritual": "Threshold blessing — its presence steadies a doorway against a crossing.",
+  "mission": "Combat & guard support; refuses thin ground, buys a half-second's warning, harries a manifesting entity.",
+  "temperament": "Loyal fast, fearless, needs work to stay sane.",
+  "trained": "Ward-hound, adept",
+  "price": {
+   "money": 160000,
+   "tickets": 34
+  },
+  "blurb": "A broad working dog trained to stand beside an exorcist. Won't enter a thin spot until told, then goes in first. Vacant since its handler retired hurt."
+ },
+ {
+  "id": "med-hachi",
+  "species": "Dog",
+  "name": "Hachi",
+  "ritual": "Trace-following — locks onto a residue-scent and tracks a crossing across the city.",
+  "mission": "Tracking & search; finds where a spirit went, or where a person was taken.",
+  "temperament": "Driven, affectionate, tireless on a trail.",
+  "trained": "Tracker, journeyman",
+  "price": {
+   "money": 110000,
+   "tickets": 22
+  },
+  "blurb": "A scent-and-residue tracker that can follow a thing the instruments lost. Trained on cold cases; finds the trail Gin's archive only hints at."
+ },
+ {
+  "id": "med-yatabe",
+  "species": "Raven",
+  "name": "Yatabe",
+  "ritual": "Augury — casts and reads a true divination of a single question.",
+  "mission": "Aerial recon & spirit-messaging; carries word, scouts a roof, marks danger from above.",
+  "temperament": "Vain, clever, demands to be consulted.",
+  "trained": "Diviner, adept",
+  "price": {
+   "money": 210000,
+   "tickets": 48
+  },
+  "blurb": "A divination raven raised by a shrine line. One honest augury a day, and eyes over any ward in the city. The most expensive vacancy on the list, and worth it."
+ },
+ {
+  "id": "med-goro",
+  "species": "Crow",
+  "name": "Gorō",
+  "ritual": "Psychopomp aid — helps guide a restless dead toward leaving.",
+  "mission": "Dead-detection; agitates near the recently or restless dead, names a haunting's centre.",
+  "temperament": "Solemn, watchful, kind in its corvid way.",
+  "trained": "Psychopomp, journeyman",
+  "price": {
+   "money": 120000,
+   "tickets": 24
+  },
+  "blurb": "A crow trained beside a mudang to read and settle the dead. Where it lands and will not leave, someone unquiet is waiting."
+ },
+ {
+  "id": "med-mizuchi",
+  "species": "Snake",
+  "name": "Mizuchi",
+  "ritual": "Veil reading — coils still and reports the veil-thinness of a place by how it moves.",
+  "mission": "Thin-spot & crossing detection; the surest non-human read on where the membrane is wearing.",
+  "temperament": "Slow, unsettling, utterly reliable.",
+  "trained": "Veil-sense, adept",
+  "price": {
+   "money": 180000,
+   "tickets": 40
+  },
+  "blurb": "A gentle, non-venomous serpent trained to feel the veil the way others feel heat. Restless coils mean the membrane is thin; gone still means safe. Vacant from a Singularity-rank estate."
+ },
+ {
+  "id": "med-chuu",
+  "species": "Rat",
+  "name": "Chū",
+  "ritual": "Anchor-finding — sniffs out the hidden object a spirit is bound to.",
+  "mission": "Infiltration & search; goes where no one fits, finds the anchor an exorcism needs.",
+  "temperament": "Quick, brave, bonds hard to one person.",
+  "trained": "Anchor-finder, journeyman",
+  "price": {
+   "money": 80000,
+   "tickets": 15
+  },
+  "blurb": "A clever rat trained to find the thing a haunting is tied to — the scrap, the name, the object. The cheapest vacancy, and quietly one of the most useful in a fight you want to end fast."
+ },
+ {
+  "id": "med-kawazu",
+  "species": "Frog",
+  "name": "Kawazu",
+  "ritual": "Water purification — a small rite that cleanses a tainted place or object.",
+  "mission": "Madness relief & grief-sensing; its presence eases Madness a little, and it feels grief-thin spots near water.",
+  "temperament": "Placid, cool to the touch, oddly comforting.",
+  "trained": "Purifier, journeyman",
+  "price": {
+   "money": 95000,
+   "tickets": 20
+  },
+  "blurb": "A pond-frog trained in a Shingon water rite. Carry it and the Madness presses a little less; set it by tainted water and it cleanses what it can. Vacant from a temple that closed."
+ },
+ {
+  "id": "med-benten",
+  "species": "Cat",
+  "name": "Benten",
+  "ritual": "Charm-keeping — keeps a true omamori's ward charged and reads when it's spent.",
+  "mission": "Protection upkeep; maintains wards on the team's charms, warns when one has failed.",
+  "temperament": "Regal, fussy, devoted to its charges.",
+  "trained": "Charm-warden, adept",
+  "price": {
+   "money": 170000,
+   "tickets": 36
+  },
+  "blurb": "A shop-bred cat trained by Sone Kimiko's supplier to keep warded charms alive. The difference between a charm that protects and a pretty paper that doesn't. Vacant, and particular about its buyer."
+ }
+]

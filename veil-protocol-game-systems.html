@@ -78,7 +78,7 @@ a <b>dependency graph</b> of paths, <b>relationships &amp; romance</b>, <b>reput
 <p style="color:var(--green)"><b>The routes below are examples, not a closed list.</b> The world should be able to open a path we never tabled — a chance encounter, a case lead, a renegade contact, a favour called in. Treat the graph as the <em>known</em> doors, and leave room for the engine (and the player's choices) to cut new ones. "Befriend a Tower family," for instance, doesn't have to mean the front door: it can mean going through a black-sheep son who lives apart from the house.</p>
 <table>
 <tr><th>To unlock…</th><th>You need…</th></tr>
-<tr><td>Meet a Vanguard (SS+) mentor</td><td>Join CVD <span class="or">OR</span> Befriend a Tower family <span class="or">OR</span> (Enter Grid <span class="and">AND</span> Grid-trust high)</td></tr>
+<tr><td>Meet a Vanguard (S) mentor</td><td>Join CVD <span class="or">OR</span> Befriend a Tower family <span class="or">OR</span> (Enter Grid <span class="and">AND</span> Grid-trust high)</td></tr>
 <tr><td>Open a 2nd ability path</td><td>Meet a Vanguard mentor <span class="and">AND</span> train (costs days)</td></tr>
 <tr><td>Learn Animal Handling</td><td>Befriend <b>Inoue Misaki</b> (the cat girl &amp; Renado) to a trust threshold — and you find her via the Grid or a case lead</td></tr>
 <tr><td>Level an existing path</td><td>Practice (time) <span class="and">AND</span> field use <span class="and">AND</span> Stability headroom</td></tr>
@@ -241,7 +241,7 @@ a <b>dependency graph</b> of paths, <b>relationships &amp; romance</b>, <b>reput
 <li><b>Two dials:</b> Type (spirit / demon / idea — what it wants) &times; Grade (E&nbsp;&rarr;&nbsp;top — how hard it hits). A spirit can be top-grade; a demon is a spirit that fed and climbed.</li>
 <li><b>Met at the grade of its place, not the player.</b> The world is open; the soft gate is what lives there. Go somewhere ahead of the story and the entities are simply stronger — flee, and the story remembers what you saw.</li>
 <li><b>Zone tiers I&ndash;V:</b> Ordinary ground &rarr; the edges &rarr; the works &rarr; the inner doors &rarr; the thin places. Each place carries a tier; the engine draws an entity whose tier fits (bumped up when the local veil is thin).</li>
-<li><b>Survival by rank:</b> Postulate/Adept handle E; Arbiter up to B; Vanguard takes A; only Singularity/Guardian contest top-grade. Full table in the Warden's book.</li>
+<li><b>Survival by rank:</b> the scale is 0 Null · E Sensitive · D Postulate · C Adept · B Ritualist · A Arbiter · S Vanguard · SS Guardian · SSS Singularity · X Axis. An operator reliably contests entities around their own grade; Arbiters handle field work, Vanguard and above contest top-grade. Full table in the Warden's book.</li>
 </ul>
 <h2>The database <span style="font-weight:400;font-size:.7em;opacity:.7">veil-data/</span></h2>
 <p>Single source of truth, separate from presentation. JSON node-tables linked into a network: <b>characters &middot; places &middot; factions &middot; thirteen &middot; ranks &middot; entities</b>. Each node has an <code>id</code> and <code>links</code> (member_of, lives_at, knows&nbsp;&plusmn;100, rides, &hellip;). The game loads it at startup; combat already reads enemies from <em>entities.json</em>. Edit once, here — the book and game read from it. (See <em>veil-data/README.md</em>.)</p>

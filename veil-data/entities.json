@@ -1,72 +1,939 @@
 [
-  {
-    "id": "the-lingering",
-    "name": "Residue — a Lingering",
-    "type": "spirit",
-    "register": "Fear",
-    "grade": "E",
-    "hp": 7,
-    "atk": 3,
-    "exorciseDC": 7,
-    "absorb": "a thin Fear residue",
-    "anchor": "a scrap of where it last felt safe",
-    "tip": "It saw a man with the wrong shadow near the overpass.",
-    "tier": 1
-  },
-  {
-    "id": "stairwell-child",
-    "name": "The Stairwell Child",
-    "type": "spirit",
-    "register": "Grief",
-    "grade": "E",
-    "hp": 9,
-    "atk": 3,
-    "exorciseDC": 8,
-    "absorb": "a thin Grief residue (not worth it)",
-    "anchor": "the name of the building it died in",
-    "tip": "It saw who came up the stairs that night.",
-    "tier": 1
-  },
-  {
-    "id": "the-tenant",
-    "name": "The Tenant",
-    "type": "demon",
-    "register": "Hunger",
-    "grade": "B",
-    "hp": 35,
-    "atk": 11,
-    "exorciseDC": 15,
-    "absorb": "+a Hunger-path residue · a step toward the Thirteen",
-    "anchor": "its true name",
-    "tip": "It knows which doors in the building were left open, and by whom.",
-    "tier": 3
-  },
-  {
-    "id": "quiet-hour",
-    "name": "The Quiet Hour",
-    "type": "idea",
-    "register": "Despair",
-    "grade": "B",
-    "hp": 28,
-    "atk": 9,
-    "exorciseDC": 18,
-    "absorb": "you cannot absorb an idea — only become its prophet",
-    "anchor": "the first person who believed it",
-    "tip": "—",
-    "tier": 3
-  },
-  {
-    "id": "the-tide",
-    "name": "The Tide That Didn't Recede",
-    "type": "spirit",
-    "register": "Grief",
-    "grade": "top",
-    "hp": 90,
-    "atk": 22,
-    "exorciseDC": 30,
-    "absorb": "catastrophic power · half your soul gone",
-    "anchor": "the list of the village's missing",
-    "tip": "—",
-    "tier": 5
+ {
+  "id": "the-lingering",
+  "name": "Residue — a Lingering",
+  "type": "spirit",
+  "register": "Fear",
+  "grade": "E",
+  "hp": 7,
+  "atk": 3,
+  "exorciseDC": 7,
+  "absorb": "a thin Fear residue",
+  "anchor": "a scrap of where it last felt safe",
+  "tip": "It saw a man with the wrong shadow near the overpass.",
+  "tier": 1,
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 200,
+    "max": 1500
+   },
+   "cigarettes": {
+    "chance": 0.2,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.35,
+    "min": 1,
+    "max": 2
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.04,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
   }
+ },
+ {
+  "id": "stairwell-child",
+  "name": "The Stairwell Child",
+  "type": "spirit",
+  "register": "Grief",
+  "grade": "E",
+  "hp": 9,
+  "atk": 3,
+  "exorciseDC": 8,
+  "absorb": "a thin Grief residue (not worth it)",
+  "anchor": "the name of the building it died in",
+  "tip": "It saw who came up the stairs that night.",
+  "tier": 1,
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 200,
+    "max": 1500
+   },
+   "cigarettes": {
+    "chance": 0.2,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.35,
+    "min": 1,
+    "max": 2
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.04,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "the-tenant",
+  "name": "The Tenant",
+  "type": "demon",
+  "register": "Hunger",
+  "grade": "B",
+  "hp": 35,
+  "atk": 11,
+  "exorciseDC": 15,
+  "absorb": "+a Hunger-path residue · a step toward the Thirteen",
+  "anchor": "its true name",
+  "tip": "It knows which doors in the building were left open, and by whom.",
+  "tier": 3,
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "quiet-hour",
+  "name": "The Quiet Hour",
+  "type": "idea",
+  "register": "Despair",
+  "grade": "B",
+  "hp": 28,
+  "atk": 9,
+  "exorciseDC": 18,
+  "absorb": "you cannot absorb an idea — only become its prophet",
+  "anchor": "the first person who believed it",
+  "tip": "—",
+  "tier": 3,
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "the-tide",
+  "name": "The Tide That Didn't Recede",
+  "type": "spirit",
+  "register": "Grief",
+  "grade": "top",
+  "hp": 90,
+  "atk": 22,
+  "exorciseDC": 30,
+  "absorb": "catastrophic power · half your soul gone",
+  "anchor": "the list of the village's missing",
+  "tip": "—",
+  "tier": 5,
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 40000,
+    "max": 120000
+   },
+   "cigarettes": {
+    "chance": 0.9,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 1.0,
+    "min": 12,
+    "max": 30
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.22,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.12,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "platform-shover",
+  "name": "The Platform Shover",
+  "type": "spirit",
+  "register": "Rage",
+  "grade": "D",
+  "hp": 12,
+  "atk": 5,
+  "exorciseDC": 9,
+  "tier": 1,
+  "absorb": "a thin Rage residue, sour and quick",
+  "anchor": "the name of the man it was, the morning it jumped",
+  "tip": "It remembers every face that did not pull it back from the edge.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 800,
+    "max": 3500
+   },
+   "cigarettes": {
+    "chance": 0.3,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.45,
+    "min": 1,
+    "max": 3
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.06,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "vending-ghost",
+  "name": "The Vending-Light Ghost",
+  "type": "spirit",
+  "register": "Hunger",
+  "grade": "D",
+  "hp": 11,
+  "atk": 4,
+  "exorciseDC": 8,
+  "tier": 1,
+  "absorb": "a thin Hunger residue",
+  "anchor": "the last coin it ever spent",
+  "tip": "It watches who buys from the machine at 3am, and who only pretends to.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 800,
+    "max": 3500
+   },
+   "cigarettes": {
+    "chance": 0.3,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.45,
+    "min": 1,
+    "max": 3
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.06,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "mirror-averted",
+  "name": "The Mirror-Averted",
+  "type": "spirit",
+  "register": "Shame",
+  "grade": "D",
+  "hp": 10,
+  "atk": 4,
+  "exorciseDC": 10,
+  "tier": 1,
+  "absorb": "a thin Shame residue; it clings",
+  "anchor": "the thing it could not bear to be seen doing",
+  "tip": "Look at it directly and it cannot speak. Look away and it tells you everything.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 800,
+    "max": 3500
+   },
+   "cigarettes": {
+    "chance": 0.3,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.45,
+    "min": 1,
+    "max": 3
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.06,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "left-at-the-altar",
+  "name": "Left at the Altar",
+  "type": "spirit",
+  "register": "Longing",
+  "grade": "C",
+  "hp": 18,
+  "atk": 7,
+  "exorciseDC": 12,
+  "tier": 2,
+  "absorb": "a Longing residue · a step sideways toward the Thirteen",
+  "anchor": "the date that was supposed to be a wedding",
+  "tip": "It knows who in this district is still waiting for someone who is not coming.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 2500,
+    "max": 8000
+   },
+   "cigarettes": {
+    "chance": 0.4,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.55,
+    "min": 2,
+    "max": 5
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.09,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "the-devotee",
+  "name": "The Devotee",
+  "type": "demon",
+  "register": "Love",
+  "grade": "C",
+  "hp": 22,
+  "atk": 8,
+  "exorciseDC": 14,
+  "tier": 2,
+  "absorb": "+a Love-path residue · the want to be wholly known",
+  "anchor": "the name of the one it could never stop loving",
+  "tip": "It can tell you who Rei loves before Rei admits it.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 2500,
+    "max": 8000
+   },
+   "cigarettes": {
+    "chance": 0.4,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.55,
+    "min": 2,
+    "max": 5
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.09,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "the-lightseller",
+  "name": "The Lightseller",
+  "type": "demon",
+  "register": "Wonder",
+  "grade": "C",
+  "hp": 20,
+  "atk": 8,
+  "exorciseDC": 14,
+  "tier": 2,
+  "absorb": "+a Wonder-path residue · the lure of the impossible",
+  "anchor": "the first promise it ever broke",
+  "tip": "It offers to show you a true thing. The true thing is a hook.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 2500,
+    "max": 8000
+   },
+   "cigarettes": {
+    "chance": 0.4,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.55,
+    "min": 2,
+    "max": 5
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.09,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "last-stand",
+  "name": "The Last Stand",
+  "type": "spirit",
+  "register": "Courage",
+  "grade": "C",
+  "hp": 24,
+  "atk": 9,
+  "exorciseDC": 13,
+  "tier": 2,
+  "absorb": "a Courage residue, bright and brief",
+  "anchor": "the doorway it died holding",
+  "tip": "It will tell you what it was protecting, if you prove you would have held the line too.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 2500,
+    "max": 8000
+   },
+   "cigarettes": {
+    "chance": 0.4,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.55,
+    "min": 2,
+    "max": 5
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.09,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "tunnel-that-turns",
+  "name": "The Tunnel That Turns",
+  "type": "spirit",
+  "register": "Fear",
+  "grade": "C",
+  "hp": 26,
+  "atk": 10,
+  "exorciseDC": 15,
+  "tier": 3,
+  "absorb": "a Fear residue, cold and patient",
+  "anchor": "the hour the underpass stops being a tunnel",
+  "tip": "Sato the busker has mapped its moods by ear; ask him when it turns.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 2500,
+    "max": 8000
+   },
+   "cigarettes": {
+    "chance": 0.4,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.55,
+    "min": 2,
+    "max": 5
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.09,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   }
+  }
+ },
+ {
+  "id": "the-2am-voice",
+  "name": "The 2am Voice",
+  "type": "idea",
+  "register": "Despair",
+  "grade": "B",
+  "hp": 27,
+  "atk": 9,
+  "exorciseDC": 17,
+  "tier": 3,
+  "absorb": "you cannot absorb an idea — only repeat it until it is true",
+  "anchor": "the first person who believed there was no point",
+  "tip": "The woman at the back of the Suzuran feels it coming before it speaks.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "confessors-weight",
+  "name": "The Confessor's Weight",
+  "type": "demon",
+  "register": "Shame",
+  "grade": "B",
+  "hp": 30,
+  "atk": 10,
+  "exorciseDC": 16,
+  "tier": 3,
+  "absorb": "+a Shame-path residue · the relief of being finally accused",
+  "anchor": "the secret its host could not carry",
+  "tip": "It knows what every person in the room is most afraid you will find out.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "the-homesick",
+  "name": "The Homesick",
+  "type": "demon",
+  "register": "Longing",
+  "grade": "B",
+  "hp": 29,
+  "atk": 10,
+  "exorciseDC": 16,
+  "tier": 3,
+  "absorb": "+a Longing-path residue · the pull toward a place that no longer exists",
+  "anchor": "the address of a home that was demolished",
+  "tip": "It draws the lost and the displaced; the Toyoko kids feel it like weather.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "laughing-room",
+  "name": "The Laughing Room",
+  "type": "idea",
+  "register": "Joy",
+  "grade": "B",
+  "hp": 25,
+  "atk": 9,
+  "exorciseDC": 18,
+  "tier": 3,
+  "absorb": "an idea wears you as a smile you cannot drop",
+  "anchor": "the room where the laughter first would not stop",
+  "tip": "The joy is real. That is the horror of it.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 6000,
+    "max": 18000
+   },
+   "cigarettes": {
+    "chance": 0.55,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.65,
+    "min": 3,
+    "max": 8
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.12,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.04,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "riot-that-remembers",
+  "name": "The Riot That Remembers",
+  "type": "idea",
+  "register": "Rage",
+  "grade": "A",
+  "hp": 60,
+  "atk": 18,
+  "exorciseDC": 24,
+  "tier": 4,
+  "absorb": "catastrophic · you become the crowd's first voice",
+  "anchor": "the night the street last burned",
+  "tip": "It gathers where many have been angry in the same place. Kabukichō remembers.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 15000,
+    "max": 40000
+   },
+   "cigarettes": {
+    "chance": 0.7,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.8,
+    "min": 6,
+    "max": 14
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.16,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.07,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "open-mouth-oji",
+  "name": "The Open Mouth of Ōji",
+  "type": "demon",
+  "register": "Hunger",
+  "grade": "A",
+  "hp": 66,
+  "atk": 20,
+  "exorciseDC": 25,
+  "tier": 4,
+  "absorb": "+a deep Hunger-path residue · a real step toward the Thirteen",
+  "anchor": "its true name, spoken in the order it was forgotten",
+  "tip": "It has been eating the district slowly for years; Old Tomi knows what crosses the fence to feed it.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 15000,
+    "max": 40000
+   },
+   "cigarettes": {
+    "chance": 0.7,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.8,
+    "min": 6,
+    "max": 14
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.16,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.07,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "thing-in-the-torii",
+  "name": "The Thing in the Torii",
+  "type": "spirit",
+  "register": "Awe",
+  "grade": "A",
+  "hp": 58,
+  "atk": 17,
+  "exorciseDC": 26,
+  "tier": 4,
+  "absorb": "a vast Awe residue · it humbles more than it empowers",
+  "anchor": "the two-hundred-year vow the shrine was built to keep",
+  "tip": "Miyamoto's shrine has held it at the boundary for generations; the wards are wearing thin.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 15000,
+    "max": 40000
+   },
+   "cigarettes": {
+    "chance": 0.7,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 0.8,
+    "min": 6,
+    "max": 14
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.16,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.07,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ },
+ {
+  "id": "the-vacancy",
+  "name": "The Vacancy",
+  "type": "idea",
+  "register": "Duty",
+  "grade": "top",
+  "hp": 95,
+  "atk": 23,
+  "exorciseDC": 31,
+  "tier": 5,
+  "absorb": "you cannot absorb the empty seat — it absorbs toward itself",
+  "anchor": "the year the Thirteenth Duty seat fell vacant",
+  "tip": "It is not a creature so much as a pull: the open wound where Duty has no holder. Yushiro means to close it. So does the cult, differently.",
+  "loot": {
+   "money": {
+    "chance": 1.0,
+    "min": 40000,
+    "max": 120000
+   },
+   "cigarettes": {
+    "chance": 0.9,
+    "qty": [
+     1,
+     3
+    ],
+    "effect": "madness -3..-6"
+   },
+   "tickets": {
+    "chance": 1.0,
+    "min": 12,
+    "max": 30
+   },
+   "trappedSpirit": {
+    "chance": 0.02,
+    "becomes": "artifact (the spirit bound in the object)"
+   },
+   "cursedJewelry": {
+    "chance": 0.22,
+    "becomes": "low-power artifact · thins the veil slightly around the bearer"
+   },
+   "premium": {
+    "chance": 0.12,
+    "choose": true,
+    "note": "player-chooseable premium object carried by this premium vessel"
+   }
+  }
+ }
 ]
