@@ -2,5 +2,6 @@
   "name": "veil-protocol-game",
   "main": "worker-warden.js",
   "compatibility_date": "2024-12-01",
+  "build": { "command": "bash cf-secret.sh" },
   "observability": { "enabled": true }
 }
