@@ -1948,8 +1948,8 @@ function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Mat
  h+=statBar('Stability',G.player.stability,100,'#8fae74');
  h+=statBar('Madness',G.player.madness,100,'#b65a4c');
  h+='<div style="background:#0e0b08;border:1px solid var(--bdr);border-radius:8px;padding:8px 11px;margin:10px 0;font-size:12.5px;min-height:64px;line-height:1.5">'+f.log.slice(-4).map(function(l){return '<div style="margin:2px 0;color:var(--text)">'+l+'</div>';}).join('')+'</div>';
- if(f.over){var col=(f.result==='banish'||f.result==='exorcise')?'#8fae74':(f.result==='absorb'?'#9a6ab6':(f.result==='flee'?'var(--dim)':'#c0563f'));
-  h+='<div style="text-align:center;font-family:Cinzel,serif;color:'+col+';font-size:15px;margin:6px 0 10px">'+({banish:'Banished',exorcise:'Sent back',absorb:'Absorbed',flee:'You broke away',down:'You went down',possessed:'It got a grip'}[f.result]||'')+'</div>';
+ if(f.over){var col=(f.result==='banish'||f.result==='exorcise'||f.result==='freed'||f.result==='calmed')?'#8fae74':(f.result==='absorb'?'#9a6ab6':(f.result==='flee'?'var(--dim)':'#c0563f'));
+  h+='<div style="text-align:center;font-family:Cinzel,serif;color:'+col+';font-size:15px;margin:6px 0 10px">'+({banish:'Banished',exorcise:'Sent back',absorb:'Absorbed',freed:'You freed the host',calmed:'You talked it down',flee:'You broke away',down:'You went down',possessed:'It got a grip'}[f.result]||'')+'</div>';
   h+='<div style="text-align:center"><button class="btn" onclick="closeFight()">Close</button></div>';
  } else { var bp=bestPath();
   h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">';
@@ -1957,6 +1957,7 @@ function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Mat
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'power\')">✦ Power'+(bp.lvl?' · '+bp.name:'... locked')+'</button>';
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'exorcise\')">↩ Exorcise</button>';
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'absorb\')">◉ Absorb</button>';
+  h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3;color:#c9b07a;border-color:#6d5a3a" onclick="fightTalk()">💬 '+(f.e.type==='demon'?'Reach for what is under the voice':f.e.type==='idea'?'Try to reason with it':'Reach it with words')+'</button>';
   h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3" onclick="fightAct(\'flee\')">↘ Flee</button></div>';
  }
  document.getElementById('fightBody').innerHTML=h;
@@ -1988,16 +1989,19 @@ function combatVerb(id){var c=G.contacts[id];var ch=(typeof charForContact==='fu
  if(tp)return (ABILITY_VERB[tp.name]||('looses '+tp.name+' at it'))+' (L'+tp.level+')';
  return ['moves on it clean','strikes with trained force','cuts into its presence'][Math.floor(Math.random()*3)];}
 function partyStrike(f){ if(!G.party||!G.party.length)return; for(var i=0;i<G.party.length;i++){ var pid=G.party[i]; var c=G.contacts[pid]; if(!c||!npcReachable(c))continue; var dmg=combatPow(pid)+d6(); f.ehp-=dmg; f.log.push(esc(c.name)+' '+combatVerb(pid)+'... '+dmg+' to it.'); } }
-function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb');if(text)FIGHT.log.push(text);
- if(FIGHT.won){var amt=GRADE_XP[FIGHT.e.grade]||3;gainXP(amt);rollLoot(FIGHT.e);if(result==='absorb'&&typeof absorbEntity==='function')absorbEntity(FIGHT.e);
+function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb'||result==='freed'||result==='calmed');if(text)FIGHT.log.push(text);
+ if(FIGHT.won){var amt=GRADE_XP[FIGHT.e.grade]||3;gainXP(amt);
+  if(result==='banish'||result==='exorcise'||result==='absorb')rollLoot(FIGHT.e);
+  if(result==='absorb'&&typeof absorbEntity==='function')absorbEntity(FIGHT.e);
+  if((result==='freed'||result==='calmed')&&FIGHT.e.tip&&typeof addDiscovery==='function')addDiscovery('From the one you reached without a fight: '+FIGHT.e.tip,FIGHT.e.name);
   var pn=(G.party||[]).filter(function(p){return G.contacts[p];});
   pn.forEach(function(pid){var c=G.contacts[pid];c._xp=(c._xp||0)+amt;if(typeof bumpRel==='function')bumpRel(pid,1);});
   if(pn.length)FIGHT.log.push('You did not fight alone... '+pn.map(function(p){return esc(G.contacts[p].name);}).join(', ')+' each take '+amt+' XP, full share.');}
  renderTop();renderFight();saveG();}
 function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
  if(a==='flee'){p.madness=Math.min(100,p.madness+1);fightEnd('flee','You break away. It does not follow... this time.');return;}
- if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike... '+dmg+' to its presence.');}
- else if(a==='power'){var bp=bestPath();if(bp.lvl<1){f.log.push('No path is trained yet... nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6();f.ehp-=dmg;p.stability=Math.max(0,p.stability-8);p.veil=Math.min(100,p.veil+4);p.madness=Math.min(100,p.madness+2);f.log.push('You loose '+bp.name+'... '+dmg+'. The veil thins (−Stability, +Veil).');}
+ if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike... '+_hitFlavor(e)+'. '+dmg+' to its presence.');}
+ else if(a==='power'){var bp=bestPath();if(bp.lvl<1){f.log.push('No path is trained yet... nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6();f.ehp-=dmg;p.stability=Math.max(0,p.stability-8);p.veil=Math.min(100,p.veil+4);p.madness=Math.min(100,p.madness+2);f.log.push('You loose '+bp.name+'... '+_hitFlavor(e)+'. '+dmg+'. The veil thins (−Stability, +Veil).');}
  else if(a==='exorcise'){if(e.grade==='top'){f.log.push('Too strong to send back unnamed. You would need '+e.anchor+'.');renderFight();return;}var roll=p.attributes.Resolve+(p.humanSkills['Symbol Work']||0)+d6();var dc=e.exorciseDC||12;if(roll>=dc&&f.ehp<=f.emax*0.6){fightEnd('exorcise','You bind and send it back. It leaves a thread: “'+(e.tip||'nothing')+'”');return;}else{f.log.push('Exorcism falters ('+roll+' vs '+dc+(f.ehp>f.emax*0.6?', it is still too strong':'')+').');}}
  else if(a==='absorb'){if(e.type==='idea'){f.log.push('You cannot absorb an idea... only believe it.');renderFight();return;}if(f.ehp>f.emax*0.35){f.log.push('Too strong to take in... wear it down first.');renderFight();return;}p.veil=Math.min(100,p.veil+12);p.madness=Math.min(100,p.madness+10);fightEnd('absorb','You take it into yourself: '+(e.absorb||'power')+'. The veil thins around you.');return;}
  partyStrike(f);/* companions hit alongside you each round... the more of you, the faster it falls */
@@ -2006,6 +2010,33 @@ function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
  if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will... Madness rises.');}
  else{var dmg=eatk;if(p.stability>=dmg){p.stability-=dmg;f.log.push('It strikes at your nerve... −'+dmg+' Stability.');}else{var over=dmg-p.stability;p.stability=0;p.hp[0]=Math.max(0,p.hp[0]-over);f.log.push('It gets past your guard... −'+over+' Health.');}p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1));}
  if(p.hp[0]<=0){fightEnd('down','You go down. (In the full build: rescued, or worse.)');return;}
+ if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return;}
+ renderTop();renderFight();saveG();
+}
+// sensory flavor for a hit, coloured by what the thing is made of
+function _hitFlavor(e){ var r=(e.register||'').toLowerCase();
+ var pool=({grief:['the air goes wet and cold where you land it','it keens, a sound like someone you failed'],
+  fear:['it skitters back at all the wrong angles','the room tilts as it flinches'],
+  despair:['it sags, heavy as drowned cloth','the light dims a notch where you strike'],
+  rage:['it snarls and the glass shivers in the frames','heat comes off it like a struck match'],
+  hunger:['it gapes, wanting, even as it folds','its edges blur, still reaching'],
+  longing:['it reaches after you even now','it sighs, almost grateful'],
+  joy:['its laughter curdles as you land it','the wrongness of its delight gutters'],
+  awe:['it flares, too bright, then dims']})[r]||['it shudders','its outline frays','the cold of it stutters'];
+ return pool[Math.floor(Math.random()*pool.length)]; }
+// TALK to what you are fighting: reach the person under a ridden host, calm a spirit, get a thread from a demon, fail against an idea
+function fightTalk(){ var f=FIGHT; if(!f||f.over)return; var e=f.e; var p=G.player; f.talk=(f.talk||0);
+ if(e.type==='idea'){ p.madness=Math.min(100,p.madness+_rnd(3,6)); f.log.push('You try to reason with it, but it is not a someone... it is a belief, and answering it only lets it further in. Madness rises.'); renderTop();renderFight();saveG(); return; }
+ if(e.type==='demon'){ p.stability=Math.max(0,p.stability-_rnd(2,5)); f.log.push('It speaks with a stolen warmth and turns every word into a hook. '+(e.tip?('Between the barbs, one true thing slips out: “'+esc(e.tip)+'”'):'It gives you nothing but contempt.')); renderTop();renderFight();saveG(); return; }
+ var rapport=(p.attributes.Resolve||0)+(p.humanSkills.Presence||p.humanSkills.Empathy||0)+d6();
+ var soft=(f.ehp<=f.emax*0.7); var gain=(rapport>=13?2:rapport>=9?1:0)+(soft?1:0);
+ f.talk+=gain;
+ if(gain<=0){ p.stability=Math.max(0,p.stability-_rnd(1,3)); f.log.push('You reach for the person under it. It recoils, gives you nothing you can hold, and the reaching costs you.'); }
+ else { f.log.push('You speak to the person, not the thing riding them, and something in it stops to listen. '+((e.tip&&f.talk>=2)?('“'+esc(e.tip)+'”'):'A crack opens.')); }
+ if(f.talk>=3){ var res=(e.type==='ridden'||e.type==='vessel'||e.type==='medium')?'freed':'calmed';
+  fightEnd(res, res==='freed'?'You reach the person inside, and they take their own weight back. The thing that rode them has nowhere left to sit. They are free... shaking, and alive.':'You talk it down. The presence loosens, settles, and slips back across the veil without a fight.'); return; }
+ var eatk=Math.max(0,(e.atk||4)+d6()-5);
+ if(eatk>0){ p.stability=Math.max(0,p.stability-eatk); f.log.push('It is not calm yet. It pushes back... −'+eatk+' Stability.'); }
  if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return;}
  renderTop();renderFight();saveG();
 }
