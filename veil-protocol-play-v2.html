@@ -812,7 +812,7 @@ function statBar(label,val,max,col,tip){
   (tip?'<div id="'+id+'" style="display:none;font-size:11px;color:var(--dim);font-style:italic;margin-top:3px">'+tip+'</div>':'')+'</div>';
 }
 function statCard(name,val,max,tip){const pct=Math.round(100*val/max);return '<div class="statcard" title="'+(tip||'').replace(/"/g,'')+'"><div class="sc-n">'+name+'</div><div class="sc-v">'+val+'<span class="sc-m"> / '+max+'</span></div><div class="sc-bar"><i style="width:'+pct+'%"></i></div></div>';}
-function deriveStats(){const b=G.player.attributes.Body;G.player.hp[1]=20+b*10;if(G.player.hp[0]>G.player.hp[1])G.player.hp[0]=G.player.hp[1];let best=0;for(const k in G.player.paths)best=Math.max(best,G.player.paths[k].lvl);G.player.attack=b+best;/* hidden */}
+function deriveStats(){const b=G.player.attributes.Body;G.player.hp[1]=20+b*10;if(G.player.hp[0]>G.player.hp[1])G.player.hp[0]=G.player.hp[1];let best=0;for(const k in G.player.paths)best=Math.max(best,G.player.paths[k].lvl);G.player.attack=b+best;/* hidden */ if(typeof axisRecompute==='function')axisRecompute();}
 function relTier(t){
  if(t<=-80)return'Mortal enemy'; if(t<=-60)return'Enemy'; if(t<=-40)return'Rival'; if(t<=-20)return'Adversary'; if(t<-5)return'Bad';
  if(t<=5)return'Acquaintance'; if(t<20)return'Good'; if(t<40)return'Friend'; if(t<60)return'Good friend'; if(t<80)return'Best friend'; return'Partner';
@@ -873,6 +873,37 @@ const TIPS={
  Composure:"Hold steady under fear; resist Madness.",Charisma:"Charm, persuade, intimidate, read people.",Resolve:"Push past your limit; resist possession.",
  Investigation:"Work a case, follow procedure.",Social:"Talk, persuade, blend in.",Stealth:"Move unseen, tail, not be noticed.",Combat:"Fight... fists or a weapon.","Symbol Work":"Draw seals, set wards, read glyphs.",Research:"Dig records, archives, the net."
 };
+// ---- THE AXIS: how close Rei drifts to the thing at the centre (0..5; L5 = close enough to speak) ----
+function axisState(){ if(!G.axis)G.axis={close:0,noticed:false,memory:{},pull:''}; return G.axis; }
+var AXIS_ROUTES=[
+ {key:'power', name:'Power'}, {key:'veil', name:'the Veil'}, {key:'duty', name:'Duty'}, {key:'memory', name:'Memory'}];
+function axisRecompute(){ var a=axisState(); var p=G.player; if(!p)return a;
+ var lvls=[]; for(var k in (p.paths||{})) lvls.push(p.paths[k].lvl||0);
+ var maxlv=lvls.length?Math.max.apply(null,lvls):0; var trained=lvls.filter(function(x){return x>0;}).length;
+ var ratio=(typeof PATHS!=='undefined'&&PATHS.length)?trained/PATHS.length:0;
+ var r={};
+ r.power=(maxlv>=5?1:0)+(maxlv>=8?1:0)+(ratio>0.5?1:0);
+ r.veil=((p.veil||0)>=60?1:0)+((p.madness||0)>=55?1:0);
+ var disc=(G.discoveries||[]).filter(function(x){var t=((x&&x.t)||x||'')+'';return /gin|freight|anvil|yard|kita|duty|axis|font/i.test(t);}).length;
+ r.duty=(G.flags&&G.flags.foundGin?2:0)+Math.min(2,Math.floor(disc/2));
+ r.memory=Object.keys(a.memory||{}).length;
+ var total=r.power+r.veil+r.duty+r.memory;
+ a.close=Math.max(0,Math.min(5,total)); a.noticed=(maxlv>5||ratio>0.5);
+ var best='',bv=0; for(var i=0;i<AXIS_ROUTES.length;i++){var rk=AXIS_ROUTES[i].key; if((r[rk]||0)>bv){bv=r[rk];best=AXIS_ROUTES[i].name;}}
+ a.pull=best; a._r=r; return a; }
+// the remember-quest: only an EXACT true thing about the man he was (Kuze Kaname) counts
+function axisRemember(value){ var a=axisState(); var v=(value||'').toString().toLowerCase();
+ var T={name:/kaname|kuze/,era:/\bedo\b/,org:/twilight|omagatoki|逢魔/,path:/middle\s*(way|path)?/,seat:/duty|thirteenth|xiii/,trade:/investigat|detective/};
+ for(var k in T){ if(!a.memory[k]&&T[k].test(v)){ a.memory[k]=true; axisRecompute(); if(typeof gameToast==='function')gameToast('◈ Something of the Axis comes back to you ('+k+').'); if(typeof saveG==='function')saveG(); return k; } }
+ return null; }
+function axisMeter(){ var a=axisRecompute(); var pct=100*a.close/5; var col=a.close>=5?'#C9A84C':a.close>=3?'#9a6ab6':'#5a4e6e';
+ var h='<div class="sub">THE AXIS <span style="text-transform:none">· the thing at the centre · 4 ways draw you in</span></div>';
+ h+='<div class="bar" style="height:9px"><i style="width:'+pct+'%;background:'+col+'"></i></div>';
+ h+='<div style="font-size:11px;color:var(--dim);font-family:var(--mono);margin:3px 0 2px">closeness '+a.close+' / 5'+(a.pull?(' · drawn by '+a.pull):'')+'</div>';
+ if(a.noticed)h+='<div style="font-size:12px;color:#C9A84C;font-style:italic;margin:2px 0">Something vast and patient has noticed you reaching. Grow too bright, or thin the veil too far, and it will not look away.</div>';
+ if(a.close>=5)h+='<div style="font-size:12px;color:#C9A84C;margin:2px 0">You are close enough now that, in the right place and the deep veil, you could try to <b>speak to him</b>.</div>';
+ var mem=Object.keys(a.memory||{}); if(mem.length)h+='<div style="font-size:11px;color:var(--dim);margin-top:3px">Of who he was, you have recalled: <b>'+mem.length+' / 6</b> ('+mem.join(', ')+').</div>';
+ return h; }
 function renderProfile(){
  const p=G.player;let h='';TIPN=0;
  h+='<div class="sub">VITALS</div>';
@@ -882,6 +913,7 @@ function renderProfile(){
  h+=statBar('Veil-thinness · around you',p.veil,100,'#9a6ab6',TIPS.Veil);
  h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
  h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
+ h+=axisMeter();
  h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
  var _st=p.standing||{cvd:0,grid:0,tower:0};
@@ -1177,6 +1209,15 @@ function dailyNews(day){day=day||G.day||1;var d=day;var out=[];
  var con=['THEY&rsquo;RE HIDING THE DEAD: a thread with 4,000 replies calls the CVD &ldquo;the ghost police.&rdquo; mods keep locking it. it keeps coming back.','TYPHOONS AND SPIRITS: a blogger insists the weather agency edits out the nights the veil thins. correlation, he screams, IS causation.','THE THIRTEEN: a fringe site numbers the &ldquo;emotion demons&rdquo; and gets one detail uncomfortably right. probably nothing.'];
  out.push({org:'conspiracy',label:'CONSPIRACY / 2ch',t:_pick(con,d*17),s:'take it with salt. a lot of salt.',body:_pick(con,d*17),who:['anonymous']});
  if(G.discoveries&&G.discoveries.length){var disc=G.discoveries[G.discoveries.length-1];out.splice(3,0,{org:'cvd',label:'CVD NEWS · TIP LINE',t:'Unconfirmed report logged, northern wards',body:'A citizen tip, unverified, entered the public log today: "'+esc((disc.t||disc)+'')+'" The Directorate neither confirms nor comments. You know more than the log does.',who:['CVD tip line']});}
+ // ---- THE GIN TRAIL: the News seeds where Gin went, a little more each day, toward the Ōji freight-yard ----
+ var trail=[
+  {org:"cvd",label:"CVD NEWS · TIP LINE",t:"Cluster of reports, Ōji freight line",s:"Northern wards desk.",body:"Unverified citizen reports gather along the Ōji freight line this week. Several mention the rail underpass — a wrongness after dark that no instrument the Directorate will admit to has logged.",who:["CVD tip line"]},
+  {org:"ninja",label:"GRID // 忍 CHANNEL",t:"his shadow went first, heading north",s:"unlisted. you didn't find this.",body:"the channel that isn't there says: that man on the Ōji bridge — last seen walking north, toward the rail blocks, and not coming back. somebody the suits care about is missing, and they are very quiet about it. you didn't hear it here.",who:["the channel nobody admits to watching"]},
+  {org:"conspiracy",label:"CONSPIRACY / 2ch",t:"a field investigator who just... stopped filing",s:"salt advised.",body:"leak thread: a CVD field man's last logged movement was the freight underpass, the 11th. then nothing — no obituary, no transfer, no case number. they scrubbed him clean. who scrubs one of their own?",who:["anonymous"]},
+  {org:"ninja",label:"GRID // 忍 CHANNEL",t:"the back lane with the anvil shutter",s:"unlisted.",body:"rumor mill: the freight-yard blocks north of Ōji. locals don't walk the back lanes after dark. there's a shutter with an anvil painted on it that is always, always shut — and the thinning is worst right there. count the lanterns going the wrong way.",who:["the channel nobody admits to watching"]},
+  {org:"ninja",label:"GRID // 忍 CHANNEL",t:"something is anchored behind the shutter",s:"this broadcast self-deletes.",body:"tonight: whatever the CVD won't name, it's anchored in the Ōji freight yard, behind the anvil shutter — a person, or what's left of one, holding something shut from the inside. if you're looking for someone, that is where the city goes wrong. [the Grid was never here.]",who:["the channel nobody admits to watching"]}
+ ];
+ if(!(G.flags&&G.flags.foundGin)){ var ti=Math.min(trail.length-1, Math.floor((d-1)/2)+((G.flags&&G.flags.hasBook)?1:0)); out.splice(2,0,trail[Math.max(0,ti)]); }
  return out;}
 function phNews(){var items=dailyNews(G.day);G._newsCache=items;let h='<div class="ph-body" style="padding:0"><div style="padding:8px 14px;font-size:11px;color:var(--ph-dim);border-bottom:8px solid var(--ph-card)">Tokyo &middot; '+dateStr()+'</div>';items.forEach((n,i)=>h+='<div class="news-it" style="cursor:pointer" onclick="nav(function(){newsArticle('+i+')})">'+orgBadge(n.org)+'<div><div class="nt">'+n.t+'</div><div class="ns">'+n.s+'</div><div class="ns" style="margin-top:3px;color:var(--ph-accent)">'+n.label+' ›</div></div></div>');h+='</div>';ph(h);}
 function newsArticle(i){const n=(G._newsCache||dailyNews(G.day))[i];if(!n)return;let h=phbar('News')+'<div class="ph-body"><div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">'+orgBadge(n.org,40)+'<div><div style="font-size:11px;color:var(--ph-accent);font-weight:700">'+n.label+'</div><div style="font-size:11px;color:var(--ph-dim)">'+dateStr()+'</div></div></div>';h+='<div style="font-size:17px;font-weight:800;line-height:1.3;margin-bottom:8px">'+n.t+'</div>';h+='<div style="font-size:13.5px;line-height:1.6;color:var(--ph-text);white-space:pre-line">'+n.body+'</div>';h+='<div class="secs" style="padding-left:0;margin-top:14px">SOURCE</div>';(n.who||[]).forEach(w=>h+='<div style="font-size:13px;padding:3px 0;border-bottom:1px solid var(--ph-line)">'+w+'</div>');h+='</div>';ph(h);}
