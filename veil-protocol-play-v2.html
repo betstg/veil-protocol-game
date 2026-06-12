@@ -614,6 +614,7 @@ function renderScene(){
  const cw=document.getElementById('readChoices');cw.innerHTML='';
  node.c.forEach(ch=>{
   if(ch.showIf && !G.flags[ch.showIf]) return;
+  if(ch.item && (G.player.inventory||[]).some(function(it){return it.n===ch.item.n;})) return;/* already picked up: don't offer it again */
   const locked=ch.lock&&!lockOk(ch.lock); const need=ch.need&&!G.flags[ch.need];
   const b=document.createElement('button');b.className='choice'+((locked||need)?' locked':'');
   b.innerHTML=ch.x+(ch.hint?'<span class="hint">'+ch.hint+(locked?' · LOCKED':'')+(need?' · need '+ch.need:'')+'</span>':'');
