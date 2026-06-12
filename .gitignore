@@ -6,3 +6,7 @@ gemini-key.txt
 
 # logs / temp
 *.log
+
+# node deps (jsdom for QA smoke tests, etc.)
+node_modules/
+package-lock.json
