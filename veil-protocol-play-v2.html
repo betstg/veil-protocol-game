@@ -1132,7 +1132,9 @@ function travel(id,mins,mode){const p=G.places.find(x=>x.id===id);if(!p)return;
  ph('<div class="ph-body" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 24px"><div style="font-size:42px;margin-bottom:14px">'+icon+'</div><div style="font-size:16px;font-weight:700;color:var(--ph-text)">Travelling to '+p.name+'…</div><div style="font-size:12px;color:var(--ph-dim);margin-top:4px">'+mode+' · '+mins+' min'+(mode==="cab"?" · −¥"+Math.round(mins*70):"")+'</div><div style="width:82%;height:6px;background:var(--ph-line);border-radius:3px;margin-top:20px;overflow:hidden"><i id="travbar" style="display:block;height:100%;width:0;background:var(--ph-accent);transition:width '+dur+'ms linear"></i></div><div id="travcount" style="font-family:monospace;font-size:13px;color:var(--ph-text);margin-top:10px">'+mins+' min away</div></div>');
  setTimeout(function(){var b=document.getElementById('travbar');if(b)b.style.width='100%';},40);
  var start=Date.now();var iv=setInterval(function(){var f=Math.min(1,(Date.now()-start)/dur);var rem=Math.ceil(mins*(1-f));var t=document.getElementById('travcount');if(t)t.textContent=rem>0?(rem+' min away'):'arriving…';if(f>=1)clearInterval(iv);},120);
- setTimeout(function(){clearInterval(iv);advance(mins);G.player.at=p.name;G.player.atId=p.id;G._arr={id:id,mode:mode,mins:mins};placeArrival(id);},dur+90);}
+ setTimeout(function(){clearInterval(iv);advance(mins);G.player.at=p.name;G.player.atId=p.id;G._arr={id:id,mode:mode,mins:mins};
+  for(var _cid in G.contacts){var _c=G.contacts[_cid];if(_c._withYou&&(!_c._here||_c._here.placeId!==p.id)){_c._withYou=false;}} // leaving ends a visit... whoever was with you isn't anymore
+  placeArrival(id);},dur+90);}
 function ambience(p){var H=Math.floor((G.min%1440)/60);var light;
  if(H<5)light='The hour still has no name... the street is sodium-lit and empty, the city asleep around you.';
  else if(H<7)light='Grey first light; the air cool, the day not yet decided.';
@@ -1422,9 +1424,14 @@ function showLock(){var l=document.getElementById('phLock');if(l){updateLock();l
 function hideLock(){var l=document.getElementById('phLock');if(l)l.style.display='none';}
 function avatarFace(id){var c=G.contacts[id];if(!c)return '?';var ch=(typeof charForContact==='function')?charForContact(c):null;var f=ch&&ch.portrait;if(f)return '<img src="images/'+f+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block">';return c.name?c.name[0]:'?';}
 function gameToast(msg){var t=document.getElementById('gtoast');if(!t){t=document.createElement('div');t.id='gtoast';t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2a1a14;color:#f0d9c8;border:1px solid var(--blood,#6e2b20);padding:11px 18px;border-radius:8px;font-family:Georgia,serif;font-size:14px;z-index:99999;box-shadow:0 4px 22px rgba(0,0,0,.55);max-width:82%;text-align:center';document.body.appendChild(t);}t.textContent=msg;t.style.transition='';t.style.opacity='1';clearTimeout(window._gt);window._gt=setTimeout(function(){t.style.transition='opacity .7s';t.style.opacity='0';},6500);}
-function scheduleArrival(id,mins){var c=G.contacts[id];if(!c)return;mins=Math.max(1,Math.min(180,mins||20));if(!G.pendingArrivals)G.pendingArrivals=[];G.pendingArrivals=G.pendingArrivals.filter(function(a){return a.id!==id;});G.pendingArrivals.push({id:id,name:c.name,dueAbs:(G.day*1440+G.min)+mins});c.history.push(['sys','... '+c.name+' is on the way (~'+mins+' min) ...']);}
+function scheduleArrival(id,mins){var c=G.contacts[id];if(!c)return;if(c._withYou)return; // already here... do not re-summon
+ mins=Math.max(1,Math.min(180,mins||20));if(!G.pendingArrivals)G.pendingArrivals=[];
+ var due=(G.day*1440+G.min)+mins;
+ var ex=G.pendingArrivals.filter(function(a){return a.id===id;})[0];
+ if(ex){ if(due<ex.dueAbs)ex.dueAbs=due; return; } // already on the way: keep the sooner ETA, never push it back (no "almost there" loop)
+ G.pendingArrivals.push({id:id,name:c.name,dueAbs:due});c.history.push(['sys','... '+c.name+' is on the way (~'+mins+' min) ...']);}
 function npcArrive(a){var c=G.contacts[a.id];if(!c)return;c.known=true;c.shares=true;
- var pid=currentPlaceId()||'home'; c._here={placeId:pid,until:(G.day*1440+G.min)+150}; c._withYou=true;
+ var pid=currentPlaceId()||'home'; c._here={placeId:pid,until:(G.day*1440+G.min)+150}; c._withYou=true; c._cameOver=true;
  var spare=(a.id==='itsuki');
  c._personFrom=c.history.length; // the in-person scene starts HERE... do not replay the earlier texts
  c.history.push(['sys', spare ? '[the door opens — he lets himself in with the spare key you forgot he still had]' : '[a knock at the door — it is '+c.name+']']);
@@ -1541,7 +1548,7 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
  var firstContact=!(c.history||[]).some(function(m){return m[0]==='me';});
  var isGin=(id==='gin');
  var st=isGin?'':npcState(id,c);
- var hereNow=!!(c._withYou&&c._here&&(G.day*1440+G.min)<c._here.until);
+ var hereNow=!!c._withYou; // once he has come over, he is present with Rei... never revert to "on my way"
  var avail=hereNow?(' IN-WORLD: you are RIGHT NOW physically at Rei’s place, in the room with her, face to face — you came over like you said you would. Speak as someone who is actually here in person. NEVER say you are at Geidai, your studio, work, or anywhere else; you are with her.')
   :(st==='asleep')?(' IN-WORLD TIME: it is '+fmt(G.min)+', the dead of night, and you are almost certainly ASLEEP. A real person does not answer mid-sleep: if Rei is NOT someone you would wake for, reply with the single token [[asleep]] and nothing else. If the buzzing wakes you, or this is someone you would always get up for, reply SHORT and groggy, not pleased to be woken at this hour.')
   :(st==='work')?(' IN-WORLD TIME: it is '+fmt(G.min)+' and you are on the clock / at work right now... reply briefly and a little distracted; you cannot talk long.')
