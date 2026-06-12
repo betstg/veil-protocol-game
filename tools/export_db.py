@@ -46,6 +46,9 @@ for c in cur.execute("SELECT * FROM characters WHERE COALESCE(is_player,0)=0 ORD
     if c["is_entity"]:      rec["entity"]    = True
     if c["tier"]:           rec["tier"]      = c["tier"]
     if c["tier_letter"]:    rec["tierLetter"]= c["tier_letter"]
+    if c["registered"] is not None: rec["registered"] = str(c["registered"]).strip().lower() in ("1","true","yes")
+    if c["standing"]:       rec["standing"]  = c["standing"]
+    if c["rank_note"]:      rec["rankNote"]  = c["rank_note"]
     _paths = J(c["paths_json"])
     if _paths:              rec["paths"]     = _paths
     characters.append(rec)

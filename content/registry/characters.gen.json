@@ -139,7 +139,7 @@
  {
   "id": "gin",
   "name": "Uedera Gin, &#19978;&#26543; &#37528;",
-  "sub": "28 / M / CVD Field Investigator (nominally) / Vanguard suppressed as Ritualist C / Kita District / Not playable",
+  "sub": "28 / M / CVD Field Investigator (nominally) / Vanguard (S) suppressed as Ritualist C / Kita District / Not playable",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -238,7 +238,7 @@
  {
   "id": "yushiro",
   "name": "Yushiro, &#30290;&#22763;&#37070;... &lsquo;the Healer&rsquo;",
-  "sub": "Top-grade (Arbiter-class, pre-crossing) / Duty register... the charge he would not lay down / not a malign thing... it wants the veil open, not the city harmed / possessing Uedera Gin, and killing him by inches",
+  "sub": "Guardian (SS) / Duty register... the charge he would not lay down / not a malign thing... it wants the veil open, not the city harmed / possessing Uedera Gin, and killing him by inches",
   "entity": true,
   "romanceable": false,
   "relationships": [
@@ -252,7 +252,7 @@
  {
   "id": "nakamura_aoi",
   "name": "Nakamura Aoi, &#20013;&#26449; &#33909;",
-  "sub": "20 / F / CVD Trainee, 2nd year / Channel... Psychokinesis L4 / Entry: The Registered Practitioner / Track 0",
+  "sub": "20 / F / CVD Trainee, 2nd year / Arbiter (A)... Psychokinesis L4 / Entry: The Registered Practitioner / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -286,7 +286,7 @@
  {
   "id": "kato_ryusei",
   "name": "Kato Ryusei, &#21152;&#34276; &#40845;&#26143;",
-  "sub": "21 / M / CVD Trainee, 2nd year / Ritualist... Telepathy L3 / Tower-adjacent / Entry: The Registered Practitioner / Track 0",
+  "sub": "21 / M / CVD Trainee, 2nd year / Ritualist (B)... Telepathy L3 / Tower-adjacent / Entry: The Registered Practitioner / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -310,7 +310,7 @@
  {
   "id": "katagiri_noa",
   "name": "Katagiri Noa, &#29255;&#26690; &#20039;&#20124;",
-  "sub": "38 / F / CVD Investigation, senior / Channel... Clairsentience L5 / Entry: The Registered Practitioner / Track +1",
+  "sub": "38 / F / CVD Investigation, senior / Arbiter (A)... Clairsentience L5 / Entry: The Registered Practitioner / Track +1",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -354,7 +354,7 @@
  {
   "id": "tsukishiro",
   "name": "Tsukishiro Haruki, &#26376;&#22478; &#36965;&#27193;",
-  "sub": "31 / M / Independent investigator, Grid-adjacent / Ritualist... Clairsentience L4 / Entry: The Grid Operative / Track 0",
+  "sub": "31 / M / Independent investigator, Grid-adjacent / Ritualist (B)... Clairsentience L4 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -383,7 +383,7 @@
  {
   "id": "fujiwarakage",
   "name": "Fujiwara-Kage Sena, &#34276;&#21407;&#24433; &#26143;&#22856;",
-  "sub": "24 / F / CVD Auditor / Fujiwara-Kage Tower Family / Channel... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
+  "sub": "24 / F / CVD Auditor / Fujiwara-Kage Tower Family / Arbiter (A)... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -407,7 +407,7 @@
  {
   "id": "moriya",
   "name": "Moriya Tatsuki, &#23432;&#23627; &#36948;&#27193;",
-  "sub": "35 / M / CVD Internal Affairs / Channel... Psychometabolism L5 / Entry: The Institutional Enforcer / Track 0",
+  "sub": "35 / M / CVD Internal Affairs / Arbiter (A)... Psychometabolism L5 / Entry: The Institutional Enforcer / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -455,7 +455,7 @@
  {
   "id": "usami_ren",
   "name": "Usami Hinata / Ren, &#23431;&#20304;&#35211; &#26085;&#21521; {Usa-kun}",
-  "sub": "24 / M (host body) / Vessel Program... Usami Hinata, host, deceased / Ren: Class C demon, love-register, contracted / Ritualist / Entry: The Vessel Program / Track 0",
+  "sub": "24 / M (host body) / Vessel Program... Usami Hinata, host, deceased / Ren: Ritualist (B) / Ritualist / Entry: The Vessel Program / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -474,7 +474,7 @@
  {
   "id": "ren",
   "name": "Ren, &#24651;... the Contracted",
-  "sub": "Class C demon / Love register (&#24651;) / Contracted to the Usami vessel / No body of its own",
+  "sub": "Adept (C) / Love register (&#24651;) / Contracted to the Usami vessel / No body of its own",
   "entity": true,
   "romanceable": false,
   "relationships": []
@@ -482,7 +482,7 @@
  {
   "id": "okada_shizuka",
   "name": "Okada Shizuka, &#23713;&#30000; &#38745;",
-  "sub": "32 / F / CVD Investigation / Ritualist... Clairsentience L4 (biographical variant) / Entry: The Registered Practitioner / Track +1",
+  "sub": "32 / F / CVD Investigation / Ritualist (B)... Clairsentience L4 (biographical variant) / Entry: The Registered Practitioner / Track +1",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -511,7 +511,7 @@
  {
   "id": "adachi",
   "name": "Director Adachi Kenshin, &#36275;&#31435; &#20581;&#24515;",
-  "sub": "56 / M / CVD Director, Northern Tokyo / Vanguard... Clairsentience L9 / Entry: The Institutional Enforcer / Track 0",
+  "sub": "56 / M / CVD Director, Northern Tokyo / Vanguard (S)... Clairsentience L9 / Entry: The Institutional Enforcer / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -570,7 +570,7 @@
  {
   "id": "shimizu_ren",
   "name": "Shimizu Ren, &#28165;&#27700; &#34030;",
-  "sub": "29 / F / CVD Suppression, field specialist / Channel... Telekinesis L6 / Entry: The Registered Practitioner / Track +1",
+  "sub": "29 / F / CVD Suppression, field specialist / Arbiter (A)... Telekinesis L6 / Entry: The Registered Practitioner / Track +1",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -604,7 +604,7 @@
  {
   "id": "yamamoto",
   "name": "Yamamoto Koji, &#23665;&#26412; &#24184;&#20108;",
-  "sub": "55 / M / Independent archivist / Vanguard... Clairsentience L9 / Entry: The Grid Operative / Track 0 (exchange model)",
+  "sub": "55 / M / Independent archivist / Vanguard (S)... Clairsentience L9 / Entry: The Grid Operative / Track 0 (exchange model)",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -633,7 +633,7 @@
  {
   "id": "tendo",
   "name": "Tendo Akira, &#22825;&#31461; &#26126;",
-  "sub": "28 / M / CVD Field Operative / Arbiter... Psychokinesis L6 / Entry: The Registered Practitioner / Track 0",
+  "sub": "28 / M / CVD Field Operative / Arbiter (A)... Psychokinesis L6 / Entry: The Registered Practitioner / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -672,7 +672,7 @@
  {
   "id": "choi_hana",
   "name": "Choi Hana, &#52572; &#54616;&#45208;",
-  "sub": "19 / F / Grid operative, unregistered / Arbiter... Clairsentience L6 / Entry: The Grid Operative / Track -1 (starts hostile)",
+  "sub": "19 / F / Grid operative, unregistered / Arbiter (A)... Clairsentience L6 / Entry: The Grid Operative / Track -1 (starts hostile)",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -736,7 +736,7 @@
  {
   "id": "kuroda_sei",
   "name": "Kuroda Sei, &#40658;&#30000; &#26143;",
-  "sub": "22 / M / Kuroda Tower Family operative... unregistered / Ritualist... Teleportation L5 / Entry: The Grid Operative / Track -2",
+  "sub": "22 / M / Kuroda Tower Family operative... registered / Ritualist (B)... Teleportation L5 / Entry: The Grid Operative / Track -2",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -770,7 +770,7 @@
  {
   "id": "kuroda_itsuki",
   "name": "Kuroda Itsuki, &#40658;&#30000; &#27193;",
-  "sub": "20 / M / Geidai oil-painting student... unregistered / Civilian (dormant Teleportation) / Entry: The Friend Through Screens / Track +1",
+  "sub": "20 / M / Geidai oil-painting student... Kuroda Tower family &middot; registered / Arbiter (A) &mdash; latent, BLOCKED / Entry: The Friend Through Screens / Track +1",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -794,7 +794,7 @@
  {
   "id": "kurosawa",
   "name": "Kurosawa Shou, &#40658;&#27810; &#32724;",
-  "sub": "34 / M / Independent, Grid-adjacent / Vanguard... Psychometabolism L9 / Entry: The Grid Operative / Track 0",
+  "sub": "34 / M / Independent, Grid-adjacent / Vanguard (S)... Psychometabolism L9 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -833,7 +833,7 @@
  {
   "id": "tanizaki",
   "name": "Tanizaki Seiichi, &#35895;&#23822; &#28165;&#19968;",
-  "sub": "61 / M / Retired Grid operative, safe-house keeper / Channel... Psychokinesis L6 / Entry: The Grid Operative / Track 0",
+  "sub": "61 / M / Retired Grid operative, safe-house keeper / Arbiter (A)... Psychokinesis L6 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -897,7 +897,7 @@
  {
   "id": "inoue",
   "name": "Inoue Misaki, &#20117;&#19978; &#32654;&#21652;",
-  "sub": "27 / F / Independent... high-threshold only / Singularity... Psychokinesis L7 / Entry: The Grid Operative / Track 0 (via Kurosawa at +3)",
+  "sub": "27 / F / Independent... high-threshold only / Singularity (SSS)... Psychokinesis L7 / Entry: The Grid Operative / Track 0 (via Kurosawa at +3)",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -921,7 +921,7 @@
  {
   "id": "tanaka_ryu",
   "name": "Tanaka Ryu, &#30000;&#20013; &#40845;",
-  "sub": "36 / M / Independent... field support &amp; stability specialist / Vanguard... Psychometabolism L6 / Entry: The Grid Operative / Track 0 (via Kurosawa)",
+  "sub": "36 / M / Independent... field support &amp; stability specialist / Vanguard (S)... Psychometabolism L6 / Entry: The Grid Operative / Track 0 (via Kurosawa)",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -960,7 +960,7 @@
  {
   "id": "majima",
   "name": "Majima Kenji, &#38291;&#23798; &#20581;&#20108;",
-  "sub": "41 / M / Grid independent, combat specialist / Vanguard... Telekinesis L7 / Entry: The Grid Operative / Track 0",
+  "sub": "41 / M / Grid independent, combat specialist / Vanguard (S)... Telekinesis L7 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -999,7 +999,7 @@
  {
   "id": "uehara",
   "name": "Uehara, &#19978;&#21407;",
-  "sub": "45 / Independent... former CVD / Vanguard (deteriorating)... Clairsentience L7 / Entry: The Grid Operative / Track 0",
+  "sub": "45 / Independent... former CVD / Vanguard (S) (deteriorating)... Clairsentience L7 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1023,7 +1023,7 @@
  {
   "id": "mochizuki",
   "name": "Mochizuki Sora, &#26395;&#26376; &#31354;",
-  "sub": "23 / F / Unregistered... library evenings / Arbiter (developing)... Clairsentience L5 / Entry: The Grid Operative / Track 0",
+  "sub": "23 / F / Unregistered... library evenings / Arbiter (A) (developing)... Clairsentience L5 / Entry: The Grid Operative / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1052,7 +1052,7 @@
  {
   "id": "kaneda",
   "name": "Kaneda T&#333;ru, &#37329;&#30000; &#24465;",
-  "sub": "35 / M / Bartender, The Lighthouse (Ni-ch&#333;me) / Civilian (aware) / Track 0",
+  "sub": "35 / M / Bartender, The Lighthouse (Ni-ch&#333;me) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1086,7 +1086,7 @@
  {
   "id": "hara_setsu",
   "name": "Hara Setsu, &#21407; &#31680;",
-  "sub": "71 / F / Bath-house keeper, Tsuru-no-yu (Kita-ku) / Hidden unregistered medium / Track 0",
+  "sub": "71 / F / Bath-house keeper, Tsuru-no-yu (Kita-ku) / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1125,7 +1125,7 @@
  {
   "id": "endo_masa",
   "name": "End&#333; Masa, &#36960;&#34276; &#25919;",
-  "sub": "38 / M / Doorman, Vault (Roppongi) / Hidden low sensitive / Track 0",
+  "sub": "38 / M / Doorman, Vault (Roppongi) / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1179,7 +1179,7 @@
  {
   "id": "serizawa",
   "name": "Serizawa, &#33437;&#27810;",
-  "sub": "63 / M / Head bartender, Kogane (Ginza) / Civilian / Track 0",
+  "sub": "63 / M / Head bartender, Kogane (Ginza) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1213,7 +1213,7 @@
  {
   "id": "goto_hideki",
   "name": "Got&#333; Hideki, &#24460;&#34276; &#31168;&#27193;",
-  "sub": "47 / M / Floor manager, Tamaya Hall (Kabukich&#333;) / Civilian / Track &minus;1",
+  "sub": "47 / M / Floor manager, Tamaya Hall (Kabukich&#333;) / The Null (0) / Track &minus;1",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1252,7 +1252,7 @@
  {
   "id": "mariko",
   "name": "&ldquo;Mariko&rdquo;, &#30495;&#29702;&#23376;... working name",
-  "sub": "40s / F / Worker, The Peony Rooms (Uguisudani) / Civilian / Track 0",
+  "sub": "40s / F / Worker, The Peony Rooms (Uguisudani) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1286,7 +1286,7 @@
  {
   "id": "the_beck_s_man",
   "name": "&ldquo;The Beck&rsquo;s Man&rdquo;, &#22823;&#22618;... platform clerk",
-  "sub": "50s / M / Counter clerk, Beck&rsquo;s Stand Platform 3 (&#332;ji) / Civilian / Track 0",
+  "sub": "50s / M / Counter clerk, Beck&rsquo;s Stand Platform 3 (&#332;ji) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1300,7 +1300,7 @@
  {
   "id": "yua",
   "name": "Yua, &#32048;&#23721;... surname dropped",
-  "sub": "16 / F / Street kid (Toyoko community), Kabukich&#333; / Civilian (vulnerable) / Track 0",
+  "sub": "16 / F / Street kid (Toyoko community), Kabukich&#333; / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1392,7 +1392,7 @@
  {
   "id": "ito_kenta",
   "name": "It&#333; Kenta, &#20234;&#34276; &#20581;&#22826;",
-  "sub": "18 / M / School-gang dealer / Civilian / Track &minus;1",
+  "sub": "18 / M / School-gang dealer / The Null (0) / Track &minus;1",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1421,7 +1421,7 @@
  {
   "id": "aizawa_yuto",
   "name": "Aizawa Yuto, &#30456;&#27810; &#24736;&#26007;",
-  "sub": "22 / M / Heir, addicted / Civilian / Track 0",
+  "sub": "22 / M / Heir, addicted / The Null (0) / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1450,7 +1450,7 @@
  {
   "id": "sugimoto_tatsuya",
   "name": "Sugimoto Tatsuya, &#26464;&#26412; &#36948;&#20063;",
-  "sub": "68 / M / Homeless; ex-history professor / Hidden burnt-out sensitive / Track 0",
+  "sub": "68 / M / Homeless; ex-history professor / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1479,7 +1479,7 @@
  {
   "id": "mori_haruto",
   "name": "Mori Haruto, &#26862; &#38525;&#22826;",
-  "sub": "17 / M / School gang (rival to It&#333;) / Hidden latent sensitive / Track 0",
+  "sub": "17 / M / School gang (rival to It&#333;) / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1508,7 +1508,7 @@
  {
   "id": "tanabe_isamu",
   "name": "Tanabe Isamu, &#30000;&#36794; &#21193;",
-  "sub": "63 / M / Public-toilet &amp; station cleaner (nights) / Civilian / Track 0",
+  "sub": "63 / M / Public-toilet &amp; station cleaner (nights) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1556,7 +1556,7 @@
  {
   "id": "mali",
   "name": "&lsquo;Mali&rsquo;, &#12510;&#12522;... masseuse, working name",
-  "sub": "28 / lady-boy / Masseuse, a Thai parlour near the Peony / Civilian / Track 0",
+  "sub": "28 / lady-boy / Masseuse, a Thai parlour near the Peony / The Null (0) / Track 0",
   "entity": false,
   "romanceable": true,
   "relationships": [
@@ -1585,7 +1585,7 @@
  {
   "id": "komatsu_shigeru",
   "name": "Komatsu Shigeru, &#23567;&#26494; &#33538;",
-  "sub": "74 / M / Tobacco &amp; sundries kiosk, Gin&rsquo;s corner / Civilian / Track +1",
+  "sub": "74 / M / Tobacco &amp; sundries kiosk, Gin&rsquo;s corner / The Null (0) / Track +1",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1614,7 +1614,7 @@
  {
   "id": "iwata_kenji",
   "name": "Iwata Kenji, &#23721;&#30000; &#20581;&#20108;",
-  "sub": "58 / M / Building handyman (Gin &amp; Rei&rsquo;s block) / Civilian / Track +1",
+  "sub": "58 / M / Building handyman (Gin &amp; Rei&rsquo;s block) / The Null (0) / Track +1",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1633,7 +1633,7 @@
  {
   "id": "saeki_reno",
   "name": "Saeki Reno, &#20304;&#20271; &#37666;&#37070;",
-  "sub": "49 / M / Club owner (Vault &amp; two others) / Civilian / Track 0",
+  "sub": "49 / M / Club owner (Vault &amp; two others) / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1657,7 +1657,7 @@
  {
   "id": "daiki",
   "name": "Sasaki Daiki, &#20304;&#12293;&#26408; &#22823;&#36028;",
-  "sub": "17 / M / Rei&rsquo;s closest school friend / Civilian / Track +2",
+  "sub": "17 / M / Rei&rsquo;s closest school friend / The Null (0) / Track +2",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1676,7 +1676,7 @@
  {
   "id": "maruyama_toshio",
   "name": "Maruyama Toshio, &#20024;&#23665; &#20426;&#22827;",
-  "sub": "60 / M / Kissaten owner, Caf&eacute; Mikazuki / Civilian / Track 0",
+  "sub": "60 / M / Kissaten owner, Caf&eacute; Mikazuki / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1700,7 +1700,7 @@
  {
   "id": "kawai_yuki",
   "name": "Kawai Yuki, &#27827;&#21512; &#12422;&#12365;",
-  "sub": "57 / F / Baker, Akebono Bakery / Civilian / Track 0",
+  "sub": "57 / F / Baker, Akebono Bakery / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1724,7 +1724,7 @@
  {
   "id": "tatsu",
   "name": "&lsquo;Tatsu&rsquo;, &#36948;&#35211;... ramen master",
-  "sub": "52 / M / Ramen master, Tatsuya / Civilian / Track 0",
+  "sub": "52 / M / Ramen master, Tatsuya / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1748,7 +1748,7 @@
  {
   "id": "yoshida_goro",
   "name": "Yoshida Goro, &#21513;&#30000; &#20116;&#37070;",
-  "sub": "58 / M / Bartender, Kemuri / Civilian / Track 0",
+  "sub": "58 / M / Bartender, Kemuri / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1772,7 +1772,7 @@
  {
   "id": "the_woman_at_the_back",
   "name": "&lsquo;The Woman at the Back&rsquo;... name unknown",
-  "sub": "40s / F / Suzuran regular, 2am nightly / Hidden sensitive (insomniac) / Track 0",
+  "sub": "40s / F / Suzuran regular, 2am nightly / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1954,7 +1954,7 @@
  {
   "id": "old_tomi",
   "name": "Old Tomi... the freight-yard squatter",
-  "sub": "60s / M / Lives in the condemned blocks / Civilian / Track 0",
+  "sub": "60s / M / Lives in the condemned blocks / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1973,7 +1973,7 @@
  {
   "id": "sato",
   "name": "Sato... the blind busker",
-  "sub": "50s / M / Plays the station underpass / Hidden sensitive (blind) / Track 0",
+  "sub": "50s / M / Plays the station underpass / Sensitive (E) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -1992,7 +1992,7 @@
  {
   "id": "endo_sumi",
   "name": "Endo Sumi... the memorial keeper",
-  "sub": "70s / F / Tends the riverside memorial / Civilian / Track 0",
+  "sub": "70s / F / Tends the riverside memorial / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -2035,7 +2035,7 @@
  {
   "id": "old_maki",
   "name": "&lsquo;Old Maki&rsquo;, &#30495;&#26408;... ironmonger",
-  "sub": "66 / M / Ironmonger, Maki Ironworks / Civilian / Track 0",
+  "sub": "66 / M / Ironmonger, Maki Ironworks / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [
@@ -2054,7 +2054,7 @@
  {
   "id": "ade_okonkwo",
   "name": "Ad&eacute; Okonkwo... the trader",
-  "sub": "49 / M / Importer, Ad&eacute; Imports / Civilian / Track 0",
+  "sub": "49 / M / Importer, Ad&eacute; Imports / The Null (0) / Track 0",
   "entity": false,
   "romanceable": false,
   "relationships": [

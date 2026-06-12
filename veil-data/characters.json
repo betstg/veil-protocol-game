@@ -85,7 +85,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "everything is under control :)"
   },
   "romanceable": true,
   "relationships": [
@@ -132,7 +133,9 @@
    }
   },
   "tier": "Arbiter",
-  "tierLetter": "A"
+  "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered"
  },
  {
   "id": "fukai-rinka-kishin",
@@ -217,7 +220,8 @@
     "fetish": "performs any to land the hook; feels none",
     "quirks": "makes tea for the lonely, learns names, waits",
     "arc": "toxic gravity itself; the psychopathic romance that consumes"
-   }
+   },
+   "status": "the door is always open. you are always welcome here."
   },
   "romanceable": false,
   "relationships": [
@@ -253,6 +257,8 @@
   },
   "tier": "Guardian",
   "tierLetter": "SS",
+  "registered": false,
+  "standing": "off the books",
   "paths": {
    "Clairsentience": 5,
    "Telepathy": 4,
@@ -340,7 +346,8 @@
     "fetish": "private; not a question in him now",
     "quirks": "two cups on the rack, checks locks twice, keeps Rei's school photo in his wallet",
     "arc": "will break every rule, including honesty, to keep Rei out of it"
-   }
+   },
+   "status": "back late. don't wait up."
   },
   "romanceable": false,
   "relationships": [
@@ -549,6 +556,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 8,
    "Telepathy": 2,
@@ -627,7 +636,8 @@
     "fetish": "none",
     "quirks": "lowers the voice before a lie, speaks of what is owed",
     "arc": "immovable; the one thing that will not break under pressure"
-   }
+   },
+   "status": ""
   },
   "romanceable": false,
   "relationships": [
@@ -657,7 +667,9 @@
   },
   "entity": true,
   "tier": "Guardian",
-  "tierLetter": "SS"
+  "tierLetter": "SS",
+  "registered": false,
+  "standing": "unregistered · hidden"
  },
  {
   "id": "nakamura-aoi",
@@ -750,7 +762,8 @@
     "fetish": "vanilla, touch-starved; wants to be wanted out loud",
     "quirks": "snacks constantly, narrates her own anxiety, triple-texts",
     "arc": "comic-warm relief who softens any room, until burnout cracks the brightness"
-   }
+   },
+   "status": "karaoke saturday?? someone say yes (´｡• ᵕ •｡`)"
   },
   "romanceable": true,
   "relationships": [
@@ -816,6 +829,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Psychokinesis": 4
   }
@@ -911,7 +926,8 @@
     "fetish": "would die before admitting a soft thing for being told he's wanted",
     "quirks": "smokes only when overwhelmed, side-eyes sincerity, taps morse on tables",
     "arc": "dry armor that thaws a degree at a time, never announces it"
-   }
+   },
+   "status": "busy. probably."
   },
   "romanceable": true,
   "relationships": [
@@ -965,6 +981,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Telepathy": 3
   }
@@ -1060,7 +1078,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "wipes the same spot when thinking",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": "above the clinic. the cats are in charge."
   },
   "romanceable": true,
   "relationships": [
@@ -1144,6 +1163,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 5
   }
@@ -1238,7 +1259,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "counts change twice, always",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "good coffee, bad memory. come by."
   },
   "romanceable": true,
   "relationships": [
@@ -1298,6 +1320,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 4
   }
@@ -1388,7 +1412,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "hums off-key when nervous",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": ""
   },
   "romanceable": true,
   "relationships": [
@@ -1442,6 +1467,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 4
   }
@@ -1532,7 +1559,8 @@
     "fetish": "soft for being needed",
     "quirks": "hums off-key when nervous",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": ""
   },
   "romanceable": true,
   "relationships": [
@@ -1592,6 +1620,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Psychometabolism": 5
   }
@@ -1678,7 +1708,8 @@
     "fetish": "soft for being needed",
     "quirks": "wipes the same spot when thinking",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "two heads, one desk. we're fine."
   },
   "romanceable": false,
   "relationships": [
@@ -1712,7 +1743,9 @@
    "payoff": "The campaign's clearest, coldest data on what is happening to Gin — and the worst-case the player is racing to avoid."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "Grid · unregistered"
  },
  {
   "id": "usami-hinata-ren",
@@ -1801,7 +1834,8 @@
     "fetish": "likes a little harmless control",
     "quirks": "counts change twice, always",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": "please be gentle today."
   },
   "romanceable": true,
   "relationships": [
@@ -1838,6 +1872,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": false,
+  "standing": "off the books",
   "paths": {
    "Clairsentience": 2,
    "Telepathy": 3,
@@ -1917,7 +1953,8 @@
     "fetish": "none",
     "quirks": "goes still unsupervised, repeats kind phrases",
     "arc": "hollow; bends to whoever holds the leash, every time"
-   }
+   },
+   "status": "i am well. thank you for asking."
   },
   "romanceable": true,
   "backstory": [
@@ -1939,6 +1976,8 @@
   "entity": true,
   "tier": "Adept",
   "tierLetter": "C",
+  "registered": false,
+  "standing": "off the books",
   "paths": {
    "Clairsentience": 2,
    "Telepathy": 3,
@@ -2034,7 +2073,8 @@
     "fetish": "vanilla, deeply private; the idea of letting go terrifies and tempts her",
     "quirks": "alphabetizes everything, re-reads a file before speaking, declines the second drink",
     "arc": "by-the-book to a fault, but would shred one rule for Rei and hate herself for it"
-   }
+   },
+   "status": ""
   },
   "romanceable": true,
   "relationships": [
@@ -2094,6 +2134,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 4
   }
@@ -2189,7 +2231,8 @@
     "fetish": "that door closed with his late wife",
     "quirks": "long silences before answering, keeps one secret file",
     "arc": "the principled man who has traded too many small wrongs and knows it"
-   }
+   },
+   "status": ""
   },
   "romanceable": false,
   "relationships": [
@@ -2272,6 +2315,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 9,
    "Telepathy": 5
@@ -2368,7 +2413,8 @@
     "fetish": "bi, tops, despises clinginess; respects only an equal",
     "quirks": "the 'mild irritation' look that is restraint, walks fast, taps a foot",
     "arc": "blunt and unbending, but the wall has one door she guards furiously"
-   }
+   },
+   "status": "if it can wait, let it."
   },
   "romanceable": true,
   "relationships": [
@@ -2434,6 +2480,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Telekinesis": 6
   }
@@ -2521,7 +2569,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "counts change twice, always",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "the archive is closed. it is always closed."
   },
   "romanceable": false,
   "relationships": [
@@ -2574,6 +2623,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 9
   }
@@ -2664,7 +2715,8 @@
     "fetish": "pan, chases the thrill, bored by the easy",
     "quirks": "narrates his own exploits, takes the dangerous option to feel alive",
     "arc": "cocky comic-bravado, reckless under it; would betray caution every time"
-   }
+   },
+   "status": "ask me about Nerima sometime. you won't believe it."
   },
   "romanceable": true,
   "relationships": [
@@ -2742,6 +2794,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Psychokinesis": 6
   }
@@ -2836,7 +2890,8 @@
     "fetish": "vanilla, fierce, demisexual; control is safety",
     "quirks": "sits facing the door, sharpens knives to think, counts exits",
     "arc": "unbending until trust is earned, then loyal past sense"
-   }
+   },
+   "status": "don't."
   },
   "romanceable": true,
   "relationships": [
@@ -2938,6 +2993,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 6
   }
@@ -3026,7 +3083,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "wipes the same spot when thinking",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": ""
   },
   "romanceable": false,
   "relationships": [
@@ -3079,6 +3137,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": true,
+  "standing": "Tower family · registered",
   "paths": {
    "Teleportation": 5
   }
@@ -3174,7 +3234,8 @@
     "fetish": "vanilla but intensely possessive; undone by being the only one let close",
     "quirks": "sketches on his own forearm, names his brushes, redraws the same bridge over and over",
     "arc": "unbending acid to the world, softens only for his people, would break every rule he owns for Rei"
-   }
+   },
+   "status": "painting oji again. comes out wrong every time. don't text before noon."
   },
   "romanceable": true,
   "relationships": [
@@ -3215,8 +3276,14 @@
     "tragic": "The family forces a side; loving Rei is what gets Itsuki noticed, and noticed is not safe."
    }
   },
-  "tier": "The Null",
-  "tierLetter": "0"
+  "tier": "Arbiter",
+  "tierLetter": "A",
+  "registered": true,
+  "standing": "Tower family · registered",
+  "rankNote": "Latent Arbiter-class Kuroda teleportation, BLOCKED — never opened clean; presents as a Null and cannot use it without real need and training.",
+  "paths": {
+   "Teleportation": 6
+  }
  },
  {
   "id": "kurosawa-shou",
@@ -3308,7 +3375,8 @@
     "fetish": "soft for being needed",
     "quirks": "keeps the radio on for company",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": ""
   },
   "romanceable": true,
   "relationships": [
@@ -3386,6 +3454,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Psychometabolism": 9,
    "Psychokinesis": 5
@@ -3485,7 +3555,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "violently early, hates lateness",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "tea's on. third cup, then we talk."
   },
   "romanceable": false,
   "relationships": [
@@ -3580,6 +3651,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Psychokinesis": 6
   }
@@ -3667,7 +3740,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "the cat decides. i just agree."
   },
   "romanceable": true,
   "relationships": [
@@ -3721,6 +3795,8 @@
   },
   "tier": "Singularity",
   "tierLetter": "SSS",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 4,
    "Psychokinesis": 7
@@ -3809,7 +3885,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "hums off-key when nervous",
     "arc": "unbending to the end, set like old concrete"
-   }
+   },
+   "status": "keeping it boring on purpose."
   },
   "romanceable": true,
   "relationships": [
@@ -3881,6 +3958,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Psychometabolism": 6
   }
@@ -3969,7 +4048,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "wipes the same spot when thinking",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "still here. surprising everyone, me included."
   },
   "romanceable": true,
   "relationships": [
@@ -4047,6 +4127,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Telekinesis": 7,
    "Psychometabolism": 2
@@ -4137,7 +4219,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "lines up coins on the counter",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "phone's on. sometimes."
   },
   "romanceable": true,
   "relationships": [
@@ -4191,6 +4274,8 @@
   },
   "tier": "Vanguard",
   "tierLetter": "S",
+  "registered": true,
+  "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 7,
    "Psychokinesis": 3
@@ -4279,7 +4364,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "talks to the cat more than to people",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "i found something! ...maybe. sorry if not."
   },
   "romanceable": true,
   "relationships": [
@@ -4345,6 +4431,8 @@
   },
   "tier": "Arbiter",
   "tierLetter": "A",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 5
   }
@@ -4435,7 +4523,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "wipes the same spot when thinking",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "first one's on the house."
   },
   "romanceable": true,
   "relationships": [
@@ -4500,7 +4589,9 @@
    }
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "hara-setsu",
@@ -4586,7 +4677,8 @@
     "fetish": "likes a little harmless control",
     "quirks": "talks to the cat more than to people",
     "arc": "softens slowly if you're patient and straight"
-   }
+   },
+   "status": "favors aren't free."
   },
   "romanceable": false,
   "relationships": [
@@ -4645,6 +4737,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 4
   }
@@ -4731,7 +4825,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "lines up coins on the counter",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -4808,6 +4903,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 1
   }
@@ -4895,7 +4992,8 @@
     "fetish": "soft for being needed",
     "quirks": "wipes the same spot when thinking",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "i remember everything. don't test me."
   },
   "romanceable": false,
   "relationships": [
@@ -4947,7 +5045,9 @@
    "payoff": "The true power-map of Tokyo from the man who has watched it seat itself — given freely, never sold."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "got-hideki",
@@ -5031,7 +5131,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "can't throw anything away",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -5089,7 +5190,9 @@
    "payoff": "A purchasable safe room and a thread into the district's organised crime — never trust it not to be sold back."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "mariko",
@@ -5177,7 +5280,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "violently early, hates lateness",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "you know where to find me."
   },
   "romanceable": false,
   "relationships": [
@@ -5229,7 +5333,9 @@
    "payoff": "A pipeline to the fallen network the bureaus erase — and the responsibility that comes with every soul she hands over."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "the-beck-s-man",
@@ -5313,7 +5419,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "keeps the radio on for company",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -5341,7 +5448,9 @@
    "payoff": "A reliable fixed point in the city's churn — and a reminder that not everyone is a mission."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "yua",
@@ -5427,7 +5536,8 @@
     "fetish": "n/a — minor, none, ever",
     "quirks": "keeps her things close, sizes exits, deflects with slang",
     "arc": "prickly comic toughness over a scared kid who softens if you stay"
-   }
+   },
+   "status": "not a kid. don't."
   },
   "romanceable": false,
   "relationships": [
@@ -5473,7 +5583,9 @@
    "ceiling": "She gets a reliable adult who shows up. That is the whole arc, and it matters. No romance, ever."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "kuroki-tatsuo",
@@ -5556,7 +5668,8 @@
     "fetish": "control; intimacy is leverage, warmth has terms",
     "quirks": "exquisite manners, never raises his voice, remembers every debt",
     "arc": "functional sociopath; will not break for sentiment, only for family"
-   }
+   },
+   "status": "courtesy costs nothing."
   },
   "romanceable": false,
   "relationships": [
@@ -5608,7 +5721,9 @@
    "payoff": "The fastest path to people and places no official channel can reach — at the price of owing organised crime."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "wada-sho",
@@ -5691,7 +5806,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "open till late. ask around."
   },
   "romanceable": true,
   "relationships": [
@@ -5750,7 +5866,9 @@
    }
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "it-kenta",
@@ -5833,7 +5951,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "hums off-key when nervous",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "leave me alone (jk. maybe.)"
   },
   "romanceable": true,
   "relationships": [
@@ -5892,7 +6011,9 @@
    }
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "aizawa-yuto",
@@ -5975,7 +6096,8 @@
     "fetish": "pan and pliant when high; love is one more thing he drops",
     "quirks": "drifts off mid-sentence, borrows and forgets, always somewhere else",
     "arc": "adulterous by neglect, not malice; can't hold anything, including a promise"
-   }
+   },
+   "status": "floating. brb"
   },
   "romanceable": true,
   "relationships": [
@@ -6034,7 +6156,9 @@
    }
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "sugimoto-tatsuya",
@@ -6118,7 +6242,8 @@
     "fetish": "long past it",
     "quirks": "talks to people who aren't there and those who are, lucid in flashes",
     "arc": "comic-tragic relief, brilliant in the gaps, harmless and heartbreaking"
-   }
+   },
+   "status": "the city talks if you'll listen."
   },
   "romanceable": false,
   "relationships": [
@@ -6171,6 +6296,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 1
   }
@@ -6259,7 +6386,8 @@
     "fetish": "n/a — minor, none, ever",
     "quirks": "checks who's watching, posture as armor",
     "arc": "hard front, soft core, would break the front to protect his sibling"
-   }
+   },
+   "status": "we run this block."
   },
   "romanceable": false,
   "relationships": [
@@ -6300,6 +6428,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 1,
    "Telepathy": 1
@@ -6387,7 +6517,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "wipes the same spot when thinking",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": "tea and a chair, that's all i've got."
   },
   "romanceable": false,
   "relationships": [
@@ -6427,7 +6558,9 @@
    "payoff": "A witness to the city's emptiest, most honest hours — physical evidence and sightings no daytime investigation could reach."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "leo-sato",
@@ -6512,7 +6645,8 @@
     "fetish": "switch; performs dominance for clients, privately wants to be the one chosen",
     "quirks": "remembers every drink order, lights cigarettes he barely smokes, mirrors everywhere",
     "arc": "sells intimacy nightly, starving for the real thing, could fall hard if seen"
-   }
+   },
+   "status": "indulge yourself ☆ by request only."
   },
   "romanceable": true,
   "relationships": [
@@ -6572,6 +6706,8 @@
   },
   "tier": "The Null",
   "tierLetter": "0",
+  "registered": false,
+  "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 5
   }
@@ -6657,7 +6793,8 @@
     "fetish": "likes a little harmless control",
     "quirks": "can't throw anything away",
     "arc": "softens slowly if you're patient and straight"
-   }
+   },
+   "status": "open till late. ask around."
   },
   "romanceable": true,
   "relationships": [
@@ -6722,7 +6859,9 @@
    }
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "komatsu-shigeru",
@@ -6806,7 +6945,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "the young ones never listen."
   },
   "romanceable": false,
   "relationships": [
@@ -6851,7 +6991,9 @@
    "payoff": "Ground-level eyes on Gin's own block — the small, true observations no official canvass would gather."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "iwata-kenji",
@@ -6934,7 +7076,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "keeps the radio on for company",
     "arc": "unbending to the end, set like old concrete"
-   }
+   },
+   "status": "mind your business and i'll mind mine."
   },
   "romanceable": false,
   "relationships": [
@@ -6967,7 +7110,9 @@
    "payoff": "Outside, unsuperstitious confirmation that something is wrong in Gin's flat — physical evidence from a man with no theory to sell."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "saeki-reno",
@@ -7050,7 +7195,8 @@
     "fetish": "soft for being needed",
     "quirks": "counts change twice, always",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -7090,7 +7236,9 @@
    "payoff": "A nightlife headquarters and surveillance grid across the district — for exactly as long as Rei keeps penciling out."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "sasaki-daiki",
@@ -7173,7 +7321,8 @@
     "fetish": "n/a — minor, none, ever",
     "quirks": "checks in too often, downplays his own troubles",
     "arc": "earnest, loyal, would do something reckless to help find Gin"
-   }
+   },
+   "status": "gin's bro is basically my bro"
   },
   "romanceable": false,
   "relationships": [
@@ -7207,7 +7356,9 @@
    "payoff": "Daiki is the human cost meter: how much of his old life Rei keeps is measured in whether Daiki is still calling at the end."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "maruyama-toshio",
@@ -7291,7 +7442,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "lines up coins on the counter",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "been here longer than the buildings. ask nicely."
   },
   "romanceable": false,
   "relationships": [
@@ -7337,7 +7489,9 @@
    "payoff": "A veil-quiet safe table for meetings and Rei's own steadying — plus the roster of the ward's discreet company."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "kawai-yuki",
@@ -7420,7 +7574,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "lines up coins on the counter",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "same corner, same stool."
   },
   "romanceable": false,
   "relationships": [
@@ -7459,7 +7614,9 @@
    "payoff": "A safe, invisible message relay and a way to keep a street network fed and reachable — hidden in plain sight."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "tatsu",
@@ -7547,7 +7704,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "lines up coins on the counter",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "six stools, one broth. come hungry."
   },
   "romanceable": false,
   "relationships": [
@@ -7586,7 +7744,9 @@
    "payoff": "A pattern-read on the district's nightlife traffic — scattered sightings turned into a lead, one bowl at a time."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "yoshida-goro",
@@ -7669,7 +7829,8 @@
     "fetish": "soft for being needed",
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "same corner, same stool."
   },
   "romanceable": false,
   "relationships": [
@@ -7708,7 +7869,9 @@
    "payoff": "A case-breaking secret, given only as the gift of earned trust — the opposite of Gotō's purchasable silence."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "the-woman-at-the-back",
@@ -7792,7 +7955,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "wipes the same spot when thinking",
     "arc": "unbending to the end, set like old concrete"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -7833,6 +7997,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 2
   }
@@ -7923,7 +8089,8 @@
     "fetish": "soft for being needed",
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "the young ones never listen."
   },
   "romanceable": false,
   "relationships": [
@@ -7975,7 +8142,9 @@
    "payoff": "A spiritual method outside the bureau's reach — wards and cleansings the institution literally cannot do."
   },
   "tier": "Ritualist",
-  "tierLetter": "B"
+  "tierLetter": "B",
+  "registered": false,
+  "standing": "unregistered · hidden"
  },
  {
   "id": "rev-egami-jak",
@@ -8059,7 +8228,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "counts change twice, always",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "i listen more than i talk."
   },
   "romanceable": false,
   "relationships": [
@@ -8099,7 +8269,9 @@
    "payoff": "A method of genuine exorcism beyond the bureau's doctrine — the spiritual heavy artillery, given once and dearly."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "father-anselm-mbeki",
@@ -8184,7 +8356,8 @@
     "fetish": "soft for being needed",
     "quirks": "talks to the cat more than to people",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": "i listen more than i talk."
   },
   "romanceable": false,
   "relationships": [
@@ -8224,7 +8397,9 @@
    "payoff": "A Roman-rite exorcist and a safe house that answers to conscience, not the CVD — sanctuary the institution can't override."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "master-lin-wei",
@@ -8309,7 +8484,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "violently early, hates lateness",
     "arc": "softens slowly if you're patient and straight"
-   }
+   },
+   "status": "light a candle. then we talk."
   },
   "romanceable": false,
   "relationships": [
@@ -8343,7 +8519,9 @@
    "payoff": "Talismanic weapons calibrated to a specific entity, and a cosmology of reading the unseen the CVD doesn't have."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "pak-sun-ja",
@@ -8426,7 +8604,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "open till late. ask around."
   },
   "romanceable": false,
   "relationships": [
@@ -8467,6 +8646,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 5
   }
@@ -8553,7 +8734,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "peace, if you'll take it."
   },
   "romanceable": false,
   "relationships": [
@@ -8594,6 +8776,8 @@
   },
   "tier": "Ritualist",
   "tierLetter": "B",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 3
   }
@@ -8681,7 +8865,8 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "keeps the radio on for company",
     "arc": "comic relief that hides a real loneliness"
-   }
+   },
+   "status": ""
   },
   "romanceable": false,
   "relationships": [
@@ -8715,7 +8900,9 @@
    "payoff": "Access to the entire Grid — or, if mishandled, a vanished meet and a network warned against Rei."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "Grid · unregistered"
  },
  {
   "id": "old-tomi",
@@ -8799,7 +8986,8 @@
     "fetish": "vanilla, set in his ways",
     "quirks": "talks to the cat more than to people",
     "arc": "unbending to the end, set like old concrete"
-   }
+   },
+   "status": "tea and a chair, that's all i've got."
   },
   "romanceable": false,
   "relationships": [
@@ -8833,7 +9021,9 @@
    "payoff": "A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "sato",
@@ -8916,7 +9106,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "violently early, hates lateness",
     "arc": "gruff now, melts once you've proven yourself"
-   }
+   },
+   "status": "you know where to find me."
   },
   "romanceable": false,
   "relationships": [
@@ -8951,6 +9142,8 @@
   },
   "tier": "Sensitive",
   "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 2
   }
@@ -9038,7 +9231,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "talks to the cat more than to people",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "the young ones never listen."
   },
   "romanceable": false,
   "relationships": [
@@ -9078,7 +9272,9 @@
    "payoff": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "det-sgt-arai-goro",
@@ -9161,7 +9357,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "hums off-key when nervous",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "trade me something good."
   },
   "romanceable": false,
   "relationships": [
@@ -9195,7 +9392,9 @@
    "payoff": "Open access to police scenes and the evidence the official record erases — the mundane world's door into the hidden one."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "old-maki",
@@ -9279,7 +9478,8 @@
     "fetish": "a quiet thing for being looked after",
     "quirks": "violently early, hates lateness",
     "arc": "faithful to a fault, won't stray no matter what"
-   }
+   },
+   "status": "tea and a chair, that's all i've got."
   },
   "romanceable": false,
   "relationships": [
@@ -9312,7 +9512,9 @@
    "payoff": "A reliable materials supply and an early signal of who else in the district is preparing for something."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "ad-okonkwo",
@@ -9395,7 +9597,8 @@
     "fetish": "likes a little harmless control",
     "quirks": "talks to the cat more than to people",
     "arc": "softens slowly if you're patient and straight"
-   }
+   },
+   "status": "if i'm not here i'm at the baths."
   },
   "romanceable": false,
   "relationships": [
@@ -9428,7 +9631,9 @@
    "payoff": "Access to diaspora spiritual materials and counter-measures the institution can't source — gated by community trust."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "the-bookseller",
@@ -9512,7 +9717,8 @@
     "fetish": "soft for being needed",
     "quirks": "hums off-key when nervous",
     "arc": "warm mask over something colder"
-   }
+   },
+   "status": "i have the book you're looking for. you don't know it yet."
   },
   "romanceable": false,
   "relationships": [
@@ -9557,7 +9763,9 @@
    "payoff": "A case-breaking text from behind the glass, and a gatekeeper's guidance through knowledge that carries a cost."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "sone-kimiko",
@@ -9640,7 +9848,8 @@
     "fetish": "privately enjoys being teased, would never say",
     "quirks": "counts change twice, always",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "still kicking."
   },
   "romanceable": false,
   "relationships": [
@@ -9679,7 +9888,9 @@
    "payoff": "Genuine protective charms and a soft lead on who in the neighbourhood has quietly been touched by something."
   },
   "tier": "The Null",
-  "tierLetter": "0"
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  },
  {
   "id": "kuroda-soun",
@@ -9778,9 +9989,14 @@
     "fetish": "long widowed; duty replaced it",
     "quirks": "lingers at Itsuki's photo, speaks rarely and with weight",
     "arc": "unbending stone that would crack, just once, to get his son home"
-   }
+   },
+   "status": ""
   },
-  "romanceable": false
+  "romanceable": false,
+  "tier": "Arbiter",
+  "tierLetter": "A",
+  "registered": true,
+  "standing": "Tower family · registered"
  },
  {
   "id": "matsuda-keiko",
@@ -9870,9 +10086,14 @@
     "fetish": "a tame fantasy he'd take to the grave",
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "your usual's ready."
   },
-  "romanceable": false
+  "romanceable": false,
+  "tier": "Sensitive",
+  "tierLetter": "E",
+  "registered": false,
+  "standing": "unregistered · hidden"
  },
  {
   "id": "hayashi-fumiko",
@@ -9962,9 +10183,14 @@
     "fetish": "private, vanilla, no time for it",
     "quirks": "reads your damage before you speak, tea while she works",
     "arc": "gruff-warm constant; the one who never breaks, only tires"
-   }
+   },
+   "status": "blue curtain. don't wait till it's bad."
   },
-  "romanceable": false
+  "romanceable": false,
+  "tier": "Adept",
+  "tierLetter": "C",
+  "registered": true,
+  "standing": "CVD-affiliated medium · registered"
  },
  {
   "id": "kondo-fumio",
@@ -10053,8 +10279,13 @@
     "fetish": "soft for being needed",
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
-   }
+   },
+   "status": "fresh anpan thursdays! close at six."
   },
-  "romanceable": false
+  "romanceable": false,
+  "tier": "The Null",
+  "tierLetter": "0",
+  "registered": false,
+  "standing": "civilian"
  }
 ]

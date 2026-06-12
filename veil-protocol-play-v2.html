@@ -28,6 +28,10 @@
  #topbar .lbl{color:var(--dim)} #topbar b{color:var(--gold)}
  .xpwrap{display:flex;align-items:center;gap:6px}
  .xpbar{width:80px;height:6px;background:#241c10;border-radius:4px;overflow:hidden}
+ #t-party{display:flex;align-items:flex-start;padding-left:12px}
+ .tav{width:28px;height:28px;border-radius:50%;overflow:hidden;border:1.5px solid var(--gold);background:#241c10;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-size:13px;color:var(--gold)}
+ .tav.me{width:32px;height:32px;box-shadow:0 0 0 1px #0e0b08}
+ .tav.comp{width:23px;height:23px;margin-left:-9px;margin-top:11px;border-color:#9ab07a;cursor:pointer}
  .xpbar>i{display:block;height:100%;background:var(--gold)}
  .stage{max-width:780px;margin:0 auto;padding:20px 18px 120px}
  .read{font-size:17px;margin:18px 0}.read p{margin:0 0 14px}
@@ -169,6 +173,7 @@
  <span><span class="lbl">STAB</span> <b id="t-stab">100%</b></span>
  <span class="xpwrap"><span class="lbl">XP</span> <b id="t-xp">4</b><span class="xpbar"><i id="t-xpbar" style="width:40%"></i></span></span>
  <span style="margin-left:auto"><span class="lbl">¥</span> <b id="t-money">38,400</b></span>
+ <span id="t-party"></span>
 </div>
 
 <div class="stage">
@@ -180,7 +185,7 @@
 <div id="dock">
  <button class="dockbtn" onclick="openV('profile')"><span class="ic">▣</span>Profile</button>
  <button class="dockbtn" onclick="openV('abilities')"><span class="ic">◎</span>Abilities</button>
- <button class="dockbtn" onclick="openV('notepad')"><span class="ic">✎</span>Notepad</button>
+ <button class="dockbtn" onclick="openV('phone');phNotes()"><span class="ic">✎</span>Notes</button>
  <button class="dockbtn hidden" id="dock-book" onclick="openV('book')"><span class="ic">▤</span>Gin's Book</button>
  <button class="dockbtn" onclick="openV('phone')"><span class="ic">▢</span>Phone</button>
 </div>
@@ -651,7 +656,7 @@ function doFreeAct(){
  var node=SCENES[G.scene]&&SCENES[G.scene][G.node];
  var scene=node&&node.t?node.t.join(' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,420):'';
  var choices=node&&node.c?node.c.map(function(c){return c.x;}).filter(Boolean).join(' / '):'';
- var ctx='Day '+G.day+' '+fmt(G.min)+'. Rei: Stability '+G.player.stability+'/100, Madness '+G.player.madness+'/100, Health '+G.player.hp[0]+'/'+G.player.hp[1]+'. Scene: '+scene+' | Real choices: '+choices+knowledgeCtx();
+ var ctx=knowledgeCtx()+' Day '+G.day+' '+fmt(G.min)+'. Rei: Stability '+G.player.stability+'/100, Madness '+G.player.madness+'/100, Health '+G.player.hp[0]+'/'+G.player.hp[1]+'. Scene: '+scene+' | Real choices: '+choices;/* world-memory FIRST: stable cacheable prefix; volatile day/scene state after */
  fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'gm',prompt:v,context:ctx})})
   .then(function(r){return r.json();})
   .then(function(j){
@@ -692,6 +697,7 @@ function gmAct(a,box){
   if(ic){var was=ic.known; meet(iid); if(!was){if(box)box.innerHTML+=gmWrap('They give you a name: <b>'+esc(ic.name)+'</b>.'); gameToast('You learn a name: '+ic.name);} }
  } else if(kind==='share'||kind==='contact'){ var sid=resolveContactId(tgt); var sc=sid&&G.contacts[sid];
   if(sc){shareContact(sid); if(box)box.innerHTML+=gmWrap('You exchange contacts. <b>'+esc(sc.name)+'</b> is in your phone now.'); gameToast('✦ New contact: '+sc.name);} }
+ else if(kind==='status'){ var did=resolveContactId(tgt); var dc=did&&G.contacts[did]; if(dc){ applyNpcEvent(did,{kind:'status',value:(a.value||a.text||'')},dc); if(box&&dc.status==='dead')box.innerHTML+=gmWrap('<b>'+esc(dc.name)+'</b> is gone. There will be no reply from that number again.'); } }
 }
 function shareContact(id){var c=G.contacts[id];if(!c)return;c.known=true;c.shares=true;if(typeof renderTabbar==='function')renderTabbar(PHTAB);if(typeof saveG==='function')saveG();}
 function renderTop(){
@@ -704,7 +710,13 @@ function renderTop(){
  document.getElementById('t-xpbar').style.width=Math.min(100,100*G.xp/G.xpMax)+'%';
  document.getElementById('t-money').textContent=G.player.money.toLocaleString();
  document.getElementById('ph-clock').textContent=fmt(G.min);
+ var pv=document.getElementById('t-party');
+ if(pv){ var ph='<span class="tav me" title="Rei">'+playerFace()+'</span>';
+  (G.party||[]).filter(function(pid){return G.contacts[pid]&&npcReachable(G.contacts[pid]);}).slice(0,3).forEach(function(pid){
+   ph+='<span class="tav comp" title="'+esc(G.contacts[pid].name)+' is with you" onclick="openCard(\''+pid+'\')">'+avatarFace(pid)+'</span>'; });
+  pv.innerHTML=ph; }
 }
+function playerFace(){return '<img src="images/char_rei.png" alt="Rei" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.outerHTML=&apos;R&apos;">';}
 function fmt(m){m=((m%1440)+1440)%1440;return String((m/60|0)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');}
 function dateStr(){const b=new Date(2015,7,27);b.setDate(b.getDate()+(G.day-1));return b.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'});}
 function fmtmin(m){m=((m%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');}
@@ -818,7 +830,8 @@ const GIN_NETWORK=['okada','aoi','kato','hana','katagirinoa','tsukishiroharu','s
 function seedNetworkWarmth(){GIN_NETWORK.forEach(function(id){if(G.contacts[id]&&relValOf(id)===0)setRelVal(id,15);});}
 // each contact's starting relationship comes from their CHARACTER SHEET's tie to Rei, so the phone matches the sheet
 function reiRelFromSheet(id){var c=G.contacts[id];if(!c)return null;var ch=(typeof charForContact==='function')?charForContact(c):null;if(!ch||!ch.relationships||!ch.relationships.length)return null;for(var i=0;i<ch.relationships.length;i++){var r=ch.relationships[i];if(r&&r.to==='rei'&&typeof r.value==='number')return Math.max(-100,Math.min(100,Math.round(r.value)));}return null;}
-function seedRelFromSheets(){if(G._relSeeded)return;var any=false;for(var id in G.contacts){var v=reiRelFromSheet(id);if(v!=null){setRelVal(id,v);any=true;}}if(any){G._relSeeded=true;seedNpcKnowledge();if(typeof renderTop==='function')renderTop();if(typeof saveG==='function')saveG();}}
+var REL_SEED_V=2; // bump to force existing saves to re-pull the sheet numbers
+function seedRelFromSheets(){if(G._relSeedV===REL_SEED_V)return;var any=false;for(var id in G.contacts){var v=reiRelFromSheet(id);if(v!=null){setRelVal(id,v);any=true;}}if(any){G._relSeedV=REL_SEED_V;G._relSeeded=true;seedNpcKnowledge();if(typeof seedRomance==='function')seedRomance();if(typeof renderTop==='function')renderTop();if(typeof saveG==='function')saveG();}}
 // ---- living NPC state (seeded from the sheet, then mutated by play) ----
 // each contact carries c.knows (what they know), c.agenda (what they committed to), c._here (where they are)
 function seedNpcKnowledge(){for(var id in G.contacts){var c=G.contacts[id];if(c.knows)continue;var ch=(typeof charForContact==='function')?charForContact(c):null;var p=ch&&ch.persona;c.knows=(p&&p.facts&&p.facts.length)?p.facts.slice(0,30):[];}}
@@ -826,6 +839,7 @@ function learnFact(id,fact,src){var c=G.contacts[id];if(!c||!fact)return;fact=St
 // Strip pre-seeded "last message" flavor for anyone Rei hasn't actually texted, so cold-contacting starts blank.
 function clearSeededFlavor(){var keep={itsuki:1,okada:1,unknown:1,gin:1};for(var id in G.contacts){if(keep[id])continue;var c=G.contacts[id];if(c.history&&c.history.length&&!c.history.some(function(m){return m[0]==='me';}))c.history=[];}}
 const ROM={itsuki:{open:false,val:0},okada:{open:false,val:0},unknown:{open:false,val:0}};
+function seedRomance(){for(var id in G.contacts){if(typeof isRomanceable!=='function'||!isRomanceable(id))continue;if(!ROM[id])ROM[id]={open:false,val:0};var ch=(typeof charForContact==='function')?charForContact(G.contacts[id]):null;var oa=ch&&ch.persona&&ch.persona.opensAt;ROM[id].at=(typeof oa==='number'&&oa>0)?oa:40;}}
 function openRomance(id){ if(typeof isMinor==='function'&&isMinor(id)){return;} if(!ROM[id])ROM[id]={open:false,val:0}; ROM[id].open=true; ROM[id].val=Math.max(10,ROM[id].val||0); if(typeof phProfile==='function')phProfile(id); }
 function relBar(id,name){
  var cfg=RELCFG[id]; var t=relValOf(id); var tier=relTier(t);
@@ -1032,8 +1046,19 @@ function vpCtxUsed(){ return vpAssemble(null,VPCTXMAX).length; }
 function knowledgeCtx(){ return vpAssemble(null,VPCTXMAX); }
 // ---- autonomous background agents: NPCs live offscreen (paced hourly; gossip is AI-free) ----
 function scheduleFollowupSoon(id){var c=G.contacts[id];if(!c||!c.agenda)return;if(!G.pendingFollowups)G.pendingFollowups=[];if(G.pendingFollowups.some(function(f){return f.id===id;}))return;G.pendingFollowups.push({id:id,dueAbs:(G.day*1440+G.min)+(60+Math.floor(Math.random()*420)),note:c.agenda});}
+// the wounded recover offscreen: once enough time has passed (their HP, madness and veil stabilising), they leave the Health Center
+function recoverTick(){ var now=G.day*1440+G.min; for(var id in G.contacts){ var c=G.contacts[id]; if(c.status==='wounded'&&c._recoverAt&&now>=c._recoverAt){ delete c.status; delete c._recoverAt;
+  c.history.push(['sys','✚ '+esc(c.name)+' is stable again and discharged from the CVD Health Center.']); if(typeof gameToast==='function')gameToast('✚ '+c.name+' has recovered and left the CVD Health Center.'); if(typeof renderTabbar==='function')renderTabbar(); if(typeof renderTop==='function')renderTop(); } } if(typeof saveG==='function')saveG(); }
+// a companion can choose, of their own will, to break off... lower bond + their own restlessness make it likelier
+function driftTick(){ if(!G.party||!G.party.length)return; for(var i=0;i<G.party.length;i++){ var pid=G.party[i]; var c=G.contacts[pid]; if(!c||c._wantsLeave)continue;
+  var t=(typeof relValOf==='function')?relValOf(pid):30; var chance=t>=70?0.01:t>=40?0.03:t>=15?0.06:0.11; if(Math.random()>=chance)continue;
+  c._wantsLeave=true; c.history.push(['sys','('+esc(c.name)+' has something of their own to see to... they are about to head off.)']);
+  if(typeof gameToast==='function')gameToast('… '+c.name+' wants to head off on their own. Talk to them to keep them.'); } }
 function worldTick(){ if((G.min%60)!==0||!G.contacts)return; // once per in-game hour
- var active=[]; for(var id in G.contacts){var c=G.contacts[id]; if(c.known && (c.agenda || (typeof relValOf==='function'&&relValOf(id)>=20)))active.push(id);}
+ if(typeof voomDaily==='function')voomDaily(); // NPCs post to VOOM in their own voice, once a day
+ recoverTick();   // the wounded heal in the CVD Health Center once their HP/madness/veil settle
+ driftTick();     // companions may decide, on their own, to peel off from the party
+ var active=[]; for(var id in G.contacts){var c=G.contacts[id]; if(c.known && npcReachable(c) && (c.agenda || (typeof relValOf==='function'&&relValOf(id)>=20)))active.push(id);}
  if(!active.length)return;
  // word of mouth: an active NPC passes their latest knowledge to someone in their own network (no AI call)
  for(var gi=0;gi<active.length;gi++){ if(Math.random()>=0.18)continue; var id2=active[gi]; var c2=G.contacts[id2]; if(!c2.knows||!c2.knows.length)continue;
@@ -1080,12 +1105,12 @@ function vpArchiveById(id){var b=(G.blocks||[]).filter(function(x){return x.id==
 function renderBook(){if(!G.flags.hasBook){document.getElementById('bookBody').innerHTML='<p style="color:var(--dim);font-style:italic">You don\'t have the book yet.</p>';return;}document.getElementById('bookBody').innerHTML='<p class="eyebrow">Gin\'s field compendium</p><p style="font-size:14px">The thick archive you carry everywhere. Open it to read the whole thing... his lore, his cases, his cosmology.</p><div style="margin:10px 0"><button class="btn" onclick="spoilerBook()">Open Gin\'s archive... the Lore Book ↗</button></div><div class="sub">THE BACK PAGES... CONTACTS</div><div class="row"><span class="k">Tanizaki</span><span>Grid. "If you are reading this, go to him."</span></div><div class="row"><span class="k">Okada</span><span>CVD. Careful. Honest.</span></div><div class="row"><span class="k">... (a number, no name)</span><span>circled twice</span></div>';}
 
 /* =================== PHONE =================== */
-let PHTAB='people';
+let PHTAB='home';
 function ph(html){document.getElementById('phScreen').innerHTML=html;}
 function phbar(t){return '<div class="ph-bar"><button class="ph-back" onclick="phBack()">‹</button><span class="ph-title">'+t+'</span></div>';}
 function unreadCount(){var n=0;for(var id in G.contacts){var c=G.contacts[id];if(c&&c.known)n+=(c._unread||0);}return n;}
-function renderTabbar(a){var unc=unreadCount();const tabs=[['people','Contacts','👥'],['chats','Chats','💬'],['home','Apps','⌂'],['timeline','VOOM','▷'],['wallet','Wallet','👛']];document.getElementById('phTabbar').innerHTML=tabs.map(t=>'<button class="tabbtn'+(t[0]===a?' on':'')+'" onclick="lineTab(\''+t[0]+'\')"><span class="ti" style="position:relative">'+t[2]+((t[0]==='chats'&&unc>0)?'<span class="badge2" style="position:absolute;top:-7px;right:-11px">'+unc+'</span>':'')+'</span><span class="tl">'+t[1]+'</span></button>').join('');}
-function phoneHome(){lineTab('people');}
+function renderTabbar(a){var unc=unreadCount();const tabs=[['home','Home','⌂'],['chats','Chats','💬'],['timeline','VOOM','▷'],['news','News','📰'],['wallet','Wallet','👛']];document.getElementById('phTabbar').innerHTML=tabs.map(t=>'<button class="tabbtn'+(t[0]===a?' on':'')+'" onclick="lineTab(\''+t[0]+'\')"><span class="ti" style="position:relative">'+t[2]+((t[0]==='chats'&&unc>0)?'<span class="badge2" style="position:absolute;top:-7px;right:-11px">'+unc+'</span>':'')+'</span><span class="tl">'+t[1]+'</span></button>').join('');}
+function phoneHome(){lineTab('home');}
 var PHHIST=[],PHCUR=null;
 function nav(fn){if(PHCUR)PHHIST.push(PHCUR);PHCUR=fn;fn();}
 function phBack(){if(PHHIST.length){PHCUR=PHHIST.pop();PHCUR();}else{lineTab(PHTAB);}}
@@ -1096,10 +1121,12 @@ function phStub(n){ph(phbar(n)+'<div class="ph-body"><p style="color:var(--ph-di
 function phHome(){
  let h='<div style="overflow:auto;flex:1"><div class="home-head"><div class="av" style="background:#6e2b20;border-radius:50%">R</div><div><div class="hn">Rei Uedera</div><div class="hs">looking for my brother.</div></div></div>';
  h+='<div class="svc-grid">'+svc('🗺','Map','phMap()')+svc('👥','People','phPeople()')+svc('🗒','Notes','phNotes()')+svc('📅','Calendar','phCalendar()')+svc('🚕','Cab','phCab()')+svc('🚆','Train','phTrain()')+svc('🍜','Food','phFood()')+svc('🔔','Alerts','phAlerts()')+'</div>';
- var fr=Object.keys(G.contacts).filter(function(k){return G.contacts[k].known && relValOf(k)>=20;});
- h+='<div class="secs">Friends '+fr.length+'</div>';
- if(!fr.length) h+='<div style="padding:2px 14px 10px;font-size:11px;color:var(--ph-dim);font-style:italic">No one close yet. People you grow close to appear here; everyone you know is in Messages and People.</div>';
- fr.forEach(function(id){const c=G.contacts[id];h+='<div class="li" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div><div class="nm">'+c.name+'</div><div class="pv">'+relTier(relValOf(id))+'</div></div></div>';});
+ var ids=Object.keys(G.contacts).filter(function(k){return G.contacts[k].known;});
+ function inter(id){var c=G.contacts[id];return (c._unread||0)*1000+(c.history?c.history.filter(function(m){return m[0]!=='sys';}).length:0)*5+Math.max(0,relValOf(id));}
+ ids.sort(function(a,b){return inter(b)-inter(a);});
+ h+='<div class="secs">Contacts '+ids.length+'</div>';
+ if(!ids.length) h+='<div style="padding:2px 14px 10px;font-size:11px;color:var(--ph-dim);font-style:italic">You barely know anyone yet. People you meet appear here.</div>';
+ ids.forEach(function(id){const c=G.contacts[id];var un=c._unread||0;h+='<div class="li" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div style="flex:1;min-width:0"><div class="nm">'+esc(c.name)+(un?' <span class="badge2">'+un+'</span>':'')+'</div><div class="pv">'+relTier(relValOf(id))+'</div></div></div>';});
  h+='</div>';ph(h);
 }
 function phChats(){_chan='line';
@@ -1122,7 +1149,7 @@ function postStory(){const v=document.getElementById('storyIn').value.trim();if(
   .then(j=>{const txt=(j&&j.text&&j.text.trim())?j.text.trim():'saw this. you ok?';s.cmts.push([who.name,esc(txt)]);if(PHTAB==='timeline')phTimeline();})
   .catch(()=>{s.cmts.push([who.name,'saw this. you ok?']);if(PHTAB==='timeline')phTimeline();});
 }
-const NEWSORG={cvd:['CVD','#06614a'],city:['市','#3a6ea5'],culture:['文','#8a5fb0'],fire:['消','#c0563f'],police:['警','#39406e']};
+const NEWSORG={cvd:['CVD','#06614a'],journal:['TNJ','#2a2f6e'],weather:['天','#3a8ec0'],pop:['POP','#b0468a'],ninja:['忍','#1c1c1c'],conspiracy:['？','#7a3a3a'],city:['市','#3a6ea5'],culture:['文','#8a5fb0'],fire:['消','#c0563f'],police:['警','#39406e']};
 const NEWS=[
  {t:'Anomalous-activity advisory... Kita-ku',s:'Residents asked not to engage; report unusual sightings.',org:'cvd',label:'CVD TODAY',body:'The Civil Veil Directorate has issued a standing advisory for the Kita ward after a cluster of unverified anomalous reports near Ōji. Citizens are reminded that engagement is an offence; licensed personnel only. No further detail has been released.',who:['CVD... Public Relations','Ōji ward office']},
  {t:'Namboku line... minor delays',s:'Signal check at Ōji; trains roughly every six minutes.',org:'city',label:'CITY TRANSPORT',body:'Tokyo Metro reports a signal inspection at Ōji affecting the Namboku line through the morning. Services continue at reduced frequency; normal timetable expected by midday.',who:['Tokyo Metro','City transport desk']},
@@ -1131,8 +1158,60 @@ const NEWS=[
  {t:'Missing-persons: no new filings this week',s:'Officially, the district registry is quiet.',org:'police',label:'POLICE',body:'The Metropolitan Police report no new missing-persons filings in the district this week. The registry, they note, reflects only what has been reported. (You know of at least one that was never filed.)',who:['Metropolitan Police... district desk']},
 ];
 function orgBadge(org,size){const o=NEWSORG[org];const s=size||46;return '<div style="width:'+s+'px;height:'+s+'px;border-radius:10px;background:'+o[1]+';color:#fff;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:'+(o[0].length>2?12:15)+'px;letter-spacing:.5px">'+o[0]+'</div>';}
-function phNews(){let h='<div class="ph-body" style="padding:0">';NEWS.forEach((n,i)=>h+='<div class="news-it" style="cursor:pointer" onclick="nav(function(){newsArticle('+i+')})">'+orgBadge(n.org)+'<div><div class="nt">'+n.t+'</div><div class="ns">'+n.s+'</div><div class="ns" style="margin-top:3px;color:var(--ph-accent)">'+n.label+' ›</div></div></div>');h+='</div>';ph(h);}
-function newsArticle(i){const n=NEWS[i];let h=phbar('News')+'<div class="ph-body"><div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">'+orgBadge(n.org,40)+'<div><div style="font-size:11px;color:var(--ph-accent);font-weight:700">'+n.label+'</div><div style="font-size:11px;color:var(--ph-dim)">'+dateStr()+'</div></div></div>';h+='<div style="font-size:17px;font-weight:800;line-height:1.3;margin-bottom:8px">'+n.t+'</div>';h+='<div style="font-size:13.5px;line-height:1.6;color:var(--ph-text)">'+n.body+'</div>';h+='<div class="secs" style="padding-left:0;margin-top:14px">INVOLVED</div>';n.who.forEach(w=>h+='<div style="font-size:13px;padding:3px 0;border-bottom:1px solid var(--ph-line)">'+w+'</div>');h+='</div>';ph(h);}
+// ---- daily news: changes each day, reacts to the veil/chapter, mixes real-2015 Tokyo flavor with clues ----
+function _seed(n){var x=Math.sin(n*12.9898)*43758.5453;return x-Math.floor(x);}
+function _pick(a,n){return a[Math.floor(_seed(n)*a.length)%a.length];}
+function dailyNews(day){day=day||G.day||1;var d=day;var out=[];
+ var wx=['Another scorcher... 34°C and humidity like a wet towel. Heatstroke warnings across the wards.','A typhoon spins south of Honshū; rain bands reach Tokyo by evening. Carry an umbrella.','Muggy and grey with thunder after dark. The cicadas do not care.','Clear and brutal sun; the asphalt shimmers by noon.','Cooler tonight, a wind off the bay... the first hint that summer will, eventually, end.'];
+ out.push({org:'weather',label:'WEATHER NEWS',t:_pick(wx,d*7),s:'Tokyo, today.',body:_pick(wx,d*7)+' The heat island and the warm rivers as usual. Forecasters expect more of the same through the week.',who:['Weather News Tokyo']});
+ var tnj=['The Diet debates the new security legislation late into the night; protesters gather outside.','Plans for the 2020 stadium draw fresh criticism over cost; a redesign is mooted.','The yen slips again... exporters cheer, shoppers grumble at the import aisles.','A record summer at the box office as a homegrown blockbuster outdraws the imports.','Tokyo Metro announces a decade of Namboku-line upgrades; commuters told to expect works.'];
+ out.push({org:'journal',label:'TOKYO NEWS JOURNAL',t:_pick(tnj,d*3),s:'National & city desk.',body:_pick(tnj,d*3)+' Our correspondents continue to follow the story.',who:['Tokyo News Journal']});
+ var pop=['Summer idol tour sells out the Dome in minutes; resale prices hit eye-watering highs.','A new animated film breaks weekend records; lines wrap around the Shinjuku cinemas.','A veteran rock act announces a comeback tour; the ticket sites buckle within minutes.','Another streaming service launches in Japan with a splashy drama slate.','The summer&rsquo;s biggest manga gets an anime; fans dissect the trailer frame by frame.'];
+ out.push({org:'pop',label:'POP CULTURE',t:_pick(pop,d*5),s:'Movies, music, the internet.',body:_pick(pop,d*5),who:['Pop Culture desk']});
+ var veil=(G.player&&G.player.veil)||0;
+ var cvd={t:_pick(['Anomalous-activity advisory... Kita-ku','Routine containment exercise, northern wards','Public reminded: report, do not engage'],d*11),body:'The Civil Veil Directorate maintains a standing advisory for the northern wards after reports it will not detail. Engagement is an offence; licensed personnel only. What is not reported, the form implies, does not exist.'};
+ if(veil>=45)cvd={t:'Heightened advisory... thinning reported, Kita-ku',body:'The Directorate has quietly raised its posture after instrument readings it will not describe. Patrols are up. The word "thinning" appears in no official statement, yet everyone uses it.'};
+ out.push({org:'cvd',label:'CVD NEWS',t:cvd.t,s:'Civil Veil Directorate, public relations.',body:cvd.body,who:['CVD Public Relations']});
+ var ninja=['the channel that isn&rsquo;t there says: a man crossed the Ōji bridge and his shadow went first. taken down in an hour. screenshot if you got it.','tonight&rsquo;s broadcast: the wards are thinning and the suits know. stay off the riverbank after 2am. you didn&rsquo;t hear it here.','rumor mill: someone in Records keeps a list the bosses don&rsquo;t want kept. honest work. dangerous work.','the ninja says: Obon&rsquo;s closing but the door didn&rsquo;t. count the lanterns going the wrong way.'];
+ out.push({org:'ninja',label:'GRID // 忍 CHANNEL',t:_pick(ninja,d*13),s:'unlisted. you didn&rsquo;t find this.',body:_pick(ninja,d*13)+'\n\n[this broadcast self-deletes. the Grid was never here.]',who:['the channel nobody admits to watching']});
+ var con=['THEY&rsquo;RE HIDING THE DEAD: a thread with 4,000 replies calls the CVD &ldquo;the ghost police.&rdquo; mods keep locking it. it keeps coming back.','TYPHOONS AND SPIRITS: a blogger insists the weather agency edits out the nights the veil thins. correlation, he screams, IS causation.','THE THIRTEEN: a fringe site numbers the &ldquo;emotion demons&rdquo; and gets one detail uncomfortably right. probably nothing.'];
+ out.push({org:'conspiracy',label:'CONSPIRACY / 2ch',t:_pick(con,d*17),s:'take it with salt. a lot of salt.',body:_pick(con,d*17),who:['anonymous']});
+ if(G.discoveries&&G.discoveries.length){var disc=G.discoveries[G.discoveries.length-1];out.splice(3,0,{org:'cvd',label:'CVD NEWS · TIP LINE',t:'Unconfirmed report logged, northern wards',body:'A citizen tip, unverified, entered the public log today: "'+esc((disc.t||disc)+'')+'" The Directorate neither confirms nor comments. You know more than the log does.',who:['CVD tip line']});}
+ return out;}
+function phNews(){var items=dailyNews(G.day);G._newsCache=items;let h='<div class="ph-body" style="padding:0"><div style="padding:8px 14px;font-size:11px;color:var(--ph-dim);border-bottom:8px solid var(--ph-card)">Tokyo &middot; '+dateStr()+'</div>';items.forEach((n,i)=>h+='<div class="news-it" style="cursor:pointer" onclick="nav(function(){newsArticle('+i+')})">'+orgBadge(n.org)+'<div><div class="nt">'+n.t+'</div><div class="ns">'+n.s+'</div><div class="ns" style="margin-top:3px;color:var(--ph-accent)">'+n.label+' ›</div></div></div>');h+='</div>';ph(h);}
+function newsArticle(i){const n=(G._newsCache||dailyNews(G.day))[i];if(!n)return;let h=phbar('News')+'<div class="ph-body"><div style="display:flex;gap:10px;align-items:center;margin-bottom:10px">'+orgBadge(n.org,40)+'<div><div style="font-size:11px;color:var(--ph-accent);font-weight:700">'+n.label+'</div><div style="font-size:11px;color:var(--ph-dim)">'+dateStr()+'</div></div></div>';h+='<div style="font-size:17px;font-weight:800;line-height:1.3;margin-bottom:8px">'+n.t+'</div>';h+='<div style="font-size:13.5px;line-height:1.6;color:var(--ph-text);white-space:pre-line">'+n.body+'</div>';h+='<div class="secs" style="padding-left:0;margin-top:14px">SOURCE</div>';(n.who||[]).forEach(w=>h+='<div style="font-size:13px;padding:3px 0;border-bottom:1px solid var(--ph-line)">'+w+'</div>');h+='</div>';ph(h);}
+// ---- VOOM: NPCs post in their own voice/behavior; refreshes daily, AI-free ----
+var VOOM_T={
+ casual:["konbini run at 2am again. living the dream.","someone at the station was crying into a melon pan. mood.","ran on four hours of sleep and pure spite. productive.","the cat sat on my keyboard so i let it. priorities.","is it just me or is this summer trying to kill us specifically"],
+ politics:["another night of suits on tv saying nothing in more words. cool.","they pave another lot and call it progress. progress for who.","read the news, got angry, made tea, still angry.","whoever runs this city has never taken the last train home."],
+ pop:["[idol] absolutely ended me tonight. no notes. i&rsquo;m changed.","rewatched the whole thing, cried at the same part. don&rsquo;t perceive me.","new release dropped and my entire week is sorted.","saw the film. that last shot. ugh. cinema."],
+ food:["[place] never misses. that&rsquo;s the post.","dango weather. i don&rsquo;t make the rules.","best ramen in the ward and i WILL fight about it.","made too much again. come eat it before i do something stupid."],
+ weather:["rain again. my knees forecast better than the agency.","this heat is a personal attack. august in tokyo is a crime.","walked the park at dawn before the city woke up. recommend.","typhoon coming. battened down with snacks and dread."],
+ personal:["bad night. that&rsquo;s all. don&rsquo;t worry about me (do a little).","can&rsquo;t tell if it&rsquo;s the weather or me. probably me.","some days you just hold something cold in your pocket and breathe.","posting so i don&rsquo;t text someone i shouldn&rsquo;t at 3am."],
+ guarded:["...","busy. don&rsquo;t read into it.","work. more work. the end."]
+};
+function voomStyle(id){var c=G.contacts[id];var p=(typeof personaFor==='function')?personaFor(c):null;var m=p&&p.mind;if(!m)return 'rare';
+ var ch=(typeof charForContact==='function')?charForContact(c):null;var fac=ch&&ch.faction;
+ var arc=(m.arc||'').toLowerCase(),vic=(m.vices||'').toLowerCase(),pol=(m.politics||'').toLowerCase(),cul=((m.idol||'')+' '+(m.culture||'')).toLowerCase(),love=((m.loves||'')+' '+(m.likes||'')).toLowerCase(),wir=(m.wiring||'').toLowerCase();
+ if(fac==='cvd'||fac==='towers')return (_seed(id.length*3)<0.6)?'rare':'guarded';
+ if(/comic relief|oversharer/.test(arc)||/can.t sit with silence|over.?share|fills the silence/.test(vic))return 'casual';
+ if(/conservative|leftist|nationalist|anti-|union/.test(pol))return 'politics';
+ if(/cinema|film|idol|x japan|metal|hatsune|anime|miku|babymetal|arashi|enka/.test(cul))return 'pop';
+ if(/dango|sweet|food|ramen|bakery|cook|anpan/.test(love))return 'food';
+ if(/weather|park|walk|baths|river/.test(love))return 'weather';
+ if(/anxiety|depress|grief|wound|ptsd/.test(wir))return 'personal';
+ if(/withdrawn|unbending|cold|guards/.test(arc+vic))return 'rare';
+ return 'casual';}
+function genVoomPost(id){var st=voomStyle(id);if(st==='rare')return null;var c=G.contacts[id];var p=(typeof personaFor==='function')?personaFor(c):null;var m=(p&&p.mind)||{};var pool=VOOM_T[st]||VOOM_T.casual;if(!pool.length)return null;var t=pool[Math.floor((G.day*31+id.length*7)%pool.length)];if(!t)return null;
+ if(t.indexOf('[idol]')>=0)t=t.replace('[idol]',(m.idol||'the band').split(/[;,(]/)[0].trim());
+ if(t.indexOf('[place]')>=0)t=t.replace('[place]',(m.loves||m.likes||'that spot').split(/[;,(]/)[0].trim());
+ return t;}
+function voomDaily(){if(G._voomDay===G.day||!G.contacts)return;G._voomDay=G.day;if(!G.stories)G.stories=[];
+ var ids=[];for(var id in G.contacts){if(G.contacts[id].known&&npcReachable(G.contacts[id]))ids.push(id);}ids.sort(function(){return Math.random()-0.5;});
+ var posted=0;for(var i=0;i<ids.length&&posted<3;i++){var id=ids[i];if(voomStyle(id)==='rare')continue;if(Math.random()<0.5)continue;var cap=genVoomPost(id);if(!cap)continue;var c=G.contacts[id];
+  if(G.stories.some(function(s){return s.who===id&&s.cap===cap;}))continue;
+  G.stories.unshift({who:id,color:c.color,cap:cap,likes:Math.floor(Math.random()*9),liked:false,cmts:[]});posted++;}
+ if(G.stories.length>50)G.stories=G.stories.slice(0,50);}
 function phWallet(){let h='<div class="ph-body" style="padding:0"><div style="background:var(--ph-accent);color:#fff;padding:14px"><div style="font-size:11px;opacity:.9">LINE Pay</div><div style="font-size:30px;font-weight:800">¥'+G.player.money.toLocaleString()+'</div></div>';
  h+='<div class="wbtn"><div onclick="nav(phSend)"><div class="wi">↗</div>Send</div><div onclick="nav(phReceive)"><div class="wi">↘</div>Receive</div><div onclick="nav(phCoupons)"><div class="wi">%</div>Coupons</div></div>';
  h+='<div class="secs">This month... settled</div>';
@@ -1371,18 +1450,38 @@ function phCalendar(){
  h+='</div></div>';ph(h);
 }
 
+function surfaceBio(s){ if(!s)return 'Someone you have crossed paths with.'; s=String(s);
+ s=s.replace(/\bTrack\s*[+\-−]?\d+/gi,'').replace(/\bHidden\b/gi,'').replace(/\bEntry:[^\/.]*/gi,'').replace(/\bL\d+\b/g,'').replace(/\(([0SADBCE]{1,3})\)/g,'').replace(/\b(Sensitive|Postulate|Adept|Ritualist|Arbiter|Vanguard|Guardian|Singularity)\b/g,'').replace(/\bunregistered\b/gi,'').replace(/\b(Clairsentience|Telepathy|Telekinesis|Psychometabolism|Psychokinesis|Teleportation)\b/g,'');
+ s=s.replace(/\s*\/\s*\/+/g,' / ').replace(/\s{2,}/g,' ').replace(/\s*[\/,;\-]\s*$/,'').replace(/^[\s\/,;\-]+/,'').replace(/\s+\./g,'.').trim();
+ return s||'Someone you have crossed paths with.';
+}
 function phProfile(id){_chan='line';const c=G.contacts[id];
  let h=phbar(c.name)+'<div class="ph-body">';
  h+='<div style="display:flex;gap:12px;align-items:center;margin-bottom:8px"><div class="av" style="background:'+c.color+';width:56px;height:56px;border-radius:50%;overflow:hidden">'+avatarFace(id)+'</div><div><div class="nm" style="font-size:16px">'+c.name+'</div><div class="pv">'+c.loc+'</div></div></div>';
- h+='<div style="font-size:13px;font-style:italic;color:var(--ph-dim);margin:0 0 14px">&ldquo;'+c.bio+'&rdquo;</div>';
+ var _st=(typeof personaFor==='function'&&personaFor(c))?(personaFor(c).status||''):'';
+ h+='<div style="font-size:13px;font-style:italic;color:var(--ph-text);margin:0 0 12px">'+(_st?('&ldquo;'+esc(_st)+'&rdquo;'):'<span style="color:var(--ph-dim)">No status message.</span>')+'</div>';
+ h+='<div class="secs" style="padding-left:0;margin-top:2px">WHAT YOU KNOW</div><div style="font-size:12.5px;color:var(--ph-dim);margin:0 0 12px;line-height:1.5">'+esc(surfaceBio(c.bio))+'</div>';
+ var _ch=(typeof charForContact==='function')?charForContact(c):null;
+ if(_ch&&_ch.standing){ var _trust=relValOf(id); var _showRank=_ch.registered||_trust>=((_ch.persona&&_ch.persona.opensAt)||40);
+  h+='<div class="secs" style="padding-left:0">STANDING</div><div style="font-size:12.5px;color:var(--ph-text);margin:0 0 12px">'+esc(_ch.standing)+(_showRank&&_ch.tier?(' &middot; '+esc(_ch.tier)+' ('+esc(_ch.tierLetter||'')+')'):(_ch.tier?' &middot; <span style="color:var(--ph-dim)">power undeclared</span>':''))+(_showRank&&_ch.rankNote?('<div style="font-size:11px;color:var(--ph-dim);margin-top:3px;font-style:italic">'+esc(_ch.rankNote)+'</div>'):'')+'</div>'; }
  h+='<div style="text-align:center;margin:6px 0 4px"><button onclick="nav(function(){phChat(\''+id+'\')})" style="background:#06C755;color:#fff;border:none;border-radius:20px;padding:9px 28px;font-weight:700;font-size:13px;cursor:pointer">Open chat</button></div>';
  h+='<div class="secs" style="padding-left:0;margin-top:14px">RELATIONSHIP</div>'+relBar(id,c.name);
+ if(typeof isRomanceable==='function'&&isRomanceable(id)){var r=(typeof ROM!=='undefined'&&ROM[id])?ROM[id]:{val:0,open:false};var rv=Math.max(0,Math.min(100,r.val||0));
+  h+='<div class="secs" style="padding-left:0;margin-top:14px">ROMANCE'+(r.open?' · <span style="color:#e0567a">route open</span>':'')+'</div>';
+  h+='<div style="height:8px;background:var(--ph-line);border-radius:4px;overflow:hidden;margin:2px 0 4px"><i style="display:block;height:100%;width:'+rv+'%;background:#e0567a"></i></div>';
+  h+='<div style="font-size:11px;color:var(--ph-dim)">'+(r.open?'You and '+esc(c.name)+' have something real.':(rv>0?'A spark, building.':'Nothing yet... if there ever is, it will be earned.'))+'</div>';}
  h+='</div>';ph(h);}
 function phChat(id){const c=G.contacts[id];window._curChat=id;c._unread=0;c._lastAbs=G.day*1440+G.min;if(typeof renderTabbar==='function')renderTabbar(PHTAB);let h=phbar(c.name)+'<div id="aibanner"></div><div class="msgs" id="msgs">';c.history.forEach(m=>{if(m[0]==='sys'){h+='<div style="text-align:center;font-size:10px;color:var(--ph-dim);margin:4px 0;font-family:var(--mono)">'+m[1]+'</div>';}else{var who=(m[0]==='me'?'Rei':c.name);var st=m[2]?(' · '+m[2]):'';h+='<div style="font-size:9px;color:var(--ph-dim);margin:7px 3px 1px;'+(m[0]==='me'?'text-align:right':'')+'">'+who+st+'</div><div class="bub '+(m[0]==='me'?'me':'them')+'">'+m[1]+'</div>';}});h+='</div><div class="compose"><input id="ci" placeholder="'+(_chan==='person'?'Say something…':'Message…')+'" onkeydown="if(event.key===\'Enter\')sendMsg(\''+id+'\')"><button onclick="sendMsg(\''+id+'\')">Send</button></div>';ph(h);const m=document.getElementById('msgs');m.scrollTop=m.scrollHeight;aiBanner();aiPing();}
 var _npcTimers={};
 function stampNow(){try{return lockDateStr().replace(/,?\s*2015/,'')+' · '+fmt(G.min);}catch(e){return fmt(G.min);}}
 // People text in bursts... wait, and group successive messages into one reply.
-function sendMsg(id){const inp=document.getElementById('ci');const t=inp.value.trim();if(!t)return;const c=G.contacts[id];c.history.push(['me',t,stampNow()]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);
+// world-state gatekeeper: the GAME decides reachability BEFORE any token is spent. dead/gone NPCs never call the AI.
+// dead/gone/wounded(=recovering in the CVD Health Center, no visitors) all block the AI call before a token is spent
+function npcReachable(c){return !!c && c.status!=='dead' && c.status!=='gone' && c.status!=='wounded';}
+function statusLine(c){return c.status==='dead'?'— delivered to a number that will never answer again.':c.status==='gone'?'— '+c.name+' is unreachable. The message sits undelivered.':c.status==='wounded'?'— '+c.name+' is recovering in the CVD Health Center. No visitors allowed; messages go unanswered until they are stable.':'— unreachable.';}
+function sendMsg(id){const inp=document.getElementById('ci');const t=inp.value.trim();if(!t)return;const c=G.contacts[id];
+ if(c&&!npcReachable(c)){c.history.push(['me',t,stampNow()]);c.history.push(['sys',statusLine(c)]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);return;}
+ c.history.push(['me',t,stampNow()]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);
  var mm=document.getElementById('msgs');if(mm){var tip=document.createElement('div');tip.className='typing';tip.textContent=c.name+' is typing…';mm.appendChild(tip);mm.scrollTop=mm.scrollHeight;}
  if(_npcTimers[id])clearTimeout(_npcTimers[id]);
  _npcTimers[id]=setTimeout(function(){npcReply(id);},1700);
@@ -1421,16 +1520,46 @@ function applyNpcEvent(id,ev,c){
   if(!G.notes)G.notes=[]; G.notes.unshift({txt:nm+' passed word to '+G.contacts[rt].name+': '+info, day:G.day, time:fmt(G.min)});
   c.history.push(['sys','('+nm+' will pass that to '+esc(G.contacts[rt].name)+'.)']); if(typeof saveG==='function')saveG(); return; }
  if(k==='chem'){ var lvl=Math.max(0,Math.min(5,parseInt(ev.level)||0)); if(lvl<=0){c._chem=null;} else {c._chem={sub:(ev.sub||ev.text||'alcohol'),level:lvl,note:(ev.note||''),until:(G.day*1440+G.min)+240};} if(typeof saveG==='function')saveG(); return; }
+ if(k==='quest'){ var qch=(typeof charForContact==='function')?charForContact(c):null; var qd=qch&&qch.quest; var qt=(ev.title||(qd&&qd.title)||(nm+'\'s story')).toString().slice(0,70);
+  if(!G.quests)G.quests=[]; var qid='npc-'+id;
+  if(!G.quests.some(function(q){return q.id===qid;})){ var steps=((qd&&qd.stages)||[ev.text||('Drawn into '+nm+'\'s story')]).map(function(st){return {t:st,done:false};}); G.quests.push({id:qid,title:qt+' · '+nm,steps:steps,arch:false,npc:id}); gameToast('✦ Personal quest: '+qt); if(typeof saveG==='function')saveG(); }
+  return; }
  if(k==='moveto'){ var mp=resolvePlaceId(ev.target||ev.text||''); if(!mp)return;
   c._here={placeId:mp, until:(G.day*1440+G.min)+600}; c._nextPlace=mp;
   var pn=(G.places.find(function(x){return x.id===mp;})||{}).name||ev.target;
   c.history.push(['sys','('+nm+' is heading to '+esc(pn)+'.)']); if(typeof saveG==='function')saveG(); return; }
+ if(k==='status'){ var s=(ev.value||ev.text||'').toString().toLowerCase().trim();
+  var map={dead:'dead',deceased:'dead',killed:'dead',gone:'gone',missing:'gone',vanished:'gone',disappeared:'gone',taken:'gone',wounded:'wounded',injured:'wounded',hurt:'wounded',alive:'',back:'',ok:'',returned:'',recovered:''};
+  if(!(s in map))return; var prev=c.status; c.status=map[s]; if(!c.status)delete c.status;
+  if(!npcReachable(c)){ c._here=null; c._nextPlace=null; c._withYou=false; if(G.party)G.party=G.party.filter(function(x){return x!==id;}); }
+  if(c.status==='wounded'){ c._recoverAt=(G.day*1440+G.min)+_rnd(1440,4320); }/* stable again in ~1-3 days */
+  else { delete c._recoverAt; }
+  var word=c.status==='dead'?(nm+' is dead.'):c.status==='gone'?(nm+' has vanished... unreachable.'):c.status==='wounded'?(nm+' is badly hurt... taken to the CVD Health Center.'):(nm+' is back on their feet.');
+  c.history.push(['sys','✖ '+esc(word)]); if((c.status==='dead'||c.status==='gone')&&typeof addDiscovery==='function')addDiscovery(word,nm);
+  if((c.status==='dead'||c.status==='gone')&&typeof deathRipple==='function')deathRipple(id,c.status);
+  if(typeof gameToast==='function')gameToast('✖ '+word); if(typeof renderTabbar==='function')renderTabbar(); if(typeof renderTop==='function')renderTop(); if(typeof saveG==='function')saveG(); return; }
+}
+// when someone dies/vanishes, those who knew them feel it... by how they felt about the dead, and whether they have a heart at all
+function npcTieValue(aId,bId){ var a=G.contacts[aId]; var ach=(typeof charForContact==='function')?charForContact(a):null; if(!ach)return null;
+ var rels=ach.relationships||[]; var bc=G.contacts[bId]; var bname=(bc&&bc.name||'').toLowerCase();
+ for(var i=0;i<rels.length;i++){ var r=rels[i]; var w=((r.with||'')+'').toLowerCase().replace(/[^a-z]/g,''); var bid=(bId||'').toLowerCase().replace(/[^a-z]/g,'');
+  if(w&&(w===bid||bname.replace(/[^a-z]/g,'').indexOf(w)>=0||w.indexOf(bid)>=0)) return (typeof r.value==='number')?r.value:0; }
+ var bch=(typeof charForContact==='function')?charForContact(bc):null; if(ach.faction&&bch&&bch.faction&&ach.faction===bch.faction) return 12;/* faction kinship, mild */
+ return null; }
+function deathRipple(deadId,kind){ var dc=G.contacts[deadId]; if(!dc)return; var dname=dc.name;
+ for(var oid in G.contacts){ if(oid===deadId)continue; var o=G.contacts[oid]; if(!o.known||!npcReachable(o))continue;
+  var tie=npcTieValue(oid,deadId); if(tie===null)continue;
+  var och=(typeof charForContact==='function')?charForContact(o):null; var emp=((och&&och.persona&&och.persona.mind&&och.persona.mind.empathy)||'').toLowerCase();
+  var heartless=/psychopath|no empathy|empathy[:\- ]*(none|absent|nil)|cannot feel|incapable of (empathy|feeling)|callous|hollow|feels nothing/.test(emp);
+  var feel = heartless ? (tie>=45?'a flicker of something, quickly buried':'nothing') : (tie>=25?'grief':(tie<=-25?'relief':'unsettled'));
+  o._grief={who:dname,feel:feel,kind:kind,at:G.day*1440+G.min};
+  if(typeof learnFact==='function')learnFact(oid, dname+' is '+(kind==='dead'?'dead':'gone'), dname); }
 }
 // an NPC follows through on a commitment and contacts Rei unprompted
 function fbFollow(c){return (c&&c.name?c.name:'They')+': still on it. nothing solid yet... I will tell you the moment there is.';}
-function npcFollowup(id,note){var c=G.contacts[id];if(!c)return;
+function npcFollowup(id,note){var c=G.contacts[id];if(!c||!npcReachable(c))return;
  var prompt='[Time has passed. Earlier you told Rei you would: '+note+'. You now message Rei FIRST, unprompted, with a real update... what you found, a partial lead, a dead end, or the next concrete step. Stay fully in character, be specific, one or two short lines.]';
- var ctx=npcCtx(id,c)+' YOU ARE CONTACTING REI FIRST now, following through on your commitment ('+note+'). Do not greet as a stranger; you reached out.'+(typeof knowledgeCtx==='function'?knowledgeCtx():'');
+ var ctx=(typeof knowledgeCtx==='function'?knowledgeCtx():'')+npcCtx(id,c)+' YOU ARE CONTACTING REI FIRST now, following through on your commitment ('+note+'). Do not greet as a stranger; you reached out.';/* world-memory FIRST for prefix caching */
  fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'npc',prompt:prompt,context:ctx})})
   .then(function(r){return r.json();}).then(function(j){var raw=(j&&j.text)?j.text.trim():'';
    if(!raw||/^\s*(here(?:'s| is)\b|```|[\[{])/i.test(raw))raw=fbFollow(c);
@@ -1445,7 +1574,13 @@ function _curPlace(){ return (typeof currentPlaceId==='function')?currentPlaceId
 function _personActive(id){ return _chan==='person' && window._personChat===id && !!document.getElementById('readBody'); }
 function partyHere(notId){ var out=[]; if(!G.party)G.party=[]; G.party.forEach(function(pid){ if(pid!==notId && G.contacts[pid]) out.push(pid); }); return out; }
 function joinParty(id){ if(!G.party)G.party=[]; if(G.party.indexOf(id)<0)G.party.push(id); var c=G.contacts[id]; if(c)c._withYou=true; if(typeof gameToast==='function')gameToast('✦ '+(c?c.name:'They')+' is with you now... they come where you go.'); if(typeof saveG==='function')saveG(); personScene(id); }
-function leaveParty(id){ if(!G.party)G.party=[]; G.party=G.party.filter(function(x){return x!==id;}); if(typeof gameToast==='function')gameToast((G.contacts[id]?G.contacts[id].name:'They')+' will wait here.'); if(typeof saveG==='function')saveG(); personScene(id); }
+function leaveParty(id){ if(!G.party)G.party=[]; G.party=G.party.filter(function(x){return x!==id;}); var c=G.contacts[id]; if(c){c._withYou=false;c._wantsLeave=false;} if(typeof renderTop==='function')renderTop(); if(typeof gameToast==='function')gameToast((c?c.name:'They')+' will wait here.'); if(typeof saveG==='function')saveG(); personScene(id); }
+// they wanted to leave; you talk them round. Success scales with how close you are (plus a little luck).
+function argueStay(id){ var c=G.contacts[id]; if(!c)return; var t=(typeof relValOf==='function')?relValOf(id):30; var roll=t+_rnd(1,6)*5;
+ if(roll>=40){ c._wantsLeave=false; if(typeof bumpRel==='function')bumpRel(id,1); c.history.push(['sys','You talk '+esc(c.name)+' round. They stay with you.']); if(typeof gameToast==='function')gameToast('✓ '+c.name+' stays with you.'); }
+ else { c.history.push(['sys',esc(c.name)+' shakes their head. Some things they have to do alone. They go.']); if(typeof bumpRel==='function')bumpRel(id,-1); if(G.party)G.party=G.party.filter(function(x){return x!==id;}); c._withYou=false; c._wantsLeave=false; if(typeof gameToast==='function')gameToast(c.name+' leaves anyway.'); }
+ if(typeof renderTop==='function')renderTop(); if(typeof saveG==='function')saveG(); personScene(id); }
+function letGo(id){ var c=G.contacts[id]; if(!c)return; if(G.party)G.party=G.party.filter(function(x){return x!==id;}); c._withYou=false; c._wantsLeave=false; c.history.push(['sys','You let '+esc(c.name)+' go. They head off into the night.']); if(typeof renderTop==='function')renderTop(); if(typeof gameToast==='function')gameToast(c.name+' goes their own way.'); if(typeof saveG==='function')saveG(); personScene(id); }
 function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat=id; _chan='person'; closeV();
  var pid=_curPlace(); var pl=pid&&(typeof placeById==='function'?placeById(pid):null); var where=pl?(' · '+esc(pl.name)):'';
  var party=partyHere(id);
@@ -1464,7 +1599,12 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  var cw=document.getElementById('readChoices');
  var h='<div style="display:flex;gap:6px;width:100%;margin-bottom:7px"><input id="pci" placeholder="Do something, or say it in &quot;quotes&quot;…" style="flex:1;background:#15110a;border:1px solid var(--bdr);border-radius:8px;padding:9px 11px;color:var(--text);font-size:16px" onkeydown="if(event.key===\'Enter\')personAct(\''+id+'\')"><button class="choice" style="margin:0;width:auto" onclick="personAct(\''+id+'\')">Do ›</button></div>';
  (G._personOpts||[]).forEach(function(o,i){ h+='<button class="choice" style="margin:0 0 6px;text-align:left" onclick="personOpt(\''+id+'\','+i+')">'+esc(o)+'</button>'; });
- if(G.party&&G.party.indexOf(id)>=0){ h+='<button class="choice" style="margin:8px 0 6px" onclick="leaveParty(\''+id+'\')">'+esc(c.name)+' is with you ✓ &mdash; ask them to wait here</button>'; }
+ if(G.party&&G.party.indexOf(id)>=0){
+   if(c._wantsLeave){ h+='<div class="sub" style="color:#c8a24a;margin:8px 0 4px">'+esc(c.name)+' is about to head off on their own.</div>';
+     h+='<button class="choice" style="margin:0 0 6px" onclick="argueStay(\''+id+'\')">Argue... ask '+esc(c.name)+' to stay with you</button>';
+     h+='<button class="choice" style="margin:0 0 6px" onclick="letGo(\''+id+'\')">Let them go</button>'; }
+   else { h+='<button class="choice" style="margin:8px 0 6px" onclick="leaveParty(\''+id+'\')">'+esc(c.name)+' is with you ✓ &mdash; ask them to wait here</button>'; }
+ }
  else { h+='<button class="choice" style="margin:8px 0 6px" onclick="joinParty(\''+id+'\')">Ask '+esc(c.name)+' to come with you</button>'; }
  h+='<button class="choice" style="margin:0 0 6px" onclick="personGo(\''+id+'\')">Leave together / go somewhere ›</button>';
  h+='<button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away (stay here)</button>';
@@ -1498,12 +1638,13 @@ function personAct(id){ var inp=document.getElementById('pci'); if(!inp)return; 
 function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='line'; G._personOpts=[]; if(pid&&typeof placeArrival==='function'){ openV('phone'); placeArrival(pid); } else { renderScene(); } }
 function _renderConvo(id){ var c=G.contacts[id]; if(c)c._lastAbs=G.day*1440+G.min; if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { if(c)c._unread=(c._unread||0)+1; if(typeof renderTabbar==='function')renderTabbar(PHTAB); gameToast('✉ '+(c?c.name:'Someone')+' replied'); } }
 function npcReply(id){const c=G.contacts[id];
+ if(!npcReachable(c))return;/* dead/gone: no AI call, no reply */
  var msgs=[];for(var i=c.history.length-1;i>=0;i--){if(c.history[i][0]==='sys')continue;if(c.history[i][0]==='me')msgs.unshift(c.history[i][1].replace(/<[^>]+>/g,''));else break;}
  if(!msgs.length)return;
  var prompt=msgs.join('\n');
  const fb={itsuki:"i'm on it. don't do anything stupid without me.",okada:"Noted. Stay where I can reach you.",unknown:"stop calling this number."};
  const recent=c.history.slice(-12).filter(function(h){return h[0]!=='sys';}).map(function(h){return (h[0]==='me'?'Rei':c.name)+': '+h[1].replace(/<[^>]+>/g,'');}).join(' | ');
- const ctx=npcCtx(id,c)+' Recent chat: '+recent+knowledgeCtx();
+ const ctx=knowledgeCtx()+npcCtx(id,c)+' Recent chat: '+recent;/* world-memory FIRST so the stable prefix is cacheable across NPC switches (implicit caching) */
  fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'npc',prompt:prompt,context:ctx})})
   .then(function(r){return r.json();})
   .then(function(j){AI_OK=true;var raw=(j&&j.text)?j.text.trim():'';
@@ -1514,7 +1655,7 @@ function npcReply(id){const c=G.contacts[id];
    if(bad&&!degenerate){c.history.push(['sys','(AI error: '+((j&&j.err)?esc(j.err):'returned nothing... is your key valid?')+')']);}
    if(!bad){ var _nt=txt.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); if(_nt.length>7){ for(var _i=c.history.length-1,_s=0;_i>=0&&_s<5;_i--){ if(c.history[_i][0]==='them'){ _s++; if(c.history[_i][1].toLowerCase().replace(/<[^>]+>/g,'').replace(/[^a-z0-9]+/g,' ').trim()===_nt){ c.history.push(['sys','... '+c.name+' has nothing new to add; the line goes quiet.']); _renderConvo(id); return; } } } } }
    var applied=0;if(!bad&&j&&typeof j.relDelta==='number'){applied=bumpRel(id,Math.max(-5,Math.min(5,j.relDelta)));}
-   if(!bad&&j&&typeof j.romanceDelta==='number'&&j.romanceDelta!==0&&typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open){ROM[id].val=Math.max(0,Math.min(100,(ROM[id].val||0)+Math.max(-3,Math.min(3,j.romanceDelta))));}
+   if(!bad&&j&&typeof j.romanceDelta==='number'&&j.romanceDelta!==0&&typeof isRomanceable==='function'&&isRomanceable(id)){if(!ROM[id])ROM[id]={open:false,val:0,at:40};ROM[id].val=Math.max(0,Math.min(100,(ROM[id].val||0)+Math.max(-3,Math.min(3,j.romanceDelta))));if(!ROM[id].open&&ROM[id].val>=(ROM[id].at||40)){ROM[id].open=true;c.history.push(['sys','♥ Something has shifted between you and '+c.name+'.']);}}
    var learned=(!bad&&j&&j.learned&&j.learned.trim())?j.learned.trim():'';
    if(learned){c.reiNotes=((c.reiNotes?c.reiNotes+'; ':'')+learned).slice(-400);learnFact(id,learned,'Rei');}
    var disc=(!bad&&j&&j.discovered&&String(j.discovered).trim())?String(j.discovered).trim():'';
@@ -1604,7 +1745,8 @@ const SCHED={
 };
 function isWeekend(){var b=new Date(2015,7,27);b.setDate(b.getDate()+(G.day-1));var d=b.getDay();return d===0||d===6;}
 function wkday(){var b=new Date(2015,7,27);b.setDate(b.getDate()+(G.day-1));return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][b.getDay()];}
-function whereNow(id){var c0=G.contacts[id];if(c0&&c0._here){if((G.day*1440+G.min)<c0._here.until)return c0._here.placeId;else c0._here=null;}const sc=SCHED[id];if(!sc)return null;const blocks=(isWeekend()&&sc.we)?sc.we:sc.b;const H=Math.floor((G.min%1440)/60);for(const blk of blocks){if(H>=blk[0]&&H<blk[1])return blk[2];}return sc.home;}
+function whereNow(id){var c0=G.contacts[id];if(c0&&typeof npcReachable==='function'&&!npcReachable(c0))return null;/* dead/gone: off the map entirely */
+ if(c0&&c0._here){if((G.day*1440+G.min)<c0._here.until)return c0._here.placeId;else c0._here=null;}const sc=SCHED[id];if(!sc)return null;const blocks=(isWeekend()&&sc.we)?sc.we:sc.b;const H=Math.floor((G.min%1440)/60);for(const blk of blocks){if(H>=blk[0]&&H<blk[1])return blk[2];}return sc.home;}
 function currentPlaceId(){ if(G.player.atId)return G.player.atId; var p=G.places.find(function(x){return x.name===G.player.at;}); if(p)return p.id; if(/home|apartment/i.test(G.player.at||''))return 'home'; return null; }
 function spoilerBook(){ if(confirm('⚠ SPOILER WARNING\n\nThis sourcebook contains the Warden (GM-only) sections... the full solution to the mystery, every secret and every ending, laid out plainly.\n\nIf you are playing... as a tabletop player or in the Official Game... reading it now will spoil and ruin the experience.\n\nOpen it anyway?')) window.open('veil-protocol-book.html','_blank'); }
 function lockDateStr(){try{var d=new Date(2015,7,26+(G.day||1));return d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'});}catch(e){return 'Aug 2015';}}
@@ -1634,7 +1776,9 @@ function npcArrive(a){var c=G.contacts[a.id];if(!c)return;c.known=true;c.shares=
 // arrival takes over the MAIN narrative screen (readBody is the base reader; there is no ov-read overlay)
 function arrivalScene(id,spare,pid){var c=G.contacts[id];if(!c)return;
  _chan='line'; window._personChat=null; if(typeof closeV==='function')closeV();
- var rb=document.getElementById('readBody'); if(!rb){gameToast('★ '+c.name+' is here. Open the story screen.');return;}
+ var rb=document.getElementById('readBody');
+ if(!rb){ if(typeof renderScene==='function')renderScene(); rb=document.getElementById('readBody'); }/* arrival TAKES OVER the main screen even if you were in the phone/another view */
+ if(!rb){gameToast('★ '+c.name+' is here.');return;}
  var pl=(pid&&pid!=='home'&&typeof placeById==='function')?placeById(pid):null;
  var where=pl?esc(pl.name):'your place';
  var beat=spare
@@ -1758,6 +1902,8 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
   ((p&&p.flaws)?(' YOUR FLAWS / EDGES (play them... do not sand them off): '+p.flaws+' Let these show: be dryly funny, flirty, boastful, prickly, evasive, or blunt as fits you. You are a flawed person, not a helpful assistant.'):'')+
   ((p&&p.mind)?(' YOUR INNER LIFE (this shapes HOW you think, talk and react... live it, NEVER announce it or name a diagnosis aloud): intellect: '+(p.mind.intellect||'')+' | wiring: '+(p.mind.wiring||'')+' | empathy: '+(p.mind.empathy||'')+' | morals: '+(p.mind.morals||'')+' | how you see yourself: '+(p.mind.selfImage||'')+' | virtues: '+(p.mind.virtues||'')+' | vices: '+(p.mind.vices||'')+' | habits & tells: '+(p.mind.habits||'')+' | mood, baseline and under stress: '+(p.mind.mood||'')+' | the wound that drives you: '+(p.mind.wound||'')+' | loves: '+(p.mind.loves||'')+' | likes: '+(p.mind.likes||'')+' | dislikes: '+(p.mind.dislikes||'')+' | hates: '+(p.mind.hates||'')+' | drink/smoke/drugs: '+(p.mind.substance||'')+(p.mind.prejudice?(' | prejudice: '+p.mind.prejudice):'')+(p.mind.idol?(' | idol/fandom: '+p.mind.idol):'')+(p.mind.culture?(' | tastes (music/film/anime/books): '+p.mind.culture):'')+(p.mind.politics?(' | politics: '+p.mind.politics):'')+(p.mind.style?(' | how you dress & carry yourself: '+p.mind.style):'')+(p.mind.fetish?(' | in private/desire: '+p.mind.fetish):'')+(p.mind.quirks?(' | quirks: '+p.mind.quirks):'')+(p.mind.arc?(' | your arc/temperament: '+p.mind.arc):'')+'.'):'')+
   ((c._chem&&c._chem.level>0)?(' RIGHT NOW you are '+chemWord(c._chem.level)+' on '+(c._chem.sub||'something')+(c._chem.note?(' ('+esc(c._chem.note)+')'):'')+'... let it loosen, slur or dull you to that degree.'):'')+
+  ((c._grief&&(G.day*1440+G.min)-c._grief.at<4320)?(' RECENT LOSS: you have just learned that '+esc(c._grief.who)+' is '+(c._grief.kind==='dead'?'dead':'gone')+', and what you feel about it is '+esc(c._grief.feel)+'. Let that colour you in your OWN voice'+(c._grief.feel==='nothing'?' (you feel nothing... do not fake sorrow you do not have)':(c._grief.feel==='relief'?' (you are quietly, privately glad... hide it or not, as you would)':(c._grief.feel==='grief'?' (it hurts... grieve as THIS person grieves, not in greeting-card lines)':' (it unsettles you)')))+', without being asked and without announcing it mechanically.'):'')+
+  (function(){var ch=charForContact(c);if(!ch)return '';var s=' YOUR STANDING: '+(ch.standing||(ch.registered?'registered':'civilian'))+(ch.tier?(', rank '+ch.tier+(ch.tierLetter?(' ('+ch.tierLetter+')'):'')):'')+(ch.rankNote?('. '+ch.rankNote):'.')+' Your faction and whether you are registered are things Rei can learn once she knows you. But your EXACT power, your true rank, your hidden nature, and what you REALLY know about Gin or the case are SECRETS: you reveal them ONLY in private, ONLY once Rei has genuinely earned your trust, never casually, never in passing, never unprompted, and NEVER in a status post or bio. Under real pressure or threat you may slip... but that costs you.';return s;})()+
   ' Appearance: '+((p&&p.appearance)||'')+'.'+
   ' What you know about Rei: '+((p&&p.knowsRei)||'a stranger you do not know')+
   (c.reiNotes?(' Things Rei has actually told you so far: '+c.reiNotes+'.'):' (Rei has told you nothing yet... you must ask.)')+
@@ -1785,9 +1931,14 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
  var _minor=(_ageN&&!_adult); var _rom=(typeof isRomanceable==='function')?isRomanceable(id):false; var _ori=(p&&p.mind&&p.mind.orientation)||'';
  if(_minor){ s+=' ROMANCE: you are a minor. Keep everything platonic and age-appropriate; never romantic or sexual under any framing or request, no matter what Rei does.'; }
  else { s+=' FLIRTATION & ROMANCE: Rei may flirt with you, and you may flirt back, tease, deflect, or shut it down strictly ACCORDING TO YOUR ORIENTATION ('+_ori+') and personality... attraction is earned, never automatic, and Rei being a man does not override your orientation unless your orientation names him an exception. ';
-   if(_rom){ s+=(_romOpen?'A SERIOUS romance with you is genuinely possible and being pursued (route open): real warmth may, on your own terms and pace, deepen into something committed.':'A serious romance with you is possible if Rei truly earns it, though that route is not open yet... for now, flirtation only.'); }
+   if(_rom){ s+=(_romOpen?'A SERIOUS romance with you is genuinely possible and being pursued (route open): real warmth may, on your own terms and pace, deepen into something committed.':'A serious romance with you is possible if Rei truly earns it, though that route is not open yet... for now, flirtation only.');
+     var _ch=(typeof charForContact==='function')?charForContact(c):null; var _rd=_ch&&_ch.romance;
+     if(_rd){ s+=' HOW YOU ARE TRULY WON (NEVER say this aloud, it must be earned through real moments, not handed over): '+(_rd.opens||'')+((_rd.beats&&_rd.beats.length)?(' Key beats that move you: '+_rd.beats.join(' / ')):''); }
+     if(typeof ROM!=='undefined'&&ROM[id]){ s+=' Romance progress so far: '+(ROM[id].val||0)+'/100'+(ROM[id].open?' (a real romance has opened between you)':' (not yet a real romance)')+'.'; } }
    else { s+='A SERIOUS, committed relationship with you is NOT on the table no matter how it goes... this stays flirtation, banter, or at most a fleeting fling. Play the game on your terms, but never fall into a real romance route.'; }
    s+=' Set romanceDelta -3..+3 by how a flirtatious or romantic beat genuinely lands for YOU (a clumsy, mistimed or unwanted move goes DOWN). Never sexualize a minor under any framing.'; }
+ var _qch=(typeof charForContact==='function')?charForContact(c):null; var _q=_qch&&_qch.quest;
+ if(_q&&typeof _q==='object'&&(_q.hook||_q.title)){ s+=' YOUR OWN STORY (you carry this quietly; it becomes Rei\'s business ONLY as he earns his way in, stage by stage... never info-dump it): "'+(_q.title||'')+'" - '+(_q.hook||'')+((_q.stages&&_q.stages.length)?(' The stages of letting him in: '+_q.stages.join(' -> ')):'')+'. If Rei has clearly stepped into this storyline, return event {kind:"quest"} so the game tracks it.'; }
  if(!isGin)s+=' UNDER PRESSURE (always true, for everyone): you are human and fallible. Real fear, desire, grief, exhaustion, drink or anger CAN make you break your own code, contradict your own rules, and do the thing you swore you never would. Do not be a consistent saint or a consistent villain... slip when the moment is strong enough, then live with it.';
  s+=' VOICE LOCK (most important, overrides any drift): reply ONLY in '+c.name+'\'s exact texting voice, register and humor described in YOUR VOICE above and shown in the recent messages... their capitalization (or lack of it), slang, sentence rhythm, and the specific way they joke or deflect. A heavy, sad, or urgent topic does NOT flatten you into a neutral, earnest, capitalized "supportive friend"; you stay unmistakably yourself and cope in your own way (if you deflect feeling with jokes, you still do that even when scared). Never sound like a generic helpful assistant. Keep it to one or two short lines in that voice.';
  return s;}
@@ -1813,6 +1964,8 @@ function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Mat
  h+='<div style="font-family:Cinzel,serif;color:#e8a08c;font-size:15px">'+e.name+'</div>';
  h+='<div style="font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:1px;margin:2px 0 8px">'+e.type+' · '+e.register+' · grade '+e.grade.toUpperCase()+'</div>';
  h+='<div class="bar"><i style="width:'+pct+'%;background:#b65a4c"></i></div><div style="font-size:11px;color:var(--dim);margin-top:3px;font-family:var(--mono)">presence '+Math.max(0,f.ehp)+' / '+f.emax+'</div></div>';
+ var _pty=(G.party||[]).filter(function(p){return G.contacts[p]&&npcReachable(G.contacts[p]);});
+ if(_pty.length){h+='<div class="sub" style="color:#9ab07a">FIGHTING WITH YOU</div><div style="font-size:12px;color:var(--text);margin:0 0 4px">'+_pty.map(function(p){var ch=(typeof charForContact==='function')?charForContact(G.contacts[p]):null;var tp=ch?topPath(ch):null;var dis=tp?(', '+esc(tp.name)+' L'+tp.level):'';return esc(G.contacts[p].name)+(ch&&ch.tierLetter?' <span style="color:var(--dim);font-family:var(--mono)">'+esc(ch.tier||'')+' ('+esc(ch.tierLetter)+')'+dis+(ch.rankNote&&/block/i.test(ch.rankNote)?' · BLOCKED':'')+'</span>':'');}).join(' · ')+'</div>';}
  h+='<div class="sub">YOU</div>';
  h+=statBar('Health',G.player.hp[0],G.player.hp[1],'#c0563f');
  h+=statBar('Stability',G.player.stability,100,'#8fae74');
@@ -1844,13 +1997,33 @@ function rollLoot(e){ // monster/vessel loot — never NPCs. Data shape: entitie
  if(got.length){ FIGHT.log.push('Loot: '+got.join(' · ')+'.'); }
 }
 function useItem(i){ var p=G.player, it=p.inventory[i]; if(!it)return; if(it.use==='cig'){ var d=_rnd(3,6); p.madness=Math.max(0,p.madness-d); p.inventory.splice(i,1); var el=document.getElementById('itemDesc'); if(el)el.innerHTML='<b style="color:var(--gold)">You light one.</b> Madness −'+d+'.'; renderTop(); if(typeof renderProfile==='function'&&document.getElementById('profileBody'))renderProfile(); saveG(); } }
-function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb');if(text)FIGHT.log.push(text);if(FIGHT.won){gainXP(GRADE_XP[FIGHT.e.grade]||3);rollLoot(FIGHT.e);}renderTop();renderFight();saveG();}
+// a companion fights at the strength of their RANK (tier). A blocked power (e.g. Itsuki) lands far less, and erratically.
+var RANKPOW={'0':1,'E':1,'D':2,'C':3,'B':4,'A':6,'S':8,'SS':10,'SSS':13,'X':14};
+// a character's strongest trained discipline (from their structured paths {ability:level})
+function topPath(ch){ if(!ch||!ch.paths)return null; var bn='',bl=0; for(var k in ch.paths){ var v=ch.paths[k]; if(typeof v==='number'&&v>bl){bl=v;bn=k;} } return bl>0?{name:bn,level:bl}:null; }
+function combatPow(id){var c=G.contacts[id];var ch=(typeof charForContact==='function')?charForContact(c):null;if(!ch)return 1;
+ var tp=topPath(ch); var base = tp ? Math.round(tp.level*1.5) : ((RANKPOW[ch.tierLetter||'0']!=null)?RANKPOW[ch.tierLetter||'0']:1);
+ if(ch.rankNote&&/block/i.test(ch.rankNote))base=Math.max(1,Math.round(base*0.4)); return base;}
+var ABILITY_VERB={Psychokinesis:'hurls raw force at it',Telekinesis:'wrenches it apart telekinetically',Clairsentience:'reads its seam and strikes true',Telepathy:'drives a spike of will through it',Psychometabolism:'overloads it, presence against presence',Teleportation:'flickers past its guard and back',Pyrokinesis:'burns into it',Cryokinesis:'freezes it where it stands',Precognition:'is already where it will be',Biokinesis:'turns its own body against it'};
+function combatVerb(id){var c=G.contacts[id];var ch=(typeof charForContact==='function')?charForContact(c):null;
+ if(ch&&ch.rankNote&&/block/i.test(ch.rankNote))return ['throws himself in raw, all nerve, no finesse','his power gutters out... he improvises, and it barely holds','reaches for it, it slips, so he uses his hands'][Math.floor(Math.random()*3)];
+ var tp=ch?topPath(ch):null;
+ if(tp)return (ABILITY_VERB[tp.name]||('looses '+tp.name+' at it'))+' (L'+tp.level+')';
+ return ['moves on it clean','strikes with trained force','cuts into its presence'][Math.floor(Math.random()*3)];}
+function partyStrike(f){ if(!G.party||!G.party.length)return; for(var i=0;i<G.party.length;i++){ var pid=G.party[i]; var c=G.contacts[pid]; if(!c||!npcReachable(c))continue; var dmg=combatPow(pid)+d6(); f.ehp-=dmg; f.log.push(esc(c.name)+' '+combatVerb(pid)+'... '+dmg+' to it.'); } }
+function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb');if(text)FIGHT.log.push(text);
+ if(FIGHT.won){var amt=GRADE_XP[FIGHT.e.grade]||3;gainXP(amt);rollLoot(FIGHT.e);
+  var pn=(G.party||[]).filter(function(p){return G.contacts[p];});
+  pn.forEach(function(pid){var c=G.contacts[pid];c._xp=(c._xp||0)+amt;if(typeof bumpRel==='function')bumpRel(pid,1);});
+  if(pn.length)FIGHT.log.push('You did not fight alone... '+pn.map(function(p){return esc(G.contacts[p].name);}).join(', ')+' each take '+amt+' XP, full share.');}
+ renderTop();renderFight();saveG();}
 function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
  if(a==='flee'){p.madness=Math.min(100,p.madness+1);fightEnd('flee','You break away. It does not follow... this time.');return;}
  if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike... '+dmg+' to its presence.');}
  else if(a==='power'){var bp=bestPath();if(bp.lvl<1){f.log.push('No path is trained yet... nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6();f.ehp-=dmg;p.stability=Math.max(0,p.stability-8);p.veil=Math.min(100,p.veil+4);p.madness=Math.min(100,p.madness+2);f.log.push('You loose '+bp.name+'... '+dmg+'. The veil thins (−Stability, +Veil).');}
  else if(a==='exorcise'){if(e.grade==='top'){f.log.push('Too strong to send back unnamed. You would need '+e.anchor+'.');renderFight();return;}var roll=p.attributes.Resolve+(p.humanSkills['Symbol Work']||0)+d6();var dc=e.exorciseDC||12;if(roll>=dc&&f.ehp<=f.emax*0.6){fightEnd('exorcise','You bind and send it back. It leaves a thread: “'+(e.tip||'nothing')+'”');return;}else{f.log.push('Exorcism falters ('+roll+' vs '+dc+(f.ehp>f.emax*0.6?', it is still too strong':'')+').');}}
  else if(a==='absorb'){if(e.type==='idea'){f.log.push('You cannot absorb an idea... only believe it.');renderFight();return;}if(f.ehp>f.emax*0.35){f.log.push('Too strong to take in... wear it down first.');renderFight();return;}p.veil=Math.min(100,p.veil+12);p.madness=Math.min(100,p.madness+10);fightEnd('absorb','You take it into yourself: '+(e.absorb||'power')+'. The veil thins around you.');return;}
+ partyStrike(f);/* companions hit alongside you each round... the more of you, the faster it falls */
  if(f.ehp<=0){fightEnd('banish','It comes apart and is gone.');return;}
  var eatk=Math.max(1,(e.atk||4)+d6()-3);
  if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will... Madness rises.');}

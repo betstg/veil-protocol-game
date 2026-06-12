@@ -8,7 +8,8 @@
   "temperament": "Aloof, precise, decides if it respects you within a week.",
   "trained": "Clairsentience, journeyman",
   "price": {
-   "money": 90000
+   "money": 90000,
+   "tickets": 18
   },
   "blurb": "A white temple-bred cat trained by a Kita medium who passed last winter. Vacant, waiting for hands it judges steady. Reads a room better than most operatives."
  },
@@ -21,7 +22,8 @@
   "temperament": "Patient, heavy, unbothered by dread.",
   "trained": "Ritual-support, journeyman",
   "price": {
-   "money": 85000
+   "money": 85000,
+   "tickets": 16
   },
   "blurb": "A black cat the Grid used as a living ward-anchor; calm enough to sit a circle while the air goes wrong around it."
  },
@@ -34,7 +36,8 @@
   "temperament": "Loyal fast, fearless, needs work to stay sane.",
   "trained": "Ward-hound, adept",
   "price": {
-   "money": 160000
+   "money": 160000,
+   "tickets": 34
   },
   "blurb": "A broad working dog trained to stand beside an exorcist. Won't enter a thin spot until told, then goes in first. Vacant since its handler retired hurt."
  },
@@ -47,7 +50,8 @@
   "temperament": "Driven, affectionate, tireless on a trail.",
   "trained": "Tracker, journeyman",
   "price": {
-   "money": 110000
+   "money": 110000,
+   "tickets": 22
   },
   "blurb": "A scent-and-residue tracker that can follow a thing the instruments lost. Trained on cold cases; finds the trail Gin's archive only hints at."
  },
@@ -60,7 +64,8 @@
   "temperament": "Vain, clever, demands to be consulted.",
   "trained": "Diviner, adept",
   "price": {
-   "money": 210000
+   "money": 210000,
+   "tickets": 48
   },
   "blurb": "A divination raven raised by a shrine line. One honest augury a day, and eyes over any ward in the city. The most expensive vacancy on the list, and worth it."
  },
@@ -73,7 +78,8 @@
   "temperament": "Solemn, watchful, kind in its corvid way.",
   "trained": "Psychopomp, journeyman",
   "price": {
-   "money": 120000
+   "money": 120000,
+   "tickets": 24
   },
   "blurb": "A crow trained beside a mudang to read and settle the dead. Where it lands and will not leave, someone unquiet is waiting."
  },
@@ -86,7 +92,8 @@
   "temperament": "Slow, unsettling, utterly reliable.",
   "trained": "Veil-sense, adept",
   "price": {
-   "money": 180000
+   "money": 180000,
+   "tickets": 40
   },
   "blurb": "A gentle, non-venomous serpent trained to feel the veil the way others feel heat. Restless coils mean the membrane is thin; gone still means safe. Vacant from a Singularity-rank estate."
  },
@@ -99,7 +106,8 @@
   "temperament": "Quick, brave, bonds hard to one person.",
   "trained": "Anchor-finder, journeyman",
   "price": {
-   "money": 80000
+   "money": 80000,
+   "tickets": 15
   },
   "blurb": "A clever rat trained to find the thing a haunting is tied to — the scrap, the name, the object. The cheapest vacancy, and quietly one of the most useful in a fight you want to end fast."
  },
@@ -112,7 +120,8 @@
   "temperament": "Placid, cool to the touch, oddly comforting.",
   "trained": "Purifier, journeyman",
   "price": {
-   "money": 95000
+   "money": 95000,
+   "tickets": 20
   },
   "blurb": "A pond-frog trained in a Shingon water rite. Carry it and the Madness presses a little less; set it by tainted water and it cleanses what it can. Vacant from a temple that closed."
  },
@@ -125,7 +134,8 @@
   "temperament": "Regal, fussy, devoted to its charges.",
   "trained": "Charm-warden, adept",
   "price": {
-   "money": 170000
+   "money": 170000,
+   "tickets": 36
   },
   "blurb": "A shop-bred cat trained by Sone Kimiko's supplier to keep warded charms alive. The difference between a charm that protects and a pretty paper that doesn't. Vacant, and particular about its buyer."
  }
