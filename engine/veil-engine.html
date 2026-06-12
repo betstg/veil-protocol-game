@@ -924,7 +924,11 @@ function travel(id,mins,mode){const p=G.places.find(x=>x.id===id);if(!p)return;
  setTimeout(function(){var b=document.getElementById('travbar');if(b)b.style.width='100%';},40);
  var start=Date.now();var iv=setInterval(function(){var f=Math.min(1,(Date.now()-start)/dur);var rem=Math.ceil(mins*(1-f));var t=document.getElementById('travcount');if(t)t.textContent=rem>0?(rem+' min away'):'arriving…';if(f>=1)clearInterval(iv);},120);
  setTimeout(function(){clearInterval(iv);advance(mins);G.player.at=p.name;G.player.atId=p.id;G._arr={id:id,mode:mode,mins:mins};
-  for(var _cid in G.contacts){var _c=G.contacts[_cid];if(_c._withYou&&(!_c._here||_c._here.placeId!==p.id)){_c._withYou=false;}} // leaving ends a visit... whoever was with you isn't anymore
+  var _np=(G.day*1440+G.min);
+  for(var _cid in G.contacts){var _c=G.contacts[_cid];var _inParty=(G.party&&G.party.indexOf(_cid)>=0);
+   if(_inParty){ _c._withYou=true; _c._here={placeId:p.id,until:_np+600}; }   // party comes with you
+   else if(_c._withYou){ _c._withYou=false; }                                  // a one-off visitor is left behind
+  }
   placeArrival(id);},dur+90);}
 function ambience(p){var H=Math.floor((G.min%1440)/60);var light;
  if(H<5)light='The hour still has no name... the street is sodium-lit and empty, the city asleep around you.';
@@ -1078,28 +1082,57 @@ function applyNpcEvent(id,ev,c){
 /* ---- in-person conversation: GM-narrated, on the MAIN screen (not the phone) ---- */
 function _curPlace(){ return (typeof currentPlaceId==='function')?currentPlaceId():null; }
 function _personActive(id){ return _chan==='person' && window._personChat===id && !!document.getElementById('readBody'); }
+function partyHere(notId){ var out=[]; if(!G.party)G.party=[]; G.party.forEach(function(pid){ if(pid!==notId && G.contacts[pid]) out.push(pid); }); return out; }
+function joinParty(id){ if(!G.party)G.party=[]; if(G.party.indexOf(id)<0)G.party.push(id); var c=G.contacts[id]; if(c)c._withYou=true; if(typeof gameToast==='function')gameToast('✦ '+(c?c.name:'They')+' is with you now... they come where you go.'); if(typeof saveG==='function')saveG(); personScene(id); }
+function leaveParty(id){ if(!G.party)G.party=[]; G.party=G.party.filter(function(x){return x!==id;}); if(typeof gameToast==='function')gameToast((G.contacts[id]?G.contacts[id].name:'They')+' will wait here.'); if(typeof saveG==='function')saveG(); personScene(id); }
 function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat=id; _chan='person'; closeV();
  var pid=_curPlace(); var pl=pid&&(typeof placeById==='function'?placeById(pid):null); var where=pl?(' · '+esc(pl.name)):'';
+ var party=partyHere(id);
  var from=(typeof c._personFrom==='number')?c._personFrom:c.history.length; // only the in-person beats, NOT the earlier phone texts
  var log='';
  (c.history||[]).slice(from).forEach(function(m){
   if(m[0]==='sys'){ log+='<div style="text-align:center;font-size:11px;color:var(--dim);font-style:italic;margin:7px 0">'+m[1]+'</div>'; }
   else if(m[0]==='me'){ log+='<p style="color:var(--gold);margin:7px 0"><b>You</b> &mdash; '+m[1]+'</p>'; }
-  else { log+='<p style="margin:7px 0">'+m[1]+'</p>'; }
+  else { log+='<p style="margin:7px 0;color:var(--text)">'+m[1]+'</p>'; }
  });
- if(!log) log='<p style="color:var(--dim);font-style:italic;margin:7px 0">You are face to face with '+esc(c.name)+' now... the screen is in your pocket; this is real, and close.</p>';
+ if(!log) log='<p style="color:var(--dim);font-style:italic;margin:7px 0">You are face to face with '+esc(c.name)+' now... the screen is in your pocket; this is real, and close. Do something, or say it in &quot;quotes&quot;.</p>';
  var rb=document.getElementById('readBody');
- rb.innerHTML='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">Face to face'+where+' · '+fmt(G.min)+'</div></div>'+log;
+ var whoLine=party.length?('<div class="sub" style="color:#9ab07a">With you: '+party.map(function(p2){return esc(G.contacts[p2].name);}).join(', ')+'</div>'):'';
+ rb.innerHTML='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">Face to face'+where+' · '+fmt(G.min)+'</div>'+whoLine+'</div>'+log;
  linkifyNames(rb);
  var cw=document.getElementById('readChoices');
- cw.innerHTML='<div style="display:flex;gap:6px;width:100%;margin-bottom:7px"><input id="pci" placeholder="Say or do something…" style="flex:1;background:#15110a;border:1px solid var(--bdr);border-radius:8px;padding:9px 11px;color:var(--text);font-size:14px" onkeydown="if(event.key===\'Enter\')sayPerson(\''+id+'\')"><button class="choice" style="margin:0;width:auto" onclick="sayPerson(\''+id+'\')">Say ›</button></div><button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away</button>';
+ var h='<div style="display:flex;gap:6px;width:100%;margin-bottom:7px"><input id="pci" placeholder="Do something, or say it in &quot;quotes&quot;…" style="flex:1;background:#15110a;border:1px solid var(--bdr);border-radius:8px;padding:9px 11px;color:var(--text);font-size:16px" onkeydown="if(event.key===\'Enter\')personAct(\''+id+'\')"><button class="choice" style="margin:0;width:auto" onclick="personAct(\''+id+'\')">Do ›</button></div>';
+ (G._personOpts||[]).forEach(function(o,i){ h+='<button class="choice" style="margin:0 0 6px;text-align:left" onclick="personOpt(\''+id+'\','+i+')">'+esc(o)+'</button>'; });
+ if(G.party&&G.party.indexOf(id)>=0){ h+='<button class="choice" style="margin:8px 0 6px" onclick="leaveParty(\''+id+'\')">'+esc(c.name)+' is with you ✓ &mdash; ask them to wait here</button>'; }
+ else { h+='<button class="choice" style="margin:8px 0 6px" onclick="joinParty(\''+id+'\')">Ask '+esc(c.name)+' to come with you</button>'; }
+ h+='<button class="choice" style="margin:0 0 6px" onclick="personGo(\''+id+'\')">Leave together / go somewhere ›</button>';
+ h+='<button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away (stay here)</button>';
+ cw.innerHTML=h;
  rb.scrollTop=rb.scrollHeight;
 }
-function sayPerson(id){ var inp=document.getElementById('pci'); if(!inp)return; var t=inp.value.trim(); if(!t)return; var c=G.contacts[id]; c.history.push(['me',t,stampNow()]); inp.value=''; personScene(id);
- var rb=document.getElementById('readBody'); if(rb){ var tip=document.createElement('p'); tip.style.cssText='color:var(--dim);font-style:italic;margin:7px 0'; tip.textContent=c.name+' takes you in…'; rb.appendChild(tip); rb.scrollTop=rb.scrollHeight; }
- if(_npcTimers[id])clearTimeout(_npcTimers[id]); _npcTimers[id]=setTimeout(function(){npcReply(id);},1200);
+function personOpt(id,i){ var x=(G._personOpts||[])[i]; if(x==null)return; var inp=document.getElementById('pci'); if(inp)inp.value=x; personAct(id); }
+function personGo(id){ window._personChat=null; _chan='line'; G._personOpts=[]; if(typeof openV==='function')openV('phone'); if(typeof phMap==='function')phMap(); }
+function personAct(id){ var inp=document.getElementById('pci'); if(!inp)return; var t=inp.value.trim(); if(!t)return; var c=G.contacts[id]; if(!c)return;
+ c.history.push(['me',t,stampNow()]); inp.value=''; personScene(id);
+ var rb=document.getElementById('readBody'); if(rb){ var tip=document.createElement('p'); tip.style.cssText='color:var(--dim);font-style:italic;margin:7px 0'; tip.textContent='…'; rb.appendChild(tip); rb.scrollTop=rb.scrollHeight; }
+ var present=[id].concat(partyHere(id));
+ var who=present.map(function(p2){var cc=G.contacts[p2];var p=(typeof personaFor==='function')?personaFor(cc):null;return cc.name+((p&&p.voice)?(' [voice: '+p.voice+']'):'');}).join('; ');
+ var pid=_curPlace(); var pl=pid&&(typeof placeById==='function')?placeById(pid):null; var where=pl?pl.name:"Rei's place";
+ var recent=(c.history||[]).slice(-10).map(function(m){return (m[0]==='me'?'Rei':(m[0]==='sys'?'(beat)':G.contacts[id].name))+': '+String(m[1]).replace(/<[^>]+>/g,'');}).join(' | ');
+ var ctx='IN-PERSON SCENE at '+where+'. Day '+G.day+' '+fmt(G.min)+'. Rei is physically present, face to face, with: '+who+'. This is NOT a phone chat and you are NOT one character... you are THE WARDEN narrating a live scene. In Rei\'s input, text inside double quotes is what Rei SAYS ALOUD; everything else is Rei\'s physical ACTION or intent. NEVER answer an action as if it were a text message. Narrate the result in second person; voice each present companion in their own voice when addressed or when they would react; show the room, a glance, a gesture; 2 to 5 sentences. Then offer 2 to 4 short next-step options. If Rei clearly intends to go somewhere, call someone, or leave, return the world action. Recent beats: '+recent+(typeof knowledgeCtx==='function'?knowledgeCtx():'');
+ fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'gm',prompt:t,context:ctx})})
+  .then(function(r){return r.json();})
+  .then(function(j){AI_OK=true; var narr=(j&&j.narration)?j.narration:((j&&j.text)?j.text:''); if(!narr&&!(j&&j.action&&j.action.kind))narr='(the moment holds... try again.)';
+   if(narr)c.history.push(['gm',esc(narr)]);
+   if(j&&j.discovered&&String(j.discovered).trim()&&typeof addDiscovery==='function')addDiscovery(String(j.discovered).trim(),'scene');
+   G._personOpts=(j&&Array.isArray(j.options))?j.options.slice(0,4):[];
+   personScene(id);
+   if(j&&j.action&&j.action.kind&&typeof gmAct==='function'){ gmAct(j.action, document.getElementById('readBody')); }
+   if(typeof saveG==='function')saveG();
+  })
+  .catch(function(){AI_OK=false; c.history.push(['gm','(the Warden is offline... start the local server to play the scene live.)']); G._personOpts=[]; personScene(id); });
 }
-function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='line'; if(pid&&typeof placeArrival==='function'){ openV('phone'); placeArrival(pid); } else { renderScene(); } }
+function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='line'; G._personOpts=[]; if(pid&&typeof placeArrival==='function'){ openV('phone'); placeArrival(pid); } else { renderScene(); } }
 function _renderConvo(id){ if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { gameToast('✉ '+G.contacts[id].name+' replied'); } }
 function npcReply(id){const c=G.contacts[id];
  var msgs=[];for(var i=c.history.length-1;i>=0;i--){if(c.history[i][0]==='sys')continue;if(c.history[i][0]==='me')msgs.unshift(c.history[i][1].replace(/<[^>]+>/g,''));else break;}
