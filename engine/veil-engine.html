@@ -900,18 +900,19 @@ let SELPATH=null;
 const LBL={Clairsentience:'Clair',Telepathy:'Telep',Telekinesis:'Telek',Psychometabolism:'Meta',Psychokinesis:'P.Kin',Teleportation:'Port'};
 function renderAbilities(){
  const cx=160,cy=150,R=105;
- let nodes='';
+ let lines='', nodes='';
  PATHS.forEach((p,i)=>{
   const a=(-90+i*60)*Math.PI/180; const x=cx+R*Math.cos(a), y=cy+R*Math.sin(a);
   const lv=G.player.paths[p].lvl; const on=lv>0;
+  lines+='<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="#3a2f1c" stroke-width="1.5"/>';
   nodes+='<g style="cursor:pointer" onclick="selectPath(\''+p+'\')">'+
-   '<circle cx="'+x+'" cy="'+y+'" r="26" fill="'+(SELPATH===p?'#2a2010':'#15110c')+'" stroke="'+(on?'#8fae74':'#3a2f22')+'" stroke-width="'+(SELPATH===p?3:1.5)+'"/>'+
+   '<circle cx="'+x+'" cy="'+y+'" r="26" fill="'+(SELPATH===p?'#2a2010':'#0c0a08')+'" stroke="'+(on?'#8fae74':'#3a2f22')+'" stroke-width="'+(SELPATH===p?3:1.5)+'"/>'+
    '<text x="'+x+'" y="'+(y-2)+'" text-anchor="middle" font-family="Cinzel,serif" font-size="9" fill="'+(on?'#8fae74':'#8a7d68')+'">'+LBL[p]+'</text>'+
    '<text x="'+x+'" y="'+(y+11)+'" text-anchor="middle" font-family="monospace" font-size="9" fill="#C9A84C">'+(lv?'L'+lv:'...')+'</text></g>';
-  nodes+='<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="#2a2214" stroke-width="1"/>';
  });
  const svg='<div class="wheel-wrap"><svg viewBox="0 0 320 300" style="width:320px;max-width:100%">'+
-  '<circle cx="'+cx+'" cy="'+cy+'" r="34" fill="#1a140c" stroke="#C9A84C"/><text x="'+cx+'" y="'+(cy-2)+'" text-anchor="middle" font-family="Cinzel,serif" font-size="10" fill="#C9A84C">THE</text><text x="'+cx+'" y="'+(cy+11)+'" text-anchor="middle" font-family="Cinzel,serif" font-size="10" fill="#C9A84C">WHEEL</text>'+
+  lines+/* lines drawn first, so they pass BEHIND every circle */
+  '<circle cx="'+cx+'" cy="'+cy+'" r="34" fill="#0c0a08" stroke="#C9A84C"/><text x="'+cx+'" y="'+(cy+4)+'" text-anchor="middle" font-family="Cinzel,serif" font-size="13" letter-spacing="1.5" fill="#C9A84C">AXIS</text>'+
   nodes+'</svg>'+
   '<div style="font-family:monospace;font-size:11px;color:var(--dim);margin:4px 0">XP available: <b style="color:var(--gold)">'+G.xp+'</b> · click a path</div>'+
   '<div class="pathpanel" id="pathPanel">Click a path on the wheel to see its skills.</div></div>';
@@ -1027,8 +1028,11 @@ function phNotes(){ if(!G._notesTab)G._notesTab='auto'; vpInitBlocks(); var tab=
  h+='<div style="display:flex;gap:6px;padding:2px 12px 8px">'+['personal','auto','archived'].map(function(t){var on=(t===tab);return '<button onclick="setNotesTab(\''+t+'\')" style="flex:1;font-size:11px;padding:6px 4px;border-radius:8px;border:1px solid var(--ph-line);background:'+(on?'var(--ph-accent)':'var(--ph-card)')+';color:'+(on?'#063a1c':'var(--ph-text)')+';font-weight:'+(on?'700':'400')+';cursor:pointer">'+({personal:'Personal',auto:'Auto-Notes',archived:'Archived'}[t])+'</button>';}).join('')+'</div>';
  if(tab==='personal'){
   h+='<div style="padding:0 12px"><div style="display:flex;gap:6px;margin-bottom:8px"><input id="pn" placeholder="Write a note…" style="flex:1;background:var(--ph-card);border:1px solid var(--ph-line);border-radius:8px;padding:8px;color:var(--ph-text);font-size:16px" onkeydown="if(event.key===\'Enter\')addPersonalNote()"><button class="choice" style="margin:0;width:auto" onclick="addPersonalNote()">Add</button></div>';
-  (G.notes||[]).forEach(function(n){h+='<div style="background:var(--ph-card);border:1px solid var(--ph-line);border-radius:8px;padding:8px 10px;margin:6px 0;color:var(--ph-text);font-size:13px">'+esc(n.txt)+'<div style="font-size:10px;color:var(--ph-dim);margin-top:3px">Day '+n.day+' · '+n.time+'</div></div>';});
-  if(!(G.notes||[]).length)h+='<p style="color:var(--ph-dim);font-size:12px">No personal notes yet.</p>';
+  var _pn=(G.notes||[]).filter(function(n){return !n.arch;});
+  _pn.forEach(function(n){if(!n.id)n.id='n'+(n.day||0)+'_'+Math.random().toString(36).slice(2,7);
+   var bs='font-size:10px;border-radius:6px;padding:2px 7px;cursor:pointer;background:var(--ph-card);border:1px solid var(--ph-line)';
+   h+='<div style="background:var(--ph-card);border:1px solid var(--ph-line);border-radius:8px;padding:8px 10px;margin:6px 0;color:var(--ph-text);font-size:13px">'+esc(n.txt)+'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:5px"><span style="font-size:10px;color:var(--ph-dim)">Day '+n.day+' · '+n.time+'</span><span style="display:flex;gap:5px"><button onclick="editPersonalNote(\''+n.id+'\')" style="'+bs+';color:var(--ph-text)">edit</button><button onclick="archivePersonalNote(\''+n.id+'\')" style="'+bs+';color:var(--ph-dim)">archive</button><button onclick="deletePersonalNote(\''+n.id+'\')" style="'+bs+';border-color:#6e2b20;color:#c0563f">delete</button></span></div></div>';});
+  if(!_pn.length)h+='<p style="color:var(--ph-dim);font-size:12px">No personal notes yet.</p>';
   h+='</div>';
  } else if(tab==='auto'){
   var used=vpCtxUsed(),pct=Math.min(100,Math.round(used/VPCTXMAX*100));
@@ -1039,8 +1043,11 @@ function phNotes(){ if(!G._notesTab)G._notesTab='auto'; vpInitBlocks(); var tab=
   h+='<div style="padding:0 12px">'; list.forEach(function(b){h+=vpBlockCard(b);}); if(!list.length)h+='<p style="color:var(--ph-dim);font-size:12px">No blocks here yet... they fill in as you play.</p>'; h+='</div>';
  } else {
   var arc=(G.blocks||[]).filter(function(b){return !b.active;}).sort(function(a,b){return (b.archivedDay||0)-(a.archivedDay||0);});
-  h+='<div style="padding:0 12px"><p style="color:var(--ph-dim);font-size:11px;margin:2px 0 8px">Retired blocks the AI no longer reads. Restore one to make it active again.</p>';
-  arc.forEach(function(b){h+=vpBlockCard(b,true);}); if(!arc.length)h+='<p style="color:var(--ph-dim);font-size:12px">Nothing archived yet.</p>'; h+='</div>';
+  var _pna=(G.notes||[]).filter(function(n){return n.arch;});
+  h+='<div style="padding:0 12px"><p style="color:var(--ph-dim);font-size:11px;margin:2px 0 8px">Retired notes and blocks. Restore to bring one back, or delete it for good.</p>';
+  _pna.forEach(function(n){if(!n.id)n.id='n'+(n.day||0)+'_'+Math.random().toString(36).slice(2,7);var bs='font-size:10px;border-radius:6px;padding:2px 7px;cursor:pointer;background:var(--ph-card);border:1px solid var(--ph-line)';
+   h+='<div style="background:var(--ph-card);border:1px solid var(--ph-line);border-radius:8px;padding:8px 10px;margin:6px 0;color:var(--ph-dim);font-size:13px">'+esc(n.txt)+'<div style="margin-top:5px;text-align:right;display:flex;gap:5px;justify-content:flex-end"><button onclick="restorePersonalNote(\''+n.id+'\')" style="'+bs+';color:var(--ph-text)">restore</button><button onclick="deletePersonalNote(\''+n.id+'\')" style="'+bs+';border-color:#6e2b20;color:#c0563f">delete</button></div></div>';});
+  arc.forEach(function(b){h+=vpBlockCard(b,true);}); if(!arc.length&&!_pna.length)h+='<p style="color:var(--ph-dim);font-size:12px">Nothing archived yet.</p>'; h+='</div>';
  }
  h+='</div>';ph(h);
 }
@@ -1052,7 +1059,12 @@ function vpBlockCard(b,archived){ var badge=b.src==='auto'?'AI':(b.src==='live'?
 }
 function setNotesTab(t){G._notesTab=t;phNotes();}
 function setNotesFilter(c){G._notesFilter=c;phNotes();}
-function addPersonalNote(){var i=document.getElementById('pn');if(!i)return;var t=i.value.trim();if(!t)return;if(!G.notes)G.notes=[];G.notes.unshift({txt:t,day:G.day,time:fmt(G.min)});if(typeof vpAddBlock==='function')vpAddBlock('misc',t.slice(0,42),t,{prio:5,src:'you'});if(typeof saveG==='function')saveG();i.value='';phNotes();}
+function addPersonalNote(){var i=document.getElementById('pn');if(!i)return;var t=i.value.trim();if(!t)return;if(!G.notes)G.notes=[];G.notes.unshift({id:'n'+Date.now()+'_'+Math.floor(Math.random()*1000),txt:t,day:G.day,time:fmt(G.min),arch:false});if(typeof vpAddBlock==='function')vpAddBlock('misc',t.slice(0,42),t,{prio:5,src:'you'});if(typeof saveG==='function')saveG();i.value='';phNotes();}
+function _noteById(id){return (G.notes||[]).filter(function(n){return n.id===id;})[0];}
+function editPersonalNote(id){var n=_noteById(id);if(!n)return;var v=(typeof window!=='undefined'&&window.prompt)?window.prompt('Edit note:',n.txt):null;if(v==null)return;v=String(v).trim();if(!v){deletePersonalNote(id);return;}n.txt=v;if(typeof saveG==='function')saveG();phNotes();}
+function archivePersonalNote(id){var n=_noteById(id);if(!n)return;n.arch=true;if(typeof gameToast==='function')gameToast('Note archived.');if(typeof saveG==='function')saveG();phNotes();}
+function restorePersonalNote(id){var n=_noteById(id);if(!n)return;n.arch=false;if(typeof saveG==='function')saveG();phNotes();}
+function deletePersonalNote(id){var n=_noteById(id);if(!n)return;if(typeof window!=='undefined'&&window.confirm&&!window.confirm('Delete this note for good?'))return;G.notes=(G.notes||[]).filter(function(x){return x.id!==id;});if(typeof saveG==='function')saveG();phNotes();}
 function vpArchiveById(id){var b=(G.blocks||[]).filter(function(x){return x.id===id;})[0];if(b){b.active=false;b.archivedDay=G.day;if(typeof saveG==='function')saveG();}phNotes();}
 function renderBook(){if(!G.flags.hasBook){document.getElementById('bookBody').innerHTML='<p style="color:var(--dim);font-style:italic">You don\'t have the book yet.</p>';return;}document.getElementById('bookBody').innerHTML='<p class="eyebrow">Gin\'s field compendium</p><p style="font-size:14px">The thick archive you carry everywhere. Open it to read the whole thing... his lore, his cases, his cosmology.</p><div style="margin:10px 0"><button class="btn" onclick="spoilerBook()">Open Gin\'s archive... the Lore Book ↗</button></div><div class="sub">THE BACK PAGES... CONTACTS</div><div class="row"><span class="k">Tanizaki</span><span>Grid. "If you are reading this, go to him."</span></div><div class="row"><span class="k">Okada</span><span>CVD. Careful. Honest.</span></div><div class="row"><span class="k">... (a number, no name)</span><span>circled twice</span></div>';}
 
