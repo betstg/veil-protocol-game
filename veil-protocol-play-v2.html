@@ -1759,6 +1759,8 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  }
  else { h+='<button class="choice" style="margin:8px 0 6px" onclick="joinParty(\''+id+'\')">Ask '+esc(c.name)+' to come with you</button>'; }
  h+='<button class="choice" style="margin:0 0 6px" onclick="personGo(\''+id+'\')">Leave together / go somewhere ›</button>';
+ if((G.flags&&G.flags.adult)&&typeof isRomanceable==='function'&&isRomanceable(id)&&typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open&&(((charForContact(c)||{}).romance||{}).intimate||'').trim()){
+   h+='<button class="choice" style="margin:0 0 6px;color:#c98aa0;border-color:#6e2b3a" onclick="intimateScene(\''+id+'\')">Take it further ›</button>'; }
  h+='<button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away (stay here)</button>';
  cw.innerHTML=h;
  rb.scrollTop=rb.scrollHeight;
@@ -2016,6 +2018,18 @@ function setRelVal(id,v){v=Math.max(-100,Math.min(100,Math.round(v)));if(RELCFG[
 // ---- romance safety: opt-in via the existing ROM/openRomance system; never minors ----
 function personaAge(id){var c=G.contacts[id];var p=c&&personaFor(c);var a=(p&&p.age)?parseInt((String(p.age).match(/\d+/)||[0])[0],10):0;return a;}
 function isMinor(id){var a=personaAge(id);return a>0&&a<18;}
+// displays an author-written intimate scene from a character's romance.intimate field. 18+ only; minors blocked by isRomanceable.
+function intimateScene(id){ var c=G.contacts[id]; if(!c)return;
+ if(!(G.flags&&G.flags.adult))return;
+ if(typeof isRomanceable==='function'&&!isRomanceable(id))return;
+ if(!(typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open))return;
+ var sc=(((charForContact(c)||{}).romance)||{}).intimate; if(!sc||!String(sc).trim())return;
+ _chan='person'; var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
+ rb.innerHTML='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">the two of you &middot; '+fmt(G.min)+'</div></div><p style="line-height:1.75;white-space:pre-wrap">'+esc(String(sc))+'</p>';
+ if(typeof linkifyNames==='function')linkifyNames(rb);
+ var cw=document.getElementById('readChoices'); if(cw){cw.innerHTML='';var b=document.createElement('button');b.className='choice';b.style.margin='0';b.innerHTML='↩ After';b.onclick=function(){personScene(id);};cw.appendChild(b);}
+ rb.scrollTop=0;
+}
 function isRomanceable(id){var c=G.contacts[id];if(!c)return false;var p=personaFor(c);var ch=(typeof charForContact==='function')?charForContact(c):null;var rom=(p&&p.romanceable)||(ch&&ch.romanceable)||c.romanceable;return !!rom && !isMinor(id);}
 function romanceOpen(id){return !!(typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open)&&!isMinor(id);}
 function bumpRel(id,d){if(!d)return 0;var b=relValOf(id);setRelVal(id,b+d);return relValOf(id)-b;}

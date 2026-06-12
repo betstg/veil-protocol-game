@@ -135,7 +135,8 @@
     "noble": "Mizuki lets one true thing exist outside the machine, and protects Rei for real.",
     "dark": "Rei becomes another managed asset she happens to sleep with.",
     "tragic": "Loving Rei makes her choose between him and the cover-up she has given her life to."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -850,7 +851,8 @@
     "noble": "They grow up alongside each other; she becomes a partner, not a follower.",
     "dark": "Rei lets her adoration carry the relationship and never meets her as an equal.",
     "tragic": "Her loyalty to Rei puts her in front of something a second-year can't survive."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -1007,7 +1009,8 @@
     "noble": "He learns to be surprised, and stops living one half-second ahead of his own life.",
     "dark": "Rei uses the Tower bloodline and the telepathy, and confirms every cynicism Ryusei ever held.",
     "tragic": "The Tower wants its son back, and the one person he couldn't read becomes the leverage against him."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -1194,7 +1197,8 @@
     "noble": "Noa grieves Gin and chooses Rei cleanly, two true things instead of one substituting the other.",
     "dark": "Rei lets her see Gin in him and takes the love meant for a dead man.",
     "tragic": "Saving Gin and loving Noa pull opposite ways, and she cannot have both intact."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -1356,7 +1360,8 @@
     "noble": "He learns to be with someone, not just study them, and the loneliness finally lifts.",
     "dark": "Rei becomes the most interesting case he ever worked, and never quite a person to him.",
     "tragic": "The file was always pointing somewhere fatal, and loving Rei means following it to the end."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -1508,7 +1513,8 @@
     "noble": "Sena chooses her own want over the family's strategy, and stops being only an instrument.",
     "dark": "Rei plays the assessment and weaponises the one preference she ever let herself have.",
     "tragic": "The Tower notices the daughter has a heart, and a heart is the easiest thing to use against her."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -1666,7 +1672,8 @@
     "noble": "Moriya finds the line where principle serves a person, and protects Rei without breaking himself.",
     "dark": "He bends every process for Rei and becomes the corruption he used to hunt.",
     "tragic": "The institution forces him to choose, and integrity and love can't both survive the choice."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -1924,7 +1931,8 @@
     "noble": "Rei loves both and helps them hold the seam — a partnership that models survival for Gin.",
     "dark": "Rei lets Ren’s pull do the work; easy, total, and quietly erasing Usami.",
     "tragic": "The contract fails mid-relationship and Rei must choose which of the two to try to save."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -2032,6 +2040,9 @@
    "goal": "What they want: To belong to whatever holds it",
    "stake": "Ren will answer what others won’t — about Gin, the registers, and Rei himself — if Rei lets it close.",
    "consequence": "The single best intelligence source on the metaphysics of the plot, at the standing risk of being known all the way down."
+  },
+  "romance": {
+   "intimate": ""
   },
   "entity": true,
   "tier": "Adept",
@@ -2195,7 +2206,8 @@
     "noble": "Okada's loyalty matures from Gin's instruction into her own freely-given love.",
     "dark": "Rei leans on the promise she made Gin and never has to earn her himself.",
     "tragic": "What she owes Gin and what she feels for Rei diverge when Gin's fate is decided."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -2551,7 +2563,8 @@
     "noble": "Shimizu lets the line down for one person and discovers she survives it.",
     "dark": "Rei takes the trust meant for Gin and gives nothing of his own back.",
     "tragic": "Holding the line for the exorcism and opening to Rei demand opposite things of her at the worst moment."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -2875,7 +2888,8 @@
     "noble": "Tendo stops outrunning himself and stands with Rei as what he actually is.",
     "dark": "Rei uses the family network and the recognition, and lets Tendo stay a charming stranger to himself.",
     "tragic": "When both anomalies become visible at once, the network that shielded him is the leash that pulls him away."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -3079,7 +3093,8 @@
     "noble": "Two nineteen-year-olds choose each other against worlds built to isolate them.",
     "dark": "Rei mines her Grid and her rank and proves every reason she had not to trust.",
     "tragic": "Loving a registered intern is the exposure a free Arbiter cannot survive."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -3370,7 +3385,8 @@
     "noble": "Itsuki chooses Rei over the Kuroda silence and becomes a witness who finally tells the truth.",
     "dark": "Rei uses the flirtation to work the Kuroda family and hollows out the one honest thing Itsuki offered.",
     "tragic": "The family forces a side; loving Rei is what gets Itsuki noticed, and noticed is not safe."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -3551,7 +3567,8 @@
     "noble": "Kurosawa lets the kindness surface and stops working alone among corpses.",
     "dark": "Rei uses his gift to read Gin and never sees the man behind the diagnosis.",
     "tragic": "What he reads in Gin's body is also what he fears for Rei, and loving him means watching it come."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -3902,7 +3919,8 @@
     "noble": "Inoue is needed as herself and rejoins the human scale she'd left.",
     "dark": "Rei takes the Null Space and confirms her belief that the rank is all anyone wants.",
     "tragic": "The case that finally clears her threshold is the one that takes everything to win."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Singularity",
   "tierLetter": "SSS",
@@ -4070,7 +4088,8 @@
     "noble": "Tanaka learns to lean, and the reliable man finally gets held up.",
     "dark": "Rei uses the steady support and the fact, and never asks what Tanaka needs.",
     "tragic": "He steadies Rei through the one operation that he himself doesn't walk out of."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -4244,7 +4263,8 @@
     "noble": "Majima lets Rei past the wall and stops carrying it all alone.",
     "dark": "Rei buys the muscle and never earns the man, and the wall stays up for good reason.",
     "tragic": "The life he kept his daughter from reaches the one person he let inside it."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -4396,7 +4416,8 @@
     "noble": "Uehara is loved as himself, not his decline, and the last years are not lonely ones.",
     "dark": "Rei takes the file and lets a dying man feel used at the end.",
     "tragic": "The decline wins on its own schedule, and loving him is loving someone already leaving."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -4558,7 +4579,8 @@
     "noble": "Two solitary investigators become genuine partners, in the work and out of it.",
     "dark": "Rei merges her years of work into his and leaves her alone again, used.",
     "tragic": "The combined investigation is right, and being right about this demon is what gets one of them killed."
-   }
+   },
+   "intimate": ""
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -4722,7 +4744,8 @@
     "noble": "Kaneda lets Rei past the counter to the person who's spent years listening, never heard.",
     "dark": "Rei works the honest table for what it gives and gives nothing true back.",
     "tragic": "What Rei brings to his door is the danger Kaneda's quiet awareness always feared."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -6040,7 +6063,8 @@
     "noble": "Wada gets out, and the one decent thing becomes a whole decent life.",
     "dark": "Rei spends his loyalty like the family always did, and leaves him in the wall.",
     "tragic": "The risk he takes for Rei is the one the family finally notices."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -6190,7 +6214,8 @@
     "noble": "Itō gets out and learns, slowly, that the kindness was real.",
     "dark": "Rei works him like every adult before, and the blade-version wins.",
     "tragic": "He flips for Rei, and the suppliers find out who talked."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -6340,7 +6365,8 @@
     "noble": "Yuto gets sober for himself, and Rei is the one who liked him enough to wait.",
     "dark": "Rei takes the easy rounds and the soft touch and lets the boy keep drowning.",
     "tragic": "The anesthetic wins the last time it's offered, and Rei holds the after."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -6905,7 +6931,8 @@
     "noble": "Leo finds Sato again, and gives Rei the warmth he never sells.",
     "dark": "Rei buys the performance and the secrets and never meets the man.",
     "tragic": "A client's secret is the wrong one to have traded, and it comes back for them both."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7064,7 +7091,8 @@
     "noble": "Mali is loved as herself, and lets Rei all the way inside the wall.",
     "dark": "Rei mines the network and proves she was right to guard the door.",
     "tragic": "What Rei brings to Ōkubo is the danger she built the wall against."
-   }
+   },
+   "intimate": ""
   },
   "tier": "The Null",
   "tierLetter": "0",
