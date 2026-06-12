@@ -922,10 +922,13 @@ function axisRemember(value){ var a=axisState(); var v=(value||'').toString().to
  var T={name:/kaname|kuze/,era:/\bedo\b/,org:/twilight|omagatoki|逢魔/,path:/middle\s*(way|path)?/,seat:/duty|thirteenth|xiii/,trade:/investigat|detective/};
  for(var k in T){ if(!a.memory[k]&&T[k].test(v)){ a.memory[k]=true; axisRecompute(); if(typeof gameToast==='function')gameToast('◈ Something of the Axis comes back to you ('+k+').'); if(typeof saveG==='function')saveG(); return k; } }
  return null; }
-function axisMeter(){ var a=axisRecompute(); var pct=100*a.close/5; var col=a.close>=5?'#C9A84C':a.close>=3?'#9a6ab6':'#5a4e6e';
- var h='<div class="sub">THE AXIS <span style="text-transform:none">· the thing at the centre · 4 ways draw you in</span></div>';
+function axisKnown(){ return !!(G.flags&&(G.flags.knowsAxis||G.flags.metAxis||G.flags.ending)); }
+function axisMeter(){ if(!axisKnown())return '';/* hidden until the story reveals the Axis exists */
+ var a=axisRecompute(); var pct=100*a.close/5; var col=a.close>=5?'#C9A84C':a.close>=3?'#9a6ab6':'#5a4e6e';
+ var h='<div class="sub">THE AXIS <span style="text-transform:none">· how near you have drifted to the thing at the centre</span></div>';
  h+='<div class="bar" style="height:9px"><i style="width:'+pct+'%;background:'+col+'"></i></div>';
  h+='<div style="font-size:11px;color:var(--dim);font-family:var(--mono);margin:3px 0 2px">closeness '+a.close+' / 5'+(a.pull?(' · drawn by '+a.pull):'')+'</div>';
+ h+='<div style="font-size:11px;color:var(--dim);margin:0 0 3px;line-height:1.5">Power pushed past your rank, a thinning veil, the search for Gin, and what you remember of him each pull you nearer. Reach 5 and you can try to speak to him.</div>';
  if(a.noticed)h+='<div style="font-size:12px;color:#C9A84C;font-style:italic;margin:2px 0">Something vast and patient has noticed you reaching. Grow too bright, or thin the veil too far, and it will not look away.</div>';
  if(a.close>=5)h+='<div style="font-size:12px;color:#C9A84C;margin:2px 0">You are close enough now that, in the right place and the deep veil, you could try to <b>speak to him</b>.</div>';
  var mem=Object.keys(a.memory||{}); if(mem.length)h+='<div style="font-size:11px;color:var(--dim);margin-top:3px">Of who he was, you have recalled: <b>'+mem.length+' / 6</b> ('+mem.join(', ')+').</div>';
@@ -945,6 +948,7 @@ var AXIS_FRAG=[
  {k:'d_sleep',t:0,say:"You're asleep, and I'm here to wake you.",echo:'He is not asleep. He never was. The mistake costs you.'}];
 function _axisOrder(){ return AXIS_FRAG.map(function(f,i){return i;}).sort(function(a,b){return _seed(a*7+3)-_seed(b*7+3);}); }
 function axisTalk(){ var a=axisRecompute(); if(a.close<5){gameToast('You are not close enough to reach him yet.');return;}
+ if(!G.flags)G.flags={}; G.flags.metAxis=true;
  if(G.flags&&G.flags.ending){gameToast('The story already found its ending.');return;}
  _chan='axis'; if(typeof closeV==='function')closeV();
  var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
@@ -1018,34 +1022,43 @@ function absorbedMeter(){ var v=absorbState(); var list=G.player.absorbed||[]; i
  h+='<div style="font-size:12px;color:'+col+';font-style:italic;margin:2px 0">'+word+'</div>';
  if(list.length){ var regs={}; list.forEach(function(x){regs[x.reg||'?']=(regs[x.reg||'?']||0)+1;}); h+='<div style="font-size:11px;color:var(--dim)">Carried inside you: '+list.length+' — '+Object.keys(regs).map(function(k){return k+(regs[k]>1?' ×'+regs[k]:'');}).join(', ')+'.</div>'; }
  return h; }
+var PROFTAB='self';
+function profTab(n){PROFTAB=n;renderProfile();}
 function renderProfile(){
  const p=G.player;let h='';TIPN=0;
- h+='<div class="sub">VITALS</div>';
- h+=statBar('Health',p.hp[0],p.hp[1],'#c0563f',TIPS.Health);
- h+=statBar('Stability',p.stability,100,'#8fae74',TIPS.Stability);
- h+=statBar('Madness',p.madness,100,'#b65a4c',TIPS.Madness);
- h+=statBar('Veil-thinness · around you',p.veil,100,'#9a6ab6',TIPS.Veil);
- h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
- h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
- h+=axisMeter();
- h+=absorbedMeter();
- h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
- h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
- var _st=p.standing||{cvd:0,grid:0,tower:0};
- h+='<div class="row"><span class="k">CVD · Grid · Tower</span><span>'+_st.cvd+' · '+_st.grid+' · '+_st.tower+'</span></div>';
- h+='<div class="sub">STEADY YOURSELF <span style="text-transform:none">· the veil presses; push back</span></div>';
- h+='<div style="display:flex;gap:8px;margin:4px 0 2px;flex-wrap:wrap"><button class="choice" style="margin:0;width:auto" onclick="profileSelf(\'ground\')">🧿 Steady (hold the key)</button><button class="choice" style="margin:0;width:auto" onclick="profileSelf(\'rest\')">😴 Rest'+(p.at==='Home'?'':' (only at home)')+'</button></div>';
- h+='<div id="selfMsg" style="font-size:12px;color:var(--gold);font-style:italic;margin:3px 0 6px;min-height:16px"></div>';
- h+='<div class="sub">ATTRIBUTES <span style="text-transform:none">· grow by use · max 20</span></div>';
- h+='<div class="statgrid">';for(const k in p.attributes) h+=statCard(k,p.attributes[k],20,TIPS[k]);h+='</div>';
- h+='<div class="sub">HUMAN SKILLS <span style="text-transform:none">· grow by use · max 20</span></div>';
- h+='<div class="statgrid">';for(const k in p.humanSkills) h+=statCard(k,p.humanSkills[k],20,TIPS[k]);h+='</div>';
- h+='<div class="sub">ABILITY PATHS <span style="text-transform:none">· grow by use... open the Wheel</span></div>';
- for(const k of PATHS){const lv=p.paths[k].lvl;h+=statBar(k,lv,10,lv?'#8fae74':'#473a26');}
- h+='<div class="sub">INVENTORY <span style="text-transform:none">· tap an item</span></div><div class="invgrid">';
- p.inventory.forEach((it,ix)=>{h+='<div class="card" style="cursor:pointer" onclick="showItem('+ix+')"><div class="pic">'+it.e+'</div><div class="cn">'+it.n+'</div></div>';});
- h+='</div><div id="itemDesc" style="font-size:12px;color:var(--dim);font-style:italic;margin-top:8px;min-height:18px"></div>';
- h+='<p style="color:var(--dim);font-style:italic;font-size:12px;margin-top:10px">Tap a bar for what it means; tap an item for its description. Where you stand with people lives on <b>their</b> profile... open someone in Messages.</p>';
+ var TABS=[['self','Self'],['powers','Powers'],['items','Items']];
+ h+='<div style="display:flex;gap:6px;margin-bottom:13px">'+TABS.map(function(t){return '<button onclick="profTab(\''+t[0]+'\')" style="flex:1;padding:8px 4px;border-radius:8px;border:1px solid var(--bdr);background:'+(PROFTAB===t[0]?'#2a2010':'#15110c')+';color:'+(PROFTAB===t[0]?'var(--gold)':'var(--dim)')+';font-family:Cinzel,serif;font-size:12.5px;letter-spacing:1px;cursor:pointer">'+t[1]+'</button>';}).join('')+'</div>';
+ if(PROFTAB==='self'){
+  h+='<div class="sub">VITALS</div>';
+  h+=statBar('Health',p.hp[0],p.hp[1],'#c0563f',TIPS.Health);
+  h+=statBar('Stability',p.stability,100,'#8fae74',TIPS.Stability);
+  h+=statBar('Madness',p.madness,100,'#b65a4c',TIPS.Madness);
+  h+=statBar('Veil-thinness · around you',p.veil,100,'#9a6ab6',TIPS.Veil);
+  h+=axisMeter();
+  h+=absorbedMeter();
+  h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
+  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
+  var _st=p.standing||{cvd:0,grid:0,tower:0};
+  h+='<div class="row"><span class="k">CVD · Grid · Tower</span><span>'+_st.cvd+' · '+_st.grid+' · '+_st.tower+'</span></div>';
+  h+='<div class="sub">STEADY YOURSELF <span style="text-transform:none">· the veil presses; push back</span></div>';
+  h+='<div style="display:flex;gap:8px;margin:4px 0 2px;flex-wrap:wrap"><button class="choice" style="margin:0;width:auto" onclick="profileSelf(\'ground\')">🧿 Steady (hold the key)</button><button class="choice" style="margin:0;width:auto" onclick="profileSelf(\'rest\')">😴 Rest'+(p.at==='Home'?'':' (only at home)')+'</button></div>';
+  h+='<div id="selfMsg" style="font-size:12px;color:var(--gold);font-style:italic;margin:3px 0 6px;min-height:16px"></div>';
+ } else if(PROFTAB==='powers'){
+  h+='<div class="sub">ATTRIBUTES <span style="text-transform:none">· grow by use · max 20</span></div>';
+  h+='<div class="statgrid">';for(const k in p.attributes) h+=statCard(k,p.attributes[k],20,TIPS[k]);h+='</div>';
+  h+='<div class="sub">HUMAN SKILLS <span style="text-transform:none">· grow by use · max 20</span></div>';
+  h+='<div class="statgrid">';for(const k in p.humanSkills) h+=statCard(k,p.humanSkills[k],20,TIPS[k]);h+='</div>';
+  h+='<div class="sub">ABILITY PATHS <span style="text-transform:none">· grow by use... open the Wheel</span></div>';
+  for(const k of PATHS){const lv=p.paths[k].lvl;h+=statBar(k,lv,10,lv?'#8fae74':'#473a26');}
+ } else {
+  h+='<div class="sub">WALLET</div>';
+  h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
+  h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
+  h+='<div class="sub">INVENTORY <span style="text-transform:none">· tap an item</span></div><div class="invgrid">';
+  p.inventory.forEach((it,ix)=>{h+='<div class="card" style="cursor:pointer" onclick="showItem('+ix+')"><div class="pic">'+it.e+'</div><div class="cn">'+it.n+'</div></div>';});
+  h+='</div><div id="itemDesc" style="font-size:12px;color:var(--dim);font-style:italic;margin-top:8px;min-height:18px"></div>';
+ }
+ h+='<p style="color:var(--dim);font-style:italic;font-size:12px;margin-top:12px">Tap a bar for what it means. Where you stand with people lives on <b>their</b> profile... open someone in Messages.</p>';
  document.getElementById('profileBody').innerHTML=h;
 }
 function showItem(i){ const it=G.player.inventory[i]; var u=it.use?(' <button class="btn" style="margin-left:8px;padding:2px 10px" onclick="useItem('+i+')">Use</button>'):''; document.getElementById('itemDesc').innerHTML='<b style="color:var(--gold)">'+it.n+'</b>... '+it.d+u; }
@@ -1143,6 +1156,7 @@ function saveNote(){const t=document.getElementById('noteInput').value.trim();if
 // ---- discoveries ledger: the running record of what Rei has learned, fed to the AI as hidden context ----
 function addDiscovery(text,src){
  if(!text)return; text=String(text).replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim(); if(text.length<3)return;
+ if(/\b(the axis|the font|the centre of the veil|the architect)\b/i.test(text)){if(!G.flags)G.flags={};G.flags.knowsAxis=true;}/* the meter appears once the story reveals the Axis */
  if(!G.discoveries)G.discoveries=[]; if(!G.notes)G.notes=[];
  var key=text.toLowerCase().slice(0,90);
  if(G.discoveries.some(function(d){return (d.t||'').toLowerCase().slice(0,90)===key;}))return;
