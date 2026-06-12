@@ -4,8 +4,5 @@ gemini-key.txt
 # OS cruft
 .DS_Store
 
-# large art assets (managed outside git)
-images/
-
 # logs / temp
 *.log
