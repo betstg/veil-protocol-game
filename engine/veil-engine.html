@@ -704,7 +704,68 @@ function axisMeter(){ var a=axisRecompute(); var pct=100*a.close/5; var col=a.cl
  if(a.noticed)h+='<div style="font-size:12px;color:#C9A84C;font-style:italic;margin:2px 0">Something vast and patient has noticed you reaching. Grow too bright, or thin the veil too far, and it will not look away.</div>';
  if(a.close>=5)h+='<div style="font-size:12px;color:#C9A84C;margin:2px 0">You are close enough now that, in the right place and the deep veil, you could try to <b>speak to him</b>.</div>';
  var mem=Object.keys(a.memory||{}); if(mem.length)h+='<div style="font-size:11px;color:var(--dim);margin-top:3px">Of who he was, you have recalled: <b>'+mem.length+' / 6</b> ('+mem.join(', ')+').</div>';
+ if(a.close>=5&&!(G.flags&&G.flags.ending))h+='<div style="margin:7px 0 2px"><button class="choice" style="margin:0;width:auto;border-color:#6d5a3a;color:#C9A84C" onclick="axisTalk()">◈ Reach all the way in, and speak to him ›</button></div>';
+ if(G.flags&&G.flags.ending)h+='<div style="font-size:11px;color:#C9A84C;font-style:italic;margin-top:4px">You have already reached the centre. The story found its ending.</div>';
  return h; }
+// ===== THE L5 TALK: the remember-quest as a scene — true memories wake him; wrong guesses cost =====
+var AXIS_FRAG=[
+ {k:'name',t:1,say:'Your name &mdash; I think it was Kaname. Kuze Kaname.',echo:'&hellip;Kaname. The light shivers. A long time since anything used it.'},
+ {k:'era',t:1,say:"You weren't born into this century. You came up in the Edo years.",echo:'Lamplight. Wet stone. Yes &mdash; that was the world he started in.'},
+ {k:'org',t:1,say:'You walked a threshold for an office with no register &mdash; the Twilight Office. &#332;magatoki.',echo:'The hour one meets demons. He worked it. He remembers the cold of those streets.'},
+ {k:'path',t:1,say:"You didn't take the bright road or the dark one. You took the middle way.",echo:'Neither saint nor monster. He kept his shadow and kept feeling &mdash; that is why he held.'},
+ {k:'seat',t:1,say:"You were Duty. You didn't sit the seat &mdash; you became it.",echo:'He stopped being a man holding a door and became the door. He had forgotten there was a difference.'},
+ {k:'trade',t:1,say:'You were like Gin. An investigator. You chased the lost for a living.',echo:'He looked for people who were gone. He has been one ever since.'},
+ {k:'d_god',t:0,say:"You're a god. You always were.",echo:'The light hardens and pushes you back. He was never a god; calling him one buries the man deeper.'},
+ {k:'d_power',t:0,say:'You did all of this for power.',echo:'Wrong, and he feels the wrongness. Power was never the point. He recedes.'},
+ {k:'d_sleep',t:0,say:"You're asleep, and I'm here to wake you.",echo:'He is not asleep. He never was. The mistake costs you.'}];
+function _axisOrder(){ return AXIS_FRAG.map(function(f,i){return i;}).sort(function(a,b){return _seed(a*7+3)-_seed(b*7+3);}); }
+function axisTalk(){ var a=axisRecompute(); if(a.close<5){gameToast('You are not close enough to reach him yet.');return;}
+ if(G.flags&&G.flags.ending){gameToast('The story already found its ending.');return;}
+ _chan='axis'; if(typeof closeV==='function')closeV();
+ var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
+ var mem=Object.keys(a.memory||{}).length;
+ rb.innerHTML='<div class="scimg" style="margin:0 0 12px;padding:14px 16px;border-color:#6d5a3a"><div class="lb" style="color:#C9A84C">THE AXIS</div><div class="sub">deep veil &middot; the Font &middot; '+mem+' / 6 remembered</div></div>'
+  +'<p>You reach the last of the way in, and the light is everything. Look at it directly and you do not come back &mdash; so you do not look. You speak <i>past</i> it, to the shape the light is wrapped around: a man with his back to the world and his whole weight on the wall.</p>'
+  +(mem>=6?'<p style="color:#C9A84C"><i>He has turned. He is looking at you. He remembers &mdash; whatever happens next, he is himself for it.</i></p>'
+          :'<p style="color:var(--dim)"><i>He does not turn. Not yet. He answers only being reminded who he was. Tell him something true.</i></p>');
+ var cw=document.getElementById('readChoices'); if(!cw)return; cw.innerHTML='';
+ function add(label,fn,col){var b=document.createElement('button');b.className='choice';b.style.margin='0 0 6px';if(col)b.style.color=col;b.innerHTML=label;b.onclick=fn;cw.appendChild(b);}
+ if(mem>=6){ axisWokenChoices(add); rb.scrollTop=0; return; }
+ _axisOrder().forEach(function(i){ var f=AXIS_FRAG[i]; if(f.t&&a.memory[f.k])return; add(f.say,function(){axisSay(i);}); });
+ add('Force your way in &mdash; take the answer without waking the man', function(){axisEnding('force');}, '#b65a4c');
+ add('Pull back &mdash; you are not ready to wake him', function(){axisLeave();}, 'var(--dim)');
+ rb.scrollTop=0;
+}
+function axisSay(i){ var f=AXIS_FRAG[i]; var a=axisState();
+ if(f.t){ if(!a.memory[f.k]){a.memory[f.k]=true; axisRecompute();} gameToast('◈ '+f.echo); }
+ else { G.player.madness=Math.min(100,(G.player.madness||0)+_rnd(4,9)); gameToast('✖ '+f.echo); if(typeof renderTop==='function')renderTop();
+   if((G.player.madness||0)>=100){ axisEnding('force'); return; } }
+ if(typeof saveG==='function')saveG(); axisTalk();
+}
+function axisLeave(){ _chan='line'; if(typeof gameToast==='function')gameToast('You draw back from the light. He is still there, still holding.'); if(typeof renderScene==='function')renderScene(); }
+function axisWokenChoices(add){ var ginFound=!!(G.flags&&G.flags.foundGin);
+ add('&ldquo;Rest now. I will hold Domain XIII myself.&rdquo; &mdash; take up the seat as a living anchor', function(){axisEnding('good_seat');}, '#C9A84C');
+ if(ginFound) add('&ldquo;Free Gin first.&rdquo; &mdash; give Yushiro a willing seat to pour into (the spare-Gin trade)', function(){axisEnding('good_gin');}, '#C9A84C');
+ add('&ldquo;Give it to me.&rdquo; &mdash; take the whole register into yourself, become the anchor by feeding', function(){axisEnding('dark_feed');}, '#b65a4c');
+ add('Say nothing &mdash; let the man, awake at last, decide for himself', function(){axisEnding('burnout');}, 'var(--dim)');
+}
+var AXIS_END={
+ good_seat:["The good road","You take Domain XIII the hard way &mdash; with your own life, sane and willing, the way the Thirteen do and the way Kaname once did. The seat fills with a living register, and for the first time in three centuries the door does not need a man bricked into the wall to hold it. Kaname &mdash; the Axis &mdash; turns the rest of the way around, and the light gentles into something you can almost look at. He sets the weight down. He is allowed, at last, to be a person again. The veil holds, rebuilt by living hands. Whatever the cost of getting here, this is the ending the reason earned.","#C9A84C"],
+ good_gin:["Gin comes home","You make the spare-Gin trade: a willing seat for Yushiro to discharge its interrupted duty into, so it has no need left of the body it wore. The demon lets go. Gin comes back by inches &mdash; thinner, older in the eyes, but himself, and breathing. With the Axis awake as an ally and Domain XIII handled, the membrane is rebuilt and Kaname is freed to rest. You went into the dark after your brother and you walked back out with him. Not every road in this archive ends this kindly. Hold onto it.","#C9A84C"],
+ dark_feed:["The new demon of Duty","You open and you feed. Foreign emotion pours in &mdash; other people's registers, eaten to make you strong enough to hold the seat without dying. It works. The membrane stops tearing. But what sits in Domain XIII now is not a holder; it is a hunger wearing the shape of one, a Qliphoth where a person should be. Kaname, awake just long enough to see what you chose, lets the weight pass to you and is gone. The city is safe under a thing that will, in time, want more than it was given. You saved the world and lost the only part of yourself worth saving. This is a villain's ending, and it is the one you chose.","#b65a4c"],
+ burnout:["The door that no one took","You say nothing. You let the man decide, and the man &mdash; awake now, remembering Kaname, remembering the streets and the cold and the office with no register &mdash; does the only thing he has ever known how to do. He turns back to the wall. He keeps holding. He burns the last of himself out sealing a door no living hand would take, and when the light finally dims there is no one left inside it. The veil holds. Kita stops thinning. And the most dangerous question in the book is answered the saddest way: he remembered his name, and it changed nothing, because no one was willing to take his place.","var(--dim)"],
+ force:["Woken as force","You do not reach the man &mdash; you reach past him and wrench the answer out by the root. The Axis wakes, but it wakes as raw force, without the self that made it gentle, and in the waking the membrane tears wide. For one screaming interval the city is the whole battlefield: thirteen light anchors against thirteen Qliphoth, every register loose at once. It is survivable. Barely. People you knew do not survive it. When the veil knits shut again it is thinner than before, held by a thing that no longer remembers it was ever kind. You got your answer. It cost more than the question was worth.","#b65a4c"]
+};
+function axisEnding(kind){ var e=AXIS_END[kind]||AXIS_END.force; if(!G.flags)G.flags={}; G.flags.ending=kind;
+ G.axis=axisState(); G.axis.fork=(kind==='dark_feed'||kind==='force')?'dark':'light';
+ if(kind==='good_gin')G.flags.ginSaved=true;
+ _chan='axis'; var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
+ rb.innerHTML='<div class="scimg" style="margin:0 0 14px;padding:16px;border-color:'+e[2]+'"><div class="lb" style="color:'+e[2]+';font-size:15px">'+esc(e[0])+'</div><div class="sub">an ending &middot; Veil Protocol</div></div><p style="line-height:1.7">'+e[1]+'</p>'
+  +'<p style="color:var(--dim);font-style:italic;margin-top:14px">The Kita campaign is finished. The system underneath it is built to run any story you want to set in this city &mdash; see the Warden&rsquo;s book, <b>How to Move On</b>.</p>';
+ var cw=document.getElementById('readChoices'); if(cw){cw.innerHTML='';var b=document.createElement('button');b.className='choice';b.style.margin='0';b.innerHTML='↩ Sit with it';b.onclick=function(){_chan='line';if(typeof renderScene==='function')renderScene();};cw.appendChild(b);}
+ if(typeof gameToast==='function')gameToast('◈ An ending: '+e[0]);
+ if(typeof gainXP==='function')gainXP(20); if(typeof saveG==='function')saveG(); rb.scrollTop=0;
+}
 function renderProfile(){
  const p=G.player;let h='';TIPN=0;
  h+='<div class="sub">VITALS</div>';
