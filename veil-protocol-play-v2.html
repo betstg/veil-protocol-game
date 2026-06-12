@@ -1759,7 +1759,7 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  }
  else { h+='<button class="choice" style="margin:8px 0 6px" onclick="joinParty(\''+id+'\')">Ask '+esc(c.name)+' to come with you</button>'; }
  h+='<button class="choice" style="margin:0 0 6px" onclick="personGo(\''+id+'\')">Leave together / go somewhere ›</button>';
- if((G.flags&&G.flags.adult)&&typeof isRomanceable==='function'&&isRomanceable(id)&&typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open&&(((charForContact(c)||{}).romance||{}).intimate||'').trim()){
+ if((G.flags&&G.flags.adult)&&typeof isRomanceable==='function'&&isRomanceable(id)&&typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open){
    h+='<button class="choice" style="margin:0 0 6px;color:#c98aa0;border-color:#6e2b3a" onclick="intimateScene(\''+id+'\')">Take it further ›</button>'; }
  h+='<button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away (stay here)</button>';
  cw.innerHTML=h;
@@ -2018,17 +2018,30 @@ function setRelVal(id,v){v=Math.max(-100,Math.min(100,Math.round(v)));if(RELCFG[
 // ---- romance safety: opt-in via the existing ROM/openRomance system; never minors ----
 function personaAge(id){var c=G.contacts[id];var p=c&&personaFor(c);var a=(p&&p.age)?parseInt((String(p.age).match(/\d+/)||[0])[0],10):0;return a;}
 function isMinor(id){var a=personaAge(id);return a>0&&a<18;}
-// displays an author-written intimate scene from a character's romance.intimate field. 18+ only; minors blocked by isRomanceable.
+// Intimate scene: shows the author-written romance.intimate if present, otherwise the Warden WRITES it
+// (builds with real feeling and FADES TO BLACK at the threshold... never explicit). 18+ only; minors blocked by isRomanceable.
+function _intimateAfter(rb,id){ var cw=document.getElementById('readChoices'); if(cw){cw.innerHTML='';var b=document.createElement('button');b.className='choice';b.style.margin='0';b.innerHTML='↩ After';b.onclick=function(){personScene(id);};cw.appendChild(b);} if(rb)rb.scrollTop=0; }
 function intimateScene(id){ var c=G.contacts[id]; if(!c)return;
  if(!(G.flags&&G.flags.adult))return;
  if(typeof isRomanceable==='function'&&!isRomanceable(id))return;
  if(!(typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open))return;
- var sc=(((charForContact(c)||{}).romance)||{}).intimate; if(!sc||!String(sc).trim())return;
  _chan='person'; var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
- rb.innerHTML='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">the two of you &middot; '+fmt(G.min)+'</div></div><p style="line-height:1.75;white-space:pre-wrap">'+esc(String(sc))+'</p>';
- if(typeof linkifyNames==='function')linkifyNames(rb);
- var cw=document.getElementById('readChoices'); if(cw){cw.innerHTML='';var b=document.createElement('button');b.className='choice';b.style.margin='0';b.innerHTML='↩ After';b.onclick=function(){personScene(id);};cw.appendChild(b);}
- rb.scrollTop=0;
+ var hdr='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">the two of you &middot; '+fmt(G.min)+'</div></div>';
+ var authored=(((charForContact(c)||{}).romance)||{}).intimate;
+ if(authored&&String(authored).trim()){ rb.innerHTML=hdr+'<p style="line-height:1.75;white-space:pre-wrap">'+esc(String(authored))+'</p>'; if(typeof linkifyNames==='function')linkifyNames(rb); _intimateAfter(rb,id); return; }
+ // the Warden writes it
+ rb.innerHTML=hdr+'<p style="opacity:.55;font-style:italic">the Warden writes the moment…</p>';
+ var ctx=knowledgeCtx()+npcCtx(id,c)+' INTIMATE SCENE: the romance between Rei and '+c.name+' tips into intimacy now, and both want it.';
+ var prompt='[Write this intimate moment between Rei and '+c.name+' as a scene in SECOND PERSON: charged, tender or intense exactly as fits who they are, building with real desire and feeling... then FADE TO BLACK at the threshold, never explicit and never graphic. A few short paragraphs of the lead-up and the fade. Keep it theirs.]';
+ fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'gm',prompt:prompt,context:ctx})})
+  .then(function(r){return r.json();}).then(function(j){
+   var narr=(j&&j.narration)?j.narration:((j&&j.text)?j.text:'');
+   if(!narr){narr='You reach for each other, and the rest of the night belongs to the two of you alone.';}
+   rb.innerHTML=hdr+'<p style="line-height:1.75">'+esc(narr)+'</p>';
+   if(typeof linkifyNames==='function')linkifyNames(rb);
+   if(j&&typeof j.relDelta==='number'&&typeof bumpRel==='function')bumpRel(id,Math.max(0,j.relDelta));
+   _intimateAfter(rb,id); if(typeof saveG==='function')saveG();
+  }).catch(function(){ rb.innerHTML=hdr+'<p style="line-height:1.75">You reach for each other, and the rest of the night belongs to the two of you alone.</p><p style="color:var(--dim);font-style:italic;font-size:12px">(the Warden is offline... start the server to let it write the scene.)</p>'; _intimateAfter(rb,id); });
 }
 function isRomanceable(id){var c=G.contacts[id];if(!c)return false;var p=personaFor(c);var ch=(typeof charForContact==='function')?charForContact(c):null;var rom=(p&&p.romanceable)||(ch&&ch.romanceable)||c.romanceable;return !!rom && !isMinor(id);}
 function romanceOpen(id){return !!(typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open)&&!isMinor(id);}
