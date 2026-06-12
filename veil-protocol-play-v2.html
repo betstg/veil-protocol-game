@@ -900,7 +900,7 @@ function axisRecompute(){ var a=axisState(); var p=G.player; if(!p)return a;
  var total=r.power+r.veil+r.duty+r.memory;
  a.close=Math.max(0,Math.min(5,total)); a.noticed=(maxlv>5||ratio>0.5);
  var best='',bv=0; for(var i=0;i<AXIS_ROUTES.length;i++){var rk=AXIS_ROUTES[i].key; if((r[rk]||0)>bv){bv=r[rk];best=AXIS_ROUTES[i].name;}}
- a.pull=best; a._r=r; return a; }
+ a.pull=best; a._r=r; if(a.noticed&&typeof unlockFeed==='function')unlockFeed(); return a; }
 // the remember-quest: only an EXACT true thing about the man he was (Kuze Kaname) counts
 function axisRemember(value){ var a=axisState(); var v=(value||'').toString().toLowerCase();
  var T={name:/kaname|kuze/,era:/\bedo\b/,org:/twilight|omagatoki|逢魔/,path:/middle\s*(way|path)?/,seat:/duty|thirteenth|xiii/,trade:/investigat|detective/};
@@ -975,6 +975,43 @@ function axisEnding(kind){ var e=AXIS_END[kind]||AXIS_END.force; if(!G.flags)G.f
  if(typeof gameToast==='function')gameToast('◈ An ending: '+e[0]);
  if(typeof gainXP==='function')gainXP(20); if(typeof saveG==='function')saveG(); rb.scrollTop=0;
 }
+// ===== THE HUNGER: the villain path — feed on a register, grow, hollow them, become the Qliphoth =====
+function hungerState(){ if(typeof G.player.corruption!=='number')G.player.corruption=0; return G.player.corruption; }
+function canFeed(){ return !!(G.flags&&G.flags.canFeed); }
+function unlockFeed(){ if(!G.flags)G.flags={}; if(G.flags.canFeed)return; G.flags.canFeed=true; if(typeof gameToast==='function')gameToast('◆ The Hunger wakes. You understand now that you could take what a person runs on, and wear it.'); if(typeof saveG==='function')saveG(); }
+function emotionOf(c){ var ch=(typeof charForContact==='function')?charForContact(c):null; return (ch&&ch.persona&&ch.persona.emotion)||'register'; }
+function hungerTier(){ var v=hungerState(); if(!G.flags)G.flags={};
+ if(v>=50){ G.axis=axisState(); G.axis.fork='dark'; }
+ if(v>=100&&!G.flags.villain){ G.flags.villain=true; if(typeof gameToast==='function')gameToast('◆ The register turns all the way over. There is a demon of the vacant seat now — and it is wearing your face.'); }
+}
+function feedOn(id){ var c=G.contacts[id]; if(!c||!npcReachable(c)||!canFeed())return;
+ var emo=emotionOf(c); var pw=(typeof combatPow==='function')?combatPow(id):2;
+ G.player.corruption=Math.min(100,hungerState()+_rnd(8,15));
+ G.player.veil=Math.min(100,(G.player.veil||0)+pw+4);
+ G.player.madness=Math.min(100,(G.player.madness||0)+_rnd(3,7));
+ if(typeof gainXP==='function')gainXP(pw+4);
+ if(!G.player.fedOn)G.player.fedOn=[]; if(G.player.fedOn.indexOf(id)<0)G.player.fedOn.push(id);
+ c.status='hollowed'; c._here=null; c._nextPlace=null; c._withYou=false; if(G.party)G.party=G.party.filter(function(x){return x!==id;});
+ c.history.push(['sys','✖ You take the '+esc(emo)+' they ran on, all of it. What is left of '+esc(c.name)+' walks away hollow, and does not look back.']);
+ if(typeof bumpRel==='function')bumpRel(id,-45);
+ if(typeof addDiscovery==='function')addDiscovery('You fed on '+c.name+'’s register ('+emo+'). They are hollow now.',c.name);
+ if(typeof deathRipple==='function')deathRipple(id,'gone');
+ if(typeof resolveNpcQuest==='function')resolveNpcQuest(id,false);
+ hungerTier(); if(typeof axisRecompute==='function')axisRecompute();
+ if(typeof gameToast==='function')gameToast('◆ You feed. Stronger, thinner, further gone. ('+emo+' taken)');
+ if(typeof renderTop==='function')renderTop(); if(typeof saveG==='function')saveG();
+}
+function feedConfirm(id){ var c=G.contacts[id]; if(!c)return;
+ if(typeof window!=='undefined'&&window.confirm('Feed on '+c.name+'?\n\nYou take the '+emotionOf(c)+' they run on. It makes you stronger and pulls you toward the centre — and it leaves them hollow, for good. This cannot be undone.')){ feedOn(id); if(typeof personScene==='function')personScene(id); } }
+function hungerMeter(){ var v=hungerState(); if(v<=0&&!canFeed())return '';
+ var col=v>=75?'#b65a4c':v>=40?'#9a6ab6':'#6d5a3a';
+ var word=v>=100?'You are the Hunger now. There is a demon of the vacant Duty seat, and it wears your face.':v>=75?'The demon rides you; little of Rei answers anymore.':v>=50?'Your own register is inverting. You are becoming a Qliphoth.':v>=25?'The Hunger is awake in you, and it remembers every register it has tasted.':v>0?'You have tasted it. It does not forget.':'You know, now, that you could take what a person runs on.';
+ var h='<div class="sub" style="color:#b65a4c">THE HUNGER <span style="text-transform:none">· the dark road · what you feed on becomes you</span></div>';
+ h+='<div class="bar" style="height:9px"><i style="width:'+v+'%;background:'+col+'"></i></div>';
+ h+='<div style="font-size:11px;color:var(--dim);font-family:var(--mono);margin:3px 0 2px">corruption '+v+' / 100</div>';
+ h+='<div style="font-size:12px;color:'+col+';font-style:italic;margin:2px 0">'+word+'</div>';
+ if((G.player.fedOn||[]).length)h+='<div style="font-size:11px;color:var(--dim)">Hollowed by your hand: <b style="color:#b65a4c">'+G.player.fedOn.length+'</b>.</div>';
+ return h; }
 function renderProfile(){
  const p=G.player;let h='';TIPN=0;
  h+='<div class="sub">VITALS</div>';
@@ -985,6 +1022,7 @@ function renderProfile(){
  h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
  h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
  h+=axisMeter();
+ h+=hungerMeter();
  h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
  var _st=p.standing||{cvd:0,grid:0,tower:0};
@@ -1589,8 +1627,8 @@ function stampNow(){try{return lockDateStr().replace(/,?\s*2015/,'')+' · '+fmt(
 // People text in bursts... wait, and group successive messages into one reply.
 // world-state gatekeeper: the GAME decides reachability BEFORE any token is spent. dead/gone NPCs never call the AI.
 // dead/gone/wounded(=recovering in the CVD Health Center, no visitors) all block the AI call before a token is spent
-function npcReachable(c){return !!c && c.status!=='dead' && c.status!=='gone' && c.status!=='wounded';}
-function statusLine(c){return c.status==='dead'?'— delivered to a number that will never answer again.':c.status==='gone'?'— '+c.name+' is unreachable. The message sits undelivered.':c.status==='wounded'?'— '+c.name+' is recovering in the CVD Health Center. No visitors allowed; messages go unanswered until they are stable.':'— unreachable.';}
+function npcReachable(c){return !!c && c.status!=='dead' && c.status!=='gone' && c.status!=='wounded' && c.status!=='hollowed';}
+function statusLine(c){return c.status==='dead'?'— delivered to a number that will never answer again.':c.status==='gone'?'— '+c.name+' is unreachable. The message sits undelivered.':c.status==='wounded'?'— '+c.name+' is recovering in the CVD Health Center. No visitors allowed; messages go unanswered until they are stable.':c.status==='hollowed'?'— there is no one left at this number to read it. You saw to that.':'— unreachable.';}
 function sendMsg(id){const inp=document.getElementById('ci');const t=inp.value.trim();if(!t)return;const c=G.contacts[id];
  if(c&&!npcReachable(c)){c.history.push(['me',t,stampNow()]);c.history.push(['sys',statusLine(c)]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);return;}
  c.history.push(['me',t,stampNow()]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);
@@ -1720,6 +1758,7 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  }
  else { h+='<button class="choice" style="margin:8px 0 6px" onclick="joinParty(\''+id+'\')">Ask '+esc(c.name)+' to come with you</button>'; }
  h+='<button class="choice" style="margin:0 0 6px" onclick="personGo(\''+id+'\')">Leave together / go somewhere ›</button>';
+ if(typeof canFeed==='function'&&canFeed()&&npcReachable(c)){ h+='<button class="choice" style="margin:0 0 6px;color:#b65a4c;border-color:#6e2b20" onclick="feedConfirm(\''+id+'\')">◆ Feed on the '+esc(emotionOf(c))+' they run on &mdash; take it into yourself</button>'; }
  h+='<button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away (stay here)</button>';
  cw.innerHTML=h;
  rb.scrollTop=rb.scrollHeight;
