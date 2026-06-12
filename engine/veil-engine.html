@@ -647,7 +647,7 @@ const GIN_NETWORK=['okada','aoi','kato','hana','katagirinoa','tsukishiroharu','s
 function seedNetworkWarmth(){GIN_NETWORK.forEach(function(id){if(G.contacts[id]&&relValOf(id)===0)setRelVal(id,15);});}
 // each contact's starting relationship comes from their CHARACTER SHEET's tie to Rei, so the phone matches the sheet
 function reiRelFromSheet(id){var c=G.contacts[id];if(!c)return null;var ch=(typeof charForContact==='function')?charForContact(c):null;if(!ch||!ch.relationships||!ch.relationships.length)return null;for(var i=0;i<ch.relationships.length;i++){var r=ch.relationships[i];if(r&&r.to==='rei'&&typeof r.value==='number')return Math.max(-100,Math.min(100,Math.round(r.value)));}return null;}
-var REL_SEED_V=2; // bump to force existing saves to re-pull the sheet numbers
+var REL_SEED_V=3; // bump to force existing saves to re-pull the sheet numbers
 function seedRelFromSheets(){if(G._relSeedV===REL_SEED_V)return;var any=false;for(var id in G.contacts){var v=reiRelFromSheet(id);if(v!=null){setRelVal(id,v);any=true;}}if(any){G._relSeedV=REL_SEED_V;G._relSeeded=true;seedNpcKnowledge();if(typeof seedRomance==='function')seedRomance();if(typeof renderTop==='function')renderTop();if(typeof saveG==='function')saveG();}}
 // ---- living NPC state (seeded from the sheet, then mutated by play) ----
 // each contact carries c.knows (what they know), c.agenda (what they committed to), c._here (where they are)
@@ -666,12 +666,12 @@ function relBar(id,name){
  var h='<div style="background:#fff;border:1px solid var(--ph-line);border-radius:16px;padding:14px 16px;margin:4px 0">';
  h+='<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:13px"><span style="font-size:15px;font-weight:800;color:'+fill+'">'+tier+'</span><span style="font-family:monospace;font-size:12px;color:'+(t>0?'#06C755':(t<0?'#c0563f':'#9aa'))+'">'+(t>0?'+':'')+t+'</span></div>';
  h+='<div style="display:flex;align-items:center;gap:11px">';
- h+='<span style="font-size:16px;line-height:1;color:#d65745">♥</span>';
+ h+='<span style="font-size:17px;line-height:1" title="Hostile">😡</span>';
  h+='<div style="position:relative;flex:1;height:8px;background:#e9ece9;border-radius:6px">';
  h+='<div style="position:absolute;left:0;top:0;height:100%;width:'+pct+'%;background:'+fill+';border-radius:6px"></div>';
  h+='<div style="position:absolute;left:'+kp+'%;top:50%;transform:translate(-50%,-50%);width:18px;height:18px;border-radius:50%;background:#fff;border:2.5px solid '+fill+';box-shadow:0 1px 5px rgba(0,0,0,.3)"></div>';
  h+='</div>';
- h+='<span style="font-size:16px;line-height:1;color:#06C755">♥</span>';
+ h+='<span style="font-size:16px;line-height:1;color:#d65745" title="Friendly">♥</span>';
  h+='</div>';
  h+='<div style="display:flex;justify-content:space-between;font-size:9.5px;color:#9aa6a0;margin-top:7px;letter-spacing:.5px;text-transform:uppercase"><span>Hostile</span><span>Neutral</span><span>Friendly</span></div>';
  if(ROM[id]&&ROM[id].open){ var rp=ROM[id].val;
