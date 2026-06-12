@@ -86,7 +86,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "everything is under control :)"
+   "status": "everything is under control :)",
+   "emotion": "Duty"
   },
   "romanceable": true,
   "relationships": [
@@ -221,7 +222,8 @@
     "quirks": "makes tea for the lonely, learns names, waits",
     "arc": "toxic gravity itself; the psychopathic romance that consumes"
    },
-   "status": "the door is always open. you are always welcome here."
+   "status": "the door is always open. you are always welcome here.",
+   "emotion": "Despair"
   },
   "romanceable": false,
   "relationships": [
@@ -347,7 +349,8 @@
     "quirks": "two cups on the rack, checks locks twice, keeps Rei's school photo in his wallet",
     "arc": "will break every rule, including honesty, to keep Rei out of it"
    },
-   "status": "back late. don't wait up."
+   "status": "back late. don't wait up.",
+   "emotion": "Duty"
   },
   "romanceable": false,
   "relationships": [
@@ -637,7 +640,8 @@
     "quirks": "lowers the voice before a lie, speaks of what is owed",
     "arc": "immovable; the one thing that will not break under pressure"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Duty"
   },
   "romanceable": false,
   "relationships": [
@@ -763,7 +767,8 @@
     "quirks": "snacks constantly, narrates her own anxiety, triple-texts",
     "arc": "comic-warm relief who softens any room, until burnout cracks the brightness"
    },
-   "status": "karaoke saturday?? someone say yes (´｡• ᵕ •｡`)"
+   "status": "karaoke saturday?? someone say yes (´｡• ᵕ •｡`)",
+   "emotion": "Love"
   },
   "romanceable": true,
   "relationships": [
@@ -927,7 +932,8 @@
     "quirks": "smokes only when overwhelmed, side-eyes sincerity, taps morse on tables",
     "arc": "dry armor that thaws a degree at a time, never announces it"
    },
-   "status": "busy. probably."
+   "status": "busy. probably.",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -1079,7 +1085,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "warm mask over something colder"
    },
-   "status": "above the clinic. the cats are in charge."
+   "status": "above the clinic. the cats are in charge.",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -1260,7 +1267,8 @@
     "quirks": "counts change twice, always",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "good coffee, bad memory. come by."
+   "status": "good coffee, bad memory. come by.",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -1413,7 +1421,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "warm mask over something colder"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -1560,7 +1569,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Fear"
   },
   "romanceable": true,
   "relationships": [
@@ -1709,7 +1719,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "two heads, one desk. we're fine."
+   "status": "two heads, one desk. we're fine.",
+   "emotion": "Wonder"
   },
   "romanceable": false,
   "relationships": [
@@ -1835,7 +1846,8 @@
     "quirks": "counts change twice, always",
     "arc": "warm mask over something colder"
    },
-   "status": "please be gentle today."
+   "status": "please be gentle today.",
+   "emotion": "Fear"
   },
   "romanceable": true,
   "relationships": [
@@ -1954,7 +1966,8 @@
     "quirks": "goes still unsupervised, repeats kind phrases",
     "arc": "hollow; bends to whoever holds the leash, every time"
    },
-   "status": "i am well. thank you for asking."
+   "status": "i am well. thank you for asking.",
+   "emotion": "Despair"
   },
   "romanceable": true,
   "backstory": [
@@ -2074,7 +2087,8 @@
     "quirks": "alphabetizes everything, re-reads a file before speaking, declines the second drink",
     "arc": "by-the-book to a fault, but would shred one rule for Rei and hate herself for it"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Courage"
   },
   "romanceable": true,
   "relationships": [
@@ -2232,7 +2246,8 @@
     "quirks": "long silences before answering, keeps one secret file",
     "arc": "the principled man who has traded too many small wrongs and knows it"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Despair"
   },
   "romanceable": false,
   "relationships": [
@@ -2414,7 +2429,8 @@
     "quirks": "the 'mild irritation' look that is restraint, walks fast, taps a foot",
     "arc": "blunt and unbending, but the wall has one door she guards furiously"
    },
-   "status": "if it can wait, let it."
+   "status": "if it can wait, let it.",
+   "emotion": "Grief"
   },
   "romanceable": true,
   "relationships": [
@@ -2570,7 +2586,8 @@
     "quirks": "counts change twice, always",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "the archive is closed. it is always closed."
+   "status": "the archive is closed. it is always closed.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -2716,7 +2733,8 @@
     "quirks": "narrates his own exploits, takes the dangerous option to feel alive",
     "arc": "cocky comic-bravado, reckless under it; would betray caution every time"
    },
-   "status": "ask me about Nerima sometime. you won't believe it."
+   "status": "ask me about Nerima sometime. you won't believe it.",
+   "emotion": "Hunger"
   },
   "romanceable": true,
   "relationships": [
@@ -2891,7 +2909,8 @@
     "quirks": "sits facing the door, sharpens knives to think, counts exits",
     "arc": "unbending until trust is earned, then loyal past sense"
    },
-   "status": "don't."
+   "status": "don't.",
+   "emotion": "Fear"
   },
   "romanceable": true,
   "relationships": [
@@ -3084,7 +3103,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -3235,7 +3255,8 @@
     "quirks": "sketches on his own forearm, names his brushes, redraws the same bridge over and over",
     "arc": "unbending acid to the world, softens only for his people, would break every rule he owns for Rei"
    },
-   "status": "painting oji again. comes out wrong every time. don't text before noon."
+   "status": "painting oji again. comes out wrong every time. don't text before noon.",
+   "emotion": "Wonder"
   },
   "romanceable": true,
   "relationships": [
@@ -3376,7 +3397,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "warm mask over something colder"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Fear"
   },
   "romanceable": true,
   "relationships": [
@@ -3556,7 +3578,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "tea's on. third cup, then we talk."
+   "status": "tea's on. third cup, then we talk.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -3741,7 +3764,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "the cat decides. i just agree."
+   "status": "the cat decides. i just agree.",
+   "emotion": "Love"
   },
   "romanceable": true,
   "relationships": [
@@ -3886,7 +3910,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "unbending to the end, set like old concrete"
    },
-   "status": "keeping it boring on purpose."
+   "status": "keeping it boring on purpose.",
+   "emotion": "Fear"
   },
   "romanceable": true,
   "relationships": [
@@ -4049,7 +4074,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "still here. surprising everyone, me included."
+   "status": "still here. surprising everyone, me included.",
+   "emotion": "Hunger"
   },
   "romanceable": true,
   "relationships": [
@@ -4220,7 +4246,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "phone's on. sometimes."
+   "status": "phone's on. sometimes.",
+   "emotion": "Despair"
   },
   "romanceable": true,
   "relationships": [
@@ -4365,7 +4392,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "i found something! ...maybe. sorry if not."
+   "status": "i found something! ...maybe. sorry if not.",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -4524,7 +4552,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "first one's on the house."
+   "status": "first one's on the house.",
+   "emotion": "Grief"
   },
   "romanceable": true,
   "relationships": [
@@ -4678,7 +4707,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "softens slowly if you're patient and straight"
    },
-   "status": "favors aren't free."
+   "status": "favors aren't free.",
+   "emotion": "Shame"
   },
   "romanceable": false,
   "relationships": [
@@ -4826,7 +4856,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -4993,7 +5024,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "i remember everything. don't test me."
+   "status": "i remember everything. don't test me.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -5132,7 +5164,8 @@
     "quirks": "can't throw anything away",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Rage"
   },
   "romanceable": false,
   "relationships": [
@@ -5281,7 +5314,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "you know where to find me."
+   "status": "you know where to find me.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -5420,7 +5454,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -5537,7 +5572,8 @@
     "quirks": "keeps her things close, sizes exits, deflects with slang",
     "arc": "prickly comic toughness over a scared kid who softens if you stay"
    },
-   "status": "not a kid. don't."
+   "status": "not a kid. don't.",
+   "emotion": "Fear"
   },
   "romanceable": false,
   "relationships": [
@@ -5669,7 +5705,8 @@
     "quirks": "exquisite manners, never raises his voice, remembers every debt",
     "arc": "functional sociopath; will not break for sentiment, only for family"
    },
-   "status": "courtesy costs nothing."
+   "status": "courtesy costs nothing.",
+   "emotion": "Courage"
   },
   "romanceable": false,
   "relationships": [
@@ -5807,7 +5844,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "open till late. ask around."
+   "status": "open till late. ask around.",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -5952,7 +5990,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "leave me alone (jk. maybe.)"
+   "status": "leave me alone (jk. maybe.)",
+   "emotion": "Shame"
   },
   "romanceable": true,
   "relationships": [
@@ -6097,7 +6136,8 @@
     "quirks": "drifts off mid-sentence, borrows and forgets, always somewhere else",
     "arc": "adulterous by neglect, not malice; can't hold anything, including a promise"
    },
-   "status": "floating. brb"
+   "status": "floating. brb",
+   "emotion": "Hunger"
   },
   "romanceable": true,
   "relationships": [
@@ -6243,7 +6283,8 @@
     "quirks": "talks to people who aren't there and those who are, lucid in flashes",
     "arc": "comic-tragic relief, brilliant in the gaps, harmless and heartbreaking"
    },
-   "status": "the city talks if you'll listen."
+   "status": "the city talks if you'll listen.",
+   "emotion": "Despair"
   },
   "romanceable": false,
   "relationships": [
@@ -6387,7 +6428,8 @@
     "quirks": "checks who's watching, posture as armor",
     "arc": "hard front, soft core, would break the front to protect his sibling"
    },
-   "status": "we run this block."
+   "status": "we run this block.",
+   "emotion": "Love"
   },
   "romanceable": false,
   "relationships": [
@@ -6518,7 +6560,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "warm mask over something colder"
    },
-   "status": "tea and a chair, that's all i've got."
+   "status": "tea and a chair, that's all i've got.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -6646,7 +6689,8 @@
     "quirks": "remembers every drink order, lights cigarettes he barely smokes, mirrors everywhere",
     "arc": "sells intimacy nightly, starving for the real thing, could fall hard if seen"
    },
-   "status": "indulge yourself ☆ by request only."
+   "status": "indulge yourself ☆ by request only.",
+   "emotion": "Longing"
   },
   "romanceable": true,
   "relationships": [
@@ -6794,7 +6838,8 @@
     "quirks": "can't throw anything away",
     "arc": "softens slowly if you're patient and straight"
    },
-   "status": "open till late. ask around."
+   "status": "open till late. ask around.",
+   "emotion": "Longing"
   },
   "romanceable": true,
   "relationships": [
@@ -6946,7 +6991,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "the young ones never listen."
+   "status": "the young ones never listen.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -7077,7 +7123,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "unbending to the end, set like old concrete"
    },
-   "status": "mind your business and i'll mind mine."
+   "status": "mind your business and i'll mind mine.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -7196,7 +7243,8 @@
     "quirks": "counts change twice, always",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -7322,7 +7370,8 @@
     "quirks": "checks in too often, downplays his own troubles",
     "arc": "earnest, loyal, would do something reckless to help find Gin"
    },
-   "status": "gin's bro is basically my bro"
+   "status": "gin's bro is basically my bro",
+   "emotion": "Love"
   },
   "romanceable": false,
   "relationships": [
@@ -7443,7 +7492,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "been here longer than the buildings. ask nicely."
+   "status": "been here longer than the buildings. ask nicely.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -7575,7 +7625,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "same corner, same stool."
+   "status": "same corner, same stool.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -7705,7 +7756,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "six stools, one broth. come hungry."
+   "status": "six stools, one broth. come hungry.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -7830,7 +7882,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "same corner, same stool."
+   "status": "same corner, same stool.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -7956,7 +8009,8 @@
     "quirks": "wipes the same spot when thinking",
     "arc": "unbending to the end, set like old concrete"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Fear"
   },
   "romanceable": false,
   "relationships": [
@@ -8090,7 +8144,8 @@
     "quirks": "lines up coins on the counter",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "the young ones never listen."
+   "status": "the young ones never listen.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8229,7 +8284,8 @@
     "quirks": "counts change twice, always",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "i listen more than i talk."
+   "status": "i listen more than i talk.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8357,7 +8413,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": "i listen more than i talk."
+   "status": "i listen more than i talk.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8485,7 +8542,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "softens slowly if you're patient and straight"
    },
-   "status": "light a candle. then we talk."
+   "status": "light a candle. then we talk.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8605,7 +8663,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "open till late. ask around."
+   "status": "open till late. ask around.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8735,7 +8794,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "peace, if you'll take it."
+   "status": "peace, if you'll take it.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -8866,7 +8926,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "comic relief that hides a real loneliness"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Rage"
   },
   "romanceable": false,
   "relationships": [
@@ -8987,7 +9048,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "unbending to the end, set like old concrete"
    },
-   "status": "tea and a chair, that's all i've got."
+   "status": "tea and a chair, that's all i've got.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -9107,7 +9169,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "gruff now, melts once you've proven yourself"
    },
-   "status": "you know where to find me."
+   "status": "you know where to find me.",
+   "emotion": "Wonder"
   },
   "romanceable": false,
   "relationships": [
@@ -9232,7 +9295,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "the young ones never listen."
+   "status": "the young ones never listen.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -9358,7 +9422,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "trade me something good."
+   "status": "trade me something good.",
+   "emotion": "Despair"
   },
   "romanceable": false,
   "relationships": [
@@ -9479,7 +9544,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "faithful to a fault, won't stray no matter what"
    },
-   "status": "tea and a chair, that's all i've got."
+   "status": "tea and a chair, that's all i've got.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -9598,7 +9664,8 @@
     "quirks": "talks to the cat more than to people",
     "arc": "softens slowly if you're patient and straight"
    },
-   "status": "if i'm not here i'm at the baths."
+   "status": "if i'm not here i'm at the baths.",
+   "emotion": "Grief"
   },
   "romanceable": false,
   "relationships": [
@@ -9718,7 +9785,8 @@
     "quirks": "hums off-key when nervous",
     "arc": "warm mask over something colder"
    },
-   "status": "i have the book you're looking for. you don't know it yet."
+   "status": "i have the book you're looking for. you don't know it yet.",
+   "emotion": "Longing"
   },
   "romanceable": false,
   "relationships": [
@@ -9849,7 +9917,8 @@
     "quirks": "counts change twice, always",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "still kicking."
+   "status": "still kicking.",
+   "emotion": "Awe"
   },
   "romanceable": false,
   "relationships": [
@@ -9990,7 +10059,8 @@
     "quirks": "lingers at Itsuki's photo, speaks rarely and with weight",
     "arc": "unbending stone that would crack, just once, to get his son home"
    },
-   "status": ""
+   "status": "",
+   "emotion": "Love"
   },
   "romanceable": false,
   "tier": "Arbiter",
@@ -10087,7 +10157,8 @@
     "quirks": "keeps the radio on for company",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "your usual's ready."
+   "status": "your usual's ready.",
+   "emotion": "Fear"
   },
   "romanceable": false,
   "tier": "Sensitive",
@@ -10184,7 +10255,8 @@
     "quirks": "reads your damage before you speak, tea while she works",
     "arc": "gruff-warm constant; the one who never breaks, only tires"
    },
-   "status": "blue curtain. don't wait till it's bad."
+   "status": "blue curtain. don't wait till it's bad.",
+   "emotion": "Duty"
   },
   "romanceable": false,
   "tier": "Adept",
@@ -10280,7 +10352,8 @@
     "quirks": "violently early, hates lateness",
     "arc": "restless, the kind who'd stray and regret it"
    },
-   "status": "fresh anpan thursdays! close at six."
+   "status": "fresh anpan thursdays! close at six.",
+   "emotion": "Joy"
   },
   "romanceable": false,
   "tier": "The Null",
