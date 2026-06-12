@@ -185,6 +185,7 @@
   "backstory": [
    "Fukai Rinka was a registered clairsentient, thirty-eight, gentle, and good at her work — which is how Kishin found her. A ‘kishin’ is not a possessor of the screaming kind; it is a resident. It settled into Rinka the way mould settles into a wall that was always a little damp, and now ‘Kanna-sensei’ keeps a small practice where frightened sensitives come for tea and counsel and leave a little emptier without knowing why.",
    "Kishin is useful to Rei and dangerous in the same breath: it has been inside the city’s hidden community for years and knows who is crossing, who is hunting, and where the Grid bleeds into the cults. It will trade real knowledge — for a price measured in the things it feeds on. Rinka is still present enough to flinch. Sometimes, mid-sentence, she surfaces and tries to warn you, and Kishin smooths her back under with a hostess’s smile.",
+   "Refinement — the long meal. The Far-Shore Circle is not a metaphor: Kishin is feeding toward becoming the Inverted God, the dark mirror of the Axis. Where the Axis holds the membrane shut, the Inverted God would tear it open and rule what pours through. Every grieving member hollowed at a ‘letting-go’ circle is a spoonful toward that ascent, and Yushiro is hunting Kishin precisely because two ends of the same catastrophe cannot both be reached. If Kishin ascends, the war between the thirteen demons and the thirteen strongest mediums begins. Kanna-sensei pours the tea and counts the months.",
    "A mirror for Gin: another good person worn like a coat, except no brother is coming to read this one’s Archive."
   ],
   "quest": {
@@ -536,6 +537,7 @@
   "backstory": [
    "Yushiro is a top-grade of the Duty register, Arbiter-class and a hair short of crossing fully when it took Gin. It does not present as a monster. It presents as the most reasonable man in the room — ‘the Healer’ — a voice that frames every escalation as an obligation already owed. Duty is the cruellest register precisely because it never asks the host to want something selfish. It asks the host to do what is right, and then quietly edits what ‘right’ means.",
    "It wants the Thirteenth Seat. A register without an occupant is an open wound in the order of the Domains, and Yushiro intends to be the one that closes it — to stop being a demon riding a man and become a fixed power with a place at the table. Gin is the vehicle because Gin’s suppression makes him invisible and his conscience makes him steerable.",
+   "It is building toward a slaughter and calls it mercy. To discharge the interrupted Duty and close the vacant Seat, Yushiro intends to thin the Kita membrane until the living and the dead are no longer kept apart — to let the drowned, the unfound, the whole grieving weight of 2011 come back through at once. In its arithmetic this is not murder; it is a debt finally paid, the dead given their due and the living made to remember. A district would die in a night and Yushiro would feel only that an obligation had been met. That is the horror of the Duty register: it will commit the worst thing imaginable and never once believe it did wrong.",
    "Yushiro is one of two. The other — the cult’s demon, the Inverted-God aspirant — wants no seat at the table; it wants to overturn the table. Against that, Yushiro can almost look like the lesser harm. That ‘almost’ is the trap."
   ],
   "quest": {
@@ -547,7 +549,7 @@
     "Find the rite that fixes a crosser into a vacant register — and what it costs the host.",
     "Decide whether a fixed Yushiro is a bulwark against the cult demon or a worse throne."
    ],
-   "payoff": "The two-demon structure means defeating Yushiro can hand the board to something far hungrier. Outcomes range from a clean exorcism to a devil’s alliance."
+   "payoff": "The two-demon structure means defeating Yushiro can hand the board to something far hungrier. The clock is the slaughter it is preparing; outcomes range from a clean exorcism, to stopping the merging at the last hour, to a devil’s alliance that lets it happen to save Gin."
   },
   "entity": true,
   "tier": "Guardian",

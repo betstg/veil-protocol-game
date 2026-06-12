@@ -179,6 +179,7 @@
  <button class="dockbtn" onclick="openV('notepad')"><span class="ic">✎</span>Notepad</button>
  <button class="dockbtn hidden" id="dock-book" onclick="openV('book')"><span class="ic">▤</span>Gin's Book</button>
  <button class="dockbtn" onclick="openV('phone')"><span class="ic">▢</span>Phone</button>
+ <button class="dockbtn" onclick="openV('shop')"><span class="ic">🐾</span>Mediums</button>
 </div>
 
 <div class="overlay" id="ov-profile"><div class="sheet"><div class="sheet-h"><h2>Rei Uedera</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="profileBody"></div></div></div>
@@ -188,6 +189,7 @@
 <div class="overlay" id="ov-phone"><div class="phone" style="position:relative"><div class="ph-status" onclick="showLock()" style="cursor:pointer" title="Lock screen"><span id="ph-clock">03:47</span><span>● ▮▮▮ 86%</span></div><div class="ph-screen" id="phScreen"></div><div class="ph-tabbar" id="phTabbar"></div><div id="phLock" onclick="hideLock()" style="display:none;position:absolute;inset:0;z-index:60;background:#15110a;color:#fff;cursor:pointer;overflow:hidden"><img src="images/rei.jpg" alt="" onerror="this.style.display='none'" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.05) 32%,rgba(0,0,0,.12) 68%,rgba(0,0,0,.62) 100%)"></div><div style="position:absolute;top:46px;left:0;right:0;text-align:center;text-shadow:0 2px 12px rgba(0,0,0,.7)"><div id="lockClock" style="font-size:60px;font-weight:300;letter-spacing:1px;font-family:-apple-system,Helvetica,sans-serif">03:47</div><div id="lockDate" style="font-size:14px;opacity:.95;margin-top:2px">Thu, 27 Aug 2015</div></div><div style="position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:11px;opacity:.85;font-family:monospace;text-shadow:0 1px 8px rgba(0,0,0,.8)">tap to unlock ▲</div></div></div></div>
 <div class="overlay" id="ov-chapters"><div class="drawer"><div class="sheet-h"><h2>Journal</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="chaptersBody"></div></div></div>
 <div class="overlay" id="ov-fight"><div class="sheet"><div class="sheet-h"><h2>Encounter</h2><button class="x" onclick="closeFight()">✕</button></div><div class="sheet-b" id="fightBody"></div></div></div>
+<div class="overlay" id="ov-shop"><div class="sheet"><div class="sheet-h"><h2>Animal-Medium Broker</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="shopBody"></div></div></div>
 <div id="ov-map"><div id="map-bar"><h3>Tokyo</h3><span id="map-date" style="font-family:monospace;font-size:11px;color:var(--dim)"></span><button class="x" onclick="mapZoom(1.25)">+</button><button class="x" onclick="mapZoom(0.8)">−</button><button class="x" onclick="closeMap()">✕ Close</button></div><div id="bigmap"></div><div id="mapModal"></div></div>
 
 <!--VP:CONTENT-->
@@ -197,8 +199,8 @@ const PATHS=['Clairsentience','Telepathy','Telekinesis','Psychometabolism','Psyc
 const G = {
  day:1, min:3*60+47, xp:4, xpMax:10,
  player:{
-  name:'Rei Uedera', hp:[40,40], stability:100, madness:8, veil:12, money:38400, at:'Home', atId:'home', attack:0,
-  rank:'D', registered:false, standing:{cvd:0,grid:0,tower:0}, /* you present as a low Sensitive; doors open with standing, registration or an escort */
+  name:'Rei Uedera', hp:[40,40], stability:100, madness:8, veil:12, money:38400, tickets:6, at:'Home', atId:'home', attack:0,
+  rank:'D', registered:false, standing:{cvd:0,grid:0,tower:0}, companions:[], /* you present as a low Sensitive; doors open with standing, registration or an escort */
   attributes:{ Body:2, Wits:3, Perception:3, Composure:2, Charisma:2, Resolve:2 }, /* baseline: never below 2, even a brand-new character starts with floor points */
   humanSkills:{ Investigation:2, Social:2, Stealth:1, Combat:1, 'Symbol Work':1, Research:2 },
   paths:{
@@ -338,7 +340,7 @@ function meet(id){if(G.contacts[id])G.contacts[id].known=true;(REVEAL[id]||[]).f
 // ---- channel for the NPC agent: 'line' (text) vs 'person' (face to face) ----
 var _chan='line';
 function peopleHere(pid){var out=[];for(var id in G.contacts){if(whereNow(id)===pid)out.push(id);}return out;}
-function talkInPerson(id){var c=G.contacts[id];if(!c)return;var first=!c.known;if(first){meet(id);c.history=[['sys','... you introduce yourself ...']];}_chan='person';nav(function(){phChat(id);});}
+function talkInPerson(id){var c=G.contacts[id];if(!c)return;var first=!c.known;if(first){meet(id);c.history=[['sys','You step up to them. You have not met before — you introduce yourself.']];}personScene(id);}
 
 
 /* =================== SCENE =================== */
@@ -505,6 +507,7 @@ function openV(name){closeV();
  if(name==='notepad')renderNotes();
  if(name==='book')renderBook();
  if(name==='phone')phoneHome();
+ if(name==='shop')renderShop();
  document.getElementById('ov-'+name).classList.add('show');
 }
 function closeV(){document.querySelectorAll('.overlay').forEach(o=>o.classList.remove('show'));}
@@ -615,6 +618,7 @@ function renderProfile(){
  h+=statBar('Madness',p.madness,100,'#b65a4c',TIPS.Madness);
  h+=statBar('Veil-thinness · around you',p.veil,100,'#9a6ab6',TIPS.Veil);
  h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
+ h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' tickets</span></div>';
  h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
  var _st=p.standing||{cvd:0,grid:0,tower:0};
@@ -634,7 +638,30 @@ function renderProfile(){
  h+='<p style="color:var(--dim);font-style:italic;font-size:12px;margin-top:10px">Tap a bar for what it means; tap an item for its description. Where you stand with people lives on <b>their</b> profile... open someone in Messages.</p>';
  document.getElementById('profileBody').innerHTML=h;
 }
-function showItem(i){ const it=G.player.inventory[i]; document.getElementById('itemDesc').innerHTML='<b style="color:var(--gold)">'+it.n+'</b>... '+it.d; }
+function showItem(i){ const it=G.player.inventory[i]; var u=it.use?(' <button class="btn" style="margin-left:8px;padding:2px 10px" onclick="useItem('+i+')">Use</button>'):''; document.getElementById('itemDesc').innerHTML='<b style="color:var(--gold)">'+it.n+'</b>... '+it.d+u; }
+function renderShop(){ var p=G.player, list=(DB.shop_animals||[]), owned=(p.companions||[]).map(function(c){return c.id;});
+ var h='<p style="color:var(--dim);font-style:italic;font-size:12px;margin:0 0 8px">Vacant, already-trained animal-mediums. Each performs a ritual and aids missions. Paid in <b>money + tickets</b>.</p>';
+ h+='<div style="font-family:var(--mono);font-size:12px;color:var(--gold);margin-bottom:10px">Your wallet: ¥'+(p.money||0).toLocaleString()+' · '+(p.tickets||0)+' tickets</div>';
+ if(!list.length){ h+='<p style="color:var(--dim)">The broker is not reachable right now.</p>'; }
+ list.forEach(function(s){ var have=owned.indexOf(s.id)>=0; var canM=(p.money||0)>=s.price.money, canT=(p.tickets||0)>=s.price.tickets; var ok=canM&&canT;
+  h+='<div style="border:1px solid var(--bdr);border-radius:8px;padding:10px 12px;margin:8px 0;background:#0e0b08">';
+  h+='<div style="display:flex;justify-content:space-between;align-items:baseline"><b style="font-family:Cinzel,serif;color:var(--text)">'+s.name+'</b><span style="font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase">'+s.species+'</span></div>';
+  h+='<div style="font-family:var(--mono);font-size:11px;color:'+(ok?'var(--gold)':'#b65a4c')+';margin:2px 0 6px">¥'+s.price.money.toLocaleString()+' · '+s.price.tickets+' tickets</div>';
+  h+='<div style="font-size:12px;color:var(--text);margin:2px 0"><b style="color:var(--dim)">Ritual</b> '+s.ritual+'</div>';
+  h+='<div style="font-size:12px;color:var(--text);margin:2px 0"><b style="color:var(--dim)">Mission</b> '+s.mission+'</div>';
+  h+='<div style="font-size:11.5px;color:var(--dim);font-style:italic;margin:4px 0 8px">'+s.blurb+'</div>';
+  h+=have?'<div style="font-family:var(--mono);font-size:11px;color:#8fae74">✓ Bonded — travels with you.</div>'
+        :'<button class="btn" '+(ok?'':'disabled style="opacity:.45;cursor:default"')+' onclick="buyMedium(\''+s.id+'\')">'+(ok?'Acquire':'Not enough')+'</button>';
+  h+='</div>';
+ });
+ document.getElementById('shopBody').innerHTML=h;
+}
+function buyMedium(id){ var p=G.player, s=(DB.shop_animals||[]).find(function(x){return x.id===id;}); if(!s)return;
+ if((p.money||0)<s.price.money||(p.tickets||0)<s.price.tickets)return;
+ p.money-=s.price.money; p.tickets-=s.price.tickets; if(!p.companions)p.companions=[];
+ p.companions.push({id:s.id,name:s.name,species:s.species,ritual:s.ritual,mission:s.mission});
+ renderTop&&renderTop(); renderShop(); saveG();
+}
 
 let SELPATH=null;
 const LBL={Clairsentience:'Clair',Telepathy:'Telep',Telekinesis:'Telek',Psychometabolism:'Meta',Psychokinesis:'P.Kin',Teleportation:'Port'};
@@ -981,6 +1008,30 @@ function applyNpcEvent(id,ev,c){
    c.history.push(['sys','✦ '+nm+' put you in touch with '+esc(G.contacts[cid].name)+(w?'':'... new contact')]); gameToast('✦ New contact: '+G.contacts[cid].name); gainXP(2); }
   return; }
 }
+/* ---- in-person conversation: GM-narrated, on the MAIN screen (not the phone) ---- */
+function _curPlace(){ return (typeof currentPlaceId==='function')?currentPlaceId():null; }
+function _personActive(id){ return _chan==='person' && window._personChat===id && !!document.getElementById('readBody'); }
+function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat=id; _chan='person'; closeV();
+ var pid=_curPlace(); var pl=pid&&(typeof placeById==='function'?placeById(pid):null); var where=pl?(' · '+esc(pl.name)):'';
+ var log='';
+ (c.history||[]).forEach(function(m){
+  if(m[0]==='sys'){ log+='<div style="text-align:center;font-size:11px;color:var(--dim);font-style:italic;margin:7px 0">'+m[1]+'</div>'; }
+  else if(m[0]==='me'){ log+='<p style="color:var(--gold);margin:7px 0"><b>You</b> &mdash; '+m[1]+'</p>'; }
+  else { log+='<p style="margin:7px 0">'+m[1]+'</p>'; }
+ });
+ var rb=document.getElementById('readBody');
+ rb.innerHTML='<div class="scimg" style="margin:0 0 10px;padding:12px 14px"><div class="lb">'+esc(c.name)+'</div><div class="sub">Face to face'+where+' · '+fmt(G.min)+'</div></div>'+log;
+ linkifyNames(rb);
+ var cw=document.getElementById('readChoices');
+ cw.innerHTML='<div style="display:flex;gap:6px;width:100%;margin-bottom:7px"><input id="pci" placeholder="Say or do something…" style="flex:1;background:#15110a;border:1px solid var(--bdr);border-radius:8px;padding:9px 11px;color:var(--text);font-size:14px" onkeydown="if(event.key===\'Enter\')sayPerson(\''+id+'\')"><button class="choice" style="margin:0;width:auto" onclick="sayPerson(\''+id+'\')">Say ›</button></div><button class="choice" style="margin:0" onclick="leavePerson()">↩ Step away</button>';
+ rb.scrollTop=rb.scrollHeight;
+}
+function sayPerson(id){ var inp=document.getElementById('pci'); if(!inp)return; var t=inp.value.trim(); if(!t)return; var c=G.contacts[id]; c.history.push(['me',t,stampNow()]); inp.value=''; personScene(id);
+ var rb=document.getElementById('readBody'); if(rb){ var tip=document.createElement('p'); tip.style.cssText='color:var(--dim);font-style:italic;margin:7px 0'; tip.textContent=c.name+' takes you in…'; rb.appendChild(tip); rb.scrollTop=rb.scrollHeight; }
+ if(_npcTimers[id])clearTimeout(_npcTimers[id]); _npcTimers[id]=setTimeout(function(){npcReply(id);},1200);
+}
+function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='line'; if(pid&&typeof placeArrival==='function'){ openV('phone'); placeArrival(pid); } else { renderScene(); } }
+function _renderConvo(id){ if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { gameToast('✉ '+G.contacts[id].name+' replied'); } }
 function npcReply(id){const c=G.contacts[id];
  var msgs=[];for(var i=c.history.length-1;i>=0;i--){if(c.history[i][0]==='sys')continue;if(c.history[i][0]==='me')msgs.unshift(c.history[i][1].replace(/<[^>]+>/g,''));else break;}
  if(!msgs.length)return;
@@ -991,7 +1042,7 @@ function npcReply(id){const c=G.contacts[id];
  fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'npc',prompt:prompt,context:ctx})})
   .then(function(r){return r.json();})
   .then(function(j){AI_OK=true;var raw=(j&&j.text)?j.text.trim():'';
-   if(raw&&/\[\[asleep\]\]/i.test(raw)){queueWake(id);if(_chatOpen(id))phChat(id);return;}
+   if(raw&&/\[\[asleep\]\]/i.test(raw)){queueWake(id);_renderConvo(id);return;}
    var bad=(!raw||raw==='…'||/could not be reached|Warden is silent/i.test(raw));var txt=bad?(fb[id]||'…'):raw;
    if(bad){c.history.push(['sys','(AI error: '+((j&&j.err)?esc(j.err):'returned nothing... is your key valid?')+')']);}
    var applied=0;if(!bad&&j&&typeof j.relDelta==='number'){applied=bumpRel(id,Math.max(-5,Math.min(5,j.relDelta)));}
@@ -1004,8 +1055,8 @@ function npcReply(id){const c=G.contacts[id];
    var reason=(!bad&&j&&j.reason&&j.reason.trim())?('... '+j.reason.trim()):'';
    if(learned)c.history.push(['sys','◆ '+c.name+' now knows: '+esc(learned)]);
    if(applied)c.history.push(['sys',(applied>0?'▲ '+c.name+' warmed (+'+applied+')':'▼ '+c.name+' cooled ('+applied+')')+esc(reason)]);
-   if(_chatOpen(id))phChat(id);else gameToast('✉ '+c.name+' replied');})
-  .catch(function(){AI_OK=false;c.history.push(['them',fb[id]||'…']);c.history.push(['sys','(AI backend offline... start the server)']);phChat(id);});
+   _renderConvo(id);})
+  .catch(function(){AI_OK=false;c.history.push(['them',fb[id]||'…']);c.history.push(['sys','(AI backend offline... start the server)']);_renderConvo(id);});
 }
 function phQuests(){quTab('active');}
 function quTab(tab){let h=phbar('Quests')+'<div class="ph-tabs"><button class="'+(tab==='active'?'on':'')+'" onclick="quTab(\'active\')">Active</button><button class="'+(tab==='arch'?'on':'')+'" onclick="quTab(\'arch\')">Archived</button></div><div class="ph-body" style="padding:4px 0">';const list=G.quests.filter(q=>tab==='arch'?q.arch:!q.arch);if(!list.length)h+='<p style="color:var(--ph-dim);font-size:12px;font-style:italic;padding:0 14px">Nothing here.</p>';list.forEach(q=>{h+='<div class="quest"><div class="qt">'+q.title+'</div>';q.steps.forEach(s=>h+='<div class="step'+(s.done?' done':'')+'">'+(s.done?'✓ ':'○ ')+s.t+'</div>');h+='</div>';});h+='</div>';ph(h);}
@@ -1218,7 +1269,7 @@ function mergePlacesFromDB(){(DB.places||[]).forEach(function(dp){var g=G.places
 function rebuildSchedFromDB(){for(var id in G.contacts){var c=G.contacts[id];var ch=charForContact(c);if(!ch)continue;var home=linkTo(ch,'lives_at');var work=linkTo(ch,'works_at');if(!SCHED[id])SCHED[id]={b:[]};if(home)SCHED[id].home=home;if(work&&(!SCHED[id].b||!SCHED[id].b.length))SCHED[id].b=[[9,18,work]];}}
 var _reconciled=false;
 function reconcilePlacement(){if(_reconciled)return;if(!(DB.characters&&DB.characters.length&&DB.places&&DB.places.length))return;_reconciled=true;buildCharIndex();mergePlacesFromDB();rebuildSchedFromDB();}
-function loadDB(){['entities','ranks','thirteen','factions','characters','places'].forEach(function(f){fetch('veil-data/'+f+'.json').then(function(r){return r.ok?r.json():null;}).then(function(j){if(j&&j.length){DB[f]=j;if(f==='characters')buildPersonaIndex();reconcilePlacement();}}).catch(function(){});});}
+function loadDB(){['entities','ranks','thirteen','factions','characters','places','shop_animals'].forEach(function(f){fetch('veil-data/'+f+'.json').then(function(r){return r.ok?r.json():null;}).then(function(j){if(j&&j.length){DB[f]=j;if(f==='characters')buildPersonaIndex();reconcilePlacement();}}).catch(function(){});});}
 function entityById(id){return (DB.entities||ENTITIES_FALLBACK).find(function(e){return e.id===id;})||ENTITIES_FALLBACK.find(function(e){return e.id===id;});}
 function d6(){return 1+Math.floor(Math.random()*6);}
 function bestPath(){var b=0,n='...';for(var k in G.player.paths){if(G.player.paths[k].lvl>b){b=G.player.paths[k].lvl;n=k;}}return {lvl:b,name:n};}
@@ -1249,7 +1300,20 @@ function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Mat
  }
  document.getElementById('fightBody').innerHTML=h;
 }
-function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb');if(text)FIGHT.log.push(text);if(result==='banish'||result==='exorcise'||result==='absorb'){gainXP(GRADE_XP[FIGHT.e.grade]||3);}renderTop();renderFight();saveG();}
+function addItem(it){ G.player.inventory.push(it); }
+function _rnd(a,b){ return a+Math.floor(Math.random()*(b-a+1)); }
+function rollLoot(e){ // monster/vessel loot — never NPCs. Data shape: entities.json[].loot
+ if(!e||!e.loot){ return; } var L=e.loot, p=G.player, got=[];
+ if(L.money){ var m=_rnd(L.money.min,L.money.max); p.money+=m; got.push('¥'+m.toLocaleString()); }
+ if(L.tickets && Math.random()<L.tickets.chance){ var tk=_rnd(L.tickets.min,L.tickets.max); p.tickets=(p.tickets||0)+tk; got.push(tk+' ticket'+(tk>1?'s':'')); }
+ if(L.cigarettes && Math.random()<L.cigarettes.chance){ var q=L.cigarettes.qty?_rnd(L.cigarettes.qty[0],L.cigarettes.qty[1]):1; addItem({n:'Cigarettes ×'+q,e:'🚬',d:'Steady the nerves. Use to lower Madness 3–6.',use:'cig',qty:q}); got.push('cigarettes ×'+q); }
+ if(L.trappedSpirit && Math.random()<L.trappedSpirit.chance){ addItem({n:'Spirit-bound object',e:'🫙',d:'A '+(e.register||'')+' spirit is caught inside this object — an artifact now.',artifact:true}); got.push('a trapped-spirit object (artifact!)'); }
+ if(L.cursedJewelry && Math.random()<L.cursedJewelry.chance){ addItem({n:'Cursed ring',e:'💍',d:'Low-power artifact. Worn, it thins the veil around you slightly.',artifact:true,veil:3}); got.push('a cursed ring (artifact)'); }
+ if(L.premium && Math.random()<L.premium.chance){ addItem({n:'Premium relic',e:'🏺',d:'A rare object carried by a premium vessel.',artifact:true,premium:true}); got.push('a PREMIUM relic'); }
+ if(got.length){ FIGHT.log.push('Loot: '+got.join(' · ')+'.'); }
+}
+function useItem(i){ var p=G.player, it=p.inventory[i]; if(!it)return; if(it.use==='cig'){ var d=_rnd(3,6); p.madness=Math.max(0,p.madness-d); p.inventory.splice(i,1); var el=document.getElementById('itemDesc'); if(el)el.innerHTML='<b style="color:var(--gold)">You light one.</b> Madness −'+d+'.'; renderTop(); if(typeof renderProfile==='function'&&document.getElementById('profileBody'))renderProfile(); saveG(); } }
+function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb');if(text)FIGHT.log.push(text);if(FIGHT.won){gainXP(GRADE_XP[FIGHT.e.grade]||3);rollLoot(FIGHT.e);}renderTop();renderFight();saveG();}
 function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
  if(a==='flee'){p.madness=Math.min(100,p.madness+1);fightEnd('flee','You break away. It does not follow... this time.');return;}
  if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike... '+dmg+' to its presence.');}
