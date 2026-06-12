@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veil Protocol — Progression &amp; Economy · v0.2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Crimson+Pro:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{--gold:#C9A84C;--bg:#0c0a08;--panel:#15110c;--panel2:#1a140c;--blood:#6e2b20;--red:#b65a4c;
+    --text:#d9cdba;--dim:#8a7d68;--green:#8fae74;--bdr:#3a2f22;
+    --serif:'Crimson Pro',Georgia,serif;--display:'Cinzel',serif;--mono:'Special Elite',monospace;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.6;background-image:radial-gradient(circle at 50% -8%,#181208 0%,#0c0a08 55%);}
+  .wrap{max-width:860px;margin:0 auto;padding:30px 22px 90px}
+  h1{font-family:var(--display);font-size:26px;color:var(--gold);letter-spacing:1px;margin:0}
+  h2{font-family:var(--display);font-size:17px;color:var(--gold);letter-spacing:1px;margin:30px 0 8px;border-bottom:1px solid var(--bdr);padding-bottom:6px}
+  h2 .k{font-family:var(--mono);font-size:11px;color:var(--blood);margin-right:8px}
+  h3{font-family:var(--display);font-size:13px;color:var(--green);letter-spacing:1px;margin:16px 0 4px}
+  .eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:3px;color:var(--dim);text-transform:uppercase}
+  .sub{color:var(--dim);font-style:italic}
+  .lead{border-left:3px solid var(--blood);padding:8px 0 8px 16px;margin:14px 0;font-size:16px}
+  b{color:var(--gold)} em{color:var(--text)}
+  ul{margin:6px 0;padding-left:20px}li{margin:5px 0}
+  table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}
+  td,th{border:1px solid var(--bdr);padding:7px 9px;text-align:left;vertical-align:top}
+  th{font-family:var(--mono);font-size:9.5px;letter-spacing:1px;color:var(--gold);background:var(--panel2)}
+  .canon{display:inline-block;font-family:var(--mono);font-size:8.5px;letter-spacing:1px;color:var(--green);border:1px solid #2f4a2f;border-radius:3px;padding:2px 6px;margin-left:6px}
+  .new{display:inline-block;font-family:var(--mono);font-size:8.5px;letter-spacing:1px;color:var(--gold);border:1px solid #5a4a20;border-radius:3px;padding:2px 6px;margin-left:6px}
+  .mod{display:inline-block;font-family:var(--mono);font-size:8.5px;letter-spacing:1px;color:var(--red);border:1px solid #5a2a22;border-radius:3px;padding:2px 6px;margin-left:6px}
+  .decide{background:#1a0f0c;border:1px dashed var(--blood);border-radius:7px;padding:13px 16px;margin:14px 0}
+  .decide .lock{font-family:var(--mono);font-size:10px;letter-spacing:2px;color:var(--red)}
+  .foot{font-size:12px;color:var(--dim);font-style:italic}
+  code{font-family:var(--mono);font-size:11px;color:var(--green)}
+  .pill{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:1.5px;color:var(--gold);border:1px solid var(--bdr);border-radius:3px;padding:3px 8px;margin-right:5px}
+  .loop{background:var(--panel);border:1px solid var(--bdr);border-radius:8px;padding:12px 15px;margin:12px 0;font-size:14px}
+  .track{background:var(--panel);border:1px solid var(--gold);border-radius:8px;padding:12px 15px;margin:10px 0}
+  .track .tt{font-family:var(--display);color:var(--gold);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="eyebrow">Veil Protocol · Playable Edition</div>
+<h1>Progression &amp; Economy</h1>
+<p class="sub">Working spec · v0.2 · three growth tracks, a rising world</p>
+<div style="margin:10px 0"><span class="pill">grow by living</span><span class="pill">grow by use</span><span class="pill">spend XP on skills</span><span class="pill">power = a brighter target</span></div>
+<p style="margin:8px 0"><span class="canon">CANON</span> in the book &nbsp; <span class="new">NEW</span> added &nbsp; <span class="mod">CHANGED</span> overrides a book rule</p>
+
+<p class="lead">Three things grow three different ways. <b>Attributes grow by living</b> (your habits). <b>Ability paths grow by use</b> (do the thing). <b>Skills are bought with XP</b> (earned from successful work). And the stronger you get, the <b>thinner the veil around you</b> — so the world rises to meet you.</p>
+
+<h2><span class="k">1</span>The Dice — two kinds of roll <span class="canon">CANON</span></h2>
+<p>A d6 pool; <b>4+ = success</b>; 0 / 1 / 2 / 3+ = fail / partial / solid / strong.</p>
+<ul>
+  <li><b>Ability roll</b> = <code>Rank dice + Path level</code>. Stability loss removes rank dice from the pool.</li>
+  <li><b>Human roll</b> = <code>Attribute + Skill</code> — e.g. <em>Body + Combat</em> to trade punches, <em>Charisma + Social</em> to charm a witness.</li>
+</ul>
+
+<h2><span class="k">2</span>Track 1 — Attributes <span style="font-size:12px;color:var(--green)">grow by living</span> <span class="new">NEW</span></h2>
+<p>The flat human capacities. You do <b>not</b> buy them — they rise from <b>how you act and what you choose</b>. Charm people and Charisma climbs; fight and Body climbs; keep your nerve and Composure climbs. Six of them:</p>
+<table>
+<tr><th>Attribute</th><th>Covers</th><th>Grows when you…</th></tr>
+<tr><td><b>Body / Athletics</b></td><td>Run, climb, endure, exchange punches, take a hit</td><td>fight, chase, push your body</td></tr>
+<tr><td><b>Wits</b></td><td>Reason, react, connect clues fast</td><td>solve, deduce, think on your feet</td></tr>
+<tr><td><b>Perception</b></td><td>Notice — the tell, the wrong detail, the tail</td><td>observe, search, catch what's off</td></tr>
+<tr><td><b>Composure</b></td><td>Hold steady under fear; resist Noise / Madness</td><td>stay calm when it would be easier not to</td></tr>
+<tr><td><b>Charisma</b></td><td>Charm, persuade, intimidate, read &amp; move people</td><td>flirt, talk, lead, lie well</td></tr>
+<tr><td><b>Resolve</b></td><td>Push past your limit; resist possession; spend to hold on</td><td>refuse to quit, hold a line, endure</td></tr>
+</table>
+<p class="foot">Habit-driven, like a life leaving its marks. The way you play Rei <em>becomes</em> who Rei is.</p>
+
+<h2><span class="k">3</span>Track 2 — Ability Paths <span style="font-size:12px;color:var(--green)">grow by use</span> <span class="mod">CHANGED</span></h2>
+<p>Six paths × 10 levels. You do <b>not</b> spend XP on them. <b>Using a path makes it grow</b> — read scenes and Clairsentience climbs; nudge minds and Telepathy climbs. (The book costed levels at 100 XP; we replace that with a <b>usage threshold per level</b> — the more demanding the use, the more it counts.)</p>
+<ul>
+  <li><b>Opening a path</b> <span class="canon">CANON</span> — not grindable, not bought. A <b>recognition event</b> the campaign triggers. Rei: Clairsentience open, a 2nd dormant. Once open, it grows by use.</li>
+  <li><b>L4 and above</b> <span class="canon">CANON</span> — still gated by a <b>narrative unlock</b>; raw usage gets you to the door, the story opens it.</li>
+  <li><b>Path skills</b> (the wheel's techniques) <span class="new">NEW</span> — unlock as the path levels; the wheel is the UI.</li>
+  <li><b>Multi-path tension</b> <span class="canon">CANON</span> — every open path beyond the first = <b>+5 Noise, permanently</b>. More range, more attention. This feeds the rising-world loop (§6).</li>
+</ul>
+
+<h2><span class="k">4</span>Track 3 — Skills, and the XP pool <span class="mod">CHANGED</span></h2>
+<p><b>XP is one pool</b>, earned from successful work, and it is spent on <b>one thing: your learned Human Skills</b> — Investigation, Social, Stealth, Combat, Symbol Work, Research. (The book let XP buy everything; here XP is the <em>skills</em> currency only. Attributes grow by living, paths by use.)</p>
+<table>
+<tr><th>XP comes from <span class="canon">CANON sources</span></th><th></th></tr>
+<tr><td>Quest scene (scales with act / danger)</td><td>50–150</td></tr>
+<tr><td>Side quest · gig (needs a +1 relationship)</td><td>20–80</td></tr>
+<tr><td>Clue (+25 if it connects two notebook entries)</td><td>15–25</td></tr>
+<tr><td>Archive read · phone lead</td><td>5–20</td></tr>
+<tr><td>Mundane read — <em>is the husband cheating?</em></td><td>small gig XP <span class="new">+ grows Clairsentience by use</span></td></tr>
+<tr><td>Normalcy (a drink, sleep, painting with Itsuki)</td><td>0 XP · lowers Madness</td></tr>
+</table>
+<p class="foot">Note the mundane read pays twice on different tracks: a little XP to the pool, and Clairsentience growth from the using. That's the model in one line.</p>
+
+<h2><span class="k">5</span>Rank — and why power is dangerous <span class="mod">CHANGED</span></h2>
+<p><b>The ladder</b> <span class="canon">CANON</span>: Sensitive → Ritualist → Channel → Arbiter → Vanguard (→ Singularity). Rank = the rank dice in your pool, gated by path levels + narrative events.</p>
+<div class="track"><div class="tt">The rising world</div>
+<p style="margin:6px 0 0">You did not want a taper — you want the opposite, and it's better. <b>The veil is thinner around stronger mediums.</b> So as Rei rises:</p>
+<ul style="margin:6px 0 0">
+<li>bigger demons and spirits are <b>drawn to him</b> — he shines through the veil and the hungry things notice;</li>
+<li>the quests get <b>harder and pay more XP</b>;</li>
+<li>and the <b>numbers climb with him</b> — the thresholds, the DCs, the bars all scale up.</li>
+</ul>
+<p style="margin:6px 0 0">Growing strong is not getting safe. It is becoming a brighter target in a darker room.</p></div>
+
+<h2><span class="k">6</span>The Veil-Balance loop — the bars <span class="new">+ CANON</span></h2>
+<p>Re-explaining the one you flagged. The "veil meter" is simply: <b>how thin is the veil around Rei right now.</b> It is not a map of districts — it's <em>him</em>. It rises with his rank, his open paths (+5 Noise each), and his recent power use; it falls when he lies low and stays ordinary.</p>
+<div class="loop"><b>The loop:</b> use power → solve the scene, but raise <b>Noise</b> (→ Architect attention / Correction <span class="canon">CANON</span>) and <b>thin the veil around you</b> → thinner veil <b>draws more and stronger entities to you</b> → harder fights, bigger rewards, more chaos. Power buys the moment and bills the next one. The skill is knowing when to spend and when to go be a normal nineteen-year-old for a day.</div>
+<p>The three bars: <b>Stability</b> (short — each use spends it; empty pulls rank dice) <span class="canon">CANON</span> · <b>Madness</b> (long — lowered only by normalcy) <span class="canon">CANON</span> · <b>Veil-thinness around you</b> (the spawn driver above) <span class="new">NEW</span>.</p>
+
+<h2><span class="k">7</span>The Spawn &amp; Activity economy <span class="new">NEW, on CANON</span></h2>
+<p>Entities arrive driven by <b>your veil-thinness + rank + time</b> (Obon spikes it) <b>+ story</b>. Each thing you do feeds the right track:</p>
+<table>
+<tr><th>Activity</th><th>XP pool</th><th>Grows by use</th></tr>
+<tr><td>Exorcise a demon in a human body</td><td>High</td><td>the path(s) used + Composure (attr)</td></tr>
+<tr><td>Clear / guide a spirit</td><td>Med</td><td>Clairsentience / the path used</td></tr>
+<tr><td>Set a trap or ward</td><td>Med</td><td>Symbol Work (skill, via XP) + Wits</td></tr>
+<tr><td>Travel into the veil / a pocket</td><td>Med-High</td><td>Teleportation / the path that carried you</td></tr>
+<tr><td>Charm / interrogate a contact</td><td>small</td><td>Charisma (attr) + Social (skill)</td></tr>
+<tr><td>A fight</td><td>varies</td><td>Body (attr) + Combat (skill)</td></tr>
+<tr><td>Mundane read (the cheating husband)</td><td>gig XP</td><td>Clairsentience</td></tr>
+</table>
+
+<h2><span class="k">9</span>The numbers, updated <span class="mod">CHANGED</span></h2>
+<ul>
+  <li><b>Attributes &amp; Human Skills cap at 20</b>, and both <b>grow by correct use</b> — a hidden % that fills after a quest, battle, or mission where you used them well, then ticks the number up. (This extends "skills bought with XP" → skills also grow by doing; the XP pool's remaining role is flagged below.)</li>
+  <li><b>Three vitals, all 0–100:</b> Stability, Madness, and Veil-thinness-around-you. You actively manage all three.</li>
+  <li><b>Profile bars are tap/hover-explained</b> — every bar tells you what it does.</li>
+</ul>
+
+<h2><span class="k">10</span>Exorcise vs Absorb — the two faces of power <span class="new">NEW</span></h2>
+<p>When you beat a spirit or demon, you choose: <b>exorcise</b> it (cross / clear it) or <b>absorb</b> it (take its power).</p>
+<ul>
+  <li><b>Exorcise</b> — the merciful road. A cooperative spirit or demon, spared, may <b>give you tips — even leads about Gin</b>. Information is the reward.</li>
+  <li><b>Absorb</b> — the hungry road. You take the power and feed the thing inside you. This is the <b>villain path</b>.</li>
+</ul>
+
+<h2><span class="k">11</span>The Possession Path — the villain arc <span class="new">NEW</span></h2>
+<ul>
+  <li>You can <b>choose to be possessed.</b> The full dark build: take <b>thirteen high-rank demons</b> as contracted possessors — <b>"acceptable" demons</b> with complex personalities (like <b>Ren</b> in Usami Hinata), each a <b>signed contract</b>.</li>
+  <li>Each demon <b>feeds on one emotion.</b> To use its power you must <b>use / feed that emotion</b> — which pulls you toward it and <b>away from your Duty</b> (rescuing Ren, holding your domain).</li>
+  <li><b>The emotions now live in the player.</b> Rei carries the thirteen emotion-domains as a personal system. Using a demon advances its emotion. The more <b>Duty</b> you spend, the more you <b>stagnate in the Duty slot (the 13th)</b> — you become Duty itself.</li>
+  <li>So the endgame tension is <b>emotional balance + Madness control:</b> lean too hard on one demon's emotion, or let Madness fill, and you are lost — a villain wearing thirteen contracts.</li>
+</ul>
+
+<h2><span class="k">12</span>Grounding Object — rank by meaning <span class="new">NEW</span></h2>
+<p>A grounding object steadies you (resist possession &amp; Madness). Its <b>rank is set by what it means to you</b>, not what it is — a mother's photograph outranks a cactus… <em>unless</em> you never had a mother and the cactus is the thing that once saved your life. Meaning, weighed honestly, sets the number.</p>
+
+<h2><span class="k">13</span>NPCs, sidequests &amp; relationships <span class="new">NEW</span></h2>
+<ul>
+  <li><b>Almost every talkable NPC has a sidequest</b> tied to <em>them</em> — and it takes you to <b>places</b> (their corner of the city, their people).</li>
+  <li><b>Relationships run &minus;100 to +100</b>, rendered <b>angry &#128544; ↔ &#10084; heart</b>, neutral at zero. They move at a tabletop pace — a few points (<code>+3, +1, +5</code>) per <em>meaningful</em> interaction, not per click.</li>
+  <li>A person's <b>bio is what they wrote</b> — first person, in their own voice, as vague or guarded as they are.</li>
+</ul>
+
+<h2>Locked this pass</h2>
+<ul>
+<li><b>Attributes grow by living</b> — six: Body, Wits, Perception, Composure, Charisma, Resolve. ✓</li>
+<li><b>Paths grow by use</b> — no XP; usage threshold per level; L4+ narrative-gated; opening = recognition event. ✓</li>
+<li><b>XP pool buys Human Skills only.</b> ✓</li>
+<li><b>Rising world</b> — stronger Rei = thinner veil around him = bigger threats, bigger XP, bigger numbers. ✓</li>
+</ul>
+<div class="decide"><div class="lock">ONE THING TO CONFIRM</div>
+<p style="margin:8px 0 0">The <b>veil-thinness-around-you</b> bar (§6) — do you want it <b>visible</b> to the player (a third bar they watch and manage, like Stability/Madness), or <b>felt</b> (hidden — they notice the world getting nastier without a number)? Torn hides XP; Disco shows everything. Your call.</p></div>
+
+<p class="foot">Companion to <em>game-architecture</em>, <em>game-systems</em>. Built on the book's Progression (C2) &amp; Campaign Mechanics; CHANGED tags mark where this overrides a book rule by your direction.</p>
+
+</div>
+</body>
+</html>

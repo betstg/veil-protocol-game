@@ -23,11 +23,8 @@ bundle='<script>\n'+'\n'.join(parts)+'\n</script>'
 out=eng.replace('<!--VP:CONTENT-->',bundle)
 dest=os.path.join(ROOT,'veil-protocol-play-v2.html')
 open(dest,'w',encoding='utf-8').write(out)
-# also place a copy beside the workspace root for local opening
-alt=os.path.join(os.path.dirname(ROOT),'veil-protocol-play-v2.html')
-open(alt,'w',encoding='utf-8').write(out)
+# NOTE: single source of truth — we no longer write a duplicate copy outside the repo.
 print(f'Bundled {len(mods)} content modules -> single-file game')
 for f in mods: print('  +',os.path.relpath(f,ROOT))
 print('size:',len(out),'chars')
 print('wrote:',dest)
-print('wrote:',alt)

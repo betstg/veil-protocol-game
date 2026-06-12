@@ -1,6 +1,14 @@
 /* Veil Protocol content :: Chapter One action handlers. Call engine globals at runtime. */
 Object.assign(window.VP.actions, {
- takeBook(){G.flags.hasBook=true;G.player.inventory.push({n:"Gin's field book",e:'📓',d:"The whole archive, in his hand."});document.getElementById('dock-book').classList.remove('hidden');gainXP(1);},
+ takeBook(){G.flags.hasBook=true;G.player.inventory.push({n:"Gin's field book",e:'📓',d:"The whole archive, in his hand. The back pages hold the names that are in no record."});var _dk=document.getElementById('dock-book');if(_dk)_dk.classList.remove('hidden');
+   // the book's back pages: Gin's contacts worth knowing -> added to the phone
+   var added=0;(GIN_NETWORK||[]).forEach(function(id){var c=G.contacts[id];if(!c)return;if(c.known)return;c.known=true;added++;
+     if(typeof setRelVal==='function'&&typeof relValOf==='function'&&relValOf(id)===0)setRelVal(id,15);
+     var line=['sys','From Gin’s book — one of the names he kept. He never said how he knew them.'];
+     if(c.history&&c.history.length)c.history.unshift(line);else c.history=[line];});
+   if(added){if(typeof gameToast==='function')gameToast('📓 Gin’s book added '+added+' names to your phone');
+     G.notes.unshift({txt:'Gin’s field book: the back pages hold '+added+' names that are in no record — the people he thought worth knowing. They are in your phone now.',day:G.day,time:fmt(G.min)});}
+   gainXP(1);},
  pathGrid(){G.flags.path='grid';G.flags.grid=true;meet('tanizaki');bumpStanding('grid',1);questStep('gin',1);openV('phone');phChat('tanizaki');},
  pathCVD(){G.flags.path='cvd';G.flags.cvd=true;bumpStanding('cvd',1);questStep('gin',1);openV('phone');phChat('okada');},
  pathBuddy(){G.flags.path='buddy';G.flags.buddy=true;questStep('gin',1);openV('phone');phChat('itsuki');},

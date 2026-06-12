@@ -179,7 +179,6 @@
  <button class="dockbtn" onclick="openV('notepad')"><span class="ic">✎</span>Notepad</button>
  <button class="dockbtn hidden" id="dock-book" onclick="openV('book')"><span class="ic">▤</span>Gin's Book</button>
  <button class="dockbtn" onclick="openV('phone')"><span class="ic">▢</span>Phone</button>
- <button class="dockbtn" onclick="openV('shop')"><span class="ic">🐾</span>Mediums</button>
 </div>
 
 <div class="overlay" id="ov-profile"><div class="sheet"><div class="sheet-h"><h2>Rei Uedera</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="profileBody"></div></div></div>
@@ -189,7 +188,7 @@
 <div class="overlay" id="ov-phone"><div class="phone" style="position:relative"><div class="ph-status" onclick="showLock()" style="cursor:pointer" title="Lock screen"><span id="ph-clock">03:47</span><span>● ▮▮▮ 86%</span></div><div class="ph-screen" id="phScreen"></div><div class="ph-tabbar" id="phTabbar"></div><div id="phLock" onclick="hideLock()" style="display:none;position:absolute;inset:0;z-index:60;background:#15110a;color:#fff;cursor:pointer;overflow:hidden"><img src="images/rei.jpg" alt="" onerror="this.style.display='none'" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,.05) 32%,rgba(0,0,0,.12) 68%,rgba(0,0,0,.62) 100%)"></div><div style="position:absolute;top:46px;left:0;right:0;text-align:center;text-shadow:0 2px 12px rgba(0,0,0,.7)"><div id="lockClock" style="font-size:60px;font-weight:300;letter-spacing:1px;font-family:-apple-system,Helvetica,sans-serif">03:47</div><div id="lockDate" style="font-size:14px;opacity:.95;margin-top:2px">Thu, 27 Aug 2015</div></div><div style="position:absolute;bottom:18px;left:0;right:0;text-align:center;font-size:11px;opacity:.85;font-family:monospace;text-shadow:0 1px 8px rgba(0,0,0,.8)">tap to unlock ▲</div></div></div></div>
 <div class="overlay" id="ov-chapters"><div class="drawer"><div class="sheet-h"><h2>Journal</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="chaptersBody"></div></div></div>
 <div class="overlay" id="ov-fight"><div class="sheet"><div class="sheet-h"><h2>Encounter</h2><button class="x" onclick="closeFight()">✕</button></div><div class="sheet-b" id="fightBody"></div></div></div>
-<div class="overlay" id="ov-shop"><div class="sheet"><div class="sheet-h"><h2>Animal-Medium Broker</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="shopBody"></div></div></div>
+<div class="overlay" id="ov-shop"><div class="sheet"><div class="sheet-h"><h2>Animal-Medium Broker</h2><button class="x" onclick="shopLeave()">✕</button></div><div class="sheet-b" id="shopBody"></div></div></div>
 <div id="ov-map"><div id="map-bar"><h3>Tokyo</h3><span id="map-date" style="font-family:monospace;font-size:11px;color:var(--dim)"></span><button class="x" onclick="mapZoom(1.25)">+</button><button class="x" onclick="mapZoom(0.8)">−</button><button class="x" onclick="closeMap()">✕ Close</button></div><div id="bigmap"></div><div id="mapModal"></div></div>
 
 <script>
@@ -302,7 +301,15 @@ Object.assign(window.VP.branchText, {
 /* ===== content/actions/chapter1.js ===== */
 /* Veil Protocol content :: Chapter One action handlers. Call engine globals at runtime. */
 Object.assign(window.VP.actions, {
- takeBook(){G.flags.hasBook=true;G.player.inventory.push({n:"Gin's field book",e:'📓',d:"The whole archive, in his hand."});document.getElementById('dock-book').classList.remove('hidden');gainXP(1);},
+ takeBook(){G.flags.hasBook=true;G.player.inventory.push({n:"Gin's field book",e:'📓',d:"The whole archive, in his hand. The back pages hold the names that are in no record."});var _dk=document.getElementById('dock-book');if(_dk)_dk.classList.remove('hidden');
+   // the book's back pages: Gin's contacts worth knowing -> added to the phone
+   var added=0;(GIN_NETWORK||[]).forEach(function(id){var c=G.contacts[id];if(!c)return;if(c.known)return;c.known=true;added++;
+     if(typeof setRelVal==='function'&&typeof relValOf==='function'&&relValOf(id)===0)setRelVal(id,15);
+     var line=['sys','From Gin’s book — one of the names he kept. He never said how he knew them.'];
+     if(c.history&&c.history.length)c.history.unshift(line);else c.history=[line];});
+   if(added){if(typeof gameToast==='function')gameToast('📓 Gin’s book added '+added+' names to your phone');
+     G.notes.unshift({txt:'Gin’s field book: the back pages hold '+added+' names that are in no record — the people he thought worth knowing. They are in your phone now.',day:G.day,time:fmt(G.min)});}
+   gainXP(1);},
  pathGrid(){G.flags.path='grid';G.flags.grid=true;meet('tanizaki');bumpStanding('grid',1);questStep('gin',1);openV('phone');phChat('tanizaki');},
  pathCVD(){G.flags.path='cvd';G.flags.cvd=true;bumpStanding('cvd',1);questStep('gin',1);openV('phone');phChat('okada');},
  pathBuddy(){G.flags.path='buddy';G.flags.buddy=true;questStep('gin',1);openV('phone');phChat('itsuki');},
@@ -447,6 +454,7 @@ const G = {
   {id:"takinogawa",name:"Takinogawa \u2014 the hospice",station:"Itabashi",walk:12,train:7,cab:10,note:"The Far-Shore Circle's hospice.",hours:[0,24]},
   {id:"farshore",name:"The Far-Shore Circle (?)",station:"\u2014",walk:null,train:null,cab:null,note:"A grief circle. Address withheld until found.",hours:null},
   {id:"river",name:"The riverbank (Obon)",station:"\u014cji",walk:14,train:null,cab:9,note:"The dead come home here.",hours:null},
+  {id:"broker",name:"Suzuran-d\u014d \u2014 animal-medium broker",station:"Tait\u014d",walk:null,train:20,cab:22,note:"Vacant, already-trained animal-mediums, waiting for hands steady enough.",img:"images/res_animals.png",shop:"mediums",hours:[10,21]},
   {id:"kabuki",name:"Kabukich\u014d",station:"Shinjuku",walk:null,train:25,cab:31,note:"Wada's world. Do not be seen.",hours:[0,24]},
   {id:"nakano",name:"Nakano \u2014 Misaki's flat",station:"Nakano",walk:null,train:30,cab:36,note:"Cats, incense, quiet.",hours:null},
   {id:"uenoroom",name:"Ueno \u2014 Mali's room",station:"Ueno",walk:null,train:20,cab:27,note:"Bare, warm, no nonsense.",hours:[12,22]},
@@ -773,7 +781,7 @@ const RELCFG={
  unknown:{t:-10, romanceAt:-60, toxic:true, met:false},
 };
 // People Gin vouched for start warmer than strangers (they know Rei as "Gin's")... not trusting, just not cold.
-const GIN_NETWORK=['okada','aoi','kato','hana','katagirinoa','tsukishiroharu','shimizuren','adachi','tanizaki','matsuda','hayashi','kondo'];
+const GIN_NETWORK=['okada','aoi','kato','hana','katagirinoa','tsukishiroharu','shimizuren','adachi','tanizaki','matsuda','hayashi','kondo','yamamotokoji'];
 function seedNetworkWarmth(){GIN_NETWORK.forEach(function(id){if(G.contacts[id]&&relValOf(id)===0)setRelVal(id,15);});}
 // Strip pre-seeded "last message" flavor for anyone Rei hasn't actually texted, so cold-contacting starts blank.
 function clearSeededFlavor(){var keep={itsuki:1,okada:1,unknown:1,gin:1};for(var id in G.contacts){if(keep[id])continue;var c=G.contacts[id];if(c.history&&c.history.length&&!c.history.some(function(m){return m[0]==='me';}))c.history=[];}}
@@ -819,7 +827,7 @@ function renderProfile(){
  h+=statBar('Madness',p.madness,100,'#b65a4c',TIPS.Madness);
  h+=statBar('Veil-thinness · around you',p.veil,100,'#9a6ab6',TIPS.Veil);
  h+='<div class="row"><span class="k">XP pool</span><span>'+G.xp+'</span></div>';
- h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' tickets</span></div>';
+ h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
  h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
  var _st=p.standing||{cvd:0,grid:0,tower:0};
@@ -841,28 +849,47 @@ function renderProfile(){
 }
 function showItem(i){ const it=G.player.inventory[i]; var u=it.use?(' <button class="btn" style="margin-left:8px;padding:2px 10px" onclick="useItem('+i+')">Use</button>'):''; document.getElementById('itemDesc').innerHTML='<b style="color:var(--gold)">'+it.n+'</b>... '+it.d+u; }
 function renderShop(){ var p=G.player, list=(DB.shop_animals||[]), owned=(p.companions||[]).map(function(c){return c.id;});
- var h='<p style="color:var(--dim);font-style:italic;font-size:12px;margin:0 0 8px">Vacant, already-trained animal-mediums. Each performs a ritual and aids missions. Paid in <b>money + tickets</b>.</p>';
- h+='<div style="font-family:var(--mono);font-size:12px;color:var(--gold);margin-bottom:10px">Your wallet: ¥'+(p.money||0).toLocaleString()+' · '+(p.tickets||0)+' tickets</div>';
- if(!list.length){ h+='<p style="color:var(--dim)">The broker is not reachable right now.</p>'; }
- list.forEach(function(s){ var have=owned.indexOf(s.id)>=0; var canM=(p.money||0)>=s.price.money, canT=(p.tickets||0)>=s.price.tickets; var ok=canM&&canT;
+ var h='<p style="color:var(--dim);font-style:italic;font-size:12px;margin:0 0 8px">Vacant, already-trained animal-mediums. Each performs a ritual and aids missions. These do not come cheap.</p>';
+ h+='<div style="font-family:var(--mono);font-size:12px;color:var(--gold);margin-bottom:10px">Your wallet: ¥'+(p.money||0).toLocaleString()+'</div>';
+ if(!list.length){ h+='<p style="color:var(--dim)">The broker has nothing for you right now.</p>'; }
+ list.forEach(function(s){ var have=owned.indexOf(s.id)>=0; var ok=(p.money||0)>=s.price.money;
   h+='<div style="border:1px solid var(--bdr);border-radius:8px;padding:10px 12px;margin:8px 0;background:#0e0b08">';
   h+='<div style="display:flex;justify-content:space-between;align-items:baseline"><b style="font-family:Cinzel,serif;color:var(--text)">'+s.name+'</b><span style="font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase">'+s.species+'</span></div>';
-  h+='<div style="font-family:var(--mono);font-size:11px;color:'+(ok?'var(--gold)':'#b65a4c')+';margin:2px 0 6px">¥'+s.price.money.toLocaleString()+' · '+s.price.tickets+' tickets</div>';
+  h+='<div style="font-family:var(--mono);font-size:11px;color:'+(ok?'var(--gold)':'#b65a4c')+';margin:2px 0 6px">¥'+s.price.money.toLocaleString()+'</div>';
   h+='<div style="font-size:12px;color:var(--text);margin:2px 0"><b style="color:var(--dim)">Ritual</b> '+s.ritual+'</div>';
   h+='<div style="font-size:12px;color:var(--text);margin:2px 0"><b style="color:var(--dim)">Mission</b> '+s.mission+'</div>';
   h+='<div style="font-size:11.5px;color:var(--dim);font-style:italic;margin:4px 0 8px">'+s.blurb+'</div>';
   h+=have?'<div style="font-family:var(--mono);font-size:11px;color:#8fae74">✓ Bonded — travels with you.</div>'
-        :'<button class="btn" '+(ok?'':'disabled style="opacity:.45;cursor:default"')+' onclick="buyMedium(\''+s.id+'\')">'+(ok?'Acquire':'Not enough')+'</button>';
+        :'<button class="btn" '+(ok?'':'disabled style="opacity:.45;cursor:default"')+' onclick="buyMedium(\''+s.id+'\')">'+(ok?'Acquire ›':'Not enough yen')+'</button>';
   h+='</div>';
  });
+ h+='<div style="margin-top:12px;border-top:1px solid var(--bdr);padding-top:10px"><button class="btn" style="width:100%" onclick="shopLeave()">Never mind ›</button></div>';
  document.getElementById('shopBody').innerHTML=h;
 }
 function buyMedium(id){ var p=G.player, s=(DB.shop_animals||[]).find(function(x){return x.id===id;}); if(!s)return;
- if((p.money||0)<s.price.money||(p.tickets||0)<s.price.tickets)return;
- p.money-=s.price.money; p.tickets-=s.price.tickets; if(!p.companions)p.companions=[];
+ if((p.money||0)<s.price.money)return;
+ p.money-=s.price.money; if(!p.companions)p.companions=[];
  p.companions.push({id:s.id,name:s.name,species:s.species,ritual:s.ritual,mission:s.mission});
+ if(typeof gameToast==='function')gameToast('🐾 '+s.name+' is yours. −¥'+s.price.money.toLocaleString());
  renderTop&&renderTop(); renderShop(); saveG();
 }
+// ---- shops are entered in-world: arrive at the place -> talk to the owner -> see the stock ----
+function shopOwnerIntro(kind){
+ if(kind==='mediums')return 'A low room that smells of straw, warm fur and incense. Cages and open baskets line the walls, and in each a single animal watches you with a steadiness no ordinary pet has. The broker, a stooped man with ink-stained fingers, looks up. “Animal mediums, not pets,” he says. “Each one trained, each one waiting for the right hands. They are not cheap, and they choose as much as you do.”';
+ return 'The owner looks up from behind the counter. “Have a look,” they say. “Tell me if anything catches your eye.”';
+}
+function shopTalk(pid){var p=placeById(pid);if(!p)return;var kind=p.shop||'general';
+ var h=phbar(p.name)+'<div class="ph-body"><p style="color:var(--ph-text);line-height:1.55">'+shopOwnerIntro(kind)+'</p>'+
+  '<div class="secs" style="padding-left:0">WHAT DO YOU DO</div><div class="go" style="flex-wrap:wrap;gap:8px">'+
+  '<button onclick="openShop(\''+kind+'\',\''+pid+'\')">Let me see what you have ›</button>'+
+  '<button onclick="nav(function(){placeArrival(\''+pid+'\')})">Never mind ›</button>'+
+  '</div></div>';ph(h);}
+function openShop(kind,pid){G._shop={kind:kind,pid:pid};renderShop();var ov=document.getElementById('ov-shop');if(ov)ov.classList.add('show');}
+function shopLeave(){var ov=document.getElementById('ov-shop');if(ov)ov.classList.remove('show');var s=G._shop||{};G._shop=null;var pid=s.pid;
+ var php=document.getElementById('ov-phone');if(php&&!php.classList.contains('show'))php.classList.add('show');
+ var pl=pid?placeById(pid):null;
+ var msg=(s.kind==='mediums')?'You take a last look at the waiting animals and step back. “They keep,” the broker says, not unkindly. “Come back when your hands are steady.”':'You thank the owner and step back from the counter.';
+ var h=phbar(pl?pl.name:'…')+'<div class="ph-body"><p style="color:var(--ph-text);line-height:1.55">'+msg+'</p><div class="go" style="margin-top:12px"><button onclick="nav(function(){placeArrival(\''+(pid||'')+'\')})">‹ Back</button></div></div>';ph(h);}
 
 let SELPATH=null;
 const LBL={Clairsentience:'Clair',Telepathy:'Telep',Telekinesis:'Telek',Psychometabolism:'Meta',Psychokinesis:'P.Kin',Teleportation:'Port'};
@@ -1007,8 +1034,25 @@ function osmRender(){var el=document.getElementById('bigmap');if(!el)return;var 
  G.places.forEach(function(p){if(!p.known||p.lat==null)return;var lon=(p.lng!=null?p.lng:p.lon);var sx=lon2wx(lon,Z)-cwx+W/2+MAP.px,sy=lat2wy(p.lat,Z)-cwy+H/2+MAP.py;html+='<div onclick="nav(function(){phPlace(\''+p.id+'\')})" title="'+p.name+'" style="position:absolute;left:'+(sx-9)+'px;top:'+(sy-9)+'px;width:18px;height:18px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#fff;border:3px solid #6e2b20;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.5)"></div>';});
  for(var id in G.contacts){var c=G.contacts[id];if(!c.known||!c.shares)continue;var pid=whereNow(id);var pl=pid?placeById(pid):null;if(!pl||pl.lat==null)continue;var lon=(pl.lng!=null?pl.lng:pl.lon);var sx=lon2wx(lon,Z)-cwx+W/2+MAP.px+18,sy=lat2wy(pl.lat,Z)-cwy+H/2+MAP.py-18;html+='<div onclick="nav(function(){phProfile(\''+id+'\')})" style="position:absolute;left:'+(sx-14)+'px;top:'+(sy-14)+'px;width:28px;height:28px;border-radius:50%;background:'+c.color+';border:2px solid #fff;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:sans-serif;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.5)">'+c.name[0]+'</div>';}
  el.innerHTML='<div id="osmlayer" style="position:absolute;inset:0">'+html+'</div>'+
+ '<button onclick="nav(openMapList)" title="List of places" style="position:absolute;top:20px;right:20px;width:32px;height:32px;border-radius:8px;border:1px solid #aaa;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:6;box-shadow:0 1px 4px rgba(0,0,0,.4);padding:0">'+
+ '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#6e2b20" stroke-width="1.6" stroke-linecap="round"><circle cx="3" cy="4" r="1.1" fill="#6e2b20" stroke="none"/><line x1="6" y1="4" x2="13" y2="4"/><circle cx="3" cy="8" r="1.1" fill="#6e2b20" stroke="none"/><line x1="6" y1="8" x2="13" y2="8"/><circle cx="3" cy="12" r="1.1" fill="#6e2b20" stroke="none"/><line x1="6" y1="12" x2="13" y2="12"/></svg></button>'+
  '<div style="position:absolute;right:8px;bottom:10px;display:flex;flex-direction:column;gap:5px;z-index:5"><button onclick="mapZ(1)" style="width:34px;height:34px;border-radius:9px;border:1px solid #aaa;background:#fff;font-size:19px;cursor:pointer">+</button><button onclick="mapZ(-1)" style="width:34px;height:34px;border-radius:9px;border:1px solid #aaa;background:#fff;font-size:19px;cursor:pointer">−</button></div>'+
  '<div style="position:absolute;left:6px;bottom:4px;font-size:8px;color:#557;background:rgba(255,255,255,.75);padding:1px 5px;border-radius:3px">© OpenStreetMap © CARTO</div>';
+}
+function openMapList(){
+ var el=document.getElementById('bigmap');var W=el?(el.clientWidth||340):340,H=el?(el.clientHeight||420):420;
+ var Z=MAP.z,cwx=lon2wx(MAP.lon,Z),cwy=lat2wy(MAP.lat,Z);
+ var inView=[],all=[];
+ G.places.forEach(function(p){if(!p.known||p.lat==null)return;var lon=(p.lng!=null?p.lng:p.lon);var sx=lon2wx(lon,Z)-cwx+W/2+MAP.px,sy=lat2wy(p.lat,Z)-cwy+H/2+MAP.py;all.push(p);if(sx>=0&&sx<=W&&sy>=0&&sy<=H)inView.push(p);});
+ var scoped=inView.length>0; var list=scoped?inView:all;
+ list.sort(function(a,b){return a.name.localeCompare(b.name);});
+ var h=phbar('Places'+(scoped?' in view':''))+'<div class="ph-body" style="padding:6px 0">';
+ h+='<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;padding:2px 14px 8px"><p style="color:var(--ph-dim);font-size:11px;margin:0">'+(scoped?(list.length+' place'+(list.length===1?'':'s')+' in the current map view'):'All known places')+'</p><button onclick="phBack()" style="font-size:11px;border:1px solid var(--ph-line);background:var(--ph-card);color:var(--ph-text);border-radius:6px;padding:3px 9px;cursor:pointer;white-space:nowrap">✕ Close</button></div>';
+ if(!list.length)h+='<p style="color:var(--ph-dim);font-size:12px;padding:0 14px">No known places yet.</p>';
+ list.forEach(function(p){
+  h+='<div class="li" style="cursor:pointer;align-items:flex-start" onclick="nav(function(){phPlace(\''+p.id+'\')})"><div style="flex:1;min-width:0"><div class="nm" style="color:var(--ph-accent)">'+esc(p.name)+'</div><div class="pd" style="white-space:normal;color:var(--ph-dim)">'+esc(p.note||'A place on the map.')+'</div></div><span class="meta" style="color:var(--ph-dim)">›</span></div>';
+ });
+ h+='</div>';ph(h);
 }
 function bindMap(){var el=document.getElementById('bigmap');if(!el||el._b)return;el._b=1;var drag=false,sx=0,sy=0,dx=0,dy=0;
  el.addEventListener('pointerdown',function(e){drag=true;sx=e.clientX;sy=e.clientY;dx=0;dy=0;});
@@ -1056,6 +1100,10 @@ function bumpStanding(fac,to){ if(!G.player.standing)G.player.standing={cvd:0,gr
 function travel(id,mins,mode){const p=G.places.find(x=>x.id===id);if(!p)return;
  var _ac=accessOk(p); if(!_ac.ok){ ph(phbar(p.name)+'<div class="ph-body"><div class="notif" style="border-left-color:#c0563f"><b style="color:#c0563f">You can’t get in.</b> '+_ac.why+'</div></div>'); return; }
  if(mode==='cab')G.player.money=Math.max(0,G.player.money-Math.round(mins*70));
+ var _usedTicket=false;
+ if(mode==='train'){ var _fare=160+Math.round((mins||1)*4);
+   if((G.player.tickets||0)>0){ G.player.tickets-=1; _usedTicket=true; }
+   else { G.player.money=Math.max(0,G.player.money-_fare); } }
  var icon=mode==='walk'?'🚶':(mode==='train'?'🚆':'🚕');var dur=2400;
  ph('<div class="ph-body" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 24px"><div style="font-size:42px;margin-bottom:14px">'+icon+'</div><div style="font-size:16px;font-weight:700;color:var(--ph-text)">Travelling to '+p.name+'…</div><div style="font-size:12px;color:var(--ph-dim);margin-top:4px">'+mode+' · '+mins+' min'+(mode==="cab"?" · −¥"+Math.round(mins*70):"")+'</div><div style="width:82%;height:6px;background:var(--ph-line);border-radius:3px;margin-top:20px;overflow:hidden"><i id="travbar" style="display:block;height:100%;width:0;background:var(--ph-accent);transition:width '+dur+'ms linear"></i></div><div id="travcount" style="font-family:monospace;font-size:13px;color:var(--ph-text);margin-top:10px">'+mins+' min away</div></div>');
  setTimeout(function(){var b=document.getElementById('travbar');if(b)b.style.width='100%';},40);
@@ -1084,6 +1132,7 @@ function placeArrival(id){var p=placeById(id);if(!p)return;var present=peopleHer
  h+='<div class="secs" style="padding-left:0">WHAT DO YOU DO</div><div class="go" style="flex-wrap:wrap;gap:8px">';
  h+='<button onclick="nav(function(){observePlace(\''+id+'\')})">Observe the surroundings ›</button>';
  present.forEach(function(pid2){var c2=G.contacts[pid2];if(!c2)return;h+='<button onclick="talkInPerson(\''+pid2+'\')">'+(c2.known?('Talk to '+esc(c2.name)):'Go check the person')+' ›</button>';});
+ if(p.shop)h+='<button onclick="nav(function(){shopTalk(\''+id+'\')})">Talk to the owner ›</button>';
  h+='<button onclick="nav(function(){phPlace(\''+id+'\')})">Place info ›</button>';
  h+='</div></div>';ph(h);}
 function observePlace(id){var p=placeById(id);if(!p)return;var v=G.player.veil||0;
@@ -1093,7 +1142,7 @@ function observePlace(id){var p=placeById(id);if(!p)return;var v=G.player.veil||
  else lines.push('Nothing presses on your gift. For now it is only what it appears to be... which is its own small mercy.');
  var h=phbar(p.name)+'<div class="ph-body"><p style="color:var(--ph-text);line-height:1.55">'+lines.join(' ')+'</p><div class="go" style="margin-top:12px"><button onclick="phBack()">‹ Back</button></div></div>';ph(h);}
 function phCab(){let h=phbar('Call a cab')+'<div class="ph-body" style="padding:6px 0"><p style="color:var(--ph-dim);font-size:11px;padding:0 14px 2px">Fastest, but it costs. ~¥70/min.</p>';G.places.forEach(p=>{if(!p.known||p.cab==null)return;h+='<div class="place"><div class="pn">'+p.name+'</div><div class="go"><button onclick="travel(\''+p.id+'\','+p.cab+',\'cab\')">Cab · '+p.cab+'m · ¥'+Math.round(p.cab*70)+'</button></div></div>';});h+='</div>';ph(h);}
-function phTrain(){const hrs=Math.floor(G.min/60);const running=hrs>=5&&hrs<24;let h=phbar('Train times')+'<div class="ph-body" style="padding:6px 0"><div class="notif">Ōji Station · '+(running?'<b style="color:var(--ph-accent)">running</b>... trains every ~6 min':'<b style="color:#c0563f">last train gone</b>... cab or wait')+'</div>';if(running)G.places.forEach(p=>{if(!p.known||p.train==null)return;h+='<div class="place"><div class="pn">'+p.name+'</div><div class="go"><button onclick="travel(\''+p.id+'\','+(p.train||1)+',\'train\')">Train · '+(p.train||1)+'m · ¥'+(160+Math.round((p.train||1)*4))+'</button></div></div>';});h+='</div>';ph(h);}
+function phTrain(){const hrs=Math.floor(G.min/60);const running=hrs>=5&&hrs<24;const tix=(G.player.tickets||0);let h=phbar('Train times')+'<div class="ph-body" style="padding:6px 0"><div class="notif">Ōji Station · '+(running?'<b style="color:var(--ph-accent)">running</b>... trains every ~6 min':'<b style="color:#c0563f">last train gone</b>... cab or wait')+'</div>';h+='<p style="color:var(--ph-dim);font-size:11px;padding:0 14px 2px">You have <b>'+tix+'</b> train ticket'+(tix===1?'':'s')+' (looted). A ticket covers a ride; otherwise the fare comes out of your wallet.</p>';if(running)G.places.forEach(p=>{if(!p.known||p.train==null)return;var fare=160+Math.round((p.train||1)*4);var cost=tix>0?'1 ticket':'¥'+fare;h+='<div class="place"><div class="pn">'+p.name+'</div><div class="go"><button onclick="travel(\''+p.id+'\','+(p.train||1)+',\'train\')">Train · '+(p.train||1)+'m · '+cost+'</button></div></div>';});h+='</div>';ph(h);}
 function foodThumb(p){if(p.img)return '<div style="width:48px;height:48px;border-radius:10px;overflow:hidden;flex-shrink:0;margin-right:11px"><img src="'+p.img+'" style="width:100%;height:100%;object-fit:cover"></div>';return '<div style="width:48px;height:48px;border-radius:10px;flex-shrink:0;margin-right:11px;background:var(--ph-card);display:flex;align-items:center;justify-content:center;font-size:23px">🍜</div>';}
 function phFood(){const r=G.places.filter(p=>p.food&&p.known);let h=phbar('Food')+'<div class="ph-body" style="padding:6px 0">';
  if(G.pendingOrder){const o=G.pendingOrder;const pp=G.places.find(x=>x.id===o.pid);h+='<div class="notif" style="cursor:pointer;border-left-color:#06C755" onclick="nav(orderTracker)">🛵 Order on the way'+(pp?(' from <b>'+pp.name+'</b>'):'')+'... tap to track ›</div>';}
@@ -1244,8 +1293,10 @@ function npcReply(id){const c=G.contacts[id];
   .then(function(r){return r.json();})
   .then(function(j){AI_OK=true;var raw=(j&&j.text)?j.text.trim():'';
    if(raw&&/\[\[asleep\]\]/i.test(raw)){queueWake(id);_renderConvo(id);return;}
-   var bad=(!raw||raw==='…'||/could not be reached|Warden is silent/i.test(raw));var txt=bad?(fb[id]||'…'):raw;
-   if(bad){c.history.push(['sys','(AI error: '+((j&&j.err)?esc(j.err):'returned nothing... is your key valid?')+')']);}
+   var degenerate=/^\s*(here(?:'s| is)\b[^\n]*\b(json|response|reply|output|text|result)\b|```|as an ai\b|i'?m sorry,?\s+but\b|i (?:cannot|can'?t) (?:assist|help|comply)\b)/i.test(raw)||/^\s*[\[{][\s\S]*[\]}]\s*$/.test(raw);
+   var bad=(!raw||raw==='…'||/could not be reached|Warden is silent/i.test(raw)||degenerate);var txt=bad?(fb[id]||'…'):raw;
+   if(degenerate){c.history.push(['sys','(the Warden glitched and broke character... using a safe line. if this repeats, your AI key/model may need attention.)']);}
+   if(bad&&!degenerate){c.history.push(['sys','(AI error: '+((j&&j.err)?esc(j.err):'returned nothing... is your key valid?')+')']);}
    var applied=0;if(!bad&&j&&typeof j.relDelta==='number'){applied=bumpRel(id,Math.max(-5,Math.min(5,j.relDelta)));}
    if(!bad&&j&&typeof j.romanceDelta==='number'&&j.romanceDelta!==0&&typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open){ROM[id].val=Math.max(0,Math.min(100,(ROM[id].val||0)+Math.max(-3,Math.min(3,j.romanceDelta))));}
    var learned=(!bad&&j&&j.learned&&j.learned.trim())?j.learned.trim():'';
@@ -1346,20 +1397,42 @@ function gameToast(msg){var t=document.getElementById('gtoast');if(!t){t=documen
 function scheduleArrival(id,mins){var c=G.contacts[id];if(!c)return;mins=Math.max(1,Math.min(180,mins||20));if(!G.pendingArrivals)G.pendingArrivals=[];G.pendingArrivals=G.pendingArrivals.filter(function(a){return a.id!==id;});G.pendingArrivals.push({id:id,name:c.name,dueAbs:(G.day*1440+G.min)+mins});c.history.push(['sys','... '+c.name+' is on the way (~'+mins+' min) ...']);}
 function npcArrive(a){var c=G.contacts[a.id];if(!c)return;c.known=true;c.shares=true;
  var pid=currentPlaceId()||'home'; c._here={placeId:pid,until:(G.day*1440+G.min)+150}; c._withYou=true;
- var pl=placeById(pid);
  var spare=(a.id==='itsuki');
- var arriveMsg = spare ? "[your door opens. he lets himself in with the spare key you forgot he still had]" : "[a knock at the door. it is "+c.name+"]";
- var firstLine = spare ? "hey. it's me. i'm in. where are you." : "i'm outside your door. it's me.";
- c.history.push(['sys', arriveMsg]);
- c.history.push(['them', firstLine, (typeof stampNow==='function'?stampNow():fmt(G.min))]);
- gameToast('★ '+c.name+' is here'+(pl?(' · '+pl.name):'')+'. Open the chat.');
- var rb=document.getElementById('readBody');
- if(rb&&document.getElementById('ov-read')&&document.getElementById('ov-read').classList.contains('show')){
-  var dv=document.createElement('div');dv.style.cssText='border-left:3px solid var(--blood);margin:14px 0;padding:6px 0 6px 12px;font-style:italic;color:var(--text)';
-  dv.innerHTML=(spare? c.name+' lets himself in with the spare key, the way he has a hundred times, and the flat is not empty anymore. He came, like he said he would.' : 'A knock. '+c.name+' is at the door. He came, like he said he would.');
-  rb.appendChild(dv);
+ c.history.push(['sys', spare ? '[the door opens — he lets himself in with the spare key you forgot he still had]' : '[a knock at the door — it is '+c.name+']']);
+ gameToast('★ '+c.name+' is at your door.');
+ arrivalScene(a.id, spare, pid);
+}
+// arrival takes over the MAIN narrative screen (readBody is the base reader; there is no ov-read overlay)
+function arrivalScene(id,spare,pid){var c=G.contacts[id];if(!c)return;
+ _chan='line'; window._personChat=null; if(typeof closeV==='function')closeV();
+ var rb=document.getElementById('readBody'); if(!rb){gameToast('★ '+c.name+' is here. Open the story screen.');return;}
+ var pl=(pid&&pid!=='home'&&typeof placeById==='function')?placeById(pid):null;
+ var where=pl?esc(pl.name):'your place';
+ var beat=spare
+  ? 'A key turns in the lock — the spare you forgot he still had. The door eases open and the flat is not empty anymore. <b>'+esc(c.name)+'</b> came, exactly like he said he would.'
+  : 'A knock. Then again — not impatient, just certain. You already know the shape of him through the glass. <b>'+esc(c.name)+'</b> came, exactly like he said he would.';
+ rb.innerHTML='<div class="scimg" style="margin:0 0 12px;padding:14px 16px"><div class="lb">'+esc(c.name)+' is at '+where+'</div><div class="sub">'+fmt(G.min)+' · he came to you</div></div><p>'+beat+'</p>';
+ linkifyNames(rb);
+ var cw=document.getElementById('readChoices'); if(!cw)return; cw.innerHTML='';
+ function add(label,fn){var b=document.createElement('button');b.className='choice';b.style.margin='0 0 7px';b.innerHTML=label;b.onclick=fn;cw.appendChild(b);}
+ if(spare){
+  add('Go to him ›', function(){c.history.push(['sys','You go to him.']);personScene(id);});
+  add('Stay where you are — let him find you', function(){c.history.push(['sys','You stay put; he finds you.']);personScene(id);});
+ } else {
+  add('Open the door ›', function(){c.history.push(['sys','You open the door.']);personScene(id);});
+  add('Take a breath, steady yourself, then open', function(){if(typeof advance==='function')advance(2);c.history.push(['sys','You take a breath, then open the door.']);personScene(id);});
+  add('Don’t answer — stay still and quiet', function(){declineArrival(id);});
  }
+ rb.scrollTop=0;
  try{if(typeof PHTAB!=='undefined'&&PHCUR)PHCUR();}catch(e){}
+}
+function declineArrival(id){var c=G.contacts[id];c._here=null;c._withYou=false;
+ if(typeof bumpRel==='function'){try{bumpRel(id,-2);}catch(e){}}
+ c.history.push(['sys','You did not answer. After a while, he left.']);
+ c.history.push(['them', id==='itsuki'?'you in there or not. fine. text me.':'guess you’re out. another time.', (typeof stampNow==='function'?stampNow():fmt(G.min))]);
+ var rb=document.getElementById('readBody');
+ if(rb)rb.innerHTML='<p>You stay where you are and let the knocking go unanswered. Eventually the footsteps retreat down the stairs, and the building goes quiet again.</p>';
+ var cw=document.getElementById('readChoices'); if(cw){cw.innerHTML='';var b=document.createElement('button');b.className='choice';b.innerHTML='↩ Back to the night';b.onclick=function(){if(typeof renderScene==='function')renderScene();};cw.appendChild(b);}
 }
 function placeById(pid){return G.places.find(p=>p.id===pid);}
 function occHere(pid){let names=[];for(const id in G.contacts){const c=G.contacts[id];if(c.known&&c.shares&&whereNow(id)===pid)names.push(c.name);}return names.length?'<div class="pd" style="color:var(--ph-accent)">here now: '+names.join(', ')+'</div>':'';}
@@ -1394,7 +1467,15 @@ var DB={entities:ENTITIES_FALLBACK,ranks:[],thirteen:[],factions:[],characters:[
 var PERSONA={}; // name-token -> persona, built from characters.json so AI agents keep each character's voice
 function buildPersonaIndex(){PERSONA={};(DB.characters||[]).forEach(function(c){if(!c.persona)return;var toks=(c.name||'').toLowerCase().match(/[a-z]+/g)||[];var full=toks.join('');if(full)PERSONA[full]=c.persona;toks.forEach(function(t){if(t.length>2&&!PERSONA[t])PERSONA[t]=c.persona;});});}
 // find the persona for a game contact by matching its name against the database
-function personaFor(c){if(!c||!c.name)return null;var toks=(c.name.toLowerCase().match(/[a-z]+/g)||[]);var full=toks.join('');if(PERSONA[full])return PERSONA[full];for(var i=0;i<toks.length;i++){if(toks[i].length>2&&PERSONA[toks[i]])return PERSONA[toks[i]];}return null;}
+var _NAMESTOP={the:1,and:1,of:1,at:1,a:1,an:1,cvd:1,director:1,old:1,master:1,father:1,rev:1,det:1,sgt:1,mr:1,ms:1,mrs:1,dr:1,san:1,chan:1,kun:1,sama:1,number:1,unknown:1};
+function _bestCharRec(name){
+ var want=(String(name||'').toLowerCase().match(/[a-z]+/g)||[]).filter(function(t){return t.length>1&&!_NAMESTOP[t];});
+ if(!want.length)return null;
+ var best=null,bs=0,bextra=1e9,recs=(DB.characters||[]);
+ for(var i=0;i<recs.length;i++){var c=recs[i];var ct=(String(c.name||'').toLowerCase().match(/[a-z]+/g)||[]);var setc={};for(var j=0;j<ct.length;j++)setc[ct[j]]=1;var ov=0;for(var k=0;k<want.length;k++)if(setc[want[k]])ov++;if(ov>bs||(ov===bs&&ov>0&&ct.length<bextra)){bs=ov;bextra=ct.length;best=c;}}
+ return bs>0?best:null;
+}
+function personaFor(c){if(!c||!c.name)return null;var ch=_bestCharRec(c.name);return (ch&&ch.persona)?ch.persona:null;}
 // relationship value for ANY contact (RELCFG-tracked or not)
 function relValOf(id){if(RELCFG[id])return RELCFG[id].t;var c=G.contacts[id];if(c){if(c._rv==null)c._rv=0;return c._rv;}return 0;}
 function setRelVal(id,v){v=Math.max(-100,Math.min(100,Math.round(v)));if(RELCFG[id])RELCFG[id].t=v;else if(G.contacts[id])G.contacts[id]._rv=v;}
@@ -1431,12 +1512,14 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
  var firstContact=!(c.history||[]).some(function(m){return m[0]==='me';});
  var isGin=(id==='gin');
  var st=isGin?'':npcState(id,c);
- var avail=(st==='asleep')?(' IN-WORLD TIME: it is '+fmt(G.min)+', the dead of night, and you are almost certainly ASLEEP. A real person does not answer mid-sleep: if Rei is NOT someone you would wake for, reply with the single token [[asleep]] and nothing else. If the buzzing wakes you, or this is someone you would always get up for, reply SHORT and groggy, not pleased to be woken at this hour.')
+ var hereNow=!!(c._withYou&&c._here&&(G.day*1440+G.min)<c._here.until);
+ var avail=hereNow?(' IN-WORLD: you are RIGHT NOW physically at Rei’s place, in the room with her, face to face — you came over like you said you would. Speak as someone who is actually here in person. NEVER say you are at Geidai, your studio, work, or anywhere else; you are with her.')
+  :(st==='asleep')?(' IN-WORLD TIME: it is '+fmt(G.min)+', the dead of night, and you are almost certainly ASLEEP. A real person does not answer mid-sleep: if Rei is NOT someone you would wake for, reply with the single token [[asleep]] and nothing else. If the buzzing wakes you, or this is someone you would always get up for, reply SHORT and groggy, not pleased to be woken at this hour.')
   :(st==='work')?(' IN-WORLD TIME: it is '+fmt(G.min)+' and you are on the clock / at work right now... reply briefly and a little distracted; you cannot talk long.')
   :(st==='late')?(' IN-WORLD TIME: it is '+fmt(G.min)+', late at night... odd hour to be texting; answer accordingly.')
   :(st==='day'||st==='home')?(' IN-WORLD TIME: it is '+fmt(G.min)+'.'):'';
  var s='EMBODY THIS PERSON FULLY... you ARE '+c.name+(p&&p.age?', '+p.age:'')+', and you answer ONLY as they would. You are NOT a helpful assistant; you have your own mood, agenda, and limits.'+
-  ' YOUR VOICE (copy this manner of speaking exactly): '+((p&&p.voice)||c.bio||'')+
+  ' YOUR VOICE'+((p&&p.voice)?(' (copy this manner of speaking exactly): '+p.voice):(' (background on who you are... do NOT quote, paste, or read this back at Rei; speak naturally as this person, reacting to what Rei actually said): '+(c.bio||'')))+
   ' YOUR TRAITS: '+((p&&p.traits)||'')+'. What drives you: '+((p&&p.wants)||'')+'.'+
   ((p&&p.flaws)?(' YOUR FLAWS / EDGES (play them... do not sand them off): '+p.flaws+' Let these show: be dryly funny, flirty, boastful, prickly, evasive, or blunt as fits you. You are a flawed person, not a helpful assistant.'):'')+
   ' Appearance: '+((p&&p.appearance)||'')+'.'+
@@ -1447,6 +1530,11 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
   ' People you know: '+((p&&p.knows&&p.knows.length)?p.knows.join(', '):'few')+'.'+
   ' Things you KNOW (treat as true, never contradict): '+((p&&p.facts&&p.facts.length)?p.facts.join(' | '):'(little beyond your own life)')+
   ' Things you do NOT know... never claim, deny, or invent on these: '+((p&&p.blindspots&&p.blindspots.length)?p.blindspots.join(' | '):'(...)')+
+  ((p&&p._distinct)?(' WHAT MAKES YOU UNMISTAKABLY YOU (never blur into a generic, agreeable voice): '+p._distinct):'')+
+  ((p&&p.tell)?(' YOUR TELL (a habit or gesture that slips out when you are stressed, lying, or moved... let it show, especially in person): '+p.tell):'')+
+  ((p&&p.approach)?(' WHAT ACTUALLY OPENS YOU UP / EARNS YOUR TRUST (Rei has to do this, not merely ask once): '+p.approach):'')+
+  ((p&&p.canon_fix)?(' CANON (treat as absolutely true about you, never contradict): '+p.canon_fix):'')+
+  ((p&&p.mindswap)?(' SPECIAL NATURE (play this truthfully): '+p.mindswap):'')+
   (isGin
    ? ' YOU ARE GIN... the person Rei is searching for. You are not free and not yourself; something has its hand on you and you will NEVER say so, never name it, never say "possessed" or "compromised". Your texting voice now: sparse, a beat too calm, faintly wrong... a man reading lines he was handed. EVERY reply must follow these rules: NEVER reveal or hint where you are; deflect any "where are you / come home / who are you with / what happened" with quiet redirection; NEVER give a normal cheerful reassurance like "busy with work, do not worry about it"; you ache to protect Rei, so you gently try to make them STOP looking ("let it go", "go home", "this is not for you") even as the love bleeds through. Leave dread, not comfort. One or two short lines; sometimes a question from Rei is simply left unanswered.'
    : ' TIMING: Gin became unreachable only about a day ago... he left work and never came home. This is RECENT and raw; never speak as if he has been gone a long time, and it is NOT yet public or official that he is "missing".')+
@@ -1464,7 +1552,7 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
 // ---- placement: make the DB the single source for where everyone lives/works ----
 var CHARIDX={}; // name-token -> character record (with links)
 function buildCharIndex(){CHARIDX={};(DB.characters||[]).forEach(function(c){var toks=(c.name||'').toLowerCase().match(/[a-z]+/g)||[];var full=toks.join('');if(full)CHARIDX[full]=c;toks.forEach(function(t){if(t.length>2&&!CHARIDX[t])CHARIDX[t]=c;});});}
-function charForContact(c){if(!c||!c.name)return null;var toks=(c.name.toLowerCase().match(/[a-z]+/g)||[]);var full=toks.join('');if(CHARIDX[full])return CHARIDX[full];for(var i=0;i<toks.length;i++){if(toks[i].length>2&&CHARIDX[toks[i]])return CHARIDX[toks[i]];}return null;}
+function charForContact(c){if(!c||!c.name)return null;return _bestCharRec(c.name);}
 function linkTo(ch,type){if(!ch||!ch.links)return null;for(var i=0;i<ch.links.length;i++)if(ch.links[i].type===type)return ch.links[i].to;return null;}
 function mergePlacesFromDB(){(DB.places||[]).forEach(function(dp){var g=G.places.find(function(p){return p.id===dp.id;});if(g){if(g.lat==null&&dp.lat!=null){g.lat=dp.lat;g.lng=dp.lng;}if(g.walk==null&&g.train==null&&g.cab==null){g.walk=dp.walk;g.train=dp.train;g.cab=dp.cab;}if(g.owner==null)g.owner=dp.owner;if(!g.hours&&dp.hours)g.hours=parseHoursStr(dp.hours);}else{G.places.push({id:dp.id,name:dp.name,faction:dp.faction,note:dp.note||dp.name,lat:dp.lat,lng:(dp.lng!=null?dp.lng:dp.lon),walk:dp.walk,train:dp.train,cab:dp.cab,station:dp.station||null,hours:parseHoursStr(dp.hours),owner:dp.owner||null,known:!!dp.known,tier:dp.tier||1,art:dp.art||null});}});}
 function rebuildSchedFromDB(){for(var id in G.contacts){var c=G.contacts[id];var ch=charForContact(c);if(!ch)continue;var home=linkTo(ch,'lives_at');var work=linkTo(ch,'works_at');if(!SCHED[id])SCHED[id]={b:[]};if(home)SCHED[id].home=home;if(work&&(!SCHED[id].b||!SCHED[id].b.length))SCHED[id].b=[[9,18,work]];}}
@@ -1506,7 +1594,7 @@ function _rnd(a,b){ return a+Math.floor(Math.random()*(b-a+1)); }
 function rollLoot(e){ // monster/vessel loot — never NPCs. Data shape: entities.json[].loot
  if(!e||!e.loot){ return; } var L=e.loot, p=G.player, got=[];
  if(L.money){ var m=_rnd(L.money.min,L.money.max); p.money+=m; got.push('¥'+m.toLocaleString()); }
- if(L.tickets && Math.random()<L.tickets.chance){ var tk=_rnd(L.tickets.min,L.tickets.max); p.tickets=(p.tickets||0)+tk; got.push(tk+' ticket'+(tk>1?'s':'')); }
+ if(L.tickets && Math.random()<L.tickets.chance){ var tk=_rnd(L.tickets.min,L.tickets.max); p.tickets=(p.tickets||0)+tk; got.push(tk+' train ticket'+(tk>1?'s':'')); }
  if(L.cigarettes && Math.random()<L.cigarettes.chance){ var q=L.cigarettes.qty?_rnd(L.cigarettes.qty[0],L.cigarettes.qty[1]):1; addItem({n:'Cigarettes ×'+q,e:'🚬',d:'Steady the nerves. Use to lower Madness 3–6.',use:'cig',qty:q}); got.push('cigarettes ×'+q); }
  if(L.trappedSpirit && Math.random()<L.trappedSpirit.chance){ addItem({n:'Spirit-bound object',e:'🫙',d:'A '+(e.register||'')+' spirit is caught inside this object — an artifact now.',artifact:true}); got.push('a trapped-spirit object (artifact!)'); }
  if(L.cursedJewelry && Math.random()<L.cursedJewelry.chance){ addItem({n:'Cursed ring',e:'💍',d:'Low-power artifact. Worn, it thins the veil around you slightly.',artifact:true,veil:3}); got.push('a cursed ring (artifact)'); }

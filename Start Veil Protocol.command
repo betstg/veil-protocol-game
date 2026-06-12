@@ -15,8 +15,8 @@ if [ -z "$GEMINI_API_KEY" ] && [ ! -s gemini-key.txt ]; then
   echo "  Saved. (You won't be asked again.)"
 fi
 
-# 2) Open the game once the server is up
-( sleep 2; open "http://localhost:8787/veil-protocol-play-v2.html" ) &
+# 2) Open the game AND the tracker once the server is up
+( sleep 2; open "http://localhost:8787/veil-protocol-play-v2.html"; open "http://localhost:8787/veil-protocol-tracker.html" ) &
 
 # 3) Start the all-in-one server (game + AI on one port)
 echo ""
