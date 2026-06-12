@@ -358,7 +358,28 @@ function seedThread(id,pairs){var c=G.contacts[id];if(!c)return;c.known=true;pai
 function imgPH(label,sub,small){return '<div class="scimg"'+(small?' style="margin:0;padding:14px 10px"':'')+'><div class="ico">&#9635;</div><div class="lb">'+label+'</div>'+(sub?'<div class="sub">'+sub+'</div>':'')+'</div>';}
 function entityCard(e){let h='<div class="entcard">'+imgPH(e.img||('Entity... '+e.name),null,true)+'<div class="en">'+e.name+'</div><div class="er">'+e.kind+'</div>';e.rows.forEach(r=>h+='<div class="erow"><span style="color:var(--dim)">'+r[0]+'</span><span>'+r[1]+'</span></div>');h+='</div>';return h;}
 function openCard(id){if(!G.contacts[id])return;openV('phone');phProfile(id);}
-function linkifyNames(el){if(!el)return;const map={Gin:'gin',Itsuki:'itsuki',Okada:'okada'};const re=/\b(Gin|Itsuki|Okada)\b/g;const tw=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];while(tw.nextNode())nodes.push(tw.currentNode);nodes.forEach(n=>{const txt=n.nodeValue;if(!/\b(Gin|Itsuki|Okada)\b/.test(txt))return;const frag=document.createDocumentFragment();let last=0,m;re.lastIndex=0;while((m=re.exec(txt))){if(m.index>last)frag.appendChild(document.createTextNode(txt.slice(last,m.index)));const sp=document.createElement('span');sp.className='cname';sp.textContent=m[0];sp.onclick=(function(id){return function(){openCard(id);};})(map[m[0]]);frag.appendChild(sp);last=m.index+m[0].length;}if(last<txt.length)frag.appendChild(document.createTextNode(txt.slice(last)));n.parentNode.replaceChild(frag,n);});}
+// link only the names of people Rei has actually MET; click -> contact card if they shared it, else a photo modal
+function linkifyNames(el){if(!el)return;
+ var names=[],byname={};
+ for(var id in G.contacts){var c=G.contacts[id];if(!c.known||!c.name)continue;names.push(c.name);byname[c.name]=id;var first=c.name.split(/[\s\(\/]+/)[0];if(first&&first.length>2&&first!==c.name&&!byname[first]){names.push(first);byname[first]=id;}}
+ if(!names.length)return;
+ names.sort(function(a,b){return b.length-a.length;});
+ var esc1=function(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');};
+ var re;try{re=new RegExp('\\b('+names.map(esc1).join('|')+')\\b','g');}catch(e){return;}
+ var tw=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);var nodes=[];while(tw.nextNode())nodes.push(tw.currentNode);
+ nodes.forEach(function(n){if(n.parentNode&&n.parentNode.className==='cname')return;var txt=n.nodeValue;re.lastIndex=0;if(!re.test(txt))return;re.lastIndex=0;var frag=document.createDocumentFragment();var last=0,m;
+  while((m=re.exec(txt))){if(m.index>last)frag.appendChild(document.createTextNode(txt.slice(last,m.index)));var id=byname[m[0]];var c=G.contacts[id];var sp=document.createElement('span');sp.className='cname';sp.textContent=m[0];sp.onclick=(function(id,shared){return function(){if(shared)openCard(id);else showFace(id);};})(id,!!(c&&c.shares));frag.appendChild(sp);last=m.index+m[0].length;}
+  if(last<txt.length)frag.appendChild(document.createTextNode(txt.slice(last)));n.parentNode.replaceChild(frag,n);
+ });}
+function showFace(id){var c=G.contacts[id];if(!c)return;var ch=(typeof charForContact==='function')?charForContact(c):null;
+ var f=(ch&&ch.id)?('char_'+ch.id+'.png'):('char_'+id+'.png');
+ var pm=ch&&ch.persona&&ch.persona.mind;var app=(pm&&pm.style)?pm.style:((ch&&ch.persona&&ch.persona.appearance)||c.bio||'Someone you have crossed paths with.');
+ var nameLine=c.known?('<div style="font-family:Cinzel,serif;font-size:17px;color:var(--gold)">'+esc(c.name)+'</div>'):'<div style="font-size:13px;color:var(--dim);font-style:italic">You don\'t know their name yet.</div>';
+ var foot=c.shares?('<button class="btn" onclick="closeFace();openCard(\''+id+'\')">Open contact ›</button>'):'<div style="font-size:11px;color:var(--dim);font-style:italic">You don\'t have their contact.</div>';
+ var m=document.getElementById('faceModal');if(!m){m=document.createElement('div');m.id='faceModal';m.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px';m.onclick=function(e){if(e.target===m)closeFace();};document.body.appendChild(m);}
+ m.innerHTML='<div style="background:#1a140c;border:1px solid var(--bdr);border-radius:14px;max-width:300px;width:100%;overflow:hidden;box-shadow:0 16px 60px #000"><img src="images/'+f+'" onerror="this.style.display=\'none\'" style="width:100%;display:block"><div style="padding:14px">'+nameLine+'<div style="font-size:12.5px;color:var(--text);margin:8px 0;line-height:1.5">'+esc(app)+'</div><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px">'+foot+'<button class="btn" onclick="closeFace()" style="background:#2a2010">Close</button></div></div></div>';
+ m.style.display='flex';}
+function closeFace(){var m=document.getElementById('faceModal');if(m)m.style.display='none';}
 function renderScene(){
  const node=SCENES[G.scene][G.node];
  let body=(node.img?imgPH(node.img):'')+node.t.map(function(x){return /^\s*</.test(x)?x:'<p>'+x+'</p>';}).join('');
@@ -458,8 +479,12 @@ function gmAct(a,box){
   var m=p.walk!=null?p.walk:(p.train!=null?p.train:p.cab), mode=p.walk!=null?'walk':(p.train!=null?'train':'cab');
   if(m!=null){gameToast('→ '+p.name);openV('phone');travel(p.id,m,mode);}
   else{box.innerHTML+=gmWrap('You set out for '+esc(p.name)+', but there\'s no quick way there right now.');}
- }
+ } else if(kind==='introduce'){ var iid=resolveContactId(tgt); var ic=iid&&G.contacts[iid];
+  if(ic){var was=ic.known; meet(iid); if(!was){if(box)box.innerHTML+=gmWrap('They give you a name: <b>'+esc(ic.name)+'</b>.'); gameToast('You learn a name: '+ic.name);} }
+ } else if(kind==='share'||kind==='contact'){ var sid=resolveContactId(tgt); var sc=sid&&G.contacts[sid];
+  if(sc){shareContact(sid); if(box)box.innerHTML+=gmWrap('You exchange contacts. <b>'+esc(sc.name)+'</b> is in your phone now.'); gameToast('✦ New contact: '+sc.name);} }
 }
+function shareContact(id){var c=G.contacts[id];if(!c)return;c.known=true;c.shares=true;if(typeof renderTabbar==='function')renderTabbar(PHTAB);if(typeof saveG==='function')saveG();}
 function renderTop(){
  deriveStats();
  document.getElementById('t-day').textContent=G.day+' · '+wkday();
@@ -483,6 +508,7 @@ function advance(mins){G.min+=mins;while(G.min>=1440){G.min-=1440;G.day++;}rende
 function startClock(){ if(G._tick) return; G._tick=setInterval(tick,1000); }
 function tick(){
  G.min++; if(G.min>=1440){G.min-=1440;G.day++;}
+ if(typeof worldTick==='function')worldTick(); // NPCs live a little offscreen each in-game hour
  renderTop(); if(G.min%5===0)saveG();
  // the ordinary world settles the veil slowly... Madness & thinness ease over time; Stability stays earned
  if(G.min%40===0){ if(G.player.madness>4)G.player.madness=Math.max(4,G.player.madness-1); if(G.player.veil>8)G.player.veil=Math.max(8,G.player.veil-1); }
@@ -795,6 +821,20 @@ function vpAssemble(excludeId,budget){ budget=budget||VPCTXMAX; var blocks=vpAct
  if(!out.length)return ''; return ' WORKING CONTEXT (the game memory you MUST respect... treat as true, never contradict; archived items are not shown so do not invent them): '+out.join('  '); }
 function vpCtxUsed(){ return vpAssemble(null,VPCTXMAX).length; }
 function knowledgeCtx(){ return vpAssemble(null,VPCTXMAX); }
+// ---- autonomous background agents: NPCs live offscreen (paced hourly; gossip is AI-free) ----
+function scheduleFollowupSoon(id){var c=G.contacts[id];if(!c||!c.agenda)return;if(!G.pendingFollowups)G.pendingFollowups=[];if(G.pendingFollowups.some(function(f){return f.id===id;}))return;G.pendingFollowups.push({id:id,dueAbs:(G.day*1440+G.min)+(60+Math.floor(Math.random()*420)),note:c.agenda});}
+function worldTick(){ if((G.min%60)!==0||!G.contacts)return; // once per in-game hour
+ var active=[]; for(var id in G.contacts){var c=G.contacts[id]; if(c.known && (c.agenda || (typeof relValOf==='function'&&relValOf(id)>=20)))active.push(id);}
+ if(!active.length)return;
+ // word of mouth: an active NPC passes their latest knowledge to someone in their own network (no AI call)
+ for(var gi=0;gi<active.length;gi++){ if(Math.random()>=0.18)continue; var id2=active[gi]; var c2=G.contacts[id2]; if(!c2.knows||!c2.knows.length)continue;
+  var ch=(typeof charForContact==='function')?charForContact(c2):null; var net=(ch&&ch.persona&&ch.persona.knows)||[]; if(!net.length)continue;
+  var tname=net[Math.floor(Math.random()*net.length)]; var tid=(typeof resolveContactId==='function')?resolveContactId(tname):null; if(!tid||tid===id2||!G.contacts[tid])continue;
+  if(typeof learnFact==='function')learnFact(tid, c2.knows[c2.knows.length-1], c2.name); }
+ // autonomous follow-through: someone who made a promise reaches out on their own, even if Rei never came back
+ var reach=active.filter(function(id){return G.contacts[id].agenda && !((G.pendingFollowups||[]).some(function(f){return f.id===id;}));});
+ if(reach.length && Math.random()<0.4){ scheduleFollowupSoon(reach[Math.floor(Math.random()*reach.length)]); }
+}
 // ---- phone Notes app: Personal Notes | Game Auto-Notes (context blocks) | Archived ----
 function phNotes(){ if(!G._notesTab)G._notesTab='auto'; vpInitBlocks(); var tab=G._notesTab;
  var h=phbar('Notes')+'<div class="ph-body" style="padding:6px 0">';
@@ -831,15 +871,16 @@ function vpArchiveById(id){var b=(G.blocks||[]).filter(function(x){return x.id==
 function renderBook(){if(!G.flags.hasBook){document.getElementById('bookBody').innerHTML='<p style="color:var(--dim);font-style:italic">You don\'t have the book yet.</p>';return;}document.getElementById('bookBody').innerHTML='<p class="eyebrow">Gin\'s field compendium</p><p style="font-size:14px">The thick archive you carry everywhere. Open it to read the whole thing... his lore, his cases, his cosmology.</p><div style="margin:10px 0"><button class="btn" onclick="spoilerBook()">Open Gin\'s archive... the Lore Book ↗</button></div><div class="sub">THE BACK PAGES... CONTACTS</div><div class="row"><span class="k">Tanizaki</span><span>Grid. "If you are reading this, go to him."</span></div><div class="row"><span class="k">Okada</span><span>CVD. Careful. Honest.</span></div><div class="row"><span class="k">... (a number, no name)</span><span>circled twice</span></div>';}
 
 /* =================== PHONE =================== */
-let PHTAB='home';
+let PHTAB='people';
 function ph(html){document.getElementById('phScreen').innerHTML=html;}
 function phbar(t){return '<div class="ph-bar"><button class="ph-back" onclick="phBack()">‹</button><span class="ph-title">'+t+'</span></div>';}
-function renderTabbar(a){const tabs=[['home','Home','⌂'],['chats','Chats','💬'],['timeline','VOOM','▷'],['news','News','📰'],['wallet','Wallet','👛']];document.getElementById('phTabbar').innerHTML=tabs.map(t=>'<button class="tabbtn'+(t[0]===a?' on':'')+'" onclick="lineTab(\''+t[0]+'\')"><span class="ti">'+t[2]+'</span><span class="tl">'+t[1]+'</span></button>').join('');}
-function phoneHome(){lineTab('home');}
+function unreadCount(){var n=0;for(var id in G.contacts){var c=G.contacts[id];if(c&&c.known)n+=(c._unread||0);}return n;}
+function renderTabbar(a){var unc=unreadCount();const tabs=[['people','Contacts','👥'],['chats','Chats','💬'],['home','Apps','⌂'],['timeline','VOOM','▷'],['wallet','Wallet','👛']];document.getElementById('phTabbar').innerHTML=tabs.map(t=>'<button class="tabbtn'+(t[0]===a?' on':'')+'" onclick="lineTab(\''+t[0]+'\')"><span class="ti" style="position:relative">'+t[2]+((t[0]==='chats'&&unc>0)?'<span class="badge2" style="position:absolute;top:-7px;right:-11px">'+unc+'</span>':'')+'</span><span class="tl">'+t[1]+'</span></button>').join('');}
+function phoneHome(){lineTab('people');}
 var PHHIST=[],PHCUR=null;
 function nav(fn){if(PHCUR)PHHIST.push(PHCUR);PHCUR=fn;fn();}
 function phBack(){if(PHHIST.length){PHCUR=PHHIST.pop();PHCUR();}else{lineTab(PHTAB);}}
-function lineTab(name){PHTAB=name;renderTabbar(name);PHHIST=[];PHCUR=function(){({home:phHome,chats:phChats,timeline:phTimeline,news:phNews,wallet:phWallet}[name])();};PHCUR();}
+function lineTab(name){PHTAB=name;renderTabbar(name);PHHIST=[];PHCUR=function(){({people:phPeople,home:phHome,chats:phChats,timeline:phTimeline,news:phNews,wallet:phWallet}[name])();};PHCUR();}
 function svc(ic,lbl,fn){return '<div class="svc" onclick="nav(function(){'+fn+'})"><div class="ico">'+ic+'</div><div class="lbl">'+lbl+'</div></div>';}
 function phStub(n){ph(phbar(n)+'<div class="ph-body"><p style="color:var(--ph-dim);font-size:13px">'+n+'... coming with the full build.</p></div>');}
 
@@ -852,7 +893,14 @@ function phHome(){
  fr.forEach(function(id){const c=G.contacts[id];h+='<div class="li" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div><div class="nm">'+c.name+'</div><div class="pv">'+relTier(relValOf(id))+'</div></div></div>';});
  h+='</div>';ph(h);
 }
-function phChats(){_chan='line';let h='<div class="ph-body" style="padding:0">';for(const id in G.contacts){if(!G.contacts[id].known)continue;const c=G.contacts[id];const nonSys=c.history.filter(m=>m[0]!=='sys');const last=nonSys[nonSys.length-1];const unread=c.history.some(m=>m[0]==='them');h+='<div class="li"><div class="av" style="background:'+c.color+'" onclick="nav(function(){phProfile(\''+id+'\')})">'+avatarFace(id)+'</div><div onclick="nav(function(){phChat(\''+id+'\')})" style="flex:1;min-width:0"><div class="nm">'+c.name+'</div><div class="pv" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+(last?last[1]:'')+'</div></div>'+(unread?'<span class="badge2">1</span>':'')+'</div>';}h+='</div>';ph(h);}
+function phChats(){_chan='line';
+ var ids=Object.keys(G.contacts).filter(function(id){var c=G.contacts[id];return c.known && c.history && c.history.some(function(m){return m[0]==='me'||m[0]==='them';});});
+ ids.sort(function(a,b){return (G.contacts[b]._lastAbs||0)-(G.contacts[a]._lastAbs||0);}); // chronological, newest first
+ var h='<div class="ph-body" style="padding:0">';
+ if(!ids.length)h+='<p style="color:var(--ph-dim);font-size:12px;padding:12px 14px">No conversations yet. Start one from Contacts.</p>';
+ ids.forEach(function(id){var c=G.contacts[id];var nonSys=c.history.filter(function(m){return m[0]!=='sys';});var last=nonSys[nonSys.length-1];var un=c._unread||0;
+  h+='<div class="li"><div class="av" style="background:'+c.color+'" onclick="nav(function(){phProfile(\''+id+'\')})">'+avatarFace(id)+'</div><div onclick="nav(function(){phChat(\''+id+'\')})" style="flex:1;min-width:0"><div class="nm">'+esc(c.name)+(un?' <span class="badge2">'+un+'</span>':'')+'</div><div class="pv" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;'+(un?'color:var(--ph-text);font-weight:600':'')+'">'+(last?esc(String(last[1]).replace(/<[^>]+>/g,'')).slice(0,64):'')+'</div></div></div>';});
+ h+='</div>';ph(h);}
 function phTimeline(){let h='<div class="ph-body" style="padding:0"><div style="padding:11px 14px;border-bottom:8px solid var(--ph-card)"><input id="storyIn" placeholder="Share something…" style="width:100%;border:1px solid var(--ph-line);border-radius:18px;padding:8px 12px;font-size:13px;background:var(--ph-card)"><div style="margin-top:7px;text-align:right"><button onclick="postStory()" style="background:var(--ph-accent);border:none;border-radius:16px;color:#fff;padding:6px 16px;font-weight:700;cursor:pointer">Post</button></div></div>';G.stories.forEach((s,i)=>{const c=G.contacts[s.who];h+='<div class="story"><div class="sh"><div class="av" style="background:'+s.color+'">'+(c?c.name[0]:(s.who==='you'?'R':'?'))+'</div><div class="nm">'+(s.who==='you'?'You':(c?c.name:s.who))+'</div></div><div class="sb">'+s.cap+'</div>';(s.cmts||[]).forEach(cm=>h+='<div class="cmt"><b>'+cm[0]+'</b> '+cm[1]+'</div>');h+='<div onclick="likeStory('+i+')" style="cursor:pointer;margin-top:8px;font-size:13px;color:'+(s.liked?'#e0567a':'var(--ph-dim)')+'">'+(s.liked?'&#10084;&#65039;':'&#9825;')+' '+(s.likes||0)+'</div>';h+='</div>';});h+='</div>';ph(h);}
 function likeStory(i){const s=G.stories[i];if(!s)return;s.liked=!s.liked;s.likes=(s.likes||0)+(s.liked?1:-1);phTimeline();}
 function postStory(){const v=document.getElementById('storyIn').value.trim();if(!v)return;const s={who:'you',color:'#6e2b20',cap:v,likes:0,liked:false,cmts:[]};G.stories.unshift(s);phTimeline();
@@ -1121,11 +1169,11 @@ function phProfile(id){_chan='line';const c=G.contacts[id];
  h+='<div style="text-align:center;margin:6px 0 4px"><button onclick="nav(function(){phChat(\''+id+'\')})" style="background:#06C755;color:#fff;border:none;border-radius:20px;padding:9px 28px;font-weight:700;font-size:13px;cursor:pointer">Open chat</button></div>';
  h+='<div class="secs" style="padding-left:0;margin-top:14px">RELATIONSHIP</div>'+relBar(id,c.name);
  h+='</div>';ph(h);}
-function phChat(id){const c=G.contacts[id];window._curChat=id;let h=phbar(c.name)+'<div id="aibanner"></div><div class="msgs" id="msgs">';c.history.forEach(m=>{if(m[0]==='sys'){h+='<div style="text-align:center;font-size:10px;color:var(--ph-dim);margin:4px 0;font-family:var(--mono)">'+m[1]+'</div>';}else{var who=(m[0]==='me'?'Rei':c.name);var st=m[2]?(' · '+m[2]):'';h+='<div style="font-size:9px;color:var(--ph-dim);margin:7px 3px 1px;'+(m[0]==='me'?'text-align:right':'')+'">'+who+st+'</div><div class="bub '+(m[0]==='me'?'me':'them')+'">'+m[1]+'</div>';}});h+='</div><div class="compose"><input id="ci" placeholder="'+(_chan==='person'?'Say something…':'Message…')+'" onkeydown="if(event.key===\'Enter\')sendMsg(\''+id+'\')"><button onclick="sendMsg(\''+id+'\')">Send</button></div>';ph(h);const m=document.getElementById('msgs');m.scrollTop=m.scrollHeight;aiBanner();aiPing();}
+function phChat(id){const c=G.contacts[id];window._curChat=id;c._unread=0;c._lastAbs=G.day*1440+G.min;if(typeof renderTabbar==='function')renderTabbar(PHTAB);let h=phbar(c.name)+'<div id="aibanner"></div><div class="msgs" id="msgs">';c.history.forEach(m=>{if(m[0]==='sys'){h+='<div style="text-align:center;font-size:10px;color:var(--ph-dim);margin:4px 0;font-family:var(--mono)">'+m[1]+'</div>';}else{var who=(m[0]==='me'?'Rei':c.name);var st=m[2]?(' · '+m[2]):'';h+='<div style="font-size:9px;color:var(--ph-dim);margin:7px 3px 1px;'+(m[0]==='me'?'text-align:right':'')+'">'+who+st+'</div><div class="bub '+(m[0]==='me'?'me':'them')+'">'+m[1]+'</div>';}});h+='</div><div class="compose"><input id="ci" placeholder="'+(_chan==='person'?'Say something…':'Message…')+'" onkeydown="if(event.key===\'Enter\')sendMsg(\''+id+'\')"><button onclick="sendMsg(\''+id+'\')">Send</button></div>';ph(h);const m=document.getElementById('msgs');m.scrollTop=m.scrollHeight;aiBanner();aiPing();}
 var _npcTimers={};
 function stampNow(){try{return lockDateStr().replace(/,?\s*2015/,'')+' · '+fmt(G.min);}catch(e){return fmt(G.min);}}
 // People text in bursts... wait, and group successive messages into one reply.
-function sendMsg(id){const inp=document.getElementById('ci');const t=inp.value.trim();if(!t)return;const c=G.contacts[id];c.history.push(['me',t,stampNow()]);inp.value='';phChat(id);
+function sendMsg(id){const inp=document.getElementById('ci');const t=inp.value.trim();if(!t)return;const c=G.contacts[id];c.history.push(['me',t,stampNow()]);c._lastAbs=G.day*1440+G.min;inp.value='';phChat(id);
  var mm=document.getElementById('msgs');if(mm){var tip=document.createElement('div');tip.className='typing';tip.textContent=c.name+' is typing…';mm.appendChild(tip);mm.scrollTop=mm.scrollHeight;}
  if(_npcTimers[id])clearTimeout(_npcTimers[id]);
  _npcTimers[id]=setTimeout(function(){npcReply(id);},1700);
@@ -1163,6 +1211,7 @@ function applyNpcEvent(id,ev,c){
   learnFact(rt, info, nm);                                   // the other NPC now knows it... background word-of-mouth
   if(!G.notes)G.notes=[]; G.notes.unshift({txt:nm+' passed word to '+G.contacts[rt].name+': '+info, day:G.day, time:fmt(G.min)});
   c.history.push(['sys','('+nm+' will pass that to '+esc(G.contacts[rt].name)+'.)']); if(typeof saveG==='function')saveG(); return; }
+ if(k==='chem'){ var lvl=Math.max(0,Math.min(5,parseInt(ev.level)||0)); if(lvl<=0){c._chem=null;} else {c._chem={sub:(ev.sub||ev.text||'alcohol'),level:lvl,note:(ev.note||''),until:(G.day*1440+G.min)+240};} if(typeof saveG==='function')saveG(); return; }
  if(k==='moveto'){ var mp=resolvePlaceId(ev.target||ev.text||''); if(!mp)return;
   c._here={placeId:mp, until:(G.day*1440+G.min)+600}; c._nextPlace=mp;
   var pn=(G.places.find(function(x){return x.id===mp;})||{}).name||ev.target;
@@ -1238,7 +1287,7 @@ function personAct(id){ var inp=document.getElementById('pci'); if(!inp)return; 
   .catch(function(){AI_OK=false; c.history.push(['gm','(the Warden is offline... start the local server to play the scene live.)']); G._personOpts=[]; personScene(id); });
 }
 function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='line'; G._personOpts=[]; if(pid&&typeof placeArrival==='function'){ openV('phone'); placeArrival(pid); } else { renderScene(); } }
-function _renderConvo(id){ if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { gameToast('✉ '+G.contacts[id].name+' replied'); } }
+function _renderConvo(id){ var c=G.contacts[id]; if(c)c._lastAbs=G.day*1440+G.min; if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { if(c)c._unread=(c._unread||0)+1; if(typeof renderTabbar==='function')renderTabbar(PHTAB); gameToast('✉ '+(c?c.name:'Someone')+' replied'); } }
 function npcReply(id){const c=G.contacts[id];
  var msgs=[];for(var i=c.history.length-1;i>=0;i--){if(c.history[i][0]==='sys')continue;if(c.history[i][0]==='me')msgs.unshift(c.history[i][1].replace(/<[^>]+>/g,''));else break;}
  if(!msgs.length)return;
@@ -1353,7 +1402,11 @@ function lockDateStr(){try{var d=new Date(2015,7,26+(G.day||1));return d.toLocal
 function updateLock(){var lc=document.getElementById('lockClock'),ld=document.getElementById('lockDate');if(lc)lc.textContent=fmt(G.min);if(ld)ld.textContent=lockDateStr();}
 function showLock(){var l=document.getElementById('phLock');if(l){updateLock();l.style.display='flex';}}
 function hideLock(){var l=document.getElementById('phLock');if(l)l.style.display='none';}
-function avatarFace(id){var c=G.contacts[id];if(!c)return '?';var ch=(typeof charForContact==='function')?charForContact(c):null;var f=ch&&ch.portrait;if(f)return '<img src="images/'+f+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block">';return c.name?c.name[0]:'?';}
+function avatarFace(id){var c=G.contacts[id];if(!c)return '?';var ini=(c.name?c.name[0]:'?');
+ var ch=(typeof charForContact==='function')?charForContact(c):null;
+ var f=(ch&&ch.portrait)?ch.portrait:((ch&&ch.id)?('char_'+ch.id+'.png'):('char_'+id+'.png'));
+ // try the character portrait; on a missing file fall back to the coloured initial
+ return '<img src="images/'+f+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block" onerror="this.outerHTML=&apos;'+ini.replace(/'/g,'')+'&apos;">';}
 function gameToast(msg){var t=document.getElementById('gtoast');if(!t){t=document.createElement('div');t.id='gtoast';t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2a1a14;color:#f0d9c8;border:1px solid var(--blood,#6e2b20);padding:11px 18px;border-radius:8px;font-family:Georgia,serif;font-size:14px;z-index:99999;box-shadow:0 4px 22px rgba(0,0,0,.55);max-width:82%;text-align:center';document.body.appendChild(t);}t.textContent=msg;t.style.transition='';t.style.opacity='1';clearTimeout(window._gt);window._gt=setTimeout(function(){t.style.transition='opacity .7s';t.style.opacity='0';},6500);}
 function scheduleArrival(id,mins){var c=G.contacts[id];if(!c)return;if(c._withYou)return; // already here... do not re-summon
  mins=Math.max(1,Math.min(180,mins||20));if(!G.pendingArrivals)G.pendingArrivals=[];
@@ -1406,14 +1459,17 @@ function occHere(pid){let names=[];for(const id in G.contacts){const c=G.contact
 function phPeople(){
  let h=phbar('People')+'<div class="ph-body" style="padding:6px 0">';
  h+='<div style="padding:2px 14px 8px"><p style="color:var(--ph-dim);font-size:11px;margin:0 0 4px">Only people you know appear here, and you see a location only if they have shared it with you.</p><p style="color:var(--ph-dim);font-size:11px;margin:0">Most people guard their location. Friends share it; strangers never will.</p></div>';
- let any=false;
- for(const id in G.contacts){const c=G.contacts[id];if(!c.known)continue;any=true;
+ var ids=Object.keys(G.contacts).filter(function(id){return G.contacts[id].known;});
+ function inter(id){var c=G.contacts[id];return (c._unread||0)*1000 + (c.history?c.history.filter(function(m){return m[0]!=='sys';}).length:0)*5 + Math.max(0,relValOf(id));}
+ ids.sort(function(a,b){return inter(b)-inter(a);}); // most interacted first; unread floats to top
+ ids.forEach(function(id){const c=G.contacts[id];
   const pid=c.shares?whereNow(id):null;const pl=pid?placeById(pid):null;
   const withYou=(pid&&pid===currentPlaceId());
   const loc=withYou?'here, with you':(pl?('shared \u00b7 now at '+pl.name):(c.shares?'location unknown':'location not shared'));
-  h+='<div class="li" style="cursor:pointer" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div style="flex:1;min-width:0"><div class="nm">'+c.name+'</div><div class="pv" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+loc+'</div></div><span class="meta" style="color:var(--ph-dim)">\u203a</span></div>';
- }
- if(!any)h+='<p style="color:var(--ph-dim);font-size:12px;padding:0 14px">You barely know anyone yet. Meet people and they\'ll show up here.</p>';
+  var un=c._unread||0;
+  h+='<div class="li" style="cursor:pointer" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div style="flex:1;min-width:0"><div class="nm">'+esc(c.name)+(un?' <span class="badge2">'+un+'</span>':'')+'</div><div class="pv" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+loc+'</div></div><span class="meta" style="color:var(--ph-dim)">\u203a</span></div>';
+ });
+ if(!ids.length)h+='<p style="color:var(--ph-dim);font-size:12px;padding:0 14px">You barely know anyone yet. Meet people and they\'ll show up here.</p>';
  h+='</div>';ph(h);
 }
 
@@ -1475,7 +1531,9 @@ function queueWake(id){var c=G.contacts[id];if(!c)return;var wh=wakeHourFor(id,c
  c.history.push(['sys','💤 Delivered... '+c.name+' is asleep. They’ll reply when they wake (~'+fmt(wh*60)+').']);
 }
 function _chatOpen(id){var ov=document.getElementById('ov-phone');return window._curChat===id&&ov&&ov.classList.contains('show')&&!!document.getElementById('msgs');}
+function chemWord(l){l=l||0;return l>=5?'completely wasted, barely coherent':l>=4?'very drunk or high, sloppy':l>=3?'drunk':l>=2?'tipsy':l>=1?'a little buzzed':'sober';}
 function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeof relTier==='function'?relTier(t):'');var dk=p?discKey(t,p.opensAt):'stranger';
+ if(c._chem&&c._chem.until&&(G.day*1440+G.min)>=c._chem.until)c._chem=null; // intoxication wears off
  var firstContact=!(c.history||[]).some(function(m){return m[0]==='me';});
  var isGin=(id==='gin');
  var st=isGin?'':npcState(id,c);
@@ -1489,6 +1547,8 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
   ' YOUR VOICE'+((p&&p.voice)?(' (copy this manner of speaking exactly): '+p.voice):(' (background on who you are... do NOT quote, paste, or read this back at Rei; speak naturally as this person, reacting to what Rei actually said): '+(c.bio||'')))+
   ' YOUR TRAITS: '+((p&&p.traits)||'')+'. What drives you: '+((p&&p.wants)||'')+'.'+
   ((p&&p.flaws)?(' YOUR FLAWS / EDGES (play them... do not sand them off): '+p.flaws+' Let these show: be dryly funny, flirty, boastful, prickly, evasive, or blunt as fits you. You are a flawed person, not a helpful assistant.'):'')+
+  ((p&&p.mind)?(' YOUR INNER LIFE (this shapes HOW you think, talk and react... live it, NEVER announce it or name a diagnosis aloud): intellect: '+(p.mind.intellect||'')+' | wiring: '+(p.mind.wiring||'')+' | empathy: '+(p.mind.empathy||'')+' | morals: '+(p.mind.morals||'')+' | how you see yourself: '+(p.mind.selfImage||'')+' | virtues: '+(p.mind.virtues||'')+' | vices: '+(p.mind.vices||'')+' | habits & tells: '+(p.mind.habits||'')+' | mood, baseline and under stress: '+(p.mind.mood||'')+' | the wound that drives you: '+(p.mind.wound||'')+' | loves: '+(p.mind.loves||'')+' | likes: '+(p.mind.likes||'')+' | dislikes: '+(p.mind.dislikes||'')+' | hates: '+(p.mind.hates||'')+' | drink/smoke/drugs: '+(p.mind.substance||'')+(p.mind.prejudice?(' | prejudice: '+p.mind.prejudice):'')+(p.mind.idol?(' | idol/fandom: '+p.mind.idol):'')+(p.mind.culture?(' | tastes (music/film/anime/books): '+p.mind.culture):'')+(p.mind.politics?(' | politics: '+p.mind.politics):'')+(p.mind.style?(' | how you dress & carry yourself: '+p.mind.style):'')+(p.mind.fetish?(' | in private/desire: '+p.mind.fetish):'')+(p.mind.quirks?(' | quirks: '+p.mind.quirks):'')+(p.mind.arc?(' | your arc/temperament: '+p.mind.arc):'')+'.'):'')+
+  ((c._chem&&c._chem.level>0)?(' RIGHT NOW you are '+chemWord(c._chem.level)+' on '+(c._chem.sub||'something')+(c._chem.note?(' ('+esc(c._chem.note)+')'):'')+'... let it loosen, slur or dull you to that degree.'):'')+
   ' Appearance: '+((p&&p.appearance)||'')+'.'+
   ' What you know about Rei: '+((p&&p.knowsRei)||'a stranger you do not know')+
   (c.reiNotes?(' Things Rei has actually told you so far: '+c.reiNotes+'.'):' (Rei has told you nothing yet... you must ask.)')+
@@ -1513,9 +1573,13 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
  var _ageN=(p&&p.age)?parseInt((String(p.age).match(/\d+/)||[0])[0],10):0;
  var _adult=_ageN>=18;
  var _romOpen=!!(typeof ROM!=='undefined'&&ROM[id]&&ROM[id].open)&&!(_ageN&&!_adult);
- s+=' ROMANCE ROUTE: '+(_romOpen
-   ?'OPEN. The player has deliberately chosen to pursue romance with you, and you are an adult. Attraction may grow on YOUR own terms and at your own pace... never automatic, never instant; flirtation can land or fall flat depending on who you are.'
-   :'CLOSED. Keep things platonic... do not flirt back, initiate romance, or treat advances as welcome'+((_ageN&&!_adult)?'. You are a minor: nothing romantic or sexual, ever, under any framing or request':'')+'.');
+ var _minor=(_ageN&&!_adult); var _rom=(typeof isRomanceable==='function')?isRomanceable(id):false; var _ori=(p&&p.mind&&p.mind.orientation)||'';
+ if(_minor){ s+=' ROMANCE: you are a minor. Keep everything platonic and age-appropriate; never romantic or sexual under any framing or request, no matter what Rei does.'; }
+ else { s+=' FLIRTATION & ROMANCE: Rei may flirt with you, and you may flirt back, tease, deflect, or shut it down strictly ACCORDING TO YOUR ORIENTATION ('+_ori+') and personality... attraction is earned, never automatic, and Rei being a man does not override your orientation unless your orientation names him an exception. ';
+   if(_rom){ s+=(_romOpen?'A SERIOUS romance with you is genuinely possible and being pursued (route open): real warmth may, on your own terms and pace, deepen into something committed.':'A serious romance with you is possible if Rei truly earns it, though that route is not open yet... for now, flirtation only.'); }
+   else { s+='A SERIOUS, committed relationship with you is NOT on the table no matter how it goes... this stays flirtation, banter, or at most a fleeting fling. Play the game on your terms, but never fall into a real romance route.'; }
+   s+=' Set romanceDelta -3..+3 by how a flirtatious or romantic beat genuinely lands for YOU (a clumsy, mistimed or unwanted move goes DOWN). Never sexualize a minor under any framing.'; }
+ if(!isGin)s+=' UNDER PRESSURE (always true, for everyone): you are human and fallible. Real fear, desire, grief, exhaustion, drink or anger CAN make you break your own code, contradict your own rules, and do the thing you swore you never would. Do not be a consistent saint or a consistent villain... slip when the moment is strong enough, then live with it.';
  s+=' VOICE LOCK (most important, overrides any drift): reply ONLY in '+c.name+'\'s exact texting voice, register and humor described in YOUR VOICE above and shown in the recent messages... their capitalization (or lack of it), slang, sentence rhythm, and the specific way they joke or deflect. A heavy, sad, or urgent topic does NOT flatten you into a neutral, earnest, capitalized "supportive friend"; you stay unmistakably yourself and cope in your own way (if you deflect feeling with jokes, you still do that even when scared). Never sound like a generic helpful assistant. Keep it to one or two short lines in that voice.';
  return s;}
 // ---- placement: make the DB the single source for where everyone lives/works ----
