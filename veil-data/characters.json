@@ -118,7 +118,11 @@
     "Learn what she already knows about Gin (she has known longer than she has said).",
     "Decide whether to become useful to her machine or to stay outside it."
    ],
-   "payoff": "The single best institutional shield in the campaign, or the smoothest, gentlest enemy — Public Confidence can erase Rei in either direction."
+   "payoff": "The single best institutional shield in the campaign, or the smoothest, gentlest enemy — Public Confidence can erase Rei in either direction.",
+   "goal": "What they want: The city to stay calm and the files to stay closed",
+   "place": "A spotless apartment, alone",
+   "stake": "Mizuki can make Rei's suppression anomaly disappear from every record — or decide he is a liability to be managed.",
+   "consequence": "The single best institutional shield in the campaign, or the smoothest, gentlest enemy — Public Confidence can erase Rei in either direction."
   },
   "romance": {
    "opens": "Player pursues it; Mizuki, an adult, allows it only once she trusts Rei with what she actually thinks, not what she says.",
@@ -255,7 +259,11 @@
     "Decide whether to feed it for leads or starve it on principle.",
     "Find the leverage that lets Rinka surface long enough to be asked the real questions."
    ],
-   "payoff": "A renewable intelligence source that erodes whoever uses it — or a host you try to save and lose the source. There is no clean version."
+   "payoff": "A renewable intelligence source that erodes whoever uses it — or a host you try to save and lose the source. There is no clean version.",
+   "goal": "What they want: To fill her house with people who have nowhere else to be",
+   "place": "The Circle's house in a quiet residential ward; white rooms",
+   "stake": "Kanna-sensei knows things Rei needs and offers them warmly. The warmth is the bill.",
+   "consequence": "A renewable intelligence source that erodes whoever uses it — or a host you try to save and lose the source. There is no clean version."
   },
   "tier": "Guardian",
   "tierLetter": "SS",
@@ -555,7 +563,11 @@
     "Reach Gin in a lucid window; they are shrinking.",
     "Separate Gin’s real intentions from Yushiro’s borrowed ones — they have started to rhyme."
    ],
-   "payoff": "Whether Gin can be recovered, surrendered, or only mourned is set by how early Rei learns to tell the two voices apart."
+   "payoff": "Whether Gin can be recovered, surrendered, or only mourned is set by how early Rei learns to tell the two voices apart.",
+   "goal": "What they want: To keep Rei out of it — and to finish what's been put on him",
+   "place": "Kita-ku",
+   "stake": "The Archive is legible and trustworthy up to one date. After it, Gin is co-writing with something else.",
+   "consequence": "Whether Gin can be recovered, surrendered, or only mourned is set by how early Rei learns to tell the two voices apart."
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -667,7 +679,11 @@
     "Find the rite that fixes a crosser into a vacant register — and what it costs the host.",
     "Decide whether a fixed Yushiro is a bulwark against the cult demon or a worse throne."
    ],
-   "payoff": "The two-demon structure means defeating Yushiro can hand the board to something far hungrier. The clock is the slaughter it is preparing; outcomes range from a clean exorcism, to stopping the merging at the last hour, to a devil’s alliance that lets it happen to save Gin."
+   "payoff": "The two-demon structure means defeating Yushiro can hand the board to something far hungrier. The clock is the slaughter it is preparing; outcomes range from a clean exorcism, to stopping the merging at the last hour, to a devil’s alliance that lets it happen to save Gin.",
+   "goal": "What they want: To see a duty discharged, whatever the cost to its host",
+   "place": "Wherever Gin's reputation still opens a door",
+   "stake": "Yushiro is not hiding. It is recruiting — through Gin’s reputation, one reasonable favour at a time.",
+   "consequence": "The two-demon structure means defeating Yushiro can hand the board to something far hungrier. The clock is the slaughter it is preparing; outcomes range from a clean exorcism, to stopping the merging at the last hour, to a devil’s alliance that lets it happen to save Gin."
   },
   "entity": true,
   "tier": "Guardian",
@@ -817,7 +833,11 @@
     "Decide whether to protect her caution or spend her loyalty.",
     "At +high trust she reveals the undersold path and backs Rei with no institutional cover."
    ],
-   "payoff": "A devoted operative inside the CVD — and a young person whose recklessness on Rei's behalf is his responsibility to manage."
+   "payoff": "A devoted operative inside the CVD — and a young person whose recklessness on Rei's behalf is his responsibility to manage.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "Kita-ku",
+   "stake": "Aoi's real L4 Psychokinesis is bigger than her record — and her trust in Rei is bigger than her training.",
+   "consequence": "A devoted operative inside the CVD — and a young person whose recklessness on Rei's behalf is his responsibility to manage."
   },
   "romance": {
    "opens": "Player chooses it; Aoi is an adult, earnest, and falls a little fast — the route is about whether Rei is careful with that.",
@@ -970,7 +990,11 @@
     "Earn the Tower-adjacent favours he grants without explanation.",
     "At depth, he tells Rei what he reads in the room — his unshared gift."
    ],
-   "payoff": "A telepath's read on every faction Rei navigates, and a lonely ally who finally meets someone he has to ask, not scan."
+   "payoff": "A telepath's read on every faction Rei navigates, and a lonely ally who finally meets someone he has to ask, not scan.",
+   "goal": "What they want: To be the one who gets you what you need through channels he pretends he doesn't use",
+   "place": "Itabashi, a tidy flat over a hardware store, everything labelled",
+   "stake": "Ryusei reads everyone and trusts no one — Rei's unreadability is the crack in that.",
+   "consequence": "A telepath's read on every faction Rei navigates, and a lonely ally who finally meets someone he has to ask, not scan."
   },
   "romance": {
    "opens": "Player chooses it; for a telepath, being chosen rather than predicted is the whole point — he reciprocates only when Rei stays opaque enough to mean it.",
@@ -1153,7 +1177,11 @@
     "Earn past the professional stillness to the grief underneath.",
     "At depth she gives the unfiled record and stands with Rei at the end, off the clock."
    ],
-   "payoff": "The single most important intelligence on what happened to Gin — and a woman whose heart Rei can honour or exploit."
+   "payoff": "The single most important intelligence on what happened to Gin — and a woman whose heart Rei can honour or exploit.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "Kita-ku",
+   "stake": "Noa holds the unrecorded truth of Gin's last months — and four years of unsaid love.",
+   "consequence": "The single most important intelligence on what happened to Gin — and a woman whose heart Rei can honour or exploit."
   },
   "romance": {
    "opens": "Player chooses it; Noa is an adult, guarded by grief — the route only opens once Rei is loved for himself, not as Gin's echo.",
@@ -1311,7 +1339,11 @@
     "Cross-reference his pre-2011 file against Gin's archive.",
     "At depth he gives the three-year file and what he recognised in 2012."
    ],
-   "payoff": "A parallel investigation that predates Rei's by years — and an ally whose careful heart is harder won than his research."
+   "payoff": "A parallel investigation that predates Rei's by years — and an ally whose careful heart is harder won than his research.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "The Tsukishiro estate",
+   "stake": "Haruki has privately tracked the Kita disturbances since before the CVD admits they happened — and Rei is the missing piece.",
+   "consequence": "A parallel investigation that predates Rei's by years — and an ally whose careful heart is harder won than his research."
   },
   "romance": {
    "opens": "Player chooses it; Haruki, an adult, theorises before he feels — the route is him letting the feeling outrun the theory.",
@@ -1459,7 +1491,11 @@
     "Get her to treat Rei as an institutional peer rather than a threat.",
     "At depth she pauses active opposition and chooses, against the family, to see a person."
    ],
-   "payoff": "The Tower's threat assessment turned aside — or, if mishandled, an Auditor building the case that ends Rei."
+   "payoff": "The Tower's threat assessment turned aside — or, if mishandled, an Auditor building the case that ends Rei.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "A serviced apartment near the CVD in ji — clean",
+   "stake": "Sena assesses Rei as a risk category by default — and her family is watching what she decides.",
+   "consequence": "The Tower's threat assessment turned aside — or, if mishandled, an Auditor building the case that ends Rei."
   },
   "romance": {
    "opens": "Player chooses it; Sena, an adult, has never wanted anything un-strategic — the route is her own preference surprising her.",
@@ -1613,7 +1649,11 @@
     "Give him a truth he can build a protective fiction around.",
     "At +high he closes the investigation to shield Rei and writes the aftermath so no one is liable."
    ],
-   "payoff": "Internal Affairs as a shield that makes the exorcism legally survivable — or the inquiry that ends Rei before Act 3."
+   "payoff": "Internal Affairs as a shield that makes the exorcism legally survivable — or the inquiry that ends Rei before Act 3.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "Nakano",
+   "stake": "Internal Affairs has already noticed the hole where Gin's paperwork should be — and Rei is standing in it.",
+   "consequence": "Internal Affairs as a shield that makes the exorcism legally survivable — or the inquiry that ends Rei before Act 3."
   },
   "romance": {
    "opens": "Player chooses it; Moriya, an adult, does not mix work and feeling easily — the route is what it costs a process-man to make an exception.",
@@ -1751,7 +1791,11 @@
     "Compare the Pair (Usami/Ren) and this case to read Gin's possible futures.",
     "Carry the warning back to how Rei chooses to reach Gin."
    ],
-   "payoff": "The campaign's clearest, coldest data on what is happening to Gin — and the worst-case the player is racing to avoid."
+   "payoff": "The campaign's clearest, coldest data on what is happening to Gin — and the worst-case the player is racing to avoid.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "A scholar’s clutter in Ōtsuka; papers in stacks with a logic only he knows",
+   "stake": "Fujimoto's cohabitation ended the way Gin's might — the vessel hollowed, the demon all that's left.",
+   "consequence": "The campaign's clearest, coldest data on what is happening to Gin — and the worst-case the player is racing to avoid."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -1984,7 +2028,10 @@
     "Use Ren to read what Yushiro is doing to Gin from a demon’s point of view.",
     "Keep the closeness short of contract — the register always pulls toward more."
    ],
-   "payoff": "The single best intelligence source on the metaphysics of the plot, at the standing risk of being known all the way down."
+   "payoff": "The single best intelligence source on the metaphysics of the plot, at the standing risk of being known all the way down.",
+   "goal": "What they want: To belong to whatever holds it",
+   "stake": "Ren will answer what others won’t — about Gin, the registers, and Rei himself — if Rei lets it close.",
+   "consequence": "The single best intelligence source on the metaphysics of the plot, at the standing risk of being known all the way down."
   },
   "entity": true,
   "tier": "Adept",
@@ -2131,7 +2178,11 @@
     "Help her connect the assessment anomaly to the Satō thread.",
     "At depth she gives the full file and the confidence she has held for four years."
    ],
-   "payoff": "A ready-made ally with four years of intelligence on the exact pattern Rei is hunting — and a promise to Gin that becomes a choice about Rei."
+   "payoff": "A ready-made ally with four years of intelligence on the exact pattern Rei is hunting — and a promise to Gin that becomes a choice about Rei.",
+   "goal": "What they want: To keep the files honest and Rei from doing something stupid",
+   "place": "Ōji",
+   "stake": "Okada has tracked an anomaly and kept a promise to Gin since before Rei knew her name.",
+   "consequence": "A ready-made ally with four years of intelligence on the exact pattern Rei is hunting — and a promise to Gin that becomes a choice about Rei."
   },
   "romance": {
    "opens": "Player chooses it; Okada is an adult whose loyalty to Gin came first — the route is her wanting Rei for Rei, not as a duty discharged.",
@@ -2326,7 +2377,11 @@
     "Get him to confirm the vacant Seat — the first authority who will.",
     "At +high he activates the retired-mentor network and provides legal cover for the exorcism."
    ],
-   "payoff": "The institution's full protective weight behind Rei — or its full weight against him. No higher lever exists inside the CVD."
+   "payoff": "The institution's full protective weight behind Rei — or its full weight against him. No higher lever exists inside the CVD.",
+   "goal": "What they want: Containment, and no incidents on his watch",
+   "place": "Setagaya",
+   "stake": "Adachi can confirm the Thirteen, activate the Vanguard network, and make the exorcism survivable — or make Rei disappear into a transfer.",
+   "consequence": "The institution's full protective weight behind Rei — or its full weight against him. No higher lever exists inside the CVD."
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -2479,7 +2534,11 @@
     "Help her resolve the Orimoto situation she's been carrying.",
     "At +high she deploys Orimoto containment on the exorcism: the thing that makes it viable."
    ],
-   "payoff": "The single operational capability the climax can't happen without — and a partner who lets Rei stand where his brother stood."
+   "payoff": "The single operational capability the climax can't happen without — and a partner who lets Rei stand where his brother stood.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "Kita-ku",
+   "stake": "Shimizu was Gin's suppression partner; her Orimoto containment is the key that makes the exorcism possible.",
+   "consequence": "The single operational capability the climax can't happen without — and a partner who lets Rei stand where his brother stood."
   },
   "romance": {
    "opens": "Player chooses it; Shimizu, an adult, lets almost no one past the discipline — the route is the suppressor allowing her own breach.",
@@ -2636,7 +2695,11 @@
     "Earn past front-shelf history to the working files.",
     "At +high he gives the twenty-two-year entry — the register identification that changes the approach."
    ],
-   "payoff": "The campaign's deepest intelligence on the entity, available nowhere else — and a model of the off-books loyalty Gin valued."
+   "payoff": "The campaign's deepest intelligence on the entity, available nowhere else — and a model of the off-books loyalty Gin valued.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "A book-drowned flat near the building; the hallway is shelved on both sides",
+   "stake": "Yamamoto's twenty-two-year archive holds the demon's true register — the fact that reshapes the exorcism.",
+   "consequence": "The campaign's deepest intelligence on the entity, available nowhere else — and a model of the off-books loyalty Gin valued."
   },
   "tier": "Vanguard",
   "tierLetter": "S",
@@ -2795,7 +2858,11 @@
     "Earn the use of his father's contacts to block the Auditor inquiry.",
     "At +high he names what they both are, the conversation neither has dared have."
    ],
-   "payoff": "Protection from above the bureau when Rei's anomaly surfaces — and the only peer who shares Rei's exact secret."
+   "payoff": "Protection from above the bureau when Rei's anomaly surfaces — and the only peer who shares Rei's exact secret.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "A quiet flat on the edge of the city; the neighbours have never met him",
+   "stake": "Tendo reads wrong on the instruments too — and his father's network can shield Rei from the Auditors.",
+   "consequence": "Protection from above the bureau when Rei's anomaly surfaces — and the only peer who shares Rei's exact secret."
   },
   "romance": {
    "opens": "Player chooses it; Tendo, an adult, flirts easily and means little of it until Rei is the thing he can't charm past.",
@@ -2995,7 +3062,11 @@
     "Earn the Grid nodes she controls, node by node.",
     "At depth she reveals her real rank, the secret that keeps her free."
    ],
-   "payoff": "Access to the unmappable Grid and an Arbiter ally — and a mirror of the unregistered life Rei is one bad day from living."
+   "payoff": "Access to the unmappable Grid and an Arbiter ally — and a mirror of the unregistered life Rei is one bad day from living.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "Shin-Ōkubo",
+   "stake": "Hana hides an Arbiter rank and a Grid that the archive can't reach — and trusts no one on day one.",
+   "consequence": "Access to the unmappable Grid and an Arbiter ally — and a mirror of the unregistered life Rei is one bad day from living."
   },
   "romance": {
    "opens": "Player chooses it; Hana, an adult of Rei's own age, lets almost no one close — the route is armour coming off in a life that punished softness.",
@@ -3153,7 +3224,11 @@
     "Build a real working relationship, not a transaction.",
     "At full trust he opens the three-generation archive and offers Silent Transit extraction."
    ],
-   "payoff": "The most complete unregistered intelligence on the district, plus Kuroda extraction muscle — and a bridge deeper into the Tower."
+   "payoff": "The most complete unregistered intelligence on the district, plus Kuroda extraction muscle — and a bridge deeper into the Tower.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "No fixed address; squats and friends’ couches",
+   "stake": "Sei holds the Kuroda family's complete unregistered archive — opened only once the grievance he carries is acknowledged.",
+   "consequence": "The most complete unregistered intelligence on the district, plus Kuroda extraction muscle — and a bridge deeper into the Tower."
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -3459,7 +3534,11 @@
     "Get him proximity to Gin's body for a true reading.",
     "Through him, reach Tanaka Ryu and the operational fact only that track unlocks."
    ],
-   "payoff": "The campaign's clearest diagnosis of Yushiro — and the gateway to Tanaka's hidden support."
+   "payoff": "The campaign's clearest diagnosis of Yushiro — and the gateway to Tanaka's hidden support.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "Adachi-ku",
+   "stake": "Kurosawa can read Gin's body directly — the double-layer signature, the demon's class — if Rei earns the contact.",
+   "consequence": "The campaign's clearest diagnosis of Yushiro — and the gateway to Tanaka's hidden support."
   },
   "romance": {
    "opens": "Player chooses it; Kurosawa, an adult, hides warmth under graveyard humour — the route is reaching the kindness he buries.",
@@ -3670,7 +3749,11 @@
     "Earn safe-house access and the ward methodology.",
     "At full trust he gives Gin's thirty-year field profile and what he noticed in Kita that no archive holds."
    ],
-   "payoff": "A master's forty years of district knowledge, a safe base, and the truest outside portrait of who Gin really was."
+   "payoff": "A master's forty years of district knowledge, a safe base, and the truest outside portrait of who Gin really was.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "A small old house in the Kita-ku old quarter",
+   "stake": "Tanizaki shaped Gin's field practice and keeps the district's true history — given on his own clock, over tea.",
+   "consequence": "A master's forty years of district knowledge, a safe base, and the truest outside portrait of who Gin really was."
   },
   "tier": "Arbiter",
   "tierLetter": "A",
@@ -3802,7 +3885,11 @@
     "Earn the woman, not the rank — she can tell the difference and is tired of people who can't.",
     "At depth she deploys the Null Space that makes the operation viable in enclosed space."
    ],
-   "payoff": "The capability that makes a hidden exorcism possible at all — and a Singularity who might, once, be needed for herself."
+   "payoff": "The capability that makes a hidden exorcism possible at all — and a Singularity who might, once, be needed for herself.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "An apartment the CVD cannot keep on file — addresses slide off her",
+   "stake": "Inoue's Null Space can make the exorcism invisible — but she spends a Singularity only on what would otherwise kill.",
+   "consequence": "The capability that makes a hidden exorcism possible at all — and a Singularity who might, once, be needed for herself."
   },
   "romance": {
    "opens": "Player chooses it; Inoue, an adult, is sure she'll only ever be wanted for her power — the route is being wrong about that.",
@@ -3966,7 +4053,11 @@
     "Prove worth the showing-up his reputation costs him.",
     "At full trust he gives the operational fact no one else in the campaign holds."
    ],
-   "payoff": "A decisive late-game ally and the single piece of intelligence that reshapes the climax."
+   "payoff": "A decisive late-game ally and the single piece of intelligence that reshapes the climax.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "Itabashi, Grid territory; a flat kept deliberately boring",
+   "stake": "Tanaka shows up when things break — and holds the one operational fact that changes the exorcism, behind Kurosawa's trust.",
+   "consequence": "A decisive late-game ally and the single piece of intelligence that reshapes the climax."
   },
   "romance": {
    "opens": "Player chooses it; Tanaka, an adult, steadies everyone and accepts nothing back — the route is letting himself be the one held.",
@@ -4136,7 +4227,11 @@
     "Earn past the mercenary surface to the careful man beneath.",
     "At depth he trusts Rei with the daughter no one else knows exists."
    ],
-   "payoff": "Vanguard-grade muscle for the operation that can't be won without it — and a guarded man's deepest secret as the measure of his trust."
+   "payoff": "Vanguard-grade muscle for the operation that can't be won without it — and a guarded man's deepest secret as the measure of his trust.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "Moves every few months; currently a weekly in Taitō",
+   "stake": "Majima is the combat backup the climax needs — and the most guarded man on the Grid.",
+   "consequence": "Vanguard-grade muscle for the operation that can't be won without it — and a guarded man's deepest secret as the measure of his trust."
   },
   "romance": {
    "opens": "Player chooses it; Majima, an adult, has walled off softness to protect what little he has — the route is the wall coming down once.",
@@ -4284,7 +4379,11 @@
     "Earn the laminated page he keeps against his own failing memory.",
     "At depth the full eight-year file passes to Rei, removing a difficulty tier from Act 3."
    ],
-   "payoff": "The single most complete intelligence on the organized campaign — and a dying master's life work entrusted to Rei."
+   "payoff": "The single most complete intelligence on the organized campaign — and a dying master's life work entrusted to Rei.",
+   "goal": "What they want: To keep the veil quiet and the paperwork clean",
+   "place": "Unknown",
+   "stake": "Uehara has documented the organized entity campaign for eight years — and is failing fast enough that he needs an heir.",
+   "consequence": "The single most complete intelligence on the organized campaign — and a dying master's life work entrusted to Rei."
   },
   "romance": {
    "opens": "Player chooses it; Uehara, an adult facing decline, guards his dignity fiercely — the route is tenderness that doesn't read as pity.",
@@ -4442,7 +4541,11 @@
     "Combine her external documentation with Rei's internal access.",
     "At depth the two investigations merge into something neither could build alone."
    ],
-   "payoff": "A structurally complete picture of the Kita demon — and the campaign's truest peer, the proof Rei isn't alone."
+   "payoff": "A structurally complete picture of the Kita demon — and the campaign's truest peer, the proof Rei isn't alone.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "A share-house in Kōenji with art students who don’t know what they live with",
+   "stake": "Sora has mapped the Kita demon's pattern from outside for three years — the mirror of Rei's inside investigation.",
+   "consequence": "A structurally complete picture of the Kita demon — and the campaign's truest peer, the proof Rei isn't alone."
   },
   "romance": {
    "opens": "Player chooses it; Sora, an adult, has been understood by no one for years — the route is being finally seen and not flinching from it.",
@@ -4602,7 +4705,11 @@
     "Earn the safe table and the district knowledge that comes with it.",
     "At full trust he tells you what the street really knows and vouches for you."
    ],
-   "payoff": "A safe base in Ni-chōme, the nightlife's honest intelligence, and a vouch that opens doors strangers can't."
+   "payoff": "A safe base in Ni-chōme, the nightlife's honest intelligence, and a vouch that opens doors strangers can't.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A small flat over the bar; he has built his whole adult life around that counter",
+   "stake": "Kaneda hears everything across his bar and vouches where no one vouches — if Rei is honest back.",
+   "consequence": "A safe base in Ni-chōme, the nightlife's honest intelligence, and a vouch that opens doors strangers can't."
   },
   "romance": {
    "opens": "Player chooses it; Kaneda, an adult, is warm to everyone — the route is being the one he's warm to off the clock.",
@@ -4763,7 +4870,11 @@
     "Earn the full neighbourhood history, told the water's way.",
     "At full trust she admits what she is and reads a thin spot's real history."
    ],
-   "payoff": "A safe corner in Kita and fifty years of the ward's hidden history — including thin-spot truths in no record."
+   "payoff": "A safe corner in Kita and fifty years of the ward's hidden history — including thin-spot truths in no record.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "The rooms behind the bath house; the chimney is her landmark",
+   "stake": "Hara has kept the baths and the neighbourhood's true history for fifty years — and knows what she is.",
+   "consequence": "A safe corner in Kita and fifty years of the ward's hidden history — including thin-spot truths in no record."
   },
   "tier": "Sensitive",
   "tierLetter": "E",
@@ -4930,7 +5041,11 @@
     "Earn the safe passage he grants the people he trusts.",
     "At full trust he becomes an early-warning net for the nightlife wards."
    ],
-   "payoff": "Safe passage and a sensor across Roppongi's doors — the night's own alarm system, tuned to Rei's kind of trouble."
+   "payoff": "Safe passage and a sensor across Roppongi's doors — the night's own alarm system, tuned to Rei's kind of trouble.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Azabu, a sublet over a laundry; sleeps days",
+   "stake": "Endō's low-sensitivity reads trouble before it arrives — and his door is a gate to the Roppongi night.",
+   "consequence": "Safe passage and a sensor across Roppongi's doors — the night's own alarm system, tuned to Rei's kind of trouble."
   },
   "tier": "Sensitive",
   "tierLetter": "E",
@@ -5074,7 +5189,11 @@
     "Learn who meets whom by where he seats them.",
     "At full trust he gives, once and free, the map of who actually runs the city."
    ],
-   "payoff": "The true power-map of Tokyo from the man who has watched it seat itself — given freely, never sold."
+   "payoff": "The true power-map of Tokyo from the man who has watched it seat itself — given freely, never sold.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "Tsukishima, a modest immaculate flat",
+   "stake": "Serizawa has watched the powerful seat themselves for forty years — and knows the real hierarchy beneath the official one.",
+   "consequence": "The true power-map of Tokyo from the man who has watched it seat itself — given freely, never sold."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -5220,7 +5339,11 @@
     "Get him talking about the chain of obligation above him.",
     "At depth he lets slip who he answers to — a hook into the organised underside."
    ],
-   "payoff": "A purchasable safe room and a thread into the district's organised crime — never trust it not to be sold back."
+   "payoff": "A purchasable safe room and a thread into the district's organised crime — never trust it not to be sold back.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Nishi-Shinjuku serviced high-rise",
+   "stake": "Gotō sells discretion to anyone — and might let slip who he answers to, if the price is right.",
+   "consequence": "A purchasable safe room and a thread into the district's organised crime — never trust it not to be sold back."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -5364,7 +5487,11 @@
     "Earn the quiet record of who's passed through the quarter.",
     "At depth she brings Rei a lost medium before the cells do — a rescue and a weight."
    ],
-   "payoff": "A pipeline to the fallen network the bureaus erase — and the responsibility that comes with every soul she hands over."
+   "payoff": "A pipeline to the fallen network the bureaus erase — and the responsibility that comes with every soul she hands over.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A weekly room nearby; she keeps her real name and address apart from this place",
+   "stake": "Mariko reaches lost, unregistered mediums before the institutions do — and might hand one to Rei.",
+   "consequence": "A pipeline to the fallen network the bureaus erase — and the responsibility that comes with every soul she hands over."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -5480,7 +5607,11 @@
     "Use him as a landmark, not a lead.",
     "Accept that some people are terrain, and let the morning be ordinary."
    ],
-   "payoff": "A reliable fixed point in the city's churn — and a reminder that not everyone is a mission."
+   "payoff": "A reliable fixed point in the city's churn — and a reminder that not everyone is a mission.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Nerima, an ordinary flat, an ordinary family",
+   "stake": "The Beck's Man is not a contact but a constant — the counter that's always there at Ōji.",
+   "consequence": "A reliable fixed point in the city's churn — and a reminder that not everyone is a mission."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -5755,7 +5886,11 @@
     "Take a small favour and learn what it costs to owe him.",
     "Decide how deep into his debt Rei is willing to go for what only Kuroki can find."
    ],
-   "payoff": "The fastest path to people and places no official channel can reach — at the price of owing organised crime."
+   "payoff": "The fastest path to people and places no official channel can reach — at the price of owing organised crime.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A discreet house in Mejiro; family man at home",
+   "stake": "Kuroki's network can locate what the bureaus can't — for a debt paid in Kuroki's currency.",
+   "consequence": "The fastest path to people and places no official channel can reach — at the price of owing organised crime."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -5888,7 +6023,11 @@
     "Receive the tip-offs without getting him made.",
     "At depth he takes a real risk that could put him in the bay — for one decent thing."
    ],
-   "payoff": "Inside access to the Shinjuku family's movements — and a man betting his life on the chance to be more than a soldier."
+   "payoff": "Inside access to the Shinjuku family's movements — and a man betting his life on the chance to be more than a soldier.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A share-flat in kubo with two other soldiers",
+   "stake": "Wada will betray his own family in small, mortal increments — because he's tired of being only what they made him.",
+   "consequence": "Inside access to the Shinjuku family's movements — and a man betting his life on the chance to be more than a soldier."
   },
   "romance": {
    "opens": "Player chooses it; Wada, an adult, has never been wanted for anything but his usefulness to the family — the route is being wanted as himself.",
@@ -6034,7 +6173,11 @@
     "Buy information instead of leaving him to sell pills.",
     "At depth he flips on his suppliers — a way in, and a way out for him."
    ],
-   "payoff": "Access to the gang's supply chain and hierarchy — and a frightened kid who might get to be more than a dealer."
+   "payoff": "Access to the gang's supply chain and hierarchy — and a frightened kid who might get to be more than a dealer.",
+   "goal": "What they want: To be counted as one of the older ones",
+   "place": "With an aunt who has given up on him, in Adachi-ku",
+   "stake": "Itō can open the gang's real structure — if Rei reaches the kid before the life closes over him.",
+   "consequence": "Access to the gang's supply chain and hierarchy — and a frightened kid who might get to be more than a dealer."
   },
   "romance": {
    "opens": "Player chooses it; Itō is just eighteen and an adult, but raw — the route is gentle, earned, and about safety as much as feeling.",
@@ -6180,7 +6323,11 @@
     "Be steady through the relapses without becoming his enabler or his savior.",
     "At depth he reaches his family and asks, sober, for help — a rescue or a tragedy."
    ],
-   "payoff": "A wealthy, well-connected ally pulled back from the edge — or the grief of holding the after when the ask never comes."
+   "payoff": "A wealthy, well-connected ally pulled back from the edge — or the grief of holding the after when the ask never comes.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A family-owned apartment in Hiroo he rarely sleeps in sober",
+   "stake": "Yuto is drowning in funded comfort — and Rei might be the foothold that gets him to ask for help, once, sober.",
+   "consequence": "A wealthy, well-connected ally pulled back from the edge — or the grief of holding the after when the ask never comes."
   },
   "romance": {
    "opens": "Player chooses it; Yuto, an adult, confuses being wanted with being used — the route is care that doesn't enable and doesn't rescue.",
@@ -6333,7 +6480,11 @@
     "Get him sober one afternoon — the real work.",
     "Sober, he gives the buried history behind a thin spot: the key to a whole arc."
    ],
-   "payoff": "The hidden historical truth under a haunting — the fact the official record erased, which cracks the case open."
+   "payoff": "The hidden historical truth under a haunting — the fact the official record erased, which cracks the case open.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "Cardboard and a bench in the park by the university; the library by day",
+   "stake": "Sugimoto holds the true, paved-over history behind the city's thin spots — if Rei can get him sober and listening.",
+   "consequence": "The hidden historical truth under a haunting — the fact the official record erased, which cracks the case open."
   },
   "tier": "Sensitive",
   "tierLetter": "E",
@@ -6598,7 +6749,11 @@
     "Earn a nod, a direction, the thing left behind.",
     "At full trust he tells exactly what he found, and where, on the worst night."
    ],
-   "payoff": "A witness to the city's emptiest, most honest hours — physical evidence and sightings no daytime investigation could reach."
+   "payoff": "A witness to the city's emptiest, most honest hours — physical evidence and sightings no daytime investigation could reach.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "A tiny flat in Oji with his wife of forty years",
+   "stake": "Tanabe cleans the city at its thinnest hour and sees what daylight can't recover — if anyone bothers to ask the cleaner.",
+   "consequence": "A witness to the city's emptiest, most honest hours — physical evidence and sightings no daytime investigation could reach."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -6733,7 +6888,11 @@
     "Earn a client's dangerous secret without becoming a mark yourself.",
     "At depth he hands Rei leverage no investigator could otherwise reach."
    ],
-   "payoff": "Access to the confessions of Tokyo's powerful — and, if earned, the real person behind the working name."
+   "payoff": "Access to the confessions of Tokyo's powerful — and, if earned, the real person behind the working name.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "A sleek serviced flat near work; mirrors everywhere",
+   "stake": "Leo remembers every secret the powerful let slip while being adored — and trades them for the right consideration.",
+   "consequence": "Access to the confessions of Tokyo's powerful — and, if earned, the real person behind the working name."
   },
   "romance": {
    "opens": "Player chooses it; Leo, an adult, performs intimacy for a living — the route is the one person he stops performing for.",
@@ -6888,7 +7047,11 @@
     "Earn the honest read on who's hiding and who's hunting in the quarter.",
     "At full trust she opens the Thai community and the strip's workers to you."
    ],
-   "payoff": "Eyes across Ōkubo and the workers' network — the surveillance the CVD and Grid both lack, given only on respect."
+   "payoff": "Eyes across Ōkubo and the workers' network — the surveillance the CVD and Grid both lack, given only on respect.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A flat in kubo shared with two friends from the Thai community",
+   "stake": "Mali reads Ōkubo's hidden community better than any bureau — and guards it like family.",
+   "consequence": "Eyes across Ōkubo and the workers' network — the surveillance the CVD and Grid both lack, given only on respect."
   },
   "romance": {
    "opens": "Player chooses it; Mali, an adult, has been wanted for what she knows and not who she is — the route is being chosen for herself.",
@@ -7034,7 +7197,11 @@
     "Get the day's neighbourhood news, freely.",
     "Gently asked, he tells what he noticed about Gin before the silence."
    ],
-   "payoff": "Ground-level eyes on Gin's own block — the small, true observations no official canvass would gather."
+   "payoff": "Ground-level eyes on Gin's own block — the small, true observations no official canvass would gather.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "The rooms behind the kiosk; never lived anywhere else as an adult",
+   "stake": "Komatsu has watched Gin's corner for decades — and noticed when Gin stopped coming by.",
+   "consequence": "Ground-level eyes on Gin's own block — the small, true observations no official canvass would gather."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7154,7 +7321,11 @@
     "Hear the building gossip and what he's quietly uneasy about.",
     "At full trust he describes the keys, the cold spot, the self-locking door — mundane proof of the possession."
    ],
-   "payoff": "Outside, unsuperstitious confirmation that something is wrong in Gin's flat — physical evidence from a man with no theory to sell."
+   "payoff": "Outside, unsuperstitious confirmation that something is wrong in Gin's flat — physical evidence from a man with no theory to sell.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A super's flat on the ground floor of the block",
+   "stake": "Iwata maintains Gin's building and has noticed it stopped behaving like a building.",
+   "consequence": "Outside, unsuperstitious confirmation that something is wrong in Gin's flat — physical evidence from a man with no theory to sell."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7281,7 +7452,11 @@
     "Earn a word with Endō and the run of his floors.",
     "At full trust the clubs open as a base — doors, eyes, a safe room, the night's intel."
    ],
-   "payoff": "A nightlife headquarters and surveillance grid across the district — for exactly as long as Rei keeps penciling out."
+   "payoff": "A nightlife headquarters and surveillance grid across the district — for exactly as long as Rei keeps penciling out.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A penthouse over one of his clubs; he likes to feel the bass",
+   "stake": "Saeki's nightlife empire is the district's best surveillance grid — open to a partner who pencils out.",
+   "consequence": "A nightlife headquarters and surveillance grid across the district — for exactly as long as Rei keeps penciling out."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7402,7 +7577,11 @@
     "Decide how much truth Daiki can carry without it putting him in front of the wrong people.",
     "When the danger reaches him — and it does — choose distance or disclosure."
    ],
-   "payoff": "Daiki is the human cost meter: how much of his old life Rei keeps is measured in whether Daiki is still calling at the end."
+   "payoff": "Daiki is the human cost meter: how much of his old life Rei keeps is measured in whether Daiki is still calling at the end.",
+   "goal": "What they want: To be counted as one of the older ones",
+   "place": "Two stops from Rei, with parents and a little brother",
+   "stake": "Daiki is owed honesty Rei can’t safely give, and notices every dodge.",
+   "consequence": "Daiki is the human cost meter: how much of his old life Rei keeps is measured in whether Daiki is still calling at the end."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7536,7 +7715,11 @@
     "Earn the booth and an honest coffee.",
     "At full trust he reserves it on demand and tells you who else meets there."
    ],
-   "payoff": "A veil-quiet safe table for meetings and Rei's own steadying — plus the roster of the ward's discreet company."
+   "payoff": "A veil-quiet safe table for meetings and Rei's own steadying — plus the roster of the ward's discreet company.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "Above the cafe, alone since his wife passed",
+   "stake": "Maruyama's corner booth is a veil-quiet refuge — and he knows everyone who uses it.",
+   "consequence": "A veil-quiet safe table for meetings and Rei's own steadying — plus the roster of the ward's discreet company."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7662,7 +7845,11 @@
     "Earn warm bread and the morning's news.",
     "At full trust she becomes a reliable drop point and feeds Rei's informants."
    ],
-   "payoff": "A safe, invisible message relay and a way to keep a street network fed and reachable — hidden in plain sight."
+   "payoff": "A safe, invisible message relay and a way to keep a street network fed and reachable — hidden in plain sight.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Behind the bakery; up at four, asleep by eight",
+   "stake": "Kawai's bakery is the one place on the block no one thinks to watch — and she feeds the hungry without asking why.",
+   "consequence": "A safe, invisible message relay and a way to keep a street network fed and reachable — hidden in plain sight."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7793,7 +7980,11 @@
     "Earn a bowl and the lay of the night.",
     "At full trust he gives the who's-who of his counter and how they seemed."
    ],
-   "payoff": "A pattern-read on the district's nightlife traffic — scattered sightings turned into a lead, one bowl at a time."
+   "payoff": "A pattern-read on the district's nightlife traffic — scattered sightings turned into a lead, one bowl at a time.",
+   "goal": "What they want: To keep their flock whole",
+   "place": "A flat near the yards; the shop is six stools under an arch",
+   "stake": "The whole night crosses Tatsu's ramen counter, and he remembers all of it.",
+   "consequence": "A pattern-read on the district's nightlife traffic — scattered sightings turned into a lead, one bowl at a time."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -7919,7 +8110,11 @@
     "Earn an oblique read on his regulars.",
     "At full trust he gives, freely, the secret that breaks the case open."
    ],
-   "payoff": "A case-breaking secret, given only as the gift of earned trust — the opposite of Gotō's purchasable silence."
+   "payoff": "A case-breaking secret, given only as the gift of earned trust — the opposite of Gotō's purchasable silence.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A room above the bar",
+   "stake": "Yoshida holds one secret that cracks the case — and will only give it to someone who never tried to buy it.",
+   "consequence": "A case-breaking secret, given only as the gift of earned trust — the opposite of Gotō's purchasable silence."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -8047,7 +8242,11 @@
     "Receive a cryptic true thing about the night.",
     "At full trust she says plainly what she sees coming."
    ],
-   "payoff": "A living early-warning sense for the city's worst hours — wrongness named before it arrives, if Rei learns to listen."
+   "payoff": "A living early-warning sense for the city's worst hours — wrongness named before it arrives, if Rei learns to listen.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Unknown",
+   "stake": "The Woman at the Back feels the night lean wrong before it does — a passive alarm Rei can learn to read.",
+   "consequence": "A living early-warning sense for the city's worst hours — wrongness named before it arrives, if Rei learns to listen."
   },
   "tier": "Sensitive",
   "tierLetter": "E",
@@ -8194,7 +8393,11 @@
     "Earn a cleansing, a charm, honest counsel.",
     "At full trust he teaches the ward methodology or sets it himself for a site."
    ],
-   "payoff": "A spiritual method outside the bureau's reach — wards and cleansings the institution literally cannot do."
+   "payoff": "A spiritual method outside the bureau's reach — wards and cleansings the institution literally cannot do.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "The priest's house in the shrine grounds, with his family",
+   "stake": "Miyamoto wards and cleanses by a tradition the CVD can't reproduce — given on respect, never rank.",
+   "consequence": "A spiritual method outside the bureau's reach — wards and cleansings the institution literally cannot do."
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -8322,7 +8525,11 @@
     "Prove the cause is worthy, not just urgent; he refuses to be a weapon.",
     "At full trust he performs the Shingon exorcism, paying its real cost."
    ],
-   "payoff": "A method of genuine exorcism beyond the bureau's doctrine — the spiritual heavy artillery, given once and dearly."
+   "payoff": "A method of genuine exorcism beyond the bureau's doctrine — the spiritual heavy artillery, given once and dearly.",
+   "goal": "What they want: To keep their flock whole",
+   "place": "The temple precincts; a monk's spare quarters",
+   "stake": "Egami holds a true esoteric exorcism the CVD can't reproduce — performed only for a cause he judges worthy, at real cost.",
+   "consequence": "A method of genuine exorcism beyond the bureau's doctrine — the spiritual heavy artillery, given once and dearly."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -8451,7 +8658,11 @@
     "Show him a cause his conscience can stand behind.",
     "At full trust he performs the rite, or shelters someone the bureau means to erase."
    ],
-   "payoff": "A Roman-rite exorcist and a safe house that answers to conscience, not the CVD — sanctuary the institution can't override."
+   "payoff": "A Roman-rite exorcist and a safe house that answers to conscience, not the CVD — sanctuary the institution can't override.",
+   "goal": "What they want: To keep their flock whole",
+   "place": "The parish house beside the church",
+   "stake": "Father Anselm will perform the Roman rite — or hide someone the CVD wants — on his own judgement, not anyone's leave.",
+   "consequence": "A Roman-rite exorcist and a safe house that answers to conscience, not the CVD — sanctuary the institution can't override."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -8574,7 +8785,11 @@
     "Earn the conversation, then the blunt advice.",
     "At full trust he draws a true fú for a specific entity and teaches how his tradition reads the other side."
    ],
-   "payoff": "Talismanic weapons calibrated to a specific entity, and a cosmology of reading the unseen the CVD doesn't have."
+   "payoff": "Talismanic weapons calibrated to a specific entity, and a cosmology of reading the unseen the CVD doesn't have.",
+   "goal": "What they want: To keep their flock whole",
+   "place": "The temple, with the small Chinese community",
+   "stake": "Lin Wei draws talismans that work on what the bureau calls unkillable — for those who keep the form.",
+   "consequence": "Talismanic weapons calibrated to a specific entity, and a cosmology of reading the unseen the CVD doesn't have."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -8701,7 +8916,11 @@
     "Receive a reading of the dead around a place.",
     "At full trust she performs a gut for the case, reaching the dead or guiding a spirit on."
    ],
-   "payoff": "Direct access to the dead as witnesses — the one source that can answer when every living lead is exhausted."
+   "payoff": "Direct access to the dead as witnesses — the one source that can answer when every living lead is exhausted.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Above a Korean restaurant in Shin-kubo",
+   "stake": "Pak's gut rites can reach a specific dead soul or send a restless one on — answers no living witness can give.",
+   "consequence": "Direct access to the dead as witnesses — the one source that can answer when every living lead is exhausted."
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -8832,7 +9051,11 @@
     "Earn a divination and counsel.",
     "At full trust he reads Ifá for the case and opens the diaspora's knowledge to Rei."
    ],
-   "payoff": "An ancient parallel system of divination and counter-measure the institution doesn't know exists — knowledge from entirely outside its walls."
+   "payoff": "An ancient parallel system of divination and counter-measure the institution doesn't know exists — knowledge from entirely outside its walls.",
+   "goal": "What they want: To keep their flock whole",
+   "place": "A flat that doubles as a community house, candles always lit",
+   "stake": "Baba's Ifá tradition reads what the CVD can't see — an entire parallel knowledge inside the city the bureau never mapped.",
+   "consequence": "An ancient parallel system of divination and counter-measure the institution doesn't know exists — knowledge from entirely outside its walls."
   },
   "tier": "Ritualist",
   "tierLetter": "B",
@@ -8958,7 +9181,11 @@
     "Handle the first Gathering without becoming a risk to it.",
     "At full trust, be brought fully inside the Grid — the meet, the network, the web."
    ],
-   "payoff": "Access to the entire Grid — or, if mishandled, a vanished meet and a network warned against Rei."
+   "payoff": "Access to the entire Grid — or, if mishandled, a vanished meet and a network warned against Rei.",
+   "goal": "What they want: Standing among the crossers, and not to be owed",
+   "place": "Nowhere fixed — that is the job",
+   "stake": "Switch runs the rotating Grid Gathering — the gate to the whole unmappable network.",
+   "consequence": "Access to the entire Grid — or, if mishandled, a vanished meet and a network warned against Rei."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9080,7 +9307,11 @@
     "Learn who crossed the fence last night.",
     "At full trust he tells what comes through, on what schedule, and what he won't go near."
    ],
-   "payoff": "A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable."
+   "payoff": "A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "The condemned housing by the freight yard; the last man who will not leave",
+   "stake": "Old Tomi watches the condemned blocks where the maps go vague — and knows exactly what comes through them, and when.",
+   "consequence": "A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9201,7 +9432,11 @@
     "Learn from him whether it's safe down there now.",
     "At full trust he gives the full schedule of when and how the underpass turns."
    ],
-   "payoff": "A precise, ear-mapped timetable of a recurring thin spot — exactly when it's lethal and when it's only a tunnel."
+   "payoff": "A precise, ear-mapped timetable of a recurring thin spot — exactly when it's lethal and when it's only a tunnel.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "A shelter by night; the underpass by day",
+   "stake": "Sato can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
+   "consequence": "A precise, ear-mapped timetable of a recurring thin spot — exactly when it's lethal and when it's only a tunnel."
   },
   "tier": "Sensitive",
   "tierLetter": "E",
@@ -9333,7 +9568,11 @@
     "Learn the memorial's calendar of sorrow.",
     "At full trust she tells when the grief peaks and what she's felt answer."
    ],
-   "payoff": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it."
+   "payoff": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "A flat overlooking the river; close enough to tend daily",
+   "stake": "Endō tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
+   "consequence": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9454,7 +9693,11 @@
     "Show him you believe what he can't write down.",
     "At full trust he brings Rei onto scenes openly and shares the omitted files."
    ],
-   "payoff": "Open access to police scenes and the evidence the official record erases — the mundane world's door into the hidden one."
+   "payoff": "Open access to police scenes and the evidence the official record erases — the mundane world's door into the hidden one.",
+   "goal": "What they want: A quiet case file and no surprises",
+   "place": "A salaryman's flat in the ward with a wife who worries",
+   "stake": "Arai has carried the cases the police report can't hold — alone, for years, and he is tired of it.",
+   "consequence": "Open access to police scenes and the evidence the official record erases — the mundane world's door into the hidden one."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9575,7 +9818,11 @@
     "Keep your iron and salt stocked, with a little extra.",
     "At full trust he warns which other customers have been buying strangely."
    ],
-   "payoff": "A reliable materials supply and an early signal of who else in the district is preparing for something."
+   "payoff": "A reliable materials supply and an early signal of who else in the district is preparing for something.",
+   "goal": "What they want: To see the young ones not repeat old mistakes",
+   "place": "Behind the shop, alone, a widower",
+   "stake": "Maki supplies the district's wards and notices who's stocking up for trouble.",
+   "consequence": "A reliable materials supply and an early signal of who else in the district is preparing for something."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9695,7 +9942,11 @@
     "Win Baba Adewale's trust first; the blessing is the key.",
     "With Baba's word, the back room and its materials open to Rei."
    ],
-   "payoff": "Access to diaspora spiritual materials and counter-measures the institution can't source — gated by community trust."
+   "payoff": "Access to diaspora spiritual materials and counter-measures the institution can't source — gated by community trust.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Above the shop with his family",
+   "stake": "Adé's back room holds the diaspora's spiritual materials — opened only with Baba's blessing, never for money.",
+   "consequence": "Access to diaspora spiritual materials and counter-measures the institution can't source — gated by community trust."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9828,7 +10079,11 @@
     "Earn rare references and honest provenance.",
     "At full trust he opens the locked case and guides Rei through the book that breaks the case — with a warning he means."
    ],
-   "payoff": "A case-breaking text from behind the glass, and a gatekeeper's guidance through knowledge that carries a cost."
+   "payoff": "A case-breaking text from behind the glass, and a gatekeeper's guidance through knowledge that carries a cost.",
+   "goal": "What they want: To be left to their shelves — and to be needed",
+   "place": "Among the books; a cot in the back room",
+   "stake": "The Bookseller keeps texts that crack cases open — and texts that ruin the readers not ready for them.",
+   "consequence": "A case-breaking text from behind the glass, and a gatekeeper's guidance through knowledge that carries a cost."
   },
   "tier": "The Null",
   "tierLetter": "0",
@@ -9954,7 +10209,11 @@
     "Earn a genuine warded charm instead of the tourist stock.",
     "At full trust she sets aside the real omamori and tells you who came back 'calmer.'"
    ],
-   "payoff": "Genuine protective charms and a soft lead on who in the neighbourhood has quietly been touched by something."
+   "payoff": "Genuine protective charms and a soft lead on who in the neighbourhood has quietly been touched by something.",
+   "goal": "What they want: To get by and keep their corner of the ward okay",
+   "place": "Behind the shop, near ji shrine",
+   "stake": "Sone knows which omamori are real and which customers came back changed.",
+   "consequence": "Genuine protective charms and a soft lead on who in the neighbourhood has quietly been touched by something."
   },
   "tier": "The Null",
   "tierLetter": "0",

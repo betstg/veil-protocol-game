@@ -535,7 +535,17 @@ function tick(){
  if(G.pendingFollowups&&G.pendingFollowups.length){var nf=G.day*1440+G.min;for(var fi=G.pendingFollowups.length-1;fi>=0;fi--){if(G.pendingFollowups[fi].dueAbs<=nf){var ff=G.pendingFollowups.splice(fi,1)[0];npcFollowup(ff.id,ff.note);}}}
 }
 function gainXP(n){G.xp+=n;renderTop();}
-function questStep(id,i){const q=G.quests.find(x=>x.id===id);if(q&&q.steps[i])q.steps[i].done=true;}
+function questStep(id,i){const q=G.quests.find(x=>x.id===id);if(q&&q.steps[i]){q.steps[i].done=true;if(typeof questCheckDone==='function')questCheckDone(id);}}
+// a personal quest pays off with its CONSEQUENCE when its stages are all met (good) or its NPC is lost (bad)
+function resolveNpcQuest(id,good){ var q=(G.quests||[]).find(function(x){return x.id==='npc-'+id;}); if(!q||q.arch)return;
+ if(good!==false)q.steps.forEach(function(s){s.done=true;}); q.arch=true; q.resolved=(good!==false);
+ var cons=q.consequence||''; var c=G.contacts[id];
+ if(c)c.history.push(['sys','✦ '+esc(q.title.split(' · ')[0])+(good===false?' ends, unfinished.':' resolves.')+(cons?(' '+esc(cons)):'')]);
+ if(typeof gameToast==='function')gameToast('✦ Personal quest '+(good===false?'lost':'resolved')+': '+esc(q.title.split(' · ')[0]));
+ if(good!==false&&typeof gainXP==='function')gainXP(6);
+ if(typeof saveG==='function')saveG(); }
+function questCheckDone(id){ var q=(G.quests||[]).find(function(x){return x.id===id;}); if(!q||q.arch||String(q.id).indexOf('npc-')!==0)return;
+ if(q.steps.length&&q.steps.every(function(s){return s.done;})) resolveNpcQuest(String(q.id).slice(4),true); }
 function pickUp(it){ if(!it||!it.n)return; if(G.player.inventory.some(function(x){return x.n===it.n;}))return; G.player.inventory.push({n:it.n,e:it.e||'•',d:it.d||'',ground:!!it.ground}); gameToast('✦ Picked up: '+it.n); }
 
 /* =================== POWER FX =================== */
@@ -1354,7 +1364,7 @@ function applyNpcEvent(id,ev,c){
  if(k==='chem'){ var lvl=Math.max(0,Math.min(5,parseInt(ev.level)||0)); if(lvl<=0){c._chem=null;} else {c._chem={sub:(ev.sub||ev.text||'alcohol'),level:lvl,note:(ev.note||''),until:(G.day*1440+G.min)+240};} if(typeof saveG==='function')saveG(); return; }
  if(k==='quest'){ var qch=(typeof charForContact==='function')?charForContact(c):null; var qd=qch&&qch.quest; var qt=(ev.title||(qd&&qd.title)||(nm+'\'s story')).toString().slice(0,70);
   if(!G.quests)G.quests=[]; var qid='npc-'+id;
-  if(!G.quests.some(function(q){return q.id===qid;})){ var steps=((qd&&qd.stages)||[ev.text||('Drawn into '+nm+'\'s story')]).map(function(st){return {t:st,done:false};}); G.quests.push({id:qid,title:qt+' · '+nm,steps:steps,arch:false,npc:id}); gameToast('✦ Personal quest: '+qt); if(typeof saveG==='function')saveG(); }
+  if(!G.quests.some(function(q){return q.id===qid;})){ var steps=((qd&&qd.stages)||[ev.text||('Drawn into '+nm+'\'s story')]).map(function(st){return {t:st,done:false};}); G.quests.push({id:qid,title:qt+' · '+nm,steps:steps,arch:false,npc:id,goal:(qd&&qd.goal)||'',place:(qd&&qd.place)||'',stake:(qd&&(qd.stake||qd.hook))||'',consequence:(qd&&(qd.consequence||qd.payoff))||''}); gameToast('✦ Personal quest: '+qt); if(typeof saveG==='function')saveG(); }
   return; }
  if(k==='moveto'){ var mp=resolvePlaceId(ev.target||ev.text||''); if(!mp)return;
   c._here={placeId:mp, until:(G.day*1440+G.min)+600}; c._nextPlace=mp;
@@ -1369,6 +1379,7 @@ function applyNpcEvent(id,ev,c){
   var word=c.status==='dead'?(nm+' is dead.'):c.status==='gone'?(nm+' has vanished... unreachable.'):c.status==='wounded'?(nm+' is badly hurt... taken to the CVD Health Center.'):(nm+' is back on their feet.');
   c.history.push(['sys','✖ '+esc(word)]); if((c.status==='dead'||c.status==='gone')&&typeof addDiscovery==='function')addDiscovery(word,nm);
   if((c.status==='dead'||c.status==='gone')&&typeof deathRipple==='function')deathRipple(id,c.status);
+  if((c.status==='dead'||c.status==='gone')&&typeof resolveNpcQuest==='function')resolveNpcQuest(id,false);
   if(typeof gameToast==='function')gameToast('✖ '+word); if(typeof renderTabbar==='function')renderTabbar(); if(typeof renderTop==='function')renderTop(); if(typeof saveG==='function')saveG(); return; }
 }
 // when someone dies/vanishes, those who knew them feel it... by how they felt about the dead, and whether they have a heart at all
@@ -1503,7 +1514,13 @@ function npcReply(id){const c=G.contacts[id];
   .catch(function(){AI_OK=false;c.history.push(['them',fb[id]||'…']);c.history.push(['sys','(AI backend offline... start the server)']);_renderConvo(id);});
 }
 function phQuests(){quTab('active');}
-function quTab(tab){let h=phbar('Quests')+'<div class="ph-tabs"><button class="'+(tab==='active'?'on':'')+'" onclick="quTab(\'active\')">Active</button><button class="'+(tab==='arch'?'on':'')+'" onclick="quTab(\'arch\')">Archived</button></div><div class="ph-body" style="padding:4px 0">';const list=G.quests.filter(q=>tab==='arch'?q.arch:!q.arch);if(!list.length)h+='<p style="color:var(--ph-dim);font-size:12px;font-style:italic;padding:0 14px">Nothing here.</p>';list.forEach(q=>{h+='<div class="quest"><div class="qt">'+q.title+'</div>';q.steps.forEach(s=>h+='<div class="step'+(s.done?' done':'')+'">'+(s.done?'✓ ':'○ ')+s.t+'</div>');h+='</div>';});h+='</div>';ph(h);}
+function quTab(tab){let h=phbar('Quests')+'<div class="ph-tabs"><button class="'+(tab==='active'?'on':'')+'" onclick="quTab(\'active\')">Active</button><button class="'+(tab==='arch'?'on':'')+'" onclick="quTab(\'arch\')">Archived</button></div><div class="ph-body" style="padding:4px 0">';const list=G.quests.filter(q=>tab==='arch'?q.arch:!q.arch);if(!list.length)h+='<p style="color:var(--ph-dim);font-size:12px;font-style:italic;padding:0 14px">Nothing here.</p>';list.forEach(q=>{h+='<div class="quest"><div class="qt">'+q.title+'</div>';
+ if(q.goal)h+='<div style="font-size:11px;color:var(--ph-accent);margin:2px 0">'+esc(q.goal)+'</div>';
+ if(q.place)h+='<div style="font-size:11px;color:var(--ph-dim);margin:1px 0">▸ Where: '+esc(q.place)+'</div>';
+ if(q.stake&&!q.arch)h+='<div style="font-size:11px;color:var(--ph-dim);font-style:italic;margin:1px 0 3px">At stake: '+esc(q.stake)+'</div>';
+ q.steps.forEach(s=>h+='<div class="step'+(s.done?' done':'')+'">'+(s.done?'✓ ':'○ ')+s.t+'</div>');
+ if(q.arch&&q.consequence)h+='<div style="font-size:11px;color:'+(q.resolved===false?'#b65a4c':'var(--gold)')+';margin:4px 0 0">'+(q.resolved===false?'How it ended: ':'Consequence: ')+esc(q.consequence)+'</div>';
+ h+='</div>';});h+='</div>';ph(h);}
 function phAlerts(){ph(phbar('Alerts')+'<div class="ph-body" style="padding:6px 0"><div class="notif">📍 <b>Itsuki</b> shared his location... <b>Geidai studios, Ueno</b>.<div style="margin-top:7px"><span class="go"><button onclick="addPlace()">Add to Map</button></span></div></div><div class="notif">CVD: anomalous-activity advisory for Kita-ku. Do not engage.</div></div>');}
 function addPlace(){if(!G.places.find(p=>p.id==='geidai'))G.places.push({id:'geidai',name:'Geidai studios (Ueno)',station:'Ueno',walk:null,train:21,cab:28,note:"Itsuki's world."});phMap();}
 
