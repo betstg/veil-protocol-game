@@ -776,7 +776,9 @@ function renderTop(){
  if(pv){ var ph=_avatarUnit('me',playerFace(),'Rei');
   (G.party||[]).filter(function(pid){return G.contacts[pid]&&npcReachable(G.contacts[pid]);}).slice(0,3).forEach(function(pid){
    ph+=_avatarUnit(pid,avatarFace(pid),G.contacts[pid].name); });
-  pv.innerHTML=ph+'<div id="party-dd" style="display:none;position:absolute;top:46px;right:8px;z-index:40;background:#15110a;border:1px solid #6d5a3a;border-radius:10px;padding:11px 12px;min-width:188px;box-shadow:0 10px 30px rgba(0,0,0,.7)"></div>'; }
+  var _odd=document.getElementById('party-dd'); var _owho=(_odd&&_odd.style.display==='block')?_odd._who:null;
+  pv.innerHTML=ph+'<div id="party-dd" style="display:none;position:absolute;top:46px;right:8px;z-index:40;background:#15110a;border:1px solid #6d5a3a;border-radius:10px;padding:11px 12px;min-width:188px;box-shadow:0 10px 30px rgba(0,0,0,.7)"></div>';
+  if(_owho){ var _ndd=document.getElementById('party-dd'); _ndd._who=_owho; _ndd.innerHTML=partyDDHtml(_owho); _ndd.style.display='block'; } }
  var _dd=document.getElementById('dock-device'); if(_dd){ if(typeof deviceEarned==='function'&&deviceEarned())_dd.classList.remove('hidden'); else _dd.classList.add('hidden'); }
 }
 function playerFace(){return '<img src="images/char_rei.png" alt="Rei" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.outerHTML=&apos;R&apos;">';}
@@ -820,6 +822,8 @@ function advance(mins){G.min+=mins;while(G.min>=1440){G.min-=1440;G.day++;}rende
 /* live clock... time passes in real time (1 game-minute per real second); delivery rides the same clock */
 function startClock(){ if(G._tick) return; G._tick=setInterval(tick,1000); }
 function tick(){
+ // time crawls: one game-minute every ~4 real seconds, so a whole day is ~1.5 real hours and a long chat won't burn a morning
+ G._sub=(G._sub||0)+1; if(G._sub<4) return; G._sub=0;
  G.min++; if(G.min>=1440){G.min-=1440;G.day++;}
  if(typeof worldTick==='function')worldTick(); // NPCs live a little offscreen each in-game hour
  renderTop(); if(G.min%5===0)saveG();
@@ -2738,7 +2742,7 @@ function matFlag(){ var adult=!!(G.flags&&G.flags.adult); return ' PLAYER MODE: 
 loadDB();loadG();seedNetworkWarmth();clearSeededFlavor();bindPhoneSwipe();
 /* DEV TEST: device + a caught demon from the start, so the capturer can be tested before Rei earns it.
    Set DEVTEST=false to hide the device again until a faction hands it over. */
-var DEVTEST=true;
+var DEVTEST=false;
 if(DEVTEST){ if(!G.flags)G.flags={}; G.flags.hasDevice=true; G.flags.deviceFac='cvd';
  if(!G.player.standing)G.player.standing={cvd:0,grid:0,tower:0}; if(G.player.standing.cvd<3)G.player.standing.cvd=3; /* so the faction-deposit option shows in testing */
  if(!(G.trap&&G.trap.spirit)) G.trap={spirit:{id:'test-lodger',name:'The Long Guest',type:'demon',register:'Hunger',grade:'B',lean:-55,story:'I moved in when the house went quiet, and no one noticed the extra plate.',chat:null}};
