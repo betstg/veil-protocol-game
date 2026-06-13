@@ -1,0 +1,45 @@
+{
+  "id": "left-at-the-altar",
+  "name": "Left at the Altar",
+  "type": "spirit",
+  "register": "Longing",
+  "grade": "C",
+  "description": "a Longing residue · a step sideways toward the Thirteen",
+  "hp": 18,
+  "atk": 7,
+  "exorcise_dc": 12,
+  "anchor": "the date that was supposed to be a wedding",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 2500,
+      "max": 8000
+    },
+    "cigarettes": {
+      "chance": 0.4,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.55,
+      "min": 2,
+      "max": 5
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.09,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "a Longing residue · a step sideways toward the Thirteen",
+    "tip": "It knows who in this district is still waiting for someone who is not coming.",
+    "tier": 2
+  }
+}

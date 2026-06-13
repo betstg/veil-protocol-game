@@ -1,0 +1,15 @@
+{
+  "id": "koenji",
+  "name": "Kōenji — Usami's bakery",
+  "faction": "vessel",
+  "lat": 35.7058,
+  "lng": 139.6497,
+  "hours": "07:00–19:00",
+  "tier": 2,
+  "known": false,
+  "owner": "usami-hinata-ren",
+  "extra": {
+    "train": 31,
+    "cab": 34
+  }
+}

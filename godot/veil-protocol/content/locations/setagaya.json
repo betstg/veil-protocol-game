@@ -1,0 +1,13 @@
+{
+  "id": "setagaya",
+  "name": "Setagaya",
+  "faction": "none",
+  "lat": 35.6464,
+  "lng": 139.6533,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 40,
+    "cab": 45
+  }
+}

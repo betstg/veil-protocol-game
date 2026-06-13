@@ -1,0 +1,13 @@
+{
+  "id": "shinokubo",
+  "name": "Shin-Ōkubo",
+  "faction": "street",
+  "lat": 35.7008,
+  "lng": 139.7,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 27,
+    "cab": 30
+  }
+}

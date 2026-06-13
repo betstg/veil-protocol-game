@@ -1,0 +1,13 @@
+{
+  "id": "hiroo",
+  "name": "Hiroo",
+  "faction": "none",
+  "lat": 35.652,
+  "lng": 139.722,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 38,
+    "cab": 40
+  }
+}

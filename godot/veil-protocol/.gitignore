@@ -1,0 +1,13 @@
+# Godot 4 / .NET
+.godot/
+.import/
+bin/
+obj/
+*.user
+
+# Local runtime database (rebuilt from /content on import)
+*.db
+*.db-journal
+
+# OS
+.DS_Store

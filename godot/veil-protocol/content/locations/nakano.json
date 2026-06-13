@@ -1,0 +1,13 @@
+{
+  "id": "nakano",
+  "name": "Nakano",
+  "faction": "none",
+  "lat": 35.7074,
+  "lng": 139.6657,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 33,
+    "cab": 35
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "suzuran",
+  "name": "The Suzuran (Golden Gai)",
+  "faction": "street",
+  "lat": 35.6945,
+  "lng": 139.705,
+  "hours": "19:00–04:00",
+  "tier": 2,
+  "known": false,
+  "owner": "kaneda-t-ru",
+  "art": "place_suzuran.png",
+  "extra": {
+    "train": 28,
+    "cab": 30
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "last-stand",
+  "name": "The Last Stand",
+  "type": "spirit",
+  "register": "Courage",
+  "grade": "C",
+  "description": "a Courage residue, bright and brief",
+  "hp": 24,
+  "atk": 9,
+  "exorcise_dc": 13,
+  "anchor": "the doorway it died holding",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 2500,
+      "max": 8000
+    },
+    "cigarettes": {
+      "chance": 0.4,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.55,
+      "min": 2,
+      "max": 5
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.09,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "a Courage residue, bright and brief",
+    "tip": "It will tell you what it was protecting, if you prove you would have held the line too.",
+    "tier": 2
+  }
+}

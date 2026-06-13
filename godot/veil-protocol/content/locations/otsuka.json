@@ -1,0 +1,13 @@
+{
+  "id": "otsuka",
+  "name": "Ōtsuka",
+  "faction": "none",
+  "lat": 35.7312,
+  "lng": 139.7286,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 14,
+    "cab": 16
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "landlady",
+  "name": "Mrs. Fujimoto",
+  "full_name": "Fujimoto Aiko — landlady of the Tsukimi building",
+  "faction": "street",
+  "role": "Landlady",
+  "location": "hallway",
+  "trust": 20,
+  "knowledge": ["missing_person", "strange_noises", "tenant_name"],
+  "dialogue_root": "landlady_intro",
+  "persona": {
+    "voice": "Brisk, houseproud, lowers her voice for anything embarrassing to the building. Speaks in small practicalities to avoid the large frightening thing.",
+    "traits": "guarded, decent, superstitious",
+    "wants": "the noises to stop and the rent to keep coming without a fuss",
+    "guard": "Will not hand over the master key until she trusts you. Hides that she has heard the tenant's voice through the door since he vanished, because saying it aloud makes it real."
+  },
+  "links": [
+    { "type": "member_of", "to": "street" },
+    { "type": "works_at", "to": "apartment_302" }
+  ]
+}

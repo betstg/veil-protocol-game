@@ -1,0 +1,14 @@
+{
+  "id": "river",
+  "name": "The riverbank (Obon)",
+  "faction": "none",
+  "lat": 35.755,
+  "lng": 139.735,
+  "hours": "—",
+  "tier": 1,
+  "known": true,
+  "extra": {
+    "walk": 10,
+    "cab": 12
+  }
+}

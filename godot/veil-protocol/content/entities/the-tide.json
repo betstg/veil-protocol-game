@@ -1,0 +1,50 @@
+{
+  "id": "the-tide",
+  "name": "The Tide That Didn't Recede",
+  "type": "spirit",
+  "register": "Grief",
+  "grade": "top",
+  "description": "catastrophic power · half your soul gone",
+  "hp": 90,
+  "atk": 22,
+  "exorcise_dc": 30,
+  "anchor": "the list of the village's missing",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 40000,
+      "max": 120000
+    },
+    "cigarettes": {
+      "chance": 0.9,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 1.0,
+      "min": 12,
+      "max": 30
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.22,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.12,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "catastrophic power · half your soul gone",
+    "tip": "—",
+    "tier": 5
+  }
+}

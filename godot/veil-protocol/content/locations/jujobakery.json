@@ -1,0 +1,15 @@
+{
+  "id": "jujobakery",
+  "name": "Jūjō Ginza bakery",
+  "faction": "street",
+  "lat": 35.7585,
+  "lng": 139.721,
+  "hours": "Thu 07:00–12:00",
+  "tier": 1,
+  "known": true,
+  "owner": "kondo-fumio",
+  "extra": {
+    "walk": 9,
+    "cab": 12
+  }
+}

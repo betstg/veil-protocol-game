@@ -1,0 +1,15 @@
+{
+  "id": "hallway",
+  "name": "Third-floor hallway",
+  "faction": "none",
+  "description": "A narrow corridor of identical doors and a flickering fluorescent tube. Mrs. Fujimoto is usually here, pretending to water a plant that does not need it.",
+  "lat": 35.7331,
+  "lng": 139.7406,
+  "hours": "24h",
+  "tier": 1,
+  "known": true,
+  "connections": [
+    { "to": "apartment_302", "walk": 1 },
+    { "to": "laundry_room", "walk": 2 }
+  ]
+}

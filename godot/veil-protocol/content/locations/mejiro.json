@@ -1,0 +1,13 @@
+{
+  "id": "mejiro",
+  "name": "Mejiro",
+  "faction": "none",
+  "lat": 35.7214,
+  "lng": 139.7065,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 14,
+    "cab": 18
+  }
+}

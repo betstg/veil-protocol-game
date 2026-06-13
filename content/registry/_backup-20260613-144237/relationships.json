@@ -1,0 +1,3202 @@
+{
+ "rei": {
+  "name": "Uedera Rei, 植寺 零",
+  "rei_track": null,
+  "ties": {
+   "shimizu_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows Rei by name, no direct contact yet",
+    "source": "authored"
+   },
+   "nakamura_aoi": {
+    "value": 33,
+    "tier": 1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kato_ryusei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "katagiri_noa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tsukishiro": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "fujiwarakage": {
+    "value": -67,
+    "tier": -2,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "moriya": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "okada_shizuka": {
+    "value": 33,
+    "tier": 1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "adachi": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yamamoto": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tendo": {
+    "value": 33,
+    "tier": 1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "choi_hana": {
+    "value": -33,
+    "tier": -1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kuroda_sei": {
+    "value": -67,
+    "tier": -2,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kuroda_itsuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kurosawa": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tanizaki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "inoue": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tanaka_ryu": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "majima": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "uehara": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "mochizuki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kaneda": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "hara_setsu": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "endo_masa": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "serizawa": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "goto_hideki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "mariko": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "the_beck_s_man": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yua": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kuroki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "wada_sho": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "ito_kenta": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "aizawa_yuto": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "sugimoto_tatsuya": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "mori_haruto": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tanabe_isamu": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "leo_sato": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "mali": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "komatsu_shigeru": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "iwata_kenji": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "saeki_reno": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "daiki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "maruyama_toshio": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kawai_yuki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "tatsu": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yoshida_goro": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "the_woman_at_the_back": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "miyamoto_kazuo": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "rev_egami_jaku": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "father_anselm_mbeki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "master_lin_wei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "pak_sun_ja": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "baba_adewale": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "switch": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "old_tomi": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "sato": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "endo_sumi": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "arai": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "old_maki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "ade_okonkwo": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "the_bookseller": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "sone_kimiko": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "hagiwara_mizuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) A registered nobody who keeps turning up where the data says no one should be. A loose thread... to be recruited, audite",
+    "source": "mirrored"
+   },
+   "kishin": {
+    "value": -67,
+    "tier": -2,
+    "note": "(mirrored) Hostile by default. Rei is Yushiro’s anchor and the one person walking toward Gin instead of away. Kishin would rather r",
+    "source": "mirrored"
+   },
+   "gin": {
+    "value": 100,
+    "tier": 3,
+    "note": "(mirrored) Younger brother. Everything in the archive is for him; the keychain was the first message.",
+    "source": "mirrored"
+   },
+   "usami_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Track 0. Ren reads his register accurately from first contact. The read is warm. He decides what to do with it, and what",
+    "source": "mirrored"
+   }
+  }
+ },
+ "hagiwara_mizuki": {
+  "name": "Hagiwara Mizuki, 萎原 美月... Director of Public Confidence",
+  "rei_track": null,
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "A registered nobody who keeps turning up where the data says no one should be. A loose thread... to be recruited, audite",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 33,
+    "tier": 1,
+    "note": "Her opposite number; the conscience she has out-funded. He is the door to the President, if Rei can move him.",
+    "source": "authored"
+   }
+  }
+ },
+ "kishin": {
+  "name": "Fukai Rinka / Kishin, 深井 凌香... “Kanna-sensei”, 鬼神",
+  "rei_track": null,
+  "ties": {
+   "rei": {
+    "value": -67,
+    "tier": -2,
+    "note": "Hostile by default. Rei is Yushiro’s anchor and the one person walking toward Gin instead of away. Kishin would rather r",
+    "source": "authored"
+   },
+   "yushiro": {
+    "value": 33,
+    "tier": 1,
+    "note": "She knows Yushiro means to absorb her to kill her, and that he needs Gin’s body to do it on this side. She is not yet af",
+    "source": "authored"
+   }
+  }
+ },
+ "gin": {
+  "name": "Uedera Gin, 上枯 銘",
+  "rei_track": null,
+  "ties": {
+   "rei": {
+    "value": 100,
+    "tier": 3,
+    "note": "Younger brother. Everything in the archive is for him; the keychain was the first message.",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 100,
+    "tier": 3,
+    "note": "Two years adjacent. She was in love with him.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 67,
+    "tier": 2,
+    "note": "Thirty years. The contact who shaped his field practice more than any other.",
+    "source": "authored"
+   },
+   "okada_shizuka": {
+    "value": 67,
+    "tier": 2,
+    "note": "Carried a confidence of his for four years and never filed it.",
+    "source": "authored"
+   },
+   "nakamura_aoi": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Colleague, two years. She noticed the absence. It is the wrong shape.",
+    "source": "mirrored"
+   },
+   "kato_ryusei": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Colleague, one year overlap. Respected him. The absence is a thing he has been thinking about with precision.",
+    "source": "mirrored"
+   },
+   "tsukishiro": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Two years, occasional cases. Respected him with specificity. The absence is a data point he is sitting with.",
+    "source": "mirrored"
+   },
+   "fujiwarakage": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r",
+    "source": "mirrored"
+   },
+   "moriya": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Has been reading the absence as a data point. Has not filed it yet.",
+    "source": "mirrored"
+   },
+   "usami_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) No prior contact. His Register Read is 10m; the demon is three districts away. His value is the conversation he can have",
+    "source": "mirrored"
+   },
+   "adachi": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Twenty years of professional relationship. He should have reached out before Gin disappeared. He did not, because he was",
+    "source": "mirrored"
+   },
+   "shimizu_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Professional and specific respect. The absence is a thing she has been carrying without acknowledging.",
+    "source": "mirrored"
+   },
+   "yamamoto": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Knew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,",
+    "source": "mirrored"
+   },
+   "tendo": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Knew him professionally, adjacent cases, three years. Respected the fieldwork. The absence is a thing he has been tracki",
+    "source": "mirrored"
+   },
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him by Grid reputation, one direct coordination. Professional respect. His absence worries her.",
+    "source": "mirrored"
+   },
+   "kuroda_sei": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him by district reputation. The Kuroda family has an opinion about Gin that is not entirely negative.",
+    "source": "mirrored"
+   },
+   "kuroda_itsuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Close. Gin brings him food and good company; Itsuki illustrated the whole archive in thanks, never told what half of it ",
+    "source": "mirrored"
+   },
+   "kurosawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knows him by reputation. Has not been near him since the disappearance.",
+    "source": "mirrored"
+   },
+   "inoue": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Aware of his situation by Singularity-range read. Has not reported it. The reasons are her own.",
+    "source": "mirrored"
+   },
+   "tanaka_ryu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him by Grid reputation, one case coordination. Respected the fieldwork. The absence is registered as a threat condi",
+    "source": "mirrored"
+   },
+   "majima": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him by Grid reputation and one direct case. Has noted the absence and assigned it a threat level.",
+    "source": "mirrored"
+   },
+   "uehara": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knew him. The case-file anomaly has been in the documentation for fourteen months. They have watched it with the dread o",
+    "source": "mirrored"
+   },
+   "mochizuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knows him by Grid reputation and the case pattern. The Kita demon’s regional signature is in her mother’s case file. Doc",
+    "source": "mirrored"
+   },
+   "kaneda": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0–+1. Mutual respect; buys the room a round, asks nothing.",
+    "source": "mirrored"
+   },
+   "hara_setsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Has told him twice to bring Rei more often.",
+    "source": "mirrored"
+   },
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Knows about the fire door; pretends not to.",
+    "source": "mirrored"
+   },
+   "serizawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) −1. Cannot afford the room; exquisitely polite about it.",
+    "source": "mirrored"
+   },
+   "mariko": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. He helped her once and treated her like a person.",
+    "source": "mirrored"
+   },
+   "komatsu_shigeru": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Daily customer; Komatsu worries about him openly.",
+    "source": "mirrored"
+   },
+   "daiki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The older brother who feeds him; Daiki thinks Gin is the coolest man alive.",
+    "source": "mirrored"
+   },
+   "maruyama_toshio": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Knows the order, asks nothing else.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "yushiro": {
+  "name": "Yushiro, 癒士郎... ‘the Healer’",
+  "rei_track": null,
+  "ties": {
+   "kishin": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) She knows Yushiro means to absorb her to kill her, and that he needs Gin’s body to do it on this side. She is not yet af",
+    "source": "mirrored"
+   }
+  }
+ },
+ "nakamura_aoi": {
+  "name": "Nakamura Aoi, 中村 葵",
+  "rei_track": {
+   "start": 33,
+   "start_tier": 1,
+   "ladder": {
+    "3": "Tells Rei about her Psychokinesis path the CVD missed. Backs his operations without CVD justification. Covers for him institutionally.",
+    "2": "Shares case intelligence unasked. Runs interference with trainees who question Rei’s methods.",
+    "1": "Default... Gin spoke well of him. She likes him before they meet.",
+    "0": "Neutral. Polite. Professional.",
+    "-1": "Pulling back. The humor disappears.",
+    "-2": "Processing. A confrontation is coming.",
+    "-3": "Files a formal concern with the Auditor network. She cries afterward. The note is permanent."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Gin spoke about him. She already has a shape for who he is.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Colleague, two years. She noticed the absence. It is the wrong shape.",
+    "source": "authored"
+   },
+   "shimizu_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleagues. She finds Shimizu intimidating and would not say so.",
+    "source": "authored"
+   },
+   "kato_ryusei": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Colleagues. The sharpness softens around her... he has not noticed this yet.",
+    "source": "mirrored"
+   },
+   "kawai_yuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Buys bread after a bad shift; always a kind word.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "kato_ryusei": {
+  "name": "Kato Ryusei, 加藤 龍星",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Uses Tower-adjacent contacts for Rei’s benefit without explaining why. Tells Rei what his Telepathy reads in the people around them... information he has never shared.",
+    "2": "Shares CVD internal intelligence unasked. Begins asking Rei’s opinion rather than presenting his own as settled.",
+    "1": "Caution has resolved into genuine interest.",
+    "0": "Cautious, genuine. Gin’s reads were accurate.",
+    "-1": "Pulling back. Professional distance.",
+    "-2": "Uses contacts to create institutional difficulty. Each move individually legitimate.",
+    "-3": "Sustained institutional obstruction. The Fujiwara-Kage lineage overlap becomes relevant."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Gin mentioned him specifically. Cautious, genuine interest.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleague, one year overlap. Respected him. The absence is a thing he has been thinking about with precision.",
+    "source": "authored"
+   },
+   "nakamura_aoi": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleagues. The sharpness softens around her... he has not noticed this yet.",
+    "source": "authored"
+   }
+  }
+ },
+ "katagiri_noa": {
+  "name": "Katagiri Noa, 片桂 乇亜",
+  "rei_track": {
+   "start": 33,
+   "start_tier": 1,
+   "ladder": {
+    "3": "Tells Rei everything about Gin’s final months... including what she chose not to file. Provides institutional cover for the exorcism. Present at the aftermath, not professionally.",
+    "2": "Shares case intelligence unasked. Begins letting Rei see she knows more about Gin than she has said.",
+    "1": "Default... she chose to notice him before they met.",
+    "0": "Professional, warm. Not open, not closed.",
+    "-1": "Withdraws from active support. Professionally correct.",
+    "-2": "Requests reassignment from cases adjacent to Rei.",
+    "-3": "The gap becomes visible to the Auditor network. She stopped being in the way."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track +1. She chose to notice him. Gin spoke about him; the recognition was confirmed.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 100,
+    "tier": 3,
+    "note": "Two years, adjacent cases. She was in love with him. She has not said so to anyone.",
+    "source": "authored"
+   },
+   "shimizu_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleagues, mutual respect. Noa picks up what Shimizu cannot officially touch.",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 67,
+    "tier": 2,
+    "note": "Professional trust, sixteen years.",
+    "source": "authored"
+   },
+   "fujiwarakage": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) The eight months are in the room, unspoken. Two years ago. Ended because the institutional conflict made it untenable. N",
+    "source": "mirrored"
+   },
+   "okada_shizuka": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Colleagues. They coordinate on Kita cases without institutional documentation.",
+    "source": "mirrored"
+   },
+   "hara_setsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Comes to thaw out; Setsu feeds her.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "tsukishiro": {
+  "name": "Tsukishiro Haruki, 月城 遥樹",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Shares the pre-2011 Kita file... three years of personal research not in any record. Tells Rei what the 2012 case was, and what he recognized at their first meeting.",
+    "2": "Research results shared before finished. Archival contacts used for Rei’s benefit.",
+    "1": "The case was interesting enough. He is present and paying attention.",
+    "0": "Warm interest from the start. Cautious as he is about everything, not specifically about Rei.",
+    "-1": "Not interested. Does not show up.",
+    "-2": "Discourages Grid-adjacent contacts from working with Rei.",
+    "-3": "Withdraws completely. The 2012 research stays closed."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Gin spoke about him several times. Warm interest, no preconditions.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Two years, occasional cases. Respected him with specificity. The absence is a data point he is sitting with.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "Worked together directly. Mutual trust, low frequency.",
+    "source": "authored"
+   },
+   "serizawa": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) +2. Has served the family man and boy.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "fujiwarakage": {
+  "name": "Fujiwara-Kage Sena, 藤原影 星奈",
+  "rei_track": {
+   "start": -67,
+   "start_tier": -2,
+   "ladder": {
+    "3": "Not reachable in one campaign.",
+    "2": "Begins treating Rei as an institutional peer rather than a risk category.",
+    "1": "The formal assessment has resolved into professional exchange.",
+    "0": "The family has decided Rei is manageable. Active opposition pauses.",
+    "-1": "Institutional caution... files preliminary concerns.",
+    "-2": "Default. Institutional threat assessment. Each concern individually legitimate.",
+    "-3": "Sustained Auditor review of every operation."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track -2. Default institutional threat assessment, not personal... he is CVD-adjacent without institutional protection, ",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 67,
+    "tier": 2,
+    "note": "The eight months are in the room, unspoken. Two years ago. Ended because the institutional conflict made it untenable. N",
+    "source": "authored"
+   }
+  }
+ },
+ "moriya": {
+  "name": "Moriya Tatsuki, 守屋 達樹",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Formally closes the investigation in a way that protects everyone. Writes the aftermath report so it creates no permanent liability for Rei or the team.",
+    "2": "Gives Rei case-file access he should not technically have. Runs interference on institutional inquiries.",
+    "1": "Professional obstruction gives way to professional exchange. He asks instead of demands.",
+    "0": "Neutral. Professional. Watching. Not obstructing... not yet.",
+    "-1": "Active obstruction. Files legitimate concerns; the accumulation creates delay.",
+    "-2": "The investigation into Rei is formally opened. He is doing his job.",
+    "-3": "Active, documented investigation. He does not enjoy this. He does it anyway."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. He knows Gin vouched for Rei and has noted it in his internal file. Watching with professional neutrality.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Has been reading the absence as a data point. Has not filed it yet.",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 67,
+    "tier": 2,
+    "note": "Sixteen years. The director knows Moriya keeps accurate records.",
+    "source": "authored"
+   },
+   "tatsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The operative who tells more over ramen than across his desk.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "fujimoto": {
+  "name": "Fujimoto Kenji / Abe Takeshi, 藤本 健二 / 阿部 武",
+  "rei_track": null,
+  "ties": {
+   "rev_egami_jaku": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. They argue doctrine for hours.",
+    "source": "mirrored"
+   },
+   "the_bookseller": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. They argue provenance for hours.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "usami_ren": {
+  "name": "Usami Hinata / Ren, 宇佐見 日向 {Usa-kun}",
+  "rei_track": null,
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Ren reads his register accurately from first contact. The read is warm. He decides what to do with it, and what",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "No prior contact. His Register Read is 10m; the demon is three districts away. His value is the conversation he can have",
+    "source": "authored"
+   }
+  }
+ },
+ "ren": {
+  "name": "Ren, 恋... the Contracted",
+  "rei_track": null,
+  "ties": {}
+ },
+ "okada_shizuka": {
+  "name": "Okada Shizuka, 岡田 静",
+  "rei_track": {
+   "start": 33,
+   "start_tier": 1,
+   "ladder": {
+    "3": "Full case-file history, the bi-monthly assessment anomaly she has been tracking, and the thread to the Satō case. Also: tells Rei the confidence she has carried about Gin for four years.",
+    "2": "Shares case intelligence unasked. Begins letting Rei see the shape of what she knows.",
+    "1": "Default... Gin told her to watch for him. She chose to listen to Gin.",
+    "0": "Professional neutral. Watching.",
+    "-1": "Withdraws. Professionally correct.",
+    "-2": "Formally requests reassignment from cases adjacent to Rei.",
+    "-3": "Files a formal concern. Does not enjoy it. Cannot take it back."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track +1. Gin told her specifically to watch for him. This is the first time she has been watching for someone rather th",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Four years of adjacent cases. She has been carrying a confidence of his for four years. The weight is visible if you kno",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleagues. They coordinate on Kita cases without institutional documentation.",
+    "source": "authored"
+   },
+   "kawai_yuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The Saturday regular.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "adachi": {
+  "name": "Director Adachi Kenshin, 足立 健心",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Activates the retired Vanguard mentor network for Rei. Provides cover making the exorcism legally defensible. Tells Rei about the Thirteen... the first living institutional authority to confirm it directly.",
+    "2": "Case-file access that should not be available. Runs interference on Auditor inquiries.",
+    "1": "The formal interest becomes specific. Asks questions he wants answers to.",
+    "0": "Institutional neutral. Watching. Recognizing what Rei is. Not ready to act yet.",
+    "-1": "Institutional caution. Ensures distance between the CVD’s position and Rei.",
+    "-2": "Active management that limits Rei’s access without formally blocking him.",
+    "-3": "Direct institutional opposition using the full weight of the Director’s position."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Knows exactly what Rei is from the first perception. Deciding the appropriate moment to say so.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Twenty years of professional relationship. He should have reached out before Gin disappeared. He did not, because he was",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 67,
+    "tier": 2,
+    "note": "Sixteen years. He knows she knows more than she files.",
+    "source": "authored"
+   },
+   "kurosawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows him by Vanguard-range read. Has not said what he knows.",
+    "source": "authored"
+   },
+   "hagiwara_mizuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Her opposite number; the conscience she has out-funded. He is the door to the President, if Rei can move him.",
+    "source": "mirrored"
+   },
+   "moriya": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Sixteen years. The director knows Moriya keeps accurate records.",
+    "source": "mirrored"
+   },
+   "tendo": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) His father’s institutional relationship is the factor. Adachi knows about the anomalous readings. Has not filed them. Ye",
+    "source": "mirrored"
+   },
+   "uehara": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) Former direct reporting relationship, fifteen years. The departure was not hostile. Complicated in the way of two people",
+    "source": "mirrored"
+   },
+   "serizawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. A standing usual; knows his real tells.",
+    "source": "mirrored"
+   },
+   "arai": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. The official liaison; Arai is the unofficial one.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "shimizu_ren": {
+  "name": "Shimizu Ren, 清水 蓮",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Orimoto containment deployed on the exorcism... the thing that makes the operation viable. Also: begins addressing the Orimoto situation.",
+    "2": "Full operational backing. Shares methodology for preparation phases.",
+    "1": "Has already decided. Gin spoke about Rei specifically; she was paying attention.",
+    "0": "Available but not yet activated.",
+    "-1": "Not withdrawing... just not present in the ways she would be.",
+    "-2": "Withdraws from operations. Stops returning contact.",
+    "-3": "The door closes. Not hostile. Not a report. Simply absent."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track +1. Gin spoke about him specifically, at length, which is unusual. From the moment she gets his contact, she is in",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Professional and specific respect. The absence is a thing she has been carrying without acknowledging.",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 33,
+    "tier": 1,
+    "note": "Colleagues, mutual respect. Noa picks up what Shimizu cannot officially touch.",
+    "source": "authored"
+   },
+   "nakamura_aoi": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Colleagues. She finds Shimizu intimidating and would not say so.",
+    "source": "mirrored"
+   },
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. A regular he steers from the bad ones unnoticed.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "yamamoto": {
+  "name": "Yamamoto Koji, 山本 幸二",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "The twenty-two-year-old entry. First correct identification of the demon’s register as Ambition, and the complete case history of this entity’s presence in the district going back further than any institutional record. The intelligence that changes the exorcism approach.",
+    "2": "Archive access beyond the standard exchange. He shares the working files.",
+    "1": "The exchange has been made. The archive is open for this case.",
+    "0": "Exchange model in place. Bring something worth knowing.",
+    "-1": "The exchange was not sufficient. He is not available.",
+    "-2": "The archive is closed. He stops responding.",
+    "-3": "The archive closes to this person permanently. He has never done this. The category exists."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. The exchange model applies. Rei has something Yamamoto does not yet have... direct contact with a Class B Ambit",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Knew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,",
+    "source": "authored"
+   },
+   "sugimoto_tatsuya": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) +2. Trades history for company; brings soup and questions.",
+    "source": "mirrored"
+   },
+   "the_bookseller": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two keepers who trade the unspeakable.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "tendo": {
+  "name": "Tendo Akira, 天童 明",
+  "rei_track": {
+   "start": 33,
+   "start_tier": 1,
+   "ladder": {
+    "3": "His father’s network protects Rei from above... specifically blocks the Auditor inquiry that would open when Rei’s suppression anomaly becomes visible. Also: tells Rei about the anomalous readings. The conversation about what they both are.",
+    "2": "Uses his father’s institutional contacts for Rei’s benefit without explaining why.",
+    "1": "Default... immediately interested in Rei. Gin spoke about him; the anomalous-reading profile is interesting.",
+    "0": "Neutral professional. The interest is present but not yet activated.",
+    "-1": "Pulls back. The exposure from his own anomalous readings becomes a factor.",
+    "-2": "Active professional distance. His father’s contacts are no longer available to Rei.",
+    "-3": "His exposure from the unreported readings lands on Rei too. Adachi files both cases."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Gin spoke about him; Tendo paid attention. The anomalous readings make him specifically interested in practitio",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Knew him professionally, adjacent cases, three years. Respected the fieldwork. The absence is a thing he has been tracki",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 33,
+    "tier": 1,
+    "note": "His father’s institutional relationship is the factor. Adachi knows about the anomalous readings. Has not filed them. Ye",
+    "source": "authored"
+   },
+   "hara_setsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The only one who comes before dawn.",
+    "source": "mirrored"
+   },
+   "tanabe_isamu": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. The one operative who says thank you. Tanabe remembers.",
+    "source": "mirrored"
+   },
+   "miyamoto_kazuo": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Comes for the quiet; Miyamoto asks nothing.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "choi_hana": {
+  "name": "Choi Hana, 최 하나",
+  "rei_track": {
+   "start": -33,
+   "start_tier": -1,
+   "ladder": {
+    "3": "Reveals her actual rank. Introduces Rei to Grid nodes unreachable through the archive. Covers the exorcism approach route. Her Arbiter rank changes the operation’s viability.",
+    "2": "Stops testing Rei. Shares Grid intelligence voluntarily. Begins including him in operations.",
+    "1": "Hostility resolved into watchful tolerance.",
+    "0": "Formal neutrality. Works alongside if required.",
+    "-1": "Default start. Minimal cooperation.",
+    "-2": "Stops including Rei in operations. His access narrows.",
+    "-3": "Burns Rei’s Grid contacts... warns the network he is institutional. Grid access collapses for an arc."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track -1. He’s connected to Gin. She is waiting to see if that is a reason to trust him or be more careful.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him by Grid reputation, one direct coordination. Professional respect. His absence worries her.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "One of three Grid practitioners she trusts at +1 without preconditions.",
+    "source": "authored"
+   },
+   "kaneda": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. A regular he treats like a niece; watches who watches her.",
+    "source": "mirrored"
+   },
+   "mariko": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The one Grid contact she half-trusts.",
+    "source": "mirrored"
+   },
+   "leo_sato": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. She read him in one glance; he cannot stop thinking about it.",
+    "source": "mirrored"
+   },
+   "mali": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. Respect across the Korean and Thai lines.",
+    "source": "mirrored"
+   },
+   "tatsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The late regular; he keeps her usual.",
+    "source": "mirrored"
+   },
+   "the_woman_at_the_back": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. Suspects the truth, never pushed.",
+    "source": "mirrored"
+   },
+   "pak_sun_ja": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) +2. Hana’s grandmother’s tradition; Pak watches her like blood.",
+    "source": "mirrored"
+   },
+   "endo_sumi": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Hana reads the grief; Mrs. Endō tends it.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "kuroda_sei": {
+  "name": "Kuroda Sei, 黒田 星",
+  "rei_track": {
+   "start": -67,
+   "start_tier": -2,
+   "ladder": {
+    "3": "Full Kuroda operational support. Silent Transit extraction. Three generations of entity intelligence... the most complete unregistered district archive in the campaign.",
+    "2": "Begins using family contacts for Rei’s operational benefit.",
+    "1": "The grievance acknowledged. Working relationship established.",
+    "0": "Neutral... waiting. Has not decided if acknowledgment is coming.",
+    "-1": "Formal distance. Not hostile... simply unavailable.",
+    "-2": "Default. Inherited grievance. The CVD-adjacent category Rei occupies is the problem, not Rei personally.",
+    "-3": "Kuroda family formally identifies Rei as institutional risk. Permanent closure."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track -2. The grievance is inherited... Rei is CVD-adjacent, the category the grievance applies to. Waiting to see if ac",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him by district reputation. The Kuroda family has an opinion about Gin that is not entirely negative.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "Grid-to-Grid. Neutral professional relationship.",
+    "source": "authored"
+   },
+   "kuroda_itsuki": {
+    "value": 100,
+    "tier": 3,
+    "note": "(mirrored) His older brother. Estranged in the quiet way... not anger, distance and guilt. Itsuki got out; Sei stayed. Through Itsu",
+    "source": "mirrored"
+   },
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Lets him lose himself inside on the worst nights.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "kuroda_itsuki": {
+  "name": "Kuroda Itsuki, 黒田 樹",
+  "rei_track": {
+   "start": 33,
+   "start_tier": 1,
+   "ladder": {
+    "3": "The whole screen-army: he finds anything in a record, watches your back through cameras and comms, and... once, when it counts... an unconscious Kuroda displacement saves a life. He becomes your bridge to Sei and the Kuroda family.",
+    "2": "Builds and runs the CVD-archive search and the comms; monitors the city’s feeds for you.",
+    "1": "Default. Best friend; drops everything, asks later.",
+    "0": "Warm but worried... if you have gone somewhere he cannot reach you.",
+    "-1": "Hurt, withdrawn... if you use him, or put Rei in danger, or treat the gift as a tool.",
+    "-2": "Betrayal... you exposed what he is to the family or the CVD. He runs, and he is very good at not being found."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 67,
+    "tier": 2,
+    "note": "Track +1... best friend since school. Daily through screens; in person every couple of weeks. The one person who treats ",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Close. Gin brings him food and good company; Itsuki illustrated the whole archive in thanks, never told what half of it ",
+    "source": "authored"
+   },
+   "kuroda_sei": {
+    "value": 100,
+    "tier": 3,
+    "note": "His older brother. Estranged in the quiet way... not anger, distance and guilt. Itsuki got out; Sei stayed. Through Itsu",
+    "source": "authored"
+   }
+  }
+ },
+ "kurosawa": {
+  "name": "Kurosawa Shou, 黒沢 翔",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Gets contact with Gin’s body and tells Rei what he reads... the double-layer possession signature, how Gin surfaces, the demon’s class.",
+    "2": "Backs Rei’s operations through independent channels.",
+    "1": "Specific active interest in Rei that he does not explain.",
+    "0": "Neutral professional. The Vanguard assessment is running but not being acted on.",
+    "-1": "Institutional distance. Stops providing indirect cover.",
+    "-2": "Flags Rei to Adachi as an exposure risk.",
+    "-3": "Active Vanguard-level attention on Rei’s operations."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. A Vanguard Psychometabolist who can read possession signatures on contact. He needs Rei to bring him to the pro",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows him by reputation. Has not been near him since the disappearance.",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 33,
+    "tier": 1,
+    "note": "Told him about the secondary path development. Nobody else knows.",
+    "source": "authored"
+   },
+   "inoue": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) The operational relationship that makes her accessible. He knows what she can do; she respects that he does not talk abo",
+    "source": "mirrored"
+   },
+   "tanaka_ryu": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) The operational relationship. Ryu follows Kurosawa’s read of a situation. Has for ten years.",
+    "source": "mirrored"
+   },
+   "old_tomi": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The courier who cuts through; Tomi lets him.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "tanizaki": {
+  "name": "Tanizaki Seiichi, 谷崎 清一",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Forty years of Kita history. The ward methodology. Gin’s field profile from a practitioner who knew him for thirty years... and what Tanizaki noticed in the district that no institutional archive contains.",
+    "2": "Provides safe-house access and Grid introductions without reservation.",
+    "1": "Has passed the assessment. The tea means something now.",
+    "0": "Assessing. He decides when.",
+    "-1": "The contact information stops working.",
+    "-2": "The safe house is closed to Rei... effectively the Grid in this district.",
+    "-3": "The Grid network in Kita loses access to Rei entirely."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Gin sent people to him before. Assessment begins. The tea means something... Rei should know what it means befo",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 67,
+    "tier": 2,
+    "note": "Thirty years. The relationship that shaped Gin’s field practice more than any other single contact.",
+    "source": "authored"
+   },
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows her. One of three Grid practitioners she trusts without preconditions.",
+    "source": "authored"
+   },
+   "majima": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows him. One of the Grid practitioners he respects without qualification.",
+    "source": "authored"
+   },
+   "tsukishiro": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Worked together directly. Mutual trust, low frequency.",
+    "source": "mirrored"
+   },
+   "kuroda_sei": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Grid-to-Grid. Neutral professional relationship.",
+    "source": "mirrored"
+   },
+   "mochizuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) Knows him. He provided safe-house access for recovery-support operations. Professional and warm.",
+    "source": "mirrored"
+   },
+   "hara_setsu": {
+    "value": 67,
+    "tier": 2,
+    "note": "(mirrored) +2. Old friends; they sit without speaking.",
+    "source": "mirrored"
+   },
+   "sugimoto_tatsuya": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two old men who saw too much and stayed kind.",
+    "source": "mirrored"
+   },
+   "maruyama_toshio": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two quiet men keeping company in silence.",
+    "source": "mirrored"
+   },
+   "miyamoto_kazuo": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Old men who kept the old ways.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "inoue": {
+  "name": "Inoue Misaki, 井上 美咔",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Singularity-rank operational support... changes what is viable in enclosed spaces. The Null Space that makes the exorcism operationally invisible.",
+    "2": "Active operational backing. She takes cases she would otherwise decline.",
+    "1": "Accessible. She has decided Rei is worth the assessment.",
+    "0": "Neutral. Has not yet been asked. The read from a distance is warm.",
+    "-1": "Not accessible... the Kurosawa track has not reached +3.",
+    "-2": "Singularity-level attention on the situation without engagement. The passive read alone causes problems.",
+    "-3": "Singularity-level attention on Rei’s operations directly. Nothing needs to be physical when the attention is Singularity."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Accessible through Kurosawa at +3. Before that she knows he exists, has read his register from a distance, has ",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Aware of his situation by Singularity-range read. Has not reported it. The reasons are her own.",
+    "source": "authored"
+   },
+   "kurosawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "The operational relationship that makes her accessible. He knows what she can do; she respects that he does not talk abo",
+    "source": "authored"
+   }
+  }
+ },
+ "tanaka_ryu": {
+  "name": "Tanaka Ryu, 田中 龍",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "One operational fact about the exorcism that nobody else in the campaign knows... the specific intelligence that changes the approach. Accessible only through Kurosawa at +3.",
+    "2": "Full operational support. He shows up without being asked.",
+    "1": "Accessible through Kurosawa. He is present.",
+    "0": "Neutral. Kurosawa has not introduced him yet.",
+    "-1": "Not accessible... the Kurosawa track has not reached +1.",
+    "-2": "Not available. Nothing hostile... simply not there.",
+    "-3": "Not available, and the fact of his non-availability is itself operational information."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. Accessible through Kurosawa. The read is neutral... Ryu assesses people through operations, not meetings.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him by Grid reputation, one case coordination. Respected the fieldwork. The absence is registered as a threat condi",
+    "source": "authored"
+   },
+   "kurosawa": {
+    "value": 67,
+    "tier": 2,
+    "note": "The operational relationship. Ryu follows Kurosawa’s read of a situation. Has for ten years.",
+    "source": "authored"
+   },
+   "mori_haruto": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. The Grid has clocked him; deciding whether to reach out.",
+    "source": "mirrored"
+   },
+   "switch": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Calls him for security; mutual reliance.",
+    "source": "mirrored"
+   },
+   "old_maki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Restocks the Grid’s kit here; Maki sets iron aside.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "majima": {
+  "name": "Majima Kenji, 間島 健二",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Operational backup for the exorcism. Also: tells Rei about the daughter, which he has told no one.",
+    "2": "Takes the case without charging. Keeps Rei’s operations out of Grid conversations.",
+    "1": "The case was interesting enough. He is present.",
+    "0": "Neutral. Assessing. Has not decided.",
+    "-1": "Not interested. Does not show up.",
+    "-2": "Actively discourages Grid contacts from working with Rei.",
+    "-3": "Actively warns specific Grid contacts that Rei is a liability."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. The case reached him through the Grid network. Neutral assessment in progress.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him by Grid reputation and one direct case. Has noted the absence and assigned it a threat level.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "One of the Grid practitioners he respects without qualification.",
+    "source": "authored"
+   },
+   "kaneda": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) −1. Served him once. ‘Not again. He sells the people who drink here.’",
+    "source": "mirrored"
+   },
+   "goto_hideki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Regular customer, occasional partner.",
+    "source": "mirrored"
+   },
+   "yoshida_goro": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) −1. Tried to buy what Goro heard; Goro does not sell.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "uehara": {
+  "name": "Uehara, 上原",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Near-complete documentation of the organized entity campaign... removes one difficulty tier from Act 3 preparation. The thing they have built for eight years.",
+    "2": "Active operational support. The documentation is available.",
+    "1": "Has decided Rei is the right person. The laminated page comes out of the pocket.",
+    "0": "Watching. Assessing. The campaign file is already open.",
+    "-1": "Not the right time. Not yet.",
+    "-2": "Goes quiet in the way that is itself information.",
+    "-3": "The quiet extends. This is the answer."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. They have been waiting for someone going to the centre of this. Rei is going to the centre of this.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knew him. The case-file anomaly has been in the documentation for fourteen months. They have watched it with the dread o",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 67,
+    "tier": 2,
+    "note": "Former direct reporting relationship, fifteen years. The departure was not hostile. Complicated in the way of two people",
+    "source": "authored"
+   }
+  }
+ },
+ "mochizuki": {
+  "name": "Mochizuki Sora, 望月 空",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Her parallel investigation combined with Rei’s... structurally stronger than either alone. The Kita demon’s regional pattern documented from outside while Rei approaches from inside.",
+    "2": "Active case collaboration. Her three years of documentation are available.",
+    "1": "Mutual recognition. Same kind of thing, different stage. She understood Rei before he finished explaining.",
+    "0": "Track 0. The read is warm from first contact.",
+    "-1": "Withdraws from collaboration. The parallel investigation continues independently.",
+    "-2": "Withdraws from proximity... she becomes a target once Rei’s suppression slips, and she knows it.",
+    "-3": "Goes dark. The situation has become too dangerous for her current capacity."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "Track 0. The Grid connected them... practitioners managing situations tied to the same demon’s regional pattern. She rea",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows him by Grid reputation and the case pattern. The Kita demon’s regional signature is in her mother’s case file. Doc",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "Knows him. He provided safe-house access for recovery-support operations. Professional and warm.",
+    "source": "authored"
+   },
+   "the_bookseller": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The young sensitive who comes seeking answers; Higuchi steers them gently.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "kaneda": {
+  "name": "Kaneda Tōru, 金田 徑",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you what the street really knows; vouches where no one vouches.",
+    "1": "A safe table and an honest answer.",
+    "0": "Polite service.",
+    "-2": "Served and steered out; word travels.",
+    "-3": "Barred... and the two streets bar with him."
+   }
+  },
+  "ties": {
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. A regular he treats like a niece; watches who watches her.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 0,
+    "tier": 0,
+    "note": "0–+1. Mutual respect; buys the room a round, asks nothing.",
+    "source": "authored"
+   },
+   "majima": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Served him once. ‘Not again. He sells the people who drink here.’",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yoshida_goro": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two bartenders, one code across two wards.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "hara_setsu": {
+  "name": "Hara Setsu, 原 節",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Quietly admits what she is and reads a thin spot’s true history... intelligence in no file.",
+    "1": "The full neighbourhood history, at her pace, over tea.",
+    "0": "A bath and small courtesy.",
+    "-2": "Polite, closed; you learn nothing.",
+    "-3": "She decides you endanger the neighbourhood and tells the old Grid."
+   }
+  },
+  "ties": {
+   "tanizaki": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Old friends; they sit without speaking.",
+    "source": "authored"
+   },
+   "katagiri_noa": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Comes to thaw out; Setsu feeds her.",
+    "source": "authored"
+   },
+   "tendo": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The only one who comes before dawn.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Has told him twice to bring Rei more often.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "endo_sumi": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two old women who keep the dead company.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "endo_masa": {
+  "name": "Endō Masa, 遠藤 政",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Trusts you with the ‘gut thing’; becomes an early-warning net for the nightlife wards.",
+    "1": "A safe door, a lost tail, a walk to the taxi.",
+    "0": "You get in if you behave.",
+    "-2": "You do not get in.",
+    "-3": "Word goes down every door; Roppongi closes to you."
+   }
+  },
+  "ties": {
+   "shimizu_ren": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. A regular he steers from the bad ones unnoticed.",
+    "source": "authored"
+   },
+   "kuroda_sei": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Lets him lose himself inside on the worst nights.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Knows about the fire door; pretends not to.",
+    "source": "authored"
+   },
+   "goto_hideki": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Old grudge, different strip.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yua": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. One of the few adults who only ever helped.",
+    "source": "mirrored"
+   },
+   "wada_sho": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) −1. Tried to push past him once. Did not.",
+    "source": "mirrored"
+   },
+   "aizawa_yuto": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. Has poured him into a taxi more than once.",
+    "source": "mirrored"
+   },
+   "saeki_reno": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. His best doorman; trusted, looked after.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "serizawa": {
+  "name": "Serizawa, 芝沢",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Gives you, once, the map of who truly runs the city... freely, never for money.",
+    "1": "Tells you who meets whom by where he seats them.",
+    "0": "Flawless service, total discretion about you too.",
+    "-2": "Seated by the kitchen; you learn nothing.",
+    "-3": "A quiet word and Ginza’s rooms close to you."
+   }
+  },
+  "ties": {
+   "tsukishiro": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Has served the family man and boy.",
+    "source": "authored"
+   },
+   "adachi": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. A standing usual; knows his real tells.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Cannot afford the room; exquisitely polite about it.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kuroki": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. A standing table, mutual careful respect.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "goto_hideki": {
+  "name": "Gotō Hideki, 後藤 秀樹",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Lets slip who he answers to... a hook into the city’s organised underside.",
+    "1": "A soundproof room and a blind eye, for a price.",
+    "0": "Cash-and-carry silence.",
+    "-2": "He sells your meeting to the next buyer.",
+    "-3": "The men above him take an interest in you."
+   }
+  },
+  "ties": {
+   "majima": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Regular customer, occasional partner.",
+    "source": "authored"
+   },
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Old grudge, different strip.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "kuroki": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Launders through his people; Gotō’s unnamed chain leads here.",
+    "source": "mirrored"
+   },
+   "wada_sho": {
+    "value": 0,
+    "tier": 0,
+    "note": "(mirrored) 0. Business; neither likes the other.",
+    "source": "mirrored"
+   },
+   "saeki_reno": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) −1. Gotō’s laundering keeps reaching for his floors; Saeki keeps refusing.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "mariko": {
+  "name": "“Mariko”, 真理子... working name",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Brings you a lost, unregistered medium before the cells do... a rescue, and a weight.",
+    "1": "A quiet word, away from the desk, about who has passed through.",
+    "0": "Wary silence.",
+    "-2": "She decides you are a hunter and goes dark.",
+    "-3": "She warns the fallen network you are not safe."
+   }
+  },
+  "ties": {
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The one Grid contact she half-trusts.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. He helped her once and treated her like a person.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "yua": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Slips her food, asks nothing.",
+    "source": "mirrored"
+   },
+   "mali": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two women watching out for the vulnerable on the same strip.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "the_beck_s_man": {
+  "name": "“The Beck’s Man”, 大塚... platform clerk",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {}
+  },
+  "ties": {
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "yua": {
+  "name": "Yua, 細岩... surname dropped",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "A door into the Toyoko network, and a life maybe saved.",
+    "1": "Tells you what the streets saw.",
+    "0": "Wary distance.",
+    "-3": "The kids vanish from any street you walk."
+   }
+  },
+  "ties": {
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. One of the few adults who only ever helped.",
+    "source": "authored"
+   },
+   "mariko": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Slips her food, asks nothing.",
+    "source": "authored"
+   },
+   "ito_kenta": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Tried to put her to work. She got away.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "mori_haruto": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Treats the runaway like family.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "kuroki": {
+  "name": "Kuroki Tatsuo, 黒木 達夫",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "A terrifying ally; his network finds people the CVD and Grid cannot. The price is always owed.",
+    "1": "A meeting, a name, for a future favour.",
+    "0": "Polite, watchful.",
+    "-3": "You are a problem, and he buries problems."
+   }
+  },
+  "ties": {
+   "wada_sho": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Loyal, tested, too eager.",
+    "source": "authored"
+   },
+   "goto_hideki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Launders through his people; Gotō’s unnamed chain leads here.",
+    "source": "authored"
+   },
+   "serizawa": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. A standing table, mutual careful respect.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "wada_sho": {
+  "name": "Wada Sho, 和田 翔",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "A crack in the family wall... he tips you off at real risk.",
+    "1": "Looks the other way once.",
+    "0": "Sizes you up.",
+    "-3": "Comes for you, with friends."
+   }
+  },
+  "ties": {
+   "kuroki": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Father, boss, his only visible future.",
+    "source": "authored"
+   },
+   "goto_hideki": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. Business; neither likes the other.",
+    "source": "authored"
+   },
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Tried to push past him once. Did not.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "ito_kenta": {
+  "name": "Itō Kenta, 伊藤 健太",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Flips on his suppliers... a way into the gang’s real structure.",
+    "1": "Sells information instead of pills.",
+    "0": "Eyes you as mark or threat.",
+    "-3": "Comes at you with the blade, badly."
+   }
+  },
+  "ties": {
+   "mori_haruto": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Rival gang; Mori’s calm enrages him.",
+    "source": "authored"
+   },
+   "aizawa_yuto": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Best customer; despises and needs him.",
+    "source": "authored"
+   },
+   "yua": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. She refused him. He has not forgotten.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "aizawa_yuto": {
+  "name": "Aizawa Yuto, 相沢 悠斗",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Reaches his family, and asks once, sober, for help. A rescue or a tragedy.",
+    "1": "Nightlife gossip, bought rounds.",
+    "0": "More of the crowd.",
+    "-3": "The family makes you a problem to manage."
+   }
+  },
+  "ties": {
+   "ito_kenta": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. A transaction both pretend is friendship.",
+    "source": "authored"
+   },
+   "endo_masa": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. Has poured him into a taxi more than once.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "leo_sato": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The friendship is bought and half-real.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "sugimoto_tatsuya": {
+  "name": "Sugimoto Tatsuya, 杠本 達也",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Sober one afternoon, he gives the true buried history behind a thin spot... the key to a whole arc.",
+    "1": "A rant with three true facts in it, if you listen.",
+    "0": "Lectures the pigeons past you.",
+    "-3": "Disappears to another ward."
+   }
+  },
+  "ties": {
+   "yamamoto": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Trades history for company; brings soup and questions.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two old men who saw too much and stayed kind.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "the_woman_at_the_back": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two of a kind... sight that ruined an ordinary life.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "mori_haruto": {
+  "name": "Mori Haruto, 森 陽太",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Trusts you with the ‘just knowing’; a latent medium to mentor instead of the CVD claiming.",
+    "1": "Talks the gang down from something the players need stopped.",
+    "0": "Polite, watchful.",
+    "-3": "Turns the riverside kids against you."
+   }
+  },
+  "ties": {
+   "ito_kenta": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. The rival; will not take the bait.",
+    "source": "authored"
+   },
+   "yua": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Treats the runaway like family.",
+    "source": "authored"
+   },
+   "tanaka_ryu": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. The Grid has clocked him; deciding whether to reach out.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "tanabe_isamu": {
+  "name": "Tanabe Isamu, 田辺 勉",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you exactly what he found, and where, on the worst night of the case.",
+    "1": "A nod, a direction, the location of the thing left behind.",
+    "0": "Keeps mopping.",
+    "-3": "Simply will not be where you look."
+   }
+  },
+  "ties": {
+   "tendo": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. The one operative who says thank you. Tanabe remembers.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "sato": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The cleaner and the busker hold the underpass between them.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "leo_sato": {
+  "name": "‘Leo’ (Sato), 佐藤... host, working name",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Trades a client’s dangerous secret... the rich confess to hosts.",
+    "1": "A name, who is sleeping with whose power.",
+    "0": "Performs friendship at you.",
+    "-3": "Feeds you to the wrong client."
+   }
+  },
+  "ties": {
+   "aizawa_yuto": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The friendship is bought and half-real.",
+    "source": "authored"
+   },
+   "choi_hana": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. She read him in one glance; he cannot stop thinking about it.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "mali": {
+  "name": "‘Mali’, マリ... masseuse, working name",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Opens the Thai community and the strip’s workers to you... eyes the CVD will never have.",
+    "1": "An honest read on who is hiding or hunting.",
+    "0": "Sizes you up, says something rude, waits.",
+    "-3": "Ōkubo closes a few doors to you."
+   }
+  },
+  "ties": {
+   "mariko": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two women watching out for the vulnerable on the same strip.",
+    "source": "authored"
+   },
+   "choi_hana": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. Respect across the Korean and Thai lines.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "master_lin_wei": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Diaspora elders who respect each other’s grounds.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "komatsu_shigeru": {
+  "name": "Komatsu Shigeru, 小松 茂",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you what he has noticed about anyone... including, gently asked, about Gin.",
+    "1": "The day’s neighbourhood news, freely.",
+    "0": "Sells you smokes and a smile.",
+    "-3": "The block hears you are trouble."
+   }
+  },
+  "ties": {
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Daily customer; Komatsu worries about him openly.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Watched him since small; slips him sweets still.",
+    "source": "authored"
+   },
+   "iwata_kenji": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Corner cronies; they trade news.",
+    "source": "authored"
+   },
+   "sone_kimiko": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. Two old shopkeepers who trade the block’s news.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "iwata_kenji": {
+  "name": "Iwata Kenji, 岩田 健二",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you, uneasy, exactly what is wrong with Gin’s flat... the keys, the cold spot, the self-locking door. Outside confirmation of the possession.",
+    "1": "Lets you in, fixes your problem, shares gossip.",
+    "0": "Grumbles and helps anyway.",
+    "-3": "Tells the residents to watch for you."
+   }
+  },
+  "ties": {
+   "komatsu_shigeru": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Corner cronies; they trade block news.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "saeki_reno": {
+  "name": "Saeki Reno, 佐伯 錢郎",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Opens his clubs as a base... doors, eyes, a safe room above Vault, all of nightlife’s intel.",
+    "1": "Lets you work his floors; a word with Endō.",
+    "0": "Tolerates you if you do not cost him.",
+    "-3": "He treats you as Gotō’s kind of problem."
+   }
+  },
+  "ties": {
+   "endo_masa": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. His best doorman; trusted, looked after.",
+    "source": "authored"
+   },
+   "goto_hideki": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Gotō’s laundering keeps reaching for his floors; Saeki keeps refusing.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "daiki": {
+  "name": "Sasaki Daiki, 佐々木 大貼",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Lets the players truly know Rei... what he is like with nothing at stake.",
+    "1": "Tells you everything about Rei’s week, unaware it matters.",
+    "0": "A friendly, oblivious kid.",
+    "-3": "If anything happens to him, it breaks Rei’s world."
+   }
+  },
+  "ties": {
+   "rei": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Best friend; the anchor of Rei’s normal teenage life.",
+    "source": "authored"
+   },
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The older brother who feeds him; Daiki thinks Gin is the coolest man alive.",
+    "source": "authored"
+   }
+  }
+ },
+ "maruyama_toshio": {
+  "name": "Maruyama Toshio, 丸山 俊夫",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Reserves the dead-spot booth whenever you need it; tells you who else uses it.",
+    "1": "The booth and an honest coffee.",
+    "0": "Coffee and courtesy.",
+    "-2": "The booth is mysteriously always taken."
+   }
+  },
+  "ties": {
+   "gin": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Knows the order, asks nothing else.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two quiet men keeping company in silence.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "kawai_yuki": {
+  "name": "Kawai Yuki, 河合 ゆき",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "A reliable, unwatched drop point and an ally who feeds your informants.",
+    "1": "Warm bread and the morning’s news.",
+    "0": "Bread and a smile.",
+    "-2": "Polite distance."
+   }
+  },
+  "ties": {
+   "nakamura_aoi": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Buys bread after a bad shift; always a kind word.",
+    "source": "authored"
+   },
+   "okada_shizuka": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The Saturday regular.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "tatsu": {
+  "name": "‘Tatsu’, 達見... ramen master",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you who has been at the counter and how they seemed... a who’s-who of the night.",
+    "1": "A bowl and the lay of the night.",
+    "0": "Served like anyone.",
+    "-2": "Fed and quietly not welcome back."
+   }
+  },
+  "ties": {
+   "moriya": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The operative who tells more over ramen than across his desk.",
+    "source": "authored"
+   },
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The late regular; he keeps her usual.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "yoshida_goro": {
+  "name": "Yoshida Goro, 吉田 五郎",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Gives you, once, the secret that breaks your case... freely, because you never tried to buy it.",
+    "1": "A read on a regular, obliquely.",
+    "0": "A drink and a record.",
+    "-2": "Tried to buy him; you get nothing, ever."
+   }
+  },
+  "ties": {
+   "kaneda": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two bartenders, one code across two wards.",
+    "source": "authored"
+   },
+   "majima": {
+    "value": 33,
+    "tier": 1,
+    "note": "−1. Tried to buy what Goro heard; Goro does not sell.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "the_woman_at_the_back": {
+  "name": "‘The Woman at the Back’... name unknown",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Trusts you enough to say what she sees coming... a passive early-warning the players can learn to read.",
+    "1": "A cryptic true thing about the night.",
+    "0": "Watches the door past you.",
+    "-2": "Decides you are one of the wrong ones; silence."
+   }
+  },
+  "ties": {
+   "choi_hana": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. Suspects the truth, never pushed.",
+    "source": "authored"
+   },
+   "sugimoto_tatsuya": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two of a kind... sight that ruined an ordinary life.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "miyamoto_kazuo": {
+  "name": "Miyamoto Kazuo, 宮本 和夫... kannushi",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Teaches you, or wards a site, by the shrine’s two-hundred-year tradition.",
+    "1": "A cleansing, a charm, honest counsel.",
+    "0": "A priest’s courtesy.",
+    "-2": "Polite, closed."
+   }
+  },
+  "ties": {
+   "tendo": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Comes for the quiet; Miyamoto asks nothing.",
+    "source": "authored"
+   },
+   "tanizaki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Old men who kept the old ways.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "sone_kimiko": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The shrine blesses the charms she sells; she sends the troubled his way.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "rev_egami_jaku": {
+  "name": "Rev. Egami Jakū, 江上 寄... Shingon priest",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Performs a true esoteric exorcism... a method the CVD cannot replicate, at real cost.",
+    "1": "Counsel, a warding, a text translated.",
+    "0": "A grave courtesy.",
+    "-2": "Declines, gently, to be your weapon."
+   }
+  },
+  "ties": {
+   "fujimoto": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. They argue doctrine for hours.",
+    "source": "authored"
+   },
+   "father_anselm_mbeki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two reluctant exorcists, same hard knowledge.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "father_anselm_mbeki": {
+  "name": "Father Anselm Mbeki... Catholic priest",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Performs the rite, or shelters someone the CVD wants, on his own faith and judgement.",
+    "1": "Belief, counsel, a safe pew.",
+    "0": "A priest’s kindness.",
+    "-2": "Prays for you and keeps his distance."
+   }
+  },
+  "ties": {
+   "rev_egami_jaku": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two reluctant exorcists comparing notes across faiths.",
+    "source": "authored"
+   },
+   "baba_adewale": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Neighbouring immigrant faiths, mutual respect.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "master_lin_wei": {
+  "name": "Master Lin Wei, 林澉... Taoist priest",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Draws a true fú for a specific entity, and teaches how his tradition reads the other side.",
+    "1": "Incense, a talisman, blunt advice.",
+    "0": "Buy incense first, then he talks.",
+    "-2": "Disrespect the temple and the door closes."
+   }
+  },
+  "ties": {
+   "mali": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Diaspora elders who respect each other’s grounds.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "pak_sun_ja": {
+  "name": "Pak Sun-ja... mudang",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Performs a gut for your case... reaches a specific dead, or sends a restless one on.",
+    "1": "A reading of the dead around a place.",
+    "0": "By introduction only; earn it.",
+    "-2": "Disrespect her and the quarter shuts you out."
+   }
+  },
+  "ties": {
+   "choi_hana": {
+    "value": 67,
+    "tier": 2,
+    "note": "+2. Hana’s grandmother’s tradition; Pak watches her like blood.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "baba_adewale": {
+  "name": "Baba Adewale... community elder",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Reads Ifa for your case and opens the diaspora’s knowledge... a system the institution does not know exists.",
+    "1": "A divination, counsel, a welcome.",
+    "0": "Through the community, with a real introduction.",
+    "-2": "Disrespect the house and it closes to you."
+   }
+  },
+  "ties": {
+   "father_anselm_mbeki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two leaders of immigrant faiths who look out for each other.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   },
+   "ade_okonkwo": {
+    "value": 33,
+    "tier": 1,
+    "note": "(mirrored) +1. The elder’s word opens the back room.",
+    "source": "mirrored"
+   }
+  }
+ },
+ "switch": {
+  "name": "‘Switch’... Grid quartermaster",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Brings you fully inside the Grid... the meet, the network, the whole un-mappable web.",
+    "1": "An invitation to the next Gathering.",
+    "0": "Vetting you slowly.",
+    "-3": "The meet vanishes and the Grid is warned about you."
+   }
+  },
+  "ties": {
+   "tanaka_ryu": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Calls him for security; mutual reliance.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "old_tomi": {
+  "name": "Old Tomi... the freight-yard squatter",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you exactly what comes through the blocks, when, and what he will not go near... the case half-solved.",
+    "1": "Who crossed the fence last night.",
+    "0": "Watches you from the dark.",
+    "-2": "Vanishes into the blocks."
+   }
+  },
+  "ties": {
+   "kurosawa": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The courier who cuts through; Tomi lets him.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "sato": {
+  "name": "Sato... the blind busker",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you exactly when and how the underpass turns; he has mapped its moods by ear.",
+    "1": "Whether it is safe to be down there now.",
+    "0": "Plays past you for coins.",
+    "-2": "Packs up and is gone when you come looking."
+   }
+  },
+  "ties": {
+   "tanabe_isamu": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The cleaner and the busker hold the underpass between them.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "endo_sumi": {
+  "name": "Endo Sumi... the memorial keeper",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Tells you when the memorial’s grief peaks and what she has felt answer... the key to the thin spot.",
+    "1": "The memorial’s calendar of sorrow.",
+    "0": "A gentle word at the water.",
+    "-2": "Keeps her grief and the river’s to herself."
+   }
+  },
+  "ties": {
+   "choi_hana": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Hana reads the grief; Mrs. Endō tends it.",
+    "source": "authored"
+   },
+   "hara_setsu": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two old women who keep the dead company.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "arai": {
+  "name": "Det. Sgt. Arai Goro, 新井 叉郎",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Brings you onto scenes openly and shares the files the record omits... he is tired of carrying it alone.",
+    "1": "A look at a scene, a quiet word.",
+    "0": "Tolerates you if you do not embarrass him.",
+    "-2": "Freezes you out of every scene in the ward."
+   }
+  },
+  "ties": {
+   "adachi": {
+    "value": 0,
+    "tier": 0,
+    "note": "0. The official liaison; Arai is the unofficial one.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "old_maki": {
+  "name": "‘Old Maki’, 真木... ironmonger",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Keeps your iron and salt stocked and warns you which other customers buy strangely.",
+    "1": "Good materials, fair price, a little extra.",
+    "0": "Sells you what you ask.",
+    "-2": "Out of stock, somehow, when you call."
+   }
+  },
+  "ties": {
+   "tanaka_ryu": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Restocks the Grid’s kit here; Maki sets iron aside.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "ade_okonkwo": {
+  "name": "Adé Okonkwo... the trader",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Opens the back room and the diaspora’s materials to you... with Baba’s blessing.",
+    "1": "Front-shop goods and friendly talk.",
+    "0": "A polite sale.",
+    "-2": "The back room stays a back room."
+   }
+  },
+  "ties": {
+   "baba_adewale": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The elder’s word opens the back room.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "the_bookseller": {
+  "name": "‘The Bookseller’, 堵口... Higuchi",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Opens the locked case and guides you through a text that breaks the case open... with a warning he means.",
+    "1": "A rare reference, a true provenance.",
+    "0": "Sells you the ordinary stock.",
+    "-2": "The case stays locked to you, forever."
+   }
+  },
+  "ties": {
+   "mochizuki": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The young sensitive who comes seeking answers; Higuchi steers them gently.",
+    "source": "authored"
+   },
+   "fujimoto": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. They argue provenance for hours.",
+    "source": "authored"
+   },
+   "yamamoto": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two keepers who trade the unspeakable.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ },
+ "sone_kimiko": {
+  "name": "Sone Kimiko, 曽根 君子",
+  "rei_track": {
+   "start": 0,
+   "start_tier": 0,
+   "ladder": {
+    "3": "Sets aside her supplier’s truly-warded omamori for you, and tells you which of her customers came back ‘calmer’.",
+    "1": "A genuine charm and the day’s neighbourhood gossip.",
+    "0": "Sells you a pretty paper charm and a smile.",
+    "-2": "‘All sold out, dear’... the real ones, anyway."
+   }
+  },
+  "ties": {
+   "miyamoto_kazuo": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. The shrine blesses the charms she sells; she sends the troubled his way.",
+    "source": "authored"
+   },
+   "komatsu_shigeru": {
+    "value": 33,
+    "tier": 1,
+    "note": "+1. Two old shopkeepers who trade the block’s news.",
+    "source": "authored"
+   },
+   "rei": {
+    "value": 0,
+    "tier": 0,
+    "note": "(Rei track start)",
+    "source": "rei_track"
+   }
+  }
+ }
+}

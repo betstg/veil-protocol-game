@@ -1,0 +1,19 @@
+{
+  "id": "echo_001",
+  "name": "Silent Echo",
+  "type": "Residual Spirit",
+  "register": "Grief",
+  "grade": "E",
+  "threat_level": 1,
+  "description": "Not a ghost so much as a groove worn into a room — the last nine days of a life, repeating. It does not know it is dead. It will not hurt you on purpose. It will hurt you anyway if you stand where the tenant used to stand.",
+  "hp": 8,
+  "atk": 2,
+  "exorcise_dc": 7,
+  "anchor": "the unopened mail still addressed to the tenant",
+  "weaknesses": ["true_name", "mirror"],
+  "abilities": ["manifest", "haunt"],
+  "loot": {
+    "money": { "chance": 0.4, "min": 100, "max": 800 },
+    "trappedSpirit": { "chance": 0.05, "becomes": "artifact (the echo bound in a hand mirror)" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "shibuya",
+  "name": "Shibuya — Center-gai",
+  "faction": "none",
+  "lat": 35.6595,
+  "lng": 139.7005,
+  "hours": "24h",
+  "tier": 2,
+  "known": false,
+  "extra": {
+    "train": 34,
+    "cab": 38
+  }
+}

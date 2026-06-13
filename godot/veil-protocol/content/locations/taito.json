@@ -1,0 +1,13 @@
+{
+  "id": "taito",
+  "name": "Taitō / shitamachi",
+  "faction": "street",
+  "lat": 35.7126,
+  "lng": 139.78,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 20,
+    "cab": 22
+  }
+}

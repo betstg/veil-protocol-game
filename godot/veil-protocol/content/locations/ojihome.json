@@ -1,0 +1,13 @@
+{
+  "id": "ojihome",
+  "name": "Ōji & Kita-ku homes",
+  "faction": "none",
+  "lat": 35.754,
+  "lng": 139.737,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "walk": 5,
+    "cab": 7
+  }
+}

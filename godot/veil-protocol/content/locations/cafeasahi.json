@@ -1,0 +1,15 @@
+{
+  "id": "cafeasahi",
+  "name": "Café Asahi (Ni-chōme)",
+  "faction": "street",
+  "lat": 35.6925,
+  "lng": 139.708,
+  "hours": "Tue 18:00–23:00",
+  "tier": 1,
+  "known": true,
+  "owner": "matsuda-keiko",
+  "extra": {
+    "train": 28,
+    "cab": 30
+  }
+}

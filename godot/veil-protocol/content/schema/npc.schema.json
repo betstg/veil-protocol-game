@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "veil:npc",
+  "title": "NPC",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name"],
+  "properties": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+    "name":      { "type": "string", "minLength": 1 },
+    "full_name": { "type": "string" },
+    "faction":   { "type": "string" },
+    "role":      { "type": "string" },
+    "location":  { "type": "string" },
+    "trust":     { "type": "integer", "minimum": -100, "maximum": 100 },
+    "knowledge": { "type": "array", "items": { "type": "string" } },
+    "dialogue_root": { "type": "string" },
+    "persona": {
+      "type": "object",
+      "properties": {
+        "voice":  { "type": "string" },
+        "traits": { "type": "string" },
+        "wants":  { "type": "string" },
+        "guard":  { "type": "string" }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["type", "to"],
+        "properties": {
+          "type":  { "type": "string" },
+          "to":    { "type": "string" },
+          "value": { "type": "integer" }
+        }
+      }
+    },
+    "extra": { "type": "object" }
+  }
+}

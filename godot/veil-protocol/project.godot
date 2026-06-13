@@ -1,0 +1,20 @@
+; Godot 4 project file — Veil Protocol (C# data-driven edition)
+; Engine config version 5 = Godot 4.x
+
+config_version=5
+
+[application]
+
+config/name="Veil Protocol: The Other Side"
+config/description="Occult-investigation case engine. Content lives in /content (JSON) and is imported into a local SQLite database; the engine is a case runner, the AI is the case author."
+config/features=PackedStringArray("4.3", "C#", "Forward Plus")
+run/main_scene="res://src/Core/Bootstrap.tscn"
+
+[dotnet]
+
+project/assembly_name="VeilProtocol"
+
+[autoload]
+
+GameDatabase="*res://src/Data/Database.cs"
+ContentLibrary="*res://src/Data/ContentLibrary.cs"

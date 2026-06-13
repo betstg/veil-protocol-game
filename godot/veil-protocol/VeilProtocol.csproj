@@ -1,0 +1,16 @@
+<Project Sdk="Godot.NET.Sdk/4.3.0">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Nullable>enable</Nullable>
+    <LangVersion>12</LangVersion>
+    <RootNamespace>VeilProtocol</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Local, server-less SQLite. Ships a native lib per-platform; no install step. -->
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.6" />
+    <!-- JSON Schema validation for the content importer. -->
+    <PackageReference Include="JsonSchema.Net" Version="7.1.2" />
+  </ItemGroup>
+</Project>

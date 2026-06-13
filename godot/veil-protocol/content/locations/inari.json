@@ -1,0 +1,16 @@
+{
+  "id": "inari",
+  "name": "Ōji Inari shrine",
+  "faction": "none",
+  "lat": 35.756,
+  "lng": 139.7385,
+  "hours": "06:00–18:00",
+  "tier": 1,
+  "known": true,
+  "owner": "miyamoto-kazuo",
+  "art": "place_shinto.png",
+  "extra": {
+    "walk": 7,
+    "cab": 9
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "the-2am-voice",
+  "name": "The 2am Voice",
+  "type": "idea",
+  "register": "Despair",
+  "grade": "B",
+  "description": "you cannot absorb an idea — only repeat it until it is true",
+  "hp": 27,
+  "atk": 9,
+  "exorcise_dc": 17,
+  "anchor": "the first person who believed there was no point",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 6000,
+      "max": 18000
+    },
+    "cigarettes": {
+      "chance": 0.55,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.65,
+      "min": 3,
+      "max": 8
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.12,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.04,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "you cannot absorb an idea — only repeat it until it is true",
+    "tip": "The woman at the back of the Suzuran feels it coming before it speaks.",
+    "tier": 3
+  }
+}

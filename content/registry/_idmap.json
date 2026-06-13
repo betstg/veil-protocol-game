@@ -1,0 +1,684 @@
+{
+  "_meta": {
+    "generated": "2026-06-13T14:38:48",
+    "purpose": "Crosswalk root characters.json -> content/registry ids. REVIEW before merge. Nothing is changed by this file.",
+    "direction": "registry is canonical; persona will be merged FROM root INTO registry",
+    "root_total": 73,
+    "registry_total": 70,
+    "matched": 69,
+    "needs_review": 0,
+    "root_only_orphans": 4,
+    "registry_only": 1,
+    "legend": {
+      "ok": "1.0 name match, safe to merge",
+      "needs_review": "matched but <1.0, eyeball it",
+      "ROOT_ONLY_orphan": "in root, not in registry — decide: port or cut",
+      "dup_lost": "two root rows claimed same registry id; lower-confidence one unmapped"
+    }
+  },
+  "map": [
+    {
+      "root_id": "hayashi-fumiko",
+      "root_name": "Hayashi Fumiko",
+      "reg_id": null,
+      "reg_name": null,
+      "confidence": 0,
+      "has_persona": true,
+      "flag": "ROOT_ONLY_orphan"
+    },
+    {
+      "root_id": "kondo-fumio",
+      "root_name": "Kondō Fumio",
+      "reg_id": null,
+      "reg_name": null,
+      "confidence": 0,
+      "has_persona": true,
+      "flag": "ROOT_ONLY_orphan"
+    },
+    {
+      "root_id": "kuroda-soun",
+      "root_name": "Kuroda Sōun",
+      "reg_id": null,
+      "reg_name": null,
+      "confidence": 0.33,
+      "has_persona": true,
+      "flag": "ROOT_ONLY_orphan"
+    },
+    {
+      "root_id": "matsuda-keiko",
+      "root_name": "Matsuda Keiko",
+      "reg_id": null,
+      "reg_name": null,
+      "confidence": 0,
+      "has_persona": true,
+      "flag": "ROOT_ONLY_orphan"
+    },
+    {
+      "root_id": "ad-okonkwo",
+      "root_name": "Adé Okonkwo",
+      "reg_id": "ade_okonkwo",
+      "reg_name": "Adé Okonkwo... the trader",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "aizawa-yuto",
+      "root_name": "Aizawa Yuto",
+      "reg_id": "aizawa_yuto",
+      "reg_name": "Aizawa Yuto, 相沢 悠斗",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "baba-adewale",
+      "root_name": "Baba Adewale",
+      "reg_id": "baba_adewale",
+      "reg_name": "Baba Adewale... community elder",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "choi-hana",
+      "root_name": "Choi Hana",
+      "reg_id": "choi_hana",
+      "reg_name": "Choi Hana, 최 하나",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "det-sgt-arai-goro",
+      "root_name": "Det. Sgt. Arai Goro",
+      "reg_id": "arai",
+      "reg_name": "Det. Sgt. Arai Goro, 新井 叉郎",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "director-adachi-kenshin",
+      "root_name": "Director Adachi Kenshin",
+      "reg_id": "adachi",
+      "reg_name": "Director Adachi Kenshin, 足立 健心",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "end-masa",
+      "root_name": "Endō Masa",
+      "reg_id": "endo_masa",
+      "reg_name": "Endō Masa, 遠藤 政",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "endo-sumi",
+      "root_name": "Endo Sumi",
+      "reg_id": "endo_sumi",
+      "reg_name": "Endo Sumi... the memorial keeper",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "father-anselm-mbeki",
+      "root_name": "Father Anselm Mbeki",
+      "reg_id": "father_anselm_mbeki",
+      "reg_name": "Father Anselm Mbeki... Catholic priest",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "fujimoto-kenji-abe-takes",
+      "root_name": "Fujimoto Kenji / Abe Takeshi",
+      "reg_id": "fujimoto",
+      "reg_name": "Fujimoto Kenji / Abe Takeshi, 藤本 健二 / 阿部 武",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "fujiwara-kage-sena",
+      "root_name": "Fujiwara-Kage Sena",
+      "reg_id": "fujiwarakage",
+      "reg_name": "Fujiwara-Kage Sena, 藤原影 星奈",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "fukai-rinka-kishin",
+      "root_name": "Fukai Rinka / Kishin",
+      "reg_id": "kishin",
+      "reg_name": "Fukai Rinka / Kishin, 深井 凌香... “Kanna-sensei”, 鬼神",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "got-hideki",
+      "root_name": "Gotō Hideki",
+      "reg_id": "goto_hideki",
+      "reg_name": "Gotō Hideki, 後藤 秀樹",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "hagiwara-mizuki",
+      "root_name": "Hagiwara Mizuki",
+      "reg_id": "hagiwara_mizuki",
+      "reg_name": "Hagiwara Mizuki, 萎原 美月... Director of Public Confidence",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "hara-setsu",
+      "root_name": "Hara Setsu",
+      "reg_id": "hara_setsu",
+      "reg_name": "Hara Setsu, 原 節",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "inoue-misaki",
+      "root_name": "Inoue Misaki",
+      "reg_id": "inoue",
+      "reg_name": "Inoue Misaki, 井上 美咔",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "it-kenta",
+      "root_name": "Itō Kenta",
+      "reg_id": "ito_kenta",
+      "reg_name": "Itō Kenta, 伊藤 健太",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "iwata-kenji",
+      "root_name": "Iwata Kenji",
+      "reg_id": "iwata_kenji",
+      "reg_name": "Iwata Kenji, 岩田 健二",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kaneda-t-ru",
+      "root_name": "Kaneda Tōru",
+      "reg_id": "kaneda",
+      "reg_name": "Kaneda Tōru, 金田 徑",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "katagiri-noa",
+      "root_name": "Katagiri Noa",
+      "reg_id": "katagiri_noa",
+      "reg_name": "Katagiri Noa, 片桂 乇亜",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kato-ryusei",
+      "root_name": "Kato Ryusei",
+      "reg_id": "kato_ryusei",
+      "reg_name": "Kato Ryusei, 加藤 龍星",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kawai-yuki",
+      "root_name": "Kawai Yuki",
+      "reg_id": "kawai_yuki",
+      "reg_name": "Kawai Yuki, 河合 ゆき",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "komatsu-shigeru",
+      "root_name": "Komatsu Shigeru",
+      "reg_id": "komatsu_shigeru",
+      "reg_name": "Komatsu Shigeru, 小松 茂",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kuroda-itsuki",
+      "root_name": "Kuroda Itsuki",
+      "reg_id": "kuroda_itsuki",
+      "reg_name": "Kuroda Itsuki, 黒田 樹",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kuroda-sei",
+      "root_name": "Kuroda Sei",
+      "reg_id": "kuroda_sei",
+      "reg_name": "Kuroda Sei, 黒田 星",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kuroki-tatsuo",
+      "root_name": "Kuroki Tatsuo",
+      "reg_id": "kuroki",
+      "reg_name": "Kuroki Tatsuo, 黒木 達夫",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "kurosawa-shou",
+      "root_name": "Kurosawa Shou",
+      "reg_id": "kurosawa",
+      "reg_name": "Kurosawa Shou, 黒沢 翔",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "leo-sato",
+      "root_name": "Leo' (Sato)",
+      "reg_id": "leo_sato",
+      "reg_name": "‘Leo’ (Sato), 佐藤... host, working name",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "majima-kenji",
+      "root_name": "Majima Kenji",
+      "reg_id": "majima",
+      "reg_name": "Majima Kenji, 間島 健二",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "mali",
+      "root_name": "Mali",
+      "reg_id": "mali",
+      "reg_name": "‘Mali’, マリ... masseuse, working name",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "mariko",
+      "root_name": "Mariko",
+      "reg_id": "mariko",
+      "reg_name": "“Mariko”, 真理子... working name",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "maruyama-toshio",
+      "root_name": "Maruyama Toshio",
+      "reg_id": "maruyama_toshio",
+      "reg_name": "Maruyama Toshio, 丸山 俊夫",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "master-lin-wei",
+      "root_name": "Master Lin Wei",
+      "reg_id": "master_lin_wei",
+      "reg_name": "Master Lin Wei, 林澉... Taoist priest",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "miyamoto-kazuo",
+      "root_name": "Miyamoto Kazuo",
+      "reg_id": "miyamoto_kazuo",
+      "reg_name": "Miyamoto Kazuo, 宮本 和夫... kannushi",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "mochizuki-sora",
+      "root_name": "Mochizuki Sora",
+      "reg_id": "mochizuki",
+      "reg_name": "Mochizuki Sora, 望月 空",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "mori-haruto",
+      "root_name": "Mori Haruto",
+      "reg_id": "mori_haruto",
+      "reg_name": "Mori Haruto, 森 陽太",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "moriya-tatsuki",
+      "root_name": "Moriya Tatsuki",
+      "reg_id": "moriya",
+      "reg_name": "Moriya Tatsuki, 守屋 達樹",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "nakamura-aoi",
+      "root_name": "Nakamura Aoi",
+      "reg_id": "nakamura_aoi",
+      "reg_name": "Nakamura Aoi, 中村 葵",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "okada-shizuka",
+      "root_name": "Okada Shizuka",
+      "reg_id": "okada_shizuka",
+      "reg_name": "Okada Shizuka, 岡田 静",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "old-maki",
+      "root_name": "Old Maki",
+      "reg_id": "old_maki",
+      "reg_name": "‘Old Maki’, 真木... ironmonger",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "old-tomi",
+      "root_name": "Old Tomi",
+      "reg_id": "old_tomi",
+      "reg_name": "Old Tomi... the freight-yard squatter",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "pak-sun-ja",
+      "root_name": "Pak Sun-ja",
+      "reg_id": "pak_sun_ja",
+      "reg_name": "Pak Sun-ja... mudang",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "ren",
+      "root_name": "Ren",
+      "reg_id": "ren",
+      "reg_name": "Ren, 恋... the Contracted",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "rev-egami-jak",
+      "root_name": "Rev. Egami Jakū",
+      "reg_id": "rev_egami_jaku",
+      "reg_name": "Rev. Egami Jakū, 江上 寄... Shingon priest",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "saeki-reno",
+      "root_name": "Saeki Reno",
+      "reg_id": "saeki_reno",
+      "reg_name": "Saeki Reno, 佐伯 錢郎",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "sasaki-daiki",
+      "root_name": "Sasaki Daiki",
+      "reg_id": "daiki",
+      "reg_name": "Sasaki Daiki, 佐々木 大貼",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "sato",
+      "root_name": "Sato",
+      "reg_id": "sato",
+      "reg_name": "Sato... the blind busker",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "serizawa",
+      "root_name": "Serizawa",
+      "reg_id": "serizawa",
+      "reg_name": "Serizawa, 芝沢",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "shimizu-ren",
+      "root_name": "Shimizu Ren",
+      "reg_id": "shimizu_ren",
+      "reg_name": "Shimizu Ren, 清水 蓮",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "sone-kimiko",
+      "root_name": "Sone Kimiko",
+      "reg_id": "sone_kimiko",
+      "reg_name": "Sone Kimiko, 曽根 君子",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "sugimoto-tatsuya",
+      "root_name": "Sugimoto Tatsuya",
+      "reg_id": "sugimoto_tatsuya",
+      "reg_name": "Sugimoto Tatsuya, 杠本 達也",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "switch",
+      "root_name": "Switch",
+      "reg_id": "switch",
+      "reg_name": "‘Switch’... Grid quartermaster",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tanabe-isamu",
+      "root_name": "Tanabe Isamu",
+      "reg_id": "tanabe_isamu",
+      "reg_name": "Tanabe Isamu, 田辺 勉",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tanaka-ryu",
+      "root_name": "Tanaka Ryu",
+      "reg_id": "tanaka_ryu",
+      "reg_name": "Tanaka Ryu, 田中 龍",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tanizaki-seiichi",
+      "root_name": "Tanizaki Seiichi",
+      "reg_id": "tanizaki",
+      "reg_name": "Tanizaki Seiichi, 谷崎 清一",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tatsu",
+      "root_name": "Tatsu",
+      "reg_id": "tatsu",
+      "reg_name": "‘Tatsu’, 達見... ramen master",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tendo-akira",
+      "root_name": "Tendo Akira",
+      "reg_id": "tendo",
+      "reg_name": "Tendo Akira, 天童 明",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "the-beck-s-man",
+      "root_name": "The Beck's Man",
+      "reg_id": "the_beck_s_man",
+      "reg_name": "“The Beck’s Man”, 大塚... platform clerk",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "the-bookseller",
+      "root_name": "The Bookseller",
+      "reg_id": "the_bookseller",
+      "reg_name": "‘The Bookseller’, 堵口... Higuchi",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "the-woman-at-the-back",
+      "root_name": "The Woman at the Back",
+      "reg_id": "the_woman_at_the_back",
+      "reg_name": "‘The Woman at the Back’... name unknown",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "tsukishiro-haruki",
+      "root_name": "Tsukishiro Haruki",
+      "reg_id": "tsukishiro",
+      "reg_name": "Tsukishiro Haruki, 月城 遥樹",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "uedera-gin",
+      "root_name": "Uedera Gin",
+      "reg_id": "gin",
+      "reg_name": "Uedera Gin, 上枯 銘",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "uehara",
+      "root_name": "Uehara",
+      "reg_id": "uehara",
+      "reg_name": "Uehara, 上原",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "usami-hinata-ren",
+      "root_name": "Usami Hinata / Ren",
+      "reg_id": "usami_ren",
+      "reg_name": "Usami Hinata / Ren, 宇佐見 日向 {Usa-kun}",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "wada-sho",
+      "root_name": "Wada Sho",
+      "reg_id": "wada_sho",
+      "reg_name": "Wada Sho, 和田 翔",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "yamamoto-koji",
+      "root_name": "Yamamoto Koji",
+      "reg_id": "yamamoto",
+      "reg_name": "Yamamoto Koji, 山本 幸二",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "yoshida-goro",
+      "root_name": "Yoshida Goro",
+      "reg_id": "yoshida_goro",
+      "reg_name": "Yoshida Goro, 吉田 五郎",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "yua",
+      "root_name": "Yua",
+      "reg_id": "yua",
+      "reg_name": "Yua, 細岩... surname dropped",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    },
+    {
+      "root_id": "yushiro",
+      "root_name": "Yushiro",
+      "reg_id": "yushiro",
+      "reg_name": "Yushiro, 癒士郎... ‘the Healer’",
+      "confidence": 1.0,
+      "has_persona": true,
+      "flag": "ok"
+    }
+  ],
+  "registry_only_no_root": [
+    {
+      "reg_id": "rei",
+      "reg_name": "Uedera Rei, 植寺 零"
+    }
+  ]
+}

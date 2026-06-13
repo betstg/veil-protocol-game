@@ -1,0 +1,50 @@
+{
+  "id": "laughing-room",
+  "name": "The Laughing Room",
+  "type": "idea",
+  "register": "Joy",
+  "grade": "B",
+  "description": "an idea wears you as a smile you cannot drop",
+  "hp": 25,
+  "atk": 9,
+  "exorcise_dc": 18,
+  "anchor": "the room where the laughter first would not stop",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 6000,
+      "max": 18000
+    },
+    "cigarettes": {
+      "chance": 0.55,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.65,
+      "min": 3,
+      "max": 8
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.12,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.04,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "an idea wears you as a smile you cannot drop",
+    "tip": "The joy is real. That is the horror of it.",
+    "tier": 3
+  }
+}

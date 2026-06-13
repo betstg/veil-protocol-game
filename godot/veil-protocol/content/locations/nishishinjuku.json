@@ -1,0 +1,13 @@
+{
+  "id": "nishishinjuku",
+  "name": "Nishi-Shinjuku",
+  "faction": "none",
+  "lat": 35.6896,
+  "lng": 139.6917,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 30,
+    "cab": 32
+  }
+}

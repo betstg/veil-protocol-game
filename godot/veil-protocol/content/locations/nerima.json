@@ -1,0 +1,13 @@
+{
+  "id": "nerima",
+  "name": "Nerima",
+  "faction": "none",
+  "lat": 35.7357,
+  "lng": 139.6517,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 30,
+    "cab": 34
+  }
+}

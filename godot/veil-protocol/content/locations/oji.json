@@ -1,0 +1,14 @@
+{
+  "id": "oji",
+  "name": "Ōji Station",
+  "faction": "none",
+  "lat": 35.7525,
+  "lng": 139.7388,
+  "hours": "05:00–24:00",
+  "tier": 1,
+  "known": true,
+  "extra": {
+    "walk": 4,
+    "cab": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gathering",
+  "name": "The Gathering",
+  "faction": "grid",
+  "hours": "—",
+  "tier": 3,
+  "known": false,
+  "art": "place_gathering.png",
+  "extra": {
+    "train": 26,
+    "cab": 30
+  }
+}

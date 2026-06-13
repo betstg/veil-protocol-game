@@ -1,0 +1,45 @@
+{
+  "id": "the-devotee",
+  "name": "The Devotee",
+  "type": "demon",
+  "register": "Love",
+  "grade": "C",
+  "description": "+a Love-path residue · the want to be wholly known",
+  "hp": 22,
+  "atk": 8,
+  "exorcise_dc": 14,
+  "anchor": "the name of the one it could never stop loving",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 2500,
+      "max": 8000
+    },
+    "cigarettes": {
+      "chance": 0.4,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.55,
+      "min": 2,
+      "max": 5
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.09,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "+a Love-path residue · the want to be wholly known",
+    "tip": "It can tell you who Rei loves before Rei admits it.",
+    "tier": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "takinogawa",
+  "name": "Takinogawa — the hospice",
+  "faction": "cult",
+  "lat": 35.748,
+  "lng": 139.725,
+  "hours": "24h",
+  "tier": 4,
+  "known": false,
+  "extra": {
+    "walk": 8,
+    "cab": 10
+  }
+}

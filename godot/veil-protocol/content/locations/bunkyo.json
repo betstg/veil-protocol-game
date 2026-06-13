@@ -1,0 +1,13 @@
+{
+  "id": "bunkyo",
+  "name": "Bunkyō",
+  "faction": "none",
+  "lat": 35.7081,
+  "lng": 139.7522,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 18,
+    "cab": 20
+  }
+}

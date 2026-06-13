@@ -1,0 +1,44 @@
+{
+  "id": "landlady_intro",
+  "npc_id": "landlady",
+  "nodes": [
+    {
+      "id": "landlady_intro",
+      "text": "You're the one Mr. Sato sent? Good. I'll be plain: 302 is not... settling. I don't want police, I don't want a priest making a scene. I want it quiet again.",
+      "options": [
+        { "text": "Tell me what you've heard.", "next": "landlady_noises", "effects": ["unlock:strange_noises"] },
+        { "text": "Who lived there?", "next": "landlady_tenant" },
+        { "text": "Give me the key and I'll look.", "next": "landlady_refuse_key", "conditions": ["trust<40"] },
+        { "text": "Give me the key and I'll look.", "next": "landlady_give_key", "conditions": ["trust>=40"] }
+      ]
+    },
+    {
+      "id": "landlady_noises",
+      "text": "A chair, dragging. Water running all night. And — once — his voice, through the door, saying he'd be late for work. He hasn't had work in nine days.",
+      "options": [
+        { "text": "That helps. Anything else?", "next": "landlady_intro", "effects": ["trust+5"] }
+      ]
+    },
+    {
+      "id": "landlady_tenant",
+      "text": "Quiet man. Paid on time. The mail's still coming for him — it's piling up in the basement. I couldn't bring myself to throw it out.",
+      "options": [
+        { "text": "I'll check the mail.", "next": "landlady_intro", "effects": ["unlock:tenant_name", "trust+5"] }
+      ]
+    },
+    {
+      "id": "landlady_refuse_key",
+      "text": "I don't know you well enough to hand you a key to my building. Show me you know what you're doing first.",
+      "options": [
+        { "text": "Fair. I'll come back.", "next": null }
+      ]
+    },
+    {
+      "id": "landlady_give_key",
+      "text": "...All right. Here. Top lock sticks. And — whatever's in there — don't make it worse.",
+      "options": [
+        { "text": "Take the key.", "next": null, "effects": ["give_item:key_302", "set:case_silent_tenant_active"] }
+      ]
+    }
+  ]
+}

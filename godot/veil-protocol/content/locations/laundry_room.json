@@ -1,0 +1,14 @@
+{
+  "id": "laundry_room",
+  "name": "Basement laundry room",
+  "faction": "none",
+  "description": "Two coin machines, a wall of dented mailboxes, and a lost-and-found basket. The mail for 302 has been piling up in the basket because no one will go up to deliver it.",
+  "lat": 35.7330,
+  "lng": 139.7406,
+  "hours": "06:00–23:00",
+  "tier": 1,
+  "known": true,
+  "connections": [
+    { "to": "hallway", "walk": 2 }
+  ]
+}

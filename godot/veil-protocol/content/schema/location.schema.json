@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "veil:location",
+  "title": "Location",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name"],
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+    "name":        { "type": "string", "minLength": 1 },
+    "faction":     { "type": "string" },
+    "description": { "type": "string" },
+    "lat":         { "type": "number" },
+    "lng":         { "type": "number" },
+    "hours":       { "type": "string" },
+    "tier":        { "type": "integer" },
+    "known":       { "type": "boolean" },
+    "owner":       { "type": ["string", "null"] },
+    "art":         { "type": "string" },
+    "connections": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["to"],
+            "properties": {
+              "to":    { "type": "string" },
+              "walk":  { "type": ["integer", "null"] },
+              "train": { "type": ["integer", "null"] },
+              "cab":   { "type": ["integer", "null"] }
+            }
+          }
+        ]
+      }
+    },
+    "extra": { "type": "object" }
+  }
+}

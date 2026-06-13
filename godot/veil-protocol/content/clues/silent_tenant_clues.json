@@ -1,0 +1,26 @@
+[
+  {
+    "id": "clue_strange_noises",
+    "case_id": "silent_tenant",
+    "name": "Strange noises at night",
+    "description": "Neighbours report a chair dragging and footsteps in 302 at 3 a.m. — long after the tenant was last seen.",
+    "location": "hallway",
+    "reveals": "haunting_confirmed"
+  },
+  {
+    "id": "clue_running_water",
+    "case_id": "silent_tenant",
+    "name": "Water that won't stop",
+    "description": "The tap in 302 runs on its own. The meter shows water used every night for nine nights. No one has been inside.",
+    "location": "apartment_302",
+    "reveals": "anchor_active"
+  },
+  {
+    "id": "clue_name_on_mail",
+    "case_id": "silent_tenant",
+    "name": "The name on the mail",
+    "description": "Unopened envelopes in the laundry basket are addressed to the tenant by full name — the true name the echo will still answer to.",
+    "location": "laundry_room",
+    "reveals": "true_name"
+  }
+]

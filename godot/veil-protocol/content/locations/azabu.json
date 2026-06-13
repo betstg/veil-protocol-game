@@ -1,0 +1,13 @@
+{
+  "id": "azabu",
+  "name": "Azabu",
+  "faction": "none",
+  "lat": 35.6577,
+  "lng": 139.73,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 36,
+    "cab": 38
+  }
+}

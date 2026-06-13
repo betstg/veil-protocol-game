@@ -1,0 +1,50 @@
+{
+  "id": "confessors-weight",
+  "name": "The Confessor's Weight",
+  "type": "demon",
+  "register": "Shame",
+  "grade": "B",
+  "description": "+a Shame-path residue · the relief of being finally accused",
+  "hp": 30,
+  "atk": 10,
+  "exorcise_dc": 16,
+  "anchor": "the secret its host could not carry",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 6000,
+      "max": 18000
+    },
+    "cigarettes": {
+      "chance": 0.55,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.65,
+      "min": 3,
+      "max": 8
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.12,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.04,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "+a Shame-path residue · the relief of being finally accused",
+    "tip": "It knows what every person in the room is most afraid you will find out.",
+    "tier": 3
+  }
+}

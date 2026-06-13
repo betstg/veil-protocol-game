@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "veil:entity",
+  "title": "Entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "type"],
+  "properties": {
+    "id":           { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+    "name":         { "type": "string", "minLength": 1 },
+    "type":         { "type": "string" },
+    "register":     { "type": "string" },
+    "grade":        { "type": "string" },
+    "threat_level": { "type": "integer", "minimum": 0, "maximum": 10 },
+    "description":  { "type": "string" },
+    "hp":           { "type": "integer", "minimum": 0 },
+    "atk":          { "type": "integer", "minimum": 0 },
+    "exorcise_dc":  { "type": "integer", "minimum": 0 },
+    "anchor":       { "type": "string" },
+    "weaknesses":   { "type": "array", "items": { "type": "string" } },
+    "abilities":    { "type": "array", "items": { "type": "string" } },
+    "loot":         { "type": "object" },
+    "extra":        { "type": "object" }
+  }
+}

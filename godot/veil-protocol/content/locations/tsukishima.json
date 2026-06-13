@@ -1,0 +1,13 @@
+{
+  "id": "tsukishima",
+  "name": "Tsukishima",
+  "faction": "none",
+  "lat": 35.6655,
+  "lng": 139.7836,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 34,
+    "cab": 36
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "silent_tenant",
+  "title": "The Silent Tenant",
+  "description": "Apartment 302 has gone quiet. The tenant hasn't been seen in nine days, but the neighbours still hear water running and a chair dragging at 3 a.m. The landlady wants it 'handled discreetly'. Something stayed behind when the tenant left.",
+  "difficulty": 1,
+  "status": "available",
+  "entity": "echo_001",
+  "locations": ["apartment_302", "hallway", "laundry_room"],
+  "npcs": ["landlady"],
+  "clues": ["clue_strange_noises", "clue_running_water", "clue_name_on_mail"],
+  "quests": [
+    {
+      "id": "q_silent_canvass",
+      "title": "Ask the neighbours",
+      "description": "Mrs. Fujimoto knows more than she says. Earn enough trust to get the master key.",
+      "objective": "Raise the landlady's trust to 40 and obtain the key to 302."
+    },
+    {
+      "id": "q_silent_name",
+      "title": "Find the true name",
+      "description": "A residual echo can be dismissed if you speak the name it answered to in life.",
+      "objective": "Recover the tenant's name from the mail in the laundry room, then confront the echo."
+    }
+  ]
+}

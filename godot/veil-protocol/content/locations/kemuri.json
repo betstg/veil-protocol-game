@@ -1,0 +1,15 @@
+{
+  "id": "kemuri",
+  "name": "Kemuri — laundry safehouse",
+  "faction": "grid",
+  "lat": 35.733,
+  "lng": 139.799,
+  "hours": "—",
+  "tier": 3,
+  "known": false,
+  "art": "place_kemuri.png",
+  "extra": {
+    "train": 20,
+    "cab": 24
+  }
+}

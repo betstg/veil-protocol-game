@@ -1,0 +1,14 @@
+{
+  "id": "geidai",
+  "name": "Geidai studios (Ueno)",
+  "faction": "towers",
+  "lat": 35.7178,
+  "lng": 139.772,
+  "tier": 1,
+  "known": false,
+  "owner": "kuroda-itsuki",
+  "extra": {
+    "train": 21,
+    "cab": 28
+  }
+}

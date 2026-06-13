@@ -1,0 +1,16 @@
+{
+  "id": "ramen",
+  "name": "Tatsu — ramen counter",
+  "faction": "street",
+  "lat": 35.7522,
+  "lng": 139.7382,
+  "hours": "11:30–14:30, 18:00–01:30",
+  "tier": 1,
+  "known": true,
+  "owner": "tatsu",
+  "art": "place_tatsuya.png",
+  "extra": {
+    "walk": 6,
+    "cab": 9
+  }
+}

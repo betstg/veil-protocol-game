@@ -1,0 +1,15 @@
+{
+  "id": "ojiclinic",
+  "name": "Ōji clinic (blue curtain)",
+  "faction": "street",
+  "lat": 35.7535,
+  "lng": 139.74,
+  "hours": "Sat 09:00–13:00",
+  "tier": 1,
+  "known": true,
+  "owner": "hayashi-fumiko",
+  "extra": {
+    "walk": 5,
+    "cab": 7
+  }
+}

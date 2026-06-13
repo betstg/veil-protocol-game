@@ -1,0 +1,15 @@
+{
+  "id": "apartment_302",
+  "name": "Apartment 302",
+  "faction": "none",
+  "description": "Third floor, end of the hall. The air is wrong the moment the door opens — cold, and faintly of standing water. A chair sits a little out from the table, as if someone just stood up.",
+  "lat": 35.7331,
+  "lng": 139.7407,
+  "hours": "24h",
+  "tier": 1,
+  "known": false,
+  "owner": "landlady",
+  "connections": [
+    { "to": "hallway", "walk": 1 }
+  ]
+}

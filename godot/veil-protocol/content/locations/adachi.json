@@ -1,0 +1,13 @@
+{
+  "id": "adachi",
+  "name": "Adachi-ku",
+  "faction": "none",
+  "lat": 35.775,
+  "lng": 139.8044,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 22,
+    "cab": 26
+  }
+}

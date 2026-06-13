@@ -1,0 +1,50 @@
+{
+  "id": "the-homesick",
+  "name": "The Homesick",
+  "type": "demon",
+  "register": "Longing",
+  "grade": "B",
+  "description": "+a Longing-path residue · the pull toward a place that no longer exists",
+  "hp": 29,
+  "atk": 10,
+  "exorcise_dc": 16,
+  "anchor": "the address of a home that was demolished",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 6000,
+      "max": 18000
+    },
+    "cigarettes": {
+      "chance": 0.55,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.65,
+      "min": 3,
+      "max": 8
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.12,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.04,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "+a Longing-path residue · the pull toward a place that no longer exists",
+    "tip": "It draws the lost and the displaced; the Toyoko kids feel it like weather.",
+    "tier": 3
+  }
+}

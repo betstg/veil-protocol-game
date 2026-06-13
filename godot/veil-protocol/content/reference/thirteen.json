@@ -1,0 +1,106 @@
+[
+  {
+    "seat": "I",
+    "emotion": "Grief",
+    "holder": "Asakura Mio",
+    "location": "Kyoto",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "II",
+    "emotion": "Rage",
+    "holder": "Mori Takao",
+    "location": "Tokyo (hard to find)",
+    "status": "Under pressure",
+    "demon": null
+  },
+  {
+    "seat": "III",
+    "emotion": "Love",
+    "holder": "Sasaki Kei",
+    "location": "Tokyo",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "IV",
+    "emotion": "Fear",
+    "holder": "Nakashima Yuna",
+    "location": "Tokyo",
+    "status": "Under pressure",
+    "demon": null
+  },
+  {
+    "seat": "V",
+    "emotion": "Wonder",
+    "holder": "Chen Lian",
+    "location": "Tokyo (Grid Archive)",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "VI",
+    "emotion": "Despair",
+    "holder": "Watanabe Jun",
+    "location": "Variable",
+    "status": "Weakening — being usurped",
+    "demon": "Kishin (Far-Shore Circle, ascending toward the Inverted God)"
+  },
+  {
+    "seat": "VII",
+    "emotion": "Joy",
+    "holder": "Hoshino Haru",
+    "location": "Kita (Sakae St)",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "VIII",
+    "emotion": "Shame",
+    "holder": "Kobayashi Emi",
+    "location": "Tokyo",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "IX",
+    "emotion": "Hunger",
+    "holder": "Inoue Satoru",
+    "location": "No fixed location",
+    "status": "Under pressure",
+    "demon": null
+  },
+  {
+    "seat": "X",
+    "emotion": "Courage",
+    "holder": "Fujiwara Natsumi",
+    "location": "Independent",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "XI",
+    "emotion": "Longing",
+    "holder": "Park Junho",
+    "location": "Shin-Ōkubo",
+    "status": "Under pressure",
+    "demon": null
+  },
+  {
+    "seat": "XII",
+    "emotion": "Awe",
+    "holder": "Kasumi Shin",
+    "location": "Variable",
+    "status": "Stable",
+    "demon": null
+  },
+  {
+    "seat": "XIII",
+    "emotion": "Duty",
+    "holder": "VACANT since 2009",
+    "location": "Kita district",
+    "status": "CRITICAL — membrane thinning",
+    "demon": "Yushiro (intends to occupy the seat, via Gin)"
+  }
+]

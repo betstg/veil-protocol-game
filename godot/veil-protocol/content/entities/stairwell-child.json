@@ -1,0 +1,45 @@
+{
+  "id": "stairwell-child",
+  "name": "The Stairwell Child",
+  "type": "spirit",
+  "register": "Grief",
+  "grade": "E",
+  "description": "a thin Grief residue (not worth it)",
+  "hp": 9,
+  "atk": 3,
+  "exorcise_dc": 8,
+  "anchor": "the name of the building it died in",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 200,
+      "max": 1500
+    },
+    "cigarettes": {
+      "chance": 0.2,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.35,
+      "min": 1,
+      "max": 2
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.04,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "a thin Grief residue (not worth it)",
+    "tip": "It saw who came up the stairs that night.",
+    "tier": 1
+  }
+}

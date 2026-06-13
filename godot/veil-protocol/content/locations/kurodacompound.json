@@ -1,0 +1,15 @@
+{
+  "id": "kurodacompound",
+  "name": "Kuroda compound (Nezu)",
+  "faction": "towers",
+  "lat": 35.72,
+  "lng": 139.766,
+  "hours": "—",
+  "tier": 3,
+  "known": false,
+  "owner": "kuroda-soun",
+  "extra": {
+    "train": 16,
+    "cab": 18
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "the-lingering",
+  "name": "Residue — a Lingering",
+  "type": "spirit",
+  "register": "Fear",
+  "grade": "E",
+  "description": "a thin Fear residue",
+  "hp": 7,
+  "atk": 3,
+  "exorcise_dc": 7,
+  "anchor": "a scrap of where it last felt safe",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 200,
+      "max": 1500
+    },
+    "cigarettes": {
+      "chance": 0.2,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.35,
+      "min": 1,
+      "max": 2
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.04,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "a thin Fear residue",
+    "tip": "It saw a man with the wrong shadow near the overpass.",
+    "tier": 1
+  }
+}

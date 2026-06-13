@@ -1,0 +1,14 @@
+{
+  "id": "cvd",
+  "name": "CVD HQ (Marunouchi)",
+  "faction": "cvd",
+  "lat": 35.6812,
+  "lng": 139.766,
+  "hours": "08:00–20:00",
+  "tier": 3,
+  "known": true,
+  "extra": {
+    "train": 24,
+    "cab": 30
+  }
+}

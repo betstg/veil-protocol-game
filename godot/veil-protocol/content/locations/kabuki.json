@@ -1,0 +1,14 @@
+{
+  "id": "kabuki",
+  "name": "Kabukichō",
+  "faction": "street",
+  "lat": 35.6938,
+  "lng": 139.7036,
+  "hours": "24h",
+  "tier": 2,
+  "known": false,
+  "extra": {
+    "train": 29,
+    "cab": 31
+  }
+}

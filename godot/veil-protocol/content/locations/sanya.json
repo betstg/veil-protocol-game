@@ -1,0 +1,15 @@
+{
+  "id": "sanya",
+  "name": "Sanya — Tanizaki's room",
+  "faction": "grid",
+  "lat": 35.7325,
+  "lng": 139.799,
+  "hours": "20:00–03:00",
+  "tier": 3,
+  "known": false,
+  "owner": "tanizaki-seiichi",
+  "extra": {
+    "train": 18,
+    "cab": 20
+  }
+}

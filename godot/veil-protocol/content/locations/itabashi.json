@@ -1,0 +1,13 @@
+{
+  "id": "itabashi",
+  "name": "Itabashi (Grid territory)",
+  "faction": "grid",
+  "lat": 35.7512,
+  "lng": 139.709,
+  "tier": 1,
+  "known": false,
+  "extra": {
+    "train": 12,
+    "cab": 16
+  }
+}

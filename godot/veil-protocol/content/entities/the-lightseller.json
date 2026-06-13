@@ -1,0 +1,45 @@
+{
+  "id": "the-lightseller",
+  "name": "The Lightseller",
+  "type": "demon",
+  "register": "Wonder",
+  "grade": "C",
+  "description": "+a Wonder-path residue · the lure of the impossible",
+  "hp": 20,
+  "atk": 8,
+  "exorcise_dc": 14,
+  "anchor": "the first promise it ever broke",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 2500,
+      "max": 8000
+    },
+    "cigarettes": {
+      "chance": 0.4,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.55,
+      "min": 2,
+      "max": 5
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.09,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    }
+  },
+  "extra": {
+    "absorb": "+a Wonder-path residue · the lure of the impossible",
+    "tip": "It offers to show you a true thing. The true thing is a hook.",
+    "tier": 2
+  }
+}

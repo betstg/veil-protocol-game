@@ -1,0 +1,13 @@
+{
+  "id": "farshore",
+  "name": "The Far-Shore Circle",
+  "faction": "cult",
+  "hours": "—",
+  "tier": 4,
+  "known": false,
+  "owner": "fukai-rinka-kishin",
+  "extra": {
+    "train": 30,
+    "cab": 34
+  }
+}

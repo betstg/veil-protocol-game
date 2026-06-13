@@ -1,0 +1,50 @@
+{
+  "id": "the-tenant",
+  "name": "The Tenant",
+  "type": "demon",
+  "register": "Hunger",
+  "grade": "B",
+  "description": "+a Hunger-path residue · a step toward the Thirteen",
+  "hp": 35,
+  "atk": 11,
+  "exorcise_dc": 15,
+  "anchor": "its true name",
+  "loot": {
+    "money": {
+      "chance": 1.0,
+      "min": 6000,
+      "max": 18000
+    },
+    "cigarettes": {
+      "chance": 0.55,
+      "qty": [
+        1,
+        3
+      ],
+      "effect": "madness -3..-6"
+    },
+    "tickets": {
+      "chance": 0.65,
+      "min": 3,
+      "max": 8
+    },
+    "trappedSpirit": {
+      "chance": 0.02,
+      "becomes": "artifact (the spirit bound in the object)"
+    },
+    "cursedJewelry": {
+      "chance": 0.12,
+      "becomes": "low-power artifact · thins the veil slightly around the bearer"
+    },
+    "premium": {
+      "chance": 0.04,
+      "choose": true,
+      "note": "player-chooseable premium object carried by this premium vessel"
+    }
+  },
+  "extra": {
+    "absorb": "+a Hunger-path residue · a step toward the Thirteen",
+    "tip": "It knows which doors in the building were left open, and by whom.",
+    "tier": 3
+  }
+}
