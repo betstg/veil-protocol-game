@@ -956,7 +956,11 @@ function renderChapters(){
 /* ---- persistence: resume where you stopped ---- */
 function saveG(){try{localStorage.setItem('vp_save',JSON.stringify(G,(k,v)=>k==='_tick'?undefined:v));}catch(e){}}
 function vpDeepMerge(base,over){if(over===null||typeof over!=='object'||Array.isArray(over))return over;if(base===null||typeof base!=='object'||Array.isArray(base))base={};var out=Object.assign({},base);for(var k in over)out[k]=vpDeepMerge(base[k],over[k]);return out;}
-function loadG(){try{const s=localStorage.getItem('vp_save');if(!s)return;const d=JSON.parse(s);for(const k in d)G[k]=vpDeepMerge(G[k],d[k]);if(G.player&&!G.player.standing)G.player.standing={cvd:0,grid:0,tower:0};}catch(e){}}
+function loadG(){try{var _defPlaces=Array.isArray(G.places)?G.places.slice():[];const s=localStorage.getItem('vp_save');if(!s)return;const d=JSON.parse(s);for(const k in d)G[k]=vpDeepMerge(G[k],d[k]);if(G.player&&!G.player.standing)G.player.standing={cvd:0,grid:0,tower:0};
+ // migrate old saves: a saved game replaces the whole places array, so newly-added default places (shops, shrines, clinic…) would otherwise never appear. Append any that are missing — non-destructive, keeps progress.
+ if(Array.isArray(G.places)){var _have={};G.places.forEach(function(p){if(p&&p.id)_have[p.id]=true;});_defPlaces.forEach(function(dp){if(dp&&dp.id&&!_have[dp.id])G.places.push(dp);});}
+ if(G.player&&G.player.favMeal==null)G.player.favMeal='curry'; if(G.player&&!Array.isArray(G.player.meals))G.player.meals=[];
+}catch(e){}}
 function resetGame(){try{localStorage.removeItem('vp_save');}catch(e){}location.reload();}
 
 let TIPN=0;
