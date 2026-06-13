@@ -497,14 +497,19 @@ function gmRunReal(label){
    if(ch.item)pickUp(ch.item);if(ch.scene)G.scene=ch.scene;G.node=ch.n;renderScene();renderTop();window.scrollTo(0,0);return true;}
  }return false;
 }
+// the Warden sometimes hands back options as objects ({label}/{text}/{option}/{action}) instead of plain strings... never render [object Object]
+function optLabel(o){ if(o==null)return ''; if(typeof o==='string')return o; if(typeof o==='object')return String(o.label||o.text||o.option||o.choice||o.title||o.action||o.do||''); return String(o); }
 // option clicked: a scripted door → take it; an improv nudge → feed it back to the Warden
-function gmOpt(i){var x=(G._gmOpts||[])[i];if(x==null)return;if(gmRunReal(x))return;var inp=document.getElementById('freeAct');if(inp){inp.value=x;doFreeAct();}}
+function gmOpt(i){var x=optLabel((G._gmOpts||[])[i]);if(!x)return;if(gmRunReal(x))return;var inp=document.getElementById('freeAct');if(inp){inp.value=x;doFreeAct();}}
 function doFreeAct(){
  var inp=document.getElementById('freeAct');var v=inp.value.trim();if(!v)return;
  var box=document.getElementById('gmReply');
  var _lv=v.toLowerCase();
  if(/\b(rest|sleep|lie down|lie back|nap|take a nap)\b/.test(_lv)){ box.innerHTML=gmWrap(esc(restAtHome())); inp.value=''; return; }
  if(/(steady myself|ground myself|\bsteady\b|\bground\b|hold the key|use the key|grip the key|clutch the key|squeeze the key)/.test(_lv)){ box.innerHTML=gmWrap(esc(groundSelf())); inp.value=''; return; }
+ if(/\b(eat|meal|cook|dinner|breakfast|lunch|have something to eat|grab food|make food|feed myself|hungry)\b/.test(_lv)){ if(typeof eatMeal==='function'){box.innerHTML=gmWrap(esc(eatMeal(v)));}else{openV('phone');if(typeof phFood==='function')phFood();} inp.value=''; return; }
+ if(/\b(news|headlines|the feed|what'?s happening|check the news|read the news)\b/.test(_lv)){ openV('phone'); if(typeof phNews==='function')phNews(); inp.value=''; return; }
+ if(/\b(open (?:my |the )?phone|check (?:my )?phone|open the app|my phone)\b/.test(_lv)){ openV('phone'); if(typeof phHome==='function')phHome(); inp.value=''; return; }
  box.innerHTML=gmWrap('<span style="opacity:.55;font-style:italic">the Warden considers…</span>');
  var node=SCENES[G.scene]&&SCENES[G.scene][G.node];
  var scene=node&&node.t?node.t.join(' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,420):'';
@@ -518,7 +523,7 @@ function doFreeAct(){
    G._gmOpts=(j&&Array.isArray(j.options))?j.options.slice(0,3):[];
    var html=narr?gmWrap(esc(narr)):'';
    if(G._gmOpts.length){html+='<div style="margin-top:8px;display:flex;flex-direction:column;gap:6px">'+
-    G._gmOpts.map(function(o,i){return '<button class="choice" style="margin:0;text-align:left" onclick="gmOpt('+i+')">'+esc(o)+'</button>';}).join('')+'</div>';}
+    G._gmOpts.map(function(o,i){return '<button class="choice" style="margin:0;text-align:left" onclick="gmOpt('+i+')">'+esc(optLabel(o))+'</button>';}).filter(function(b,i){return optLabel(G._gmOpts[i]);}).join('')+'</div>';}
    box.innerHTML=html;inp.value='';
    if(j&&j.discovered&&String(j.discovered).trim())addDiscovery(String(j.discovered).trim(),'scene');
    if(j&&j.archive&&String(j.archive).trim())vpArchiveBlock(String(j.archive).trim());
@@ -551,6 +556,12 @@ function gmAct(a,box){
  } else if(kind==='share'||kind==='contact'){ var sid=resolveContactId(tgt); var sc=sid&&G.contacts[sid];
   if(sc){shareContact(sid); if(box)box.innerHTML+=gmWrap('You exchange contacts. <b>'+esc(sc.name)+'</b> is in your phone now.'); gameToast('✦ New contact: '+sc.name);} }
  else if(kind==='status'){ var did=resolveContactId(tgt); var dc=did&&G.contacts[did]; if(dc){ applyNpcEvent(did,{kind:'status',value:(a.value||a.text||'')},dc); if(box&&dc.status==='dead')box.innerHTML+=gmWrap('<b>'+esc(dc.name)+'</b> is gone. There will be no reply from that number again.'); } }
+ // the Warden can also just DO an everyday thing Rei reached for in free text, instead of narrating around it
+ else if(kind==='rest'||kind==='sleep'){ if(typeof restAtHome==='function'&&box)box.innerHTML+=gmWrap(esc(restAtHome())); }
+ else if(kind==='eat'||kind==='meal'||kind==='food'){ if(typeof eatMeal==='function'&&box)box.innerHTML+=gmWrap(esc(eatMeal(tgt||a.value||''))); else if(typeof phFood==='function'){openV('phone');phFood();} }
+ else if(kind==='news'){ openV('phone'); if(typeof phNews==='function')phNews(); gameToast('📰 The day\'s noise'); }
+ else if(kind==='app'||kind==='phone'||kind==='open_app'){ openV('phone'); if(typeof phHome==='function')phHome(); }
+ else if(kind==='ground'||kind==='steady'){ if(typeof groundSelf==='function'&&box)box.innerHTML+=gmWrap(esc(groundSelf())); }
 }
 function shareContact(id){var c=G.contacts[id];if(!c)return;c.known=true;c.shares=true;if(typeof renderTabbar==='function')renderTabbar(PHTAB);if(typeof saveG==='function')saveG();}
 function renderTop(){
@@ -1712,7 +1723,7 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  linkifyNames(rb);
  var cw=document.getElementById('readChoices');
  var h='<div style="display:flex;gap:6px;width:100%;margin-bottom:7px"><input id="pci" placeholder="Do something, or say it in &quot;quotes&quot;…" style="flex:1;background:#15110a;border:1px solid var(--bdr);border-radius:8px;padding:9px 11px;color:var(--text);font-size:16px" onkeydown="if(event.key===\'Enter\')personAct(\''+id+'\')"><button class="choice" style="margin:0;width:auto" onclick="personAct(\''+id+'\')">Do ›</button></div>';
- (G._personOpts||[]).forEach(function(o,i){ h+='<button class="choice" style="margin:0 0 6px;text-align:left" onclick="personOpt(\''+id+'\','+i+')">'+esc(o)+'</button>'; });
+ (G._personOpts||[]).forEach(function(o,i){ var _ol=optLabel(o); if(!_ol)return; h+='<button class="choice" style="margin:0 0 6px;text-align:left" onclick="personOpt(\''+id+'\','+i+')">'+esc(_ol)+'</button>'; });
  if(G.party&&G.party.indexOf(id)>=0){
    if(c._wantsLeave){ h+='<div class="sub" style="color:#c8a24a;margin:8px 0 4px">'+esc(c.name)+' is about to head off on their own.</div>';
      h+='<button class="choice" style="margin:0 0 6px" onclick="argueStay(\''+id+'\')">Argue... ask '+esc(c.name)+' to stay with you</button>';
@@ -1727,7 +1738,7 @@ function personScene(id){ var c=G.contacts[id]; if(!c)return; window._personChat
  cw.innerHTML=h;
  rb.scrollTop=rb.scrollHeight;
 }
-function personOpt(id,i){ var x=(G._personOpts||[])[i]; if(x==null)return; var inp=document.getElementById('pci'); if(inp)inp.value=x; personAct(id); }
+function personOpt(id,i){ var x=optLabel((G._personOpts||[])[i]); if(!x)return; var inp=document.getElementById('pci'); if(inp)inp.value=x; personAct(id); }
 function personGo(id){ window._personChat=null; _chan='line'; G._personOpts=[]; if(typeof openV==='function')openV('phone'); if(typeof phMap==='function')phMap(); }
 function personAct(id){ var inp=document.getElementById('pci'); if(!inp)return; var t=inp.value.trim(); if(!t)return; var c=G.contacts[id]; if(!c)return;
  c.history.push(['me',t,stampNow()]); inp.value=''; personScene(id);
@@ -1755,6 +1766,10 @@ function leavePerson(){ var pid=_curPlace(); window._personChat=null; _chan='lin
 function _renderConvo(id){ var c=G.contacts[id]; if(c)c._lastAbs=G.day*1440+G.min; if(_personActive(id)){ personScene(id); } else if(_chatOpen(id)){ phChat(id); } else { if(c)c._unread=(c._unread||0)+1; if(typeof renderTabbar==='function')renderTabbar(PHTAB); gameToast('✉ '+(c?c.name:'Someone')+' replied'); } }
 function npcReply(id){const c=G.contacts[id];
  if(!npcReachable(c))return;/* dead/gone: no AI call, no reply */
+ // GIN: the line just rings out. Whatever is wearing his body lets the messages pile up, and only answers on Rei's 20th.
+ if(id==='gin'){ var _giCount=c.history.filter(function(m){return m[0]==='me';}).length;
+  if(_giCount<20){ if(typeof saveG==='function')saveG(); return; }/* no reply, no toast — the silence is the point */
+  if(!c._ginAnswered){ c._ginAnswered=true; c.history.push(['sys','The line picks up. Twenty messages into the silence, something on Gin\'s end finally moves.']); } }
  var msgs=[];for(var i=c.history.length-1;i>=0;i--){if(c.history[i][0]==='sys')continue;if(c.history[i][0]==='me')msgs.unshift(c.history[i][1].replace(/<[^>]+>/g,''));else break;}
  if(!msgs.length)return;
  var prompt=msgs.join('\n');
