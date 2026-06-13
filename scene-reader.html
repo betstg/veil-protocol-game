@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veil Protocol · Scene Reader</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Crimson+Pro:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#C9A84C;--dim:#8a7f73}
+*{box-sizing:border-box}
+body{margin:0;background:#100c09;color:#e7ddcb;font-family:'Crimson Pro',Georgia,serif;line-height:1.62;background-image:radial-gradient(ellipse at 50% -8%,rgba(139,0,0,.14),transparent 60%)}
+.wrap{max-width:760px;margin:0 auto;padding:40px 22px 90px}
+h1{font-family:'Cinzel',serif;font-weight:800;letter-spacing:2px;text-align:center;font-size:30px;margin:4px 0 2px}
+.sub{text-align:center;color:var(--dim);font-size:13px;margin:0 0 8px;font-family:'Courier New',monospace;letter-spacing:1px}
+.toc{text-align:center;margin:14px 0 26px;font-family:'Courier New',monospace;font-size:12px}
+.toc a{color:var(--gold);text-decoration:none;margin:0 7px;white-space:nowrap}
+.road{margin:38px 0 0}
+.road-h{font-family:'Cinzel',serif;color:var(--gold);font-size:20px;letter-spacing:2px;border-bottom:1px solid #3a2c24;padding-bottom:6px;text-transform:uppercase}
+.node{margin:20px 0 0;padding:0 0 0 14px;border-left:2px solid #2a2018}
+.node-h{font-family:'Courier New',monospace;font-size:10.5px;letter-spacing:2px;color:#6f655a;text-transform:uppercase;margin-bottom:6px}
+.node-img{color:#7c6f5e;font-style:italic;font-size:12.5px;margin-bottom:6px}
+.node p{margin:8px 0;font-size:16.5px}
+.node em{color:#d9c79a}
+.choices{margin:12px 0 0;padding:10px 12px;background:#16110c;border:1px solid #2a2018;border-radius:8px}
+.choices .cl{font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;color:#6f655a;text-transform:uppercase;margin-bottom:5px}
+.choices li{font-size:14px;color:#c8bca9;margin:3px 0;list-style:none}
+.choices li::before{content:'› ';color:var(--gold)}
+.empty{color:#b65a4c;font-style:italic}
+</style></head>
+<body>
+<div class="wrap">
+ <h1>Veil Protocol · Scene Reader</h1>
+ <div class="sub">A read-only view of every authored scene, in order. Refresh after edits.</div>
+ <div class="toc" id="toc"></div>
+ <div id="out"></div>
+</div>
+<script>window.VP={scenes:{}};</script>
+<script src="content/scenes/chapter1.js" onerror="document.getElementById('out').innerHTML='<p class=&quot;empty&quot;>Could not load content/scenes/chapter1.js — open this file from inside the veil-protocol-game folder.</p>'"></script>
+<script>
+(function(){
+ var ROADLABEL={opening:'Opening (prologue)',itsuki:'The Itsuki / Kuroda road',cvd:'The CVD road',grid:'The Grid road',look:'The long walk',power:'The forbidden gift'};
+ var out=document.getElementById('out'), toc=document.getElementById('toc');
+ var scenes=(window.VP&&window.VP.scenes)||{};
+ var keys=Object.keys(scenes); if(!keys.length){out.innerHTML='<p class="empty">No scenes found.</p>';return;}
+ // opening first, then the rest in a sensible order
+ var order=['opening','itsuki','cvd','grid','look','power'];
+ keys.sort(function(a,b){var ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib);});
+ function esc(s){return String(s).replace(/[&<>]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+ function para(x){ x=String(x); return /^\s*</.test(x)?x:'<p>'+esc(x)+'</p>'; }
+ keys.forEach(function(k){
+  var arr=scenes[k]; if(!Array.isArray(arr))return;
+  var id='road-'+k;
+  toc.innerHTML+='<a href="#'+id+'">'+(ROADLABEL[k]||k)+'</a>';
+  var h='<div class="road" id="'+id+'"><div class="road-h">'+(ROADLABEL[k]||k)+'</div>';
+  arr.forEach(function(node,i){
+   h+='<div class="node"><div class="node-h">'+k+' · scene '+i+'</div>';
+   if(node.img)h+='<div class="node-img">['+esc(node.img)+']</div>';
+   if(node.ent&&node.ent.name)h+='<div class="node-img">⚔ encounter: '+esc(node.ent.name)+'</div>';
+   (node.t||[]).forEach(function(x){h+=para(x);});
+   if(node.c&&node.c.length){ h+='<div class="choices"><div class="cl">Choices</div><ul>'; node.c.forEach(function(c){ h+='<li>'+esc(String(c.x||'').replace(/<[^>]+>/g,''))+'</li>'; }); h+='</ul></div>'; }
+   h+='</div>';
+  });
+  h+='</div>'; out.innerHTML+=h;
+ });
+})();
+</script>
+</body></html>
