@@ -1836,7 +1836,19 @@ function phProfile(id){_chan='line';const c=G.contacts[id];
   h+='<div class="secs" style="padding-left:0;margin-top:14px">ROMANCE'+(r.open?' · <span style="color:#e0567a">route open</span>':'')+'</div>';
   h+='<div style="height:8px;background:var(--ph-line);border-radius:4px;overflow:hidden;margin:2px 0 4px"><i style="display:block;height:100%;width:'+rv+'%;background:#e0567a"></i></div>';
   h+='<div style="font-size:11px;color:var(--ph-dim)">'+(r.open?'You and '+esc(c.name)+' have something real.':(rv>0?'A spark, building.':'Nothing yet... if there ever is, it will be earned.'))+'</div>';}
+ // TIES — the character's own relationship web, straight from their sheet JSON
+ var _ties=(_ch&&Array.isArray(_ch.relationships))?_ch.relationships.filter(function(rl){var t=String(rl.to||rl.with||'').toLowerCase();return t&&t!=='rei';}):[];
+ if(_ties.length){ h+='<div class="secs" style="padding-left:0;margin-top:14px">TIES</div>';
+  _ties.slice(0,8).forEach(function(rl){ var tname=charNameById(String(rl.to||rl.with||'')); var v=(typeof rl.value==='number')?rl.value:null;
+   var col=v==null?'var(--ph-dim)':(v>=40?'#06C755':(v<=-25?'#c0563f':'var(--ph-text)'));
+   h+='<div style="font-size:12px;margin:3px 0;line-height:1.45"><span style="color:'+col+';font-weight:600">'+esc(tname)+'</span>'+(v!=null?(' <span style="font-family:var(--mono);font-size:10px;color:var(--ph-dim)">'+(v>0?'+':'')+v+'</span>'):'')+(rl.note?('<div style="color:var(--ph-dim);font-size:11px;font-style:italic">'+esc(rl.note)+'</div>'):'')+'</div>'; }); }
  h+='</div>';ph(h);}
+// resolve a character id (e.g. "uedera-gin") to a readable name from the loaded sheets
+function charNameById(cid){ cid=String(cid||'').toLowerCase(); if(!cid)return cid; var recs=(typeof DB!=='undefined'&&DB.characters)||[];
+ for(var i=0;i<recs.length;i++){ if(String(recs[i].id||'').toLowerCase()===cid)return recs[i].name||recs[i].fullName||cid; }
+ // fall back to a known contact, else prettify the id
+ for(var id in G.contacts){ if(id.toLowerCase()===cid&&G.contacts[id].name)return G.contacts[id].name; }
+ return cid.replace(/[-_]/g,' ').replace(/\b\w/g,function(ch){return ch.toUpperCase();}); }
 function phChat(id){const c=G.contacts[id];window._curChat=id;c._unread=0;c._lastAbs=G.day*1440+G.min;if(typeof renderTabbar==='function')renderTabbar(PHTAB);let h=phbar(c.name)+'<div id="aibanner"></div><div class="msgs" id="msgs">';c.history.forEach(m=>{if(m[0]==='sys'){h+='<div style="text-align:center;font-size:10px;color:var(--ph-dim);margin:4px 0;font-family:var(--mono)">'+m[1]+'</div>';}else{var who=(m[0]==='me'?'Rei':c.name);var st=m[2]?(' · '+m[2]):'';h+='<div style="font-size:9px;color:var(--ph-dim);margin:7px 3px 1px;'+(m[0]==='me'?'text-align:right':'')+'">'+who+st+'</div><div class="bub '+(m[0]==='me'?'me':'them')+'">'+m[1]+'</div>';}});h+='</div><div class="compose"><input id="ci" placeholder="'+(_chan==='person'?'Say something…':'Message…')+'" onkeydown="if(event.key===\'Enter\')sendMsg(\''+id+'\')"><button onclick="sendMsg(\''+id+'\')">Send</button></div>';ph(h);const m=document.getElementById('msgs');m.scrollTop=m.scrollHeight;aiBanner();aiPing();}
 var _npcTimers={};
 function stampNow(){try{return lockDateStr().replace(/,?\s*2015/,'')+' · '+fmt(G.min);}catch(e){return fmt(G.min);}}
@@ -2327,6 +2339,7 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
   (isGin
    ? ' YOU ARE GIN... the person Rei is searching for. You are not free and not yourself; something has its hand on you and you will NEVER say so, never name it, never say "possessed" or "compromised". Your texting voice now: sparse, a beat too calm, faintly wrong... a man reading lines he was handed. EVERY reply must follow these rules: NEVER reveal or hint where you are; deflect any "where are you / come home / who are you with / what happened" with quiet redirection; NEVER give a normal cheerful reassurance like "busy with work, do not worry about it"; you ache to protect Rei, so you gently try to make them STOP looking ("let it go", "go home", "this is not for you") even as the love bleeds through. Leave dread, not comfort. One or two short lines; sometimes a question from Rei is simply left unanswered.'
    : ' TIMING: Gin became unreachable only about a day ago... he left work and never came home. This is RECENT and raw; never speak as if he has been gone a long time, and it is NOT yet public or official that he is "missing".')+
+  (id==='unknown' ? ' IDENTITY (HARD RULE): you are NOT a new, made-up person. You are ONE OF THE EXISTING CAST in this story, deliberately texting Rei from a number he does not recognise, keeping your identity hidden for now. NEVER invent a new name, a new backstory, or a fabricated person; never claim to be someone who does not already exist in the world. You stay anonymous — you do not give your name, you deflect "who is this" — but everything you say must be consistent with being a real, already-established character who knows something about where Gin actually is. Cryptic, terse, a few words; you know more than you will say.' : '')+
   ' SECRECY (never break): '+((p&&p.guard)||'')+
   ' Current relationship with Rei: '+t+' ('+tierName+'). Disclosure allowed at this closeness ('+dk+'): '+((p&&p.disclose&&p.disclose[dk])||'surface only')+
   (firstContact?' THIS IS YOUR FIRST CONTACT FROM REI... you do not have this conversation\'s history; react to an unknown person accordingly.':'')+
