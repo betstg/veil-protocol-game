@@ -792,10 +792,10 @@ function relBar(id,name){
  h+='</div>'; return h;
 }
 const TIPS={
- Health:"Your body. Injury and overspent power drain it; food, rest and Mend restore it. At zero you go down.",
- Stability:"Your nerve in the moment. Each power spends it; empty, your rank dice fall away. Rest restores it.",
- Madness:"The long toll of touching the veil. Only normalcy... a drink, sleep, painting with Itsuki... brings it down.",
- Veil:"How thin the membrane is around you. Rises with your power and open paths; thinner = bigger things notice you.",
+ Health:"Your body. Only physical harm cuts it... a ridden host's fists, a fall, a blade; food, rest and Mend restore it. At zero you go down.",
+ Stability:"Your anchor against the veil... not health. Using power and raw dread spend it; the lower it falls the more the dead notice and press, and once it hits zero you are wide open... and that pressure pours straight into Madness. Ground (hold Gin's key) or rest to seal it back up.",
+ Madness:"The deep, sticky corruption of touching the other side. It climbs from overused power, ability backlash, horror, and from veil-pressure breaking through spent Stability... and it barely recedes. Fill it and your mind gives way: something steps in. Only normalcy... a drink, sleep, painting with Itsuki... eases it.",
+ Veil:"How thin the membrane is around you. Rises with your power and a crowded fight; thinner = bigger things notice you, and the Font can reach you. Rest mends it; the Axis closes it.",
  Body:"Run, climb, take a hit, trade punches.",Wits:"Reason, react, connect clues fast.",Perception:"Notice the tell, the wrong detail, the tail.",
  Composure:"Hold steady under fear; resist Madness.",Charisma:"Charm, persuade, intimidate, read people.",Resolve:"Push past your limit; resist possession.",
  Investigation:"Work a case, follow procedure.",Social:"Talk, persuade, blend in.",Stealth:"Move unseen, tail, not be noticed.",Combat:"Fight... fists or a weapon.","Symbol Work":"Draw seals, set wards, read glyphs.",Research:"Dig records, archives, the net."
@@ -2233,9 +2233,14 @@ function enemyHit(f,mult){ var e=f.e,p=G.player; mult=mult||1; var base=(f.eatk!
   if(s.hp[0]<=0){ f.log.push('It turns on '+esc(c.name)+'... and they go down.'); compDown(pid); if(typeof renderTop==='function')renderTop(); }
   else f.log.push('It lashes at '+esc(c.name)+'... '+eatk+' to them.');
   return false; }
- if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will... Madness rises.');}
- else{var dmg=eatk;if(p.stability>=dmg){p.stability-=dmg;f.log.push('It strikes at your nerve... −'+dmg+' Stability.');}else{var over=dmg-p.stability;p.stability=0;p.hp[0]=Math.max(0,p.hp[0]-over);f.log.push('It gets past your guard... −'+over+' Health.');}p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1));}
- if(p.hp[0]<=0){fightEnd('down','You go down. (In the full build: rescued, or worse.)');return true;}
+ // a thing wearing a body wounds your BODY; a veil-thing presses your ANCHOR (Stability), and once that breaks it pours into your mind (Madness) — never straight into flesh
+ var phys=/^(ridden|vessel|medium)$/.test(String(e.type||''));
+ if(phys){ p.hp[0]=Math.max(0,p.hp[0]-eatk); f.log.push('It strikes at your body... −'+eatk+' Health.'); p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1)); }
+ else { if(p.stability>=eatk){ p.stability-=eatk; f.log.push('It presses on your anchor... −'+eatk+' Stability.'); }
+  else { var over=eatk-p.stability; p.stability=0; p.madness=Math.min(100,p.madness+over); f.log.push('Your composure is gone... it pours straight in. +'+over+' Madness.'); }
+  p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1)); }
+ if(p.hp[0]<=0){fightEnd('down','Your body fails. You go down.');return true;}
+ if(p.stability<=0&&p.madness>=100){fightEnd('possessed','Your anchor is gone and your mind with it. Something steps into the empty room.');return true;}
  if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return true;}
  return false;
 }
