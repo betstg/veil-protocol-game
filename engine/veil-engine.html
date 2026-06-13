@@ -153,6 +153,7 @@
  .entcard .en{font-family:'Cinzel',serif;color:#e8a08c;font-size:14px}.entcard .er{font-family:var(--mono);font-size:10px;color:var(--dim);margin:2px 0 6px}
  .entcard .erow{display:flex;justify-content:space-between;font-size:12px;border-top:1px solid #2a2214;padding:3px 0}
  .cname{color:var(--gold);text-decoration:underline dotted;cursor:pointer}
+ .iname{color:#b89cc9;text-decoration:underline dotted;cursor:pointer}
  .drawer{background:#0c0a08;border-right:1px solid var(--bdr);width:290px;max-width:84%;height:100%;margin:0 auto 0 0;display:flex;flex-direction:column;overflow:auto;border-radius:0}
  .chaprow{border-left:3px solid var(--bdr);padding:8px 0 8px 12px;margin:9px 0}
  .chaprow.on{border-left-color:var(--gold);background:#15110c;border-radius:0 8px 8px 0}
@@ -391,7 +392,7 @@ function openCard(id){if(!G.contacts[id])return;openV('phone');phProfile(id);}
 function linkifyNames(el){if(!el)return;
  var names=[],byname={};
  for(var id in G.contacts){var c=G.contacts[id];if(!c.known||!c.name)continue;names.push(c.name);byname[c.name]=id;var first=c.name.split(/[\s\(\/]+/)[0];if(first&&first.length>2&&first!==c.name&&!byname[first]){names.push(first);byname[first]=id;}}
- if(!names.length)return;
+ if(!names.length){linkifyImages(el);return;}
  names.sort(function(a,b){return b.length-a.length;});
  var esc1=function(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');};
  var re;try{re=new RegExp('\\b('+names.map(esc1).join('|')+')\\b','g');}catch(e){return;}
@@ -399,7 +400,8 @@ function linkifyNames(el){if(!el)return;
  nodes.forEach(function(n){if(n.parentNode&&n.parentNode.className==='cname')return;var txt=n.nodeValue;re.lastIndex=0;if(!re.test(txt))return;re.lastIndex=0;var frag=document.createDocumentFragment();var last=0,m;
   while((m=re.exec(txt))){if(m.index>last)frag.appendChild(document.createTextNode(txt.slice(last,m.index)));var id=byname[m[0]];var c=G.contacts[id];var sp=document.createElement('span');sp.className='cname';sp.textContent=m[0];sp.onclick=(function(id,shared){return function(){if(shared)openCard(id);else showFace(id);};})(id,!!(c&&c.shares));frag.appendChild(sp);last=m.index+m[0].length;}
   if(last<txt.length)frag.appendChild(document.createTextNode(txt.slice(last)));n.parentNode.replaceChild(frag,n);
- });}
+ });
+ linkifyImages(el); /* then mark illustrated places, mediums, rooms */ }
 function showFace(id){var c=G.contacts[id];if(!c)return;var ch=(typeof charForContact==='function')?charForContact(c):null;
  var f=(ch&&ch.id)?('char_'+ch.id+'.png'):('char_'+id+'.png');
  var pm=ch&&ch.persona&&ch.persona.mind;var app=(pm&&pm.style)?pm.style:((ch&&ch.persona&&ch.persona.appearance)||c.bio||'Someone you have crossed paths with.');
@@ -409,6 +411,37 @@ function showFace(id){var c=G.contacts[id];if(!c)return;var ch=(typeof charForCo
  m.innerHTML='<div style="background:#1a140c;border:1px solid var(--bdr);border-radius:14px;max-width:300px;width:100%;overflow:hidden;box-shadow:0 16px 60px #000"><img src="images/'+f+'" onerror="this.style.display=\'none\'" style="width:100%;display:block"><div style="padding:14px">'+nameLine+'<div style="font-size:12.5px;color:var(--text);margin:8px 0;line-height:1.5">'+esc(app)+'</div><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px">'+foot+'<button class="btn" onclick="closeFace()" style="background:#2a2010">Close</button></div></div></div>';
  m.style.display='flex';}
 function closeFace(){var m=document.getElementById('faceModal');if(m)m.style.display='none';}
+// a generic image viewer for any illustrated thing mentioned in the prose (places, mediums, rooms...)
+function showImg(file,label,desc){ if(!file)return; var src='images/'+file+(/\.[a-z]+$/i.test(file)?'':'.png');
+ var m=document.getElementById('faceModal');if(!m){m=document.createElement('div');m.id='faceModal';m.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px';m.onclick=function(e){if(e.target===m)closeFace();};document.body.appendChild(m);}
+ m.innerHTML='<div style="background:#1a140c;border:1px solid var(--bdr);border-radius:14px;max-width:320px;width:100%;overflow:hidden;box-shadow:0 16px 60px #000"><img src="'+src+'" onerror="this.style.display=\'none\'" style="width:100%;display:block"><div style="padding:14px"><div style="font-family:Cinzel,serif;font-size:16px;color:var(--gold)">'+esc(label||'')+'</div>'+(desc?('<div style="font-size:12.5px;color:var(--text);margin:8px 0;line-height:1.5">'+esc(desc)+'</div>'):'')+'<div style="text-align:right;margin-top:8px"><button class="btn" onclick="closeFace()" style="background:#2a2010">Close</button></div></div></div>';
+ m.style.display='flex'; }
+// curated phrase -> image: every illustrated place, medium and room the prose might name
+var IMG_TERMS=[
+ ['Ōji overpass','place_underpass','The Ōji overpass'],['overpass','place_underpass','The Ōji overpass'],['underpass','place_underpass','The underpass'],
+ ['riverbank','place_riverside','The riverside'],['riverside','place_riverside','The riverside'],
+ ['the Gathering','place_gathering','The Gathering'],['Golden Gai','place_suzuran','Golden Gai'],['Suzuran','place_suzuran','The Suzuran'],
+ ['Inari shrine','place_shinto','Ōji Inari shrine'],['Inari','place_shinto','Ōji Inari shrine'],
+ ['freight yard','place_freightyard','The freight yard'],['freightyard','place_freightyard','The freight yard'],
+ ['crime scene','place_crimescene','The crime scene'],['arcade','place_arcade','The arcade'],
+ ['Kemuri','place_kemuri','Kemuri'],['Mikazuki','place_mikazuki','Mikazuki'],['Toraya','place_toraya','Toraya'],
+ ['Akebono','place_akebono','Akebono'],['mudang','place_mudang',"The mudang's place"],
+ ['cultivation room','cvdroom_the_cultivation_room','The CVD cultivation room'],['room of artifacts','cvdroom_room_of_artifacts','The room of artifacts'],['cattery','cvdroom_cattery','The CVD cattery'],
+ ['cat-medium','animal_cat','A cat-medium'],['crow-medium','animal_crow','A crow-medium'],['dog-medium','animal_dog','A dog-medium'],
+ ['snake-medium','animal_snake','A snake-medium'],['toad-medium','animal_toad','A toad-medium'],['rat-mediums','animal_rats','Rat-mediums']
+];
+var _IMGMAP=null,_IMGRE=null;
+function _imgIndex(){ if(_IMGMAP)return; _IMGMAP={}; var phr=[]; IMG_TERMS.forEach(function(t){ _IMGMAP[t[0].toLowerCase()]={file:t[1],label:t[2]}; phr.push(t[0]); });
+ phr.sort(function(a,b){return b.length-a.length;}); var esc1=function(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');};
+ try{_IMGRE=new RegExp('(?<![\\w-])('+phr.map(esc1).join('|')+')(?![\\w-])','gi');}catch(e){_IMGRE=null;} }
+// mark illustrated terms (not character names) clickable, opening their image
+function linkifyImages(el){ if(!el)return; _imgIndex(); if(!_IMGRE)return;
+ var tw=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);var nodes=[];while(tw.nextNode())nodes.push(tw.currentNode);
+ nodes.forEach(function(n){ var pc=n.parentNode&&n.parentNode.className; if(pc==='cname'||pc==='iname')return; var txt=n.nodeValue; _IMGRE.lastIndex=0; if(!_IMGRE.test(txt))return; _IMGRE.lastIndex=0;
+  var frag=document.createDocumentFragment();var last=0,m;
+  while((m=_IMGRE.exec(txt))){ var hit=_IMGMAP[m[0].toLowerCase()]; if(!hit){continue;} if(m.index>last)frag.appendChild(document.createTextNode(txt.slice(last,m.index)));
+   var sp=document.createElement('span');sp.className='iname';sp.textContent=m[0];sp.title='View image';sp.onclick=(function(h){return function(){showImg(h.file,h.label,'');};})(hit);frag.appendChild(sp);last=m.index+m[0].length; }
+  if(last<txt.length)frag.appendChild(document.createTextNode(txt.slice(last)));n.parentNode.replaceChild(frag,n); }); }
 function renderScene(){
  const node=SCENES[G.scene][G.node];
  let body=(node.img?imgPH(node.img):'')+node.t.map(function(x){return /^\s*</.test(x)?x:'<p>'+x+'</p>';}).join('');
