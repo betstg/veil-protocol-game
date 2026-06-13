@@ -612,12 +612,14 @@ function linkifyNames(el){if(!el)return;
  });
  linkifyImages(el); /* then mark illustrated places, mediums, rooms */ }
 function showFace(id){var c=G.contacts[id];if(!c)return;var ch=(typeof charForContact==='function')?charForContact(c):null;
- var f=(ch&&ch.id)?('char_'+ch.id+'.png'):('char_'+id+'.png');
+ var _ca=[]; if(ch&&ch.id)_ca.push('char_'+ch.id+'.png'); _ca.push('char_'+id+'.png'); var _AL={gin:'char_uedera-gin.png'}; if(_AL[id])_ca.push(_AL[id]); _ca=_ca.filter(function(x,i){return x&&_ca.indexOf(x)===i;});
+ var _ls='['+_ca.map(function(s){return "'images/"+s+"'";}).join(',')+']';
+ var _oe="var im=this,L="+_ls+",n=(+im.getAttribute('data-i')||0)+1;if(n<L.length){im.setAttribute('data-i',n);im.src=L[n];}else{im.style.display='none';}";
  var pm=ch&&ch.persona&&ch.persona.mind;var app=(pm&&pm.style)?pm.style:((ch&&ch.persona&&ch.persona.appearance)||c.bio||'Someone you have crossed paths with.');
  var nameLine=c.known?('<div style="font-family:Cinzel,serif;font-size:17px;color:var(--gold)">'+esc(c.name)+'</div>'):'<div style="font-size:13px;color:var(--dim);font-style:italic">You don\'t know their name yet.</div>';
  var foot=c.shares?('<button class="btn" onclick="closeFace();openCard(\''+id+'\')">Open contact ›</button>'):'<div style="font-size:11px;color:var(--dim);font-style:italic">You don\'t have their contact.</div>';
  var m=document.getElementById('faceModal');if(!m){m=document.createElement('div');m.id='faceModal';m.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px';m.onclick=function(e){if(e.target===m)closeFace();};document.body.appendChild(m);}
- m.innerHTML='<div style="background:#1a140c;border:1px solid var(--bdr);border-radius:14px;max-width:300px;width:100%;overflow:hidden;box-shadow:0 16px 60px #000"><img src="images/'+f+'" onerror="this.style.display=\'none\'" style="width:100%;display:block"><div style="padding:14px">'+nameLine+'<div style="font-size:12.5px;color:var(--text);margin:8px 0;line-height:1.5">'+esc(app)+'</div><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px">'+foot+'<button class="btn" onclick="closeFace()" style="background:#2a2010">Close</button></div></div></div>';
+ m.innerHTML='<div style="background:#1a140c;border:1px solid var(--bdr);border-radius:14px;max-width:300px;width:100%;overflow:hidden;box-shadow:0 16px 60px #000"><img src="images/'+_ca[0]+'" data-i="0" onerror="'+_oe+'" style="width:100%;display:block"><div style="padding:14px">'+nameLine+'<div style="font-size:12.5px;color:var(--text);margin:8px 0;line-height:1.5">'+esc(app)+'</div><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px">'+foot+'<button class="btn" onclick="closeFace()" style="background:#2a2010">Close</button></div></div></div>';
  m.style.display='flex';}
 function closeFace(){var m=document.getElementById('faceModal');if(m)m.style.display='none';}
 // a generic image viewer for any illustrated thing mentioned in the prose (places, mediums, rooms...)
