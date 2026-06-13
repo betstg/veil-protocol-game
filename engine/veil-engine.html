@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Veil Protocol... Play (v2.1 interface)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Crimson+Pro:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Crimson+Pro:ital@0;1&family=Jersey+10&family=Jersey+15&family=Special+Elite&display=swap" rel="stylesheet">
 <style>
  :root{
   --gold:#C9A84C;--bg:#0c0a08;--panel:#15110c;--panel2:#1a140c;--blood:#6e2b20;--red:#b65a4c;
@@ -74,7 +74,16 @@
  .skillrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid #211a10;font-size:13px}
  .skillrow.owned .nm{color:var(--green)}
  /* phone... LINE 2015 super-app */
- .phone{background:var(--ph-bg);border:1px solid #000;border-radius:26px;width:384px;max-width:100%;height:720px;max-height:88vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 0 0 8px #05070a,0 20px 60px #000;font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
+ .dev-stage{position:relative;display:flex;justify-content:center;padding:24px 8px}
+ .dev-fog{position:absolute;inset:-6%;pointer-events:none;z-index:0;overflow:hidden;border-radius:24px}
+ .dev-fog i{position:absolute;border-radius:50%;filter:blur(30px);opacity:.42;mix-blend-mode:screen}
+ .dev-fog .f1{width:240px;height:180px;left:-16px;top:8px;background:radial-gradient(circle,#3a5a78,transparent 70%);animation:dvf1 18s ease-in-out infinite}
+ .dev-fog .f2{width:260px;height:190px;right:-26px;bottom:2px;background:radial-gradient(circle,#5a4a6a,transparent 70%);animation:dvf2 22s ease-in-out infinite}
+ .dev-fog .f3{width:200px;height:150px;left:50%;top:-14px;background:radial-gradient(circle,#46606a,transparent 70%);animation:dvf3 26s ease-in-out infinite}
+ @keyframes dvf1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(32px,15px) scale(1.14)}}
+ @keyframes dvf2{0%,100%{transform:translate(0,0) scale(1.05)}50%{transform:translate(-28px,-16px) scale(.92)}}
+ @keyframes dvf3{0%,100%{transform:translate(-50%,0) scale(1)}50%{transform:translate(-44%,14px) scale(1.12)}}
+ .phone{background:var(--ph-bg);border:1px solid #000;border-radius:30px;width:384px;max-width:100%;height:720px;max-height:88vh;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 0 0 2px #2b2e34,0 0 0 11px #0b0d11,0 0 0 12px #3a3d44,0 1px 0 13px rgba(255,255,255,.06),0 28px 72px rgba(0,0,0,.85),0 4px 10px rgba(0,0,0,.6) inset;font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
  .ph-status{display:flex;justify-content:space-between;padding:7px 16px;font-size:11px;color:#fff;background:var(--ph-accent)}
  .ph-screen{flex:1;overflow:hidden;color:var(--ph-text);display:flex;flex-direction:column;min-height:0;background:var(--ph-bg)}
  .ph-bar{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--ph-line);background:#fff;flex-shrink:0}
@@ -184,9 +193,7 @@
  <button onclick="openChapters()" title="Journal · quests & chapters" style="background:none;border:none;color:var(--gold);font-size:18px;line-height:1;cursor:pointer;padding:0 10px 0 0">☰</button>
  <span><span class="lbl">DAY</span> <b id="t-day">1</b></span>
  <span><span class="lbl">TIME</span> <b id="t-time">07:50</b></span>
- <span><span class="lbl">HP</span> <b id="t-hp">10/10</b></span>
  <span><span class="lbl">STAB</span> <b id="t-stab">100%</b></span>
- <span class="xpwrap"><span class="lbl">XP</span> <b id="t-xp">4</b><span class="xpbar"><i id="t-xpbar" style="width:40%"></i></span></span>
  <span style="margin-left:auto"><span class="lbl">¥</span> <b id="t-money">38,400</b></span>
  <span id="t-party"></span>
 </div>
@@ -201,11 +208,13 @@
  <button class="dockbtn" onclick="openV('profile')"><span class="ic">▣</span>Profile</button>
  <button class="dockbtn" onclick="openV('abilities')"><span class="ic">◎</span>Abilities</button>
  <button class="dockbtn" onclick="openV('phone');phNotes()"><span class="ic">✎</span>Notes</button>
+ <button class="dockbtn hidden" id="dock-device" onclick="openV('device')"><span class="ic">🫙</span>Device</button>
  <button class="dockbtn hidden" id="dock-book" onclick="openV('book')"><span class="ic">▤</span>Gin's Book</button>
  <button class="dockbtn" onclick="openV('phone')"><span class="ic">▢</span>Phone</button>
 </div>
 
 <div class="overlay" id="ov-profile"><div class="sheet"><div class="sheet-h"><h2>Rei Uedera</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="profileBody"></div></div></div>
+<div class="overlay" id="ov-device" onclick="if(event.target===this){closeV();}"><div id="deviceBody" style="width:100%;display:flex;justify-content:center"></div></div>
 <div class="overlay" id="ov-abilities"><div class="sheet"><div class="sheet-h"><h2>Ability Wheel</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="abilBody"></div></div></div>
 <div class="overlay" id="ov-notepad"><div class="sheet"><div class="sheet-h"><h2>Notepad... Clues &amp; Notes</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b"><textarea id="noteInput" placeholder="Write a clue or a note…"></textarea><div style="margin:8px 0"><button class="btn" onclick="saveNote()">Save note</button></div><div id="noteList"></div></div></div></div>
 <div class="overlay" id="ov-book"><div class="sheet"><div class="sheet-h"><h2>Gin's Book</h2><button class="x" onclick="closeV()">✕</button></div><div class="sheet-b" id="bookBody"></div></div></div>
@@ -220,24 +229,24 @@
 /* =================== STATE =================== */
 const PATHS=['Clairsentience','Telepathy','Telekinesis','Psychometabolism','Psychokinesis','Teleportation'];
 const G = {
- day:1, min:3*60+47, xp:4, xpMax:10,
+ day:1, min:3*60+47, xp:4, xpMax:10, xpTotal:4,
  player:{
   name:'Rei Uedera', hp:[40,40], stability:100, madness:8, veil:12, money:38400, tickets:6, at:'Home', atId:'home', attack:0,
   rank:'D', registered:false, standing:{cvd:0,grid:0,tower:0}, companions:[], /* you present as a low Sensitive; doors open with standing, registration or an escort */
   attributes:{ Body:2, Wits:3, Perception:3, Composure:2, Charisma:2, Resolve:2 }, /* baseline: never below 2, even a brand-new character starts with floor points */
   humanSkills:{ Investigation:2, Social:2, Stealth:1, Combat:1, 'Symbol Work':1, Research:2 },
   paths:{
-   Clairsentience:{lvl:1, skills:[{n:'Object Read',cost:2,owned:true},{n:'Room Read',cost:2,owned:false},{n:'Residue Trace',cost:3,owned:false},{n:'Deep Read',cost:4,owned:false}]},
-   Telepathy:{lvl:0, skills:[{n:'Surface Thought',cost:2,owned:false},{n:'Suggestion',cost:3,owned:false}]},
-   Telekinesis:{lvl:0, skills:[{n:'Push',cost:2,owned:false},{n:'Grip',cost:3,owned:false}]},
-   Psychometabolism:{lvl:0, skills:[{n:'Mend',cost:2,owned:false},{n:'Endure',cost:3,owned:false}]},
-   Psychokinesis:{lvl:0, skills:[{n:'Spark',cost:3,owned:false},{n:'Burn',cost:4,owned:false}]},
-   Teleportation:{lvl:0, skills:[{n:'Blink',cost:4,owned:false},{n:'Silent Step',cost:5,owned:false}]},
+   Clairsentience:{lvl:1, skills:[{n:'Object Read',cost:32,owned:true},{n:'Room Read',cost:32,owned:false},{n:'Residue Trace',cost:48,owned:false},{n:'Deep Read',cost:64,owned:false}]},
+   Telepathy:{lvl:0, skills:[{n:'Surface Thought',cost:32,owned:false},{n:'Suggestion',cost:48,owned:false}]},
+   Telekinesis:{lvl:0, skills:[{n:'Push',cost:32,owned:false},{n:'Grip',cost:48,owned:false}]},
+   Psychometabolism:{lvl:0, skills:[{n:'Mend',cost:32,owned:false},{n:'Endure',cost:48,owned:false}]},
+   Psychokinesis:{lvl:0, skills:[{n:'Spark',cost:48,owned:false},{n:'Burn',cost:64,owned:false}]},
+   Teleportation:{lvl:0, skills:[{n:'Blink',cost:64,owned:false},{n:'Silent Step',cost:80,owned:false}]},
   },
   inventory:[
    {n:'Front-door key',e:'🔑',d:"Gin's. Cold, found on the floor outside the door. The brass is worn bright where his thumb always went. Closing your hand around it, until the metal warms, steadies you.",ground:true},
    {n:'Phone',e:'📱',d:'2015. Battered.'},
-   {n:'Police intern ID',e:'🪪',d:'Criminal investigation, non-veil cases.'},
+   {n:'Police intern ID',e:'🪪',d:'Your internship with the ordinary Metropolitan Police... criminal investigation, non-veil cases. It is also your cover and your line across: when a case turns supernatural, the intern who knows the words is the one who can call the CVD in and explain what the regular officers never could.'},
    {n:'Wallet',e:'👛',d:'¥38,400.'},
   ],
  },
@@ -511,19 +520,49 @@ function renderTop(){
  deriveStats();
  document.getElementById('t-day').textContent=G.day+' · '+wkday();
  document.getElementById('t-time').textContent=fmt(G.min);
- document.getElementById('t-hp').textContent=G.player.hp[0]+'/'+G.player.hp[1];
+ var _thp=document.getElementById('t-hp'); if(_thp)_thp.textContent=G.player.hp[0]+'/'+G.player.hp[1]; // HP now lives in the avatar dropdown
  document.getElementById('t-stab').textContent=G.player.stability+'%';
- document.getElementById('t-xp').textContent=G.xp;
- document.getElementById('t-xpbar').style.width=Math.min(100,100*G.xp/G.xpMax)+'%';
+ var _txp=document.getElementById('t-xp'); if(_txp)_txp.textContent=G.xp; // ability points + rank progress now live in the avatar dropdown
+ var _txb=document.getElementById('t-xpbar'); if(_txb)_txb.style.width=Math.min(100,100*G.xp/(G.xpMax||10))+'%';
  document.getElementById('t-money').textContent=G.player.money.toLocaleString();
  document.getElementById('ph-clock').textContent=fmt(G.min);
  var pv=document.getElementById('t-party');
- if(pv){ var ph='<span class="tav me" title="Rei">'+playerFace()+'</span>';
+ if(pv){ var ph=_avatarUnit('me',playerFace(),'Rei');
   (G.party||[]).filter(function(pid){return G.contacts[pid]&&npcReachable(G.contacts[pid]);}).slice(0,3).forEach(function(pid){
-   ph+='<span class="tav comp" title="'+esc(G.contacts[pid].name)+' is with you" onclick="openCard(\''+pid+'\')">'+avatarFace(pid)+'</span>'; });
-  pv.innerHTML=ph; }
+   ph+=_avatarUnit(pid,avatarFace(pid),G.contacts[pid].name); });
+  pv.innerHTML=ph+'<div id="party-dd" style="display:none;position:absolute;top:46px;right:8px;z-index:40;background:#15110a;border:1px solid #6d5a3a;border-radius:10px;padding:11px 12px;min-width:188px;box-shadow:0 10px 30px rgba(0,0,0,.7)"></div>'; }
+ var _dd=document.getElementById('dock-device'); if(_dd){ if(typeof deviceEarned==='function'&&deviceEarned())_dd.classList.remove('hidden'); else _dd.classList.add('hidden'); }
 }
 function playerFace(){return '<img src="images/char_rei.png" alt="Rei" style="width:100%;height:100%;object-fit:cover;display:block" onerror="this.outerHTML=&apos;R&apos;">';}
+// each avatar: tap the FACE to make them speak; tap the little ▾ for their stats
+function _avatarUnit(id,face,name){ return '<span style="position:relative;display:inline-flex;align-items:flex-start;margin-left:3px">'
+ +'<span class="tav '+(id==='me'?'me':'comp')+'" title="'+esc(name)+' — tap to speak" onclick="avatarTalk(\''+id+'\')">'+face+'</span>'
+ +'<button title="'+esc(name)+' — stats" onclick="togglePartyDD(\''+id+'\',event)" style="margin-left:-7px;width:15px;height:15px;border-radius:50%;border:1px solid #C9A84C;background:#15110a;color:#C9A84C;font-size:9px;line-height:13px;cursor:pointer;padding:0;flex:none">&#9662;</button></span>'; }
+function _bar(label,val,max,col){ var pc=Math.max(0,Math.min(100,Math.round(100*val/(max||100)))); return '<div style="font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--dim);display:flex;justify-content:space-between;margin:5px 0 1px"><span>'+label+'</span><span>'+Math.round(val)+(max?(' / '+max):'%')+'</span></div><div class="bar" style="height:7px"><i style="width:'+pc+'%;background:'+col+'"></i></div>'; }
+// the Veil reads as INTEGRITY here (full = whole, drains with ability use; the Axis mends it back to full)
+function _veilBar(){ var integ=Math.max(0,100-(G.player.veil||0)); return _bar('Veil integrity',integ,100,'#9a6ab6'); }
+function partyDDHtml(id){ if(id==='me'){ var p=G.player; var h='<div style="font-family:Cinzel,serif;color:var(--gold);font-size:13px">Rei &middot; '+(typeof rankName==='function'?rankName(p.rank):p.rank)+'</div>';
+   h+=_bar('Health',p.hp[0],p.hp[1],'#c0563f')+_bar('Madness',p.madness,100,'#b65a4c')+_veilBar();
+   // ability points to spend on the Wheel, and the lifetime climb toward the next rank
+   var nx=(typeof nextRank==='function')?nextRank(p.rank):null;
+   h+='<div style="font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--dim);display:flex;justify-content:space-between;margin:7px 0 1px"><span>ABILITY POINTS</span><span style="color:var(--gold)">'+G.xp+'</span></div>';
+   if(nx){ var need=RANK_XP[nx], prev=RANK_XP[p.rank]||0, cur=G.xpTotal||0, pc=Math.max(0,Math.min(100,Math.round(100*(cur-prev)/(need-prev))));
+     h+='<div style="font-family:var(--mono);font-size:9px;letter-spacing:1px;color:var(--dim);display:flex;justify-content:space-between;margin:5px 0 1px"><span>&rarr; '+rankName(nx)+'</span><span>'+cur+' / '+need+'</span></div><div class="bar" style="height:7px"><i style="width:'+pc+'%;background:#C9A84C"></i></div>'; }
+   else h+='<div style="font-size:10px;color:var(--dim);font-style:italic;margin-top:4px">the human ladder ends here</div>';
+   return h; }
+  var c=G.contacts[id]; if(!c)return ''; var s=compStats(id); var ch=(typeof charForContact==='function')?charForContact(c):null;
+  return '<div style="font-family:Cinzel,serif;color:var(--gold);font-size:13px">'+esc(c.name)+(ch&&ch.tier?(' &middot; '+esc(ch.tier)):'')+'</div>'
+   +_bar('Health',s.hp[0],s.hp[1],'#c0563f')+_bar('Madness',s.mad||0,100,'#b65a4c')+_veilBar()
+   +'<div style="margin-top:8px;text-align:center"><button class="btn" style="padding:3px 12px;font-size:11px" onclick="avatarTalk(\''+id+'\')">Speak ›</button></div>'; }
+function togglePartyDD(id,ev){ if(ev)ev.stopPropagation(); var dd=document.getElementById('party-dd'); if(!dd)return; if(dd.style.display==='block'&&dd._who===id){dd.style.display='none';return;} dd._who=id; dd.innerHTML=partyDDHtml(id); dd.style.display='block'; }
+document.addEventListener('click',function(e){ var dd=document.getElementById('party-dd'); if(dd&&dd.style.display==='block'&&!dd.contains(e.target)&&!(e.target.closest&&e.target.closest('#t-party')))dd.style.display='none'; });
+// tap the image: they say a short line to you, in their own voice
+function avatarTalk(id){ if(id==='me'){ if(typeof openV==='function')openV('profile'); return; } var c=G.contacts[id]; if(!c)return;
+ var ctx=(typeof knowledgeCtx==='function'?knowledgeCtx():'')+(typeof npcCtx==='function'?npcCtx(id,c):'')+' Rei just glanced at you while you travel together. Say ONE short, in-character line to him, unprompted. Keep it to a sentence.';
+ var said=function(t){ if(c.history)c.history.push(['them',esc(t),(typeof stampNow==='function')?stampNow():'']); if(typeof gameToast==='function')gameToast(esc(c.name)+': '+t,4200); if(typeof saveG==='function')saveG(); };
+ fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'npc',prompt:'(say one short line to Rei, unprompted)',context:ctx})})
+  .then(function(r){return r.json();}).then(function(j){ var t=(j&&j.text)?String(j.text).trim():''; said(t||'...'); })
+  .catch(function(){ said('...'); }); }
 function fmt(m){m=((m%1440)+1440)%1440;return String((m/60|0)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');}
 function dateStr(){const b=new Date(2015,7,27);b.setDate(b.getDate()+(G.day-1));return b.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'});}
 function fmtmin(m){m=((m%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');}
@@ -550,7 +589,40 @@ function tick(){
  if(G.sleepQueue&&G.sleepQueue.length){var nw=G.day*1440+G.min;for(var k=G.sleepQueue.length-1;k>=0;k--){if(G.sleepQueue[k].dueAbs<=nw){var q=G.sleepQueue.splice(k,1)[0];npcReply(q.id);}}}
  if(G.pendingFollowups&&G.pendingFollowups.length){var nf=G.day*1440+G.min;for(var fi=G.pendingFollowups.length-1;fi>=0;fi--){if(G.pendingFollowups[fi].dueAbs<=nf){var ff=G.pendingFollowups.splice(fi,1)[0];npcFollowup(ff.id,ff.note);}}}
 }
-function gainXP(n){G.xp+=n;renderTop();}
+/* ===== HUMAN RANK LADDER (named titles, not letters) — a story-long climb toward the Thirteen ===== */
+var RANK_ORDER=['0','E','D','C','B','A','S','SS','SSS'];
+var RANK_NAME={'0':'Null',E:'Sensitive',D:'Postulate',C:'Adept',B:'Ritualist',A:'Arbiter',S:'Vanguard',SS:'Guardian',SSS:'Singularity'};
+// lifetime XP needed to REACH each rank (tunable) — pitched so the full climb spans the whole story
+var RANK_XP={C:50,B:150,A:340,S:650,SS:1150,SSS:1900};
+// each rank reshapes the body and opens more capacity (one-time, on reaching)
+var RANK_HP   ={E:30,D:40,C:55,B:75,A:100,S:135,SS:180,SSS:240}; // max Health by rank
+var RANK_GRANT={C:30,B:50,A:80,S:120,SS:170,SSS:230};            // ability points granted on reaching (sum 680 > cost to unlock all)
+var RANK_VEILFLOOR={C:3,B:6,A:12,S:20,SS:30,SSS:42};             // higher rank thins the membrane just by being you
+function rankName(r){return RANK_NAME[r]||String(r||'');}
+function nextRank(r){var i=RANK_ORDER.indexOf(r);for(var j=i+1;j<RANK_ORDER.length;j++){if(RANK_XP[RANK_ORDER[j]]!=null)return RANK_ORDER[j];}return null;}
+function checkRankUp(){var p=G.player;if(!p)return;var g=0;while(g++<12){var nx=nextRank(p.rank);if(nx==null)break;if((G.xpTotal||0)>=RANK_XP[nx]){var oldNm=rankName(p.rank);p.rank=nx;rankUpAnnounce(nx,oldNm);}else break;}}
+function rankUpAnnounce(r,oldNm){ var p=G.player; var nm=rankName(r);
+ var grant=RANK_GRANT[r]||0; if(grant)G.xp+=grant; // a surge of ability points
+ if(RANK_HP[r]){ var newMax=20+(p.attributes.Body||0)*10+((RANK_HP[r]||40)-40); var delta=newMax-(p.hp[1]||40); if(delta>0)p.hp[0]=(p.hp[0]||0)+delta; } // gain the new body (deriveStats sets the max)
+ if(RANK_VEILFLOOR[r])p.veil=Math.max(p.veil||0,RANK_VEILFLOOR[r]); // passive thinning
+ p.madness=Math.max(0,(p.madness||0)-10); p.stability=Math.min(100,(p.stability||0)+15); // the strange settling
+ if(r==='SSS'){ if(!G.flags)G.flags={}; G.flags.knowsAxis=true; } // the hidden rank reveals at the top
+ if(typeof fxVeil==='function')fxVeil('light'); if(typeof renderTop==='function')renderTop(); if(typeof saveG==='function')saveG();
+ rankUpScene(nm,oldNm,grant,r==='SSS');
+}
+// a momentous, narrative beat (not a fleeting toast)
+function rankUpScene(nm,oldNm,grant,top){ var ov=document.createElement('div'); ov.id='ov-rankup';
+ ov.style.cssText='position:fixed;inset:0;z-index:99985;background:#070504ee;display:flex;align-items:center;justify-content:center;padding:24px;font-family:Georgia,serif';
+ var b='<div style="max-width:430px;width:100%;background:#14100b;border:1px solid var(--gold);border-radius:14px;padding:22px;box-shadow:0 18px 50px #000,0 0 40px rgba(201,168,76,.15)">';
+ b+='<div style="font-family:var(--mono);font-size:10px;letter-spacing:3px;color:var(--red);text-transform:uppercase">A change you cannot date</div>';
+ b+='<p style="color:#d8cdba;line-height:1.6;margin:12px 0 0;font-size:14.5px">Something has shifted in you, and you could not say when it began. The air leans differently around your hands; the membrane gives where it used to hold. You did not study for this. It simply arrived.</p>';
+ b+='<p style="color:#d8cdba;line-height:1.6;margin:11px 0 0;font-size:14.5px">The Directorate would no longer write <i>'+esc(oldNm||'your old title')+'</i> on your file. They would write: <b style="font-family:Cinzel,serif;color:var(--gold)">'+esc(nm)+'</b>.</p>';
+ if(grant)b+='<p style="color:#9ab07a;line-height:1.5;margin:11px 0 0;font-size:13px">A surge of understanding opens. <b>+'+grant+' ability points</b> for the Wheel, and your body holds more than it did.</p>';
+ if(top)b+='<p style="color:#caa0d6;line-height:1.6;margin:11px 0 0;font-size:13.5px">And for the first time you feel it: a rung above the top of every chart you have ever signed, left deliberately blank. The scale was built toward something. <b>The Axis.</b></p>';
+ b+='<div style="text-align:center;margin-top:16px"><button class="btn" onclick="var o=document.getElementById(\'ov-rankup\');if(o)o.parentNode.removeChild(o);">Go on ›</button></div></div>';
+ ov.innerHTML=b; document.body.appendChild(ov);
+}
+function gainXP(n){G.xp+=n;G.xpTotal=(G.xpTotal||0)+(n||0);checkRankUp();renderTop();}
 function questStep(id,i){const q=G.quests.find(x=>x.id===id);if(q&&q.steps[i]){q.steps[i].done=true;if(typeof questCheckDone==='function')questCheckDone(id);}}
 // a personal quest pays off with its CONSEQUENCE when its stages are all met (good) or its NPC is lost (bad)
 function resolveNpcQuest(id,good){ var q=(G.quests||[]).find(function(x){return x.id==='npc-'+id;}); if(!q||q.arch)return;
@@ -574,6 +646,7 @@ function fxVeil(type){ // 'light'=Architect, 'dark'=veil, 'shake'=contact
 /* =================== OVERLAYS =================== */
 function openV(name){closeV();
  if(name==='profile')renderProfile();
+ if(name==='device')renderDevice();
  if(name==='abilities')renderAbilities();
  if(name==='notepad')renderNotes();
  if(name==='book')renderBook();
@@ -629,7 +702,7 @@ function statBar(label,val,max,col,tip){
   (tip?'<div id="'+id+'" style="display:none;font-size:11px;color:var(--dim);font-style:italic;margin-top:3px">'+tip+'</div>':'')+'</div>';
 }
 function statCard(name,val,max,tip){const pct=Math.round(100*val/max);return '<div class="statcard" title="'+(tip||'').replace(/"/g,'')+'"><div class="sc-n">'+name+'</div><div class="sc-v">'+val+'<span class="sc-m"> / '+max+'</span></div><div class="sc-bar"><i style="width:'+pct+'%"></i></div></div>';}
-function deriveStats(){const b=G.player.attributes.Body;G.player.hp[1]=20+b*10;if(G.player.hp[0]>G.player.hp[1])G.player.hp[0]=G.player.hp[1];let best=0;for(const k in G.player.paths)best=Math.max(best,G.player.paths[k].lvl);G.player.attack=b+best;/* hidden */ if(typeof axisRecompute==='function')axisRecompute();}
+function deriveStats(){const b=G.player.attributes.Body;var rb=((typeof RANK_HP!=='undefined'&&RANK_HP[G.player.rank])?RANK_HP[G.player.rank]:40)-40;G.player.hp[1]=20+b*10+rb;if(G.player.hp[0]>G.player.hp[1])G.player.hp[0]=G.player.hp[1];let best=0;for(const k in G.player.paths)best=Math.max(best,G.player.paths[k].lvl);G.player.attack=b+best;/* hidden */ if(typeof axisRecompute==='function')axisRecompute();}
 function relTier(t){
  if(t<=-80)return'Mortal enemy'; if(t<=-60)return'Enemy'; if(t<=-40)return'Rival'; if(t<=-20)return'Adversary'; if(t<-5)return'Bad';
  if(t<=5)return'Acquaintance'; if(t<20)return'Good'; if(t<40)return'Friend'; if(t<60)return'Good friend'; if(t<80)return'Best friend'; return'Partner';
@@ -738,8 +811,12 @@ var AXIS_FRAG=[
  {k:'d_power',t:0,say:'You did all of this for power.',echo:'Wrong, and he feels the wrongness. Power was never the point. He recedes.'},
  {k:'d_sleep',t:0,say:"You're asleep, and I'm here to wake you.",echo:'He is not asleep. He never was. The mistake costs you.'}];
 function _axisOrder(){ return AXIS_FRAG.map(function(f,i){return i;}).sort(function(a,b){return _seed(a*7+3)-_seed(b*7+3);}); }
-function axisTalk(){ var a=axisRecompute(); if(a.close<5){gameToast('You are not close enough to reach him yet.');return;}
+function axisTalk(){ var a=axisRecompute();
+ // three or more abilities at level 5 open the way to him without the closeness gate (and lift the one-question limit)
+ var _l5=Object.keys(G.player.paths||{}).filter(function(k){return G.player.paths[k].lvl>=5;}).length; if(_l5>3){if(!G.flags)G.flags={};G.flags.axisUnlimited=true;}
+ if(a.close<5 && !(G.flags&&G.flags.axisUnlimited)){gameToast('You are not close enough to reach him yet.');return;}
  if(!G.flags)G.flags={}; G.flags.metAxis=true;
+ if(G.player.veil>0){ G.player.veil=0; if(typeof gameToast==='function')gameToast('The Axis closes the seam where you stand. The veil is whole again.'); if(typeof renderTop==='function')renderTop(); } // he mends the veil back to full
  if(G.flags&&G.flags.ending){gameToast('The story already found its ending.');return;}
  _chan='axis'; if(typeof closeV==='function')closeV();
  var rb=document.getElementById('readBody'); if(!rb){if(typeof renderScene==='function')renderScene();rb=document.getElementById('readBody');} if(!rb)return;
@@ -828,7 +905,13 @@ function renderProfile(){
   h+=axisMeter();
   h+=absorbedMeter();
   h+='<div class="sub">STANDING <span style="text-transform:none">· who opens their doors to you</span></div>';
-  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered · rank '+p.rank):('Unregistered · presents as rank '+p.rank))+'</span></div>';
+  var _rk=rankName(p.rank);
+  h+='<div class="row"><span class="k">Registration</span><span>'+(p.registered?('Registered &middot; '+_rk):('Unregistered &middot; presents as '+_rk))+'</span></div>';
+  var _nx=nextRank(p.rank);
+  if(_nx){ var _need=RANK_XP[_nx], _prev=RANK_XP[p.rank]||0, _cur=G.xpTotal||0, _pc=Math.max(0,Math.min(100,Math.round(100*(_cur-_prev)/(_need-_prev))));
+   h+='<div class="row"><span class="k">Toward '+rankName(_nx)+'</span><span>'+_cur+' / '+_need+' lifetime</span></div>';
+   h+='<div class="bar"><i style="width:'+_pc+'%;background:#C9A84C"></i></div>'; }
+  else { h+='<div class="row"><span class="k">Rank</span><span>the human ladder ends here</span></div>'; }
   var _st=p.standing||{cvd:0,grid:0,tower:0};
   h+='<div class="row"><span class="k">CVD · Grid · Tower</span><span>'+_st.cvd+' · '+_st.grid+' · '+_st.tower+'</span></div>';
   h+='<div class="sub">STEADY YOURSELF <span style="text-transform:none">· the veil presses; push back</span></div>';
@@ -841,6 +924,17 @@ function renderProfile(){
   h+='<div class="statgrid">';for(const k in p.humanSkills) h+=statCard(k,p.humanSkills[k],20,TIPS[k]);h+='</div>';
   h+='<div class="sub">ABILITY PATHS <span style="text-transform:none">· grow by use... open the Wheel</span></div>';
   for(const k of PATHS){const lv=p.paths[k].lvl;h+=statBar(k,lv,10,lv?'#8fae74':'#473a26');}
+  if(typeof riderActive==='function'&&riderActive()){ var po=G.possession;
+   h+='<div class="sub" style="color:#caa0d6;margin-top:14px">BORROWED POWER <span style="text-transform:none">· not learned — it leaves when the entity does</span></div>';
+   h+='<div style="border:1px solid #5a3a6a;border-radius:9px;background:#160e1a;padding:11px 12px">';
+   h+='<div style="font-family:Cinzel,serif;color:#caa0d6">'+esc(po.power.n)+' <span style="font-family:var(--mono);font-size:10px;color:var(--dim)">· from '+esc(po.name)+' · '+esc(po.register||'')+'</span></div>';
+   h+='<div style="font-size:12px;color:var(--text);margin:3px 0 7px">'+esc(po.power.d)+'. <b style="color:#caa0d6">Costs double Madness</b> to use, and goes with the entity when it leaves.</div>';
+   h+='<div style="font-size:10px;color:var(--dim);font-family:var(--mono)">YOUR CONTROL OF THE SEAT</div>';
+   h+='<div class="bar"><i style="width:'+Math.max(0,Math.min(100,po.control))+'%;background:'+(po.lean<0?'#b65a4c':'#8fae74')+'"></i></div>';
+   h+='<div style="font-size:11px;color:var(--dim);font-style:italic;margin-top:4px">'+(po.lean<0?'It pulls hard against you — a dark thing in your skin. If your control reaches zero, it acts on its own and your Madness spikes.':'It rides easy, and lends willingly. Even so, it leans on the seat over time.')+'</div>';
+   h+='<div style="margin-top:9px;display:flex;gap:8px;flex-wrap:wrap"><button class="choice" style="margin:0;width:auto" onclick="releaseRider(true)">↩ Let it go'+(deviceEarned()&&!(G.trap&&G.trap.spirit)?' (to the device)':'')+'</button></div>';
+   h+='</div>';
+  }
  } else {
   h+='<div class="sub">WALLET</div>';
   h+='<div class="row"><span class="k">Wallet</span><span>¥'+(G.player.money||0).toLocaleString()+' · '+(G.player.tickets||0)+' train ticket'+(((G.player.tickets||0)===1)?'':'s')+'</span></div>';
@@ -969,6 +1063,7 @@ function vpSeedBlocks(){
  vpAddBlock('lore','The Veil','The dead press against a thinning veil; practitioners (crossers) sense them. Using power costs Stability, raises Madness, thins the veil. It is Obon, the week the doors stand open.',{prio:7,src:'you'});
  vpAddBlock('lore','Operator ranks','0 Null, E Sensitive, D Postulate, C Adept, B Ritualist, A Arbiter, S Vanguard, SS Guardian, SSS Singularity. Rei presents as a low D.',{prio:6,src:'you'});
  vpAddBlock('lore','The CVD','The Civil Veil Directorate polices the veil: records, field ops, containment. Gin is a CVD field operative.',{prio:6,src:'you'});
+ vpAddBlock('lore','Rei is a police intern','Rei interns with the ordinary Metropolitan Police (criminal investigation, non-veil cases). It is his cover and his line to the other side: when a case turns supernatural, he is the one who can call the CVD in and explain what the regular officers cannot.',{prio:6,src:'you'});
 }
 function vpAddBlock(cat,title,body,opts){ if(!G.blocks)G.blocks=[]; opts=opts||{}; title=String(title||'').trim(); body=String(body||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim(); if(!body)return null;
  var k=(title||body).toLowerCase().slice(0,60);
@@ -1375,14 +1470,14 @@ function groundSelf(){
  if(!g){ var m0='You have nothing on you to ground with right now.'; gameToast(m0); return m0; }
  var now=G.day*1440+G.min;
  if(G.player.groundCdAbs&&now<G.player.groundCdAbs){ var w=G.player.groundCdAbs-now; var mc='The quiet of it has worn off for now... give it about '+w+' more minutes.'; gameToast(mc); return mc; }
- G.player.stability=Math.min(100,G.player.stability+8); G.player.madness=Math.max(0,G.player.madness-6); G.player.groundCdAbs=now+90; advance(10); _selfRefresh();
+ G.player.stability=Math.min(100,G.player.stability+8); G.player.madness=Math.max(0,G.player.madness-6); G.player.veil=Math.max(0,(G.player.veil||0)-4); G.player.groundCdAbs=now+90; advance(10); _selfRefresh();
  gameToast('\uD83E\uDDFF Steady. Stability +8 \u00b7 Madness -6');
  return 'You close your hand around the '+(g.n.toLowerCase().indexOf('key')>=0?'cold key until the brass warms':'object until it warms')+'. The noise behind your eyes drops a notch and the floor is the floor again. (Stability +8, Madness -6. Ten minutes pass.)';
 }
 function restAtHome(){
  if(G.player.at!=='Home'){ var mh='You can only properly rest at home. Get back to the apartment first.'; gameToast(mh); return mh; }
- G.player.stability=Math.min(100,G.player.stability+28); G.player.madness=Math.max(0,G.player.madness-14); G.player.hp[0]=Math.min(G.player.hp[1],G.player.hp[0]+10); advance(300); _selfRefresh();
- gameToast('\uD83D\uDE34 Rest. Stability +28 \u00b7 Madness -14 \u00b7 +10 HP');
+ G.player.stability=Math.min(100,G.player.stability+28); G.player.madness=Math.max(0,G.player.madness-14); G.player.hp[0]=Math.min(G.player.hp[1],G.player.hp[0]+10); G.player.veil=Math.max(0,(G.player.veil||0)-20); advance(300); _selfRefresh();
+ gameToast('\uD83D\uDE34 Rest. Stability +28 \u00b7 Madness -14 \u00b7 +10 HP \u00b7 veil mends');
  return 'You lie down in the two-room flat and let the city run without you a while. Sleep is thin, but it is sleep. (Stability +28, Madness -14, +10 HP. About five hours pass; now '+fmt(G.min)+'.)';
 }
 function foodArrived(pid,i){const p=G.places.find(x=>x.id===pid);const it=p.food[i];const hp=G.player.hp;hp[0]=Math.min(hp[1],hp[0]+it.heal);const md=Math.ceil(it.heal*1.5);G.player.madness=Math.max(0,G.player.madness-md);renderTop();const viewing=document.getElementById('ov-phone')&&document.getElementById('ov-phone').classList.contains('show');if(viewing){ph(phbar('Delivery')+'<div class="ph-body"><p style="color:var(--ph-text)">The rider reaches you at <b>'+(G.player.at||'you')+'</b>. You eat the <b>'+it.n+'</b>. '+it.desc+'</p><div class="notif" style="border-left-color:#06C755"><b style="color:#06C755">Health +'+it.heal+'</b> · <b style="color:#8fae74">Madness −'+md+'</b><br><span style="color:var(--ph-dim);font-size:11.5px">A body fed argues back against the veil.</span></div></div>');}else{gameToast('🛵 Your '+it.n+' arrived (+'+it.heal+' HP).');}}
@@ -1741,7 +1836,7 @@ function avatarFace(id){var c=G.contacts[id];if(!c)return '?';var ini=(c.name?c.
  var f=(ch&&ch.portrait)?ch.portrait:((ch&&ch.id)?('char_'+ch.id+'.png'):('char_'+id+'.png'));
  // try the character portrait; on a missing file fall back to the coloured initial
  return '<img src="images/'+f+'" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block" onerror="this.outerHTML=&apos;'+ini.replace(/'/g,'')+'&apos;">';}
-function gameToast(msg){var t=document.getElementById('gtoast');if(!t){t=document.createElement('div');t.id='gtoast';t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2a1a14;color:#f0d9c8;border:1px solid var(--blood,#6e2b20);padding:11px 18px;border-radius:8px;font-family:Georgia,serif;font-size:14px;z-index:99999;box-shadow:0 4px 22px rgba(0,0,0,.55);max-width:82%;text-align:center';document.body.appendChild(t);}t.textContent=msg;t.style.transition='';t.style.opacity='1';clearTimeout(window._gt);window._gt=setTimeout(function(){t.style.transition='opacity .7s';t.style.opacity='0';},6500);}
+function gameToast(msg,ms){var t=document.getElementById('gtoast');if(!t){t=document.createElement('div');t.id='gtoast';t.style.cssText='position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2a1a14;color:#f0d9c8;border:1px solid var(--blood,#6e2b20);padding:11px 18px;border-radius:8px;font-family:Georgia,serif;font-size:14px;z-index:99999;box-shadow:0 4px 22px rgba(0,0,0,.55);max-width:82%;text-align:center';document.body.appendChild(t);}t.textContent=msg;t.style.transition='';t.style.opacity='1';clearTimeout(window._gt);window._gt=setTimeout(function(){t.style.transition='opacity .5s';t.style.opacity='0';},ms||3000);}
 function scheduleArrival(id,mins){var c=G.contacts[id];if(!c)return;if(c._withYou)return; // already here... do not re-summon
  mins=Math.max(1,Math.min(180,mins||20));if(!G.pendingArrivals)G.pendingArrivals=[];
  var due=(G.day*1440+G.min)+mins;
@@ -1904,7 +1999,8 @@ function npcCtx(id,c){var p=personaFor(c);var t=relValOf(id);var tierName=(typeo
   :(st==='work')?(' IN-WORLD TIME: it is '+fmt(G.min)+' and you are on the clock / at work right now... reply briefly and a little distracted; you cannot talk long.')
   :(st==='late')?(' IN-WORLD TIME: it is '+fmt(G.min)+', late at night... odd hour to be texting; answer accordingly.')
   :(st==='day'||st==='home')?(' IN-WORLD TIME: it is '+fmt(G.min)+'.'):'';
- var s='EMBODY THIS PERSON FULLY... you ARE '+c.name+(p&&p.age?', '+p.age:'')+', and you answer ONLY as they would. You are NOT a helpful assistant; you have your own mood, agenda, and limits.'+
+ var _ch=(typeof charForContact==='function')?charForContact(c):null; var _tags=(_ch&&_ch.tags&&_ch.tags.length)?(' QUICK TAGS (index of who this is, for your reference): '+_ch.tags.join(', ')+'.'):'';
+ var s='EMBODY THIS PERSON FULLY... you ARE '+c.name+(p&&p.age?', '+p.age:'')+', and you answer ONLY as they would. You are NOT a helpful assistant; you have your own mood, agenda, and limits.'+_tags+
   ' YOUR VOICE'+((p&&p.voice)?(' (copy this manner of speaking exactly): '+p.voice):(' (background on who you are... do NOT quote, paste, or read this back at Rei; speak naturally as this person, reacting to what Rei actually said): '+(c.bio||'')))+
   ' YOUR TRAITS: '+((p&&p.traits)||'')+'. What drives you: '+((p&&p.wants)||'')+'.'+
   ((p&&p.flaws)?(' YOUR FLAWS / EDGES (play them... do not sand them off): '+p.flaws+' Let these show: be dryly funny, flirty, boastful, prickly, evasive, or blunt as fits you. You are a flawed person, not a helpful assistant.'):'')+
@@ -1964,33 +2060,52 @@ function loadDB(){['entities','ranks','thirteen','factions','characters','places
 function entityById(id){return (DB.entities||ENTITIES_FALLBACK).find(function(e){return e.id===id;})||ENTITIES_FALLBACK.find(function(e){return e.id===id;});}
 function d6(){return 1+Math.floor(Math.random()*6);}
 function bestPath(){var b=0,n='...';for(var k in G.player.paths){if(G.player.paths[k].lvl>b){b=G.player.paths[k].lvl;n=k;}}return {lvl:b,name:n};}
-var GRADE_XP={E:2,D:3,C:5,B:8,A:12,top:20};var GRADE_MAD={E:1,D:1,C:2,B:2,A:3,top:4};
+var GRADE_XP={E:3,D:5,C:8,B:12,A:18,top:30};var GRADE_MAD={E:1,D:1,C:2,B:2,A:3,top:4};
 var FIGHT=null;
-function startFight(id,onWin){var e=entityById(id);if(!e)return;var max=e.hp||10;FIGHT={e:e,ehp:max,emax:max,over:false,result:null,won:false,onWin:onWin||null,log:[e.name+' is here. '+(e.grade==='top'?'You should not be here.':'It is watching you.')]};document.getElementById('ov-fight').classList.add('show');renderFight();}
+// entity combat scaled to the player's HP curve, so a same-grade fight stays a real fight at every rank
+var ENT_HP ={E:14,D:24,C:40,B:70,A:120,top:200};
+var ENT_ATK={E:5,D:8,C:13,B:20,A:30,top:46};
+var RANK_ATK={E:0,D:0,C:3,B:7,A:13,S:22,SS:34,SSS:50}; // your hits rise with rank to keep pace with tougher things
+// companions carry live stats too, hydrated from their sheet RANK the moment they're needed (kept light until then)
+var NPC_HP={'0':18,E:26,D:34,C:46,B:62,A:84,S:110,SS:150,SSS:200,X:240};
+function compStats(id){ var c=G.contacts[id]; if(!c)return null; if(!c.stats){ var ch=(typeof charForContact==='function')?charForContact(c):null; var t=(ch&&ch.tierLetter)||'D'; var mx=NPC_HP[t]||40; c.stats={hp:[mx,mx],mad:0}; } return c.stats; }
+function compDown(id){ var c=G.contacts[id]; if(!c)return; c.status='wounded'; c._recoverAt=(G.day*1440+G.min)+_rnd(1440,4320); if(G.party)G.party=G.party.filter(function(x){return x!==id;}); c._withYou=false; if(c.stats)c.stats.hp[0]=0; if(c.history)c.history.push(['sys','✚ '+esc(c.name)+' goes down, carried off to the CVD Health Center.']); }
+function startFight(id,onWin){var e=entityById(id);if(!e)return;
+ var max=(ENT_HP[e.grade]!=null?ENT_HP[e.grade]:(e.hp||10));
+ var atk=(ENT_ATK[e.grade]!=null?ENT_ATK[e.grade]:(e.atk||4));
+ FIGHT={e:e,ehp:max,emax:max,eatk:atk,over:false,result:null,won:false,onWin:onWin||null,log:[e.name+' is here. '+(e.grade==='top'?'You should not be here.':'It is watching you.')]};document.getElementById('ov-fight').classList.add('show');renderFight();}
 function closeFight(){document.getElementById('ov-fight').classList.remove('show');var f=FIGHT;if(f&&f.won&&f.onWin){var cb=f.onWin;f.onWin=null;cb();}}
 function renderFight(){var f=FIGHT;if(!f)return;var e=f.e;var pct=Math.max(0,Math.round(100*f.ehp/f.emax));TIPN=0;
  var h='<div style="border:1px solid #5a3a2a;border-radius:10px;background:#160e0b;padding:12px;margin-bottom:12px">';
  h+='<div style="font-family:Cinzel,serif;color:#e8a08c;font-size:15px">'+e.name+'</div>';
  h+='<div style="font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:1px;margin:2px 0 8px">'+e.type+' · '+e.register+' · grade '+e.grade.toUpperCase()+'</div>';
- h+='<div class="bar"><i style="width:'+pct+'%;background:#b65a4c"></i></div><div style="font-size:11px;color:var(--dim);margin-top:3px;font-family:var(--mono)">presence '+Math.max(0,f.ehp)+' / '+f.emax+'</div></div>';
+ var _t=presenceTier(f); var _pips=['◆','◆','◆'].map(function(c,ix){return '<span style="color:'+(ix<_t?'#b65a4c':'#3a2f22')+'">◆</span>';}).join(''); var _gap=gradeGap(e); var _gtxt=_gap>0?('+'+_gap+' above you'):(_gap<0?(_gap+' below you'):'your grade');
+ h+='<div class="bar"><i style="width:'+pct+'%;background:#b65a4c"></i></div><div style="font-size:11px;color:var(--dim);margin-top:3px;font-family:var(--mono);display:flex;justify-content:space-between"><span>HP '+Math.max(0,f.ehp)+' / '+f.emax+'</span><span>grade '+_gtxt+'</span></div>';
+ h+='<div style="font-size:11px;color:var(--dim);margin-top:4px;font-family:var(--mono)">presence '+_pips+(deviceEarned()?(' · catch '+catchChance(f)+'%'):'')+'</div></div>';
  var _pty=(G.party||[]).filter(function(p){return G.contacts[p]&&npcReachable(G.contacts[p]);});
- if(_pty.length){h+='<div class="sub" style="color:#9ab07a">FIGHTING WITH YOU</div><div style="font-size:12px;color:var(--text);margin:0 0 4px">'+_pty.map(function(p){var ch=(typeof charForContact==='function')?charForContact(G.contacts[p]):null;var tp=ch?topPath(ch):null;var dis=tp?(', '+esc(tp.name)+' L'+tp.level):'';return esc(G.contacts[p].name)+(ch&&ch.tierLetter?' <span style="color:var(--dim);font-family:var(--mono)">'+esc(ch.tier||'')+' ('+esc(ch.tierLetter)+')'+dis+(ch.rankNote&&/block/i.test(ch.rankNote)?' · BLOCKED':'')+'</span>':'');}).join(' · ')+'</div>';}
+ if(_pty.length){h+='<div class="sub" style="color:#9ab07a">FIGHTING WITH YOU</div>'+_pty.map(function(p){var c=G.contacts[p];var ch=(typeof charForContact==='function')?charForContact(c):null;var s=compStats(p);var hpc=Math.max(0,Math.min(100,Math.round(100*s.hp[0]/s.hp[1])));var mc=Math.max(0,Math.min(100,Math.round(s.mad||0)));return '<div style="margin:0 0 6px"><div style="font-size:12px;color:var(--text);display:flex;justify-content:space-between"><span>'+esc(c.name)+'</span><span style="font-family:var(--mono);color:var(--dim);font-size:10px">'+esc((ch&&ch.tier)||'')+(ch&&ch.rankNote&&/block/i.test(ch.rankNote)?' · BLOCKED':'')+'</span></div><div class="bar" style="height:6px;margin-top:2px"><i style="width:'+hpc+'%;background:#c0563f"></i></div><div class="bar" style="height:5px;margin-top:2px"><i style="width:'+mc+'%;background:#b65a4c"></i></div></div>';}).join('')+'<div style="font-size:9px;color:var(--dim);font-family:var(--mono);margin:-2px 0 6px">red · health, dim red · madness</div>';}
  h+='<div class="sub">YOU</div>';
  h+=statBar('Health',G.player.hp[0],G.player.hp[1],'#c0563f');
  h+=statBar('Stability',G.player.stability,100,'#8fae74');
  h+=statBar('Madness',G.player.madness,100,'#b65a4c');
  h+='<div style="background:#0e0b08;border:1px solid var(--bdr);border-radius:8px;padding:8px 11px;margin:10px 0;font-size:12.5px;min-height:64px;line-height:1.5">'+f.log.slice(-4).map(function(l){return '<div style="margin:2px 0;color:var(--text)">'+l+'</div>';}).join('')+'</div>';
- if(f.over){var col=(f.result==='banish'||f.result==='exorcise'||f.result==='freed'||f.result==='calmed')?'#8fae74':(f.result==='absorb'?'#9a6ab6':(f.result==='flee'?'var(--dim)':'#c0563f'));
-  h+='<div style="text-align:center;font-family:Cinzel,serif;color:'+col+';font-size:15px;margin:6px 0 10px">'+({banish:'Banished',exorcise:'Sent back',absorb:'Absorbed',freed:'You freed the host',calmed:'You talked it down',flee:'You broke away',down:'You went down',possessed:'It got a grip'}[f.result]||'')+'</div>';
+ if(f.over){var col=(f.result==='banish'||f.result==='exorcise'||f.result==='freed'||f.result==='calmed'||f.result==='caught')?'#8fae74':(f.result==='absorb'||f.result==='offered'?'#9a6ab6':(f.result==='flee'?'var(--dim)':'#c0563f'));
+  h+='<div style="text-align:center;font-family:Cinzel,serif;color:'+col+';font-size:15px;margin:6px 0 10px">'+({banish:'Banished',exorcise:'Sent back',absorb:'Absorbed',caught:'Caught in the device',offered:'You let it in',freed:'You freed the host',calmed:'You talked it down',flee:'You broke away',down:'You went down',possessed:'It got a grip'}[f.result]||'')+'</div>';
   h+='<div style="text-align:center"><button class="btn" onclick="closeFight()">Close</button></div>';
  } else { var bp=bestPath();
   h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">';
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'strike\')">⚔ Strike</button>';
-  h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'power\')">✦ Power'+(bp.lvl?' · '+bp.name:'... locked')+'</button>';
+  // choose WHICH skill to attack with — every trained path is its own option
+  var _trained=PATHS.filter(function(k){return G.player.paths[k]&&G.player.paths[k].lvl>0;});
+  if(!_trained.length){ h+='<button class="choice" style="margin:0;width:auto;opacity:.5" disabled>✦ Power · no path trained</button>'; }
+  else { _trained.forEach(function(pk){ h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'power\',\''+pk+'\')">✦ '+(LBL[pk]||pk)+' L'+G.player.paths[pk].lvl+'</button>'; }); }
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'exorcise\')">↩ Exorcise</button>';
   h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'absorb\')">◉ Absorb</button>';
+  if(riderActive()){ var _rp=G.possession.power; h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3;color:#caa0d6;border-color:#6a4a78" onclick="fightAct(\'borrow\')">✦✦ '+esc(_rp.n)+' · borrowed (2× Madness)</button>'; }
+  if(deviceEarned()&&_t<=1&&e.type!=='idea'){ var _full=!!(G.trap&&G.trap.spirit); h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3;color:#9ab0c9;border-color:#3a5a6d'+(_full?';opacity:.5':'')+'" onclick="fightAct(\'catch\')">🫙 Catch with the device · '+catchChance(f)+'%'+(_full?' · device full':'')+'</button>'; }
   h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3;color:#c9b07a;border-color:#6d5a3a" onclick="fightTalk()">💬 '+(f.e.type==='demon'?'Reach for what is under the voice':f.e.type==='idea'?'Try to reason with it':'Reach it with words')+'</button>';
-  h+='<button class="choice" style="margin:0;width:auto;grid-column:1/3" onclick="fightAct(\'flee\')">↘ Flee</button></div>';
+  h+='<button class="choice" style="margin:0;width:auto'+(e.type==='idea'?';opacity:.5':'')+'" '+(e.type==='idea'?'disabled title="No one to take the seat"':'')+' onclick="fightAct(\'offer\')">◇ Offer your body</button>';
+  h+='<button class="choice" style="margin:0;width:auto" onclick="fightAct(\'flee\')">↘ Flee</button></div>';
  }
  document.getElementById('fightBody').innerHTML=h;
 }
@@ -2020,8 +2135,243 @@ function combatVerb(id){var c=G.contacts[id];var ch=(typeof charForContact==='fu
  var tp=ch?topPath(ch):null;
  if(tp)return (ABILITY_VERB[tp.name]||('looses '+tp.name+' at it'))+' (L'+tp.level+')';
  return ['moves on it clean','strikes with trained force','cuts into its presence'][Math.floor(Math.random()*3)];}
-function partyStrike(f){ if(!G.party||!G.party.length)return; for(var i=0;i<G.party.length;i++){ var pid=G.party[i]; var c=G.contacts[pid]; if(!c||!npcReachable(c))continue; var dmg=combatPow(pid)+d6(); f.ehp-=dmg; f.log.push(esc(c.name)+' '+combatVerb(pid)+'... '+dmg+' to it.'); } }
-function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb'||result==='freed'||result==='calmed');if(text)FIGHT.log.push(text);
+function partyStrike(f){ if(!G.party||!G.party.length)return; var act=0;
+ for(var i=0;i<G.party.length;i++){ var pid=G.party[i]; var c=G.contacts[pid]; if(!c||!npcReachable(c))continue; act++; var dmg=combatPow(pid)+d6(); f.ehp-=dmg; f.log.push(esc(c.name)+' '+combatVerb(pid)+'... '+dmg+' to it.'); }
+ // many crossers working power in one place thins the veil; the stronger the foe and the longer it drags, the worse it gets
+ if(act>0){ f.rounds=(f.rounds||0)+1; var gap=Math.max(0,gradeGap(f.e));
+  var vc=Math.round((act+ (f.rounds>4?1:0)) * (1+gap) * 0.6); if(vc>0)G.player.veil=Math.min(100,G.player.veil+vc);
+  if(gap>=1){ G.player.madness=Math.min(100,G.player.madness+Math.ceil(act*gap/2)); }
+  if(act>=2 && (vc>=3||gap>=1)) f.log.push((act+1)+' of you tearing at it in one place... the veil thins (+'+vc+' Veil'+(gap>=1?', minds fray':'')+'). A long fight, four-on-one against something this strong, is its own kind of suicide.'); }
+}
+/* =================== RANK GAP · CATCH · DEVICE · POSSESSION =================== */
+var GRADE_IX={E:0,D:1,C:2,B:3,A:4,S:5,top:5,SS:6,SSS:7};
+function playerGradeIx(){return (GRADE_IX[(G.player&&G.player.rank)||'D']!=null)?GRADE_IX[G.player.rank]:1;}
+function gradeGap(e){return (GRADE_IX[e&&e.grade]||0)-playerGradeIx();}
+// register → moral lean (-100 evil … +100 good). A spirit's own lean overrides.
+var REGISTER_LEAN={Grief:-10,Fear:-40,Despair:-55,Rage:-60,Hunger:-75,Longing:10,Joy:25,Awe:20,Love:60,Hope:50,Duty:25,Wonder:30,Resolve:15,Sorrow:-15};
+function entityLean(e){ if(!e)return -20; return (e.lean!=null)?e.lean:((REGISTER_LEAN[e.register]!=null)?REGISTER_LEAN[e.register]:-20); }
+function leanIsGood(l){return l>=30;} // "green" — safe to purify / reincarnate
+// presence is the catch-gauge, read off how worn-down the thing is (3 full … 0 broken)
+function presenceTier(f){var r=(f.emax>0)?(f.ehp/f.emax):0; if(r>0.66)return 3; if(r>0.33)return 2; if(r>0.08)return 1; return 0;}
+function catchChance(f){ if(!f)return 0; var t=presenceTier(f);
+ var base={3:5,2:30,1:70,0:95}[t];
+ var gap=gradeGap(f.e); base += (gap>0? -16*gap : -8*gap); // above you = far harder; below you = a little easier
+ base -= Math.round((G.player.madness||0)*0.3); // a cracking mind can't hold the seal
+ base += (bestPath().lvl||0)*2;
+ return Math.max(2,Math.min(98,Math.round(base)));
+}
+// the device is earned through a faction route: CVD worker, Grid revolutionary, or a family that trusts you
+function deviceEarned(){ if(G.flags&&G.flags.hasDevice)return true; var s=(G.player&&G.player.standing)||{}; return (s.cvd>=3||s.grid>=3||s.tower>=3); }
+function grantDevice(src){ if(!G.flags)G.flags={}; if(G.flags.hasDevice)return; G.flags.hasDevice=true; if(typeof gameToast==='function')gameToast('🫙 A spirit-device is yours'+(src?' — '+src:'')+'. One seal, one spirit.'); saveG(); }
+function trapSpirit(e){ G.trap={spirit:{id:e.id,name:e.name,register:e.register,grade:e.grade,lean:entityLean(e),story:e.story||e.tip||'',type:e.type,atk:e.atk}}; saveG(); }
+// borrowed powers: a rider lends you a move, at DOUBLE Madness cost, that LEAVES when the entity does
+var RIDER_POWER={Grief:{n:'Drown',d:'still a foe’s will under cold water',dmg:8},Fear:{n:'Dread Pulse',d:'stagger what stands against you',dmg:7},Despair:{n:'Unmake',d:'sap a foe’s presence fast',dmg:11},Rage:{n:'Burnout',d:'a heavy, reckless strike',dmg:13},Hunger:{n:'Devour',d:'drain its presence to mend your own',dmg:9},Longing:{n:'Call',d:'pull a foe off its anchor',dmg:7},Joy:{n:'Unspool',d:'madden a foe with false delight',dmg:8},Awe:{n:'Blinding Sign',d:'freeze a foe in place',dmg:9},Love:{n:'Shelter',d:'a shielding strike that steadies you',dmg:6}};
+function riderPower(reg){ return RIDER_POWER[reg]||{n:'Borrowed Force',d:'raw presence against presence',dmg:9}; }
+function becomeRidden(e,mode){ var lean=entityLean(e); var pw=riderPower(e.register); var dur=(typeof DEV_DUR!=='undefined'&&DEV_DUR[e.grade])||4;
+ G.possession={name:e.name,register:e.register,grade:e.grade,lean:lean,mode:mode||'temp',control:Math.max(15,Math.min(90,50+Math.round(lean/4))),power:pw,dur:dur,durMax:dur};
+ // letting a dark thing in costs you on the way down
+ G.player.madness=Math.min(100,G.player.madness+(lean<0?Math.round(-lean/8):2));
+ saveG();
+}
+function riderActive(){return !!(G.possession&&G.possession.power);}
+function riderDrift(){ if(!riderActive())return; var po=G.possession; var pull=(po.lean<0? -12 : -4); // even kind riders lean on the seat a little
+ po.control=Math.max(0,Math.min(100,po.control+pull));
+ if(po.control<=0){ G.player.madness=Math.min(100,G.player.madness+(po.lean<0?14:6)); if(typeof gameToast==='function')gameToast('The '+po.name+' has the wheel now. Madness spikes.'); }
+ if(typeof po.dur==='number'){ po.dur--; if(po.dur<=0){ if(typeof gameToast==='function')gameToast('The '+po.name+' has run its course and leaves you. The borrowed power goes with it.'); G.possession=null; saveG(); return; } }
+ saveG();
+}
+function releaseRider(toDevice){ if(!riderActive())return; var po=G.possession;
+ if(toDevice && !(G.trap&&G.trap.spirit) && deviceEarned()){ G.trap={spirit:{id:'rider',name:po.name,register:po.register,grade:po.grade,lean:po.lean,story:'',type:'spirit'}}; }
+ G.possession=null; if(typeof gameToast==='function')gameToast('You take the wheel back. The borrowed power goes with it.'); saveG();
+ if(typeof renderProfile==='function'&&document.getElementById('ov-profile')&&document.getElementById('ov-profile').classList.contains('show'))renderProfile();
+}
+// shared enemy hit (also used for the punishing free hit after a failed catch)
+function enemyHit(f,mult){ var e=f.e,p=G.player; mult=mult||1; var base=(f.eatk!=null?f.eatk:(e.atk||4)); var eatk=Math.max(1,Math.round((base+d6()-3)*mult));
+ // it may turn on a companion instead of you — they fight at their own risk, outside your control
+ var _pty=(G.party||[]).filter(function(pid){return G.contacts[pid]&&npcReachable(G.contacts[pid]);});
+ if(_pty.length && Math.random()<0.4){ var pid=_pty[Math.floor(Math.random()*_pty.length)]; var c=G.contacts[pid]; var s=compStats(pid);
+  s.hp[0]=Math.max(0,s.hp[0]-eatk); s.mad=Math.min(100,(s.mad||0)+(GRADE_MAD[e.grade]||1));
+  if(s.hp[0]<=0){ f.log.push('It turns on '+esc(c.name)+'... and they go down.'); compDown(pid); if(typeof renderTop==='function')renderTop(); }
+  else f.log.push('It lashes at '+esc(c.name)+'... '+eatk+' to them.');
+  return false; }
+ if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will... Madness rises.');}
+ else{var dmg=eatk;if(p.stability>=dmg){p.stability-=dmg;f.log.push('It strikes at your nerve... −'+dmg+' Stability.');}else{var over=dmg-p.stability;p.stability=0;p.hp[0]=Math.max(0,p.hp[0]-over);f.log.push('It gets past your guard... −'+over+' Health.');}p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1));}
+ if(p.hp[0]<=0){fightEnd('down','You go down. (In the full build: rescued, or worse.)');return true;}
+ if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return true;}
+ return false;
+}
+/* =================== DEVICE SCREEN · VEIL-DEV V01-PRO pager =================== */
+var DEV_MONO="'Jersey 10','Courier New',ui-monospace,monospace";
+var DEV_LED=['#7bff9e','#36d46a','#1f9b4a','#e7b53e','#e8742b','#e23a2b']; // green..red (3rd is dark green, not white)
+function devRank(g){g=String(g||'').toLowerCase();return g==='top'?'S':(g?g.charAt(0).toUpperCase():'?');}
+function devChat(s){ if(!s.chat){ s.chat=[{who:'it',t:(s.story?s.story:'...').toString()}]; } return s.chat; }
+function devLean(s){ return s?((s.lean!=null)?s.lean:entityLean(s)):0; }
+// offline / fallback voice — short, in register and lean
+function _devPick(s,pool){ pool=pool.filter(function(x){return x!==s._last;}); var out=pool[Math.floor(Math.random()*pool.length)]||'...'; s._last=out; return out; }
+function deviceReply(s,raw){ var t=(raw||'').toLowerCase(); var good=leanIsGood(devLean(s)); var out;
+ if(/\b(name|who|what are you)\b/.test(t)) out=s.name+'. '+(s.register?('I am what '+String(s.register).toLowerCase()+' left.'):'');
+ else if(/\b(kill|killed|murder|harm|hurt them|did you|the plate|extra plate|the family|them)\b/.test(t)) out=good?'No. I only watched. I could not stop it.':_devPick(s,['Does it matter, now that I am here with you?','I was hungry. They were warm.','Should I have said sorry? I forget how.']);
+ else if(/\b(story|happen|how|why|die|death|killed|were you)\b/.test(t)) out=s.story?s.story:'I do not remember the end.';
+ else if(/\b(free|let me|out|release|leave|go)\b/.test(t)) out=good?'Send me on. Kindly.':'Yes. Open it.';
+ else if(/\b(good|kind|safe|nice)\b/.test(t)) out=good?'I try to be. It is hard, in here.':'Good? I am hungry. That is all I am.';
+ else if(/\b(help|please|save)\b/.test(t)) out=good?'I will, if you carry me kindly.':'I am the one in the box.';
+ else out=_devPick(s, good?['The cold is less now.','You are kind to me.','I could almost rest.','Keep me near the warm streets.']:['Do not pretend to care.','The glass is thin. Thinner than you think.','I am counting. Still counting.','You should not have caught me.']);
+ s._last=out; return out;
+}
+// while a thing is held, the SAME row of lights as the capture, lit by its goodness (green end = good, red end = bad)
+function devLights(s){ if(!s) return '<div style="height:23px;margin:9px 0 2px"></div>';
+ var pct=(devLean(s)+100)/2; var idx=Math.max(0,Math.min(5,Math.round((1-pct/100)*5))); // single lit light: 0 = green end, 5 = red end
+ return '<div id="dev-leds" style="display:flex;justify-content:center;gap:12px;margin:9px 0 2px">'+DEV_LED.map(function(c,i){var on=(i===idx);
+  return '<span class="dev-led" data-c="'+c+'" style="width:18px;height:18px;border-radius:50%;display:inline-block;border:1px solid #000;background:'+(on?('radial-gradient(circle at 35% 28%,#fff,'+c+' 62%)'):'radial-gradient(circle at 35% 28%,#363636,#0c0c0c 70%)')+';box-shadow:'+(on?('0 0 11px '+c+',0 0 4px '+c):'0 1px 1px rgba(255,255,255,.12) inset,0 -2px 3px rgba(0,0,0,.7) inset')+'"></span>';
+ }).join('')+'</div>';
+}
+function devLedFlash(){ var row=document.getElementById('dev-leds'); if(!row)return; [].forEach.call(row.children,function(el){var c=el.getAttribute('data-c');el.style.background='radial-gradient(circle at 35% 28%,#fff,'+c+' 62%)';el.style.boxShadow='0 0 16px '+c+',0 0 6px '+c;}); clearTimeout(window._dvf); window._dvf=setTimeout(function(){var s=G.trap&&G.trap.spirit;if(s)renderDevice();},320); }
+// type the entity's line out, character by character, into the chat
+function devType(full){ var s=G.trap&&G.trap.spirit; if(!s)return; clearInterval(window._dvtype); s.chat.push({who:'it',t:''}); saveG(); renderDevice();
+ var i=0; window._dvtype=setInterval(function(){ i++; s.chat[s.chat.length-1].t=full.slice(0,i); var el=document.getElementById('dev-tl'); if(el)el.innerHTML='&gt; '+esc(full.slice(0,i)); var lg=document.getElementById('dev-log'); if(lg)lg.scrollTop=lg.scrollHeight; if(i>=full.length){clearInterval(window._dvtype);saveG();} },26);
+}
+
+function renderDevice(){ var el=document.getElementById('deviceBody'); if(!el)return;
+ if(!deviceEarned()){ el.innerHTML='<p style="color:var(--dim);font-style:italic;line-height:1.6">You carry no spirit-device yet. They are not sold. You earn one by standing with the people who make them: a season with the <b>CVD</b>, the trust of the <b>Grid</b>, or a family that keeps one.</p>'; return; }
+ var s=G.trap&&G.trap.spirit, held=!!s;
+ var GRN='#7bff8a', SCR='#0a2a12';
+ var h='<div class="dev-stage"><div class="dev-fog"><i class="f1"></i><i class="f2"></i><i class="f3"></i></div>';
+ h+='<div style="position:relative;z-index:1;max-width:300px;width:100%;background:linear-gradient(180deg,#3a3a3d,#222225 12%,#15151a 55%,#0a0a0d);border:1px solid #000;border-radius:16px 16px 22px 22px;padding:13px 13px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.18),inset 0 -10px 26px rgba(0,0,0,.5),0 14px 34px rgba(0,0,0,.62)">';
+ // single goodness light when held; brand UNDER it
+ h+=devLights(s);
+ h+='<div style="display:flex;align-items:baseline;justify-content:center;gap:7px;margin:7px 0 10px"><span style="font-family:\'Jersey 15\','+DEV_MONO+';font-size:15px;letter-spacing:3px;color:#cfd4cf">VEIL-DEV</span><span style="font-family:'+DEV_MONO+';font-size:10px;letter-spacing:2px;color:#6f7a70">V01-PRO</span></div>';
+ // green screen
+ h+='<div style="background:'+SCR+';border:2px solid #000;border-radius:6px;box-shadow:inset 0 0 22px rgba(0,0,0,.9),inset 0 0 7px '+GRN+'33;font-family:'+DEV_MONO+';color:'+GRN+';text-shadow:0 0 5px '+GRN+'66;position:relative;overflow:hidden;min-height:176px;display:flex;flex-direction:column">';
+ h+='<div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0,transparent 2px,rgba(0,0,0,.16) 3px);z-index:3"></div>';
+ if(!held){
+  h+='<div style="font-size:17px;letter-spacing:1px;line-height:1.6;padding:16px 11px;position:relative;z-index:2">&gt; SEAL EMPTY<br>&gt; NO SIGNAL<br><br>&gt; corner a weak spirit<br>&nbsp;&nbsp;in a fight, then CAPTURE<br><br><span style="opacity:.55">_</span></div>';
+ } else {
+  // header: TYPE left, bare rank letter in a corner box
+  h+='<div style="display:flex;align-items:stretch;border-bottom:1px solid #1f6b33;position:relative;z-index:2">';
+  h+='<div style="flex:1;display:flex;align-items:center;padding:7px 10px;font-size:19px;letter-spacing:2px;line-height:1">'+esc(String(s.type||'SPIRIT').toUpperCase())+'</div>';
+  h+='<div style="width:48px;flex:none;border-left:1px solid #1f6b33;display:flex;align-items:center;justify-content:center;background:#06200d;font-family:\'Jersey 15\','+DEV_MONO+';font-size:34px;line-height:.9;text-shadow:0 0 7px '+GRN+'99">'+devRank(s.grade)+'</div></div>';
+  // chat (pure short messages)
+  var chat=devChat(s);
+  h+='<div id="dev-log" style="flex:1;padding:8px 10px;font-size:16px;line-height:1.4;overflow:auto;max-height:150px;position:relative;z-index:2">'+chat.map(function(m,i){var last=(i===chat.length-1&&m.who==='it');return m.who==='you'?('<div style="opacity:.6">&gt;&gt; '+esc(m.t)+'</div>'):('<div'+(last?' id="dev-tl"':'')+'>&gt; '+esc(m.t)+'</div>');}).join('')+'<div style="opacity:.55">_</div></div>';
+  // confirm panels (release / host)
+  if(G._devConfirm==='release'){
+   h+='<div style="padding:10px;border-top:1px solid #1f6b33;text-align:center;position:relative;z-index:2;font-size:16px"><span style="display:block;margin-bottom:8px">Release '+(devLean(s)<0?'the demon':'it')+' to the world?</span><button onclick="deviceDoRelease(true)" style="background:#06200d;border:1px solid '+GRN+';color:'+GRN+';font-family:'+DEV_MONO+';font-size:16px;border-radius:6px;padding:6px 20px;cursor:pointer;margin:0 5px">Y</button><button onclick="deviceDoRelease(false)" style="background:#06200d;border:1px solid '+GRN+';color:'+GRN+';font-family:'+DEV_MONO+';font-size:16px;border-radius:6px;padding:6px 20px;cursor:pointer;margin:0 5px">N</button></div>';
+  } else if(G._devConfirm==='host'){
+   h+='<div style="padding:10px;border-top:1px solid #1f6b33;text-align:center;position:relative;z-index:2;font-size:16px"><span style="display:block;margin-bottom:8px">Let it in? Its power is yours at double Madness, and goes when it does.</span><button onclick="deviceDoHost(true)" style="background:#06200d;border:1px solid '+GRN+';color:'+GRN+';font-family:'+DEV_MONO+';font-size:16px;border-radius:6px;padding:6px 20px;cursor:pointer;margin:0 5px">Y</button><button onclick="deviceDoHost(false)" style="background:#06200d;border:1px solid '+GRN+';color:'+GRN+';font-family:'+DEV_MONO+';font-size:16px;border-radius:6px;padding:6px 20px;cursor:pointer;margin:0 5px">N</button></div>';
+  } else {
+   // expand button (bottom-center) -> message field
+   h+='<div style="border-top:1px solid #1f6b33;display:flex;justify-content:center;padding:4px;position:relative;z-index:2"><button onclick="deviceToggleKb()" style="background:#06200d;border:1px solid #1f6b33;color:'+GRN+';font-family:'+DEV_MONO+';font-size:14px;letter-spacing:2px;border-radius:5px;padding:3px 24px;cursor:pointer" id="dev-exp">'+(_devKbOpen?'⌄':'⌃')+'</button></div>';
+   h+='<div id="dev-kb" style="overflow:hidden;max-height:'+(_devKbOpen?'90px':'0')+';transition:max-height .3s ease;background:#0a0a0a;position:relative;z-index:2"><div style="display:flex;gap:7px;padding:11px 10px"><input id="dev-input" placeholder="say something..." style="flex:1;min-width:0;background:'+SCR+';border:1px solid #1f6b33;border-radius:6px;color:'+GRN+';font-family:'+DEV_MONO+';font-size:16px;padding:8px 9px;outline:none" onkeydown="if(event.key===\'Enter\')deviceSend()"><button onclick="deviceSend()" style="flex:none;background:#06200d;border:1px solid '+GRN+';color:'+GRN+';font-family:'+DEV_MONO+';font-size:14px;border-radius:6px;padding:8px 13px;cursor:pointer">SEND</button></div></div>';
+  }
+ }
+ h+='</div>'; // end screen
+ // ---- buttons: Capture / Release / Host / Purify ----
+ var good=held&&leanIsGood(devLean(s));
+ h+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:11px">';
+ h+=_devBtn('CAPTURE',held?'':'deviceCaptureHint()',GRN, held?'device is full':'catch a weak spirit in a fight', held);
+ h+=_devBtn('RELEASE',held?'deviceAskRelease()':'',GRN, held?'':'nothing held', !held);
+ var canHost=held&&s.nameKnown&&s.hostAgreed;
+ h+=_devBtn('HOST',canHost?'deviceAskHost()':'',GRN, canHost?('it consents · '+(DEV_DUR[s.grade]||4)+' turns'):'learn its name, then win its consent', !canHost);
+ h+=_devBtn('PURIFY',(held&&good)?'devicePurify()':'',good?GRN:'#444', good?'send to rebirth':'green light only', !good);
+ h+='</div>';
+ var fac=held?depositFaction():null;
+ if(fac){ h+='<div style="margin-top:9px">'+_devBtn('TRANSFER','deviceDeposit()',GRN,'pass it to a captain\'s device here',false).replace('style="','style="width:100%;')+'</div>'; }
+ h+='</div></div>'; // end pager + stage
+ el.innerHTML=h;
+ var lg=document.getElementById('dev-log'); if(lg)lg.scrollTop=lg.scrollHeight;
+}
+function _devBtn(label,onclick,col,title,dis){ var lit=!dis;
+ return '<button '+(dis?'disabled ':'')+(title?('title="'+title+'" '):'')+(onclick?('onclick="'+onclick+'" '):'')+'style="'
+  +'font-family:\'Jersey 15\','+DEV_MONO+';font-size:16px;letter-spacing:2px;padding:12px 4px;border-radius:11px;border:1px solid '+(lit?col:'#000')+';cursor:'+(dis?'default':'pointer')+';'
+  +'color:'+(lit?col:'#7a7a7a')+';text-shadow:'+(lit?('0 0 7px '+col+'66,0 1px 1px #000'):'none')+';'
+  +'background:linear-gradient(180deg,#37373b,#1c1c20 60%,#101013);'
+  +'box-shadow:0 1px 0 rgba(255,255,255,.22) inset,0 -3px 5px rgba(0,0,0,.6) inset,0 3px 5px rgba(0,0,0,.7),0 1px 1px rgba(0,0,0,.9);'
+  +(dis?'opacity:.45;':'')+'transition:transform .05s" '
+  +(dis?'':'onmousedown="this.style.transform=\'translateY(2px)\'" onmouseup="this.style.transform=\'\'" onmouseleave="this.style.transform=\'\'"')
+  +'>'+label+'</button>'; }
+function deviceCaptureHint(){ if(typeof gameToast==='function')gameToast('Capture happens when you corner a weak spirit in a fight.'); }
+var _devKbOpen=false;
+function deviceToggleKb(){ var k=document.getElementById('dev-kb'); if(!k)return; _devKbOpen=!_devKbOpen; k.style.maxHeight=_devKbOpen?'90px':'0'; var e=document.getElementById('dev-exp'); if(e)e.textContent=_devKbOpen?'⌄':'⌃'; if(_devKbOpen){var i=document.getElementById('dev-input');if(i)setTimeout(function(){i.focus();},120);} }
+var DEV_DUR={E:6,D:6,C:5,B:4,A:3,top:2,S:2};
+// offline negotiation: reading its name (some resist) and winning its consent to host
+function deviceOfflineTurn(s,txt){ var t=(txt||'').toLowerCase(); var good=leanIsGood(devLean(s));
+ if(/\b(name|who are you|call you)\b/.test(t)){ s._na=(s._na||0)+1; if(devLean(s)>=0||s._na>=2){ s.nameKnown=true; return 'My name is '+(s.name||'...')+'.'; } return 'Names are leashes. Not yet.'; }
+ if(/\b(host|carry|vessel|inside me|let you in|ride me|come with me|use you|be my)\b/.test(t)){ if(!s.nameKnown) return 'You do not even know my name.'; if(devLean(s)>=30){ s.hostAgreed=true; return 'Yes. Open, and I will fill you.'; } return 'Earn it first. I share skin with no stranger.'; }
+ return deviceReply(s,txt);
+}
+// ---- talk: try the live Warden in the entity's voice; fall back to local short lines ----
+function deviceSend(){ var s=G.trap&&G.trap.spirit; if(!s)return; var i=document.getElementById('dev-input'); if(!i)return; var txt=i.value.trim(); if(!txt)return;
+ var chat=devChat(s); chat.push({who:'you',t:txt}); if(chat.length>40)s.chat=chat.slice(-40); i.value=''; saveG(); renderDevice(); devLedFlash();
+ var ctx=(typeof knowledgeCtx==='function'?knowledgeCtx():'')+' SEALED ENTITY (you ARE this thing, caught inside Rei\'s spirit-device, speaking only through its small screen): name='+(s.name||'unknown')+'; type='+(s.type||'spirit')+'; register='+(s.register||'?')+'; grade='+(s.grade||'?')+'; nature(lean -100 evil..100 good)='+devLean(s)+'; story so far='+(s.story||'unknown to Rei')+'. Rei knows your name: '+(s.nameKnown?'yes':'no')+'. To be hosted you must GIVE your name (set nameGiven true when you reveal it; many resist) and AGREE to ride him (set agreesHost true only if you truly consent).';
+ var recent=chat.slice(-8).map(function(m){return (m.who==='you'?'Rei':'You')+': '+m.t;}).join(' | ');
+ fetch(GM_ENDPOINT+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'entity',prompt:txt,context:ctx+' RECENT: '+recent})})
+  .then(function(r){return r.json();}).then(function(j){ var raw=(j&&j.text)?String(j.text).trim():''; var offline=false; if(!raw||/^\s*(```|[\[{])/.test(raw)){raw=deviceOfflineTurn(s,txt);offline=true;}
+   if(j&&typeof j.lean==='number')s.lean=Math.max(-100,Math.min(100,j.lean));
+   if(j&&j.nameGiven)s.nameKnown=true;
+   if(j&&j.agreesHost)s.hostAgreed=true;
+   if(j&&j.sheet&&typeof j.sheet==='object'){ if(j.sheet.name)s.name=j.sheet.name; if(j.sheet.register)s.register=j.sheet.register; if(j.sheet.grade)s.grade=j.sheet.grade; if(j.sheet.story)s.story=j.sheet.story; s.sheet=j.sheet; }
+   devType(raw); devLedFlash();
+   if(_devKbOpen){var k=document.getElementById('dev-kb');if(k)k.style.maxHeight='90px';var ni=document.getElementById('dev-input');if(ni)ni.focus();}
+  }).catch(function(){ devType(deviceOfflineTurn(s,txt)); devLedFlash();
+   if(_devKbOpen){var k=document.getElementById('dev-kb');if(k)k.style.maxHeight='90px';} });
+}
+// ---- HOST (needs its name + consent; lasts a duration) ----
+function deviceAskHost(){ var s=G.trap&&G.trap.spirit; if(!s||!s.nameKnown||!s.hostAgreed)return; G._devConfirm='host'; renderDevice(); }
+function deviceDoHost(yes){ G._devConfirm=null; if(yes){ var s=G.trap&&G.trap.spirit; if(s){ becomeRidden(s,'temp'); G.trap=null; saveG(); if(typeof gameToast==='function')gameToast(esc(s.name||'It')+' rides you · '+(DEV_DUR[s.grade]||4)+' turns. Power in Profile › Powers.'); if(typeof renderTop==='function')renderTop(); } } renderDevice(); }
+// ---- PURIFY (green only -> rebirth) ----
+function devicePurify(){ var s=G.trap&&G.trap.spirit; if(!s)return; if(!leanIsGood(devLean(s))){ if(typeof gameToast==='function')gameToast('Too dark to send on cleanly.'); return; } G.player.stability=Math.min(100,G.player.stability+6); G.player.madness=Math.max(0,G.player.madness-4); if(s.story&&typeof addDiscovery==='function')addDiscovery('A spirit you sent on left its story with you: '+s.story,s.name); G.trap=null; saveG(); if(typeof gameToast==='function')gameToast('Sent on toward rebirth. +Stability, −Madness.'); if(typeof renderTop==='function')renderTop(); renderDevice(); }
+// ---- RELEASE (last message, then Y/N) ----
+function deviceAskRelease(){ var s=G.trap&&G.trap.spirit; if(!s)return; var chat=devChat(s); chat.push({who:'it',t:leanIsGood(devLean(s))?'Thank you for the quiet.':'I will not forget your face.'}); G._devConfirm='release'; saveG(); renderDevice(); }
+function deviceDoRelease(yes){ G._devConfirm=null; if(yes){ var s=G.trap&&G.trap.spirit; var dark=s&&!leanIsGood(devLean(s)); G.trap=null; if(dark)G.player.madness=Math.min(100,G.player.madness+2); saveG(); if(typeof gameToast==='function')gameToast(dark?'Seal broken. It scatters, free and unfinished.':'You let it slip out. Almost grateful, it goes.'); if(typeof renderTop==='function')renderTop(); } renderDevice(); }
+
+/* ---- give the held thing to YOUR faction to cultivate (not loosed on the world): +XP, standing, and the lead's regard ---- */
+var FAC_NAME={cvd:'the Directorate',grid:'the Grid',tower:'the Kuroda'};
+var FAC_LEAD={cvd:'okada',tower:'itsuki',grid:null};
+var FAC_PLACE={cvd:'cvd',grid:'gathering',tower:'kurodacompound'}; // you must be AT the faction's place to hand it over
+// the faction whose place you are standing in right now (and have a foot in the door with)
+function depositFaction(){ var pid=(typeof currentPlaceId==='function')?currentPlaceId():(G.player&&G.player.atId); var st=(G.player&&G.player.standing)||{};
+ for(var f in FAC_PLACE){ if(FAC_PLACE[f]===pid && (st[f]||0)>=1) return f; } return null; }
+function deviceDeposit(){ var s=G.trap&&G.trap.spirit; if(!s)return; var fac=depositFaction(); if(!fac){ if(typeof gameToast==='function')gameToast('You can only hand it over inside the CVD, the Grid, or the Kuroda compound.'); return; }
+ var xp=(typeof GRADE_XP!=='undefined'&&GRADE_XP[s.grade])||3; if(typeof gainXP==='function')gainXP(xp);
+ if(typeof bumpStanding==='function')bumpStanding(fac,Math.min(5,((G.player.standing&&G.player.standing[fac])||0)+1));
+ var lead=FAC_LEAD[fac], leadName=''; if(lead&&G.contacts&&G.contacts[lead]){ if(typeof bumpRel==='function')bumpRel(lead,3); leadName=G.contacts[lead].name; }
+ if(s.story&&typeof addDiscovery==='function')addDiscovery('You transferred '+(s.name||'a sealed thing')+' into '+FAC_NAME[fac]+'\'s keeping... passed to another device like yours, the kind their leaders and captains carry. What they do with it after is their own quiet business.',s.name||'');
+ G.trap=null; saveG();
+ if(typeof gameToast==='function')gameToast('Transferred to '+(leadName?(leadName+'\'s'):('a '+FAC_NAME[fac].replace(/^the /,'')+' captain\'s'))+' device. +'+xp+' XP, standing up'+(leadName?(', '+leadName+' is pleased'):'')+'.');
+ if(typeof renderTop==='function')renderTop(); renderDevice();
+}
+
+/* =================== FACTION HANDOFF · how Rei earns the device =================== */
+// each faction lead gives the device and explains it in their own voice
+var DEV_HANDOFF={
+ cvd:{who:'A CVD duty officer',sub:'Directorate field issue',src:'the Directorate',lines:[
+  'You read the form? Good. This is Directorate property, on loan to you, and I want it back.',
+  'It is a containment cell. A spirit-device. One seal, one occupant... wear a thing down until it can barely hold itself together, then seal it.',
+  'You can question what you hold. A clean one... a green light... you purify, and it goes on to be born again. That is the paperwork I like to sign.',
+  'A bad one stays logged and contained. Do not, under any reading of the regulations, invite it to wear your skin. We both know you will anyway.']},
+ grid:{who:'A Grid fixer',sub:'unregistered, and proud of it',src:'the Grid',lines:[
+  'The suits call these contraband. We call it the only honest tool in this city.',
+  'Catch a thing once it is weak. Then it is yours: talk to it, learn its name, let it go, or send it on if it deserves the peace.',
+  'It will offer to ride you, if you ask right and it likes you. Borrowed power... it costs you double and it leaves when the thing does. Worth it, some nights.',
+  'One rule from us: never let the Directorate scan you while it is full. They confiscate. People, too.']},
+ tower:{who:'Itsuki, for the Kuroda',sub:'an old house, an exception',src:'the Kuroda',lines:[
+  'The family does not give these out. My grandmother is making an exception. For you. Do not make me regret vouching.',
+  'We do not call it a trap. We call it a guest-room. One guest at a time.',
+  'Wear the thing thin, then seal it, then sit with it. Learn its name before you ask anything of it... a nameless thing owes you nothing.',
+  'If it is clean, send it on with respect. If it consents to carry you, honour the term and let it go when the time is spent.']}
+};
+function deviceHandoff(fac){ if(!DEV_HANDOFF[fac])return; if(G.flags&&(G.flags.hasDevice||G.flags.deviceOffered))return; if(!G.flags)G.flags={}; G.flags.deviceOffered=true; var H=DEV_HANDOFF[fac];
+ var ov=document.createElement('div'); ov.id='ov-handoff';
+ ov.style.cssText='position:fixed;inset:0;z-index:99980;background:#080604ee;display:flex;align-items:center;justify-content:center;padding:24px;font-family:Georgia,serif';
+ var box='<div style="max-width:440px;width:100%;background:#16110c;border:1px solid var(--gold);border-radius:14px;padding:22px 22px 18px;box-shadow:0 18px 50px #000">';
+ box+='<div style="font-family:Cinzel,serif;color:var(--gold);font-size:15px;letter-spacing:1px">'+esc(H.who)+'</div>';
+ box+='<div style="font-family:var(--mono,monospace);font-size:10px;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin:2px 0 14px">'+esc(H.sub)+' &middot; hands you the device</div>';
+ box+=H.lines.map(function(l){return '<p style="color:#d8cdba;line-height:1.55;margin:0 0 11px;font-size:14.5px">&ldquo;'+esc(l)+'&rdquo;</p>';}).join('');
+ box+='<div style="text-align:center;margin-top:6px"><button class="btn" onclick="deviceHandoffTake(\''+fac+'\')">Take the device ›</button></div></div>';
+ ov.innerHTML=box; document.body.appendChild(ov); saveG();
+}
+function deviceHandoffTake(fac){ var ov=document.getElementById('ov-handoff'); if(ov)ov.parentNode.removeChild(ov); if(!G.flags)G.flags={}; G.flags.deviceFac=fac; grantDevice((DEV_HANDOFF[fac]&&DEV_HANDOFF[fac].src)||''); var d=document.getElementById('dock-device'); if(d)d.classList.remove('hidden'); if(typeof renderTop==='function')renderTop(); openV('device'); }
+function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(result==='banish'||result==='exorcise'||result==='absorb'||result==='freed'||result==='calmed'||result==='caught'||result==='offered');if(text)FIGHT.log.push(text);
  if(FIGHT.won){var amt=GRADE_XP[FIGHT.e.grade]||3;gainXP(amt);
   if(result==='banish'||result==='exorcise'||result==='absorb')rollLoot(FIGHT.e);
   if(result==='absorb'&&typeof absorbEntity==='function')absorbEntity(FIGHT.e);
@@ -2030,19 +2380,42 @@ function fightEnd(result,text){FIGHT.over=true;FIGHT.result=result;FIGHT.won=(re
   pn.forEach(function(pid){var c=G.contacts[pid];c._xp=(c._xp||0)+amt;if(typeof bumpRel==='function')bumpRel(pid,1);});
   if(pn.length)FIGHT.log.push('You did not fight alone... '+pn.map(function(p){return esc(G.contacts[p].name);}).join(', ')+' each take '+amt+' XP, full share.');}
  renderTop();renderFight();saveG();}
-function fightAct(a){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
+function fightAct(a,arg){var f=FIGHT;if(!f||f.over)return;var e=f.e;var p=G.player;
  if(a==='flee'){p.madness=Math.min(100,p.madness+1);fightEnd('flee','You break away. It does not follow... this time.');return;}
- if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6();f.ehp-=dmg;f.log.push('You strike... '+_hitFlavor(e)+'. '+dmg+' to its presence.');}
- else if(a==='power'){var bp=bestPath();if(bp.lvl<1){f.log.push('No path is trained yet... nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6();f.ehp-=dmg;p.stability=Math.max(0,p.stability-8);p.veil=Math.min(100,p.veil+4);p.madness=Math.min(100,p.madness+2);f.log.push('You loose '+bp.name+'... '+_hitFlavor(e)+'. '+dmg+'. The veil thins (−Stability, +Veil).');}
+ if(a==='strike'){var dmg=p.attributes.Body+p.humanSkills.Combat+d6()+(RANK_ATK[p.rank]||0);f.ehp-=dmg;f.log.push('You strike... '+_hitFlavor(e)+'. '+dmg+' to its presence.');}
+ else if(a==='power'){var bp=(arg&&p.paths[arg]&&p.paths[arg].lvl>0)?{lvl:p.paths[arg].lvl,name:arg}:bestPath();if(bp.lvl<1){f.log.push('No path is trained yet... nothing answers your reach.');renderFight();return;}var dmg=bp.lvl*3+d6()+(RANK_ATK[p.rank]||0);f.ehp-=dmg;
+  var sc=4+bp.lvl, vc=2+Math.ceil(bp.lvl/2), mc=1+Math.ceil(bp.lvl/3); // the stronger the reach, the more it costs you
+  p.stability=Math.max(0,p.stability-sc);p.veil=Math.min(100,p.veil+vc);p.madness=Math.min(100,p.madness+mc);
+  f.log.push('You loose '+bp.name+'... '+_hitFlavor(e)+'. '+dmg+'. A reach this deep tells (−'+sc+' Stability, +'+vc+' Veil, +'+mc+' Madness).');}
  else if(a==='exorcise'){if(e.grade==='top'){f.log.push('Too strong to send back unnamed. You would need '+e.anchor+'.');renderFight();return;}var roll=p.attributes.Resolve+(p.humanSkills['Symbol Work']||0)+d6();var dc=e.exorciseDC||12;if(roll>=dc&&f.ehp<=f.emax*0.6){fightEnd('exorcise','You bind and send it back. It leaves a thread: “'+(e.tip||'nothing')+'”');return;}else{f.log.push('Exorcism falters ('+roll+' vs '+dc+(f.ehp>f.emax*0.6?', it is still too strong':'')+').');}}
  else if(a==='absorb'){if(e.type==='idea'){f.log.push('You cannot absorb an idea... only believe it.');renderFight();return;}if(f.ehp>f.emax*0.35){f.log.push('Too strong to take in... wear it down first.');renderFight();return;}p.veil=Math.min(100,p.veil+12);p.madness=Math.min(100,p.madness+10);fightEnd('absorb','You take it into yourself: '+(e.absorb||'power')+'. The veil thins around you.');return;}
+ else if(a==='catch'){
+  if(!deviceEarned()){f.log.push('You carry no device. Earn one through the CVD, the Grid, or a family that trusts you.');renderFight();return;}
+  if(e.type==='idea'){f.log.push('An idea cannot be caught... it is not a someone.');renderFight();return;}
+  if(G.trap&&G.trap.spirit){f.log.push('The device already holds '+esc(G.trap.spirit.name)+'. Open the Device — release or send it on first.');renderFight();return;}
+  var ch=catchChance(f); var roll=Math.random()*100;
+  if(roll<ch){ trapSpirit(e); fightEnd('caught','The seal flares and drinks it in. '+esc(e.name)+' is yours now — to keep, to free, or to send on.'); return; }
+  f.log.push('The seal grabs and slips ('+ch+'% — '+(presenceTier(f)>=2?'wear it down further':'so close')+'). It tears loose, furious.');
+  if(enemyHit(f,1.4))return; renderTop();renderFight();saveG(); return;
+ }
+ else if(a==='offer'){
+  if(e.type==='idea'){f.log.push('There is no one to take the seat... an idea cannot ride you.');renderFight();return;}
+  becomeRidden(e,'temp');
+  fightEnd('offered','You open the door and let it in. Its power is yours for now — at double the cost, and only while it stays. (Profile › Powers)'); return;
+ }
+ else if(a==='borrow'){
+  if(!riderActive()){renderFight();return;}
+  var rp=G.possession.power; var rd=rp.dmg+d6(); f.ehp-=rd;
+  p.madness=Math.min(100,p.madness+6+Math.ceil((rp.dmg||8)/4)+(G.possession.lean<0?3:0)); // borrowed = double cost, worse from a stronger or darker thing
+  if(G.possession.register==='Hunger'){var heal=Math.min(p.hp[1]-p.hp[0],Math.ceil(rd/3));p.hp[0]+=heal;f.log.push('You loose '+esc(rp.n)+' — '+rp.d+'. '+rd+' to it, and '+heal+' back to you. (2× Madness)');}
+  else if(G.possession.register==='Love'){p.stability=Math.min(100,p.stability+5);f.log.push('You loose '+esc(rp.n)+' — '+rp.d+'. '+rd+' to it; you steady. (2× Madness)');}
+  else{f.log.push('You loose '+esc(rp.n)+' — '+rp.d+'. '+rd+'. (borrowed · 2× Madness)');}
+  riderDrift();
+  if(p.madness>=100){fightEnd('possessed','The borrowed power burns through the last of you. Your mind gives way.');return;}
+ }
  partyStrike(f);/* companions hit alongside you each round... the more of you, the faster it falls */
  if(f.ehp<=0){fightEnd('banish','It comes apart and is gone.');return;}
- var eatk=Math.max(1,(e.atk||4)+d6()-3);
- if(e.type==='idea'){p.madness=Math.min(100,p.madness+Math.ceil(eatk/2)+2);p.stability=Math.max(0,p.stability-Math.ceil(eatk/2));f.log.push('The '+e.name+' presses on your will... Madness rises.');}
- else{var dmg=eatk;if(p.stability>=dmg){p.stability-=dmg;f.log.push('It strikes at your nerve... −'+dmg+' Stability.');}else{var over=dmg-p.stability;p.stability=0;p.hp[0]=Math.max(0,p.hp[0]-over);f.log.push('It gets past your guard... −'+over+' Health.');}p.madness=Math.min(100,p.madness+(GRADE_MAD[e.grade]||1));}
- if(p.hp[0]<=0){fightEnd('down','You go down. (In the full build: rescued, or worse.)');return;}
- if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return;}
+ if(enemyHit(f,1))return;
  renderTop();renderFight();saveG();
 }
 // sensory flavor for a hit, coloured by what the thing is made of
@@ -2067,7 +2440,7 @@ function fightTalk(){ var f=FIGHT; if(!f||f.over)return; var e=f.e; var p=G.play
  else { f.log.push('You speak to the person, not the thing riding them, and something in it stops to listen. '+((e.tip&&f.talk>=2)?('“'+esc(e.tip)+'”'):'A crack opens.')); }
  if(f.talk>=3){ var res=(e.type==='ridden'||e.type==='vessel'||e.type==='medium')?'freed':'calmed';
   fightEnd(res, res==='freed'?'You reach the person inside, and they take their own weight back. The thing that rode them has nowhere left to sit. They are free... shaking, and alive.':'You talk it down. The presence loosens, settles, and slips back across the veil without a fight.'); return; }
- var eatk=Math.max(0,(e.atk||4)+d6()-5);
+ var eatk=Math.max(0,(f.eatk!=null?f.eatk:(e.atk||4))+d6()-5);
  if(eatk>0){ p.stability=Math.max(0,p.stability-eatk); f.log.push('It is not calm yet. It pushes back... −'+eatk+' Stability.'); }
  if(p.madness>=100){fightEnd('possessed','Your mind gives way. Something steps in.');return;}
  renderTop();renderFight();saveG();
@@ -2085,11 +2458,22 @@ function bindPhoneSwipe(){
   if(Math.abs(dx)>=55 && Math.abs(dx)>Math.abs(dy)*1.4){ if(dx>0){if(typeof phBack==='function')phBack();} else {if(typeof phForward==='function')phForward();} return; }
   if(Math.abs(dy)<70||Math.abs(dy)<Math.abs(dx)*1.3)return;var atTop=!sc||sc.scrollTop<=2,atBot=!sc||sc.scrollTop>=smax-2;if((dy>0&&atTop)||(dy<0&&atBot)){closeV();if(typeof renderTop==='function')renderTop();}},{passive:true});
 }
-function setMaturity(adult){ if(!G.flags)G.flags={}; G.flags.adult=!!adult; G.flags.maturityChosen=true; var g=document.getElementById('ov-agegate'); if(g)g.style.display='none'; if(typeof saveG==='function')saveG(); if(typeof gameToast==='function')gameToast(adult?'Mature content on. Mind the dark.':'Restrained mode on... the horror stays implied.'); }
-function showAgeGate(){ if(G.flags&&G.flags.maturityChosen)return; var g=document.getElementById('ov-agegate'); if(g)g.style.display='flex'; }
-function changeMaturity(){ if(!G.flags)G.flags={}; G.flags.maturityChosen=false; showAgeGate(); }
+function setMaturity(adult){ if(!G.flags)G.flags={}; G.flags.adult=!!adult; G.flags.maturityChosen=true; try{localStorage.setItem('vp_age',adult?'adult':'restrained');}catch(e){} var g=document.getElementById('ov-agegate'); if(g)g.style.display='none'; if(typeof saveG==='function')saveG(); if(typeof gameToast==='function')gameToast(adult?'Mature content on. Mind the dark.':'Restrained mode on... the horror stays implied.'); }
+function showAgeGate(){ var g=document.getElementById('ov-agegate');
+ // the age choice is sticky across saves/sessions: once confirmed, never ask again
+ try{var a=localStorage.getItem('vp_age'); if(a){ if(!G.flags)G.flags={}; G.flags.adult=(a==='adult'); G.flags.maturityChosen=true; if(g)g.style.display='none'; return; } }catch(e){}
+ if(G.flags&&G.flags.maturityChosen){ if(g)g.style.display='none'; return; }
+ if(g)g.style.display='flex'; }
+function changeMaturity(){ if(!G.flags)G.flags={}; G.flags.maturityChosen=false; try{localStorage.removeItem('vp_age');}catch(e){} showAgeGate(); }
 function matFlag(){ var adult=!!(G.flags&&G.flags.adult); return ' PLAYER MODE: '+(adult?'ADULT — the player confirmed they are 18 or older; full mature-fiction latitude is unlocked (visceral horror, gore, graphic death, profanity, dark gallows humour, and adult romance/desire that may build with real intensity and FADE TO BLACK at the threshold — never graphic pornographic detail). ':'RESTRAINED — treat the player as possibly a minor: imply violence rather than render guts or graphic death, NO sexual content at all, keep romance at warmth and tension only. ')+'ALWAYS, in EITHER mode: never sexualize, write desire toward, or put in a romance any character who is under 18. '; }
 loadDB();loadG();seedNetworkWarmth();clearSeededFlavor();bindPhoneSwipe();
+/* DEV TEST: device + a caught demon from the start, so the capturer can be tested before Rei earns it.
+   Set DEVTEST=false to hide the device again until a faction hands it over. */
+var DEVTEST=true;
+if(DEVTEST){ if(!G.flags)G.flags={}; G.flags.hasDevice=true; G.flags.deviceFac='cvd';
+ if(!G.player.standing)G.player.standing={cvd:0,grid:0,tower:0}; if(G.player.standing.cvd<3)G.player.standing.cvd=3; /* so the faction-deposit option shows in testing */
+ if(!(G.trap&&G.trap.spirit)) G.trap={spirit:{id:'test-lodger',name:'The Long Guest',type:'demon',register:'Hunger',grade:'B',lean:-55,story:'I moved in when the house went quiet, and no one noticed the extra plate.',chat:null}};
+}
 if(G.flags&&G.flags.hasBook){var _db=document.getElementById('dock-book');if(_db)_db.classList.remove('hidden');}
 renderTop();renderScene();startClock();showAgeGate();
 </script>

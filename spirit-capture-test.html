@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spirit Capturer · Test Bench</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap" rel="stylesheet">
+<style>
+:root{--scr:#0a2a12;--lcd:#7bff8a;--mono:'Courier New',ui-monospace,monospace;--dig:'Jersey 10','Courier New',monospace}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#19140f,#0b0907 70%);color:#ece3d2;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:26px 16px;gap:16px}
+.note{font-family:var(--mono);font-size:11px;letter-spacing:1px;color:#6f655a;text-align:center;max-width:370px;line-height:1.7}
+.note b{color:#C9A84C}
+
+/* ===== fog around the device ===== */
+.stage{position:relative;display:flex;align-items:center;justify-content:center;padding:38px 30px}
+.fog{position:absolute;inset:-10%;pointer-events:none;z-index:0;overflow:hidden;border-radius:30px}
+.fog i{position:absolute;border-radius:50%;filter:blur(34px);opacity:.5;mix-blend-mode:screen}
+.fog .f1{width:280px;height:200px;left:-30px;top:10px;background:radial-gradient(circle,#3a5a78,transparent 70%);animation:drift1 17s ease-in-out infinite}
+.fog .f2{width:300px;height:220px;right:-40px;bottom:0;background:radial-gradient(circle,#5a4a6a,transparent 70%);animation:drift2 21s ease-in-out infinite}
+.fog .f3{width:240px;height:180px;left:50%;top:-20px;background:radial-gradient(circle,#46606a,transparent 70%);animation:drift3 25s ease-in-out infinite}
+@keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,18px) scale(1.15)}}
+@keyframes drift2{0%,100%{transform:translate(0,0) scale(1.05)}50%{transform:translate(-36px,-22px) scale(.92)}}
+@keyframes drift3{0%,100%{transform:translate(-50%,0) scale(1)}50%{transform:translate(-42%,16px) scale(1.12)}}
+
+/* ===== skeuomorphic pager ===== */
+.pager{position:relative;z-index:1;width:316px;border-radius:20px 20px 26px 26px;padding:14px 14px 18px;
+ background:linear-gradient(180deg,#3a3a3d 0%,#222225 12%,#15151a 55%,#0a0a0d 100%);
+ box-shadow:0 1px 0 rgba(255,255,255,.18) inset,0 -10px 26px rgba(0,0,0,.5) inset,0 18px 40px rgba(0,0,0,.65),0 2px 4px rgba(0,0,0,.8);border:1px solid #000}
+.pager::before{content:'';position:absolute;left:10%;right:10%;top:5px;height:34px;border-radius:0 0 60% 60%/0 0 100% 100%;background:linear-gradient(180deg,rgba(255,255,255,.16),transparent);pointer-events:none}
+/* lights row (capture) + single goodness light (held) */
+.lights{display:flex;justify-content:center;align-items:center;gap:13px;margin:4px 0 7px;position:relative;z-index:1;min-height:23px}
+.led{width:21px;height:21px;border-radius:50%;background:radial-gradient(circle at 35% 28%,#3a3a3a,#0c0c0c 70%);box-shadow:0 1px 1px rgba(255,255,255,.12) inset,0 -2px 3px rgba(0,0,0,.7) inset,0 1px 2px rgba(0,0,0,.6);transition:box-shadow .08s,background .08s}
+.led.on{background:radial-gradient(circle at 35% 28%,#fff,var(--c) 60%);box-shadow:0 0 13px var(--c),0 0 5px var(--c),0 1px 1px rgba(255,255,255,.4) inset}
+.solo{width:24px;height:24px;border-radius:50%;background:radial-gradient(circle at 35% 28%,#fff,var(--c) 62%);box-shadow:0 0 16px var(--c),0 0 7px var(--c),0 1px 1px rgba(255,255,255,.5) inset;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.82}50%{opacity:1}}
+.brand{display:flex;align-items:baseline;justify-content:center;gap:7px;margin:1px 0 11px;position:relative;z-index:1}
+.brand .bn{font-family:'Jersey 15',var(--mono);font-size:16px;letter-spacing:3px;color:#d3d8d3;text-shadow:0 1px 0 #000,0 0 6px rgba(190,210,190,.25)}
+.brand .bm{font-family:var(--mono);font-size:9px;letter-spacing:2px;color:#7a857a}
+.screen{background:var(--scr);border-radius:7px;position:relative;overflow:hidden;min-height:178px;display:flex;flex-direction:column;border:1px solid #000;box-shadow:0 0 0 3px #1b1b1d,0 0 0 4px #000,inset 0 0 26px rgba(0,0,0,.9),inset 0 2px 8px rgba(0,0,0,.8),inset 0 0 8px #3df07a22;font-family:var(--dig);color:var(--lcd);text-shadow:0 0 5px #3df07a55}
+.scan{position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0,transparent 2px,rgba(0,0,0,.16) 3px);z-index:3}
+.glass{position:absolute;left:0;right:0;top:0;height:42%;background:linear-gradient(180deg,rgba(255,255,255,.06),transparent);pointer-events:none;z-index:3}
+.shead{display:flex;align-items:stretch;border-bottom:1px solid #1f6b33;position:relative;z-index:2}
+.stype{flex:1;display:flex;align-items:center;padding:7px 10px;font-size:20px;letter-spacing:2px;line-height:1}
+.rankbox{width:48px;flex:none;border-left:1px solid #1f6b33;display:flex;align-items:center;justify-content:center;background:#06200d;font-family:'Jersey 15',var(--dig);font-size:36px;line-height:.9;text-shadow:0 0 7px #3df07a99}
+.sbody{flex:1;padding:8px 10px;font-size:16px;line-height:1.4;overflow:auto;position:relative;z-index:2;max-height:150px}
+.sbody .me{opacity:.6}.sbody .cur{opacity:.55}
+.empty{font-size:17px;letter-spacing:1px;line-height:1.6;padding:16px 10px;position:relative;z-index:2}
+.confirm{padding:10px;border-top:1px solid #1f6b33;text-align:center;position:relative;z-index:2;font-size:16px}
+.confirm .q{display:block;margin-bottom:8px}
+.yn{background:#06200d;border:1px solid #3df07a;color:var(--lcd);font-family:var(--dig);font-size:16px;border-radius:6px;padding:6px 20px;cursor:pointer;margin:0 5px}
+.foot{position:relative;z-index:2;border-top:1px solid #1f6b33;display:flex;justify-content:center;padding:4px}
+.expand{background:#06200d;border:1px solid #1f6b33;color:var(--lcd);font-family:var(--dig);font-size:14px;letter-spacing:2px;border-radius:5px;padding:3px 24px;cursor:pointer}
+.kb{overflow:hidden;max-height:0;transition:max-height .3s ease;background:#0a0a0a;position:relative;z-index:2}
+.kb .inwrap{display:flex;gap:7px;padding:11px 10px}
+.kb input{flex:1;min-width:0;background:var(--scr);border:1px solid #1f6b33;border-radius:6px;color:var(--lcd);font-family:var(--dig);font-size:16px;padding:8px 9px;outline:none}
+.kb .send{flex:none;background:#06200d;border:1px solid #3df07a;color:var(--lcd);font-family:var(--dig);font-size:14px;border-radius:6px;padding:8px 13px;cursor:pointer}
+.keys{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px;position:relative;z-index:1}
+.key{font-family:'Jersey 15',var(--dig);font-size:16px;letter-spacing:2px;color:#dfe6df;padding:12px 4px;border-radius:11px;cursor:pointer;border:1px solid #000;background:linear-gradient(180deg,#37373b,#1c1c20 60%,#101013);box-shadow:0 1px 0 rgba(255,255,255,.22) inset,0 -3px 5px rgba(0,0,0,.6) inset,0 3px 5px rgba(0,0,0,.7),0 1px 1px rgba(0,0,0,.9);text-shadow:0 1px 1px #000;transition:transform .05s}
+.key:active{transform:translateY(2px)}
+.key.lit{color:#bfffce;text-shadow:0 0 7px #3df07a88,0 1px 1px #000;border-color:#1f6b33}
+.key.rel.lit{color:#ffc0a8;text-shadow:0 0 7px #e0552b88,0 1px 1px #000;border-color:#7a3320}
+.key[disabled]{opacity:.4;cursor:default;color:#7a7a7a;text-shadow:none}
+.key[disabled]:active{transform:none}
+</style></head>
+<body>
+<div class="note">SPIRIT CAPTURER · TEST BENCH<br><b>Offline — canned replies.</b> In the game, run the Warden and the entity answers in context. Here: CAPTURE fires the seal; once held, a single light shows its goodness, replies type out, and HOST only unlocks after you learn its name AND it agrees to ride you.</div>
+
+<div class="stage">
+  <div class="fog"><i class="f1"></i><i class="f2"></i><i class="f3"></i></div>
+  <div class="pager">
+    <div class="lights" id="lights"></div>
+    <div class="brand"><span class="bn">VEIL-DEV</span><span class="bm">V01-PRO</span></div>
+    <div class="screen" id="screen"><div class="scan"></div><div class="glass"></div><div id="screenInner"></div></div>
+    <div class="keys" id="keys">
+      <button class="key lit" id="kCap" onclick="onCapture()">CAPTURE</button>
+      <button class="key rel" id="kRel" onclick="onRelease()" disabled>RELEASE</button>
+      <button class="key" id="kHost" onclick="onHost()" disabled>HOST</button>
+      <button class="key" id="kPur" onclick="onPurify()" disabled>PURIFY</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var COLS=['#7bff9e','#36d46a','#1f9b4a','#e7b53e','#e8742b','#e23a2b'];
+var RANKS=['E','D','C','B','A','S'];
+var DUR={E:6,D:6,C:5,B:4,A:3,S:2};
+var ent=null, phase='empty', _kbOpen=false, _typing=null;
+var lightsEl=document.getElementById('lights'), leds=[];
+COLS.forEach(function(c){var d=document.createElement('div');d.className='led';d.style.setProperty('--c',c);lightsEl.appendChild(d);leds.push(d);});
+
+function ledOn(d){d.classList.add('on');} function ledOff(d){d.classList.remove('on');}
+function allOff(){leds.forEach(ledOff);} function allOn(){leds.forEach(ledOn);}
+// the SAME row of lights as capture, lit by the held thing's goodness (green end = good, red end = bad)
+function showGoodness(){ if(!ent){allOff();return;} var pct=(ent.lean+100)/2; var idx=Math.max(0,Math.min(5,Math.round((1-pct/100)*5))); leds.forEach(function(d,i){i===idx?ledOn(d):ledOff(d);}); }
+function flash(){ if(!ent)return; allOn(); clearTimeout(window._fl); window._fl=setTimeout(showGoodness,300); }
+function restoreRow(){} // leds now stay in place; kept as a no-op for existing calls
+
+function genEntity(){var demon=Math.random()<0.5;var rank=RANKS[Math.floor(Math.random()*RANKS.length)];
+ var dN=['The Tenant','The Quiet Hour','The Tally','The Long Guest'],sN=['Stairwell Child','The Homecomer','River-Brought','The Lingering'];
+ var dS=['I moved in when the house went quiet.','I count the ones who stop believing.','You opened a door you should have shut.'];
+ var sS=['I waited on the stairs.','The water took the rest of me.','I only wanted to go home.'];
+ return demon?{type:'DEMON',rank:rank,name:dN[Math.floor(Math.random()*dN.length)],story:dS[Math.floor(Math.random()*dS.length)],lean:-30-Math.floor(Math.random()*45),chat:[],nameKnown:false,hostAgreed:false}
+            :{type:'SPIRIT',rank:rank,name:sN[Math.floor(Math.random()*sN.length)],story:sS[Math.floor(Math.random()*sS.length)],lean:25+Math.floor(Math.random()*55),chat:[],nameKnown:false,hostAgreed:false};
+}
+function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+
+function setKeys(){var held=(phase==='held'||phase==='confirmR'||phase==='confirmH');
+ var kC=document.getElementById('kCap'),kR=document.getElementById('kRel'),kH=document.getElementById('kHost'),kP=document.getElementById('kPur');
+ kC.disabled=held;kC.classList.toggle('lit',!held);
+ kR.disabled=!held;kR.classList.toggle('lit',held);
+ var canHost=held&&ent&&ent.nameKnown&&ent.hostAgreed;
+ kH.disabled=!canHost;kH.classList.toggle('lit',canHost);
+ kH.title=canHost?('it consents · '+(DUR[ent.rank]||4)+' turns'):'learn its name, then win its consent';
+ var green=held&&ent&&ent.lean>=30;kP.disabled=!green;kP.classList.toggle('lit',green);kP.title=green?'send to rebirth':'green light only';
+}
+function render(){var inner=document.getElementById('screenInner');setKeys();
+ if(phase==='empty'){inner.innerHTML='<div class="empty">&gt; SEAL EMPTY<br>&gt; NO SIGNAL<br><br>&gt; press CAPTURE<br><br><span class="cur">_</span></div>';return;}
+ if(phase==='capturing'){inner.innerHTML='<div class="empty">&gt; SEALING<br>&gt; HOLD...<br><br><span class="cur">_</span></div>';return;}
+ if(phase==='hosted'){inner.innerHTML='<div class="empty">&gt; HOSTED<br>&gt; '+esc(ent?ent.name:'')+' rides you<br>&gt; +borrowed skill<br>&gt; '+(ent?(DUR[ent.rank]||4):0)+' turns<br><br><span class="cur">_</span></div>';return;}
+ var head='<div class="shead"><div class="stype">'+ent.type+'</div><div class="rankbox">'+ent.rank+'</div></div>';
+ var log=ent.chat.map(function(m,i){var last=(i===ent.chat.length-1);var id=(last&&m.who==='it')?' id="lastIt"':'';return m.who==='you'?('<div class="me">&gt;&gt; '+esc(m.t)+'</div>'):('<div'+id+'>&gt; '+esc(m.t)+'</div>');}).join('');
+ var body='<div class="sbody" id="sbody">'+log+'<div class="cur">_</div></div>';
+ if(phase==='confirmR'){inner.innerHTML=head+body+'<div class="confirm"><span class="q">Release '+(ent.type==='DEMON'?'the demon':'it')+' to the world?</span><button class="yn" onclick="doRelease(true)">Y</button><button class="yn" onclick="doRelease(false)">N</button></div>';}
+ else if(phase==='confirmH'){inner.innerHTML=head+body+'<div class="confirm"><span class="q">Let '+esc(ent.name)+' ride you? '+(DUR[ent.rank]||4)+' turns, double-cost skill, gone after.</span><button class="yn" onclick="doHost(true)">Y</button><button class="yn" onclick="doHost(false)">N</button></div>';}
+ else{inner.innerHTML=head+body+'<div class="foot"><button class="expand" id="expBtn" onclick="toggleKb()">'+(_kbOpen?'⌄':'⌃')+'</button></div><div class="kb" id="kb"><div class="inwrap"><input id="msg" placeholder="say something..." onkeydown="if(event.key===\'Enter\')send()"><button class="send" onclick="send()">SEND</button></div></div>';var k=document.getElementById('kb');if(k)k.style.maxHeight=_kbOpen?'150px':'0';}
+ var sb=document.getElementById('sbody');if(sb)sb.scrollTop=sb.scrollHeight;
+}
+
+// ----- typewriter for the entity's lines -----
+function typeReply(full){ clearInterval(_typing); ent.chat.push({who:'it',t:''}); render();
+ var i=0; _typing=setInterval(function(){ i++; ent.chat[ent.chat.length-1].t=full.slice(0,i);
+  var el=document.getElementById('lastIt'); if(el){el.innerHTML='&gt; '+esc(full.slice(0,i));} var sb=document.getElementById('sbody');if(sb)sb.scrollTop=sb.scrollHeight;
+  if(i>=full.length){clearInterval(_typing);} },26);
+}
+
+// ----- CAPTURE -----
+function onCapture(){ if(phase!=='empty')return; phase='capturing';render();restoreRow();allOff();
+ var fl=setInterval(function(){leds.forEach(function(d){Math.random()<0.5?ledOn(d):ledOff(d);});},70);
+ setTimeout(function(){clearInterval(fl);
+  if(Math.random()<0.75){allOn();ent=genEntity();ent.chat=[];phase='held';setTimeout(function(){showGoodness();render();typeReply(ent.story);},650);render();}
+  else{allOff();phase='empty';render();document.getElementById('screenInner').innerHTML='<div class="empty">&gt; SEAL OPEN<br>&gt; IT SLIPPED<br><br>&gt; press CAPTURE<br><br><span class="cur">_</span></div>';}
+ },1700);
+}
+// ----- RELEASE -----
+function onRelease(){ if(phase!=='held')return; phase='confirmR';render();typeReply(ent.lean>=30?'Thank you for the quiet.':'I will not forget your face.'); }
+function doRelease(yes){ if(yes){ent=null;phase='empty';restoreRow();allOff();}else{phase='held';}render(); }
+// ----- HOST (needs name + consent) -----
+function onHost(){ if(phase!=='held'||!ent.nameKnown||!ent.hostAgreed)return; phase='confirmH';render(); }
+function doHost(yes){ if(yes){phase='hosted';render();restoreRow();allOn();setTimeout(function(){ent=null;phase='empty';restoreRow();allOff();render();},1900);}else{phase='held';render();} }
+// ----- PURIFY (green only) -----
+function onPurify(){ if(phase!=='held'||!ent||ent.lean<30)return; flash();ent=null;phase='empty';restoreRow();allOff();render(); }
+
+// talk
+function toggleKb(){_kbOpen=!_kbOpen;var k=document.getElementById('kb');if(k)k.style.maxHeight=_kbOpen?'150px':'0';var e=document.getElementById('expBtn');if(e)e.textContent=_kbOpen?'⌄':'⌃';if(_kbOpen){var i=document.getElementById('msg');if(i)setTimeout(function(){i.focus();},120);}}
+var GM=(location.port==='8787')?'':'http://localhost:8787'; // the live Warden, if it's running
+function send(){var inp=document.getElementById('msg');if(!inp)return;var t=inp.value.trim();if(!t)return;ent.chat.push({who:'you',t:t});inp.value='';render();flash();
+ var ctx='SEALED ENTITY (you ARE this thing, caught inside a spirit-device, speaking only through its tiny screen): name='+ent.name+'; type='+ent.type+'; grade='+ent.rank+'; nature(lean -100 evil..100 good)='+ent.lean+'; story='+ent.story+'. Rei knows your name: '+(ent.nameKnown?'yes':'no')+'.';
+ var recent=ent.chat.slice(-8).map(function(m){return (m.who==='you'?'Rei':'You')+': '+m.t;}).join(' | ');
+ fetch(GM+'/gm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({mode:'entity',prompt:t,context:ctx+' RECENT: '+recent})})
+  .then(function(r){return r.json();}).then(function(j){var raw=(j&&j.text)?String(j.text).trim():'';if(!raw||/^\s*(```|[\[{])/.test(raw)){ent.lean=Math.min(100,ent.lean+4);raw=reply(t);}
+   else{if(typeof j.lean==='number')ent.lean=Math.max(-100,Math.min(100,j.lean));if(j.nameGiven)ent.nameKnown=true;if(j.agreesHost)ent.hostAgreed=true;}
+   typeReply(raw);flash();}).catch(function(){ent.lean=Math.min(100,ent.lean+4);typeReply(reply(t));flash();});
+ if(_kbOpen){var ni=document.getElementById('msg');if(ni)ni.focus();}}
+function pick(pool){pool=pool.filter(function(x){return x!==ent._last;});var o=pool[Math.floor(Math.random()*pool.length)]||'...';ent._last=o;return o;}
+function reply(t){t=t.toLowerCase();var good=ent.lean>=30;var out;
+ if(/name|who are you|call you/.test(t)){ent._na=(ent._na||0)+1;if(ent.lean>=0||ent._na>=2){ent.nameKnown=true;out='My name is '+ent.name+'.';}else out='Names are leashes. Not yet.';}
+ else if(/host|carry|vessel|inside me|let you in|ride me|come with me|use you/.test(t)){if(!ent.nameKnown)out='You do not even know my name.';else if(ent.lean>=30){ent.hostAgreed=true;out='Yes. Open, and I will fill you.';}else out='Earn it first. I share skin with no stranger.';}
+ else if(/kill|killed|murder|harm|did you|the plate|extra plate|them|the family/.test(t))out=good?'No. I only watched. I could not stop it.':pick(['Does it matter, now that I am here with you?','I was hungry. They were warm.','Should I have said sorry? I forget how.']);
+ else if(/free|out|release|go/.test(t))out=good?'Send me on. Kindly.':'Yes. Open it.';
+ else if(/good|kind|nice|safe/.test(t))out=good?'I try to be. It is hard, in here.':'Good? I am hungry. That is all I am.';
+ else if(/story|die|why|happen|were you/.test(t))out=ent.story;
+ else out=pick(good?['The cold is less now.','You are kind to me.','I could almost rest.','Keep me near the warm streets.']:['Do not pretend to care.','The glass is thin. Thinner than you think.','I am counting. Still counting.','You should not have caught me.']);
+ ent._last=out;return out;
+}
+render();allOff();
+</script>
+</body></html>

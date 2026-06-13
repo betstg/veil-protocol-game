@@ -6,11 +6,44 @@ are reproduced verbatim; relationships, companion and book prose are added as
 extra fields the game safely ignores and the AI Warden can use.
 Run from repo root:  python3 tools/export_db.py
 """
-import json, os, sqlite3, tempfile, shutil
+import json, os, sqlite3, tempfile, shutil, re
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def P(*a): return os.path.join(HERE, *a)
 def J(x): return json.loads(x) if x else None
+
+def tags_for(rec, p):
+    """A compact keyword index the Warden can scan to pull the right character
+    context fast, without re-reading the whole sheet. Token-economical: deduped,
+    short, capped. Derived purely from existing sheet data."""
+    p = p or {}
+    t = []
+    if rec.get("faction"):    t.append(rec["faction"])
+    if rec.get("tierLetter"): t.append("rank:" + str(rec["tierLetter"]))
+    if rec.get("registered") is True:  t.append("registered")
+    if rec.get("registered") is False: t.append("unregistered")
+    if rec.get("romanceable"): t.append("romanceable")
+    if rec.get("entity"):      t.append("entity")
+    emo = p.get("emotion") or p.get("register")
+    if emo: t.append(str(emo).lower())
+    for w in re.split(r"[,/;]| and ", str(p.get("traits") or "")):
+        w = w.strip().lower()
+        if 1 < len(w) <= 18: t.append(w)
+    kl = str(p.get("knowsLore") or "").lower()
+    if "practitioner" in kl: t.append("practitioner")
+    elif "civilian" in kl or kl.startswith("no "): t.append("civilian")
+    age = p.get("age")
+    if isinstance(age, int): t.append("minor" if age < 18 else "adult")
+    for ln in (rec.get("links") or []):
+        if ln.get("type") == "lives_at" and ln.get("to"): t.append("loc:" + str(ln["to"]))
+    for k in (p.get("knows") or [])[:4]:
+        t.append("knows:" + str(k))
+    seen, out = set(), []
+    for x in t:
+        x = str(x).strip()
+        if x and x.lower() not in seen:
+            seen.add(x.lower()); out.append(x)
+    return out[:14]
 
 src = P("data", "veil.db")
 # copy to local fs first (SQLite over a network/FUSE mount can error)
@@ -51,6 +84,7 @@ for c in cur.execute("SELECT * FROM characters WHERE COALESCE(is_player,0)=0 ORD
     if c["rank_note"]:      rec["rankNote"]  = c["rank_note"]
     _paths = J(c["paths_json"])
     if _paths:              rec["paths"]     = _paths
+    rec["tags"] = tags_for(rec, rec.get("persona"))   # GM lookup index
     characters.append(rec)
 
 def dump(name, rows):

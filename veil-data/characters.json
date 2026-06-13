@@ -141,7 +141,23 @@
   "tier": "Arbiter",
   "tierLetter": "A",
   "registered": true,
-  "standing": "CVD · registered"
+  "standing": "CVD · registered",
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "duty",
+   "polished",
+   "controlling",
+   "opaque",
+   "charming",
+   "practitioner",
+   "adult",
+   "loc:setagaya",
+   "knows:Okada Shizuka",
+   "knows:Nakamura Aoi"
+  ]
  },
  {
   "id": "fukai-rinka-kishin",
@@ -276,7 +292,22 @@
    "Telekinesis": 1,
    "Psychometabolism": 3,
    "Psychokinesis": 2
-  }
+  },
+  "tags": [
+   "vessel",
+   "rank:SS",
+   "unregistered",
+   "despair",
+   "gentle",
+   "magnetic",
+   "hollow",
+   "watchful",
+   "practitioner",
+   "adult",
+   "loc:farshore",
+   "knows:Ren",
+   "knows:Usami Hinata / Ren"
+  ]
  },
  {
   "id": "uedera-gin",
@@ -578,7 +609,23 @@
    "Clairsentience": 8,
    "Telepathy": 2,
    "Teleportation": 4
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:S",
+   "registered",
+   "duty",
+   "protective",
+   "dutiful",
+   "evasive",
+   "weary",
+   "practitioner",
+   "adult",
+   "loc:home",
+   "knows:Director Adachi Kenshin",
+   "knows:Okada Shizuka",
+   "knows:Kato Ryusei"
+  ]
  },
  {
   "id": "yushiro",
@@ -690,7 +737,21 @@
   "tier": "Guardian",
   "tierLetter": "SS",
   "registered": false,
-  "standing": "unregistered · hidden"
+  "standing": "unregistered · hidden",
+  "tags": [
+   "street",
+   "rank:SS",
+   "unregistered",
+   "entity",
+   "duty",
+   "calm",
+   "formal",
+   "relentless",
+   "patient",
+   "knows:Sasaki Daiki",
+   "knows:Aizawa Yuto",
+   "knows:Endo Sumi"
+  ]
  },
  {
   "id": "nakamura-aoi",
@@ -860,7 +921,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Psychokinesis": 4
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "love",
+   "perceptive",
+   "warm",
+   "reliable",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Katagiri Noa",
+   "knows:Okada Shizuka",
+   "knows:Moriya Tatsuki"
+  ]
  },
  {
   "id": "kato-ryusei",
@@ -1018,7 +1095,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Telepathy": 3
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:B",
+   "registered",
+   "romanceable",
+   "shame",
+   "clever",
+   "dry",
+   "useful",
+   "not-warm",
+   "practitioner",
+   "adult",
+   "loc:itabashi",
+   "knows:Katagiri Noa",
+   "knows:Uedera Gin"
+  ]
  },
  {
   "id": "katagiri-noa",
@@ -1206,7 +1299,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 5
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "shame",
+   "quiet",
+   "competent",
+   "steady",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Uedera Gin",
+   "knows:Tendo Akira",
+   "knows:Okada Shizuka"
+  ]
  },
  {
   "id": "tsukishiro-haruki",
@@ -1369,7 +1478,23 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 4
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:B",
+   "unregistered",
+   "romanceable",
+   "shame",
+   "warm",
+   "evasive",
+   "perceptive",
+   "practitioner",
+   "adult",
+   "loc:bunkyo",
+   "knows:Yamamoto Koji",
+   "knows:Leo' (Sato)",
+   "knows:Tanizaki Seiichi"
+  ]
  },
  {
   "id": "fujiwara-kage-sena",
@@ -1522,7 +1647,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 4
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "shame",
+   "careful",
+   "formal",
+   "guarded",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Tendo Akira",
+   "knows:Katagiri Noa",
+   "knows:Uehara"
+  ]
  },
  {
   "id": "moriya-tatsuki",
@@ -1681,7 +1822,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Psychometabolism": 5
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "fear",
+   "careful",
+   "formal",
+   "guarded",
+   "practitioner",
+   "adult",
+   "loc:nakano",
+   "knows:Fujiwara-Kage Sena",
+   "knows:Uedera Gin",
+   "knows:Okada Shizuka"
+  ]
  },
  {
   "id": "fujimoto-kenji-abe-takes",
@@ -1807,7 +1964,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "Grid · unregistered"
+  "standing": "Grid · unregistered",
+  "tags": [
+   "grid",
+   "rank:0",
+   "unregistered",
+   "wonder",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:otsuka",
+   "knows:Majima Kenji",
+   "knows:Inoue Misaki",
+   "knows:Tsukishiro Haruki"
+  ]
  },
  {
   "id": "usami-hinata-ren",
@@ -1942,7 +2114,22 @@
    "Clairsentience": 2,
    "Telepathy": 3,
    "Psychometabolism": 2
-  }
+  },
+  "tags": [
+   "vessel",
+   "rank:B",
+   "unregistered",
+   "romanceable",
+   "fear",
+   "fragile",
+   "dissociated",
+   "eerie",
+   "practitioner",
+   "adult",
+   "loc:koenji",
+   "knows:Ren",
+   "knows:Fukai Rinka / Kishin"
+  ]
  },
  {
   "id": "ren",
@@ -2053,7 +2240,21 @@
    "Clairsentience": 2,
    "Telepathy": 3,
    "Psychometabolism": 2
-  }
+  },
+  "tags": [
+   "vessel",
+   "rank:C",
+   "unregistered",
+   "romanceable",
+   "entity",
+   "despair",
+   "placid",
+   "uncanny",
+   "obedient",
+   "practitioner",
+   "knows:Usami Hinata / Ren",
+   "knows:Fukai Rinka / Kishin"
+  ]
  },
  {
   "id": "okada-shizuka",
@@ -2215,7 +2416,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Clairsentience": 4
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:B",
+   "registered",
+   "romanceable",
+   "courage",
+   "blunt",
+   "dependable",
+   "guarded",
+   "dry",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Katagiri Noa",
+   "knows:Nakamura Aoi"
+  ]
  },
  {
   "id": "director-adachi-kenshin",
@@ -2402,7 +2619,22 @@
   "paths": {
    "Clairsentience": 9,
    "Telepathy": 5
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:S",
+   "registered",
+   "despair",
+   "exacting",
+   "principled",
+   "unreadable",
+   "practitioner",
+   "adult",
+   "loc:setagaya",
+   "knows:Nakamura Aoi",
+   "knows:Okada Shizuka",
+   "knows:Shimizu Ren"
+  ]
  },
  {
   "id": "shimizu-ren",
@@ -2572,7 +2804,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Telekinesis": 6
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "grief",
+   "precise",
+   "decisive",
+   "blunt",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Okada Shizuka",
+   "knows:Uedera Gin",
+   "knows:Kato Ryusei"
+  ]
  },
  {
   "id": "yamamoto-koji",
@@ -2720,7 +2968,22 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 9
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:S",
+   "unregistered",
+   "awe",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:itabashi",
+   "knows:Choi Hana",
+   "knows:Switch",
+   "knows:Tanizaki Seiichi"
+  ]
  },
  {
   "id": "tendo-akira",
@@ -2897,7 +3160,23 @@
   "standing": "CVD · registered",
   "paths": {
    "Psychokinesis": 6
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "hunger",
+   "careful",
+   "formal",
+   "guarded",
+   "practitioner",
+   "adult",
+   "loc:setagaya",
+   "knows:Okada Shizuka",
+   "knows:Hagiwara Mizuki",
+   "knows:Director Adachi Kenshin"
+  ]
  },
  {
   "id": "choi-hana",
@@ -3102,7 +3381,23 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 6
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:A",
+   "unregistered",
+   "romanceable",
+   "fear",
+   "guarded",
+   "sharp",
+   "loyal-once-earned",
+   "practitioner",
+   "adult",
+   "loc:shinokubo",
+   "knows:Mochizuki Sora",
+   "knows:Tsukishiro Haruki",
+   "knows:Tanizaki Seiichi"
+  ]
  },
  {
   "id": "kuroda-sei",
@@ -3251,7 +3546,22 @@
   "standing": "Tower family · registered",
   "paths": {
    "Teleportation": 5
-  }
+  },
+  "tags": [
+   "towers",
+   "rank:B",
+   "registered",
+   "longing",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:kabuki",
+   "knows:Tanaka Ryu",
+   "knows:Fujimoto Kenji / Abe Takeshi",
+   "knows:Kurosawa Shou"
+  ]
  },
  {
   "id": "kuroda-itsuki",
@@ -3395,7 +3705,22 @@
   "rankNote": "Latent Arbiter-class Kuroda teleportation, BLOCKED — never opened clean; presents as a Null and cannot use it without real need and training.",
   "paths": {
    "Teleportation": 6
-  }
+  },
+  "tags": [
+   "towers",
+   "rank:A",
+   "registered",
+   "romanceable",
+   "wonder",
+   "loyal",
+   "sardonic",
+   "restless",
+   "soft underneath",
+   "practitioner",
+   "adult",
+   "loc:geidai",
+   "knows:Kuroda Sei"
+  ]
  },
  {
   "id": "kurosawa-shou",
@@ -3577,7 +3902,23 @@
   "paths": {
    "Psychometabolism": 9,
    "Psychokinesis": 5
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:S",
+   "unregistered",
+   "romanceable",
+   "fear",
+   "formidable",
+   "withholding",
+   "exacting",
+   "practitioner",
+   "adult",
+   "loc:adachi",
+   "knows:Mochizuki Sora",
+   "knows:Fujimoto Kenji / Abe Takeshi",
+   "knows:Kuroda Itsuki"
+  ]
  },
  {
   "id": "tanizaki-seiichi",
@@ -3778,7 +4119,22 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Psychokinesis": 6
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:A",
+   "unregistered",
+   "grief",
+   "patient",
+   "wry",
+   "deep",
+   "practitioner",
+   "adult",
+   "loc:sanya",
+   "knows:Kurosawa Shou",
+   "knows:Switch",
+   "knows:Tsukishiro Haruki"
+  ]
  },
  {
   "id": "inoue-misaki",
@@ -3929,7 +4285,23 @@
   "paths": {
    "Clairsentience": 4,
    "Psychokinesis": 7
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:SSS",
+   "unregistered",
+   "romanceable",
+   "love",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:ojihome",
+   "knows:Switch",
+   "knows:Fujimoto Kenji / Abe Takeshi",
+   "knows:Kuroda Sei"
+  ]
  },
  {
   "id": "tanaka-ryu",
@@ -4097,7 +4469,23 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Psychometabolism": 6
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:S",
+   "unregistered",
+   "romanceable",
+   "fear",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:itabashi",
+   "knows:Hara Setsu",
+   "knows:Mochizuki Sora",
+   "knows:Yamamoto Koji"
+  ]
  },
  {
   "id": "majima-kenji",
@@ -4273,7 +4661,23 @@
   "paths": {
    "Telekinesis": 7,
    "Psychometabolism": 2
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:S",
+   "unregistered",
+   "romanceable",
+   "hunger",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:taito",
+   "knows:Tanizaki Seiichi",
+   "knows:Kuroda Itsuki",
+   "knows:Leo' (Sato)"
+  ]
  },
  {
   "id": "uehara",
@@ -4426,7 +4830,23 @@
   "paths": {
    "Clairsentience": 7,
    "Psychokinesis": 3
-  }
+  },
+  "tags": [
+   "cvd",
+   "rank:S",
+   "registered",
+   "romanceable",
+   "despair",
+   "careful",
+   "formal",
+   "guarded",
+   "practitioner",
+   "adult",
+   "loc:cvd",
+   "knows:Hagiwara Mizuki",
+   "knows:Okada Shizuka",
+   "knows:Tendo Akira"
+  ]
  },
  {
   "id": "mochizuki-sora",
@@ -4588,7 +5008,23 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 5
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:A",
+   "unregistered",
+   "romanceable",
+   "shame",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:koenji",
+   "knows:Kuroda Sei",
+   "knows:Choi Hana",
+   "knows:Yamamoto Koji"
+  ]
  },
  {
   "id": "kaneda-t-ru",
@@ -4750,7 +5186,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:suzuran",
+   "knows:Endo Sumi",
+   "knows:Serizawa",
+   "knows:Iwata Kenji"
+  ]
  },
  {
   "id": "hara-setsu",
@@ -4905,7 +5356,22 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 4
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:E",
+   "unregistered",
+   "shame",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:taito",
+   "knows:Mochizuki Sora",
+   "knows:Majima Kenji",
+   "knows:Tanaka Ryu"
+  ]
  },
  {
   "id": "end-masa",
@@ -5076,7 +5542,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 1
-  }
+  },
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "longing",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:azabu",
+   "knows:Pak Sun-ja",
+   "knows:Kaneda Tōru",
+   "knows:Kawai Yuki"
+  ]
  },
  {
   "id": "serizawa",
@@ -5221,7 +5701,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:tsukishima",
+   "knows:Komatsu Shigeru",
+   "knows:Miyamoto Kazuo",
+   "knows:Father Anselm Mbeki"
+  ]
  },
  {
   "id": "got-hideki",
@@ -5371,7 +5865,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "rage",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:nishishinjuku",
+   "knows:The Beck's Man",
+   "knows:Komatsu Shigeru",
+   "knows:Det. Sgt. Arai Goro"
+  ]
  },
  {
   "id": "mariko",
@@ -5519,7 +6027,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:suzuran",
+   "knows:Sone Kimiko",
+   "knows:Old Maki",
+   "knows:Tatsu"
+  ]
  },
  {
   "id": "the-beck-s-man",
@@ -5639,7 +6161,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:nerima",
+   "knows:Komatsu Shigeru",
+   "knows:Master Lin Wei",
+   "knows:Tanabe Isamu"
+  ]
  },
  {
   "id": "yua",
@@ -5775,7 +6311,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "fear",
+   "quick",
+   "wary",
+   "scrappy",
+   "minor",
+   "loc:kabuki",
+   "knows:Sato",
+   "knows:Gotō Hideki",
+   "knows:Miyamoto Kazuo"
+  ]
  },
  {
   "id": "kuroki-tatsuo",
@@ -5918,7 +6468,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "courage",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:mejiro",
+   "knows:Aizawa Yuto",
+   "knows:Kaneda Tōru",
+   "knows:Mori Haruto"
+  ]
  },
  {
   "id": "wada-sho",
@@ -6069,7 +6633,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "shame",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:shinokubo",
+   "knows:Father Anselm Mbeki",
+   "knows:Gotō Hideki",
+   "knows:The Beck's Man"
+  ]
  },
  {
   "id": "it-kenta",
@@ -6220,7 +6799,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "shame",
+   "quick",
+   "wary",
+   "scrappy",
+   "adult",
+   "loc:adachi",
+   "knows:Mariko",
+   "knows:Mori Haruto",
+   "knows:Kuroki Tatsuo"
+  ]
  },
  {
   "id": "aizawa-yuto",
@@ -6371,7 +6965,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "hunger",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:hiroo",
+   "knows:Komatsu Shigeru",
+   "knows:Mori Haruto",
+   "knows:Kaneda Tōru"
+  ]
  },
  {
   "id": "sugimoto-tatsuya",
@@ -6518,7 +7127,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 1
-  }
+  },
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "despair",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:taito",
+   "knows:Yushiro",
+   "knows:Gotō Hideki",
+   "knows:Kaneda Tōru"
+  ]
  },
  {
   "id": "mori-haruto",
@@ -6652,7 +7275,21 @@
   "paths": {
    "Clairsentience": 1,
    "Telepathy": 1
-  }
+  },
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "love",
+   "quick",
+   "wary",
+   "scrappy",
+   "minor",
+   "loc:ojihome",
+   "knows:Sato",
+   "knows:Pak Sun-ja",
+   "knows:Yushiro"
+  ]
  },
  {
   "id": "tanabe-isamu",
@@ -6784,7 +7421,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:ojihome",
+   "knows:Kawai Yuki",
+   "knows:Saeki Reno",
+   "knows:Det. Sgt. Arai Goro"
+  ]
  },
  {
   "id": "leo-sato",
@@ -6940,7 +7591,23 @@
   "standing": "Grid · unregistered",
   "paths": {
    "Clairsentience": 5
-  }
+  },
+  "tags": [
+   "grid",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "longing",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:kabuki",
+   "knows:Tsukishiro Haruki",
+   "knows:Yamamoto Koji",
+   "knows:Fujimoto Kenji / Abe Takeshi"
+  ]
  },
  {
   "id": "mali",
@@ -7097,7 +7764,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "romanceable",
+   "longing",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:shinokubo",
+   "knows:Pak Sun-ja",
+   "knows:Sato",
+   "knows:Endo Sumi"
+  ]
  },
  {
   "id": "komatsu-shigeru",
@@ -7234,7 +7916,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:ojihome",
+   "knows:Yoshida Goro",
+   "knows:Miyamoto Kazuo",
+   "knows:Endō Masa"
+  ]
  },
  {
   "id": "iwata-kenji",
@@ -7358,7 +8054,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:ojihome",
+   "knows:Det. Sgt. Arai Goro",
+   "knows:Gotō Hideki",
+   "knows:Aizawa Yuto"
+  ]
  },
  {
   "id": "saeki-reno",
@@ -7489,7 +8199,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:kabuki",
+   "knows:Sone Kimiko",
+   "knows:Sasaki Daiki",
+   "knows:Serizawa"
+  ]
  },
  {
   "id": "sasaki-daiki",
@@ -7614,7 +8338,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "love",
+   "quick",
+   "wary",
+   "scrappy",
+   "minor",
+   "loc:itabashi",
+   "knows:Old Maki",
+   "knows:Rev. Egami Jakū",
+   "knows:Wada Sho"
+  ]
  },
  {
   "id": "maruyama-toshio",
@@ -7752,7 +8490,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:ojihome",
+   "knows:Father Anselm Mbeki",
+   "knows:Gotō Hideki",
+   "knows:Tanabe Isamu"
+  ]
  },
  {
   "id": "kawai-yuki",
@@ -7882,7 +8634,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:ojihome",
+   "knows:Gotō Hideki",
+   "knows:Det. Sgt. Arai Goro",
+   "knows:Iwata Kenji"
+  ]
  },
  {
   "id": "tatsu",
@@ -8017,7 +8783,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "awe",
+   "calm",
+   "watchful",
+   "kind",
+   "adult",
+   "loc:ojihome",
+   "knows:Sugimoto Tatsuya",
+   "knows:Endo Sumi",
+   "knows:Kaneda Tōru"
+  ]
  },
  {
   "id": "yoshida-goro",
@@ -8147,7 +8927,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:kabuki",
+   "knows:Endō Masa",
+   "knows:Tanabe Isamu",
+   "knows:Old Maki"
+  ]
  },
  {
   "id": "the-woman-at-the-back",
@@ -8282,7 +9076,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 2
-  }
+  },
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "fear",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:suzuran",
+   "knows:Adé Okonkwo",
+   "knows:Kawai Yuki",
+   "knows:Maruyama Toshio"
+  ]
  },
  {
   "id": "miyamoto-kazuo",
@@ -8430,7 +9238,21 @@
   "tier": "Ritualist",
   "tierLetter": "B",
   "registered": false,
-  "standing": "unregistered · hidden"
+  "standing": "unregistered · hidden",
+  "tags": [
+   "street",
+   "rank:B",
+   "unregistered",
+   "awe",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:inari",
+   "knows:Father Anselm Mbeki",
+   "knows:Gotō Hideki",
+   "knows:Det. Sgt. Arai Goro"
+  ]
  },
  {
   "id": "rev-egami-jak",
@@ -8562,7 +9384,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "awe",
+   "calm",
+   "watchful",
+   "kind",
+   "adult",
+   "loc:taito",
+   "knows:Endō Masa",
+   "knows:Mali",
+   "knows:Miyamoto Kazuo"
+  ]
  },
  {
   "id": "father-anselm-mbeki",
@@ -8695,7 +9531,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "awe",
+   "calm",
+   "watchful",
+   "kind",
+   "adult",
+   "loc:shinokubo",
+   "knows:Det. Sgt. Arai Goro",
+   "knows:Yoshida Goro",
+   "knows:The Beck's Man"
+  ]
  },
  {
   "id": "master-lin-wei",
@@ -8822,7 +9672,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "awe",
+   "calm",
+   "watchful",
+   "kind",
+   "adult",
+   "loc:shinokubo",
+   "knows:Mariko",
+   "knows:Maruyama Toshio",
+   "knows:Endo Sumi"
+  ]
  },
  {
   "id": "pak-sun-ja",
@@ -8956,7 +9820,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 5
-  }
+  },
+  "tags": [
+   "street",
+   "rank:B",
+   "unregistered",
+   "awe",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:shinokubo",
+   "knows:Tatsu",
+   "knows:Rev. Egami Jakū",
+   "knows:Yua"
+  ]
  },
  {
   "id": "baba-adewale",
@@ -9091,7 +9969,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 3
-  }
+  },
+  "tags": [
+   "street",
+   "rank:B",
+   "unregistered",
+   "awe",
+   "calm",
+   "watchful",
+   "kind",
+   "adult",
+   "loc:shinokubo",
+   "knows:The Beck's Man",
+   "knows:Det. Sgt. Arai Goro",
+   "knows:Rev. Egami Jakū"
+  ]
  },
  {
   "id": "switch",
@@ -9218,7 +10110,22 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "Grid · unregistered"
+  "standing": "Grid · unregistered",
+  "tags": [
+   "grid",
+   "rank:0",
+   "unregistered",
+   "rage",
+   "shrewd",
+   "proud",
+   "transactional",
+   "practitioner",
+   "adult",
+   "loc:kabuki",
+   "knows:Kuroda Itsuki",
+   "knows:Yamamoto Koji",
+   "knows:Fujimoto Kenji / Abe Takeshi"
+  ]
  },
  {
   "id": "old-tomi",
@@ -9344,7 +10251,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:ojihome",
+   "knows:Yoshida Goro",
+   "knows:Sato",
+   "knows:Sone Kimiko"
+  ]
  },
  {
   "id": "sato",
@@ -9472,7 +10393,21 @@
   "standing": "unregistered · hidden",
   "paths": {
    "Clairsentience": 2
-  }
+  },
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "wonder",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:shibuya",
+   "knows:Miyamoto Kazuo",
+   "knows:Pak Sun-ja",
+   "knows:Father Anselm Mbeki"
+  ]
  },
  {
   "id": "endo-sumi",
@@ -9605,7 +10540,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:river",
+   "knows:Kaneda Tōru",
+   "knows:Kuroki Tatsuo",
+   "knows:Sato"
+  ]
  },
  {
   "id": "det-sgt-arai-goro",
@@ -9730,7 +10679,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "despair",
+   "weary",
+   "sharp-eyed",
+   "blunt",
+   "adult",
+   "loc:ojihome",
+   "knows:Yushiro",
+   "knows:Mori Haruto",
+   "knows:Sugimoto Tatsuya"
+  ]
  },
  {
   "id": "old-maki",
@@ -9855,7 +10818,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "wry",
+   "weathered",
+   "knowing",
+   "adult",
+   "loc:ojihome",
+   "knows:Rev. Egami Jakū",
+   "knows:Serizawa",
+   "knows:Tanabe Isamu"
+  ]
  },
  {
   "id": "ad-okonkwo",
@@ -9979,7 +10956,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "grief",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:shinokubo",
+   "knows:The Beck's Man",
+   "knows:Komatsu Shigeru",
+   "knows:Mariko"
+  ]
  },
  {
   "id": "the-bookseller",
@@ -10116,7 +11107,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "longing",
+   "dry",
+   "erudite",
+   "sly",
+   "adult",
+   "loc:bunkyo",
+   "knows:Miyamoto Kazuo",
+   "knows:The Beck's Man",
+   "knows:Sone Kimiko"
+  ]
  },
  {
   "id": "sone-kimiko",
@@ -10246,7 +11251,21 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "awe",
+   "plain",
+   "shrewd",
+   "fair",
+   "adult",
+   "loc:ojihome",
+   "knows:Saeki Reno",
+   "knows:Mori Haruto",
+   "knows:Det. Sgt. Arai Goro"
+  ]
  },
  {
   "id": "kuroda-soun",
@@ -10353,7 +11372,21 @@
   "tier": "Arbiter",
   "tierLetter": "A",
   "registered": true,
-  "standing": "Tower family · registered"
+  "standing": "Tower family · registered",
+  "tags": [
+   "towers",
+   "rank:A",
+   "registered",
+   "love",
+   "stern",
+   "dynastic",
+   "controlled",
+   "quietly grieving",
+   "adult",
+   "loc:kurodacompound",
+   "knows:Kuroda Itsuki",
+   "knows:Kuroda Sei"
+  ]
  },
  {
   "id": "matsuda-keiko",
@@ -10451,7 +11484,20 @@
   "tier": "Sensitive",
   "tierLetter": "E",
   "registered": false,
-  "standing": "unregistered · hidden"
+  "standing": "unregistered · hidden",
+  "tags": [
+   "street",
+   "rank:E",
+   "unregistered",
+   "fear",
+   "quiet",
+   "knowing",
+   "unhurried",
+   "practitioner",
+   "adult",
+   "loc:cafeasahi",
+   "knows:Hayashi Fumiko"
+  ]
  },
  {
   "id": "hayashi-fumiko",
@@ -10549,7 +11595,20 @@
   "tier": "Adept",
   "tierLetter": "C",
   "registered": true,
-  "standing": "CVD-affiliated medium · registered"
+  "standing": "CVD-affiliated medium · registered",
+  "tags": [
+   "street",
+   "rank:C",
+   "registered",
+   "duty",
+   "competent",
+   "direct",
+   "kind-by-action",
+   "practitioner",
+   "adult",
+   "loc:ojiclinic",
+   "knows:Matsuda Keiko"
+  ]
  },
  {
   "id": "kondo-fumio",
@@ -10646,6 +11705,18 @@
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
-  "standing": "civilian"
+  "standing": "civilian",
+  "tags": [
+   "street",
+   "rank:0",
+   "unregistered",
+   "joy",
+   "warm",
+   "habitual",
+   "practitioner",
+   "adult",
+   "loc:jujobakery",
+   "knows:Sone Kimiko"
+  ]
  }
 ]
