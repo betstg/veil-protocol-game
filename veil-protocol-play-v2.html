@@ -636,8 +636,10 @@ var IMG_TERMS=[
  ['Kemuri','place_kemuri','Kemuri'],['Mikazuki','place_mikazuki','Mikazuki'],['Toraya','place_toraya','Toraya'],
  ['Akebono','place_akebono','Akebono'],['mudang','place_mudang',"The mudang's place"],
  ['cultivation room','cvdroom_the_cultivation_room','The CVD cultivation room'],['room of artifacts','cvdroom_room_of_artifacts','The room of artifacts'],['cattery','cvdroom_cattery','The CVD cattery'],
- ['cat-medium','animal_cat','A cat-medium'],['crow-medium','animal_crow','A crow-medium'],['dog-medium','animal_dog','A dog-medium'],
- ['snake-medium','animal_snake','A snake-medium'],['toad-medium','animal_toad','A toad-medium'],['rat-mediums','animal_rats','Rat-mediums']
+ ['Shiro','med_shiro','Shiro — a white temple-bred cat-medium'],['Kuro','med_kuro','Kuro — a black cat-medium, a living ward-anchor'],['Benten','med_benten','Benten — a shop-bred cat-medium'],
+ ['Kuma','med_kuma','Kuma — a working dog that stands beside an exorcist'],['Hachi','med_hachi','Hachi — a scent-and-residue tracker dog'],
+ ['Yatabe','med_yatabe','Yatabe — a divination raven'],['Gorō','med_goro','Gorō — a crow trained beside a mudang'],['Goro','med_goro','Gorō — a crow trained beside a mudang'],
+ ['Mizuchi','med_mizuchi','Mizuchi — a gentle serpent that feels the veil'],['Chū','med_chuu','Chū — a clever rat that finds the anchor of a haunting'],['Chuu','med_chuu','Chū — a clever rat-medium'],['Kawazu','med_kawazu','Kawazu — a pond-frog of a Shingon water rite']
 ];
 var _IMGMAP=null,_IMGRE=null;
 function _imgIndex(){ if(_IMGMAP)return; _IMGMAP={}; var phr=[]; IMG_TERMS.forEach(function(t){ _IMGMAP[t[0].toLowerCase()]={file:t[1],label:t[2]}; phr.push(t[0]); });
@@ -1195,6 +1197,7 @@ function renderShop(){ var p=G.player, list=(DB.shop_animals||[]), owned=(p.comp
  if(!list.length){ h+='<p style="color:var(--dim)">The broker has nothing for you right now.</p>'; }
  list.forEach(function(s){ var have=owned.indexOf(s.id)>=0; var ok=(p.money||0)>=s.price.money;
   h+='<div style="border:1px solid var(--bdr);border-radius:8px;padding:10px 12px;margin:8px 0;background:#0e0b08">';
+  h+='<div style="display:flex;gap:10px"><img src="images/'+String(s.id).replace(/-/g,"_")+'.png" alt="" onerror="this.style.display=\'none\'" style="width:56px;height:56px;object-fit:cover;border-radius:8px;border:1px solid var(--bdr);flex:none"><div style="flex:1;min-width:0">';
   h+='<div style="display:flex;justify-content:space-between;align-items:baseline"><b style="font-family:Cinzel,serif;color:var(--text)">'+s.name+'</b><span style="font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase">'+s.species+'</span></div>';
   h+='<div style="font-family:var(--mono);font-size:11px;color:'+(ok?'var(--gold)':'#b65a4c')+';margin:2px 0 6px">¥'+s.price.money.toLocaleString()+'</div>';
   h+='<div style="font-size:12px;color:var(--text);margin:2px 0"><b style="color:var(--dim)">Ritual</b> '+s.ritual+'</div>';
@@ -1202,6 +1205,7 @@ function renderShop(){ var p=G.player, list=(DB.shop_animals||[]), owned=(p.comp
   h+='<div style="font-size:11.5px;color:var(--dim);font-style:italic;margin:4px 0 8px">'+s.blurb+'</div>';
   h+=have?'<div style="font-family:var(--mono);font-size:11px;color:#8fae74">✓ Bonded — travels with you.</div>'
         :'<button class="btn" '+(ok?'':'disabled style="opacity:.45;cursor:default"')+' onclick="buyMedium(\''+s.id+'\')">'+(ok?'Acquire ›':'Not enough yen')+'</button>';
+  h+='</div></div>'; // close inner text col + image flexbox
   h+='</div>';
  });
  h+='<div style="margin-top:12px;border-top:1px solid var(--bdr);padding-top:10px"><button class="btn" style="width:100%" onclick="shopLeave()">Never mind ›</button></div>';
@@ -2450,14 +2454,19 @@ function devChat(s){ if(!s.chat){ s.chat=[{who:'it',t:(s.story?s.story:'...').to
 function devLean(s){ return s?((s.lean!=null)?s.lean:entityLean(s)):0; }
 // offline / fallback voice — short, in register and lean
 function _devPick(s,pool){ pool=pool.filter(function(x){return x!==s._last;}); var out=pool[Math.floor(Math.random()*pool.length)]||'...'; s._last=out; return out; }
-function deviceReply(s,raw){ var t=(raw||'').toLowerCase(); var good=leanIsGood(devLean(s)); var out;
- if(/\b(name|who|what are you)\b/.test(t)) out=s.name+'. '+(s.register?('I am what '+String(s.register).toLowerCase()+' left.'):'');
- else if(/\b(kill|killed|murder|harm|hurt them|did you|the plate|extra plate|the family|them)\b/.test(t)) out=good?'No. I only watched. I could not stop it.':_devPick(s,['Does it matter, now that I am here with you?','I was hungry. They were warm.','Should I have said sorry? I forget how.']);
- else if(/\b(story|happen|how|why|die|death|killed|were you)\b/.test(t)) out=s.story?s.story:'I do not remember the end.';
- else if(/\b(free|let me|out|release|leave|go)\b/.test(t)) out=good?'Send me on. Kindly.':'Yes. Open it.';
- else if(/\b(good|kind|safe|nice)\b/.test(t)) out=good?'I try to be. It is hard, in here.':'Good? I am hungry. That is all I am.';
- else if(/\b(help|please|save)\b/.test(t)) out=good?'I will, if you carry me kindly.':'I am the one in the box.';
- else out=_devPick(s, good?['The cold is less now.','You are kind to me.','I could almost rest.','Keep me near the warm streets.']:['Do not pretend to care.','The glass is thin. Thinner than you think.','I am counting. Still counting.','You should not have caught me.']);
+function deviceReply(s,raw){ var t=(raw||'').toLowerCase(); var good=leanIsGood(devLean(s)); var reg=String(s.register||'').toLowerCase(); var out;
+ if(/\b(name|who are you|what are you|call you)\b/.test(t)) out=s.name?(good?('They called me '+s.name+'. It is more than I have had in a long while.'):(s.name+'. Wear it out, if you like. Names cost me nothing now.')):'Names are a leash. I have slipped enough of them.';
+ else if(/\b(sorry|apolog)\b/.test(t)) out=good?'...sorry. There. The word still fits in my mouth, barely.':'Sorry is a coin for the living. I stopped carrying it.';
+ else if(/\b(kill|killed|murder|harm|hurt|the plate|extra plate|the family|them)\b/.test(t)) out=good?'I did not mean to. I only wanted in where it was warm.':_devPick(s,['Does it matter now, from inside your glass?','They set a place and never counted the chairs. I sat down.','I was hungry. They were warm. That is the whole of it.','Ask me again after you have been hungry that long.']);
+ else if(/\bwhy\b/.test(t)) out=good?_devPick(s,['Because the quiet let me in, and no one shut the door.','Because being forgotten is its own slow starving.']):_devPick(s,['Because you came looking. People who look get answered.','Why does the cold come through an open window? It is only what I am.']);
+ else if(/\b(where|north|water|river|went|go to)\b/.test(t)) out=_devPick(s,['North. Everything finished drifts north here, toward the water.','Nowhere now. I am in a box you carry from room to room.']);
+ else if(/(\bstory|\bhappen|how did|\bdied|\bdeath|were you|your life|your past)/.test(t)){ if(s._toldStory)out=good?'I have told you. Do not make me live it twice.':'Already told. Pull a different thread.'; else {s._toldStory=true; out=s.story||'I do not remember the end. Only the cold of it, and that it came slow.';} }
+ else if(/\b(free|let me|out|release|leave|let go)\b/.test(t)) out=good?'Open the seal and send me on. I am tired of corridors.':'Yes. Open it. I will be gentle with the ones who freed me. Mostly.';
+ else if(/\b(host|carry|vessel|inside|ride|use you|be my)\b/.test(t)) out=good?'I would walk in your skin softly, if you truly asked it of me.':'Let me in, and learn what I leave behind.';
+ else if(/\b(good|kind|safe|nice|trust)\b/.test(t)) out=good?'I am trying. It is harder in here than you would think.':'Good is a story the warm tell each other. I am the cold beneath it.';
+ else if(/\b(help|please|save)\b/.test(t)) out=good?'I will, if you carry me kindly and let me go clean.':'I am the thing in the box. What help did you imagine?';
+ else if(/\b(hi|hello|hey|there|you ok|are you|listen|talk)\b/.test(t)) out=({grief:'I am cold. Is it still raining up there?',fear:'Do not look straight at me. Please.',despair:'There is no point in this. But go on.',rage:'Let me OUT of here.',hunger:'Come closer. Let me see you properly.',love:'You came back. I knew you would.',joy:'A visitor. How lovely. How lovely.',longing:'Sit with me a moment. Just a moment.'}[reg])||(good?'...yes. Still here. Still listening.':'...still here. Always still here.');
+ else out=_devPick(s, good?['The cold is a little less, with you near.','You are kinder than the last hands that held me.','I could almost rest. Almost.','Keep me where the city stays warm.','Tell me something from the living side.','Your voice is the first soft thing in a long time.']:['Do not pretend to care. I can hear the pretending.','The glass is thin. Thinner than you think.','I am counting. I am very good at counting.','You should not have caught me.','I remember every face that has held me.','Lean closer. I will whisper how this ends.']);
  s._last=out; return out;
 }
 // while a thing is held, the SAME row of lights as the capture, lit by its goodness (green end = good, red end = bad)
