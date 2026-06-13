@@ -6335,6 +6335,21 @@
    "She develops a one-sided crush on Rei, because Rei is cool and, more importantly, because he treats her like a person and not a problem. Like Mori’s, it stays a crush and nothing else — she is a minor and the story holds that line without exception. It shows as prickly loyalty, showing off her network to impress him, and a fierce, unspoken disappointment she would never admit to. Rei’s job is to be a steady, safe adult presence: the rarest thing in her life.",
    "Yua’s street network is a real game system — eyes in places the CVD and the Grid both miss. Earning it means earning her trust, and her trust is the slowest, most worthwhile currency in Kabukichō."
   ],
+  "quest": {
+   "tag": "Street",
+   "title": "Somewhere to be that isn't the street",
+   "hook": "Yua sleeps where the Toyoko kids sleep and has decided, at sixteen, that no adult is safe; she is wrong about you, and would rather not find out.",
+   "stages": [
+    "Be useful to her without asking anything back.",
+    "Don't flinch at the armour or the test she sets you.",
+    "Give her one real choice that is hers alone to make."
+   ],
+   "payoff": "A sharp pair of eyes on the under-city, and a kid who lets one adult matter again.",
+   "goal": "What they want: to get through the night unowed to anyone",
+   "place": "Kabukichō / Toyoko",
+   "stake": "Sixteen, wary, layered against the world; one wrong adult from disappearing into worse.",
+   "consequence": "Reached, she becomes a true informant of the street; ignored, she vanishes into the city's worst rooms."
+  },
   "crush": {
    "after": "Rei proves, more than once, that he is not going to use her or vanish.",
    "note": "One-sided and unspoken. Played as loyalty and bravado, never reciprocated romantically.",
@@ -7295,6 +7310,21 @@
    "Mori develops a crush on Rei — and that is exactly where it stays. Rei is nineteen; Mori is a minor, and the story treats that line as absolute. The feeling is characterisation, not a route: it makes Mori braver, more loyal, occasionally reckless on Rei’s behalf, and quietly heartbroken in the ordinary way first crushes break. If it is ever spoken aloud, the most it becomes is a promise — that they could talk about it when Mori is older — and a hug, nothing more.",
    "His latent sensitivity is a thread for later: untrained, he is the kind of kid the Grid recruits and the cults prey on. Keeping Mori ordinary may be a kindness Rei can’t actually afford to give."
   ],
+  "quest": {
+   "tag": "Street",
+   "title": "The one the others follow",
+   "hook": "Mori is seventeen and the steadiest of the Toyoko kids, which has made him responsible for all of them and no one responsible for him.",
+   "stages": [
+    "See the weight he carries for the others.",
+    "Take one burden off him without making it charity.",
+    "Let him be young for an hour without it costing the group."
+   ],
+   "payoff": "The trust of the kids who see everything in the night districts, through the one they trust.",
+   "goal": "What they want: to keep his small flock fed and unfound",
+   "place": "Toyoko",
+   "stake": "Seventeen, parental to children barely younger, burning out before he is grown.",
+   "consequence": "Helped, the Toyoko kids become eyes across the city; failed, the weight finally breaks him."
+  },
   "crush": {
    "after": "A genuine friendship is established — Mori has stood by Rei through something real.",
    "note": "One-sided, unspoken or gently deflected. Rei is kind and clear; Mori is not mocked for it.",
@@ -11513,6 +11543,21 @@
    "emotion": "Fear"
   },
   "romanceable": false,
+  "quest": {
+   "tag": "Street",
+   "title": "The shop her hands still keep",
+   "hook": "Matsuda has run the same small shop for thirty years, watching the ward thin around her custom and saying nothing, because who would she tell.",
+   "stages": [
+    "Be a customer who actually notices her.",
+    "Hear the thing about the neighbourhood she will only say once.",
+    "Help her without buying it at the cost of her dignity."
+   ],
+   "payoff": "A quiet anchor in the district who sees who comes and goes, and remembers.",
+   "goal": "What they want: to keep her corner of the street ordinary",
+   "place": "Kita-ku",
+   "stake": "Fifty-two, watchful, her shop the last steady thing in a thinning ward.",
+   "consequence": "Honoured, she is a steady set of eyes and a safe door; dismissed, she closes them both to you."
+  },
   "tier": "Sensitive",
   "tierLetter": "E",
   "registered": false,
@@ -11624,6 +11669,21 @@
    "emotion": "Duty"
   },
   "romanceable": false,
+  "quest": {
+   "tag": "Street",
+   "title": "The nurse who keeps the others standing",
+   "hook": "Hayashi has kept her hands steady through every bad night the district has had, and has never once let anyone return the favour.",
+   "stages": [
+    "Notice the cost the steadiness hides.",
+    "Be the one bad night she does not have to carry alone.",
+    "Let her accept help without making it a wound."
+   ],
+   "payoff": "A healer who will patch what the CVD would never log, and ask no questions.",
+   "goal": "What they want: to keep everyone else on their feet",
+   "place": "Kita-ku",
+   "stake": "Fifty-nine, a veteran's calm over a tank long past empty.",
+   "consequence": "Reached, she is the door you knock on bleeding at 3am; left alone, she falls, and her quiet knowledge goes with her."
+  },
   "tier": "Adept",
   "tierLetter": "C",
   "registered": true,
@@ -11734,6 +11794,21 @@
    "emotion": "Joy"
   },
   "romanceable": false,
+  "quest": {
+   "tag": "Street",
+   "title": "The only lit window before dawn",
+   "hook": "Kondo's bakery is the one warm light on the street at four in the morning; the people who cannot sleep have learned to drift to it. He feeds them and asks nothing, and is more tired than he lets anyone see.",
+   "stages": [
+    "Be a 4am regular, not a man working an angle.",
+    "Notice who else the warm window draws.",
+    "Repay the kindness in the only coin he will take... company."
+   ],
+   "payoff": "A warm door at the worst hour, and a baker who quietly knows every insomniac in the ward.",
+   "goal": "What they want: to keep one warm light on for whoever needs it",
+   "place": "Kita-ku",
+   "stake": "Sixty-one, generous past his own rest, the unofficial keeper of the district's sleepless.",
+   "consequence": "Befriended, his bakery is a refuge and a listening post; neglected, the light goes out a little earlier each night."
+  },
   "tier": "The Null",
   "tierLetter": "0",
   "registered": false,
