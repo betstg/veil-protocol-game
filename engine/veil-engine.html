@@ -232,7 +232,7 @@ const PATHS=['Clairsentience','Telepathy','Telekinesis','Psychometabolism','Psyc
 const G = {
  day:1, min:3*60+47, xp:4, xpMax:10, xpTotal:4,
  player:{
-  name:'Rei Uedera', hp:[40,40], stability:100, madness:8, veil:12, money:38400, tickets:6, at:'Home', atId:'home', attack:0,
+  name:'Rei Uedera', hp:[40,40], stability:100, madness:8, veil:12, money:38400, tickets:6, at:'Home', atId:'home', attack:0, favMeal:'curry', meals:[],
   rank:'D', registered:false, standing:{cvd:0,grid:0,tower:0}, companions:[], /* you present as a low Sensitive; doors open with standing, registration or an escort */
   attributes:{ Body:2, Wits:3, Perception:3, Composure:2, Charisma:2, Resolve:2 }, /* baseline: never below 2, even a brand-new character starts with floor points */
   humanSkills:{ Investigation:2, Social:2, Stealth:1, Combat:1, 'Symbol Work':1, Research:2 },
@@ -1501,6 +1501,11 @@ function phTrain(){const hrs=Math.floor(G.min/60);const running=hrs>=5&&hrs<24;c
 function foodThumb(p){if(p.img)return '<div style="width:48px;height:48px;border-radius:10px;overflow:hidden;flex-shrink:0;margin-right:11px"><img src="'+p.img+'" style="width:100%;height:100%;object-fit:cover"></div>';return '<div style="width:48px;height:48px;border-radius:10px;flex-shrink:0;margin-right:11px;background:var(--ph-card);display:flex;align-items:center;justify-content:center;font-size:23px">🍜</div>';}
 function phFood(){const r=G.places.filter(p=>p.food&&p.known);let h=phbar('Food')+'<div class="ph-body" style="padding:6px 0">';
  if(G.pendingOrder){const o=G.pendingOrder;const pp=G.places.find(x=>x.id===o.pid);h+='<div class="notif" style="cursor:pointer;border-left-color:#06C755" onclick="nav(orderTracker)">🛵 Order on the way'+(pp?(' from <b>'+pp.name+'</b>'):'')+'... tap to track ›</div>';}
+ if(G.player.at==='Home'){ var _fav=(typeof reiFavMeal==='function')?reiFavMeal():'curry';
+  h+='<div class="secs">Cook at home</div><p style="color:var(--ph-dim);font-size:11px;padding:0 14px 4px">A meal steadies you (+Stability, −Madness). Your favourite helps most — but the same dish five meals running turns the stomach.</p>';
+  for(var _mk in MEAL_LIB){ var _m=MEAL_LIB[_mk]; var _isfav=(_mk===_fav); var _tired=(typeof tiredOf==='function')&&tiredOf(_mk);
+   h+='<div class="place" style="align-items:center"><div style="flex:1;min-width:0"><div class="pn">'+_m.n+(_isfav?' <span style="color:#06C755;font-size:11px">★ favourite</span>':'')+(_tired?' <span style="color:#c0563f;font-size:11px">· sick of it</span>':'')+'</div><div class="pd">+'+(_m.stab+(_isfav?6:0))+' Stability · −'+(_m.mad+(_isfav?3:0))+' Madness · +'+_m.hp+' HP</div></div><div class="go"><button onclick="(function(){var msg=eatMeal(\''+_mk+'\');gameToast(msg.slice(0,60));phFood();})()">Make ›</button></div></div>'; }
+  h+='<div class="secs">Order in</div>'; }
  h+='<p style="color:var(--ph-dim);font-size:11px;padding:2px 14px 4px">Order from a place you know. It arrives in real time; eating restores Health and eases Madness.</p>';
  if(!r.length)h+='<p style="color:var(--ph-dim);font-size:12px;padding:0 14px">No delivery spots known yet... you find them as you go.</p>';
  r.forEach(p=>{const open=openNow(p);h+='<div class="place" style="cursor:pointer;align-items:center" onclick="nav(function(){openRestaurant(\''+p.id+'\')})">'+foodThumb(p)+'<div style="flex:1;min-width:0"><div class="pn">'+p.name+'</div><div class="pd">'+p.note+'</div><div class="pd" style="margin-top:3px">'+(open?'<span style="color:#06C755">● open now</span>':'<span style="color:#c0563f">● closed</span>')+' · ~'+(p.eta||30)+' min · '+hoursStr(p)+'</div></div><div class="go"><button onclick="event.stopPropagation();nav(function(){openRestaurant(\''+p.id+'\')})">Menu ›</button></div></div>';});
@@ -1534,6 +1539,34 @@ function restAtHome(){
  G.player.stability=Math.min(100,G.player.stability+28); G.player.madness=Math.max(0,G.player.madness-14); G.player.hp[0]=Math.min(G.player.hp[1],G.player.hp[0]+10); G.player.veil=Math.max(0,(G.player.veil||0)-20); advance(300); _selfRefresh();
  gameToast('\uD83D\uDE34 Rest. Stability +28 \u00b7 Madness -14 \u00b7 +10 HP \u00b7 veil mends');
  return 'You lie down in the two-room flat and let the city run without you a while. Sleep is thin, but it is sleep. (Stability +28, Madness -14, +10 HP. About five hours pass; now '+fmt(G.min)+'.)';
+}
+/* ===== MEALS: a favorite dish steadies the mind; the same plate too often turns the stomach ===== */
+var MEAL_LIB={
+ curry:{n:'curry rice',stab:7,mad:5,hp:7}, ramen:{n:'ramen',stab:8,mad:6,hp:8}, omurice:{n:'omurice',stab:7,mad:6,hp:7},
+ onigiri:{n:'onigiri',stab:4,mad:3,hp:5}, soba:{n:'soba',stab:6,mad:4,hp:6}, katsu:{n:'tonkatsu',stab:8,mad:6,hp:9},
+ sushi:{n:'sushi',stab:9,mad:7,hp:8}, nabe:{n:'hot pot',stab:9,mad:8,hp:10}, gyudon:{n:'gyudon',stab:6,mad:5,hp:7},
+ misosoup:{n:'miso soup & rice',stab:5,mad:4,hp:5}, tamagokakegohan:{n:'egg over rice',stab:5,mad:4,hp:5}
+};
+function mealKeyFromText(t){t=(t||'').toLowerCase(); for(var k in MEAL_LIB){if(t.indexOf(k)>=0||t.indexOf(MEAL_LIB[k].n)>=0)return k;}
+ if(/ramen|noodle/.test(t))return 'ramen'; if(/curry/.test(t))return 'curry'; if(/omurice|omelet/.test(t))return 'omurice'; if(/onigiri|rice ?ball/.test(t))return 'onigiri'; if(/soba|udon/.test(t))return 'soba'; if(/katsu|cutlet|pork/.test(t))return 'katsu'; if(/sushi|sashimi/.test(t))return 'sushi'; if(/nabe|hot ?pot|stew|pot/.test(t))return 'nabe'; if(/beef|gyudon|don\b/.test(t))return 'gyudon'; if(/miso|soup/.test(t))return 'misosoup'; if(/egg|tamago/.test(t))return 'tamagokakegohan';
+ if(/rice|eat|cook|dinner|breakfast|lunch|food|meal|hungry/.test(t))return null; return null;}
+function reiFavMeal(){return (G.player&&G.player.favMeal)||'curry';} // Rei's comfort dish — the plate that always sets him right
+function tiredOf(key){var m=(G.player&&G.player.meals)||[]; return m.slice(-5).indexOf(key)>=0;}
+function recordMeal(key){if(!G.player.meals)G.player.meals=[]; G.player.meals.push(key); if(G.player.meals.length>12)G.player.meals=G.player.meals.slice(-12);}
+function eatMeal(text){
+ if(G.player.at!=='Home'){ openV('phone'); if(typeof phFood==='function')phFood(); return 'You\'re not at a kitchen. Order something in from a place you know — it comes to wherever you are.'; }
+ var key=mealKeyFromText(text); if(!key)key=reiFavMeal();
+ var meal=MEAL_LIB[key]||MEAL_LIB.curry; var fav=(key===reiFavMeal()); var tired=tiredOf(key); var stab,mad,hpg,msg;
+ if(tired){ stab=2; hpg=Math.round(meal.hp*0.5);
+   G.player.stability=Math.min(100,G.player.stability+stab); G.player.madness=Math.min(100,G.player.madness+1); G.player.hp[0]=Math.min(G.player.hp[1],G.player.hp[0]+hpg);
+   msg='You make the '+meal.n+' again. You\'ve had it too many times this week — it sits heavy and the comfort has gone out of it. (Stability +'+stab+', Madness +1.)';
+   gameToast('🍚 '+meal.n+' — you\'re sick of it'); }
+ else { var fb=fav?6:0; stab=meal.stab+fb; mad=meal.mad+(fav?3:0); hpg=meal.hp;
+   G.player.stability=Math.min(100,G.player.stability+stab); G.player.madness=Math.max(0,G.player.madness-mad); G.player.hp[0]=Math.min(G.player.hp[1],G.player.hp[0]+hpg);
+   msg='You make '+meal.n+(fav?' — your dish, the one that always sets you right':'')+'. '+(fav?'For a little while the flat feels like somewhere a person lives, not just waits.':'It\'s warm, and it\'s enough.')+' (Stability +'+stab+', Madness −'+mad+', +'+hpg+' HP.)';
+   gameToast('🍚 '+meal.n+(fav?' — your favorite (+'+stab+' Stability)':' (+'+stab+' Stability)')); }
+ recordMeal(key); advance(30); if(typeof _selfRefresh==='function')_selfRefresh(); if(typeof saveG==='function')saveG();
+ return msg;
 }
 function foodArrived(pid,i){const p=G.places.find(x=>x.id===pid);const it=p.food[i];const hp=G.player.hp;hp[0]=Math.min(hp[1],hp[0]+it.heal);const md=Math.ceil(it.heal*1.5);G.player.madness=Math.max(0,G.player.madness-md);renderTop();const viewing=document.getElementById('ov-phone')&&document.getElementById('ov-phone').classList.contains('show');if(viewing){ph(phbar('Delivery')+'<div class="ph-body"><p style="color:var(--ph-text)">The rider reaches you at <b>'+(G.player.at||'you')+'</b>. You eat the <b>'+it.n+'</b>. '+it.desc+'</p><div class="notif" style="border-left-color:#06C755"><b style="color:#06C755">Health +'+it.heal+'</b> · <b style="color:#8fae74">Madness −'+md+'</b><br><span style="color:var(--ph-dim);font-size:11.5px">A body fed argues back against the veil.</span></div></div>');}else{gameToast('🛵 Your '+it.n+' arrived (+'+it.heal+' HP).');}}
 /* =================== CALENDAR (LINE style... white & green) =================== */
