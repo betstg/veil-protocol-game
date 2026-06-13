@@ -2092,6 +2092,22 @@
    "The mind-swap is the wound and the charm. On bad days Usami wakes behind glass while Ren drives; on good days they are the most disarmingly honest person Rei will meet, because Ren’s register makes deflection physically uncomfortable. Love, as a register, is not romance — it is the compulsion to be known and to know, and it has made the Pair incapable of the small lies that keep people safe.",
    "They understand exactly what is happening to Gin, from the inside, and it terrifies them — because the Pair is the best case and even the best case is a slow surrender of self."
   ],
+  "quest": {
+   "tag": "Vessel",
+   "title": "Is any of it mine?",
+   "hook": "Ren rides Hinata as a Love-register demon, and Hinata can no longer tell which of his feelings are his own and which belong to the thing wearing him.",
+   "stages": [
+    "Resist the reflex to exorcise; meet the pair as a pair.",
+    "Earn enough trust that Hinata stops performing 'fine'.",
+    "Help him test one feeling for himself, against the thing inside him.",
+    "Let him reach his own answer about what is his to keep."
+   ],
+   "payoff": "A consultant who trusts you with the most dangerous question he has, and a demon that learns Rei is not a threat to be managed.",
+   "goal": "What they want: to know whether anything he feels is really his",
+   "place": "Kōenji",
+   "stake": "A Love-register demon shares his body and his wants; the line between them has gone soft.",
+   "consequence": "Either Hinata finds a self he can stand on, or he gives himself fully to the pair... and what that demon is to the Thirteen becomes Rei's problem."
+  },
   "romance": {
    "opens": "Player deliberately chooses the romance route after the Pair trusts Rei enough to let him see the seam.",
    "beats": [
@@ -3684,6 +3700,22 @@
    "What he can’t paint out is the sight. Itsuki sees the wrongness on people — the residue of crossing, the dimming around a host — and renders it without meaning to, which is why his canvases unsettle people who can’t say why. He noticed it on Gin once, months ago, and said nothing, because saying things has never gone well in his family. That guilt is the door into him.",
    "The Kuroda name means Rei’s investigation and Itsuki’s avoidance are on a collision course: the Tower Family has plans for the vacant Seat, and their prodigal son is closer to the centre than he wants to be."
   ],
+  "quest": {
+   "tag": "Ally",
+   "title": "The door he painted shut",
+   "hook": "Itsuki left the Kuroda and the gift that never opened cleanly; the painting-road he uses instead costs him more each crossing, and the family he walked away from still holds the reach he needs.",
+   "stages": [
+    "Stand with him through a crossing that takes too much out of him.",
+    "Get him to say aloud what he left, and why.",
+    "Bring him and Sei into one room without it becoming a debt he cannot pay.",
+    "Quietly draw out what a Kuroda's eye has already seen about Gin."
+   ],
+   "payoff": "A friend reconciled enough to stop bleeding himself for you, a line back into the Tower house, and a piece of the Gin trail only a painter of the overpass could have caught.",
+   "goal": "What they want: to matter to the family without being owned by it",
+   "place": "Geidai / Nezu",
+   "stake": "His gift never opened; every painting-jump scrapes him thinner, and pride keeps him from the family that could carry him safely.",
+   "consequence": "Reconciled, he is a true ally and a road to the Kuroda; left alone, the crossings will take something he cannot paint back."
+  },
   "romance": {
    "opens": "Player chooses the route; Itsuki is an adult and flirts first, but reciprocates seriously only once Rei stops performing for him.",
    "beats": [

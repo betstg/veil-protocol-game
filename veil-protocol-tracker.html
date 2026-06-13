@@ -338,7 +338,7 @@ h3{font-family:'Cinzel',serif;font-size:12px;letter-spacing:1px;color:var(--bloo
 <!-- ===================== SIDE QUESTS (NPCs) ===================== -->
 <div class="pane" id="p-side">
 <h2>Side Quests... the People</h2>
-<p class="muted">A side quest is the one important <b>unsolved thing</b> in a person's life... tied to their sheet, told as a <b>sequence of tasks inside a single theme</b>. No romance here; that's its own tab. Themes: <b>rescue</b> (from themself) · <b>find</b> (help them find/see something) · <b>dignity</b> (out of a humiliating place) · <b>wake</b> (knock them back into their senses) · <b>key</b> (a gatekeeper whose quest opens a path). All "to write."</p>
+<p class="muted">A side quest is the one important <b>unsolved thing</b> in a person's life... tied to their sheet, told as a <b>sequence of tasks inside a single theme</b>. No romance here; that's its own tab. Themes: <b>rescue</b> (from themself) · <b>find</b> (help them find/see something) · <b>dignity</b> (out of a humiliating place) · <b>wake</b> (knock them back into their senses) · <b>key</b> (a gatekeeper whose quest opens a path). <b style="color:var(--ok)">Now authored:</b> every named character below carries their quest in their sheet (<code>quest</code>: tag, hook, stages, payoff, goal/place/stake/consequence), 67 of 73 sheets, and the Warden plays it through the personal-quest trigger. Only the optional elders/kids (Yua, Mori, the shopkeepers, Kuroda Sōun) remain light, fill-as-needed seeds.</p>
 
 <h3>CVD / Registered</h3>
 <div class="item q"><span class="tag t-q">rescue</span><div><b>Nakamura Aoi</b> <span class="d">... her last partner didn't come back, so she over-covers everyone toward burnout. Spot the pattern → make her name the guilt → a clearance where she must let you cover <i>her</i>.</span></div></div>
@@ -380,6 +380,7 @@ h3{font-family:'Cinzel',serif;font-size:12px;letter-spacing:1px;color:var(--bloo
 <div class="pane" id="p-romance">
 <h2>Romance... a separate track</h2>
 <p class="muted">Romance is <b>not</b> a side quest. It opens only <i>after</i> you've done the work of knowing someone... and what it becomes depends on where the relationship actually stands.</p>
+<p class="muted"><b style="color:var(--ok)">Now authored:</b> all 26 romanceable characters carry their route in their sheet (<code>romance</code>: opens, beats), gated behind their side quest + a closeness threshold + courtship, with the toxic-curdle state if you press a relationship that has slid. Hand-written explicit scenes go in the gated <code>romance.intimate</code> field; the AI keeps to fade-to-black on its own. Minors are never romanceable.</p>
 
 <div style="background:var(--panel);border:1px solid var(--bdr);border-left:3px solid var(--gold);border-radius:8px;padding:16px 20px;margin:14px 0">
 <div style="font-family:'Special Elite',monospace;font-size:10px;letter-spacing:2px;color:var(--dim);text-transform:uppercase">How romance unlocks</div>
