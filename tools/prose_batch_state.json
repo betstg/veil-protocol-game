@@ -1,5 +1,5 @@
 {
   "queue": ["cvd", "grid", "look", "power", "itsuki", "opening"],
-  "index": 2,
+  "index": 3,
   "note": "Atmospheric (LotM / Evelyn Hardcastle) prose pass, one road per run. When index >= queue length, the pass is complete."
 }
