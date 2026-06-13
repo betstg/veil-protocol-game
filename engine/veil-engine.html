@@ -1224,11 +1224,12 @@ function phStub(n){ph(phbar(n)+'<div class="ph-body"><p style="color:var(--ph-di
 function phHome(){
  let h='<div style="overflow:auto;flex:1"><div class="home-head"><div class="av" style="background:#6e2b20;border-radius:50%">R</div><div><div class="hn">Rei Uedera</div><div class="hs">looking for my brother.</div></div></div>';
  h+='<div class="svc-grid">'+svc('🗺','Map','phMap()')+svc('👥','People','phPeople()')+svc('🗒','Notes','phNotes()')+svc('📅','Calendar','phCalendar()')+svc('🚕','Cab','phCab()')+svc('🚆','Train','phTrain()')+svc('🍜','Food','phFood()')+svc('🔔','Alerts','phAlerts()')+'</div>';
- var ids=Object.keys(G.contacts).filter(function(k){return G.contacts[k].known;});
+ // the home screen keeps only the people who matter — friends (rel ≥ 20) and family; everyone else lives under People
+ var ids=Object.keys(G.contacts).filter(function(k){var c=G.contacts[k];return c.known&&(relValOf(k)>=20||c.family||(c._unread||0)>0);});
  function inter(id){var c=G.contacts[id];return (c._unread||0)*1000+(c.history?c.history.filter(function(m){return m[0]!=='sys';}).length:0)*5+Math.max(0,relValOf(id));}
  ids.sort(function(a,b){return inter(b)-inter(a);});
- h+='<div class="secs">Contacts '+ids.length+'</div>';
- if(!ids.length) h+='<div style="padding:2px 14px 10px;font-size:11px;color:var(--ph-dim);font-style:italic">You barely know anyone yet. People you meet appear here.</div>';
+ h+='<div class="secs">Friends '+ids.length+'</div>';
+ if(!ids.length) h+='<div style="padding:2px 14px 10px;font-size:11px;color:var(--ph-dim);font-style:italic">No close ties yet. People you grow close to appear here — find everyone under People.</div>';
  ids.forEach(function(id){const c=G.contacts[id];var un=c._unread||0;h+='<div class="li" onclick="nav(function(){phProfile(\''+id+'\')})"><div class="av" style="background:'+c.color+'">'+avatarFace(id)+'</div><div style="flex:1;min-width:0"><div class="nm">'+esc(c.name)+(un?' <span class="badge2">'+un+'</span>':'')+'</div><div class="pv">'+relTier(relValOf(id))+'</div></div></div>';});
  h+='</div>';ph(h);
 }
