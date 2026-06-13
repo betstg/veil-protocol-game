@@ -2336,9 +2336,20 @@ var _devKbOpen=false;
 function deviceToggleKb(){ var k=document.getElementById('dev-kb'); if(!k)return; _devKbOpen=!_devKbOpen; k.style.maxHeight=_devKbOpen?'90px':'0'; var e=document.getElementById('dev-exp'); if(e)e.textContent=_devKbOpen?'⌄':'⌃'; if(_devKbOpen){var i=document.getElementById('dev-input');if(i)setTimeout(function(){i.focus();},120);} }
 var DEV_DUR={E:6,D:6,C:5,B:4,A:3,top:2,S:2};
 // offline negotiation: reading its name (some resist) and winning its consent to host
-function deviceOfflineTurn(s,txt){ var t=(txt||'').toLowerCase(); var good=leanIsGood(devLean(s));
- if(/\b(name|who are you|call you)\b/.test(t)){ s._na=(s._na||0)+1; if(devLean(s)>=0||s._na>=2){ s.nameKnown=true; return 'My name is '+(s.name||'...')+'.'; } return 'Names are leashes. Not yet.'; }
- if(/\b(host|carry|vessel|inside me|let you in|ride me|come with me|use you|be my)\b/.test(t)){ if(!s.nameKnown) return 'You do not even know my name.'; if(devLean(s)>=30){ s.hostAgreed=true; return 'Yes. Open, and I will fill you.'; } return 'Earn it first. I share skin with no stranger.'; }
+// the entity's hidden EMOTION (register) is the lever: speak truly to it and it warms; threaten or flatter hollowly and it cools
+function deviceApplyTriggers(s,txt){ var t=' '+(txt||'').toLowerCase()+' '; var reg=String(s.register||'').toLowerCase(); var d=0;
+ if(/(i understand|i'?m sorry|i am sorry|\bsorry\b|i care|i do care|help you|let me help|not alone|i'?m listening|i am listening|i'?m here|i am here|\btrust\b|you'?re safe|safe now|\brest\b|\bpeace\b|gentle|forgive|\bfriend)/.test(t)) d+=6;
+ var reson={hunger:/(feed|hungry|eat|fill|sate|warm|share|come in|a place|a seat at)/,grief:/(loss|grief|grieve|\bmiss\b|mourn|\blost\b|sorry for|let go|remember)/,fear:/(safe|no harm|won'?t hurt|will not hurt|protect|\beasy\b|\bcalm\b|won'?t look)/,rage:/(angry|anger|\brage\b|unfair|wronged|a right to|i'?d be angry|understandable)/,despair:/(\bhope\b|\breason\b|\bworth\b|\bmatter\b|\bpoint\b|tomorrow|not over)/,despair2:/x/,love:/(\bstay\b|company|with you|here for you|i'?ll remember|i will remember)/,longing:/(\bstay\b|company|\bnear\b|remember you|wait with)/,joy:/(play|laugh|delight|\bfun\b|share the)/}[reg];
+ if(reson&&reson.test(t)) d+=6;
+ if(/(kill you|destroy you|\bbanish\b|exorcise you|\bmonster\b|\bliar\b|shut up|i don'?t care|i do not care|\brot\b|burn you|hate you|disgust|filth|abomination)/.test(t)) d-=10;
+ else if(/(whatever|boring|\bstupid\b|pathetic|\bnah\b|don'?t believe you)/.test(t)) d-=3;
+ if(d===0) d=1; // civil, sustained attention warms a touch
+ s.lean=Math.max(-100,Math.min(100,devLean(s)+d));
+ return d;
+}
+function deviceOfflineTurn(s,txt){ deviceApplyTriggers(s,txt); var t=(txt||'').toLowerCase(); var good=leanIsGood(devLean(s));
+ if(/\b(name|who are you|call you)\b/.test(t)){ s._na=(s._na||0)+1; if(devLean(s)>=0||s._na>=2){ s.nameKnown=true; return 'My name is '+(s.name||'...')+'.'; } return 'Names are leashes. Earn it... be someone worth giving one to.'; }
+ if(/\b(host|carry|vessel|inside me|let you in|ride me|come with me|use you|be my|contract|bargain|pact)\b/.test(t)){ if(devLean(s)<30) return s.nameKnown?'Not yet. You have not earned my skin.':'You do not even know my name.'; if(!s.nameKnown) return 'A contract needs a name. Ask me mine first.'; s.hostAgreed=true; return 'Then it is a contract. Open, and I will fill you... gently, this once.'; }
  return deviceReply(s,txt);
 }
 // ---- talk: try the live Warden in the entity's voice; fall back to local short lines ----
