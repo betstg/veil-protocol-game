@@ -11,7 +11,7 @@
    "money": 90000,
    "tickets": 18
   },
-  "blurb": "A white temple-bred cat trained by a Kita medium who passed last winter. Vacant, waiting for hands it judges steady. Reads a room better than most operatives."
+  "blurb": "A white temple-bred cat, pale-eyed and unhurried, trained by a Kita medium who passed last winter. Vacant, waiting for hands it judges steady. Reads a room better than most operatives."
  },
  {
   "id": "med-kuro",
@@ -25,7 +25,7 @@
    "money": 85000,
    "tickets": 16
   },
-  "blurb": "A black cat the Grid used as a living ward-anchor; calm enough to sit a circle while the air goes wrong around it."
+  "blurb": "A long-haired black cat with green eyes, used by the Grid as a living ward-anchor; calm enough to sit a drawn circle while the air goes wrong around it."
  },
  {
   "id": "med-kuma",
@@ -39,7 +39,7 @@
    "money": 160000,
    "tickets": 34
   },
-  "blurb": "A broad working dog trained to stand beside an exorcist. Won't enter a thin spot until told, then goes in first. Vacant since its handler retired hurt."
+  "blurb": "A broad tan-and-white Akita trained to stand beside an exorcist, a prayer-cord at its throat. Won't enter a thin spot until told, then goes in first. Vacant since its handler retired hurt."
  },
  {
   "id": "med-hachi",
@@ -53,7 +53,7 @@
    "money": 110000,
    "tickets": 22
   },
-  "blurb": "A scent-and-residue tracker that can follow a thing the instruments lost. Trained on cold cases; finds the trail Gin's archive only hints at."
+  "blurb": "A tricolor beagle, a scent-and-residue tracker that can follow a thing the instruments lost. Trained on cold cases; finds the trail Gin's archive only hints at."
  },
  {
   "id": "med-yatabe",
@@ -67,7 +67,7 @@
    "money": 210000,
    "tickets": 48
   },
-  "blurb": "A divination raven raised by a shrine line. One honest augury a day, and eyes over any ward in the city. The most expensive vacancy on the list, and worth it."
+  "blurb": "A glossy black divination raven raised by a shrine line. One honest augury a day, and eyes over any ward in the city. The most expensive vacancy on the list, and worth it."
  },
  {
   "id": "med-goro",
@@ -81,7 +81,7 @@
    "money": 120000,
    "tickets": 24
   },
-  "blurb": "A crow trained beside a mudang to read and settle the dead. Where it lands and will not leave, someone unquiet is waiting."
+  "blurb": "A piebald crow, one eye pale blue, trained beside a mudang to read and settle the dead. Where it lands and will not leave, someone unquiet is waiting."
  },
  {
   "id": "med-mizuchi",
@@ -95,7 +95,7 @@
    "money": 180000,
    "tickets": 40
   },
-  "blurb": "A gentle, non-venomous serpent trained to feel the veil the way others feel heat. Restless coils mean the membrane is thin; gone still means safe. Vacant from a Singularity-rank estate."
+  "blurb": "A gentle, brown-banded non-venomous serpent trained to feel the veil the way others feel heat. Restless coils mean the membrane is thin; gone still means safe. Vacant from a Singularity-rank estate."
  },
  {
   "id": "med-chuu",
@@ -109,7 +109,7 @@
    "money": 80000,
    "tickets": 15
   },
-  "blurb": "A clever rat trained to find the thing a haunting is tied to — the scrap, the name, the object. The cheapest vacancy, and quietly one of the most useful in a fight you want to end fast."
+  "blurb": "A clever brown rat trained to find the thing a haunting is tied to — the scrap, the name, the object. The cheapest vacancy, and quietly one of the most useful in a fight you want to end fast."
  },
  {
   "id": "med-kawazu",
@@ -123,7 +123,7 @@
    "money": 95000,
    "tickets": 20
   },
-  "blurb": "A pond-frog trained in a Shingon water rite. Carry it and the Madness presses a little less; set it by tainted water and it cleanses what it can. Vacant from a temple that closed."
+  "blurb": "A small green tree-frog trained in a Shingon water rite. Carry it and the Madness presses a little less; set it by tainted water and it cleanses what it can. Vacant from a temple that closed."
  },
  {
   "id": "med-benten",
@@ -137,6 +137,6 @@
    "money": 170000,
    "tickets": 36
   },
-  "blurb": "A shop-bred cat trained by Sone Kimiko's supplier to keep warded charms alive. The difference between a charm that protects and a pretty paper that doesn't. Vacant, and particular about its buyer."
+  "blurb": "A black-and-white shop-bred cat trained by Sone Kimiko's supplier to keep warded charms alive. The difference between a charm that protects and a pretty paper that doesn't. Vacant, and particular about its buyer."
  }
 ]
