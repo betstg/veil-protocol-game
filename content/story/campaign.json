@@ -724,11 +724,189 @@
     },
     "cvd": {
       "title": "The Directorate",
-      "status": "queued",
+      "status": "authored",
       "acts": [
         "Open: become theirs to be allowed in",
         "Deepen: the briefing Gin skipped, from the inside",
         "Converge: the file that should not exist"
+      ],
+      "beats": [
+        {
+          "scene": "CVD intake, Kasumigaseki, before the desks fill",
+          "prose": [
+            "The Civil Veil Directorate does not look like a place that crosses to the dead. It looks like every other ministry annex in Kasumigaseki at this hour — fluorescent strip light over grey carpet tile, a vending machine humming to no one, a wall clock that has been forty seconds slow for so long that the staff have stopped trusting it. You came here because every other door you tried this morning gave you a brother-shaped silence, and the one institution that should have logged Gin missing has logged nothing at all. That nothing is the loudest thing in Tokyo right now, and the only way to read it is from inside.",
+            "Registration is not a form. It is a small white room and a woman named Okada Shizuka who does not ask your name because she has known it, you slowly realize, for four years. She slides a single laminated card across the table — the Postulate, they call it, the test that decides whether the city files you as a citizen who saw something or a medium who is something — and she watches your hands more than your face while you read it. <em>Most people lie on this without meaning to,</em> she says, not unkindly. <em>The veil doesn't care what you wish were true. Neither do we.</em> Behind her, Obon decorations someone hung without conviction sag in the air-conditioning: paper lanterns for the returning dead, in the one building in the country that knows exactly how literally to take them.",
+            "You understand, holding the card, that this is the first door and that it only opens one way. To present cleanly — to let them read you, name you, file you — is to hand the Directorate a key to the part of yourself you have spent your whole life keeping two locks ahead of everyone. But the alternative is to stay outside, where Gin's absence is a private grief instead of an institutional fact, and grief has never once told you where someone went."
+          ],
+          "choices": [
+            {
+              "x": "Present clean. Let the Postulate read you true.",
+              "hint": "They will know exactly what you are by lunchtime — both registers, the searching, all of it. A medium files faster than a citizen. So does a liability."
+            },
+            {
+              "x": "Present as a witness, not a medium. Hold one register back.",
+              "hint": "Slower clearance, smaller access — but they file you as ordinary, and the part of you that frightens you stays yours. Gin's trail is behind doors a witness never reaches."
+            },
+            {
+              "x": "Ask Okada why she already knows your name.",
+              "hint": "She will tell you, and what she tells you will mean your brother prepared this room for you years ago — which means he knew, years ago, that you would one day need it."
+            }
+          ]
+        },
+        {
+          "scene": "Director Adachi's office, two floors above the carpet tile",
+          "prose": [
+            "Director Adachi keeps his office colder than the rest of the building and his voice warmer, and you spend the first minute trying to decide which one is the lie. He has your file open — thin, suspiciously thin for a man who registered an hour ago — and he reads from it the way a doctor reads a chart he has already memorized, for your benefit, to let you feel consulted. <em>Uedera's brother,</em> he says, and lets the surname sit in the cold air between you. <em>He spoke of you. Not often. Once, properly.</em> He does not say when. You will spend weeks deciding the when mattered.",
+            "What Adachi offers is real and the catch is also real, and he is too good at this to pretend otherwise. Clearance, casework, the ladder — the Directorate will let you climb toward the floors where your brother's name still lives in active systems, but every rung is a thing the institution does to you in exchange. You will carry their flag to scenes. You will file what you find in the shape they prefer it filed. And somewhere above this office, in rooms Adachi gestures at without looking, are the five families who decide which of the Directorate's truths survive contact with their interests. <em>I am the ceiling you can see,</em> he tells you, almost gently. <em>I'd rather you knew that now than discovered it at a worse hour.</em>",
+            "Okada is in the room and says nothing, which you are learning is how she says the most. When Adachi steps out to take a call he was always going to take, she leans in and gives you the only thing she has been waiting four years to give: that Gin's last instruction to her, the one he left like a stone in a riverbed for the current to uncover, was not <em>protect the Directorate</em> and not <em>find me.</em> It was <em>when my brother comes, do not let them assess him on a Thursday.</em> She does not know why. You are starting to."
+          ],
+          "choices": [
+            {
+              "x": "Take the ladder. Climb toward Gin's name, on their terms.",
+              "hint": "Access opens fast. So does the slow conversion of you into the institution's instrument — by the time you reach his floor you may be the kind of person who would file him away."
+            },
+            {
+              "x": "Take only enough clearance to work cases, refuse the climb.",
+              "hint": "Stay small enough that the families never notice you. You also stay small enough that the doors with your brother behind them stay shut a great deal longer."
+            },
+            {
+              "x": "Ask Okada what happens on Thursdays.",
+              "hint": "She will tell you it is assessment day, when the Auditors read mediums down to the registers — and that something about you, read on a Thursday, is what Gin spent his last free act trying to prevent."
+            }
+          ]
+        },
+        {
+          "scene": "First clearance, first call-out, Kita-ku after dark",
+          "prose": [
+            "Your first scene is a fourth-floor walk-up in Kita where a woman has been hearing her late husband run the bath at 3:47 every morning, and you are not the lead. The lead is Nakamura Aoi, junior like you but a year deeper, and she works a haunting the way other people defuse something — slowly, with her whole attention, narrating nothing she does not have to. She clocks your registers the instant the cold front of the apartment touches you, you can see her clock it, and the only thing she says is <em>breathe out before you reach, not in,</em> which is the first useful thing anyone in this building has ever told you about what you are.",
+            "Kato Ryusei takes the report, because Kato takes every report, and his eyes do the small soft thing they do when Aoi speaks that he has not yet noticed they do. The case itself is ordinary in the worst way — a man who died with one unfinished motion and a wife who cannot stop hearing him try to complete it — and you watch Aoi cross just far enough to tell him the bath is run, it has been run, he can stop, and then come back with her hands shaking and her face perfectly still. <em>That's the job,</em> she says afterward on the stairwell, not looking at you. <em>You go where they're stuck and you tell them it's done. The trick is believing it on the way back.</em>",
+            "It is on those stairs, with the lantern-smell of Obon coming up the well from someone's open window, that Aoi mentions Gin without knowing she is handing you a knife. She worked one rotation under him. She noticed when he stopped coming in. And the thing that has bothered her since — the thing she has not filed because there is no field on the form for it — is that the absence is <em>the wrong shape.</em> A man who quits leaves a quitting-shaped hole. Gin left something else. She does not have the word. You do, and you do not say it, because to say it on a stairwell at Obon to a near-stranger is to make it true."
+          ],
+          "choices": [
+            {
+              "x": "Tell Aoi the word. Trust her with the shape.",
+              "hint": "She is the first person in the building who saw it too. Trust bought this early is real — and it makes her a person the institution can now hurt to get to you."
+            },
+            {
+              "x": "Say nothing. Let her keep the question.",
+              "hint": "Protect her by leaving her with a mystery instead of a target. You also walk the rest of this road one ally lighter, carrying the shape alone."
+            },
+            {
+              "x": "Ask her what Gin was working when the shape changed.",
+              "hint": "She will give you a date and a district — Kita, the low places near the water — and a date is a thread, and threads in this building are how the families find out you are pulling."
+            }
+          ]
+        },
+        {
+          "scene": "The briefing archive, the Thursday that has a hole in it",
+          "prose": [
+            "Every briefing the Directorate runs is logged, transcribed, and shelved, which means somewhere in this building is the record of the last briefing your brother attended and the record of the first one in nine years that he did not. You requisition them both. The clearance you spent to do it costs you a favour you will not understand the price of until later, but the woman at the records cage stamps the slip without reading it, because at this hour even the Directorate runs on people too tired to ask why.",
+            "The attended briefings read like a man at the top of his craft — Gin's questions in the margins, sharp, three moves ahead of the room, the handwriting you would know in the dark. And then the Thursday. The transcript exists; the seat does not. There is a gap in the round-table log shaped exactly like a Vanguard who was expected and did not come, and the remarkable thing, the thing that lifts the hair on your arms in the over-lit cage, is that no one chased it. A man who has not missed a Thursday in nine years skips one and the system simply <em>closes around the space</em> — a sign-off here, a reassignment there, a note in a hand you do not recognize saying the matter was handled at a level above the room. <em>Handled,</em> in this building, you are learning, is a verb that means <em>buried with permission.</em>",
+            "You read the after-action on the case that briefing was meant to cover, and it is the wrong kind of clean. A drowning in the Kita lowlands, the low place where the water remembers, closed in under two days with a confidence the evidence does not earn. Whoever signed it wanted it gone. And tucked in the appendix, a body-reading you were not cleared to see, initialled by a specialist named Kurosawa — three lines, then redaction, then the only words that survived the black bar: <em>double-layer. not consistent with the registered subject. recommend escalation.</em> The escalation never happened. Someone above the room decided your brother's body was a sentence best left unfinished."
+          ],
+          "choices": [
+            {
+              "x": "Find Kurosawa. Ask what 'double-layer' means.",
+              "hint": "He read your brother and lived to redact it. He can tell you what is wearing Gin — but a specialist who talks twice is a specialist Internal Affairs starts watching, and so are his visitors."
+            },
+            {
+              "x": "Pull the thread on who signed the Thursday away.",
+              "hint": "The signature leads up, toward the families and the floors Adachi only gestured at. Follow it and you stop being a junior reading files and start being a problem with a name."
+            },
+            {
+              "x": "Copy the redacted reading and tell no one yet.",
+              "hint": "Evidence in your pocket is leverage and liability in one envelope. The Directorate has rooms for people who walk out with what they were not cleared to keep."
+            }
+          ]
+        },
+        {
+          "scene": "Kurosawa's lab, where the bodies are read and not believed",
+          "prose": [
+            "Kurosawa works in a sub-level the building pretends is storage, and he reads bodies the way a restorer reads a painting that has been painted over — looking for the under-image, the thing the surface was put there to hide. He is not surprised you found him. He has been waiting, in the specific way of a man who did the right thing once, filed it, watched it vanish, and has been living since inside the question of whether he should have shouted instead. When you say the word <em>double-layer</em> he stops pretending to work.",
+            "What he tells you, carefully, with the door watched, is the physiology of a haunting that is not a haunting. Possession in the Directorate's textbooks is a fever — a thing that rides hot and clumsy and burns its host out in weeks. What he read in Gin was the opposite: cold, patient, <em>tidy</em>, a second register laid down under the first as deliberately as a second coat of paint, a presence that was not consuming the host but <em>preserving</em> him, keeping him functional, keeping him filing, keeping him at his desk nine days a week. <em>I have read a great many possessed,</em> Kurosawa says. <em>I have never read one being taken care of. Whatever is in your brother does not want him dead. It wants him <strong>working.</strong></em>",
+            "He gives you the name of the only operational fact that survived the cover-up — a clerk named Tanaka, who sits behind Kurosawa in the org chart and in front of him in the chain that buried the reading, and who knows the single concrete thing the redaction was built to hide: not what Gin is, but <em>where the recommendation went</em> when escalation was denied. A name on a routing slip. A floor. <em>I read the symptom,</em> Kurosawa says, already turning back to his work, already rehearsing his innocence. <em>Tanaka can tell you who decided the symptom was convenient. After that you are on your own, and so, I'm afraid, is your brother.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Go to Tanaka straight, before the building closes around it.",
+              "hint": "Speed beats the cover-up, but a junior who sprints from Kurosawa's lab to a routing clerk draws a line on a map that Internal Affairs can read as easily as you can."
+            },
+            {
+              "x": "Bring it to Moriya in Internal Affairs first.",
+              "hint": "IA is the one body that can subpoena up past Adachi — or the one body that can make a discrepancy, and the person carrying it, both quietly disappear. You will not know which Moriya is until you are inside the room."
+            },
+            {
+              "x": "Sit with what Kurosawa said: it wants Gin working. Ask why.",
+              "hint": "The answer reframes everything — a demon that preserves its host is a demon with a project — but following the thought means admitting your brother is not a victim being drained, he is a tool being maintained, and toward what you do not yet dare to guess."
+            }
+          ]
+        },
+        {
+          "scene": "Katagiri Noa, and the months that were never filed",
+          "prose": [
+            "Noa agrees to meet you because you are his brother and refuses to meet you anywhere with a Directorate camera, which tells you most of what the conversation will be before it starts. She loved Gin — two years adjacent, the kind of love that is mostly proximity and unspoken timing and one missed window — and she carried something of his for the last months that she never put in a single report, because the form would have made it evidence and she did not want him to be evidence yet. Across a café table in Nippori, with the Obon crowds thick outside and the lanterns going up along the shōtengai, she finally makes him evidence, for you.",
+            "He changed, she says, not all at once. The work got better and the man got worse — sharper case-closure rates and a new, terrible patience, as if someone had taken her colleague and ironed him flat. He started talking about duty the way the devout talk about grace, an interrupted duty, a thing left undischarged, and once, late, after a closing they should have celebrated, he had looked at the Kita lowlands across the water and said a sentence she has not been able to set down since: <em>The wall is thinner there than the maps admit, and somebody has to decide whether thin is the same as wrong.</em> She thought it was exhaustion. She is telling you now because she has finally understood it was a plan, said out loud, by something using his mouth and his exhaustion as cover.",
+            "Then she gives you the thing she has been protecting, the unfiled truth that is also the kindest and cruelest fact you will carry out of this road: that in his last lucid month, Gin came to her once, briefly, all the way <em>himself</em> — she could tell, she will always be able to tell — and asked her to make sure that if anyone ever came looking, they understood he had not chosen this and could not, now, choose out of it alone. <em>He didn't ask me to save him,</em> Noa says, and does not cry, which is worse. <em>He asked me to make sure someone knew the difference between him and the thing wearing him. I think he meant you.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Promise Noa you'll hold the difference, whatever it costs.",
+              "hint": "It is the right promise and the one you cannot fully keep — the deeper you go, the harder it gets to tell the brother from the thing, and a promise like this can become the rope you hang on."
+            },
+            {
+              "x": "Ask for everything she remembers about the Kita lowlands.",
+              "hint": "She has been to the low place with him. What she remembers is a map no file holds — and walking it means walking toward the exact wall your brother's borrower wants thinned."
+            },
+            {
+              "x": "Ask whether she'd testify, if it came to Internal Affairs.",
+              "hint": "Her word could break the cover-up open. It would also put the woman who loved your brother in front of the families' machinery, and she has already lost him once."
+            }
+          ]
+        },
+        {
+          "scene": "Public Confidence, where files are kept clean by being emptied",
+          "prose": [
+            "Hagiwara Mizuki runs the office the Directorate does not advertise, the one called Public Confidence, whose job is not to lie to the city but to decide which truths the city can survive knowing — and she summons you, which means you have become a truth she is now weighing. Her office is the warmest room in the building and the most dangerous, full of soft light and good tea and the unhurried manner of a person who has erased better-credentialed people than you before the second cup. She knows about the requisition. The Kurosawa copy. The visit to Noa. She lays your last week out on the table like a hand of cards she has already won, and then she does the thing that nearly works: she is <em>reasonable.</em>",
+            "There is an address, she explains, that does not exist. A case closed too fast, a body-reading that recommends an escalation the institution chose not to survive, a Vanguard whose absence was handled above the room — and all of it, she says, is true, and all of it, she says, is also a wall holding back a flood you cannot see the size of. <em>The five families did not bury your brother out of cruelty,</em> she tells you, refilling your cup. <em>They buried him because the alternative was a panic this city is not built to hold. You can have the truth or you can have the city standing the morning after. I have spent my career learning you almost never get both.</em> She offers you the address. She offers you a future in the Directorate. The price is that you take the second in exchange for never speaking the first.",
+            "And here is the trap, the elegant centre of it: she is not entirely wrong. Some part of what she says is the most honest thing anyone in this building has told you. The membrane in the Kita lowlands <em>is</em> thinning, the panic <em>would</em> be real, and a younger, frightened version of you would take the deal and call it maturity. But you have read the under-image now. You know the thing wearing your brother is not a flood the families are containing — it is a project they have decided is cheaper to permit than to fight, and Mizuki's reasonable, grieving city is the alibi a thinned wall hides behind. The clean file she is offering you is not a kindness. It is the last door, and it only opens one way."
+          ],
+          "choices": [
+            {
+              "x": "Take the address. Trade your silence for the door.",
+              "hint": "You reach the place no file admits — and you arrive as the institution's instrument, having already practiced, once, the act of filing a truth away. The first time is the hardest. She is counting on there being a second."
+            },
+            {
+              "x": "Refuse, and walk out carrying everything you've found.",
+              "hint": "You keep your mouth and lose the door, the ladder, and the protection. The families do not forgive a junior who chooses the flood over the wall, and you have just told the warmest room in the building exactly what you are."
+            },
+            {
+              "x": "Pretend to take the deal. Let her think the wall held.",
+              "hint": "Buy the address with a lie and walk out still yourself — but Mizuki erases better liars than you for a living, and a deal you intend to break is a debt that comes due at the worst possible hour."
+            }
+          ]
+        },
+        {
+          "scene": "The file that should not exist, read at last by its own light",
+          "prose": [
+            "However you came by it — bought, stolen, or refused into your hands by accident — the address that no file admits is real, and it is in the Kita lowlands, the low place where the water remembers, the wall your brother said was thinner than the maps allow. You stand in the records cage one last time with the institution's own paper in your hands and you understand, finally, what the Directorate was for in this road: not to hide your brother from you, but to teach you to read the way <em>he</em> learned to read, in the demanded order, one buried node at a time, until the shape underneath the shape stands up off the page and looks back.",
+            "Because it is all here, in the cleanest filing in Tokyo. The skipped briefing was not Gin avoiding his duty; it was the borrower keeping the host away from a room where a sharp colleague might have read the cold under his skin. The case closed too fast was the lowland drowning — a soul that crossed too easily, through a wall already going thin, evidence the project was working. The body-reading buried above the room was the truth filed where the truth goes to be convenient. And the five families' reasonable, grieving silence is the permission a Duty-register demon needed to keep your brother at his desk, productive, preserved, plotting the thinning of the Kita membrane behind nine years of perfect attendance and a single, deliberate, telling absence.",
+            "You leave the Directorate the way you came, through the lobby and the sagging Obon lanterns and the wall clock that is still forty seconds slow, and nothing about you looks different to the tired people at the desks. But you are carrying the institution's own hand back to the Handwriting now — the dates, the routing slip, the word <em>double-layer</em>, the name Yushiro you have not yet let yourself say aloud — and for the first time since the cold kitchen and the 3:47 that started all of this, you are not chasing a brother-shaped silence. You are reading the thing that made the silence, in its own ledger, in the order it demanded, toward the wall it wants thinned. The Directorate gave you the only honest gift it had: it taught you to see the project. What you do with the seeing belongs to the books that come after."
+          ],
+          "choices": [
+            {
+              "x": "Take the file to the Kita lowlands. Read the wall yourself.",
+              "hint": "The next truth is at the thinning place, not in any cage. But the borrower wanted you reading paper, not standing at the membrane — arrive there and you arrive where the project can see you back."
+            },
+            {
+              "x": "Carry it back to the Handwriting. Cross-read it against Gin's own nodes.",
+              "hint": "His Archive and the Directorate's file are the same map drawn by enemy hands. Laid together they name Yushiro — and naming it is the moment the searching ends and the harder thing begins."
+            },
+            {
+              "x": "Burn your copy. Keep only what you can carry in your head.",
+              "hint": "Paper can be subpoenaed, planted, or used to bury you the way it buried the reading. Memory can't be requisitioned — but memory is also the one record the thing wearing your brother already knows how to edit."
+            }
+          ]
+        }
       ]
     },
     "grid": {
