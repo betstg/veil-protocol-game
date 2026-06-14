@@ -537,11 +537,189 @@
   "roads": {
     "itsuki": {
       "title": "Itsuki's Road — the Kuroda",
-      "status": "queued",
+      "status": "authored",
       "acts": [
         "Open: the family silence, broken for you",
         "Deepen: a Tower house that does not give second chances",
         "Converge: asking him to use his sight on Gin"
+      ],
+      "beats": [
+        {
+          "scene": "Geidai, an hour before the cleaners",
+          "prose": [
+            "You call Itsuki because he is the one door in your life that has never had a lock you did not already hold the key to. It is not yet five, the kettle in your brother's kitchen is still cold behind you, and the line connects on the second ring the way it always has — not because he was awake, but because some part of him has spent fifteen years listening for the particular weight of you on the other end of a phone. <em>Rei.</em> Not a question. Already he is pulling a paint-stiff sleeve over his wrist, already moving through the dark of the studio toward the lamp, and you can hear in the rustle of him the decision being made before you have asked for anything: that whatever this is, he will carry his half of it.",
+            "The studio at Geidai holds the cold of a room nobody has slept in, linseed and the dregs of convenience-store coffee, canvases leaned three deep against every wall. Every third one is the same overpass at Ōji — painted, scraped back, painted over, each version wrong in a way he has never been able to name and never once agreed to sell. You tell him about the empty hook where Gin's coat should be, the briefing skipped, the address in no file, the voice on the twentieth call that was your brother's voice the way a photograph is a face. You do not soften any of it, because Itsuki has never once thanked you for softening a thing.",
+            "He listens the whole way through without interrupting, which is its own kind of answer, and when you finish there is a silence with a shape to it — the shape of a man counting the doors he is willing to open and the ones the opening will cost him. Then, quietly, in the voice he uses for true things: <em>There are two ways a Kuroda puts you across a sleeping city, and neither of them is free. Tell me which kind of debt you can stand to owe by morning.</em>"
+          ],
+          "choices": [
+            {
+              "x": "\"The family's way. True teleportation — Sei's reach.\"",
+              "hint": "The oldest house in Tokyo will fold the city around you in an instant. It will also decide, at its leisure, what the crossing cost — and the Kuroda do not forgive a debt, they file it."
+            },
+            {
+              "x": "\"Your way. Through a painting.\"",
+              "hint": "Itsuki's gift never opened clean; he reaches through the canvases instead, a forgery of the real thing. It is gentler to the family and ruinous to him — a crossing can scrape the colour out of a painting he can never repaint."
+            },
+            {
+              "x": "\"Tell me only what I can carry alone. I won't spend you on this.\"",
+              "hint": "Protect him from the house and the debt by walking into it half-blind. He will let you think you've won the argument, and follow you anyway, one street back, where you can't refuse him."
+            }
+          ]
+        },
+        {
+          "scene": "The name he is not supposed to use",
+          "prose": [
+            "What you are asking, though neither of you says it plainly, is for Itsuki to break a silence he has held for years. He left the Nezu compound the way a man leaves a religion — not loudly, not with a door slammed, but by simply ceasing to answer when the house called his name. The gift that should have made him a Tower never opened in him; it came in sideways, through pigment and a cut palm, and a house that measures its children against a stone older than the lacquer that has gone to glass on it had a word for that, and the word was <em>lesser</em>. To go back now is to put his face in front of that word again, on purpose, for you.",
+            "And there is a name he is not supposed to use — a leverage the family pretends does not exist, a debt the house owes his side of it that no Kuroda will speak aloud because speaking it admits it is owed. He turns it over in front of you, this name, the way you turn over a knife you are deciding whether to carry into a room. You watch him decide. He does not perform the cost for you; he just sets his jaw the particular way he sets it before a brushstroke he knows he cannot take back, and reaches for his coat.",
+            "<em>Understand what I'm spending,</em> he says, not unkindly, not asking you to stop. <em>The family will move you because I'll make it cheaper for them to move you than to keep refusing me, and they will remember that I made them. They keep accounts longer than anyone alive. By the time the sun's up you'll owe them a number, and I'll owe them the thing under the number.</em> He holds the door. <em>Come on. Your brother's been gone a Wednesday already.</em>"
+          ],
+          "choices": [
+            {
+              "x": "\"Then don't spend it. We find another road.\"",
+              "hint": "Spare him the name and the house — and lose the one route in Tokyo that can read a seated demon for what it is. The other roads are slower, and Gin's lucid windows are closing on a schedule you do not control."
+            },
+            {
+              "x": "\"Spend it. I'll find a way to make it right.\"",
+              "hint": "Let him pay, and promise a repayment you have no currency for. The Kuroda will hold you to it; so, more quietly, will he — though he will never once name it."
+            },
+            {
+              "x": "Say nothing — just take his coat from the hook and hand it to him.",
+              "hint": "Answer the way the two of you have always answered each other, beneath words. It settles the matter and it deepens whatever this is between you that neither of you has had the nerve, in fifteen years, to call by its name."
+            }
+          ]
+        },
+        {
+          "scene": "Nezu, the oldest silence in Tokyo",
+          "prose": [
+            "Nezu, where the city keeps its oldest money and its oldest silences. The Kuroda compound does not announce itself — the most private house in Tokyo has never had any need to — only old wood gone black with the decades, a wall that has outlived three governments, and over all of it a stillness that is not peace but attention. The held quiet of a place that has been listening for a very long time and has not yet decided what it thinks of you. The Obon lanterns are out along the lane, small fires for the returning dead, and the compound has hung none; the Kuroda do not invite anything back that they have not first weighed.",
+            "A cousin meets you at the gate, and she is not Itsuki's ally. You learn this in the first three seconds, in the flat courtesy she offers him — the courtesy you give a debt that has come to the door on its own legs. She looks at you the way the family looks at everything: past the careful disguise you wear over the two registers you have kept suppressed your whole life, the thing you have never once let anyone see. You feel her find the edge of it and decline, for now, to pull. <em>He brought a stray,</em> she says to Itsuki, not to you. <em>Sei will want to know what kind.</em>",
+            "Itsuki does not rise to it, which costs him something you can see and she cannot. He walks the path he was raised on with the particular stiffness of a man in a house that stopped being home the day it measured him and found him short. You walk a half-step behind, watching the rafters, where the wards are old enough to have gone almost decorative, almost — and under the almost, a weight, an attention, the compound deciding by the moment how much of itself to show you."
+          ],
+          "choices": [
+            {
+              "x": "Let your disguise stay shut. Give the house nothing.",
+              "hint": "Stay a stray, unreadable, safe — and useless to Sei, who trades only in what he can weigh. A house that cannot price you may simply decline to deal."
+            },
+            {
+              "x": "Let the cousin feel one register, on purpose.",
+              "hint": "Show a hand to buy a hearing. The Kuroda will value you instantly and accurately — and what they learn about you tonight, they keep forever, in the same ledger as Itsuki's debt."
+            },
+            {
+              "x": "Ask the cousin, plainly, why no lanterns.",
+              "hint": "Press on the one strangeness the house has shown you. The answer is older than Gin's Wednesday, and the family would rather price you than explain it."
+            }
+          ]
+        },
+        {
+          "scene": "Kuroda Sei receives you like deep water receives a stone",
+          "prose": [
+            "Kuroda Sei receives you the way deep water receives a stone — without splash, without resistance, and without any promise that the stone will be given back. He is younger than you expected and stiller than anyone alive, singular among his family for a control that does not look like effort because the effort was finished decades ago. On the low table between you sits the anchor: a teleport-stone the colour of a bruise, the artifact the whole house reaches through, old enough that its lacquer has gone to glass. He does not touch it. He looks at you, and you understand that he has already decided three things about you that you will not be told.",
+            "<em>You want a crossing,</em> he says, when he finally speaks, and it is not the crossing he is weighing; it is you. <em>The cost of a crossing is known. The cost of you is not, and my house does not extend credit against an unknown sum.</em> He lets the silence do the asking. The Tower house gives no second chances — not because it is cruel but because it has run the longer numbers and found that mercy, extended twice, becomes a precedent, and a precedent in a house this old becomes a law, and a law it cannot pay it will not write. Itsuki, beside you, has gone very quiet, the quiet of a man whose whole leverage rests on a name nobody will let him say.",
+            "And then Sei's attention moves, by a degree, off you and onto the morning you carry — onto the shape of the thing that took your brother — and for the first time something crosses the stillness of his face. Not fear. The family does not fear the way you do. But a recalculation, sudden and total, like a man who has been pricing a coat and abruptly realises he is pricing the man wearing it. <em>What did you say,</em> he asks, very softly, <em>was wrong with the shadow.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Describe the wrong shadow exactly — weight where there should be none.",
+              "hint": "Hand the head of the Tower house the precise shape of what is wearing Gin. He will know it for what it is faster than you want him to, and what the Kuroda know, they act on for their own reasons, not yours."
+            },
+            {
+              "x": "Offer the crossing's price first — name your own debt before he names it.",
+              "hint": "Take control of the ledger by opening it yourself. Sei respects the move and will charge you no less for it; the house simply prefers a debtor who can count."
+            },
+            {
+              "x": "Ask what made him go still.",
+              "hint": "Turn his own recalculation back on him. He will tell you only as much as serves the house — and the gap between what he says and what crossed his face is the first true measure you get of how deep the Thirteen runs under all of this."
+            }
+          ]
+        },
+        {
+          "scene": "A wrong shadow carrying weight",
+          "prose": [
+            "The cousin says it before Sei can decide whether to, and the saying of it changes the temperature of the room. <em>A wrong shadow carrying weight. You are describing a seated one.</em> She means the Thirteen, and she does not explain what she means, and the drop in her voice tells you the Kuroda have skin in that game older than your morning, older than the wall outside, older than the grievance they are about to make you pay. For half a heartbeat the most controlled house in Tokyo flinches at a name it does not even speak — and you file that flinch, because a family that fears nothing has just shown you the one thing it does.",
+            "Sei recovers first, the way water closes over the stone. He tells you, in the flat cosmological register the family uses for truths that have no pity in them, the part he is willing to spend: that what your brother carries is a Seat of the Thirteen, the register they will only call <em>Duty</em>, and that the Towers — every Tower house, his among them — will not follow it. Not cannot. <em>Will not.</em> There is a line a seated Duty can walk that the oldest powers in the city have agreed, across centuries and without ever writing it down, that they do not walk behind, and the reason is old enough that even Sei gives it to you as a closed door rather than a sentence. <em>If your brother is carrying that seat,</em> he says, <em>then you are not asking me to find a man. You are asking me to look at a thing my house has spent its whole existence learning not to look at.</em>",
+            "And there it is — the price, naked at last, and worse than a number. The Kuroda will move you. They will not move toward what is wearing Gin. The house that can fold the city closed in a heartbeat will set you down at the edge of the thing and no nearer, because to step inside the reach of a seated Duty is to risk the one debt even the Tower house cannot file and forget: the debt a seat collects from anyone who acknowledges it. The cousin watches you take this in with something that is almost, not quite, pity. <em>You came in owing us money,</em> she says. <em>You'll leave owing us a silence. Don't tell the lower houses we so much as said the word.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Take the edge-crossing. Closer than this you'll walk on your own legs.",
+              "hint": "Accept the house's limit and the long warded walk past it. You arrive at the threshold of Gin's trail with the family's cosmology in your chest and no one beside you for the last stretch."
+            },
+            {
+              "x": "Push Sei to name what the Towers are afraid of.",
+              "hint": "Demand the thing behind the closed door. He will not give it whole — but each word you pry loose is a word the house will remember you made it say, and the ledger only ever runs one direction."
+            },
+            {
+              "x": "Promise the silence. Trade what you'll never tell for one thing they will.",
+              "hint": "Bind yourself to the house's secret in exchange for a true answer. It is a cheap-feeling deal tonight and an iron collar later, when you need the lower houses and cannot prove the one thing that would make them listen."
+            }
+          ]
+        },
+        {
+          "scene": "Back in the studio — he cuts his palm for ink",
+          "prose": [
+            "The family will set you at the edge, but the edge is not the same as a sight, and the one sight in Tokyo you would trust on your own brother belongs to the man scraping bruise-coloured residue off his fingers beside you. Back in the studio, the sky going grey at the high windows, Itsuki turns the worst canvas to face the room — the Ōji overpass at dusk, the one he could never finish — and you finally see the shape he has been almost-painting and scraping out for weeks. A figure on the bridge, its shadow thrown forward, into the light it should have been falling away from. He has been painting Gin's wrongness for a month without knowing whose it was.",
+            "<em>I can make it a door,</em> he says, the way he said it in another life, on another road, except this time he says it knowing the house's word for what is on the far side. <em>I can't make it a safe one. And I've never carried a person and a question at the same time.</em> He means he can turn his sight on Gin through the painting — read the seam you have been straining to hear on the phone, the place where your brother ends and the seated thing begins — but to look at a Duty that close is to let it look back, and to spend, in the looking, colour he is not certain will come back to his hands. The whole of his gift is borrowed against paintings he has not made yet. This would be a withdrawal he cannot see the balance behind.",
+            "He picks up the blade he keeps for this, the little one with the worn handle, and holds it over his palm, and waits — not for your permission exactly, but for you to be the one who decides what you are about to ask of him. The cut is the easy part. The cut is just ink. What he is offering you is the harder thing, and he is making you hold it in your own hand before he opens his."
+          ],
+          "choices": [
+            {
+              "x": "\"Look. I need to know where my brother ends.\"",
+              "hint": "Ask him to spend it. You will get the seam — the exact border between Gin and the Healer wearing him — and Itsuki will get whatever the looking costs, which neither of you can price until it's already gone."
+            },
+            {
+              "x": "\"Don't. I've taken enough from you tonight.\"",
+              "hint": "Refuse the gift to spare the giver, and carry into Book Two only the family's cold cosmology, without the one intimate, human reading of your brother that might have told you he is still in there."
+            },
+            {
+              "x": "\"Look — but you pull out the second it bites back.\"",
+              "hint": "Try to bound the cost in advance. He will agree, and you both know that a man reading a seated Duty does not get to choose the moment he stops; the seat chooses."
+            }
+          ]
+        },
+        {
+          "scene": "The shadow thrown forward",
+          "prose": [
+            "He cuts, and dips, and lays the wet red line along the figure on the bridge, and the studio goes the particular silent of a held breath, and then the painting opens — not a door you step through this time but a window his sight throws onto your brother, wherever Gin is, north, toward water. And you see them at last, the two of them, layered in the one body the way Itsuki layers a canvas: underneath, faint and frightened and unmistakably <em>Gin</em>, the brother who told you on the phone to go home; over him, even and reasonable and patient, the seated thing the family will only call Duty, the one Yushiro names to himself, when he bothers with names, the Healer. The seam between them is not a wall. It is a tide. It comes in over your brother and goes out and comes in again, and in the going-out you can see exactly how much of Gin is left, and it is enough to save and not enough to wait.",
+            "This is the gift the road gives you, and it feeds straight into the Handwriting: you no longer have to learn the seam by ear, one stolen lucid sentence at a time. You have seen it whole. You know the shape of the thing's argument now — that the dead of the north were never given their due, that the membrane over Kita-ku is a wound a high enough grief could finally close, that catastrophe seen from a vacant Thirteenth Seat looks like an obligation met at last — and you know, because Itsuki's sight showed you the frightened register underneath, that your brother does not believe it and cannot stop his own mouth from saying it. The Healer is not lying to Gin. It is reasoning with him, in his own cadence, and winning by inches.",
+            "Then it bites back. The figure on the bridge turns its thrown-forward shadow toward the window, the way a man turns toward a draught he didn't know was open, and Itsuki makes a sound you have never heard him make. You break the contact the only way you can, with your whole body, and when it's done he is sitting on the studio floor and the canvas on the easel is blank — scraped clean by nothing you did, the overpass gone, the figure gone, the month of work gone — and when he reaches for it his fingers find the surface and no colour will come."
+          ],
+          "choices": [
+            {
+              "x": "Go to him first. The trail can hold for a breath.",
+              "hint": "Choose the friend over the lead. Gin is still north and still going; the seconds you spend on the studio floor are seconds the tide takes back — but Itsuki, white and shaking and unable to find his own colour, is the cost of this road made flesh, and he is in front of you now."
+            },
+            {
+              "x": "Fix the heading first, while the sight is fresh.",
+              "hint": "Pin down exactly where the window showed Gin before the image fades. You'll lose nothing of the trail and a little of yourself — Itsuki will tell you he's fine, and you will choose, this once, to be told."
+            },
+            {
+              "x": "Ask him what he saw that you couldn't.",
+              "hint": "His sight is older than yours and reads layers you only felt. He saw something in the tide he hasn't said — and prying it out of a man who just lost his colour for you is a thing you will have to decide whether you are."
+            }
+          ]
+        },
+        {
+          "scene": "What you owe, and to whom",
+          "prose": [
+            "You come back to the morning owing a debt with no number on it, and Itsuki owing the house more, and the city sitting a half-degree off true from the places you have stood tonight where no one should stand. The Kuroda have what they wanted, which was your measure; you have what you came for, which is worse and better than a location — you have the seam, the tide, the proof that your brother is still in there and the timing that says <em>not for long</em>. The Towers will not follow a seated Duty. You will. That gap, between what the oldest house in Tokyo has decided it cannot afford and what you cannot afford not to do, is the whole shape of the road you have just walked, and it points north, toward water, the way every road on this morning eventually does.",
+            "Itsuki gets up off the floor, because he is the kind of man who gets up, and he turns the blank canvas back to the wall the way you turn a photograph of someone you are not ready to have died. <em>It'll come back,</em> he says, of the colour, and you both let it be true in the room even though neither of you knows it. He does not ask you what you'll do with what he spent to show you. He has known you fifteen years; he already knows you'll spend it, all of it, the way you spend everything, on Gin. The not-asking is the most he will let himself say, and you hear all of it.",
+            "What you carry out of the studio into Book Two is the family's cold cosmology and one warm, ruinous reading laid over it: that the thing wearing your brother has a seat to claim and a wall to thin and a perfectly reasonable case, and that the man under it is awake enough to be afraid and not free enough to run. The lanterns are guttering along the Nezu lane as you leave — the small fires the Kuroda lit for nothing, hung for no returning dead — and you understand, with the half-degree of new wrongness the night has put in you, exactly why a house that old declines to invite anything back across a membrane it has spent its whole existence learning not to thin."
+          ],
+          "choices": [
+            {
+              "x": "North, now, on the heading the sight gave you.",
+              "hint": "Carry the road straight into the Handwriting and go after Gin while the tide still leaves enough of him to reach. You go with the seam in your eyes and a friend behind you who cannot paint."
+            },
+            {
+              "x": "Make the repayment to Itsuki first, whatever it costs you.",
+              "hint": "Refuse to leave the studio owing the one debt that was never the house's. There is no currency for it and you go looking anyway — which is either the most honest thing you do all night or the slowest."
+            },
+            {
+              "x": "Keep the Kuroda's silence — and start counting what it will cost you later.",
+              "hint": "Honour the trade you made with the cousin and feel the collar of it settle. The lower houses, the Grid, the CVD: every road after this one is harder for the word you have promised never to say."
+            }
+          ]
+        }
       ]
     },
     "cvd": {
