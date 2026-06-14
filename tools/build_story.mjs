@@ -7,6 +7,7 @@ globalThis.window = { VP: { scenes: {} } };
 (0, eval)(fs.readFileSync(ROOT + "content/scenes/chapter1.js", "utf8"));
 const scenes = window.VP.scenes;
 const lore = JSON.parse(fs.readFileSync(ROOT + "content/registry/lore.json", "utf8"));
+const authored = JSON.parse(fs.readFileSync(ROOT + "content/registry/authored.json", "utf8"));
 
 const ROAD_TITLES = {
   opening: ["Prologue", "The Kitchen, 3:47am", "The hour the city forgets itself. A cold kettle, a brother who never came home, and the handful of doors the morning leaves open."],
@@ -99,6 +100,45 @@ function endingPanel(name) {
   return html;
 }
 
+/* ---- The Family arc (the spine: Rei, Gin, and the thing wearing him) ---- */
+const FAMILY = [
+  ["rei", "The one who searches", "Rei Uedera"],
+  ["gin", "The one who was worn", "Uedera Gin"],
+  ["yushiro", "The thing in the house", "Yushiro · the Healer"],
+];
+function familyPanel(id) {
+  const e = authored[id]; if (!e) return "";
+  let html = "";
+  if (e.cap) html += `<div class="epigraph">${esc(e.cap).replace(/\n/g, "<br>")}</div>`;
+  for (const b of e.back || []) html += `<p>${esc(b)}</p>`;
+  const q = e.quest;
+  if (q) {
+    html += `<div class="quest"><div class="quest-tag">${esc(q.tag || "Arc")}</div><div class="quest-title">${esc(q.title || "")}</div>`;
+    if (q.hook) html += `<p class="quest-hook">${esc(q.hook)}</p>`;
+    if (q.stages && q.stages.length) {
+      html += `<div class="quest-stages-h">How it moves</div><ul>`;
+      for (const s of q.stages) html += `<li>${esc(s)}</li>`;
+      html += `</ul>`;
+    }
+    if (q.payoff) html += `<div class="quest-payoff"><span>What it turns on</span>${esc(q.payoff)}</div>`;
+    html += `</div>`;
+  }
+  // a couple of defining ties
+  const rels = (e.rels || []).filter((r) => ["gin", "rei", "yushiro"].includes(r[3])).slice(0, 3);
+  if (rels.length) {
+    html += `<div class="ties"><div class="ties-h">Ties</div>`;
+    for (const r of rels) html += `<div class="tie"><b>${esc(r[0])}</b> <span>(${r[1] >= 0 ? "+" : ""}${r[1]})</span> — ${esc(r[2])}</div>`;
+    html += `</div>`;
+  }
+  return html;
+}
+const famTabs = FAMILY.map(([id, , title], i) =>
+  `<button class="subtab${i === 0 ? " on" : ""}" data-p="fam-${id}">${esc(title)}</button>`).join("");
+const famPanels = FAMILY.map(([id, eyebrow, title], i) =>
+  `<div class="subpanel${i === 0 ? " on" : ""}" id="panel-fam-${id}">
+     <div class="road-eyebrow">${esc(eyebrow)}</div><h2>${esc(title)}</h2>${familyPanel(id)}
+   </div>`).join("");
+
 /* ---- assemble ---- */
 const roadTabs = ROAD_ORDER.map((k, i) =>
   `<button class="subtab${i === 0 ? " on" : ""}" data-p="road-${k}">${esc(ROAD_TITLES[k][1])}</button>`).join("");
@@ -154,6 +194,17 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
 .ending-sub{font-family:'Cinzel',serif;color:var(--gold);letter-spacing:2px;text-align:center;font-size:15px;margin-bottom:10px}
 .ending-req{margin-top:12px;font-size:13px;color:var(--dim);border-top:1px solid var(--bdr);padding-top:10px}
 .ending-req span{display:block;font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blood);margin-bottom:3px}
+.epigraph{font-style:italic;color:var(--gold);text-align:center;font-size:15px;line-height:1.7;border-top:1px solid var(--bdr);border-bottom:1px solid var(--bdr);padding:14px 10px;margin:6px auto 18px;max-width:560px}
+.subpanel p{font-size:16px;line-height:1.74;margin:0 0 12px}
+.quest{background:#100c08;border:1px solid var(--bdr);border-left:2px solid var(--blood);border-radius:8px;padding:16px 18px;margin:18px 0}
+.quest-tag{font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--blood)}
+.quest-title{font-family:'Cinzel',serif;color:var(--gold);font-size:18px;letter-spacing:1px;margin:2px 0 8px}
+.quest-hook{font-style:italic;color:#b6ab97}
+.quest-stages-h,.ties-h{font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);margin:10px 0 4px}
+.quest ul{margin:0;padding-left:18px}.quest li{font-size:14.5px;line-height:1.6;margin:4px 0;color:#cfc4b0}
+.quest-payoff{margin-top:12px;font-size:13.5px;color:var(--dim);border-top:1px solid var(--bdr);padding-top:9px}
+.quest-payoff span{display:block;font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:3px}
+.ties{margin-top:16px}.tie{font-size:14px;color:#cfc4b0;margin:3px 0}.tie span{color:var(--dim);font-family:'Courier New',monospace;font-size:11px}
 .note{text-align:center;color:#5f564e;font-size:11.5px;margin-top:40px}
 </style></head>
 <body>
@@ -166,6 +217,7 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
 
 <div class="tabs">
   <button class="tab on" data-t="roads">The Roads</button>
+  <button class="tab" data-t="family">The Family</button>
   <button class="tab" data-t="choices">The Choices</button>
   <button class="tab" data-t="endings">The Endings</button>
 </div>
@@ -174,6 +226,11 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
   <div class="panel on" id="panel-roads">
     <div class="subtabs">${roadTabs}</div>
     ${roadPanels}
+  </div>
+  <div class="panel" id="panel-family">
+    <p class="road-blurb">The spine beneath every road: a brother gone quiet on a Wednesday, the brother who goes looking, and the reasonable voice now wearing the first one. Every ending is decided here.</p>
+    <div class="subtabs">${famTabs}</div>
+    ${famPanels}
   </div>
   <div class="panel" id="panel-choices">
     <p class="road-blurb">Every fork in Chapter One, with the dread each door is dressed in.</p>
@@ -190,12 +247,9 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
 <script>
 function showTab(t){document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on',b.dataset.t===t));
   document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.id==='panel-'+t));}
-function showSub(p){var pre=p.split('-')[0]==='road'?'road-':'end-';
-  document.querySelectorAll('.subtab').forEach(b=>{if(b.dataset.p.startsWith(pre.replace('-','')) || b.dataset.p.split('-')[0]===p.split('-')[0]){} });
-  // toggle within the same group
-  var group=p.startsWith('road')?'road':'end';
+function showSub(p){var group=p.split('-')[0];
   document.querySelectorAll('.subtab').forEach(b=>{if(b.dataset.p.split('-')[0]===group)b.classList.toggle('on',b.dataset.p===p);});
-  document.querySelectorAll('.subpanel').forEach(sp=>{if(sp.id.indexOf('panel-'+group)===0)sp.classList.toggle('on',sp.id==='panel-'+p);});}
+  document.querySelectorAll('.subpanel').forEach(sp=>{var id=sp.id.replace('panel-','');if(id.split('-')[0]===group)sp.classList.toggle('on',id===p);});}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.t));
 document.querySelectorAll('.subtab').forEach(b=>b.onclick=()=>showSub(b.dataset.p));
 </script>
