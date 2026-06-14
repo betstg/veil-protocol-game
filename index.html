@@ -90,6 +90,21 @@ a.ref .rd{color:#6f655a;font-size:11.5px;line-height:1.5;margin:0}
     </div>
   </div>
 
+  <div style="text-align:center;margin:14px 0 0">
+    <button id="devbtn" onclick="openDev()" title="Dev tools — Warden's tracker"
+      style="background:#120f0a;border:1px dashed #4a3a26;color:#5f564e;font-family:'Cinzel',serif;letter-spacing:1px;font-size:12px;padding:8px 20px;border-radius:8px;cursor:pointer">🔒 Tracker · dev</button>
+  </div>
+  <script>
+  function openDev(){
+    try{ if(localStorage.getItem('vp_dev')==='1'){ window.open('veil-protocol-tracker.html','_blank'); return; } }catch(e){}
+    var c=prompt('Warden dev passcode:'); if(c===null) return;
+    if(c==='axis13'){ try{localStorage.setItem('vp_dev','1');}catch(e){} markDev(); window.open('veil-protocol-tracker.html','_blank'); }
+    else alert('Locked.');
+  }
+  function markDev(){ var b=document.getElementById('devbtn'); if(b){ b.style.color='#C9A84C'; b.style.borderStyle='solid'; b.style.borderColor='#6d5a3a'; b.textContent='🛠 Tracker (dev)'; } }
+  try{ if(localStorage.getItem('vp_dev')==='1') markDev(); }catch(e){}
+  </script>
+
   <div class="sect">The world</div>
   <div class="story">
     <p>Tokyo, 2015. The city looks ordinary. It is not. The dead never fully left... they press against a thinning membrane called the veil, most of all the ones lost without a grave. A few of the living can feel them, read them, and sometimes cross over, and a quiet government bureau exists to keep everyone else from ever noticing.</p>
