@@ -916,6 +916,25 @@ load();refresh();
 
 </div>
 <script>
+var boxes=[].slice.call(document.querySelectorAll('.row input'));
+function load(){boxes.forEach(function(b){try{if(localStorage.getItem('vpimg_'+b.dataset.id)==='1')b.checked=true;}catch(e){}});}
+function save(b){try{localStorage.setItem('vpimg_'+b.dataset.id,b.checked?'1':'0');}catch(e){}}
+function refresh(){
+  var done=boxes.filter(function(b){return b.checked;}).length;
+  document.getElementById('pcount').textContent=done+' / '+boxes.length;
+  document.getElementById('pbar').style.width=(100*done/boxes.length)+'%';
+  document.querySelectorAll('.bc').forEach(function(el){
+    var bt=el.dataset.batch;var rows=boxes.filter(function(b){return b.closest('.row').dataset.batch===bt;});
+    var d=rows.filter(function(b){return b.checked;}).length;el.textContent=d+'/'+rows.length;
+  });
+}
+boxes.forEach(function(b){b.addEventListener('change',function(){save(b);refresh();});});
+load();refresh();
+</script>
+</div>
+
+</div>
+<script>
 function tab(n){document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));document.getElementById('p-'+n).classList.add('on');document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on', (b.getAttribute('onclick')||'')==="tab('"+n+"')"));window.scrollTo(0,0);}
 ['lore','gm','game','quests','side','romance'].forEach(function(id){
  var p=document.getElementById('p-'+id); if(!p) return;
