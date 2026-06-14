@@ -8,6 +8,7 @@ globalThis.window = { VP: { scenes: {} } };
 const scenes = window.VP.scenes;
 const lore = JSON.parse(fs.readFileSync(ROOT + "content/registry/lore.json", "utf8"));
 const authored = JSON.parse(fs.readFileSync(ROOT + "content/registry/authored.json", "utf8"));
+const campaign = JSON.parse(fs.readFileSync(ROOT + "content/story/campaign.json", "utf8"));
 
 const ROAD_TITLES = {
   opening: ["Prologue", "The Kitchen, 3:47am", "The hour the city forgets itself. A cold kettle, a brother who never came home, and the handful of doors the morning leaves open."],
@@ -139,6 +140,52 @@ const famPanels = FAMILY.map(([id, eyebrow, title], i) =>
      <div class="road-eyebrow">${esc(eyebrow)}</div><h2>${esc(title)}</h2>${familyPanel(id)}
    </div>`).join("");
 
+/* ---- Main Story (the spine, from campaign.json: books → chapters → beats) ---- */
+function badge(status) {
+  if (status === "authored" || status === "authored-stub") return `<span class="badge ok">written</span>`;
+  return `<span class="badge q">to be authored</span>`;
+}
+function beatHtml(b) {
+  let h = `<div class="beat">`;
+  if (b.scene) h += `<div class="beat-scene">${esc(b.scene)}</div>`;
+  for (const p of b.prose || []) h += p.trim().startsWith("<") ? `<p>${p}</p>`.replace("<p><", "<") : `<p>${p}</p>`;
+  const ch = b.choices || [];
+  if (ch.length) {
+    h += `<div class="choices"><div class="choices-h">The choice it leaves you</div>`;
+    for (const c of ch) h += `<div class="choice"><div class="choice-x">${esc(c.x)}</div>${c.hint ? `<div class="choice-hint">${esc(c.hint)}</div>` : ""}</div>`;
+    h += `</div>`;
+  }
+  return h + `</div>`;
+}
+function chapterHtml(c) {
+  let h = `<div class="chapter"><div class="chapter-h">${esc(c.title)} ${badge(c.status)}</div>`;
+  if (c.summary) h += `<p class="chapter-sum">${esc(c.summary)}</p>`;
+  for (const b of c.beats || []) h += beatHtml(b);
+  return h + `</div>`;
+}
+const mainTabs = campaign.main.map((bk, i) =>
+  `<button class="subtab${i === 0 ? " on" : ""}" data-p="book-${i}">${esc(bk.book)}</button>`).join("");
+const mainPanels = campaign.main.map((bk, i) =>
+  `<div class="subpanel${i === 0 ? " on" : ""}" id="panel-book-${i}">
+     <div class="road-eyebrow">${esc(bk.book)}</div><h2>${esc(bk.title)}</h2>
+     <p class="road-blurb">${esc(bk.subtitle || "")}</p>
+     ${(bk.chapters || []).map(chapterHtml).join("")}
+   </div>`).join("");
+
+/* ---- Side missions & romances ---- */
+function sideHtml() {
+  return (campaign.sideMissions || []).map((s) =>
+    `<div class="decision"><div class="decision-h">${esc(s.title)} ${badge(s.status)}</div>
+      <div class="choice-hint" style="margin-bottom:4px">Given by ${esc(s.giver || "—")}</div>
+      <p style="margin:0">${esc(s.hook || "")}</p></div>`).join("");
+}
+function romanceHtml() {
+  return (campaign.romances || []).map((r) =>
+    `<div class="decision"><div class="decision-h">${esc(r.who)} ${badge(r.status)}</div>
+      <div class="choice-hint" style="margin-bottom:6px">Ceiling: ${esc(r.ceiling || "fade to black")} · never minors</div>
+      <ol class="stages">${(r.stages || []).map((st) => `<li>${esc(st)}</li>`).join("")}</ol></div>`).join("");
+}
+
 /* ---- assemble ---- */
 const roadTabs = ROAD_ORDER.map((k, i) =>
   `<button class="subtab${i === 0 ? " on" : ""}" data-p="road-${k}">${esc(ROAD_TITLES[k][1])}</button>`).join("");
@@ -205,6 +252,13 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
 .quest-payoff{margin-top:12px;font-size:13.5px;color:var(--dim);border-top:1px solid var(--bdr);padding-top:9px}
 .quest-payoff span{display:block;font-family:'Courier New',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:3px}
 .ties{margin-top:16px}.tie{font-size:14px;color:#cfc4b0;margin:3px 0}.tie span{color:var(--dim);font-family:'Courier New',monospace;font-size:11px}
+.chapter{border-top:1px solid #1c1610;padding:16px 0 4px}
+.chapter-h{font-family:'Cinzel',serif;font-size:17px;letter-spacing:1px;color:var(--paper);margin-bottom:4px}
+.chapter-sum{font-style:italic;color:var(--dim);font-size:14px;margin:2px 0 6px}
+.badge{font-family:'Courier New',monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;padding:2px 7px;border-radius:10px;vertical-align:middle;margin-left:6px}
+.badge.ok{background:#16210f;color:#9fcf7f;border:1px solid #2c4a1e}
+.badge.q{background:#23160f;color:#c98a5a;border:1px solid #4a301e}
+.stages{margin:4px 0 0;padding-left:20px}.stages li{font-size:14px;color:#cfc4b0;margin:4px 0;line-height:1.55}
 .note{text-align:center;color:#5f564e;font-size:11.5px;margin-top:40px}
 </style></head>
 <body>
@@ -216,16 +270,32 @@ h2{font-family:'Cinzel',serif;letter-spacing:2px;text-align:center;font-size:24p
 </header>
 
 <div class="tabs">
-  <button class="tab on" data-t="roads">The Roads</button>
+  <button class="tab on" data-t="main">Main Story</button>
+  <button class="tab" data-t="roads">The Roads</button>
   <button class="tab" data-t="family">The Family</button>
+  <button class="tab" data-t="side">Side Missions</button>
+  <button class="tab" data-t="romance">Romances</button>
   <button class="tab" data-t="choices">The Choices</button>
   <button class="tab" data-t="endings">The Endings</button>
 </div>
 
 <div class="wrap">
-  <div class="panel on" id="panel-roads">
+  <div class="panel on" id="panel-main">
+    <p class="road-blurb">The spine of the campaign — five Books from the kitchen to the vacant Seat. Authored in waves; chapters marked <span class="badge q">to be authored</span> are coming.</p>
+    <div class="subtabs">${mainTabs}</div>
+    ${mainPanels}
+  </div>
+  <div class="panel" id="panel-roads">
     <div class="subtabs">${roadTabs}</div>
     ${roadPanels}
+  </div>
+  <div class="panel" id="panel-side">
+    <p class="road-blurb">Smaller stories with their own weather. Each is multi-scene; longer versions are being authored.</p>
+    ${sideHtml()}
+  </div>
+  <div class="panel" id="panel-romance">
+    <p class="road-blurb">Four stages each — notice, trust, turn, fade — gated on something real done for them, not asked. Fade-to-black ceiling; minors are never romanced.</p>
+    ${romanceHtml()}
   </div>
   <div class="panel" id="panel-family">
     <p class="road-blurb">The spine beneath every road: a brother gone quiet on a Wednesday, the brother who goes looking, and the reasonable voice now wearing the first one. Every ending is decided here.</p>

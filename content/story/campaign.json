@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Veil Protocol — The Other Side",
+    "note": "Long-form campaign content. Authored in waves toward ~4h main + ~2h per road + side missions + romances.",
+    "voice": "Atmospheric occult-noir (Lord of the Mysteries × Seven Deaths of Evelyn Hardcastle). Dread you feel, not dread you're told."
+  },
+  "main": [
+    {
+      "book": "Book One",
+      "title": "The Vanishing",
+      "subtitle": "A brother gone quiet on a Wednesday, and the morning that will not give him back.",
+      "chapters": [
+        {
+          "title": "Chapter One — The Kitchen",
+          "status": "authored",
+          "summary": "The 3:47am kitchen, the cold key, Gin's archive, and the five roads out. (Playable; see the Roads tab.)"
+        },
+        {
+          "title": "Chapter Two — The Archive",
+          "status": "authored",
+          "beats": [
+            {
+              "scene": "The table, the book open to a page that wasn't there last night",
+              "prose": [
+                "You clear the cold dinner-for-two off the table without quite looking at the second plate, and you set the Archive down in the cleared space like a thing that might wake. It is heavier than a book that size has any business being. Gin's hand is on every page — the small, exact print of a man who trusted ink more than memory, who once told you that the difference between a practitioner who lives and one who does not is whether they wrote it down before the night made them doubt it.",
+                "There is an index card slipped under the front cover, and on it, in that same hand but pressed harder than the rest, a single instruction: <em>If I stop writing, read it in order. Out of order it lies by omission.</em> You did not see it last night. You are almost certain you did not see it last night. The flat is the particular quiet of a place that has decided to listen, and somewhere under the floor the building's old pipes tick as they cool, counting down to nothing."
+              ],
+              "choices": [
+                { "x": "Read from the first page, exactly as he asked.", "hint": "The slow way. Gin built the order for a reason, and the reason is that some of these names only make sense once you already believe the ones before them." },
+                { "x": "Skip to the last entries — the ones near the date he went quiet.", "hint": "The fast way, and the forbidden one. The Archive 'lies by omission' read out of order; you would be trusting the most compromised pages first." }
+              ]
+            },
+            {
+              "scene": "Four nodes, four locks, four people you have never met",
+              "prose": [
+                "However you come to it, the shape of the thing resolves the way a face resolves out of static once you stop trying to see it. The Archive is not a journal. It is a key-ring. Gin mapped the unregistered network of Northern Tokyo the way the Directorate never could — not as a list of suspects but as a map of trust, who would open a door for whom, and at what hour, and after which password — and he locked the live parts of it behind four people. Four primary nodes. A baker who does not know what he is. A clinic behind a blue curtain. A café that keeps Tuesday evenings free for the kind of customer who comes in already knowing. A shrine room behind a Korean restaurant in Shin-Ōkubo.",
+                "None of them will speak to a stranger. All of them, the margins say in Gin's smallest hand, owe him — not money, the dangerous kind of debt, the kind a careful man collects only once. He never collected. He left them for you instead, which is either the most generous thing your brother ever did or the most damning, because to walk this map is to announce, to everyone Gin protected, that the man who kept them safe is gone."
+              ],
+              "choices": [
+                { "x": "Start with the baker — the harmless one.", "hint": "Kondō Fumio, Jūjō Ginza, Thursday mornings, anpan. He does not know he is a practitioner; he only knows Gin was kind to him. Begin where it costs least." },
+                { "x": "Start with the clinic — the one who treats the wounded.", "hint": "Hayashi Fumiko keeps the bodies the bureaus never see. If you are going to walk into the dark, start by knowing where you can crawl back to." },
+                { "x": "Start with the café — the one who reads you on sight.", "hint": "Matsuda Keiko knew what you were before you sat down, the report said. Begin with the one who can tell you what you have become without your having to say it." }
+              ]
+            },
+            {
+              "scene": "The first node opens, and the city tilts a degree toward you",
+              "prose": [
+                "The first door you knock on does not open to a stranger; it opens to Gin's brother, which is a different and more frightening thing. You watch the recognition cross their face — the small flinch, the recalculation, the careful arrangement of features into something that will not give too much away — and you understand that you have walked into a story already in progress, one in which you are the only character who does not know the plot.",
+                "They tell you a piece of it. Not all of it; none of them will ever tell you all of it, because Gin trained them not to, and grief makes people loyal to the rules of the dead. But a piece: that in his last weeks your brother was <em>wrong</em>, the way a room is wrong after something has stood in it; that he was carrying something carefully, quietly, the way you carry a thing you have decided to die for rather than set down; and that whatever it was, he was certain — they all say this, each in their own words, and it is the part that frightens you most — that he was protecting <em>you</em>."
+              ],
+              "choices": [
+                { "x": "Ask what he was protecting you from.", "hint": "The question under all the other questions. They may not answer. The answer, when it comes, is not a what. It is a who, and it is wearing a face you know." },
+                { "x": "Ask what he was carrying.", "hint": "Not who, but what. The Thirteenth Seat is a phrase you do not have yet, and they will not give it to you whole — but they will give you the shape of the hole it left." }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chapter Three — The Last Week",
+          "status": "authored",
+          "beats": [
+            {
+              "scene": "A briefing he skipped, in a building that does not forget",
+              "prose": [
+                "The nodes give you a week — Gin's last ordinary week, reconstructed out of the things he did that were not ordinary. He skipped a Directorate briefing on the Thursday, the first he had missed in nine years, and a man like Gin does not skip the thing he has done nine hundred times unless the thing he is doing instead is larger. He closed a case on the Friday, a drowning out by the Arakawa, and closed it too fast and too clean, the file signed off in a hand that the clinic's blue-curtain woman, who has seen a great deal of Gin's handwriting across a great many discharge forms, says was already beginning to change.",
+                "And on the Saturday he went to an address that is in no file, no registry, no map the Directorate keeps — a place his own Archive notes only as <em>the low place, where the water remembers</em> — and after the Saturday the entries stop being entries and start being arguments. Gin arguing with himself, on paper, in a hand that tightens with each line, about whether a debt that was never his to pay might nonetheless be the only honest thing left to do."
+              ],
+              "choices": [
+                { "x": "Trace the drowning he closed too fast.", "hint": "The case is a thread Yushiro is holding. Pull it and you learn how Gin's conscience was turned into a leash — one reasonable mercy at a time." },
+                { "x": "Find 'the low place where the water remembers.'", "hint": "The Saturday address. This is the riverbank at Obon, the seam where the drowned come home — and where something offered Gin a way to give them their due." }
+              ]
+            },
+            {
+              "scene": "What a top-grade of Duty does to a good man",
+              "prose": [
+                "You begin, slowly, against your will, to understand the shape of it — and understanding is worse than not, because it forecloses the comfortable lie that your brother was simply taken. He was not taken. He was <em>persuaded</em>, and he is being persuaded still, and the cruelty of the thing wearing him is that it never once asked him to want something selfish. It asked him to do what was right. It found the vacant place in the order of the world where an old obligation had gone unmet, and it framed every step toward catastrophe as a duty already owed, until the line between what Gin wanted and what it wanted stopped being a line and became a rhyme.",
+                "He is still in there. That is the part you will carry whichever way this ends. Not a cage to be broken open, not a man replaced by a monster wearing his coat, but a person being slowly out-argued by something that sounds exactly like his own conscience, and winning the argument the way the tide wins — not by force, but by patience, by being there every hour, by never raising its voice."
+              ],
+              "choices": [
+                { "x": "Read the Archive entries after the 14th anyway.", "hint": "He told you not to trust the handwriting after the 14th. But the only way to learn to tell his voice from the other is to read where they have started to blur. It will cost your Stability." },
+                { "x": "Stop, and find a way to reach him directly first.", "hint": "Not the paper. The man. There are lucid windows, the nodes say, and they are shrinking. Reach one before you let the after-the-14th pages into your head." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Book Two",
+      "title": "The Handwriting",
+      "subtitle": "Learning to tell your brother's voice from the one that has learned to sound like him.",
+      "chapters": [
+        {
+          "title": "Chapter Four — The Lucid Window",
+          "status": "authored",
+          "beats": [
+            {
+              "scene": "A number you know, ringing out into the dark",
+              "prose": [
+                "You call him. Of course you call him; you have been calling him in your head since the empty hook, and now there is a real number under your thumb and you press it and it rings, and rings, into the particular silence of a phone held by someone who is deciding whether to be the person who answers it. Nineteen times across as many hours you do this, and nineteen times the line stays dead, and you tell yourself the silence is just silence and not a choice, because the alternative is that something on Gin's end is letting the messages stack up like stones on a grave and choosing the hour it will speak.",
+                "On the twentieth, it picks up. There is no hello. There is breathing, a beat too even, and then a voice that is your brother's voice the way a photograph is a face — every feature correct and nothing alive behind it — saying your name as though reading it off a card it was handed. <em>Rei.</em> And under the wrongness, for one sentence, before the evenness closes back over it like water, something that is unmistakably him, frightened and tender and trying: <em>Go home. This isn't a thing you walk toward and walk back from the same.</em>"
+              ],
+              "choices": [
+                { "x": "\"Who is this. Put my brother on.\"", "hint": "Confront the thing directly. It will not admit to being a thing. It will be reasonable, and concerned, and it will sound exactly like a man who only wants you safe." },
+                { "x": "\"Gin. It's me. Stay with me one more sentence.\"", "hint": "Reach past the evenness for the man under it. Every lucid second you can hold him in costs the thing wearing him effort — and teaches you the seam between the two voices." }
+              ]
+            },
+            {
+              "scene": "The two voices, learning to rhyme",
+              "prose": [
+                "This is the work of Book Two, and it is not a fight; it is a listening. The thing in your brother does not roar. It reasons. It tells you, in Gin's cadence, that the dead of 2011 were never given their due, that the membrane over Kita-ku is a wound that someone with the right grade and the right grief could finally close, that what looks like catastrophe to a frightened intern looks, from a higher seat, like an obligation met at last. And the horror of it is how nearly you agree — how the argument is built not out of lies but out of true things stacked at a murderous angle.",
+                "You learn to tell them apart the only way anyone ever does: by what each voice wants you to do. Gin, in his shrinking windows, wants you to stop, to go home, to live. The other wants you closer — wants you to understand, to help, to carry a corner of the weight, because a thing that means to close a seat needs hands it can call its own and a brother's love is the strongest leash it has ever been offered. Whichever you learn to hear first decides, in the end, whether Gin can be recovered, surrendered, or only mourned."
+              ],
+              "choices": [
+                { "x": "Map who Gin has 'helped' since the 14th.", "hint": "Each reasonable favour is a thread the thing is holding. Follow them and you find the recruitment — and the cult's counter-demon, which wants not a seat at the table but to overturn it." },
+                { "x": "Take what you've learned to a faction that can act.", "hint": "You cannot do this alone, and the thing knows it. Choosing whose help to take is choosing which ending stays open — this is where the roads and the spine become one." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Book Three",
+      "title": "The Recruited",
+      "subtitle": "One reasonable favour at a time — and the other demon, the one that wants to overturn the table.",
+      "chapters": [{ "title": "Chapters Five–Seven", "status": "queued", "summary": "Yushiro's recruitment network; the cult's Inverted-God aspirant surfaces as the apparent 'greater' threat; the two-demon trap takes shape. To be authored." }]
+    },
+    {
+      "book": "Book Four",
+      "title": "The Vacant Seat",
+      "subtitle": "The membrane plan exposed, the Axis, and an offer that looks like mercy.",
+      "chapters": [{ "title": "Chapters Eight–Ten", "status": "queued", "summary": "The plan to thin the Kita membrane; reaching the Axis; the offer of Domain XIII; the choice that sets which ending fires. To be authored." }]
+    },
+    {
+      "book": "Book Five",
+      "title": "The Endings",
+      "subtitle": "Five ways it ends, decided by three variables.",
+      "chapters": [{ "title": "The Five Endings", "status": "authored", "summary": "Continuation, Refusal, Long Game, Cost, Quiet. (See the Endings tab.)" }]
+    }
+  ],
+  "roads": {
+    "itsuki":  { "title": "Itsuki's Road — the Kuroda", "status": "queued", "acts": ["Open: the family silence, broken for you", "Deepen: a Tower house that does not give second chances", "Converge: asking him to use his sight on Gin"] },
+    "cvd":     { "title": "The Directorate", "status": "queued", "acts": ["Open: become theirs to be allowed in", "Deepen: the briefing Gin skipped, from the inside", "Converge: the file that should not exist"] },
+    "grid":    { "title": "The Grid", "status": "queued", "acts": ["Open: the unregistered network wakes", "Deepen: a courier gone dark", "Converge: contraband, and the only honest tool in the city"] },
+    "power":   { "title": "The Forbidden Reach", "status": "queued", "acts": ["Open: read the room, pay the Madness", "Deepen: the Directorate notices what you are", "Converge: what the Axis collects"] },
+    "look":    { "title": "The Long Walk", "status": "queued", "acts": ["Open: the city decides for you", "Deepen: what the short ways step over", "Converge: arriving without a faction at your back"] }
+  },
+  "sideMissions": [
+    { "title": "Yua's Debt", "giver": "Yua", "status": "queued", "hook": "A street kid who watches out for Rei owes the wrong people; the favour she calls in is smaller and worse than money." },
+    { "title": "The Thing in the Dorm", "giver": "Mori Haruto", "status": "queued", "hook": "Mori's crush is the least of it; something has moved into the third-floor washroom and only he can see it." },
+    { "title": "Tanizaki's Drowned Client", "giver": "Tanizaki", "status": "queued", "hook": "A Grid fixer wants a body found before the river gives it up on its own terms." },
+    { "title": "The Broker's Vacant Mediums", "giver": "Suzuran-dō", "status": "queued", "hook": "Already-trained animal-mediums, waiting for hands steady enough — and one that will not be re-homed." },
+    { "title": "The Shrine That Stopped Answering", "giver": "Miyamoto Kazuo", "status": "queued", "hook": "The wards have held for a century; this week the basin's water stopped reflecting the lanterns." }
+  ],
+  "romances": [
+    { "who": "Itsuki", "status": "authored-stub", "ceiling": "fade to black", "stages": ["Notice: the flirtation that is also a way of never being asked a serious question", "Trust: the real intimacy is that he uses his sight on Gin", "Turn: after the basin, the night allowed to be ordinary for an hour", "Fade: warmth, unhurried, the rest the night keeps to itself"] },
+    { "who": "Aoi", "status": "queued", "ceiling": "fade to black", "stages": ["Notice", "Trust", "Turn", "Fade"] }
+  ]
+}
