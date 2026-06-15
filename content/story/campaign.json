@@ -1667,8 +1667,120 @@
     {
       "title": "Tanizaki's Drowned Client",
       "giver": "Tanizaki",
-      "status": "queued",
-      "hook": "A Grid fixer wants a body found before the river gives it up on its own terms."
+      "status": "authored",
+      "hook": "A Grid fixer wants a body found before the river gives it up on its own terms.",
+      "beats": [
+        {
+          "scene": "Tanizaki's back room above the shuttered tea shop, the second afternoon of Obon, rain not yet arrived but promised",
+          "prose": [
+            "Tanizaki pours before he speaks, which is how you know the matter is serious — the old man has spent forty years in Kita learning that nothing true gets said over an empty cup, and he has never once wasted the gesture on small business. The room smells of roasted barley and the river two streets over, that brown August smell of low tide and lantern-wax that the whole district wears this week, and through the rice-paper the light has gone the colour of weak tea itself, flat and waiting. He sets your cup down with both hands and folds his own around his and says, without preamble, that a man went into the Sumida three nights ago and has not come up, and that this is not a police matter and is not going to become one, and that he needs the man found before the river gives him up on its own terms.",
+            "You let him talk. The drowned man's name was Kase — a fixer, Grid-side, the kind of careful unregistered go-between who arranges that a thing change hands without either hand being seen, and Tanizaki had used him for thirty years the way you use a tool you trust enough to stop noticing. Three nights ago Kase sent word he had something that had frightened him, something he wanted off his hands and into Tanizaki's before Obon's gate opened all the way, and then he sent nothing, and then a Grid courier found his flat aired and empty with the kettle still warm and his shoes by the door. <em>A man does not walk to the river barefoot in this season by accident,</em> Tanizaki says, and turns his cup a quarter-turn on the table, and does not drink. <em>And the Sumida in Obon does not keep what it takes the ordinary way. It launches the dead all week. I would rather find Kase before the river decides he is one of them.</em>",
+            "Both registers move at that, low, the way they move when something true is being undersold — because Tanizaki is not asking you to recover a body, not really, he is asking you to read one, and he knows what reading a drowned man this week will pull through you and is asking anyway, which is itself a measure of his fear. You have known the old man as the one person in Kita who never spends you carelessly, who shaped your brother's whole field practice with exactly this restraint, and to watch him push a cup toward you with a thing he wants kept off the official ledger is to understand that whatever Kase was carrying, it reaches further than one fixer's bad night by the water. The rain has not started. Outside, somewhere down toward the embankment, the first of the evening's lantern-sellers begins setting out paper boats no one has yet died recently enough to need."
+          ],
+          "choices": [
+            {
+              "x": "\"What was he carrying that frightened him? Tell me before I go near the water.\"",
+              "hint": "Tanizaki will tell you as much as he knows, which is little and pointed — and knowing what Kase held means you'll be reading the river for it too, not just for a body. The more precisely you know what you're hunting, the more precisely it can be hunting back through the same thinned water."
+            },
+            {
+              "x": "\"Why keep it off the police book? A drowning in Obon is the most ordinary thing in Tokyo.\"",
+              "hint": "His answer will tell you who else is interested in Kase's last errand and why a clean municipal recovery would be the wrong kind of clean. But pressing the old man on why he wants it quiet invites him to tell you exactly how far up the obligation runs — and once you know, you're inside it."
+            },
+            {
+              "x": "Say nothing; drink the tea, take the address of Kase's flat, and go to the water cold.",
+              "hint": "Going in without the frame keeps your reading uncontaminated by what Tanizaki expects you to find — you'll see only what the river shows. It also means meeting whatever held a careful man under, with no idea what it wanted from him or what it might recognise in you."
+            }
+          ]
+        },
+        {
+          "scene": "The Sumida embankment after dark, downstream of Kase's flat, the first lanterns going onto the water",
+          "prose": [
+            "The river at this hour is a black road carrying small fires. Toro nagashi has begun upstream and the lanterns come down in loose constellations, paper boxes each with a candle and a name brushed on the side, the families' grief made buoyant and sent out to float the dead home across the dark — and you stand on the concrete embankment where the city's romance about the river ends and its plumbing begins, smelling diesel and silt, watching the little lights come on past you toward the bay. This is the worst place to use your sight and you came here to use it. The membrane is at its thinnest all week and nowhere thinner than over running water at the festival of the dead, and the moment you let the first register open a hand's width the whole surface of the Sumida tilts in your perception from a river with lanterns on it to a procession, a long patient column of the departing moving with the current, and every paper flame is suddenly attended.",
+            "You walk the embankment downstream, reading for the wrong note in a song of the dead — and a drowned man three nights gone is a wrong note, because the properly dead this week are leaving and Kase is not leaving, Kase is held. You feel him before you see anything, the way you feel a snag in cloth, somewhere down past the third pier where the current goes slack behind a concrete footing and the lanterns that drift in there turn slow circles and do not come out. The held place has a temperature your sight reads as cold and your skin reads as nothing at all. Down there, in the slack water behind the pier, something keeps a man the way the third basin kept a half-made boy — not eating him, not yet, just holding, the way you hold a thing you have not decided whether to use.",
+            "And here is the part Tanizaki could not have prepared you for, the part both registers strain toward with their old forbidden appetite: the held place is not silent. It is leaking. A drowned man read this fresh, this snagged, still has his last quarter-hour in him the way a struck bell holds its note, and you can feel Kase's final minutes pressing out against the river's grip — the cold, the weight of his own coat, a decision, a hand that was or was not on the back of his neck — all of it down there waiting to be looked at, and looking is exactly what thins the wall, and the wall over this slack water is already thin enough to put your fingers through. The lanterns turn their slow circles behind the pier. One of them, you notice, has no name brushed on its side at all."
+          ],
+          "choices": [
+            {
+              "x": "Open the register fully and read the slack water from the bank, before you go down to it.",
+              "hint": "Reading from a distance tells you what's holding Kase and how, so you go down knowing — but opening fully over running water during Obon is putting your hand through the thinnest membrane in the city, and a thing that holds the drowned will feel the warm living attention arrive and turn, unhurried, to see what's looking."
+            },
+            {
+              "x": "Climb down to the slack water and find the body with your hands, registers shut, sight ordinary.",
+              "hint": "Going in blind keeps your sight off the membrane and denies the held thing the meal of your attention — but it means lowering yourself into cold slack water in the dark to feel for a three-day drowning by touch, with whatever kept him circling somewhere you can't see, and trusting your hands to know a held man from a held thing."
+            },
+            {
+              "x": "Pull the nameless lantern out of the slack water first and read it instead of the man.",
+              "hint": "A lantern with no name that won't leave the held place isn't a stranger's grief gone astray — it's bait, or a marker, or Kase's own, and reading it might tell you who put him there without making you look at the body at all. But taking the thing the held place is keeping is the same as knocking, and it will answer."
+            }
+          ]
+        },
+        {
+          "scene": "Behind the third pier, knee-deep in slack water, the moment the river gives Kase up",
+          "prose": [
+            "He is where you knew he was, hung in the slack behind the footing with one sleeve snagged on rebar and the rest of him turning slow in the eddy, face down, coat heavy as a drowned animal — and the river, when you take his wrist, does not fight you for him the way you braced for. It gives him up. That is the first wrong thing and the worst: a body three nights held in slack water should be claimed, should be the river's, and instead the current eases its grip the instant you commit to taking him, the way a thing hands you something it wanted you to have all along. You turn him over in the dark and the lantern-light from upstream slides across a face that drowning has been gentle with, slack and almost untroubled, a careful man who at the very end stopped being careful — and the last quarter-hour, freed by your touch, comes off him into your open register like cold off a stone.",
+            "You read it because you cannot not, and it is not what Tanizaki sold you. Kase did not slip. Kase walked here barefoot in the dark with the thing that frightened him buttoned into his coat, because the thing that frightened him was a name — a list, a small waxed-paper ledger of who in Kita had taken a particular favour in the last two years and what each favour had quietly cost the membrane to grant — and Kase had understood, three nights too late, that to carry such a list was to be a loose thread in something very large and very patient, and that the only place in the city thin enough to lose it where no register could read it again was the bottom of the Sumida in Obon. He did not drown himself out of fear. He drowned himself to hide the ledger somewhere even the dead could not be made to give it up, and he walked in barefoot and unhurried, and the river, this week, was glad to keep them both.",
+            "And the held thing is here, of course it is here, you have felt it the whole time the way you feel a watcher behind glass — not a demon and not a ghost but the slack place itself gone aware, a stretch of Obon river that has held a hidden man and a hidden name for three nights and learned, the way standing water learns, the taste of being a secret-keeper. It does not want Kase. It wants the going-on of it, the warm thing now kneeling in its water with two registers open and a brother across the city it can feel you ache toward — and it offers, in the wordless slack-water way, to hold for you too, to take whatever you most need hidden and keep it at the bottom where no Healer and no Directorate and no patient brother-shaped thing could ever read it off you. The ledger is buttoned cold against the dead man's chest. The nameless lantern turns its slow circle by your knee. The current waits to see what you do with all three."
+          ],
+          "choices": [
+            {
+              "x": "Take the ledger off the body — Kishin would kill for who-owes-what in Kita, and so would the people on it.",
+              "hint": "The waxed list is the single most valuable object you've touched all week: a map of every quiet favour and its membrane-cost, which is a map straight toward what Yushiro is doing to your brother. Carrying it out of the river makes you the loose thread Kase died to cut — and the slack place will remember exactly who took the secret it was keeping."
+            },
+            {
+              "x": "Leave the ledger where the dead man drowned to hide it, and bring up only Kase.",
+              "hint": "Honouring a man's last terrible decision means giving Tanizaki a body and no answers, and leaving the one document that might explain your brother at the bottom of a river you'd have to read again to recover. It's the clean grief and the coward's mercy at once, and you'll never be sure which."
+            },
+            {
+              "x": "Let the slack water make its offer real — give it one thing of yours to hold while you decide.",
+              "hint": "The river is offering the safest hiding place in Tokyo for the one truth you can't afford anyone to read off you, and the relief of it is enormous and immediate. It is also exactly how it took Kase: one careful man's reasonable wish to hide a single thing, and a patient water glad to keep the man along with it."
+            }
+          ]
+        },
+        {
+          "scene": "On the embankment again, soaked, the body laid out under a tarp, deciding what the river is allowed to keep",
+          "prose": [
+            "You get him out — that much you do not let yourself negotiate — and lay Kase on the concrete above the tide-line under a courier's tarp Tanizaki's network leaves cached for exactly such nights, and you kneel there dripping while the lanterns keep coming down past the pier, indifferent, name after name floating out toward a sea that does not read. Whatever you carried up the bank with you sits heavy and cold against your own chest or sits at the bottom where Kase put it, and either way you have made the choice that the rest of this week will be lived inside. The slack water behind the footing has gone ordinary again, just river, the awareness in it lapsed back into mere current the moment it got — or did not get — what it offered to hold, and you understand that you will not be able to tell anyone the difference between the version where you outwitted it and the version where you simply weren't worth keeping.",
+            "There is the matter of the body, which is also the matter of the truth. A barefoot drowning in Obon is the most ordinary death in Tokyo and the most explicable, and you could hand Kase to the morning and the municipal book and let him be a sad seasonal statistic, the river's romance intact, no one the wiser about waxed ledgers or favours that cost the wall. Or you could give him the rite he chose for himself — slide him back to the proper dead with a lantern and a name, let the festival carry out a man who walked into it on purpose — and keep his death off every book, which is what Tanizaki asked and what Kase died to arrange. The rain has finally started, fine and warm, dimpling the black water and guttering the nearer candles, and the dead go on leaving regardless, and you have to decide whose terms Kase departs on: the river's, the city's, or his own.",
+            "Both registers are still half-open and slow to close, the way they always are after running water, and through them you feel the shape of what you've actually been doing down here, which is not a favour for an old man at all. You came to the Sumida to practise the unbearable thing — to read a held person whom a patient power did not want to release, to take or refuse a hidden truth, to sit knee-deep in a thinned place and not be kept — because somewhere across the city your brother is held exactly so, in slack water of a different kind, by a Healer glad to keep him, and you do not yet have the nerve or the method to go in after him. Kase was rehearsal. The knowledge sits in you cold as the river: that you could find Gin, perhaps, the way you found this man, and that finding is the easy half, and that the water does not always give up what you commit to taking."
+          ],
+          "choices": [
+            {
+              "x": "Launch Kase yourself — a lantern, his name, the proper rite, his death off every book.",
+              "hint": "Giving him the departure he chose honours a brave and terrible decision and keeps Tanizaki's promise of silence. It also means you, personally, perform the rite to send a man out with the dead this week — and standing over the water saying the words for someone else's chosen drowning teaches your hands how it would be done for one you love."
+            },
+            {
+              "x": "Call it in clean — let Kase be an ordinary Obon drowning on the municipal book, truth buried with the routine.",
+              "hint": "The official version protects you and everyone on the ledger by making the death boring, which is the safest thing a death can be. But it spends Tanizaki's trust, brands you to the Grid as someone who hands their dead to the authorities, and lets the city's lie about the river stand over a man who died telling the truth about it."
+            },
+            {
+              "x": "Bring Kase and what he carried straight to Tanizaki and put the whole choice in the old man's hands.",
+              "hint": "Tanizaki has forty years of judgement you don't, and he loved Kase in his restrained way, and the decision is arguably his to make. Handing it up also hands him the ledger — and you'll have learned nothing about whether you can carry such a weight alone, the night before the week demands you carry a heavier one."
+            }
+          ]
+        },
+        {
+          "scene": "Dawn, back in the room above the tea shop, the cup poured for a man who isn't coming",
+          "prose": [
+            "Tanizaki has set out two cups and filled three, which is the old form, the third for the one who has gone, and he does not explain it and you do not ask. You come in soaked to the river-line with the night still on you and tell him what you found, all of it or the careful part of it, and he listens the way he listens to everything, without moving, turning his cup the slow quarter-turn that means he is rearranging forty years of a district to fit a new and terrible fact into it. When you finish he is quiet for a long time, and then he says the thing you did not expect, which is that Kase had carried for Gin too, years back, the same kind of waxed quiet errands, and that your brother had been the one to teach the fixer the trick of hiding a thing in running water where no register could reach — and that if Kase chose the Sumida, he chose it because Gin once told him it was the one safe place, and so even this, even a fixer's chosen drowning, has your brother's careful handwriting in the margin.",
+            "He pours the third cup out on the floor, the smallest libation, and tells you what the old give the young when they have nothing else: that the river takes everyone on its own terms in the end and that the only mercy available is to make the terms a person's own choosing, which Kase did, and which is more than most of the dead this week managed. He does not thank you in words. He slides the safe-house key across the table, and the ward methodology written in his own hand, and the beginning of Gin's thirty-year field profile — the things he gives only at full trust — and you understand that the drowned client was, among everything else, the assessment, and that you have passed it the hard way, by being trusted with a death that had to stay off the book. The rain has stopped. The barley smell is back. Outside the dead are mostly gone home and the lanterns have all reached the sea.",
+            "What stays with you, walking out into the washed grey morning, is not the ledger or the key or even Kase's almost-peaceful face, but the small unbearable lesson the river handed up with the body: that hiding is a kind of drowning, that a held thing can be loved into staying held, and that your brother — who taught a fixer the safe place, who is himself now hidden in slack water of his own — knew this trick from the inside long before the Healer ever wore his coat. You have rehearsed, tonight, the exact shape of the thing you will have to do for Gin, and you have learned its exact cost, and you have learned that the water does not always give up what you commit to taking, and you have decided to go in after him anyway. The cup Tanizaki poured for you has gone cold. You drink it. It would be an insult, this morning, to leave anything the river could keep."
+          ],
+          "choices": [
+            {
+              "x": "Take the key, the methodology, and Gin's profile — accept the safe house and everything that owing Tanizaki now means.",
+              "hint": "A master's forty years, a base no one can read, and the truest outside portrait of your brother — the strongest foundation you can build on in Kita. It also makes Tanizaki's enemies yours and binds you to a man who just proved he'll spend a beloved fixer's death to test you, and will, when it matters, spend you the same careful way."
+            },
+            {
+              "x": "Ask Tanizaki, plainly, to tell you everything Gin ever hid in running water — and whether Gin could be found the same way.",
+              "hint": "The old man knows your brother's methods better than anyone alive, and this is the question the whole night was really asking. But naming aloud, to Gin's own mentor, that you mean to go into the slack water after him makes the plan real and makes Tanizaki complicit, and he may decide the kindest thing is to stop you."
+            },
+            {
+              "x": "Say nothing about Gin; pocket the lesson, keep the river's offer to yourself, and let the old man think this was only ever about Kase.",
+              "hint": "Keeping your own counsel protects Tanizaki from knowing what you intend and keeps your one possible method secret from everyone, which is the careful Grid way — Kase's way. It's also exactly how a careful person ends up walking barefoot to the water alone, with the thing that frightens them buttoned cold against their chest and no one told in time."
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "The Broker's Vacant Mediums",
