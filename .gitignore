@@ -11,3 +11,6 @@ gemini-key.txt
 node_modules/
 package-lock.json
 grid_patch.mjs
+
+# one-off authoring scratch scripts
+_author_*.mjs
