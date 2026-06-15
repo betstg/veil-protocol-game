@@ -911,29 +911,541 @@
     },
     "grid": {
       "title": "The Grid",
-      "status": "queued",
+      "status": "authored",
       "acts": [
         "Open: the unregistered network wakes",
         "Deepen: a courier gone dark",
         "Converge: contraband, and the only honest tool in the city"
+      ],
+      "beats": [
+        {
+          "scene": "Gin's apartment, the back pages of a book that is not a notebook",
+          "prose": [
+            "You go back to the apartment because the official roads all ask you to start by handing your brother's name to someone, and you are not ready to do that yet. The kettle is still cold. On the shelf where Gin kept the things he did not file is a paperback with the spine broken white — a train timetable from a line that stopped running in 2003, the kind of thing he collected and you never asked about — and when you fan it the pencil is there in the margins, small, cramped, in his own hand, names that are not names so much as the city's quiet directions to a person: <em>the woman who reads cats, Sugamo, ask for the litter not the medium. The boy at the noodle stand under the tracks who knows when a place has gone wrong before it shows. The old courier — only ever the old courier.</em>",
+            "These are the people the Directorate's files cannot see, because the Directorate's files are a map of everyone who agreed to be on a map. Gin worked the registered city by day and wrote this other one down by night, the unregistered web of mediums and sensitives and small ugly miracles that the CVD would shut in a cell if it could be bothered to believe in them. He kept it for the cases the official channel closed too fast — and you understand, holding the timetable, that your brother trusted these margins with things he did not trust to his own colleagues. That he wrote them small so that no one reading over his shoulder would know what they were worth.",
+            "There is a number under the last name, no area code, the kind you dial from a payphone or not at all. To call it is to walk into Gin's other life through the back door, wearing his face — the two of you were always taken for each other in low light — and to ask the people who keep no records to do the one thing they exist to do: find someone the records have lost. It is also to tell a network that survives on never being looked at that a CVD-adjacent stranger is now looking."
+          ],
+          "choices": [
+            {
+              "x": "Call the old courier first — Gin's own last entry.",
+              "hint": "Start where your brother stopped. The oldest node in the web is the safest to trust and the most dangerous to lose; if he has already gone quiet, you will be walking the one road Gin himself could not finish."
+            },
+            {
+              "x": "Start small — the woman who reads cats, in daylight, in Sugamo.",
+              "hint": "Ease in through the softest door so the Grid meets you gently. Slow is a luxury, and Gin's lucid windows are closing on a clock you can't see from here."
+            },
+            {
+              "x": "Go to the noodle stand and let yourself be recognised as Gin's face.",
+              "hint": "Trade on the resemblance to skip the vetting. Wearing your brother's face into rooms that loved him will get you trusted fast — and will cost you the moment they see you are not him."
+            }
+          ]
+        },
+        {
+          "scene": "Sugamo, an upstairs room that smells of cat and cheap incense",
+          "prose": [
+            "The woman who reads cats is younger than the entry made her sound and she does not look at you when you come up the stairs; she looks at the three animals draped along the windowsill, and watches what they do, and reads you off them the way other people read a face. <em>You move like him,</em> she says, meaning Gin, and the grey one on the end stops washing its paw and turns its flat gold attention on you, and she goes very still. <em>But you're lit. He never carried a light into this room. You're one of the ones the wall thins around.</em> She means your sight, the thing you have spent your whole life pretending is nerves. The Grid has no instruments, no clearance levels, no Directorate machines that go ping. It has rooms like this one, and people who notice, and a rule older than the CVD: nobody is owed a reading, and nobody is owed a name.",
+            "She tells you the web is awake and afraid, which it is not, usually, in August — Obon is their busy season, the one week the dead are politely expected and the readings come easy. This year the easy readings have gone wrong all across the north of the city. Mediums who could always raise a grandmother are getting a wrongness on the line instead, a pressure, a sense of something standing behind the dead and using them like a curtain. Three of her cats will not go near the north window. She does not know the word for what is happening but you do, because you have read the case the Directorate closed, and the word is <em>membrane</em>, and the place is Kita-ku, and the thing standing behind the curtain is wearing your brother.",
+            "She will help you, she says, but the Grid moves by exchange — never money, money leaves a trail — and what she wants is for you to tell her, honestly, with the light you carry, whether the wrongness in the north is going to reach her street. You could read the room for her right now and know. You could also feel the veil flex when you do it, the small cost you have spent your life refusing to pay, the Madness pressing one finger against the inside of your skull and the certainty that somewhere a Directorate sensor just twitched at a use of the Gift it has no file for."
+          ],
+          "choices": [
+            {
+              "x": "Read the room for her — pay the cost, earn the network's trust.",
+              "hint": "Use the sight openly and the Grid will open to you fast, because you'll have proved you're one of them. Every use thins the veil you're trying to save and tells the watchers exactly what you are."
+            },
+            {
+              "x": "Refuse the reading; offer her Gin's margins instead.",
+              "hint": "Trade information for information and keep the Gift sheathed. The web trusts the gifted more than the informed; you'll get in, but as a clerk, not as kin."
+            },
+            {
+              "x": "Lie — tell her the north won't reach her, to keep her calm and helpful.",
+              "hint": "Buy easy cooperation with a comfort you can't back. The Grid's whole economy is honesty between people the state lies to; if the wrongness reaches Sugamo, she will know exactly who told her it wouldn't."
+            }
+          ]
+        },
+        {
+          "scene": "Under the tracks at Ōji, the noodle stand at the hour it stops being open",
+          "prose": [
+            "The boy at the noodle stand is not a boy — the margin lied, or Gin meant something else by the word — he is somewhere past sixty with a young man's hands, and he has been ladling broth at the seam of Kita-ku for thirty years because, he tells you plainly, someone has to stand at a bad place and be ordinary at it. He knows you are coming before you reach the curtain. He has Gin's bowl already set out, the chipped one, and when you do not sit in front of it the way Gin would have he simply moves it aside and pours you your own. <em>So he's gone in,</em> he says, not unkindly. <em>I told him the north was a one-way week. He went anyway. You'll go too. I can see that's already decided.</em>",
+            "This, he explains, is what the Grid actually is, under the cat-readers and the brokers and the small ugly miracles: it is the people who live on the seams the official city paved over and pretends are flat. The overpass above you is concrete that has not been right since 2011 and everyone steps across it without naming why. The Directorate has machines that read the veil from offices in Kasumigaseki; the Grid has a man who has stood under the same overpass for thirty years and can tell you to the hour when it has gotten worse. Tonight it has gotten worse. The dead are coming up wrong all along the line, and there is a courier — <em>the old courier, only ever the old courier</em> — who carries the one thing in this city that can tell an honest demon from a borrowed face, and who was due through here two nights ago, and who did not come.",
+            "He gives you the broth and the bad news in the same breath, the way people do at seams. The courier's route runs north into exactly the streets the cats won't face. To follow it is to go where the membrane is thinnest, carrying a light, with a Gift that gets louder the closer you get to the thing that wants the wall thin. The boy watches you understand this. <em>Eat first,</em> he says. <em>Whatever you decide. The north doesn't feed you and the dead up there will try to.</em>"
+          ],
+          "choices": [
+            {
+              "x": "\"Tell me the courier's route. I'll walk it tonight.\"",
+              "hint": "Take the thread straight into the thin streets while it's still warm. Two nights cold is already long for a courier; every hour you eat and plan is an hour the membrane is given."
+            },
+            {
+              "x": "\"Who else knows the route? I want it from more than one mouth.\"",
+              "hint": "Corroborate before you commit, the careful way. Asking around a network that survives by not being asked about will mark you as someone collecting names — and someone, somewhere, is collecting names too."
+            },
+            {
+              "x": "\"What was the courier carrying? Say it plainly.\"",
+              "hint": "Reach for the prize before the path. Naming the contraband instrument aloud, at a seam, under a thin wall, is exactly the kind of honesty the Grid loves and the listening thing has learned to wait for."
+            }
+          ]
+        },
+        {
+          "scene": "The route north, a map drawn in landmarks no map admits to",
+          "prose": [
+            "There is no address for where the courier goes, only a sequence of seams: the overpass, the shrine that stopped answering, the block of company housing emptied after the relocations, the riverside lot where the water comes up brown and the official gauge has read normal for five years. You walk it in the dark with the boy's directions folded into the shape of your hand, and at each seam the city does the thing seams do — it goes quiet a half-second before you arrive, as though the place had been saying something and stopped when it heard you. Your sight, which you have kept sheathed since Sugamo, will not stay sheathed here. The thin places reach up and read <em>you</em>, and every reading you refuse to give them they take anyway, a little, off the top.",
+            "At the shrine that stopped answering you find the first sign of the courier: a tag, the paper kind pilgrims tie to a rack, but tied low and tight in a knot the Grid uses for <em>came through, kept going,</em> and the ink is two days dry. The courier was here. The courier was, by the knot, unhurt and unhunted this far. Past the shrine the knots stop. You stand at the edge of the emptied housing block where the official records closed a hundred families years ago and a single old man still sets a dish of water on a windowsill for a wife the city has declared a closed file, and you feel the membrane here the way you feel a held breath in a room — present, deliberate, thin on purpose. None of these people know they live at the seam. None of them chose to be the place a demon decided the wall was already weak enough to be worth finishing.",
+            "Your Gift tells you two things at once and you cannot have both true. It tells you the courier went into the block. It tells you something in the block is using the dead as a curtain, and has been, and is doing it now, and would very much like one more honest gifted person to walk in carrying a light. The old man at the window lifts his dish and nods to you, mistaking you, in the dark, for a son. Behind him the water in the dish is trembling and there is no wind."
+          ],
+          "choices": [
+            {
+              "x": "Go into the block after the courier.",
+              "hint": "Follow the thread into the thinnest room in the city. The courier may be alive in there; so may the reason the courier stopped tying knots."
+            },
+            {
+              "x": "Stop and read the block from the edge — find the courier before you enter.",
+              "hint": "Spend the Gift to map the danger first. A full reading this close to the membrane is the loudest thing you could possibly do, and the thing inside has been waiting for exactly that volume."
+            },
+            {
+              "x": "Speak to the old man at the window first.",
+              "hint": "Trade the courier's lead for a living witness who has watched this seam from the inside for years. He is the most fragile thread here, and pulling on him may be the kindest or the cruellest thing you do tonight."
+            }
+          ]
+        },
+        {
+          "scene": "Inside the block, where the dead are a curtain and someone is holding it",
+          "prose": [
+            "The stairwell of the emptied block holds Obon the way a closed throat holds a word. There are offerings on the landings — fruit gone to glass, water gone to skin — left by no one, because no one lives here, renewed anyway. The dead are present the way the woman in Sugamo warned, thick and polite and wrong, a grandmother's warmth with a pressure behind it, and you understand at last what she meant by a curtain: the dead are real and they are being held up in front of something, the way a hand holds a sheet in front of a thing it does not want seen until the last instant. You climb toward the only door with light under it. Your sight is screaming now, no longer a finger on the skull but a flat palm pressing, and you know that to open that door with the Gift this loud is to be read all the way down by whatever has been borrowing the dead.",
+            "The courier is in the room. Alive — and that is the first mercy and the last one. An old woman, smaller than the legend, sitting very upright in a chair that is not hers in an apartment that is not anyone's, with a satchel on her knees that she has not let go of in two days, and her eyes track you in and her mouth says, in your brother's cadence, in a register that is not hers: <em>You came the way he said you would. He does like to be right, your Gin. Even now. Especially now.</em> It is Yushiro. It has not left Kita-ku to be here; it does not need to. The membrane is thin enough now that the Healer can reach through it and wear a mouth at the seam the way it wears your brother at the centre, and it has been sitting in this old woman keeping her alive and afraid for two days specifically so that the thread would lead you in.",
+            "The satchel holds the thing the whole Grid is whispering about, and Yushiro knows you know it, and that is the trap's hinge: it does not stop you from taking the contraband instrument. It <em>wants</em> you to take it, because the instrument reads a demon honestly, and an honest reading of Gin is exactly the wound the Healer is counting on to make you choose wrong later — to make you see, in true sight, how little of your brother is left, and despair, and do the merciful, ruinous thing. The courier's hands are white on the strap. Through the borrowed mouth Yushiro says, gently, <em>the Healer's gentleness</em>, the worst thing in the room: <em>Take it. I'm not stopping you. I only ever give people what they ask for.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Take the satchel and get the courier out — both, now, before it changes its mind.",
+              "hint": "Seize the instrument and the witness in one motion. Yushiro is letting you; accepting a gift from the Healer is never free, and you won't see the price until the room you spend it in."
+            },
+            {
+              "x": "Refuse the instrument. Take only the courier.",
+              "hint": "Deny the demon the wound it's offering and walk out with the living woman instead of the contraband. The Grid will not forgive losing the one honest tool in the city, and you may need exactly what you're leaving on that chair."
+            },
+            {
+              "x": "Make it talk — ask what Gin asked for, in the kitchen, the night it took him.",
+              "hint": "Stand in the thinnest room in Tokyo and bargain with the thing wearing two mouths at once. Every question you ask, it answers honestly, because the truth from the Healer is the sharpest blade it owns."
+            }
+          ]
+        },
+        {
+          "scene": "The riverside lot, the Directorate's headlights, and a body the water hasn't given up",
+          "prose": [
+            "You come out of the block with the courier on your arm and the night has acquired headlights. The CVD has had a sensor twitch — your reading at the seam, or hers, or the membrane's own loud breathing — and they have come the way the Directorate always comes, two unmarked cars and people who say <em>Centre for Veil Defence</em> as though it were an apology they have stopped meaning. They are not here for the demon; they do not believe the demon the way the Grid believes it. They are here because an unregistered gifted person lit up a forbidden part of the city, and because a Grid fixer downriver has been calling them all night about a body the river has not surfaced — a courier's contact, it turns out, drowned at the seam two nights ago, on the night your courier went dark. The fixer wants the body found before the river gives it up on its own terms and on the official record. The Directorate wants the body found because a body is a file and a file is control.",
+            "And you are standing between them holding contraband that can read a seated demon — the single instrument in Tokyo that could prove, to the one institution able to act on it, that something is wearing a CVD analyst named Gin and thinning the Kita membrane on purpose. Show it to the Directorate and they will believe you and take it and take you and fold the whole thing into a clearance level you will never see the inside of again; your brother becomes an asset to be managed, the Grid becomes a list of arrests, and the instrument becomes evidence in a drawer. Keep it from them and you keep your brother yours and your road open, and you leave a real institution blind to a real catastrophe out of nothing nobler than not wanting to lose control of it.",
+            "The courier's grip finds your sleeve. <em>Whatever you tell them,</em> she breathes, in her own register now, the demon gone back north to its centre, <em>tell it knowing the river keeps its own accounts. They always surface. Everything up here always, eventually, surfaces.</em> The headlights hold. Somewhere under the brown water a courier's contact waits to become either a Grid favour repaid or a Directorate file opened, and the difference is entirely the next thing out of your mouth."
+          ],
+          "choices": [
+            {
+              "x": "Hand the Directorate the body — not the instrument. Trade the drowned for the contraband.",
+              "hint": "Give the institution a file it can close and keep the one tool that can't be replaced. You spend a dead stranger's dignity to buy your brother's secret another night; the Grid fixer wanted the body found gently, and the Directorate does not do gentle."
+            },
+            {
+              "x": "Show them the instrument. Make the catastrophe official.",
+              "hint": "Put the honest tool in the only hands big enough to act on Kita — and lose your brother, the Grid, and the road to a clearance level in the same breath. Some walls are too big for one person to hold up alone, and you'll never know if these hands would have held it."
+            },
+            {
+              "x": "Tell them nothing. Walk the courier out through the seam they won't follow you into.",
+              "hint": "Refuse both the body and the badge and vanish back into the unregistered dark. The Directorate remembers faces it couldn't file, the river keeps its accounts, and you've now made an enemy of the one institution that could have helped — to keep a road only you can walk."
+            }
+          ]
+        },
+        {
+          "scene": "A back room the Grid keeps for the things it cannot hold in the light",
+          "prose": [
+            "They bring you, finally, to the room behind the rooms — not a place so much as a permission, a basement under a shuttered bathhouse where the Grid keeps the instrument when no one is carrying it, and where the people who run the unregistered city without ever calling themselves that gather to decide what a stranger wearing Gin's face is owed. You set the satchel on the table. Inside is a thing that should not exist by any registry's lights: a reading glass ground from a material the CVD banned in the nineties, set in a frame a dead medium balanced by hand, that does the one honest thing the Directorate's machines refuse to do. It does not measure the veil. It looks through a borrowed face and shows you, in true sight, the exact seam where the person ends and the thing wearing them begins.",
+            "It is contraband because honesty is contraband, here, in the registered city — because an instrument that can prove a possession can also prove the Directorate has been managing possessions it called something cleaner, and so the glass has been hunted and hidden and carried by old couriers down routes no map admits to for twenty years. The Grid is offering it to you. Not giving — the Grid does not give — offering, on the network's one unbreakable term: that you bring it back, and that you tell them, honestly, with the light you carry, what you see through it when you turn it on your brother. They have lost couriers to this glass. They will not lose it to a man who looks through it once, sees the thing he loves is mostly gone, and walks into the river the way the contact did.",
+            "Through the glass, here, in the safe dark, you can see the membrane plan for what it is at last: the Healer thinning Kita not in one wound but in a hundred seams, each a borrowed mouth, each an emptied block, each an old man's dish of trembling water — a city quietly being made thin enough that a thing without a seat could finish a wall and walk through into the Thirteenth's empty chair. The glass shows you the shape of it. It does not show you what to do. That, the oldest voice in the room tells you, is the curse of the only honest tool in the city: it will never once lie to you about how bad it is, and it will never, ever, tell you it can be fixed."
+          ],
+          "choices": [
+            {
+              "x": "Accept the term. Take the glass north and turn it on Gin.",
+              "hint": "Carry the honest tool to the one face you cannot afford to read honestly. You will finally see exactly how much of your brother remains — and you will have to keep seeing it, every choice after this, with no mercy of doubt left."
+            },
+            {
+              "x": "Leave the glass with the Grid; carry only what you saw tonight.",
+              "hint": "Refuse to put a true reading of Gin in your own hands, where despair could use it. You keep hope alive by keeping yourself a little blind — and you walk into the Handwriting without the one proof that could turn an institution."
+            },
+            {
+              "x": "Ask the Grid to read Gin themselves, so the truth isn't yours alone to carry.",
+              "hint": "Share the weight of the honest sight with people who have carried this glass for twenty years. They have buried couriers who looked too long; they may say yes, and they may say that some readings a brother has to take alone."
+            }
+          ]
+        },
+        {
+          "scene": "The seam at dawn, the glass in your hand, the Handwriting waiting",
+          "prose": [
+            "Obon thins toward its last morning and you stand again at the overpass at Ōji where the boy poured you broth, with the only honest tool in the city wrapped in cloth against your chest and the whole unregistered web now aware, in the way a web is aware, that Gin's brother walks the seams and carries a light. Whatever you decided in the basement, the road has done to you what this road does: it has shown you the catastrophe at full size, a hundred quiet wounds in a city that paved over its seams and called itself flat, and it has refused, the whole way, to hand you an institution to put it down for you. There is no clearance level at the end of the Grid. There is only what you can see, and who will help, and the long account the river keeps.",
+            "This is where the unregistered road feeds back into the Handwriting — the slow work of learning the shape in your brother before you have to name it. You came down here for a courier and a name and you are leaving with a glass that will, if you let it, read the change in Gin's hand the way nothing in the registered city can: the entries after the 14th, the lucid windows, the precise seam where Gin ends and the Healer's borrowed cadence begins. The Grid gave you the one tool honest enough to date the handwriting. It also gave you the one tool cruel enough to make you certain too early, before certainty has anywhere to go but down.",
+            "The boy is at his stand, opening for a day the dead are no longer politely expected. He sees the cloth against your chest and he sees your face, which is your own now and not your brother's, finally, to anyone paying attention. <em>You'll go north with it,</em> he says, the way he says all the things that are already decided. <em>Just remember the glass only tells you what is. It was never going to tell you what to do about it. That part the Directorate can't do for you, and the family can't, and the dead surely can't. That part's been yours since the kettle went cold.</em> He hands you a bowl you do not have time to eat. You take it anyway, because the Grid trades in honesty, and the honest thing is that you are not ready, and you go north regardless."
+          ],
+          "choices": [
+            {
+              "x": "Go north now, glass in hand, and read the Handwriting honestly.",
+              "hint": "Carry the only honest tool straight into your brother's failing script. You'll know, after this, exactly what's left of Gin — and you can never again pretend, to yourself, that you don't."
+            },
+            {
+              "x": "Go to the other roads first — bring the Grid's truth to the people who can act.",
+              "hint": "Take what the seams showed you to Itsuki, or the CVD, or your own Gift, and try to build a hand big enough to hold a wall. Every road you walk to is a road the membrane thins while you travel it."
+            },
+            {
+              "x": "Sit down and eat the boy's bowl. Be unready, out loud, for one more minute.",
+              "hint": "Refuse, briefly, to be the person the seam needs. It changes nothing about the wall and everything about whether you walk north as a brother or as a tool — and the difference is the whole story."
+            }
+          ]
+        }
       ]
     },
     "power": {
       "title": "The Forbidden Reach",
-      "status": "queued",
+      "status": "authored",
       "acts": [
         "Open: read the room, pay the Madness",
         "Deepen: the Directorate notices what you are",
         "Converge: what the Axis collects"
+      ],
+      "beats": [
+        {
+          "scene": "The kitchen, 3:47 still on the stove clock, and the decision not to ask anyone",
+          "prose": [
+            "Every other road out of this room begins by handing a name to someone with a badge or a grudge, and you have stood here long enough to understand that you are not going to do that. The factions want your brother's name because a name is a handle, and a handle is how a thing gets carried somewhere you can't follow. You have a different instrument, the one your family spent your whole childhood teaching you to keep folded shut — the two registers behind your eyes that have never once been allowed to open at the same time, the sight your mother called nerves and your aunt called a debt. You can find Gin yourself. You only have to stop pretending you can't.",
+            "You put your hand flat on the counter where he was standing when the city ate him, and you let the first fold come undone. It is not dramatic. It is the opposite of dramatic — a small loosening, like a held breath you didn't know was being held, and then the kitchen is suddenly very loud with information that was always here: the cooling shape of where a body stood, the seam in the air at chest height where something passed through that should not be able to pass through anything, the faint pencil-warmth of his hands on the timetable on the shelf. Your sight does not show you pictures. It shows you the cost of looking, and the looking, arriving together, so that you cannot have one without paying for the other.",
+            "And underneath all of it, far down, a pressure puts one cool finger against the inside of your skull and waits to see if you'll keep going. This is the thing the family was afraid of. Not the demons, not the Directorate — this. The way the veil thins from your side when you reach hard through it, the way each reach makes the next one easier and the world thinner, until easy and thin are the same word and you are the door instead of the one standing at it. You can find Gin tonight, with your own eyes, paying your own price. The only question is how much you are willing to spend before you've even left the room."
+          ],
+          "choices": [
+            {
+              "x": "Open both registers at once — full sight, here, now.",
+              "hint": "Unfold everything and the seam will give up Gin's direction in seconds. Your family never let the two registers open together for a reason; the first thing they show you in stereo is the inside of the veil, and it shows you back."
+            },
+            {
+              "x": "Open one register only, and walk the residue out the door behind it.",
+              "hint": "Half the sight, half the price, twice the time. Slow tracking keeps you human longer, but Gin's lucid windows close on a clock you can't see, and the residue cools by the hour."
+            },
+            {
+              "x": "Fold it shut again and just look — with your eyes, like anyone.",
+              "hint": "Refuse the Gift entirely and you stay clean, unread, unnoticed. You also stay blind, and every other road from this kitchen ends with you owing a faction the very thing you were trying to protect."
+            }
+          ]
+        },
+        {
+          "scene": "The streets north, after midnight, reading the city like a wound that hasn't closed",
+          "prose": [
+            "Once you are reaching, the city will not stop talking. You walk and the sight overlays the ordinary Obon streets — the paper lanterns, the late ramen steam, the families home for the dead — with a second map drawn in pressure and residue, and on that map your brother is a line of cooling footprints that the rain hasn't been able to wash because they were never quite physical to begin with. You follow them the way you'd follow a smell of smoke, north and north, through Sugamo and toward Kita, and the further you go the more the second map and the first one disagree about what is real. By the third intersection you are stepping over a low wall in the sight-map that the eye-map insists is an open road, and your foot believes the sight.",
+            "The Madness is not voices, which is the lie everyone tells about it. It is grammar. The world's small rules — that doors are shut until opened, that the dead are quiet, that a face belongs to one person — begin to feel like suggestions you are free to decline, and the freedom is the danger, because somewhere in the declining is the moment you step off a real platform onto a sight-map train. You catch yourself at the edge of exactly that, one shoe over the yellow line, a real train screaming through where your second map had drawn a corridor, and you stand on the trembling platform afterward shaking, having learned the road's only law in your body: the brighter you reach, the less the world is required to be true around you.",
+            "But the footprints are warmer now. He came this way, and recently, and not entirely as himself — there are two pressures braided in the residue, your brother's familiar warmth and a second, older cold that walks in his steps like a hand inside a glove. You have read the file; you have the word. <em>Healer.</em> Yushiro is wearing Gin north toward the thinning wall, and your sight can follow them straight to it, faster than any faction's procedure, if you are willing to keep the registers open through streets that are getting less and less obliged to hold you up."
+          ],
+          "choices": [
+            {
+              "x": "Push the sight harder to close the distance before dawn.",
+              "hint": "Burn bright and you'll be at the wall by morning, ahead of every road that started with paperwork. Each push files the grammar of the world down thinner around you; by dawn you may not trust your own feet to know a platform from a corridor."
+            },
+            {
+              "x": "Ration the sight — reach, fix a bearing, fold shut, walk blind, repeat.",
+              "hint": "Pulsing the Gift keeps the Madness from compounding, but the residue cools between pulses and you may lose the braid where it crosses water or a crowd. Lose it once and you start again from a colder trail."
+            },
+            {
+              "x": "Stop and warn yourself onto paper — write down what's real before you forget it's a question.",
+              "hint": "Anchoring to a notebook of plain facts is the oldest trick the gifted use against the Madness. It costs you an hour and the warmth of the trail, and it admits, in your own handwriting, that you no longer fully trust your own mind."
+            }
+          ]
+        },
+        {
+          "scene": "A shuttered laundromat in Kita-ku where the residue pools instead of passing",
+          "prose": [
+            "The trail does not end so much as gather, the way water gathers at the low point of a floor, in a closed coin laundromat with its shutter down and its machines dark and a smell of detergent gone sweet with disuse. Gin stood here a long time, more than once, and not alone; the braid of warm and cold thickens until the room in your sight is nearly solid with it, and you understand you have found one of the places where Yushiro does his reasonable work — a quiet door, off any file, where the Healer meets the people he is going to help. To read it fully is to know who has been here and what was promised them. To read it fully is also the deepest reach you have made tonight, into worked air, against a threshold someone with far more skill than you has handled, and you can feel before you start that this one will not come cheap.",
+            "You crouch and put your palm to the cold floor and open both registers wider than you have ever let them go, and the room gives itself up. Names. A widow whose husband walked back out of his coffin three days early and now answers to a different cadence. A boy who was drowning and isn't, who owes a debt he wasn't told the size of. Gin, sitting in the plastic chair by the dead machines, lucid for one window in a hundred, writing something small in a margin with a pencil and weeping without seeming to know he was. You see it all in the single overexposed instant it costs, and the cost arrives a half-second behind the seeing, the way thunder follows the light.",
+            "When it lands, the laundromat doubles. For one long terrible breath there are two of every machine, two shutters, two of you crouched on the floor, and you cannot tell which set of doors is the one your body can walk through — the Madness has stopped being a pressure and become a question you are inside of. You have the names. You have the place. You have, written behind your eyes, the whole shape of how your brother is being used. You also have, for the first time, the genuine and specific fear that you have spent something here you are not going to get back, and that the next reach might not double the room but quarter you."
+          ],
+          "choices": [
+            {
+              "x": "Hold the double and read which world the real door is in.",
+              "hint": "Reach again, into the split itself, and you can resolve which laundromat is true — but reaching while doubled is reaching from inside the Madness, and the gifted who do it sometimes resolve the wrong way and never come back to the door their body is standing at."
+            },
+            {
+              "x": "Close your eyes, breathe, let the double collapse on its own.",
+              "hint": "Wait it out and the room will usually settle to one, costing you nothing but minutes and nerve. Usually. You will be sitting blind on the floor of a place that belongs to the thing wearing your brother while you wait to find out."
+            },
+            {
+              "x": "Crawl for the shutter you remember from before you reached.",
+              "hint": "Trust memory over sight and move on muscle, not the Gift. It might take you to the real door; it might take you to the remembered one, which the reach has just taught you is not always the same thing."
+            }
+          ]
+        },
+        {
+          "scene": "Dawn, a konbini, and a man in an unremarkable coat who orders the same coffee you do",
+          "prose": [
+            "You come down off the night in the white light of a convenience store because it is the only place open and the only place that feels obligated to be real, and you are three sips into a canned coffee when you notice the man by the magazines is reading you the way the woman in Sugamo read you off her cats. He is unremarkable in the studied way that is itself a uniform — good coat, no logo, the posture of someone whose job is to be forgettable — and when he turns he does not pretend he wasn't looking. <em>You lit up the northern grid like a flare around two a.m.,</em> he says, conversationally, the way you'd remark on weather. <em>Three of our passive arrays in Kita. We don't get readings like that off licensed practitioners. Licensed practitioners are taught not to.</em>",
+            "He is Directorate. Not the kind with a van and a writ — the other kind, the quiet census-taker whose whole function is to find the gifted before the gifted find out what they are, and to offer them, very reasonably, a choice between a leash and a cell dressed up as a leash. He knows what you did at the laundromat the way a coastguard knows a flare went up: not the words on it, but the size of the hand that lit it. He does not, yet, know your name, or whose face you wear, or that the flare was lit looking for a man the Directorate's own file says it has stopped looking for. He is here to find out, over coffee, in the most civil way the state has, and everything you say next teaches him something.",
+            "And here is the road's cruelty laid bare: the very brightness that let you outrun every faction's procedure is the brightness that put you on the map you were trying to stay off. You spent the night becoming exactly visible to the one organisation that collects people like you. The trail is still warm in your head. The wall is close. But there is now a man in an unremarkable coat between you and it, holding a coffee, waiting, and the only tools you have to get past him are the truth, a lie, or the Gift that called him here in the first place."
+          ],
+          "choices": [
+            {
+              "x": "Tell him the truth — your brother, the wall, the Healer, all of it.",
+              "hint": "Honesty might buy a powerful ally with arrays you could never match. It also hands the Directorate a live thread straight to Gin, and the Directorate's mercy toward a recruited demon's brother is a thing you'd be betting Gin's remaining mind on."
+            },
+            {
+              "x": "Lie low and small — a frightened amateur who didn't know what she did.",
+              "hint": "Play the unaware sensitive and he may file you as harmless and let you walk. He reads people for a living; if the lie cracks, you've taught the census-taker that you lie under pressure, which is the one fact he most wanted."
+            },
+            {
+              "x": "Reach, find his own thresholds, and let him feel you read him back.",
+              "hint": "Show him you can do to him what he does to others and he may decide you're not worth the paperwork. It is also the loudest possible flare, fired point-blank at the array that walks on two legs, and it tells the Axis there is a new bright thing in the city worth collecting."
+            }
+          ]
+        },
+        {
+          "scene": "A Directorate intake room that is trying very hard to look like an ordinary office",
+          "prose": [
+            "However the coffee ends, the road bends you through a room like this one, because brightness has a gravity and the Directorate is where it pools. The intake room has soft chairs and a plant and a window with a pleasant view, and all of it is a sentence constructed to make you forget you cannot leave until someone decides you can. A woman with a lanyard and a kind, tired face slides a form across the table — a licensing application, she calls it, though the word <em>license</em> is doing the work of three uglier words — and explains, reasonably, that an unregistered practitioner who flares the northern arrays is a danger primarily to herself. The veil, she says, does not care whose sanity it spends. She has watched gifted people burn out into the Madness and she would rather you didn't. You believe her, which is the trap; the leash is being offered by someone who genuinely does not want you to die on the end of your own Gift.",
+            "What the form does not say, in any of its boxes, is that a licensed practitioner reaches only when and where the Directorate permits, logs every reach, and is therefore reachable in turn — a flare the state can see, aim, and if necessary extinguish. Sign, and you get training that might keep the Madness at bay long enough to reach the wall sane. Sign, and your every future reach toward your brother happens inside a system that has already closed his case and would dearly like to know why you keep opening it. The kind tired woman is not lying to you. She has simply been issued a leash and told it is a hand, and over enough years she has come to hold it the same way.",
+            "You can feel the road forking under the table. There is a version of you that signs, and learns, and reaches the wall as a sanctioned, surveilled, surviving practitioner who has traded freedom for the years the Gift would otherwise burn. There is a version that does not sign, and walks out, and reaches the wall as a flare nobody can aim — brighter, freer, and on a fuse you can already feel shortening. Both versions are looking for the same brother. Only one of them will still be entirely themselves when they find him, and you cannot yet tell which."
+          ],
+          "choices": [
+            {
+              "x": "Sign. Take the training, the leash, and the years it buys.",
+              "hint": "A license might keep you sane enough to reach the wall and recognise Gin when you get there. Every reach you make after this is logged, aimable, and made in a system that wants Gin's case to stay closed — including the reach where you finally find him."
+            },
+            {
+              "x": "Refuse, politely, and walk out unlicensed and unaimed.",
+              "hint": "Keep your freedom and your fuse. You leave as a flare the Directorate can see but not steer, which makes you useful to exactly one party in this city: whoever is collecting bright unaligned things, and they are not the Directorate."
+            },
+            {
+              "x": "Refuse, and take the training notes off the table on your way out.",
+              "hint": "Steal the anti-Madness craft without the leash that's supposed to come with it. You'll learn to reach safer on your own terms — and you'll have made, in writing, an enemy of the one faction whose arrays could have found Gin if you'd let them."
+            }
+          ]
+        },
+        {
+          "scene": "The painter's loft, because the only person who survived the Gift untrained is the one the Tower threw back",
+          "prose": [
+            "There is a name the Directorate woman did not write on any form, because the Directorate does not like to admit it exists: a practitioner who carries a Gift that came in sideways, never licensed, never caged, and somehow not yet burned out — Itsuki, who paints, whose sight arrives through pigment and a cut palm and who left a house that measures its children against a stone older than the city. You find the loft because the Grid's margins point at it and because, when you reach for the brightest unaligned thing in the northern city that isn't you, it is here. Itsuki opens the door already knowing what you are; you are both lit, and two lit people in a doorway is a kind of recognition that does not need names.",
+            "Itsuki has done the thing you are deciding whether to do — lived gifted and unleashed — and the loft is the evidence of the cost and the survival both. There are canvases turned to the wall that you are asked not to look at, and you understand without being told that they are reaches Itsuki made and could not unmake, the Madness given a frame so it would stay in the frame. <em>You're reaching too hard, too fast,</em> Itsuki says, not unkindly, looking at you the way the woman in Sugamo looked at her cats. <em>I can see the thin spots. You've been doubling rooms. Another week like the night you just had and you won't come back from a double — you'll just pick the wrong door, calmly, and be gone, and your body will walk on.</em> It is the first time anyone has named your specific death to your face, and it is offered as help.",
+            "What Itsuki offers is craft — how to reach without the veil thinning so fast, how to bleed a little of the Madness onto a canvas instead of into your skull, how to find your brother bright and stay yourself doing it. What Itsuki asks in return is honesty, the thing the gifted trade in: that you say plainly what you are reaching for and what it will cost the people you reach through. The road has given you a teacher at the exact moment the Madness made one a matter of survival — and a teacher is a tie, and a tie is a place where another person can be hurt to move you, which is precisely how the Healer prefers to work."
+          ],
+          "choices": [
+            {
+              "x": "Accept the teaching, and tell Itsuki everything — Gin, the wall, the cost.",
+              "hint": "Itsuki's craft might be the only thing that gets you to the wall sane. Telling the truth makes Itsuki a thread the Healer can pull, and you have just watched, all night, how gently and reasonably this enemy pulls threads."
+            },
+            {
+              "x": "Take the craft, give Itsuki only half the truth.",
+              "hint": "Learn to survive the Gift without handing over a hostage. Itsuki trades in honesty; a half-truth between two lit people is a thin spot the other can see, and you'll be learning sanity from someone who has just learned you'll lie to them."
+            },
+            {
+              "x": "Refuse the teaching — you don't have a week to spend learning to go slow.",
+              "hint": "Stay fast, stay bright, reach the wall before the Madness catches you. You will arrive ahead of everyone and on the exact fuse Itsuki just told you, to your face, ends with you picking the wrong door."
+            }
+          ]
+        },
+        {
+          "scene": "The threshold of the thinning wall, where bright things are noticed from the other side",
+          "prose": [
+            "You reach the wall the way only this road could bring you — not led there by a faction, not handed an address, but having tracked your own brother across a thinning city with your own sight until the trail and the wall and the cost all arrive at the same point. And the wall, when you stand at it with both registers open, is the most beautiful and the most wrong thing you have ever seen: a place where the membrane between this side and the other has been worked thin, deliberately, lovingly, by someone who calls the thinning a healing. You can read the whole plan off it now, whole, the way the road promised — the seats, the vacant Thirteenth, the membrane drawn down to let something cross and take a chair that has stood empty too long. You did not have to learn the seam by ear, one stolen lucid sentence at a time. You burned your way to seeing it entire.",
+            "But the road has its final, quiet cruelty, and it is this: the things on the other side of a thinning wall can see bright things on this side, and you have spent the entire road making yourself the brightest thing in northern Tokyo. The Axis does not have a stair because the Axis is not a place you go; it is the gravity that bright gifted things fall into, the machinery around the empty seat that collects whatever flares near it, and you have been flaring straight at it since the kitchen. Standing at the wall you feel it notice you — not Yushiro, not yet, but the seat itself, the vacancy, turning its empty attention toward the new light like a cold eye opening. You came to read your brother's situation. You have made yourself legible to the very thing his captor is feeding.",
+            "And then, through the worked-thin air, a familiar warmth finds you, and for one window the size of a held breath it is just Gin — lucid, horrified, reaching back across the seam not to pull you through but to push you away, his cold passenger asleep or distracted or simply outvoted for one human second. <em>You shouldn't be this bright,</em> he tells you, in the only language the wall leaves him, and you understand it is both the most loving and the most frightened thing your brother has ever said to you. You have found him. He has found you. And the finding, done this brightly, this close to the seat, has put you both exactly where the Healer would most like you to be: in the same place, lit, legible, and reachable through each other."
+          ],
+          "choices": [
+            {
+              "x": "Reach back to Gin through the window — answer him while it's open.",
+              "hint": "One true exchange with your brother, mind to mind, might give you the seam from the inside and a thread of him to hold. It is also the brightest possible flare fired directly at the wall, in full view of the seat that just opened its eye, using the one channel the Healer most wants mapped."
+            },
+            {
+              "x": "Damp yourself down — fold the registers, go dark at the wall.",
+              "hint": "Go quiet now and you may slip the Axis's attention before it fixes on you. Folding shut here means losing the window with Gin, perhaps the last lucid one, and walking blind back into a city you can no longer fully read."
+            },
+            {
+              "x": "Step toward the wall while it's thin and you're bright enough to cross.",
+              "hint": "Brightness this close to a worked membrane might be enough to step through and reach Gin in the flesh. Crossing a thinned wall toward the empty seat is exactly the motion the Healer engineered the whole membrane to invite — you would be walking, lit, into the trap as its final piece."
+            }
+          ]
+        }
       ]
     },
     "look": {
       "title": "The Long Walk",
-      "status": "queued",
+      "status": "authored",
       "acts": [
         "Open: the city decides for you",
         "Deepen: what the short ways step over",
         "Converge: arriving without a faction at your back"
+      ],
+      "beats": [
+        {
+          "scene": "The kitchen, 3:47 on the stove clock, and the decision to take nothing but your feet",
+          "prose": [
+            "There are five ways out of this room and four of them ask you to spend something you can't get back — a name handed to a badge, a favour owed to the Grid, the registers behind your eyes pried open until the world goes thin around you. You stand in the cooling kitchen with the rice still warm in the cooker and you understand, with the flat certainty that arrives only at four in the morning, that you are going to refuse all four. You are going to do the slow, stupid, human thing. You are going to walk out the door with nothing in your hands and look for your brother the way a person looks for a person.",
+            "It is not nobility. You want to be honest with yourself about that much while you still can be. It is fear — fear of the badge, which keeps what it touches; fear of the Gift, which keeps the one who uses it; fear most of all of becoming, in the search for Gin, the kind of thing Gin would no longer recognise as his sibling. The other roads are faster and you can feel the speed of them pulling at you like a draft under the door. But fast is how he was taken. Fast is the seam in the air at chest height where something stepped through that should not be able to step through anything. You decide, in the dark, that whatever has him moves at the speed of taking, and you will move at the speed of finding, and you will trust that the second speed reaches further in the end.",
+            "So you do the small things a person does. You write a note for the family that says less than you know. You put on shoes that can take a night of pavement. You leave the rice. And at the genkan you stop with your hand on the door and feel the absence of everything the other roads would have armed you with — no procedure, no protection, no sight — and you step out into the Obon dark anyway, into a Tokyo lit for the returning dead, with nothing to find your living brother but attention and time."
+          ],
+          "choices": [
+            {
+              "x": "Leave now, in the dark, before you can talk yourself onto a faster road.",
+              "hint": "Move while the trail is warm and you'll be on the streets ahead of the dawn crowds. You also leave with no money plan, no contact, and no idea how many nights this costs — the long walk has no timetable, and Gin's lucid windows do."
+            },
+            {
+              "x": "Wait for first light and gather what a traveller needs — cash, a map, his photo.",
+              "hint": "An hour of preparation makes the walk survivable for days instead of one. Every hour you spend packing is an hour the thing wearing your brother spends walking him north."
+            },
+            {
+              "x": "Knock on one door first — wake someone who loved Gin and ask before the city wakes.",
+              "hint": "A second pair of eyes and a second memory could halve the search. It also means letting another person into a danger you chose to face alone precisely so no one else would have to."
+            }
+          ]
+        },
+        {
+          "scene": "The last trains gone, the night city of Obon, choosing a direction by ordinary signs",
+          "prose": [
+            "Without the sight you have no line of cooling footprints to follow, and at first the loss of it is vertiginous — you keep reaching for a sense you've decided not to use, the way a tongue keeps finding the gap of a pulled tooth. But the city is not silent to ordinary eyes; it is only quieter, and slower, and you have to learn its plainer language fast. A man your brother's height was seen, or wasn't. A timetable on the kitchen shelf was folded back to the Kita line. A cab driver at the Sugamo rank remembers a fare who didn't speak and didn't seem to know where he was going, only north, always a little further north, as if north were a person calling him.",
+            "This is the road's whole discipline and you feel it close around you like a habit: you cannot leap, so you must accumulate. Each scrap is nearly nothing — a direction, a time, the colour of a coat — and only by laying them end to end across a night of walking do they become a thread you can pull. You walk Hakusan-dori with the lanterns swinging overhead, the families home for Obon eating late, the smell of grilling and incense and rain that hasn't fallen yet, and you do the arithmetic of the ordinary: who would have been awake, who would have seen, who would tell a stranger the truth at this hour. The dead are supposedly walking these same streets tonight, come home for the festival. You find you are not afraid of them. You are afraid of being too slow for the one who isn't dead yet.",
+            "By the third hour your feet have begun to hurt in the specific, instructive way that tells you this is real now, this is your body spent on this and not retrievable, and somewhere under the tiredness you notice the first quiet gift of the slow road: you are still entirely yourself. No register has opened. Nothing on the other side of anything has turned to look at you. You are just a tired person walking north through a festival, asking after a brother, and for one block the ordinariness feels less like weakness than like the only armour that was ever going to work."
+          ],
+          "choices": [
+            {
+              "x": "Follow the cab driver's 'north' literally — straight up the Kita line on foot.",
+              "hint": "The driver's instinct points the same way the timetable does; trusting it could save you a night. It also stakes everything on one half-asleep memory, and if he's wrong you've walked hours into the wrong ward."
+            },
+            {
+              "x": "Work the witnesses outward in a slow spiral instead of chasing one lead.",
+              "hint": "Methodical canvassing catches the contradictions a single lead would hide. It is achingly slow, and the trail cools a degree with every door, every dawn, every hour you spend being thorough."
+            },
+            {
+              "x": "Stop walking and just watch one intersection he'd have to cross.",
+              "hint": "Patience at a chokepoint sometimes beats motion — let the city bring him to you. Or let the whole night pass at one corner while he takes a street you never imagined, and learn nothing but the look of a lamppost at four a.m."
+            }
+          ]
+        },
+        {
+          "scene": "A convenience store at the edge of nowhere, the small economy of asking strangers for help",
+          "prose": [
+            "There is a particular kind of person awake at this hour in a konbini at the edge of a residential ward — the night clerk who has seen everything and judges none of it, the salaryman drinking canned coffee to delay going home, the old woman buying flowers for a grave she'll visit at dawn. You come in under the white light smelling of rain and roads and you have to decide, fast, how much of the truth a stranger will hold for you. Too little and they shrug; too much and they back away from the kind of trouble that follows a sibling looking for a sibling at four in the morning during the festival of the dead. The slow road runs on these small transactions, and you are learning their exchange rate the hard way.",
+            "The clerk is younger than you expected and he looks at the photo of Gin a long time before he says anything, and when he speaks it is not what you wanted but it is true, which on this road is the only currency that compounds. He's seen the man. Not tonight — two nights ago, and again last week, the same man, always northbound, always with the slightly wrong walk of someone being steered, and once with a second person who the clerk can't quite describe, except that being near them made the cold drinks case hum in a way he'd reported to maintenance twice. You stand in the fluorescent hum and feel the braid of it: your brother, more than once, on a route, with a passenger the ordinary eye can only register as a malfunction. The slow road has just told you something no faster road would have stopped to hear — that this isn't a kidnapping, it's a routine.",
+            "You buy something you don't need, because that is how this economy works, and the clerk tells you one more thing while he makes change: there's a woman who runs a late stall three stations up who 'keeps track of the ones who wander', who the unregistered and the half-touched go to when the official world has no slot for them. He doesn't have a name for what she does. You do — or you have a guess, and the guess is the first time tonight the supernatural has reached into your human search, not as a power you wield but as a place you might walk to. You thank him properly, the way you'd want a stranger thanked for helping look for your brother, and you go back out into the dark with one more thread and the strange warmth of having been, for two minutes, simply helped."
+          ],
+          "choices": [
+            {
+              "x": "Go straight to the woman who 'keeps track of the ones who wander'.",
+              "hint": "She may have seen Gin's route with eyes that understand it — the best lead of the night. People who track the wandering are rarely free with what they know, and you have nothing to trade but a story she's heard a hundred times."
+            },
+            {
+              "x": "Press the clerk for the route's other stops before you lose him to his shift.",
+              "hint": "Pinning the whole pattern now means you can find Gin even if the woman won't help. It also keeps a kind young man longer in a conversation that could mark him, to whatever hums the drinks case, as someone who talked."
+            },
+            {
+              "x": "Rest an hour here, eat, let your body keep up with the road.",
+              "hint": "You cannot walk to Kita on an empty body and a sleepless night; the road is long and you are the vehicle. Every hour of rest is an hour the routine runs without you watching it."
+            }
+          ]
+        },
+        {
+          "scene": "The late stall three stations north, and the people the factions never count",
+          "prose": [
+            "The woman's stall is the kind of place the official world draws no line around — a few stools, a kerosene heater for a night that isn't cold, a hand-lettered menu, and a clientele that the Directorate's registries and the Tower's records have simply never managed to contain. These are the unregistered and the half-touched, the animal-mediums and the once-possessed and the people who saw something once and have organised their whole quiet lives around never seeing it again. They are exactly the people the fast roads step over, because a faction's eye slides off anyone it can't file, and you understand as you sit down among them that the slow road has brought you to the one census that might actually have your brother in it.",
+            "The woman does not perform mystery; she ladles soup and watches you decide whether to be honest. When you put Gin's photo on the counter she doesn't touch it, only looks, and then she looks at you — at your eyes, specifically, at the place behind them you have kept folded shut all night — and something in her face settles, as if she has just confirmed a suspicion she'd rather have been wrong about. 'You're his,' she says. 'The one who could look and won't.' It is not a question and it is not an accusation, but it lands like both, and around you the quiet clientele go a degree quieter, the way a room does when someone says the true thing out loud. She has seen Gin. She has seen, she tells you, what walks in his steps. And she has been counting how many of her people have gone north and not come back, the way you count anything you can't stop.",
+            "What she gives you is not a location but a shape, and it is worse for being a shape: the northbound ones, the wanderers, the half-touched who drift up the Kita line and thin out of her count — they aren't being taken at random. They're being gathered. Someone up there has been, in her flat word, 'tidying' — collecting the loose, the unregistered, the bright-but-unguarded, the way you'd sweep filings toward a magnet. Your brother is part of the tidying and also, she thinks, doing some of it, his familiar warmth used to make the gathering gentle, a known face to lead the unknown north. 'The Healer,' she says, and the word in her mouth is not a title, it's a diagnosis. 'He doesn't take. He invites. That's why none of your factions have a file thick enough to stop it. You can't arrest an invitation.'"
+          ],
+          "choices": [
+            {
+              "x": "Ask her to point you at the next person scheduled to 'wander' north.",
+              "hint": "Following the next invitation in real time could walk you straight to the gathering point. It means using a stranger as bait on a road you swore would cost no one but you."
+            },
+            {
+              "x": "Ask instead what the gathered ones have in common — find the pattern, not the path.",
+              "hint": "Understanding who gets invited might tell you why Gin was, and what the Healer is building toward. Pattern is slower than pursuit, and the soup-stall's heater won't keep the trail warm while you think."
+            },
+            {
+              "x": "Show her you trust her — let the fold come loose, just once, just for her to see.",
+              "hint": "Opening the registers a hair would prove you're truly Gin's and might earn you everything she knows. It is the first crack in the one rule that has kept you human all night, and cracks on this road do not reseal."
+            }
+          ]
+        },
+        {
+          "scene": "Northbound at dawn with no one behind you, and the cost of refusing the fast lanes comes due",
+          "prose": [
+            "Dawn finds you on a Kita-bound platform with the festival burning down to its embers, the lanterns guttering, the dead presumably gone home, and your feet a single continuous ache that has stopped being information and become just the weather of your body. This is the hour the road bills you for everything you refused. A faction would have driven you here. The Gift would have flown you. You walked, and the walking has spent a whole night and most of your strength to bring you only to the edge of the place the others would have started from, and you feel the unfairness of it the way you feel the cold rail under your hands — flatly, without anyone to appeal to. No one is behind you. No procedure protects you. If the thing wearing Gin turns and notices the tired person on the platform, there is no one you can call who will come.",
+            "And it does notice — not the way the Gift would be noticed, with the seat's cold eye opening, but in the small, human, deniable way the slow road is haunted: a man across the platform who is reading you a beat too long, a station attendant whose helpfulness has one wrong edge, a sense, unprovable, that the routine you've been tracing has begun, lazily, to trace you back. This is the road's particular dread. It cannot show you a monster, so it shows you the possibility of one in every ordinary face, and leaves you no sight to confirm or dismiss it. You have made yourself into exactly one thing all night — a person asking after Gin — and you are far enough up the line now that asking has become a way of announcing yourself to whatever is doing the gathering.",
+            "You could still buy speed, even here, even now. There is always a faster road available to someone desperate enough at dawn — a payphone number the soup-woman slipped you that rings a Grid fixer, a Directorate poster on the platform wall with a tip line that would put a car and a badge behind you within the hour, the simple final option of unfolding your eyes and burning the rest of the distance. The whole night has been a refusal of these, and the refusal has gotten you here intact and unnoticed and nearly out of road. The question the platform asks, while the man across the way folds and unfolds his newspaper, is whether intact and unnoticed is worth the last hour you may have before a lucid window in your brother closes for good."
+          ],
+          "choices": [
+            {
+              "x": "Hold the line — stay slow, stay human, ride the last stretch as just a passenger.",
+              "hint": "Refuse speed one final time and you arrive the way you set out: unread, unowned, yourself. You may also arrive too late, and spend the rest of your life knowing exactly which trains you let pass."
+            },
+            {
+              "x": "Make the one call — the Grid fixer, a single fast favour at the very end.",
+              "hint": "One ride from a fixer closes the distance before the window shuts. The Grid never does a favour that doesn't become a handle, and you'd be handing it the thing you walked all night to keep."
+            },
+            {
+              "x": "Confront the man with the newspaper — force the ordinary dread to declare itself.",
+              "hint": "Making the watcher show his hand ends the not-knowing that's eating you. If he's nothing, you've burned time and nerve; if he's something, you've started a fight with no faction at your back and no sight to fight with."
+            }
+          ]
+        },
+        {
+          "scene": "The fast lane, refused: a CVD junior offers you a car, a badge, and a name to fill in",
+          "prose": [
+            "They come for the unaffiliated last, because the unaffiliated are the hardest to find, and the irony of it nearly makes you laugh as the unmarked car slows beside you on the Kita street and the window comes down on a young CVD officer who is trying very hard to look like help. The Directorate has been watching the gathering too — of course it has, a routine that thins the membrane is exactly the kind of thing it exists to file — and it has noticed, at the very end, the one variable its registries couldn't predict: a sibling tracking the whole pattern on foot, with no faction, no Gift signature, no file. You are, to the young officer's evident discomfort, a blank space in the records that walked itself to the centre of an active case, and the Directorate would very much like to fill the blank in.",
+            "The offer is reasonable, which is what makes it dangerous. A car for the last stretch you're too tired to walk. A badge's worth of protection for the threshold you're about to cross unarmed. Resources, backup, the apparatus of a faction that genuinely wants the membrane left alone — all of it yours, in exchange for the one thing the whole night was built to withhold: your brother's name, formally given, on the Directorate's terms, which means Gin stops being a person you're looking for and becomes a person they're processing. The junior officer says the word 'cooperation' and you hear, underneath it, the soft click of a handle being fitted to your brother. Every road but this one began by handing over that handle. You have walked all night precisely to arrive without it, and here, at the last mile, exhaustion makes the case for giving it up better than any officer could.",
+            "You look at the young officer and you can see he half hopes you'll refuse — that some part of him knows the difference between a sibling and an informant and would rather not be the one who erases it. The slow road has made you legible to the Directorate in the gentlest possible way, as a witness and not a weapon, and that legibility is itself a kind of door: walk through it and you finish the search with the whole machine behind you and your brother's name in its mouth. Stay on the pavement and you keep faith with the only principle that's gotten you this far, and you keep walking toward the thinning wall with nothing, still, but your own two feet and the warmth of a brother you refuse to spend."
+          ],
+          "choices": [
+            {
+              "x": "Refuse the badge and keep walking — no name, no handle, no faction.",
+              "hint": "Holding to the road's whole point means arriving at the wall as no one's instrument. It also means facing what's there with a tired body, no backup, and a young officer's car pulling away from the last help you'll be offered."
+            },
+            {
+              "x": "Take the ride but not the deal — accept the car, refuse to give the name.",
+              "hint": "Bargaining for the distance without paying in Gin's name is the cleverest play available. The Directorate does not give half-favours, and a debt left vague at dawn is a debt they get to define later."
+            },
+            {
+              "x": "Give the officer everything — the routine, the soup-woman's count, the Healer.",
+              "hint": "Handing the Directorate the full pattern arms the one faction that wants the membrane saved. It also turns every person who helped you tonight into a line in a file, and your brother into a case the machine now owns."
+            }
+          ]
+        },
+        {
+          "scene": "The last streets to the wall, the trail made entirely of small human things",
+          "prose": [
+            "The final approach to the thinning wall is, on this road, the strangest part, because you arrive at it not by sight and not by procedure but by the sheer mass of small things you have carried up the Kita line all night. A clerk's memory of a humming cooler. A cab driver's word for the direction of a calling. A soup-woman's tally of the vanished. A timetable folded to a single stop. Laid end to end, the ordinary facts have become a line as straight and certain as anything the Gift could draw, and you walk it into a quiet northern neighbourhood where the wrongness, when you finally reach it, is not visible at all — it is felt, the way you feel a held breath in a house, the way the dawn light here seems to arrive a half-second late, as if it had to come a little further than light should have to.",
+            "You understand, walking these last streets, that the slow road has given you the one thing the fast roads never could: you know how the gathering was done, because you retraced it at the speed it was done at. You know it was gentle. You know it wore a familiar face. You know the people it took were the uncounted, the ones no faction would miss, and you know your brother's warmth was the bait that made the leaving feel like being led home. None of this is sight. All of it is understanding, accumulated on foot, and it has brought you to the threshold with a map of the crime drawn entirely in human testimony — admissible nowhere, true everywhere, and yours alone.",
+            "And then, in the late-arriving light, you see him. Not a residue, not a braid of pressures — Gin, your brother, standing at the place where the air comes a half-second late, ordinary as anything, waiting at a thinned wall the way a person waits at a bus stop, his familiar warmth doing the patient work of making a monstrous place look like somewhere it's safe to gather. He has not seen you yet. You have walked all night to be a person finding a person, and here at the end the road has kept its promise exactly: you have found him, with your own tired eyes, paying only in time and shoe leather and the steady refusal to become anything that would have gotten you here faster. The cost was that it took all night. The gift is that you arrive as yourself, unread, with nothing behind you and nothing owed, and a clear human sight of your brother before he turns."
+          ],
+          "choices": [
+            {
+              "x": "Call his name across the quiet street — reach him as a person, out loud.",
+              "hint": "A voice he's known his whole life might surface the real Gin faster than any power. It also announces you, plainly, to the patient thing wearing him, in the one place it has worked hardest to keep quiet."
+            },
+            {
+              "x": "Watch first — learn what he's doing here before you let yourself be seen.",
+              "hint": "A few minutes of observation might show you the mechanism of the gathering and how to break it. Every minute is a minute closer to whatever the half-late light is waiting for, and to losing the cover of being unnoticed."
+            },
+            {
+              "x": "Close the distance quietly and put a hand on him before he can turn.",
+              "hint": "Touch is the most human argument you have, and the hardest for a passenger to answer. Reaching a thinned wall and laying hands on the bait is also exactly the proximity the Healer's whole gentle routine was built to produce."
+            }
+          ]
+        },
+        {
+          "scene": "The threshold, reached by the long way, where being no one is the only card you hold",
+          "prose": [
+            "You arrive at the wall the way only this road could deliver you — with nothing. No badge to flash, no favour to call in, no register flung open to read the seam entire. The other roads converge here too, each handing you a different instrument and a different price already paid; you converge here empty-handed, and for a vertiginous moment the emptiness feels like the failure the whole night was secretly building toward. The membrane has been worked thin in front of you, lovingly, by someone who calls thinning a healing, and you cannot read the plan off it the way the Gift would. You can only stand where your feet have brought you and understand it the slow way: that this is where the gathered ones were gathered, that the vacant Thirteenth Seat is the magnet the soup-woman's filings were swept toward, that your brother's warmth has been the kindness that made a culling feel like a homecoming.",
+            "But the road has been building you a different weapon all night, and you feel it now as the last thing it gives you: you are, to the thing on the other side of the wall, illegible. The Gift would have made you the brightest object in northern Tokyo, a flare fired at the opening eye. The factions would have made you a known quantity, a file the Healer could have read in advance. You are neither. You are a tired person who walked here on testimony and stubbornness, carrying no signature anything can lock onto, and at the threshold of a place built to collect the bright and the registered, being no one at all turns out to be the one approach the trap was never designed to catch. The seat's cold attention sweeps the wall and finds nothing to fix on, because you brought nothing for it to fix on, and in that blind spot you are still, impossibly, free to move.",
+            "And then his familiar warmth finds you — not flung across a seam by the Gift, but simply Gin, close enough now to feel you the human way, and for one window the size of a held breath the passenger is asleep or distracted or outvoted and it is only your brother, lucid and horrified to see you here. He does not tell you you're too bright; on this road there is no brightness to warn against. He tells you the other thing, the worse and truer thing, in the only language the wall leaves him: that he can't stop walking north, that the kindness in him is being used as bait, that he had hoped no one would ever come the long way and find him doing it. You have found him as yourself, unread, unowned, with nothing behind you and nothing owed — and the only question the wall leaves is what a person with no instrument but their own two hands and their own real face does, now, at the thinned edge of the place their brother is being used to fill."
+          ],
+          "choices": [
+            {
+              "x": "Answer him as his sibling — no plan, no power, just the truth between you.",
+              "hint": "The one thing the Healer's gentle routine can't counterfeit is the real history between you and Gin. Spent here, at the wall, it might wake the man inside the bait — or it might be the last lucid window you ever get, used up on a conversation instead of a rescue."
+            },
+            {
+              "x": "Stay illegible and try to walk him out the way you walked in — quietly, as nobody.",
+              "hint": "Leading Gin back down the line as two unremarkable people might slip you both past the seat's blind attention. The thing wearing him does not have to stay asleep, and the long road home is long, and you have no faction to catch you if it wakes."
+            },
+            {
+              "x": "Refuse to take a side at the wall — hold the threshold, change nothing, just stay with him.",
+              "hint": "Refusing to act, here, keeps every ending still possible and keeps you human to the last. It also leaves the membrane thinning, the seat waiting, and your brother walking north — and someday the not-choosing becomes a choice the city made for you."
+            }
+          ]
+        }
       ]
     }
   },
@@ -941,8 +1453,98 @@
     {
       "title": "Yua's Debt",
       "giver": "Yua",
-      "status": "queued",
-      "hook": "A street kid who watches out for Rei owes the wrong people; the favour she calls in is smaller and worse than money."
+      "status": "authored",
+      "hook": "A street kid who watches out for Rei owes the wrong people; the favour she calls in is smaller and worse than money.",
+      "beats": [
+        {
+          "scene": "Yanaka, the third night of Obon, where the lantern-sellers thin out",
+          "prose": [
+            "Yua finds you the way she always has — not by walking up but by already being there, a smudge of a girl in a man's outgrown jacket leaning on the cold side of a vending machine where the festival light doesn't reach. She is fourteen, or says she is, and she has watched the back of your neck on more platforms than you have ever thanked her for. Tonight the Obon lanterns are going down the Yanaka slope toward the river, paper boats for the dead finding their way home, and she will not look at them. <em>I'm not asking for money,</em> she says before you can offer it, fast, like a thing rehearsed against the chance she'd lose her nerve. <em>Money I could've got. This is the other kind.</em>",
+            "You have known for a year that Yua owes someone on the Grid, the way you know a tooth is going bad — by the way she favours one side of every conversation, by the appointments she keeps that she will not name. Now she pulls her sleeve up past the wrist and shows you the underside of her forearm, where there is no mark at all, only skin, and that is the wrong thing, that is the frightening thing: there should be a memory there and there is a smooth absence instead, the place where one has already been lifted clean. <em>I borrowed against remembering,</em> she says. <em>I didn't have anything else worth holding. And the last payment comes due tonight, while the gate's open, because that's when it's cheapest for them and dearest for me.</em>",
+            "She tells you the rest in the flat voice children use for the worst things, because feeling it would cost more than she has. The collateral on the final note is the only clear memory she has left of her brother Haru — his actual face, not the photograph she has worn soft, the real grain of his voice telling her something on a train. When the Tallyman collects tonight it comes out of her like a tooth and she will keep the shape of the loss without the thing that was lost. <em>I can't stop it,</em> she says. <em>But you've got two registers you keep stuffed down where they don't show. So I'm asking you to stand there when they take it, and let me tell it to you first — so it's somewhere. So Haru's somewhere. That's the whole favour. It's smaller than money. I know it's worse.</em>"
+          ],
+          "choices": [
+            {
+              "x": "\"Tell me now, before we go anywhere. I'll hold it.\"",
+              "hint": "Taking a memory into a suppressed register isn't free filing — it weights the register, and a register that wakes up on a borrowed grief wakes up loud. You'd be carrying her brother and tipping your own hand at once."
+            },
+            {
+              "x": "\"We're not paying it in memory. Take me to whoever holds the note.\"",
+              "hint": "The Grid does not renegotiate for sentiment, and a broker who deals in remembering can read what you'd offer instead off the back of your eyes. You'd be walking in with the one currency you can't afford to be seen carrying."
+            },
+            {
+              "x": "\"How long until they collect? Don't lie to me about the time.\"",
+              "hint": "She has been managing you the way she manages everyone who might help — by the slice. Push for the truth and you'll learn the window is shorter than she let on, and that she came to you last, not first."
+            }
+          ]
+        },
+        {
+          "scene": "Below the Sendagi crossing, where the Grid keeps a night-market the registered city can't see",
+          "prose": [
+            "The Tallyman does not have a face so much as the place where keeping accounts has worn one away. It works a stall under the Sendagi tracks that you would walk past a hundred times registered and never once see, and the moment Yua steps under its awning the festival noise overhead goes muffled, as though the whole bright living city has been folded behind glass. There are jars on its shelves, hundreds, and you make yourself not look too long at any one of them because each holds a little weather of light that moves like something remembering being alive. <em>The watcher girl brings a witness,</em> it says, and its attention crosses your skin like a hand checking a coat for the shape of a wallet. <em>Two of them. One folded twice. How thoughtful, to bring me the interest along with the principal.</em>",
+            "It lays the note on the counter the way a doctor lays out an instrument, and the terms are written in Yua's own hand from a year ago, a child's careful characters promising what a child shouldn't have to weigh. The memory of Haru's face, in exchange for the rent she could not make the winter she was eleven. It has been good to her, the Tallyman points out, almost gently — it could have called sooner, on a colder night, for less reason. It is calling now, during Obon, because remembering runs thin when the dead are walking and a memory comes loose easier through the gap, and a debt should be collected at the season that serves the creditor. <em>Unless,</em> it says, and lets the word hang, <em>the witness would prefer to be the payer. I am not particular about whose remembering I file. Only that the ledger closes tonight.</em>",
+            "You feel both registers turn over at once, the way a dog lifts its head at a sound under the floor — they have caught the smell of the jars, of so much remembering held still, and they want it. That is the trap inside the trap, and Yua does not know to warn you of it: this is exactly the kind of place that could wake the thing you have spent your whole life keeping asleep. The Tallyman watches you the way it watches everything, as an amount. <em>You came in carrying so much,</em> it says. <em>It would be such a small adjustment, to leave a little lighter.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Offer one of your own memories in Haru's place — a thing of yours, freely given.",
+              "hint": "A clean substitution closes Yua's note and saves Haru's face. But you choose what you offer, and grief makes you reach for the heaviest thing in the room to prove you mean it — and the heaviest thing you own is a morning in a kitchen with Gin, which you cannot afford to lose and may not be able to keep yourself from offering."
+            },
+            {
+              "x": "Refuse the terms and ask what the note would take instead of memory — a service, a name, a debt deferred.",
+              "hint": "The Tallyman keeps every kind of ledger. It will name a price that isn't memory — and the alternative currencies it deals in are favours owed into the Grid, the same web Gin disappeared through. You'd be trading Yua's grief for a thread that ties you to the thing you're hunting."
+            },
+            {
+              "x": "Let the collection happen, and catch the memory into your register as it comes loose — the favour she actually asked for.",
+              "hint": "This is the smaller, worse thing she wanted: not rescue, just survival of the memory somewhere. It takes Haru out of her anyway. And the register you open to catch him is one you have never once chosen to open on purpose — you don't know what else comes through the door you hold ajar."
+            }
+          ]
+        },
+        {
+          "scene": "The collection — the instrument set, the gate at its widest",
+          "prose": [
+            "Whatever you decided, the moment of collection is the same shape, and it is quiet, and that is the horror of it — you keep waiting for it to be violent and it is only precise. The Tallyman does not reach for Yua so much as ask the memory a question it cannot help answering, and you watch the girl's face go through something no face should have to do in front of a witness: a brief, terrible brightening, as Haru comes all the way up to the surface one last time to be counted, the real him, laughing at something on a train with the specific crooked tooth the photograph never kept. For one second Yua is eleven and not alone. Then the second ends.",
+            "If you reached, you feel him cross — a stranger's brother arriving in a room of yourself you keep dark, the weight of a love you did not earn settling into a register that shudders at the unfamiliar grief and threatens, for one long swimming instant, to open the rest of the way and let out whatever else lives behind it. If you paid, you feel the gap where your own given thing used to be, already smoothing over, already becoming a loss without an edge. If you let it go to close the ledger clean, you watch the brightness leave her and you understand that you chose the cheapest door and that she will know, the way the watched always know about the watcher. The Tallyman files the note and the awning's muffling lifts a half-inch, festival noise leaking back in, the living city remembering it is there.",
+            "<em>The ledger is closed,</em> it says, and it is already looking past both of you at the next set of footsteps in the dark. But it pauses, because it deals in what people will give and it has taken your measure now and found it useful to know. <em>You hold a great deal you have not counted,</em> it tells you, not unkindly, the way a creditor is kind to a client it intends to see again. <em>When you are ready to know the true sum of yourself, you know which stall keeps the longest ledger in the city. Bring the watcher girl. She remembers where the door is, even when she cannot remember why.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Get Yua out into the lantern-light before you let yourself feel any of it.",
+              "hint": "She is fourteen and she has just lost the last real piece of someone, in public, in front of you. Putting her first is right — and it means you carry whatever just happened to you, alone, unexamined, into a register you can't be sure is closed again."
+            },
+            {
+              "x": "Tell the Tallyman you'll be back to learn the true sum — and mean it.",
+              "hint": "It is the first creature in the city to offer you a straight account of what you actually are. That is a door you have wanted your whole life. It is also a hook, set by a thing that does nothing without a ledger, in the exact season your brother went looking through a gap like this one."
+            },
+            {
+              "x": "Say nothing. Pick up a lantern from the stack and put it in Yua's hands.",
+              "hint": "A boat for a brother she can no longer picture. The gesture costs nothing and means everything, which is the only kind of payment left tonight — and it tells her you understood exactly what you witnessed, which is its own weight to have laid on a child."
+            }
+          ]
+        },
+        {
+          "scene": "The river stairs, after — paper boats going down toward a sea none of them will reach",
+          "prose": [
+            "You take her down to the water where the others are launching their lanterns, and Yua kneels at the bottom step with the paper boat you put in her hands, and for a while she cannot light it because she has forgotten who it is for. That is the part the Tallyman charged her for and did not bother to mention: not the memory only but the why of keeping it, so that she holds a grief with the name scraped off, a love with no object, the worst kind of debt because it cannot be discharged by remembering or forgotten by trying. <em>It was somebody,</em> she says, testing the words. <em>It was somebody good. I can feel the shape of good. I just can't get the rest to come.</em> And you, who chose tonight whether to carry her brother or your own kitchen or nothing at all, sit down on the cold stone beside her and do not lie about how that feels.",
+            "If you took Haru into your register, you find you can give a little of him back — not the memory, you cannot return what the ledger took, but the fact of him, the train and the tooth and the laugh, told as a witness tells a thing, so that she has a story where she used to have the man. It is not the same and it is not nothing, and she listens to her own brother described by a stranger with a hunger that breaks something in you that you did not know was load-bearing. If you paid instead, you discover the cost only now — reaching for the thing you gave and finding the smooth place where it was, learning by its absence how much you must have loved it. If you let the collection close clean, the silence between you on the steps is honest, at least, and she does not pretend you saved her, and you do not pretend you tried.",
+            "When the boat finally goes down — and it does, all of them do, the whole grieving city pushing its dead gently out toward a darkness that is, tonight, briefly thin — Yua watches it until the current takes it round the bend and then she stands, and she is fourteen again, and the watching is already back in her, the appraisal of exits and angles that has kept her alive. <em>You'll go looking for your one too,</em> she says, not asking, because she has watched the back of your neck for a year and she knows the shape of a person hunting a brother through a gap in the world. <em>When you do — don't borrow against the remembering. Whatever they offer. That's the favour back.</em> And she is gone up the slope into the lantern-light before you can tell her it is already, probably, too late for that advice, and that the longest ledger in the city has your measure now, and that you came down here carrying one more thing than you arrived with, and you have not yet dared to count it."
+          ],
+          "choices": [
+            {
+              "x": "Promise her you won't borrow against remembering — knowing what you're already carrying.",
+              "hint": "A promise to a child you may not be able to keep, made in a city where your brother's whole disappearance runs through favours owed into the dark. She'll hold you to it. So will you."
+            },
+            {
+              "x": "Go back up the slope toward the Grid market, tonight, while the door is open.",
+              "hint": "The Tallyman offered you the true sum of yourself, and Gin went looking through a gap exactly like this one. Walking back in now means following him into the same dark by the same light — and you'd be doing it alone, with a register you opened tonight and can't swear is shut."
+            },
+            {
+              "x": "Let her go, and sit with what you carried out, and finally count it.",
+              "hint": "The thing you've avoided all night. Whatever you took on at the stall — Haru's grief, the gap where your own gift was, or the cheap clean nothing — you face it here on the stone, where there's no one left to manage and no festival noise loud enough to drown it out."
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "The Thing in the Dorm",

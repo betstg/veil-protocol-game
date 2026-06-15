@@ -10,3 +10,4 @@ gemini-key.txt
 # node deps (jsdom for QA smoke tests, etc.)
 node_modules/
 package-lock.json
+grid_patch.mjs

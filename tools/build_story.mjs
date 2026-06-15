@@ -177,7 +177,8 @@ function sideHtml() {
   return (campaign.sideMissions || []).map((s) =>
     `<div class="decision"><div class="decision-h">${esc(s.title)} ${badge(s.status)}</div>
       <div class="choice-hint" style="margin-bottom:4px">Given by ${esc(s.giver || "—")}</div>
-      <p style="margin:0">${esc(s.hook || "")}</p></div>`).join("");
+      <p style="margin:0">${esc(s.hook || "")}</p>
+      ${(s.beats || []).map(beatHtml).join("")}</div>`).join("");
 }
 function romanceHtml() {
   return (campaign.romances || []).map((r) =>
