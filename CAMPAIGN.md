@@ -1,20 +1,22 @@
 # Veil Protocol — Full Campaign Blueprint
 
-Target scale: **~4 hours main story** + **~2 hours per road** (×6) + longer **side missions** and **romances**.
-Interactive narrative runs slower than prose (deliberation, branching, re-reading), so the working estimate is
-**~3,500 authored words ≈ 1 hour of play**. That gives rough word targets:
+Target scale: a **full-length campaign of ~500,000 words** — a deep main spine, six long roads, a Thirteen-holders
+side-spine, a dozen-plus multi-scene side missions, and the full romanceable cast. Interactive narrative runs slower
+than prose (deliberation, branching, re-reading), so the working estimate is **~3,500 authored words ≈ 1 hour of play**.
+Authored in waves: each batch fully writes one section and the scheduled job grinds the remaining queued items.
 
-| Strand | Hours | Target words |
+| Strand | Scope | Target words |
 |---|---|---|
-| Main spine (the Gin / Yushiro arc) | 4 | ~14,000 |
-| Road: Itsuki (Kuroda / Tower) | 2 | ~7,000 |
-| Road: CVD (Directorate) | 2 | ~7,000 |
-| Road: Grid (unregistered) | 2 | ~7,000 |
-| Road: Power (the Gift) | 2 | ~7,000 |
-| Road: Look (the long way) | 2 | ~7,000 |
-| Side missions (8–10, multi-scene each) | — | ~10,000 |
-| Romances (Itsuki + 4, multi-stage, fade-to-black) | — | ~8,000 |
-| **Total** | **~16+** | **~74,000** |
+| Main spine (the Gin / Yushiro arc, 5 Books) | ~30+ chapters, 2–3 beats each | ~150,000 |
+| Road: Itsuki (Kuroda / Tower) | 3 acts, ~24 beats | ~16,000 |
+| Road: CVD (Directorate) | 3 acts, ~24 beats | ~16,000 |
+| Road: Grid (unregistered) | 3 acts, ~24 beats | ~16,000 |
+| Road: Power (the Gift) | 3 acts, ~24 beats | ~16,000 |
+| Road: Look (the long way) | 3 acts, ~24 beats | ~16,000 |
+| Side missions (15+, multi-scene each) | incl. Thirteen-holder vignettes | ~110,000 |
+| Romances (16+, multi-stage, fade-to-black) | from the 25 romanceable adults | ~90,000 |
+| The Family / Endings / Interludes | deeper Rei·Gin·Yushiro spine | ~54,000 |
+| **Total** | | **~500,000** |
 
 ## Main spine — five Books
 
@@ -30,13 +32,24 @@ Interactive narrative runs slower than prose (deliberation, branching, re-readin
 Each road takes its approach to the spine and runs three acts: **Open** (how this path gets traction), **Deepen**
 (a road-specific complication + a faction antagonist beat), **Converge** (how it feeds back into the Handwriting).
 
-## Side missions (multi-scene, real stakes)
+## Side missions (multi-scene, real stakes) — 15+
 Yua's debt · Mori's crush and the thing in the dorm · Tanizaki's drowned client · the animal-medium broker ·
 the bookseller's locked shelf · Kaneda's last bottle · the shrine that stopped answering · a Grid courier gone dark.
+**Plus the Thirteen-holder side-spine** (each a vignette: help the holder, learn what a seat costs, or feel a domain
+fail): Watanabe Jun (Despair VI, *weakening — urgent*) · Mori Takao (Rage II) · Nakashima Yuna (Fear IV) ·
+Inoue Satoru (Hunger IX) · Park Junho (Longing XI). And institutional/Grid jobs: the Auditor's anomaly · Kuroki's
+favour that is free to take and ruinous to owe.
 
-## Romances (multi-stage, fade-to-black ceiling; never minors)
-Itsuki (the painter) · Aoi (CVD junior) · plus two-three more from the romanceable cast, each in 4 stages:
-**notice → trust → turn → fade-to-black**, gated on a real act done for them, not asked.
+## Romances (multi-stage, fade-to-black ceiling; never minors) — 16+
+From the 25 romanceable **adults** (Mori 17 and Yua 16 are crush-only, never a route). Each runs four stages —
+**notice → trust → turn → fade-to-black** — with the *turn* gated on a real act done for them, not asked:
+Itsuki · Aoi · Hagiwara Mizuki · Katagiri Noa · Tendo Akira · Okada Shizuka · Shimizu Ren · Kato Ryusei ·
+Moriya Tatsuki · Usami&Ren (the Pair) · Tsukishiro Haruki · Choi Hana · Kurosawa Shou · Nakamura Aoi.
+
+## Authoring order (batches)
+Each batch fully authors a slice (status → `authored`) and the rest stay `queued`. The scheduled job authors one
+queued section per run in priority order (main chapters → roads → side missions → romances), committing locally,
+never pushing. Reaching ~500k is a multi-run effort; do not attempt it in a single pass.
 
 ## Where it lives
 Authored into `content/story/campaign.json` (long-form, choice-bearing), compiled into `the-story.html` by
