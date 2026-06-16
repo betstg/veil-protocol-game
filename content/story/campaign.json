@@ -1881,8 +1881,94 @@
     {
       "title": "The Shrine That Stopped Answering",
       "giver": "Miyamoto Kazuo",
-      "status": "queued",
-      "hook": "The wards have held for a century; this week the basin's water stopped reflecting the lanterns."
+      "status": "authored",
+      "hook": "The wards have held for a century; this week the basin's water stopped reflecting the lanterns.",
+      "beats": [
+        {
+          "scene": "The Hozumi shrine in upper Kita, third morning of Obon — a fox-shrine the size of a shed, wedged between a parking tower and a shuttered noodle counter, and Miyamoto Kazuo waiting at the gate before you have finished climbing the steps",
+          "prose": [
+            "The old man is sweeping when you arrive, which is the first wrong thing, because the stones are already clean and he is sweeping them anyway — the slow, going-nowhere stroke of a man keeping his hands busy so they will not shake. Miyamoto Kazuo has tended this shrine for fifty-one years and his father tended it before him and the wards that ring the precinct were renewed by a hand in his line every Obon for a hundred summers, and he tells you all of this without your asking, the way a man recites the deed to a house he is afraid is no longer his. The shrine is nothing — two fox statues with the lichen grown into their grins, a vermilion gate gone the colour of dried blood, a basin of standing water under a little roof where you are meant to rinse your hands before you bother the god. It is the kind of place the city forgets so thoroughly that forgetting it becomes its own kind of protection.",
+            "He will not let you near the basin until he has said the thing he called you to say, and he says it badly, in pieces, looking at the broom and not at you. For a hundred years the water in that basin has held the lanterns — every Obon the neighbourhood strings paper lights along the lane, and every Obon the basin catches them and holds them doubled and trembling on its skin, and that doubling, Miyamoto says, is how you know the boundary is keeping. A shrine that reflects is a shrine that is still listening. This week the lanterns are lit and the lane is strung and the water lies in the basin flat and black and holds nothing at all — no lights, no roof-beam, not even your face when you lean, he says, when you lean over it your own face is not there.",
+            "Both registers come up at that, slow and certain, the low one and the searching one both, and they do not disagree. You have spent enough of this week learning the particular wrongness of a thing that has stopped answering — Gin's flat, the address in no file, the cases closed too clean — to recognise the shape of it in an old man's basin. Miyamoto sets the broom against the gate at last and folds his hands and tells you he is too old to read what has gone wrong and too frightened to leave it unread, that he sent word to the Tower and the Tower sent a form, that he sent word to the temple and the temple sent prayers, and that he is asking you because you are the only one who came up the steps instead of mailing something down them. Behind him the basin sits under its little roof, holding the morning the way a closed eye holds a room."
+          ],
+          "choices": [
+            {
+              "x": "\"Tell me what the wards were keeping out — a hundred years of renewing them, your line knows the name of the thing.\"",
+              "hint": "Miyamoto will tell you what his father told him, which is old and half-liturgy and possibly true — and knowing the name of what the boundary held back means you will be looking for it now, in the water and everywhere else, the way you cannot unsee a face once it has been pointed out. Some wards are kept strong precisely by the keeper never quite knowing."
+            },
+            {
+              "x": "\"Who renewed the wards this Obon? You said your line does it — did you do it yourself this year?\"",
+              "hint": "The answer is the whole mission and the old man knows it, which is why his hands are shaking; press him and he will have to say aloud whatever help he accepted this year, from whatever reasonable stranger offered it. A favour done to a hundred-year ward is a favour you cannot easily take back."
+            },
+            {
+              "x": "Say nothing yet; go to the basin and read the water before he frames it for you.",
+              "hint": "Reading the basin cold means seeing only what the boundary itself shows, uncoloured by an old man's fear or his father's stories — the truest read you can get. It also means putting your own face over water that has stopped giving faces back, with no idea yet what is on the other side of the skin, waiting to be looked at in return."
+            }
+          ]
+        },
+        {
+          "scene": "The basin under its little roof, the lane's paper lanterns burning unreflected three steps away, the water holding nothing",
+          "prose": [
+            "Up close the water is worse than Miyamoto described, because he described an absence and an absence is at least a clean thing, and this is not clean. The basin is full to the lip and dead still, no wind reaching it under the roof, and when you lean the lanterns behind you do not appear and neither do you, but the surface is not blank — it is busy, in the way a held breath is busy, a faint slow churn under the flatness like something turning over far down in water that is only a hand deep. You put two fingers to the stone rim, not the water, and let the read come, and the read comes wrong. A shrine basin should taste of a hundred Obons of cupped hands and rinsed mouths and small honest fears asked into the dark; this one tastes of all that and then, underneath, of a single clean cut — a place where something woven was unwoven, neatly, by someone who knew exactly which thread to lift.",
+            "You crouch and look longer than is wise, and the longer you look the more certain both registers become that the water is not failing to reflect you — it is choosing not to, the way a person who has been told something about you declines to meet your eye. Somewhere in the basin's hundred years a boundary was strung between the lane and whatever the lane was built to forget, and the boundary was kept taut by reflection, by the simple daily proof that the world on this side was solid enough to throw an image back. Pull the proof and the boundary goes slack. The lanterns burn three steps behind you, gold and doubled along the lane, and stop dead at the rim of this stone as though the basin has been excused from the evening, lifted quietly out of the week, set apart so that something can use it without the neighbourhood noticing the seam.",
+            "When you take your fingers off the rim the churn under the surface settles, slowly, the way water settles after a fish has turned — and for one held instant before it goes flat again the black skin shows you a face after all, not yours, a calm and pleasant and entirely reasonable face that you have been learning the shape of all week without yet being allowed to name it. Then the water lies still and gives nothing, and behind you Miyamoto asks, in the small voice of a man who already knows, whether you saw anything. The honest answer is that you saw the Healer's bedside manner wearing a hundred-year-old shrine like a clean white coat. The lane keeps burning. The basin keeps its peace, which is the wrong kind of peace, the kind that has been arranged."
+          ],
+          "choices": [
+            {
+              "x": "Read deeper — push past the flatness and follow the single clean cut to the hand that made it.",
+              "hint": "Following the cut means reading toward the one who unwove the ward, and you already half-know whose calm face the water just showed you — to read further is to let it read back along the same thread, to announce to the thing on the other side that someone on this side has finally looked. Your sight thins what is already thinning."
+            },
+            {
+              "x": "Pull back and tell Miyamoto the truth: the ward wasn't worn down, it was opened, this year, by a hand that knew the work.",
+              "hint": "The old man deserves the truth and will break a little under it, because it means the help he accepted was the wound, and he will want to know who — and naming Yushiro to a frightened keeper sends the name out into the neighbourhood ahead of you, where it cannot be called back. Some truths are doors you cannot reach back through."
+            },
+            {
+              "x": "Empty the basin — tip the dead water out onto the stones and refill it from the lane's tap, and see whether fresh water reflects.",
+              "hint": "Emptying the basin is the obvious test and possibly a mercy, restoring the daily proof that keeps the boundary taut — or it is exactly the disturbance the cut was made to invite, the keeper's own hand breaking the last still surface and letting the slack boundary swing. The thing about a trap built from a kindness is that undoing the kindness springs it."
+            }
+          ]
+        },
+        {
+          "scene": "Inside the shrine office, a one-mat room behind the gate, Miyamoto's ledger of renewals open on the low table under a bare bulb",
+          "prose": [
+            "The ledger goes back further than the bulb, further than the table, a stack of bound books in a cloth-wrapped pile each one a generation's worth of Obons recorded in the cramped hand of whoever held the broom that century. Miyamoto turns to this year's page with the reluctance of a man opening a wound to show the doctor where it hurts, and the entry is there in an unfamiliar hand — not his, not his line's, a clean modern script that has written, in the place where the keeper records who renewed the wards, the single word that means *a friend assisted*. He came in the spring, Miyamoto says, looking at the foreign handwriting in his family's book. A soft-spoken man, a healer he said, who had heard the old keeper's hands were failing and offered, for nothing, for the simple rightness of it, to help renew the work his father could no longer manage. He was so kind, Miyamoto says, and his voice does the thing voices do when kindness turns out to have been the knife. He was so very kind, and he asked only that I let him tie the last knot himself, because the last knot, he said, is the one that matters.",
+            "You read the foreign entry and both registers go cold and quiet, because you have seen this hand before — or its work, the same neat economy, the same gift offered into exactly the gap a person is most ashamed of — in Gin's ledger of favours, in every place this week where Yushiro the Healer has reached in through someone's worst small fear and adjusted one thread while they wept with gratitude. The wards were not breached. They were *re-tied*, expertly, by a guest invited in through the front gate by the keeper's own grief at his failing hands, and the last knot — the one that holds the reflection, the one that keeps the boundary listening — was tied to give way on a schedule. This week. Obon, when the membrane over all of Kita is thinnest and every shrine in the district is straining to hold its own small portion of the wall. Pull one keeper's stone loose now and you do not get a flood. You get a draught, a single clean current through one forgotten shed of a shrine, feeding the larger thinning Yushiro has been working toward all along.",
+            "Miyamoto wants to know what you will do, and under that, what he did, whether his failing hands made this or whether it would have come anyway — and there is no answer you can give that returns the spring to him, the morning he was so grateful to be helped. You can re-tie the last knot yourself and close the draught, which costs the neighbourhood nothing and costs you the one open window you currently have onto what Yushiro is building, a window the Healer does not yet know you have found. Or you can leave it open and watched, let the shrine keep failing on its arranged schedule, and learn from this small clean current exactly where the larger thinning runs and what it is for — at the price of an old man's basin, and the boundary his line kept for a hundred years, and whatever uses a draught while you stand at it taking notes."
+          ],
+          "choices": [
+            {
+              "x": "Re-tie the last knot now — close the draught, restore the reflection, and give the old man his shrine back.",
+              "hint": "Closing it is the clean kindness and the right one by Miyamoto, and it shuts a wound in the membrane before whatever wants through gets through. It also blinds you: the one place you can currently watch Yushiro's plan operate goes dark, and the Healer learns nothing was missed — which means the next stone he loosens, you will not be standing over when it gives."
+            },
+            {
+              "x": "Leave it open but ward the keeper — seal Miyamoto out of the precinct, let the draught run watched, and trace where the current pulls.",
+              "hint": "A watched draught is intelligence you cannot get any other way, a live thread back into the thinning while the Healer still believes it unobserved — but you are choosing to let a hundred-year boundary stay open, with an old man exiled from the shrine his family kept, and you do not fully know what a single clean current into Kita this week is meant to feed, or whether watching it counts, to the thing on the other side, as an introduction."
+            },
+            {
+              "x": "Re-tie the knot but tie it wrong on purpose — close it to all eyes but yours, a knot only you can read, so the draught looks shut and isn't.",
+              "hint": "The clever middle path: the shrine reflects again, Miyamoto sleeps, the Healer sees his work apparently undone by ordinary decay — and you keep a private window the size of a keyhole. But a knot tied by your two suppressed registers is a knot with your name woven into it, hung in the one place Yushiro is certain to come back and check, and a healer reads handwriting better than anyone alive."
+            }
+          ]
+        },
+        {
+          "scene": "The lane at dusk, lanterns lit, the basin's verdict settling — and Miyamoto at the gate waiting to learn what his hundred years come to",
+          "prose": [
+            "Whatever you chose, the evening insists on happening: the neighbourhood comes out as it always does on the third night, old women in cotton yukata and children with their fox-masks pushed up on their foreheads, and they file past the little shrine and clap their twice and bow and do not feel the seam you have spent the day standing inside. That is the mercy and the horror of a forgotten shrine — its failing is invisible to exactly the people it fails, and the boundary your day's work either closed or kept open holds back a thing none of them will ever be asked to believe in. The lanterns are doubled along the lane in their gold strings, and now, depending on the knot, the basin either catches them and holds them trembling on its skin the way it has for a hundred summers, or it lies flat and black and apart, excused from the evening, holding its arranged peace.",
+            "Miyamoto finds you at the gate and reads your face before you speak, the way old keepers read water, and what passes between you is not gratitude exactly — you have not given him back the spring, the morning he was glad to be helped, and both of you know the kind stranger will come again to some other failing pair of hands with the same soft offer and the same patient knot. But he takes your hand in both of his, dry and light as paper, and tells you that his father used to say the shrine does not protect the neighbourhood from the thing on the other side; it protects the thing on the other side from the neighbourhood's forgetting, keeps it small and named and bounded, because a forgotten thing grows and a watched thing waits. You have either restored the watching or volunteered to be the watcher. The Healer, somewhere across the thinning city, has either lost one quiet draught or gained, without yet knowing it, one observer at the seam — and either way he is one stone further along a wall he means to bring down by Obon's end.",
+            "You go down the steps as the drums start somewhere toward the river, the slow Obon rhythm that calls the dead home for their three nights and sends them off again, and the sound finds the loose thing in you that has been pulled tight all day. A shrine that stopped answering has been made to answer again, or made to answer only to you, or let alone to teach you the shape of the larger silence — and any of those is a hand laid on the same wall your brother's keeper Gin once helped tend, and that Gin, worn thin and wearing a healer's calm, is now helping to thin. The lane burns gold behind you. Down at the embankment, the first paper boats go onto the black water, holding their small lights out for the dead, and the dead this week are very close, and getting closer, by exactly as many stones as the Healer can talk a grieving keeper into loosening."
+          ],
+          "choices": [
+            {
+              "x": "Take the foreign ledger-page to Tanizaki — the Healer's handwriting is evidence, and the old fixer can read a hand across a city.",
+              "hint": "Carrying the page to Tanizaki turns one shrine's wound into a thread you can pull on the spine itself — proof, in Yushiro's own script, of how the thinning is being worked. But it also means the shrine's quiet trouble becomes part of the loud thing you are chasing, and a healer who learns his handwriting is being collected starts writing in other hands."
+            },
+            {
+              "x": "Tell no one; fold the shrine into the small private map of loosened stones you are building, and keep watching for the next one.",
+              "hint": "Keeping it private keeps it yours and keeps the Healer unalarmed, and lets you build, stone by stone, the actual shape of the wall he means to drop — the most valuable thing you could carry into the Vacant Seat. But a map you tell no one about is a weight you carry alone toward a two-demon trap, and the last keeper who tried to hold the whole wall in his own two failing hands is sweeping clean stones at a basin that only just started reflecting again."
+            }
+          ]
+        }
+      ]
     }
   ],
   "romances": [
