@@ -2014,13 +2014,41 @@
     },
     {
       "who": "Aoi",
-      "status": "queued",
+      "status": "authored",
       "ceiling": "fade to black",
       "stages": [
-        "Notice",
-        "Trust",
-        "Turn",
-        "Fade"
+        {
+          "stage": "Notice",
+          "caption": "the admiration that is also a way of not seeing you",
+          "scenes": [
+            "Nakamura Aoi finds you before you have decided whether to be found. She is a second-year at the Directorate and she carries it like a uniform she is proud of and slightly afraid of creasing, and when she says your brother's name — <em>Gin-san spoke about you, you know</em> — she says it the way people lay flowers, carefully, with both hands. You understand in the first thirty seconds that she has built a Rei already, out of a colleague's offhand affection and two years of wanting the work to mean something, and that the man she has built is taller than you and surer than you and has none of the four sleepless nights currently stacked behind your eyes. It is August in Tokyo and the heat sits on the river like a held breath, and she looks at you across it as though you are the answer to a question she has been too junior to ask aloud.",
+            "She noticed the absence before anyone authorised her to. That is the thing you file, the thing that makes you keep talking when the sensible move is to thank her and go: she told you, unprompted, that Gin's disappearance is <em>the wrong shape</em> — not the shape of a man who walked off a caseload, but the shape of a man who was walked. She does not yet know what she has said. She thinks she is offering you comfort, a junior's loyal certainty that her senior would never simply leave. You hear, under the comfort, a person whose instincts are better than her clearance, and you feel the old reflex rise — the one that wants to use what is useful — and you are ashamed of it, and you smile at her anyway, and the smile is the first untrue thing between you."
+          ]
+        },
+        {
+          "stage": "Trust",
+          "caption": "she is brave for you before she is wise for herself",
+          "scenes": [
+            "Trust arrives, with Aoi, as a risk she takes without telling you the price. She pulls the intake log on Gin's last closed case — the one shut too fast, the address in no file — and she does it from a terminal that keeps her name, because she has decided you deserve to see it and she has not done the arithmetic on what it costs a second-year to be found doing that. When she slides the printout across the table in the noodle place near the Directorate annex, her hand is steady and her voice is not, and you realise she has crossed a line for you that she would never cross for herself, and that this is not strength, exactly — it is something younger and more breakable that has chosen to stand where strength would stand. Shimizu Ren would have her badge for it. She knows. She did it anyway.",
+            "So you do the thing you are not used to doing, which is to slow down. You put your hand flat on the printout before you read it and you tell her, plainly, what it could do to her, and you watch her register that you saw the cost when she had hidden it well enough that no one was supposed to. <em>You're the first person who's checked,</em> she says, and looks down, because the hero she built would simply have taken the gift. The tired man across the table did not. That is the moment the shape she carries of you cracks, gently, and the person underneath — smaller, more frightened, more real — turns out to be someone she likes better. You did not want to be loved as Gin's competent shadow. You did not, until now, let yourself notice how much you did not want it."
+          ]
+        },
+        {
+          "stage": "Turn",
+          "caption": "the turn — gated on standing in front of the fall that was meant for her",
+          "scenes": [
+            "The turn is not a confession; it is the morning the audit lands. Internal Compliance flags the intake pull, and there is exactly one name on the access record, and it is hers, and a second-year does not survive a flag like that — it ends careers quieter and faster than any demon does. You are in the corridor when Shimizu Ren calls her in, and you have a clean way out: it was her query, her clearance, her mistake, and your road through the Directorate stays open if you let the record stand. Instead you walk in first. You tell Shimizu you asked Aoi to run it, that you leaned on a junior's loyalty because you were desperate about your brother, that the lapse is yours to wear. It is mostly true and entirely a choice, and it shuts a door you needed open, and you shut it on purpose, in front of her, so that she will know the difference between being used and being protected.",
+            "Afterward she finds you on the annex stairwell where the air-conditioning leaks cold onto the concrete, furious in the particular way of someone who has just been kept safe against her will. <em>I can carry my own mistakes,</em> she says, and you say <em>I know,</em> and you mean it, and that is the whole turn — that you did not save her because she was weak but because you had finally decided her heart was worth more than your road, and you wanted her to outlast this summer whether or not she ever forgave you for it. She is quiet a long time. The river is somewhere below, carrying the first of the Obon lanterns out toward the bay. When she takes your hand it is not gratitude. It is a person choosing, with her eyes open, the man who shut the door — not the one she invented in the spring."
+          ]
+        },
+        {
+          "stage": "Fade",
+          "caption": "the fade — warm, unhurried, the lanterns going out toward the water",
+          "scenes": [
+            "It is the last night of Obon and the families along the Sumida are setting their dead loose on the current, small lit boats of folded paper that gutter and right themselves and drift, and Aoi stands beside you at the rail with her shoulder against your arm and does not say anything clever, because she has finally stopped needing to be impressive in front of you. You think about Gin out there in the wrong shape, somewhere north, somewhere wet, and you find that for one hour you can hold that grief in one hand and this — her warmth, her breathing, the ridiculous earnest steadiness of her — in the other, and neither cancels the other out. She catches you watching the lanterns and not the water. <em>Come on,</em> she says, gently, and it is the first time anyone has invited you somewhere as though you were allowed to be wanted rather than needed.",
+            "Her flat is small and over a shuttered stationer's and smells of the green tea she drinks too much of, and she apologises for the mess that is not a mess, and you understand that the apology is fear wearing manners. So you are careful — careful the way she was brave, which is to say more than is asked. You let the evening be slow. You let her be the one who decides, and she decides, and the city hums its summer hum through the thin glass while the last lanterns reach the dark of the bay and go out one by one. What happens after the light goes off belongs to the two of you and to no file anywhere; in the morning there is the smell of tea again and her hand finding yours before her eyes are even open, and the day with the brother still in it is waiting, and for once you are not facing it alone."
+          ]
+        }
       ]
     }
   ]
