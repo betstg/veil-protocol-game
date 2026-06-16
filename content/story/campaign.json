@@ -1785,8 +1785,98 @@
     {
       "title": "The Broker's Vacant Mediums",
       "giver": "Suzuran-dō",
-      "status": "queued",
-      "hook": "Already-trained animal-mediums, waiting for hands steady enough — and one that will not be re-homed."
+      "status": "authored",
+      "hook": "Already-trained animal-mediums, waiting for hands steady enough — and one that will not be re-homed.",
+      "beats": [
+        {
+          "scene": "Suzuran-dō, a shopfront the width of two arms in a Kita backstreet, the fourth evening of Obon, the cages quiet in a way that is not sleep",
+          "prose": [
+            "The shop has no light of its own; it borrows what the festival lanterns let down the alley, so that the cages along the back wall surface and submerge as people pass the mouth of the street outside. Komori-san does not turn on a lamp for you. She is the kind of old woman who has decided light is a thing you spend, and she has spent a lifetime of it on animals that other people could not keep and could not bear to drown, and she watches you cross her threshold with the flat patience of someone who has already guessed why you came and is only waiting to see how badly you'll ask. The place smells of straw and warm fur and, under it, the particular mineral cold that clings to anything that has carried a passenger — that smell you have learned to read off your own brother's empty room.",
+            "She keeps animal-mediums here, she says, the way another shop keeps umbrellas: trained, waiting, sized to the hand. A myna that can hold a single sentence of the dead and give it back clean. A pair of carp that go still over thinned water the way a compass goes still over true north. A cat with a stripe of white at the throat that will sit on the chest of the recently-grieving and take the worst of the weight off them for an hour, which is a mercy and a theft in the same motion. They are good instruments, she tells you, broken in gently, and any one of them would steady a sensitive who works alone — and she lets the word <em>alone</em> sit in the air between you long enough that you understand she has already read your solitude off you like a price tag.",
+            "Both registers move at the cages, low and unhappy, the way they move near anything that has been hollowed to make room — because that is what a trained medium is, an animal taught to leave a little of itself vacant so something else can sit there, and your sight cannot help reading the small repeated emptiness in each of them as a kind of wound that has been kept open on purpose. Komori watches you not-flinch and almost approves. <em>You feel it,</em> she says. <em>Most don't. The ones who feel it are the ones I'll sell to.</em> And then, before you can answer, her eyes go to the one cage she has not offered you, low in the corner, where something old and brown lies with its nose to the bars and has not once looked away from the door you came in through."
+          ],
+          "choices": [
+            {
+              "x": "\"Show me the steady ones. I work alone — I could use an instrument I can trust.\"",
+              "hint": "Komori will sell you a good medium, and it will help, and you will spend the rest of the case feeling the small kept-open wound of it against your own register every time you reach. An instrument that works because someone hollowed it gentle — and you would be the someone now."
+            },
+            {
+              "x": "\"The one in the corner. The one you didn't offer me. What is it waiting for?\"",
+              "hint": "She didn't offer it because it can't be sold, and asking means asking about a grief she keeps in a cage by the door — and once you know what it's waiting for, the not-helping becomes a thing you chose."
+            },
+            {
+              "x": "Read the cages first — let your sight tell you what each animal is carrying before money is mentioned.",
+              "hint": "Reading hollowed things this close, this many at once, opens both registers wider than a backstreet can hold, and the festival has already thinned the air outside. You'll know exactly what you're buying — and everything in the room will know it's being read."
+            }
+          ]
+        },
+        {
+          "scene": "The corner cage, the brown dog lifting its head only enough to be sure you are not the one it is waiting for",
+          "prose": [
+            "Her name is Tsuyu, Komori says, which means the dew, the kind that is gone by the time anyone wakes to see it, and she is older than she looks and was never meant to be a stock animal at all. She belonged to a man named Asano, an unregistered sensitive who worked the Kita line and trained her himself, slow and kind, to hold one thread at a time and give it back unbroken — a courier's dog for messages the dead leave half-spoken. Eleven nights ago Asano walked north and did not come back, and a neighbour brought Tsuyu here because the shop is where the district's hollow animals come to die quietly, and she has not eaten properly since and will not be re-homed, because she is not finished with the job he gave her: she is still holding his thread, the last one, waiting to give it to the only hands she was trained to give it to.",
+            "You crouch to the bars and she does not warm to you, which is correct — she is a professional, and you are not her handler — but she lets you close enough to feel it, and it is unmistakable. There is a passenger in her still, faint, frayed at the edge the way a thread frays when the other end has been pulled too far away too fast, and it is unmistakably a man, and unmistakably going. Komori has tried to ease it out of her the way she eases the others, so the cage might be useful again, and Tsuyu has refused every time, clamping down on the fading thing inside her like a dog refusing to drop a stick, because dropping it is the one thing Asano never taught her and the one thing she will not do without him. <em>She'll die holding it,</em> Komori says, without cruelty, only accounting. <em>That's not loyalty. That's a job that never got a stop word.</em>",
+            "And here is the shape of it, cold and exact: the thread Tsuyu is holding is Asano, or the last of him she could keep, and Asano went north in Obon, alone and unregistered and uncounted — the exact profile of the tidying you have been reading the edges of for days, the half-touched and the unguarded swept gentle up the Kita line toward the thinning wall by a familiar warmth that makes the leaving feel like being led home. You did not come here for the spine of your own case. You came for an instrument. But the corner cage has handed you a witness instead — a witness with no words, no file, no admissibility, who watched a man be invited north and has been holding the proof against her ribs ever since, waiting for hands steady enough to take it without breaking it."
+          ],
+          "choices": [
+            {
+              "x": "Open your registers and take the thread from her — read Asano's last walk the way she's been holding it.",
+              "hint": "She was trained to give it to her handler, not to you; taking it means convincing a grieving animal you are close enough to count, and reading a man's frayed last hour will pull it through you the way the river pulled Kase. You'd get the clearest map yet of how the tidying is done — paid for in a register held open over a dying dog."
+            },
+            {
+              "x": "Don't take it. Sit with her until she chooses — let the dog decide whether you're the steady hands.",
+              "hint": "Patience is the honest way and the slow way, and the thread is fraying while you wait; she may finish dying before she trusts you, and then the proof and the dog go out together. The kindest road may cost you the witness entirely."
+            },
+            {
+              "x": "Ask Komori to ease it out the way she eases the others, cleanly, and let Tsuyu rest.",
+              "hint": "It would end her suffering and free the cage — and it would scrape the last of Asano off the one surface he survived on, close the only window onto his walk north, and teach you that mercy and erasure can be the same gesture done at the right angle."
+            }
+          ]
+        },
+        {
+          "scene": "The thread, given or taken or refused — and the cold clear sense of where it leads",
+          "prose": [
+            "If you reached for it, Tsuyu does not fight you the way she fought Komori; she has been waiting eleven nights for hands that feel like the work, and yours, opened wide and unafraid of the hollow in her, feel close enough. The thread comes across into you whole and frayed, and for the length of one held breath you are Asano on his last walk — not his memories, his <em>going</em>, the particular footstep-by-footstep ease of a man who never noticed he'd decided to leave, drawn north past the embankment by a warmth he took for a friend's, the lanterns kind, the streets obliging, the whole night arranged so that walking away from his own life felt exactly like walking home. You feel where the obliging stopped. You feel the half-second of late air. You feel him think, once, of the dog — and then the thread ends, not cut, just arrived somewhere you cannot follow on foot, and you come back to the cage with the map of the tidying drawn in a dead man's gait and a dog going slack with eleven nights of finished waiting under your hands.",
+            "If you sat and waited, the choice was hers, and dogs are not generous with strangers — but Tsuyu is a professional, and somewhere in the long quiet she weighs you against the only handler she ever had and decides you are not him but you are the work, and she gives it the only way she has left, by laying her head against your sternum and simply letting go, the thread passing the way warmth passes between two bodies in the cold. You get less of it this way, no walk, no map, only the shape of the leaving — gentle, invited, northward — but you get it clean, unforced, a witness's testimony freely given, and you get the weight of having been chosen by something that had every reason to die distrustful and didn't.",
+            "If you asked Komori to ease her, the old woman does it with hands that have done it a hundred times, and it is quiet and it is kind and it is the wrong kind, and you watch the last of Asano go out of the dog like breath off a mirror — not delivered, not witnessed, just <em>tidied</em>, the same verb the thing up north uses, done now by your own request in a borrowed back room. The cage will be useful again. Tsuyu sleeps and does not wake afraid. And you understand, standing in the borrowed dark, that you have just learned the precise feeling of choosing the clean erasure over the costly witness, and that the feeling is exactly as comfortable as Komori warned you the easy mediums would be, and that you will recognise it now every time the fast road offers it to you again."
+          ],
+          "choices": [
+            {
+              "x": "Follow the map north as far as a living person can — verify where Asano's walk ended.",
+              "hint": "The thread points at the thinning wall, the same edge your brother is being walked toward; following it means lighting yourself up on the Kita line again, brighter and closer, exactly where the Healer would most like a searching sensitive to be."
+            },
+            {
+              "x": "Take what you have to Tanizaki and the others — make Asano count as evidence, uncounted as he was.",
+              "hint": "A dog's thread is admissible nowhere, but it corroborates the tidying, and pooling it with Kase and the broker's census builds the one case no single faction can dismiss — at the cost of telling people you trust exactly how bright you let yourself burn to get it."
+            },
+            {
+              "x": "Keep it to yourself for now — carry the dog, or her absence, and say nothing.",
+              "hint": "Holding the only witness alone keeps it from being spent by a faction's agenda, and it also means the weight of Asano's leaving sits entirely in you, one more uncounted soul you took responsibility for that no one asked you to save."
+            }
+          ]
+        },
+        {
+          "scene": "Suzuran-dō, the leaving — Komori counting what the night actually cost",
+          "prose": [
+            "Komori does not thank you, because thanks are a thing you spend and she has spent enough on you already, but she walks you to the mouth of the shop, which she does not do for everyone, and she looks at you in the borrowed lantern-light the way she looked at the cages, reading the small new emptiness in you that was not there an hour ago. <em>You took it like a handler,</em> she says, if you reached; or <em>she gave it to you, which she's never done,</em> if you waited; or <em>you chose the kind way, and you'll choose it again,</em> if you asked her to ease it — and in each version it is not quite praise and not quite warning, only the flat accounting of a woman who has watched a great many people learn what they are by what they were willing to do to a dog in a corner cage.",
+            "She will not sell you one of the steady ones now. You have shown her the only thing she sells to, she says, which is the difference between someone who feels the kept-open wound and someone who would keep it open for their own convenience, and she has decided which you are, and the deciding is the whole transaction — the mediums were never really for sale, the way the best things in Kita are never really for sale, only offered to see what you'll do. If you ever come back, she tells you, come back for an animal you mean to be the handler of, not an instrument you mean to use, and shut the door on your way out, because the festival is leaning wrong tonight and she would rather the cold stayed in the street where it belongs.",
+            "Out in the alley the lanterns are doing their patient work of making a thinned city look like somewhere it is safe to gather, and you carry the night's weight north or homeward or nowhere, depending. Whatever you did with Tsuyu, you came for an instrument and left with a witness, or with the knowledge of having silenced one, and both registers have gone quiet in the particular way they go quiet after they have been made to understand something the easy road would have let you skip. Eleven nights ago a man walked north and felt like he was going home. A dog held the proof against her ribs until hands steady enough came. The only question Obon leaves you, turning out of the backstreet, is whether you will let what she held make the case — or let it be one more gentle, uncounted erasure in a season that is full of them."
+          ],
+          "choices": [
+            {
+              "x": "North — let the thread point you back toward the spine, toward Gin.",
+              "hint": "It feeds the main search, and it feeds it with you brighter and surer of the route than ever, which is precisely the condition under which the Healer's whole plan works best."
+            },
+            {
+              "x": "Home, for now — set the weight down before it sets the terms.",
+              "hint": "Resting is the sane choice and the slow one; the thinning does not rest, and the part of you that took a dying dog's last thread will be awake at two in the morning whether you are or not."
+            },
+            {
+              "x": "Back to the others — make Asano count, and let them see what counting him cost you.",
+              "hint": "The case grows; so does the number of people who now know exactly how far you'll open yourself to find your brother, and knowing it, will worry about it, and may try to stop you."
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "The Shrine That Stopped Answering",
