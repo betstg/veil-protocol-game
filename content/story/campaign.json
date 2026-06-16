@@ -1974,13 +1974,42 @@
   "romances": [
     {
       "who": "Itsuki",
-      "status": "authored-stub",
+      "status": "authored",
       "ceiling": "fade to black",
       "stages": [
-        "Notice: the flirtation that is also a way of never being asked a serious question",
-        "Trust: the real intimacy is that he uses his sight on Gin",
-        "Turn: after the basin, the night allowed to be ordinary for an hour",
-        "Fade: warmth, unhurried, the rest the night keeps to itself"
+        {
+          "stage": "Notice",
+          "caption": "the flirtation that is also a way of never being asked a serious question",
+          "scenes": [
+            "He flirts the way other people change the subject. In the back booth of the place near Ōji that stays open for the men who clean trains, he reaches across and takes the cigarette you are not smoking out of your fingers and puts it behind your ear like a man framing a portrait, and says something light enough to laugh at, and you laugh, and only afterward — walking home under the power lines that hum the way they have hummed all summer over Tokyo — do you understand that he has steered you, gently, expertly, past the one question you came here carrying. It is the oldest move he has. For fifteen years Itsuki has used charm the way the Kuroda use lacquer, a bright skin over the part of the wood that would crack if you touched it directly, and you have always let him, because the alternative was watching him answer honestly and you have never once wanted to be the thing that made him do that.",
+            "What you notice — what you have always noticed and filed under <em>later</em>, where you keep the things you cannot afford in a week with a brother in it — is that the lightness costs him. You catch it in the half-second after a joke lands, when his eyes go to the middle distance and something in him counts the door he has just kept shut. He paints overpasses he will not sell and he flirts so that no one will ask why, and you are the only person alive who sees both halves of that arithmetic and says nothing, and the not-saying is its own intimacy, warmer than anything either of you would dare put a name to at this hour, in this booth, with the city humming and your brother gone a Wednesday already."
+          ]
+        },
+        {
+          "stage": "Trust",
+          "caption": "the real intimacy is that he uses his sight on Gin",
+          "scenes": [
+            "Trust between you was never built out of confessions. It is built out of the cut palm. When Itsuki lays the wet red line along the figure on the bridge and throws his sight through the canvas onto your brother — north, toward water — he is not doing you a favour the way a man does a favour; he is opening the door he has kept shut his whole life and letting you stand in the draught of it. You watch the colour go out of a painting he can never repaint, and you understand that this is the truest thing he has ever said to you: not <em>I love you</em>, which would be a sentence, but <em>here is the part of me the family called lesser, and I am spending it on the person you most need to see.</em> No one has ever trusted you with the thing that wounds them. He hands it over without ceremony, the way he hands you his coat.",
+            "And the trust runs the other direction too, which frightens you more. Because he sees Gin and the seated thing layered in the one body, the tide coming in and going out, and he does not look away and he does not soften the reading to spare you — he tells you the seam is closing on a schedule you do not control, in the flat true voice he uses for the overpass paintings, and he trusts you to be able to hear it. You sit on the studio floor in the linseed cold while the colour bleeds out of a bridge he loved, and you realise the intimacy was never going to arrive as a touch. It already arrived, weeks ago, in the willingness of this one man to ruin a beautiful thing rather than let you be alone with what was happening to your family."
+          ]
+        },
+        {
+          "stage": "Turn",
+          "caption": "after the basin, the night allowed to be ordinary for an hour",
+          "gate": "you go back to the Nezu compound alone and pay down the name Itsuki was forced to spend — settling his debt to the house with your own measure, unasked, so the thing under the number is no longer owed by him",
+          "scenes": [
+            "The turn is not a confession either. It is what you do while he is asleep on the studio floor. You go back to the Nezu compound alone, before the cleaners, and you put your own measure on the Kuroda ledger in place of the name he spent for you — you settle the debt that was his, the thing under the number, with the only currency a house that old will take, which is yourself. You do not tell him you are going. You let him think you are getting water. It is the first thing in fifteen years you have done for him that he did not steer you away from, because for once you did not give him the chance, and when you come back the dawn is the colour of the inside of a shell and he is awake, sitting up against the wall with the blank canvas turned to face the room, and he knows. Of course he knows. He keeps accounts the way his family does; he felt the number move off his side of it.",
+            "He does not thank you, because thanking you would make it a transaction and you have just spent yourself precisely so that it would not be one. Instead he takes you to the row of basins behind the little shrine that has gone quiet this Obon, and he washes the ink and the night off your hands at the third basin the way you wash something you intend to keep, and for one hour the two of you let the morning be ordinary — no seam, no tide, no brother in the north, just water that is only water and a man drying your fingers one at a time on the hem of his paint-stiff shirt. <em>You shouldn't have,</em> he says finally, and it is not a scold, it is the closest he has ever come to the sentence neither of you says. You tell him you know. Neither of you moves to leave. The hour holds, the way a held breath holds, right up until it doesn't."
+          ]
+        },
+        {
+          "stage": "Fade",
+          "caption": "warmth, unhurried, the rest the night keeps to itself",
+          "scenes": [
+            "You go back to the studio because it is the nearest door and because neither of you can yet stand to be the one who says the day has started. The light comes in low and grey-gold across the canvases leaned three deep against the walls, across the overpass painted and scraped and painted again, and he turns the lamp off rather than on, which tells you everything about which kind of hour this is going to be. He does not perform it and he does not rush it. He has spent his whole life being careful with you; he is careful now, his hand at the side of your face the way it goes to a brushstroke he has finally decided he is allowed to make, and you let yourself, for once, be the beautiful thing he does not scrape back.",
+            "What happens after that the night keeps to itself. There is the warmth of him and the linseed cold of the room going slowly warmer, and the city humming on outside the way it has hummed all summer, indifferent and almost kind, and the blank canvas turned to the wall where neither of you can see it. In the morning the colour has not come back to the bridge and it does not matter; some things you spend and do not get back, and lying here unhurried in the grey-gold with his breath gone even against your shoulder, you find you cannot make yourself regret a single thing you have paid out tonight. The north is still there. Gin is still there, faint and frightened and worth all of it. But for this one held hour you are simply a man who is loved, resting, before the road that points toward water asks the rest of you."
+          ]
+        }
       ]
     },
     {

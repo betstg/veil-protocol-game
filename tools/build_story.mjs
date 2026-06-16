@@ -180,11 +180,19 @@ function sideHtml() {
       <p style="margin:0">${esc(s.hook || "")}</p>
       ${(s.beats || []).map(beatHtml).join("")}</div>`).join("");
 }
+function romanceStageHtml(st) {
+  if (typeof st === "string") return `<li>${esc(st)}</li>`;
+  let s = `<li><b>${esc(st.stage || "")}</b>`;
+  if (st.caption) s += ` — <span class="rom-cap">${esc(st.caption)}</span>`;
+  if (st.gate) s += `<div class="choice-hint" style="margin:5px 0">Gated on: ${esc(st.gate)}</div>`;
+  for (const p of st.scenes || []) s += `<p style="margin:7px 0">${p}</p>`;
+  return s + `</li>`;
+}
 function romanceHtml() {
   return (campaign.romances || []).map((r) =>
     `<div class="decision"><div class="decision-h">${esc(r.who)} ${badge(r.status)}</div>
       <div class="choice-hint" style="margin-bottom:6px">Ceiling: ${esc(r.ceiling || "fade to black")} · never minors</div>
-      <ol class="stages">${(r.stages || []).map((st) => `<li>${esc(st)}</li>`).join("")}</ol></div>`).join("");
+      <ol class="stages">${(r.stages || []).map(romanceStageHtml).join("")}</ol></div>`).join("");
 }
 
 /* ---- assemble ---- */
