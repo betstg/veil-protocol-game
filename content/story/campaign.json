@@ -118,8 +118,75 @@
         },
         {
           "title": "Interlude — The Door That Locks Itself",
-          "status": "queued",
-          "summary": "Iwata the handyman, unsuperstitious, on the cold spot and the key that no longer fits — the flat itself testifying that something has changed tenancy."
+          "status": "authored",
+          "beats": [
+            {
+              "scene": "The handyman, on the cold spot by the genkan",
+              "prose": [
+                "Iwata has fixed forty-one doors in this building over nineteen years and he tells you so before he tells you anything else, because he wants it understood, up front, that he is not a man who believes in things. He kneels in the genkan of Gin's flat with his toolbox open and his reading glasses pushed down his nose, and he is talking the whole time the way men talk when the talking is a wall they are putting up against the quiet. The August heat is sitting on the whole city like a wet hand — you can feel it through the open window, the cicadas grinding it out — but here, in the meter of floor between the door and the step up into the room, the air is wrong. Not cold like a draught. Cold like a held breath. Cold the way the inside of a well is cold in summer, a coldness that has been kept rather than made.",
+                "<em>It started after Obon began,</em> he says, not looking at you, working a screwdriver he doesn't need into a screw that doesn't need it. <em>The tenant downstairs said the ceiling sweated. I came up to check the seal on the window. There's no leak. There's nothing. But you stand here</em> — he taps the threshold with the screwdriver, twice, on the exact line where the cold begins — <em>and you'll feel the building think you're a stranger.</em> He laughs at his own phrase and the laugh comes out thin. You are standing in your brother's home, in the gap his coat used to hang in, and the cold is reading you, finding you in the dark and deciding what you are, and you understand with a flatness that is worse than fear that Iwata has described it exactly.",
+                "You ask him, carefully, when he last saw Gin. He thinks about it longer than the question should need. <em>That's the thing,</em> he says. <em>I saw him on the Sunday. Said good morning on the stairs. Polite man, your brother, always was.</em> He sets the screwdriver down. <em>But the missus in 3C, she swears she saw him Tuesday, by the door, fitting his key. And I checked the log. He hasn't badged the front entrance since the Saturday before. So one of us is wrong about a man we both know on sight.</em> He says it like a small accounting error. He does not yet hear what he has said: that the building has been admitting someone who looks like Gin, on a day Gin was not here, through a door that has begun to keep its own counsel."
+              ],
+              "choices": [
+                {
+                  "x": "Ask Iwata to stand on the cold line and describe exactly what he feels.",
+                  "hint": "He'll do it because you asked, and he'll go pale, and you'll have made an unsuperstitious man feel the seam in his own home. Some kindnesses you can't take back."
+                },
+                {
+                  "x": "Press him on the Tuesday sighting — get the neighbour's exact words.",
+                  "hint": "The figure at the door wore Gin's face and fitted Gin's key. Confirming it makes the thing wearing your brother specific, locatable, real — and means it has been practising."
+                },
+                {
+                  "x": "Say nothing; let him fill the silence.",
+                  "hint": "Men building a wall against the quiet will hand you the brick that frightens them most, if you don't interrupt. But you'll have used his fear as a tool, and you'll know it."
+                }
+              ]
+            },
+            {
+              "scene": "The key that no longer fits",
+              "prose": [
+                "He shows you the lock because the lock is the reason he was called, and a lock is something he can hold. Gin's key — your brother's key, the one from the envelope the Directorate released to you with the rest of his unremarkable effects — slides halfway into the cylinder and stops. Iwata takes it from you and tries it himself, gently, then less gently, his craftsman's patience curdling into the small affront a tradesman feels when a thing he understands refuses to behave. <em>This is his key,</em> he says. <em>I cut the spare myself, three years ago. It fit yesterday. I oiled it yesterday.</em> He withdraws it, examines the teeth against the light, finds nothing wrong with the teeth. The fault is not in the key. The fault is in the lock, which has, sometime between yesterday and now, quietly become a lock for a different door.",
+                "Then he shows you the other thing, the thing he didn't want to call about and called about anyway. He pulls the door shut from the inside and lets go. And the deadbolt turns. By itself — no hand on it, no draught strong enough, the mechanism rotating its full quarter-turn with the heavy, satisfied <em>chunk</em> of a bolt seating home. The flat has locked you both in. Iwata stares at the brass knob as though it has spoken to him in a language he half-remembers from childhood, and for a long moment neither of you reaches for it, because reaching for it means admitting that something in the room wanted the door shut and got its wish. <em>It does that now,</em> he says, very quietly, the wall finally down. <em>Three times since Monday. It locks itself. Like it's keeping something in. Or,</em> — and he can't stop the next part, it comes out of him sideways — <em>like it forgot which side the inside is on.</em>",
+                "You turn the bolt back. It comes easily, oiled, ordinary, a thing a man built and a man can undo. But you have felt it now, the small autonomy in the room, the sense that the flat is no longer a container for your brother's absence but a participant in it — that the cold by the genkan and the changed lock and the bolt that seats itself are not three faults but one fact, stated three ways, by a space that has learned to testify. Gin taught you, years ago, in the only register of his you ever fully trusted, that a place holds the shape of who lives there the way a glove holds a hand. This place is holding a shape. It is just no longer your brother's."
+              ],
+              "choices": [
+                {
+                  "x": "Take the lock apart yourself, look for what changed.",
+                  "hint": "You won't find a mechanism. You'll find that the cylinder's pins have reseated to a pattern that matches no key you own — the lock retuned to admit a tenancy that isn't his. Knowing the shape of the new key tells you who the door now answers to."
+                },
+                {
+                  "x": "Let the door lock itself again and watch it happen.",
+                  "hint": "Watching means standing in the cold line while the bolt turns, offering yourself to whatever decides the door. You'll learn whether it's keeping something in — or measuring you for the inside."
+                },
+                {
+                  "x": "Get Iwata out and seal the flat. Don't let it practise on him.",
+                  "hint": "Protecting him is right. It also means you stop having a witness, and you walk away from the one room in Tokyo that is willing to tell you the truth, because the truth is costing an innocent man his sleep."
+                }
+              ]
+            },
+            {
+              "scene": "What changes tenancy, and what stays to attest it",
+              "prose": [
+                "Iwata packs his toolbox the way a man folds a flag, slowly, with a ceremony he'd deny. At the door — which he now opens with his own master key, because Gin's no longer works and he will not say so out loud again — he stops and gives you the thing he has been circling for an hour. <em>My grandmother,</em> he says, <em>kept the house in Niigata. She used to say a house knows when the owner's debt comes due. Said the cold spot was the house making room.</em> He shakes his head at himself, at the disgrace of repeating it, a man who fixes things repeating a thing that cannot be fixed. <em>Making room for what, I asked her. She never said. I think she didn't like the answer either.</em> Then he is gone down the stairs, leaving you in the doorway of your brother's flat at the high heat of Obon, when the line between the living shore and the other is thinnest, and the dead come back across the water, and the lock has been recut for whatever is crossing.",
+                "You stand on the warm side of the cold line for a while. You think about the entries in the Archive that stopped being entries after the 14th. You think about the case Gin closed too fast, the drowning, the address in no file. You think about a debt that was never his to pay and the brother who would pay it anyway, in the one currency he had left, which was his own residency in his own life — and you understand, standing here, that this is what it looks like from the outside: not a vanishing, not a violence, nothing the Directorate has a form for. A change of tenancy. The slow administrative handover of a man to whatever he agreed to let in, witnessed only by a handyman who doesn't believe in things and a brother who is learning, room by room, to read the handwriting before he can bear to name it.",
+                "You take the key — Gin's useless key, the one that fits nothing now — and you put it in your pocket anyway, because it is the shape of a door he could once open, and because you are not ready to be a man who throws away the last key to his brother. Behind you, as you pull the door to from the warm side, the deadbolt turns. You do not reach for it. You let the flat keep what it is keeping, and you go down the stairs into the heat, and the cicadas take you back, and you carry the cold out into August in the small of your back, where it will sit for days, reading you, deciding what you are."
+              ],
+              "choices": [
+                {
+                  "x": "Pursue the grandmother's phrase: a house making room. Find what that costs the one who lives there.",
+                  "hint": "It's not folklore. It's the membrane logic stated in a kitchen idiom — and following it means accepting that Gin's flat is rehearsing, in miniature, what Yushiro means to do to the whole Kita ward."
+                },
+                {
+                  "x": "Take the dead key to someone who reads locks the way Gin read bodies.",
+                  "hint": "There is a man on the Grid who can cut a key from a refusal. He'll tell you what door yours now opens. He'll also want to know why you'd want to walk through it."
+                },
+                {
+                  "x": "Go back to the Archive. The flat told you what; the nodes will tell you when.",
+                  "hint": "Returning means reading in Gin's demanded order again, and his order is a leash too — the deeper you go in his sequence, the more you think the way the thing wearing him wants you to think."
+                }
+              ]
+            }
+          ]
         },
         {
           "title": "Interlude — The Briefing They Kept Quiet",
