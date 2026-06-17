@@ -4762,9 +4762,43 @@
     },
     {
       "who": "Okada Shizuka",
-      "status": "queued",
+      "status": "authored",
       "ceiling": "fade to black",
-      "stages": []
+      "stages": [
+        {
+          "stage": "Notice",
+          "caption": "the woman who reads your rank and remembers the trend",
+          "scenes": [
+            "Okada Shizuka reads your rank twice a month and writes the number down, and the first thing you notice about her is that she does not look at the number when she does it — she looks at you, briefly, the way someone checks a thermometer they have read a thousand times and trusts less than the patient's face. She is quiet and exact and so easy to overlook that the overlooking is plainly a skill, a thing she has filed down over years until being unseen became a kind of vantage; from her chair in Assessment and Registry she sees everyone the room forgets, which is most of the room, which is, you slowly realise, the whole point of sitting there. She does not flirt and does not perform and does not, in any way you can name, reach for you, and yet there is a steadiness in how she handles your file that feels less like procedure and more like someone keeping a promise she has not mentioned.",
+            "It is the cat that tells you, though she will deny the cat means anything. She mentions it the way other people mention weather — an ordinary cat, she insists, a flat in Ōji, a shrine on Saturdays, a bakery after — and you read straight through the small fixed rituals to the woman who built them on purpose, who keeps one foot in a normal life because it is the only ballast she has. You notice she already knows things about you she should have had to ask, the trend in your registers, the dates that matter, the shape of a case four years closed, and when you notice it she sees you notice and does not flinch, only sets down her pen and lets the silence hold the weight of how long she has been carrying something of yours without being asked to."
+          ]
+        },
+        {
+          "stage": "Trust",
+          "caption": "four years alone with a confidence she never put down",
+          "scenes": [
+            "Trust with Shizuka is the slow erosion of a privacy she has guarded so long she mistakes it for personality. She is not cold; she is conserved, every reaction sized to the minimum the moment requires, and you come to understand that the exactness is not temperament but rationing — a woman who decided, some years ago, that she could afford to feel exactly as much as a situation demanded and not one degree more, because the alternative had once nearly drowned her. The thaw is undramatic and therefore unmistakable: a second cup poured without asking, a Saturday ritual described in enough detail that the describing is an invitation, the number in your file read one month with something that is almost, for her, a held breath. She lets you near the way a careful person tests ice, and you have the sense, each time, of being trusted with more than she has handed anyone in a long while.",
+            "What she finally tells you is the confidence she has carried for four years, the thing Gin asked of her before he was lost to you both: watch for him. She says it plainly, the way she says everything, and only the smallest tremor at the edge of it betrays how heavy four years of solitary watching has been — how she started on your side because your brother asked, and stayed because there was no one to hand the watching to, and grew into the keeping of you so quietly that even she had stopped noticing it had become hers. The trust, when it comes, is not the secret itself but her letting you see the cost of having kept it alone: that the steadiness everyone overlooks was a woman holding a promise in an empty room, year after year, telling no one, asking for nothing, becoming the kind of person who could be overlooked precisely so that the weight she carried would never have to be explained."
+          ]
+        },
+        {
+          "stage": "Turn",
+          "caption": "gated: wanted for herself, not as a duty discharged",
+          "gate": "Rei has to release Shizuka from the promise she made Gin — to say, and mean, and act so that she believes it, that he wants her for herself and not as the keeper of his brother's instruction — choosing her in a way that owes Gin nothing, so that for the first time she is wanted rather than dutiful.",
+          "scenes": [
+            "The turn is gated on the one thing Shizuka has never let herself be: wanted for her own sake rather than as the keeper of a promise. It comes when you understand that everything between you could so easily run on Gin's old instruction — that you could lean on the watching she swore to do, accept the care as a duty she is discharging, and never once have to earn her — and you refuse it. You release her from it, out loud, in a way she cannot mistake for kindness or procedure: you tell her the promise is hers to set down, that you do not want the woman who was told to watch for you, you want the woman who keeps a cat and a shrine and a private steadiness no one ever thanks her for, and you choose that woman in a register that owes your brother nothing. For someone who has only ever been wanted as the holder of someone else's trust, being wanted as the bare fact of herself is more exposing than any confession.",
+            "She does not know how to be the one who is wanted; she has spent four years being the one who keeps, and the keeping was safe precisely because it asked nothing back. So when you set down the promise for her, when you make it unmistakable that there is no duty left to hide inside, she has nowhere to put the wanting except to let it land. That is the moment she stops conserving — the exactness gives way, just once, the rationed woman spending more than the moment strictly requires because the moment is, for the first time, only about her. What follows keeps the quiet that is hers: a neat flat in Ōji, an ordinary cat pretending not to watch, a door closing on a woman who was overlooked on purpose for years and is, tonight, the most seen person in the city. She is wanted, not owed, and she lets herself believe it."
+          ]
+        },
+        {
+          "stage": "Fade",
+          "caption": "the keeper lets herself be kept",
+          "scenes": [
+            "What you have with Shizuka afterward is the gentle reversal of a lifetime's arithmetic: the woman who kept watch lets herself, in small uninsured ways, be watched over. The exactness does not vanish — it is genuinely her, and you would not file it down — but it stops being a wall around the rationing, and underneath it there is someone who can now afford to feel a degree more than the situation requires because the surplus is, at last, safe somewhere. She still reads your rank twice a month and still writes the number down, but the checking has become a different thing, a ritual the two of you share rather than a vigil she keeps alone, and you watch her relearn, week by quiet week, that being known is not the same as being on duty.",
+            "The promise she made Gin is still real and so is whatever Gin has become, and there will be a reckoning in it neither of you can read clean — a day when what she owes your brother and what she has chosen for herself may not point the same way. You both know it. But she has learned, from the one promise you would not let her hide inside, that she can be wanted plainly and survive it, and so she keeps her cat and her shrine and her small fixed rituals and, now, you, folded into the ordinary life she guarded so she would have something to come home to. The fade is that flat at an early hour, the lamp she keeps the job's pretend-hours by, and a careful, conserved, overlooked woman finally letting the keeper be kept."
+          ]
+        }
+      ]
     },
     {
       "who": "Shimizu Ren",
