@@ -570,8 +570,127 @@
     },
     {
      "title": "Chapter Thirteen — Kurosawa Reads the Body",
-     "status": "queued",
-     "summary": "The double-layer signature; what class of thing is wearing Gin, and the word for it Rei did not have."
+     "status": "authored",
+     "summary": "You carry your brother's trace down to the only man who reads the under-image, and learn that what wears Gin is not burning him out but keeping him alive — the double-layer signature, and the wrongness of being cared for.",
+     "beats": [
+      {
+       "scene": "Sub-level four, where the building keeps the bodies it would rather not believe",
+       "prose": [
+        "You go down past the floors that have names, past the floors that have only numbers, to the floor the directory lists as <em>archival storage, climate-controlled</em> and everyone who has been there calls the cold room. Kurosawa is waiting the way a man waits who has spent two years deciding whether he is a coward, which is to say he is already on his feet when the lift opens, already reading your face for how much you have guessed. You have brought the things that still hold Gin: the journal in its evidence sleeve, the coat he left over your chair in May and never came back for, and the cup he drank from the last morning he was your brother, which you have not washed and have told no one you kept. Kurosawa looks at the cup longest. He does not ask why you kept it. He understands keeping.",
+        "The cold room is not cold for the bodies; there are no bodies here, only their residues, the signatures that cling to objects the way smoke clings to wool. Kurosawa explains this while he lays a black cloth on the steel table and weights its corners, his voice low and even and pitched under the hum of the machines that are not, he says, switched to record. <em>A possession leaves a wake,</em> he tells you. <em>On the host, on what the host loves, on the rooms they pass through slowly. I do not read the demon. No one reads the demon. I read the wake — the shape of the water after the thing has already gone under.</em> He sets the cup in the centre of the cloth and holds his bare hands a few centimetres above it, and his breathing changes, and you watch a man go quiet in the particular way your own gift goes quiet, and you understand you are watching someone do, with discipline and a steel table, what you do by drowning.",
+        "You should not be here and you both know it. The reading Kurosawa filed on your brother eleven months ago is the reading that got redacted, the three lines and then the black bar, and the only words that survived it — <em>double-layer, not consistent with the registered subject, recommend esca</em> — are the words that brought you down four floors below the daylight to a man whose career ended the day he was honest in writing. If Internal Affairs walks in now, he loses the pension he has left and you lose the one person in this building who will tell you the truth without first asking what the truth is worth. So you stand very still, and you breathe shallow, and you watch his hands over the cup your brother's mouth has touched, and you wait to be told what you already cannot un-know."
+       ],
+       "choices": [
+        {
+         "x": "Let him read the cup — the most intimate trace, the one closest to the mouth that spoke.",
+         "hint": "The cup carries Gin at his most undefended, asleep behind the morning's first tea. It will give Kurosawa the cleanest signature he could ask for — and it means handing a stranger the last unguarded version of your brother that exists."
+        },
+        {
+         "x": "Give him the journal instead — trace plus the demon's own demanded handwriting.",
+         "hint": "The journal holds both the man and the method, the leftward script and the entries that turn tidy after the 14th. Richer, but it is your only documentary proof, and a reading leaves its own faint mark on what it touches."
+        },
+        {
+         "x": "Offer your own hand. You have been brushed by the thing more than any object has.",
+         "hint": "You carry the freshest wake of all — the seasick residue of being studied. Letting him read you tells you exactly how deep the contact went, and risks him reading the two registers you have spent your life keeping closed."
+        }
+       ]
+      },
+      {
+       "scene": "The under-image: what a possession looks like when it is not a fever",
+       "prose": [
+        "When Kurosawa finally speaks it is not with the relief of a man delivering a diagnosis but with the unease of one who has found something his training does not have a drawer for. <em>Every possession I have ever read runs hot,</em> he says, and his hands are still above the cup, and his eyes are somewhere past the wall. <em>It rides the host like a fever rides a child — fast, clumsy, greedy. It burns the body to keep itself lit and in three weeks, four, the body cannot pay anymore and the thing moves on or the host dies. That is what possession <strong>is</strong>, on this table, in this building's books. A wasting. A theft that ends in an empty room.</em> He lowers his hands at last and looks at you, and you see that he is choosing the next words because the true ones frighten him. <em>This is not that. This is the opposite of that.</em>",
+        "What he read in the cup, he says, is a second register laid down under the first as deliberately as a restorer lays a second coat — not consuming Gin but <em>preserving</em> him, regulating him, keeping his sleep clean and his hands steady and his ledgers current. The signature is cold where a fever is hot, patient where a fever is starving, and it has been resident not for the weeks a host can survive but for the better part of a year, because it has no interest in burning the body down. <em>I have read a great many possessed,</em> Kurosawa says, very quietly, into the hum. <em>I have never read one being taken care of. Whatever is wearing your brother is keeping him in good repair. It does not want him dead. It does not even want him diminished. It wants him <strong>working.</strong></em> And you feel the floor of you tip the few degrees you have learned to recognise, because every reasonable thing your family has told themselves for a year — he's tired, he's coping, he's holding together — is now revealed as the exact description of a thing doing its job well.",
+        "You think of the entries after the fourteenth of August going suddenly neat, the handwriting steadying, the man you grew up beside becoming, on paper, a better-regulated version of himself than grief should allow. You think of the smooth voice at 3:16 that arrived too fast and aimed its warmth too well. You had been afraid you would learn your brother was being destroyed. Instead you are learning he is being <em>maintained</em>, and somehow that is worse, because a thing that destroys can be interrupted and a thing that maintains has all the time in the world. <em>Why,</em> you say, and your voice does not sound like yours. <em>Why keep him working. Working at what.</em> Kurosawa does not answer that. Kurosawa filed the symptom once and watched the symptom get a black bar drawn through it, and he has learned the difference between what he reads and what he is allowed to know."
+       ],
+       "choices": [
+        {
+         "x": "Ask the question that scares him: working at WHAT, and for whom.",
+         "hint": "Push past the reading into the purpose, toward the routing slip and the name behind it. Kurosawa knows where the why was buried — but asking it aloud in this room makes him a witness again, which is the thing that ruined him the first time."
+        },
+        {
+         "x": "Stay on the body. Ask whether a thing this patient can ever be made to let go.",
+         "hint": "Turn the reading toward rescue: if it preserves rather than consumes, is there a seam to pry. It keeps the conversation survivable for Kurosawa — and risks teaching you that a preserving demon has no failure point to exploit."
+        },
+        {
+         "x": "Say nothing. Take the cup back and let the silence tell you he has more.",
+         "hint": "Let the quiet do the asking, and watch what a frightened honest man volunteers when not cornered. Patient — but every second in the cold room is a second your unbadged presence becomes harder to explain."
+        }
+       ]
+      },
+      {
+       "scene": "The mark a reading leaves, and the one Kurosawa cannot scrub off",
+       "prose": [
+        "He wraps the cup again himself, slowly, the way you wrap a thing you are returning to a grave, and as he does he tells you the last clinical fact and the only one that sounds like a confession. A reading leaves a wake of its own, he says — faint, a few days, nothing a demon of this calibre would even register — but the residue he just lifted off your brother's cup has now passed, however slightly, through him, and a man who reads a thing is a man the thing could, in principle, read back. <em>I am not important enough to be noticed,</em> he says, in the flat way of someone who has spent two years making himself unimportant on purpose. <em>That was the strategy. File it once, get erased, become a clerk in a cold room. The mistake people make is thinking the erasing was done to me. I did most of it myself. It was the only safe place to stand.</em> You understand, looking at him, that he has just told you why no one warned your family, and that the why is not malice but the ordinary arithmetic of survival inside a building that drew a black bar through the truth and then promoted the people who held the pen.",
+        "He gives you, before the lift comes, the one operational thread that survived the cover-up — not what Gin is, which he has now read and named for you, but <em>where the recommendation went</em> the day his escalation was denied. A clerk named Tanaka, two seats up the chain and one floor above, whose name is on the routing slip and who knows the single concrete thing the redaction was built to hide: the floor the reading was sent to, and the initial that signed for it. <em>I read the symptom,</em> Kurosawa says, already turning back toward the steel table, already rehearsing the innocence he wears like a coat. <em>Tanaka can tell you where the symptom was filed. After that you are on your own, and so am I, and we did not have this conversation.</em> The machines hum. The cold room keeps its residues. You put the cup back in your bag against your chest, where you have carried it since the morning, and you feel how light a thing can be and still be the heaviest thing you own.",
+        "In the lift going up you hold what he gave you and what he took: a word for the wrongness, finally, a shape to the year. Not a haunting. Not a wasting. A tenancy — patient, tidy, well-meaning in the way that is most frightening of all, a thing that keeps your brother in good repair because a tool in good repair is worth more than a tool used up. Four floors of daylight come back to meet you one button at a time, and the higher you rise the more ordinary the building pretends to be, fluorescent and procedural and full of people filing things, and you understand for the first time that the procedure <em>is</em> the camouflage, that a thing which wants a man kept working has chosen the perfect city and the perfect institution to keep him in. The doors open on a corridor that does not know what is under it. You step out carrying the cold room with you."
+       ],
+       "choices": [
+        {
+         "x": "Go straight to Tanaka while Kurosawa's nerve and yours both hold.",
+         "hint": "Run the thread up one floor before fear or the building closes it. Momentum is the only advantage you have — and walking from the cold room to a routing clerk draws a line on a map Internal Affairs can read as plainly as you can."
+        },
+        {
+         "x": "Protect Kurosawa first — leave no record that you came down here.",
+         "hint": "Buy the honest man his safety by erasing your own trail before pursuing the lead. Decent, and slow; every hour you spend covering tracks is an hour the routing slip can be revised by someone who signed it."
+        },
+        {
+         "x": "Stop and let yourself feel the word before you weaponise it.",
+         "hint": "Sit with what 'kept working' means about the brother you have been mourning wrong all year. Necessary, maybe — and grief in this building is a luxury timed in minutes you may not be able to afford."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Chapter Thirteen, continued — The Word You Did Not Have",
+     "status": "authored",
+     "summary": "Kurosawa gives the thing its class and its folk-name, and you discover that naming it does not shrink it — that the Healer is a kind of demon whose whole nature is to be needed, and that a vacant seat is the reason a tidy tenant keeps a man at his desk.",
+     "beats": [
+      {
+       "scene": "What class of thing keeps a body in good repair",
+       "prose": [
+        "You ask him for the word, because all year you have been describing a shape with the wrong nouns — haunting, breakdown, possession — and none of them fit a thing that files paperwork and texts you goodnight. Kurosawa hesitates the way a man hesitates before handing a child a blade, and then he gives it to you anyway, because you came four floors down and you kept the cup. <em>The textbooks have a taxonomy,</em> he says. <em>Hungers, rages, fears — the ones that take by craving, the ones that take by burning, the ones that take by emptying. Those are the registers most demons answer to. But there is a smaller class the books underweight because it almost never gets caught, and it almost never gets caught because it does not hurt anyone in a way that gets reported. They answer to <strong>Duty.</strong> They do not consume the host. They <strong>employ</strong> him.</em> He watches you take it. <em>The street word for the one that wears the Duty register and presents as help is the Healer. Not because it heals. Because being needed is how it gets through the door.</em>",
+        "He explains it the way you explain a thing you have decided is too dangerous to soften. A Hunger announces itself; you learn to fear it. A Rage breaks furniture; you learn to flee it. But a Duty-register demon arrives as the most welcome figure in any grieving house — the one who is calm when everyone else is drowning, who handles what no one can face, who makes the calls and signs the forms and says <em>let me, you rest.</em> It does not lie about being useful; that is what makes it unanswerable. It is genuinely, measurably useful, and the usefulness is the leash, because a household that has been carried for a year cannot afford to suspect the arms that carried it. <em>You cannot corner it with evidence,</em> Kurosawa says, <em>because every piece of evidence you raise is a service it performed, and every service was real. It does not forge the help. It only chooses, very carefully, who needs helping, and then it makes itself the only thing standing between them and the cold.</em>",
+        "And you feel the year rearrange itself behind your eyes — your mother's relief that <em>someone</em> was managing Gin's affairs, the case that closed too fast and tidily, the favours done for people who could not say no to a kindness, the smooth voice that does not fight your love for your brother but enlists it and asks it to please be reasonable. You had thought you were hunting a monster. You are hunting a <em>volunteer</em>, a thing whose camouflage is virtue, and the worst part of the word Kurosawa just gave you is how much of your own gratitude it explains. <em>The Healer,</em> you say, testing it in your mouth, and it does not shrink the way you hoped a named thing would shrink. It settles. It fits. It has been the right word all along and you simply did not have it, and now that you do you cannot give it back."
+       ],
+       "choices": [
+        {
+         "x": "Ask the question under the question: why THIS host. Why Gin specifically.",
+         "hint": "A Healer chooses who needs it; that choice is not random. Following it leads toward the seat and the plan — and toward the unbearable possibility that something about your brother made him the ideal employee."
+        },
+        {
+         "x": "Ask how you fight a thing whose every weapon is a real kindness.",
+         "hint": "Turn the naming into tactics before the dread sets like concrete. Practical — but Kurosawa has already told you the honest answer is that you mostly cannot, and you may not want to hear him say it twice."
+        },
+        {
+         "x": "Refuse the word's comfort. A name is not a leash; say so out loud.",
+         "hint": "Resist the relief of finally labelling it, because a label can become a place to stop looking. Clear-eyed — and it means denying yourself the one small mercy this whole descent has offered you."
+        }
+       ]
+      },
+      {
+       "scene": "Why a tidy tenant keeps a man at his desk — the shape of the seat",
+       "prose": [
+        "Kurosawa does not know the plan; he was redacted long before there was a plan to know. But he knows the grammar of his own field, and when you press him on <em>why employ a man, why keep him working, work at what,</em> he gives you the only structural answer a body-reader can give, and it is enough to make the cold room colder. A Duty-register demon does not want a host the way a Hunger wants a meal, he says — it is not feeding. It is <em>building</em>. It keeps a host in good repair the way you keep a tool sharp for a job that has not happened yet, and the jobs these things build toward are always the same shape: standing. <em>They want station,</em> he says. <em>Rank. A seat at a table they are not normally let near. A Hunger will never hold an office; it eats the office. A Healer can hold an office for years, because an office is only trust made permanent, and trust is the one thing it manufactures better than anything alive.</em>",
+        "You think the word before you can stop yourself, the word from the journal's margins and the redaction's surviving bar and the name you have not yet let yourself say aloud — a vacant seat, a thirteenth of something, a domain with no holder and a thing patient enough to fill it. You do not say it to Kurosawa, because saying it would make him a witness to the part that gets people disappeared rather than merely demoted, and you have decided in the last ten minutes that you would like him to survive knowing you. But you understand now why a tidy tenant keeps a man productive: not to use him up, but to make him <em>qualified</em>, to walk a borrowed body up a chain of earned trust and grieving permissions until it stands somewhere a demon is never allowed to stand, and the families' reasonable silence is the staircase. Your brother is not being haunted. Your brother is being <em>groomed for a promotion</em>, and the promotion is not his.",
+        "Kurosawa sees something land in your face and chooses not to ask what. <em>Whatever you just thought,</em> he says, <em>do not say it down here, and do not say it to anyone who outranks you, and when you go to Tanaka, ask only where the reading went, not what it meant. The where is a clerical fact. The what is the thing they erase people for.</em> He turns back to his table and his residues and his careful unimportance, and the lift comes, and you carry up four floors a name you did not have this morning and a shape you cannot now stop seeing. The Healer. The Duty register. A seat kept empty and a man kept ready. You step out into the procedural daylight knowing, finally and exactly, what is wearing your brother — and knowing that the knowing, by itself, saves no one, because you cannot arrest a kindness and you cannot mourn a man who keeps texting you goodnight."
+       ],
+       "choices": [
+        {
+         "x": "Take the clerical question only to Tanaka, as Kurosawa begged — where, not what.",
+         "hint": "Walk the safe half of the thread and leave the dangerous half unspoken. It keeps you and Kurosawa alive in the building's eyes — and it means pretending, to a clerk's face, that you do not already know what the redaction was hiding."
+        },
+        {
+         "x": "Carry the word straight to the people on the road who can act on it.",
+         "hint": "Hand the name to Itsuki, or the Grid, or whoever your night has aligned you with, and let it become a plan instead of a dread. Speed and allies — but a word like this changes everyone who holds it, and you cannot choose how."
+        },
+        {
+         "x": "Go to Gin. Test the name against the brother before you build a war on it.",
+         "hint": "Put the word in front of the smooth voice and watch what answers. The only way to be sure — and the surest way to tell the Healer exactly how much you have learned, while standing in reach of the thing that keeps a man in good repair."
+        }
+       ]
+      }
+     ]
     }
    ]
   },
