@@ -4802,9 +4802,43 @@
     },
     {
       "who": "Shimizu Ren",
-      "status": "queued",
+      "status": "authored",
       "ceiling": "fade to black",
-      "stages": []
+      "stages": [
+        {
+          "stage": "Notice",
+          "caption": "the field operative who answers the question before you ask it",
+          "scenes": [
+            "Shimizu Ren never flinches, and you notice this the way you notice an absence of sound in a room you expected to be loud — not as a quality but as a held thing, a discipline carried so long it has gone smooth at the edges. She is CVD field, young for the work and clearly good at it, the kind of good that costs something the cost of which she has decided not to discuss; you watch her walk a containment line in Roppongi the night the air goes wrong over the Vault, and where everyone else's breath catches she simply does the next exact thing, and the next, until the wrongness has nowhere to be. What unsettles you is not the steadiness but the way she keeps answering you. You start a question and she finishes it, gives you the thing you needed before you had finished reaching for it, and only later, walking home through the August heat with Obon lanterns smearing the canal, do you realise she has told you nothing about herself in the entire exchange.",
+            "She knew your name before you gave it, and she does not pretend otherwise. Gin spoke about you, she says, the once, and the once is enough — your brother, who told no one anything, told her about you specifically and at length, and she has been carrying that small unasked-for knowledge of you ever since like a stone she forgot was in her coat. There is nothing soft in how she says it. But you catch the way her eyes go to the middle distance for a half-second when she says his name, the way a person looks at a door they have decided not to open, and you understand that whatever she is holding shut has your brother's shape, and that she has been holding it shut alone, on duty, for a very long time."
+          ]
+        },
+        {
+          "stage": "Trust",
+          "caption": "the one who never flinches lets you see where the line is held",
+          "scenes": [
+            "Trust with Shimizu is not confided; it is permitted. She does not lower her guard so much as let you stand close enough to see that it is a guard — that the evenness is work, that the never-flinching is a thing she does on purpose, hour by hour, because the alternative is a version of her she met once and does not intend to meet again. She tells you in fragments and only sideways: the two roommates in Kita who think she does admin, the Saturday dance class she guards like a frontier, the brunch after, the deliberate, fierce ordinariness she keeps one foot inside because it is the only ballast that has ever held. You begin to see the architecture of her steadiness and to understand that it is not strength in the way the office means it. It is a wall built fast, young, around something that nearly went under, and maintained every single day since by a woman who has never once let herself check whether the thing behind it has stopped drowning.",
+            "What she lets you near, finally, is the grief — Gin's, hers, the version of it she has filed under professional respect because professional respect is a thing she is allowed to feel on the clock. She does not weep and does not break; she just stops finishing your sentences for a moment and lets a silence stand that she would normally have closed, and in that open silence she says she has not let herself miss him because she does not know how to miss someone and stay on the line at the same time, and the line cannot come down. You realise she has handed you the exact mechanism of her endurance and the exact place it will fail, and that handing it over was the most exposed thing you have ever watched a person who never flinches do."
+          ]
+        },
+        {
+          "stage": "Turn",
+          "caption": "gated: she is allowed to flinch because someone holds the line for her",
+          "gate": "Rei has to take the line from her, not in words but in act — during a field containment where Shimizu's discipline is the only thing holding the breach shut and breaking it would let something through, Rei has to step into her place and hold the suppression himself, taking the cost into his own registers so that she is free, for once, to be the one who lets go. Not asked, not negotiated; done, in the moment, at real risk to him, so that the woman who has held the line alone for years learns that the line will still hold when she is not the one holding it — and only then, having been allowed to flinch and survive it, does she let the turn happen.",
+          "scenes": [
+            "The breach opens over the same Roppongi line on the worst night of Obon, when the membrane runs thin and the dead press close, and Shimizu does what she has always done — she sets her feet and becomes the wall, every reaction sized to the minimum, holding a suppression that no one was meant to hold alone for this long. You watch her start to go under. Not dramatically; she would never. Just a fractional shake in the hand that never shakes, the first flinch you have ever seen her allow, and the knowledge in her eyes that allowing it will cost a life that is not hers. So you take it from her. You step across the line and put your own registers into the gap, both of them at once, the searching one and the suppressed one, and you hold what she was holding while the cost goes into you instead of the breach, and you say — with your body, not your mouth — go ahead. Flinch. I have it.",
+            "She flinches. Years of it, all at once, the held thing coming down not as collapse but as a single long exhale she has owed herself since before you knew her name, and when the breach is shut and the air over the Vault goes ordinary again she is looking at you the way you imagine no one has been allowed to see her look at anyone. Not gratitude. Recognition. The discovery, arriving late and all at once, that the line holds when she is not the only one holding it — that she can let go and the world does not go under, that she survived the flinch, that she is allowed. What turns between you is not asked for and not spoken; it is simply that the woman who answers every question before it is asked has finally been answered first, and she lets herself want what she has spent years not letting herself need."
+          ]
+        },
+        {
+          "stage": "Fade",
+          "caption": "the wall set down for one person, in a quiet that asks nothing back",
+          "scenes": [
+            "Afterward there is the small Kita flat with the roommates away, and the careful ordinary life she guards so fiercely opening just wide enough to let you stand inside it — the kettle, the Saturday-class bag by the door, the window with the last of the lantern light moving on the canal below. She does not perform and does not narrate; she only lets you near in the way she has spent the whole arc learning is survivable, the wall not gone but set down, deliberately, for one person, by a woman who has finally decided she can afford to feel exactly as much as this moment asks and a little more besides.",
+            "The light goes low and the city holds its breath the way it does on the last night of Obon, and what passes between you stays where it belongs, behind the door she chose to leave unlatched. In the morning she is steady again, but it is a different steadiness — not the wall held alone against the drowning, but the calm of someone who has tested whether she could come down off the line and be caught, and found that she could, and intends, now, to let herself be."
+          ]
+        }
+      ]
     },
     {
       "who": "Kato Ryusei",
