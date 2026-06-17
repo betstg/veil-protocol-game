@@ -4348,8 +4348,98 @@
     {
       "title": "The Auditor's Anomaly",
       "giver": "Okada Shizuka / Sena (the assessment loop)",
-      "status": "queued",
-      "hook": "The bi-monthly assessment cycle has flagged an anomaly that points at Rei. Bury it, explain it, or use it — and learn how the instrument that measures you can be made to lie."
+      "status": "authored",
+      "hook": "The bi-monthly assessment cycle has flagged an anomaly that points at Rei. Bury it, explain it, or use it — and learn how the instrument that measures you can be made to lie.",
+      "beats": [
+        {
+          "scene": "The white room again, and a sheet of paper that was supposed to be ash",
+          "prose": [
+            "Okada Shizuka asks you back to the same small white room three days into Obon, and this time there is no laminated card on the table, only a single thermal printout curling at its edges the way thermal paper curls when it has been held too long in a warm hand. She does not slide it across to you. She lays her palm flat on top of it, as if the words might leave through the ceiling if she let go. <em>The cycle ran Thursday,</em> she says, and you feel the day land like a dropped stone, because you remember what she made you promise without quite letting you promise it — <em>do not let them assess him on a Thursday</em> — and you understand now that the warning was never only about Gin. <em>You weren't on the schedule. Sena flagged you anyway. The instrument reaches for whoever's nearest when a reading goes deep, and you were in the building.</em>",
+            "She turns the sheet over and the anomaly is not a number, it is a shape — the assessment array renders a medium's registers as a pair of nested rings, clean concentric circles for a citizen, a fat smeared lozenge for a fever-case, and yours are neither. Yours are two rings that should be quiet and are instead leaning, both of them, toward a third mark that does not belong to you: a faint bright knot off to the north of the page like a moon that has wandered into the wrong sky. <em>The textbook word for this is</em> domain incipient, she says, very evenly, the way you say a diagnosis you have decided not to be frightened by yet. <em>It means the machine thinks something is being built inside you. Or that something has already keyed in, and is reading you the way you read everyone else.</em>",
+            "Obon hums through the building's tired air-conditioning, paper lanterns sagging over the intake desk for the dead who are meant to come home gently this week, and you think of the third mark and how it leans north — toward Kita, toward a wall someone is patiently thinning. Okada watches your hands, the way she did the first day. <em>I have eleven hours before the cycle closes and the reading becomes a record,</em> she says. <em>Once it's a record it goes up — to the Auditors, to the families above Adachi, to anyone who can act on a domain forming inside a registered medium. And what they do to a domain that's forming is close it. Early. While it's small enough to close.</em> She lifts her palm off the page at last. <em>So. Before it's a record, it's still just a thing two people in a white room are looking at. What do you want it to be?</em>"
+          ],
+          "choices": [
+            {
+              "x": "Read the page yourself — let your registers come halfway up and look at the third mark.",
+              "hint": "You have spent your whole life not doing exactly this in exactly this building. To recognize the northern knot you have to open toward it — and opening toward a thing that is already reading you is how it learns the rest of your shape."
+            },
+            {
+              "x": "Ask who else has seen the flag in the eleven hours since Thursday.",
+              "hint": "Containment is a clock, not a wall. The array logged it, and logs have readers; knowing how far the page has already travelled tells you whether you're burying a secret or chasing one that's already loose."
+            },
+            {
+              "x": "Ask Okada why she'd risk her career to hold a record open for you.",
+              "hint": "She has had four years and one dead man's instruction to prepare for this morning. The answer is the thing she's been carrying — and once she sets it down, it becomes yours to carry too."
+            }
+          ]
+        },
+        {
+          "scene": "The reading room, and the instrument that used to be a person named Sena",
+          "prose": [
+            "The assessment array lives two floors down behind a door marked with nothing but a cycle number, and the room is colder than the rest of the Directorate on purpose — the cold of a place built to keep something still. You expected a machine: clearance levels, Directorate boxes that go ping. There is a machine, a low ring of grey instrument set into the floor like a drain. But the thing the machine reads through is a person — a young woman seated at the ring's center with her hands open on her knees and her eyes tracking nothing — and Okada says her name the way you name a place you are sorry about. <em>Sena. She was a sensitive. A good one, two clean registers, the kind the Directorate doesn't get to keep as a witness. So they didn't keep her as one.</em>",
+            "You understand it before Okada finishes, because you see it the way you see everything, and what you see in Sena is a held breath where a person should be. They hollowed her gentle — emptied the two registers until nothing of her own was left to colour a reading, so that anyone the array points her at comes back true, uncoloured, measured against a surface with no opinion of its own. She is the most honest instrument in Tokyo because there is nothing left of her to lie. <em>She consented,</em> Okada says, and the sentence costs her something to carry across the cold room. <em>Eight years ago, terms in her own hand. She thought it was service. The form doesn't have a box for what it actually is.</em> Sena's eyes find you then, slow, and for one moment something moves behind them that is almost recognition — the way a still pond moves when a fish turns, far below the surface.",
+            "When the array wakes it does not ping. It tightens. The cold in the room draws inward toward the ring, and you feel your own two registers — pressed flat your whole life — come half-awake against your will, reaching toward the empty surface at the room's center the way water finds the lowest place. This is the reading that flagged you, run live, and on the array's grey panel the rings bloom again: your two, leaning, and the third bright knot to the north. Now that you are inside the reading you can feel the truth the page could only diagram — the knot is not in you. It is reaching for you, from a long way off, from a direction you know, patient and fond and wearing a familiarity you would recognize anywhere, because it is your brother's, worn like a borrowed coat by something that is not him."
+          ],
+          "choices": [
+            {
+              "x": "Hold your registers open and let Sena read the knot in full.",
+              "hint": "The honest reading is the prize and the trap in one. To measure the thing reaching for you, you let it finish reaching — and an instrument that reads a demon truly is exactly the instrument that demon most needs gone."
+            },
+            {
+              "x": "Close down hard and break the reading before the array resolves the third mark.",
+              "hint": "You can slam the locks you've kept your whole life and the array loses the thread. But Sena was mid-reading when you cut it, and a hollow instrument severed from a live read does not always settle back into the same empty stillness."
+            },
+            {
+              "x": "Speak to Sena directly — not the instrument, the woman the form emptied.",
+              "hint": "There may still be a fish under the pond. Reaching her could give you an ally no clearance level grants — or wake something the Directorate spent eight years and one woman's life keeping asleep."
+            }
+          ]
+        },
+        {
+          "scene": "The calibration log, and the place where a true reading is taught to lie",
+          "prose": [
+            "Okada shows you the thing she was always going to have to show you, because you cannot decide what the reading becomes until you know it can become anything. The array keeps a calibration log — a record of every adjustment ever made to true the instrument — and she scrolls it back past your Thursday, past months, to a column of small corrections that are not corrections at all. <em>The families above Adachi don't delete readings,</em> she says. <em>Deleting leaves a hole, and holes get noticed. They recalibrate. They tell the instrument the honest answer is the error, and feed it a kinder one, until the kinder one is what the machine believes.</em> You look at the column and understand that the most honest instrument in Tokyo has been taught to lie so many times that its lies are now a fluent second language — that this is how a possession becomes a clerical footnote, how a brother becomes a case closed too fast.",
+            "So the page is not a verdict. It is clay. You can bury it — corrupt the cycle, recalibrate your own reading into the wide grey lozenge of a harmless fever-case, and the array will believe it by morning, and no Auditor will ever climb toward a domain that, on the record, was never forming. You can explain it — leave the true reading intact but attach a false cause, witness contamination, festival bleed, the kind of plausible nothing the Directorate prefers to swallow, and walk out having taught yourself the exact craft the families use, which is a thing you will then own forever. Or you can let it stand — let the one honest instrument in the city say the true thing once, on a record that goes up: that a possession has keyed into a registered medium, and the Directorate's own machine can prove it.",
+            "Each of them is a door that opens one way, and Okada will not choose for you; she only sets down the weight of each. <em>Bury it and you're safe and blind — you've thrown away the one reading that could ever prove what's wearing your brother, and you've made your own hands fluent in the families' craft.</em> Her voice stays level. <em>Explain it and you've kept the reading but bent it, and a reading you've bent once you'll never fully trust again — including the part of it that points at Gin. Let it stand and it goes up, and up means the Auditors, and what the Auditors do to a forming domain is close it early. Close you. Close whatever's reaching through you. And they will not be gentle about which of you they decide is the patient.</em> Behind her, in the ring, Sena's open hands have not moved, but her head has turned a few degrees — toward the north, toward the same wrong moon."
+          ],
+          "choices": [
+            {
+              "x": "Bury it — recalibrate your reading down to a harmless fever-case.",
+              "hint": "Safety bought with blindness. You walk out unwatched, but you've destroyed the only proof of what holds Gin, and your hands now know how to make any instrument lie — a skill that does not unlearn."
+            },
+            {
+              "x": "Explain it — keep the reading true, attach a false and harmless cause.",
+              "hint": "The surgeon's compromise. The data survives, dressed in a lie you authored; you keep the proof and lose your certainty that any reading you ever take again is clean."
+            },
+            {
+              "x": "Let it stand — let the honest reading become a record and travel up.",
+              "hint": "The one true thing said aloud in the building built to manage truth. It arms the only institution that can act — and points that institution at a forming domain it closes early, with you inside it."
+            }
+          ]
+        },
+        {
+          "scene": "Eleven hours nearly gone, and the record the cycle will keep",
+          "prose": [
+            "You leave the reading room into a corridor where the Obon lanterns have begun to come down — the festival is closing, the dead are being seen back out, and the building is quietly resuming the business of pretending it never crosses to them at all. Whatever the array now believes about you walks out in your file ahead of you, into rooms you will never see. Okada walks you to the elevator and does not press the button. <em>Gin knew this would happen,</em> she says. <em>Not the details. The shape. A Thursday, an instrument, you in the building, a reading that points the wrong machine at the right truth. He spent his last free act trying to keep you off this page — and you've spent the morning deciding to be on it your own way.</em> The elevator comes. Neither of you steps in.",
+            "Because there is one more thing the morning has handed you, and it is heavier than the reading. Sena turned north. Twice you watched the most empty person in Tokyo lean toward Kita the way your own registers leaned, and a hollowed instrument has no homesickness of its own to explain it — which means the thing reaching for you through the array was reaching for her too, testing every open surface in the building, patient, fond, wearing your brother's grain like a coat. The knot is not waiting for assessment day. It is using it. Every cycle the Directorate runs is a door it props open, and the one institution able to close the wall in Kita has been holding a smaller door wide for years without ever knowing it.",
+            "<em>I can put one thing in the record before it locks,</em> Okada says, quiet, the elevator humming behind its shut doors. <em>A flag of my own. I can mark the array compromised — pull Sena from the cycle, blind the Directorate's truest eye, and buy your brother's reaching nowhere to land for a while. Or I leave her in, and leave the door propped, and we keep the one instrument that ever told us the truth — knowing exactly what's using it to find you.</em> She looks at you the way she did over the laminated card on the first day, watching your hands more than your face. <em>You've already decided what the page says. This decides whether the building keeps its eyes open or shuts them to keep us safe. I won't make this one alone.</em>"
+          ],
+          "choices": [
+            {
+              "x": "Pull Sena from the cycle — blind the truest eye to close the propped door.",
+              "hint": "Mercy for the hollowed woman and a wall against the thing reaching through her — paid for in going dark, surrendering the only instrument that ever read Gin true, the next time you need it most."
+            },
+            {
+              "x": "Leave Sena in — keep the honest eye open, door and all.",
+              "hint": "You keep the one proof-maker in Tokyo, and you leave it as bait, knowing precisely what visits it. Every future reading is real; so is every cycle's open door to the north."
+            },
+            {
+              "x": "Tell Okada the choice is hers — she's the one who has to live in this building.",
+              "hint": "You've taken enough from her this morning. Handing it back is respect and abdication in one — and whatever she chooses alone, she chooses while still loving a dead man's brother more than her own clearance."
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Kuroki's Favour",
