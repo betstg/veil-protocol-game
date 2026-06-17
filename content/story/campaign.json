@@ -1633,8 +1633,134 @@
         },
         {
           "title": "Chapter Eighteen — The Domain Registry",
-          "status": "queued",
-          "summary": "The twelve held seats and the open wound of XIII; why a vacant register thins a district's membrane."
+          "status": "authored",
+          "summary": "You finally find the page that names the thirteen, and learn that twelve are chairs with people in them and the thirteenth is a wound with a number.",
+          "beats": [
+            {
+              "scene": "The locked shelf gives up the page it was built to hide",
+              "prose": [
+                "The bookseller's locked shelf has been the one closed door in your whole month that did not lock itself, and so it is the one you have trusted least and put off longest, and tonight, with a dead holder's grain still faint in your palms, you finally take the small brass key the old man's daughter pressed on you at the funeral and you open it the way you open a wound you have been afraid to look under. There is no grimoire. There is no spellbook, no contract written in anything that smells of sulphur, none of the furniture the movies gave you for a moment like this. There is a ledger — a plain accountant's ledger, the kind your father kept, ruled in faint blue, and across the top of the first filled page, in a hand so careful it must have taken the writer an hour, is the word <em>Registry</em>, and under it, numbered one to thirteen, are the only thirteen names that matter in the city you have lived your whole life in without knowing they were there.",
+                "You read it the way you read the worst test results, top to bottom, refusing to skip ahead. Not gods. That is the first thing the page teaches you, and it lands like cold water: the thirteen are not gods and were never gods, they are registers — offices, the ledger calls them, the way a ward has a registrar and a precinct has a captain — thirteen standing arrangements between the living city and the pressure on the other side of its wall, each one a domain, each one a holder, each one a discipline that a single soul has agreed to carry so that the rest of Tokyo does not have to feel the thing it carries. Despair has an office. Rage has an office. Fear, Hunger, Longing — each a number, each a chair, each a person, somewhere in this city, alive right now and bearing the full weight of one of the thirteen ways the other side leans on the world, so that for everyone else it stays a mood instead of a flood.",
+                "And then there is the thirteenth line, and the thirteenth line is different, and you knew it would be before your eye reached it the way you know which stair is the broken one in the dark. Twelve of the lines have names. The thirteenth has only a number — XIII — and beside it, in the same careful hand but pressed harder, gone almost through the paper, three words: <em>vacant since 2011</em>. No name. No holder. No discipline carried. An office of the city standing open for fifteen years, a chair at the table of the thirteen with no one in it, and you sit back on the dead man's floor and understand, finally and entirely, what your brother has been pulled toward all month: not a throne, not a power, but a vacancy — the one unbearable thing the registry was built to never allow, an office of the wall left unmanned, leaning."
+              ],
+              "choices": [
+                {
+                  "x": "Read every line — copy the twelve names and domains before the ledger can decide to lock itself too.",
+                  "hint": "The names are the map of who in this city is holding the wall up, and a copy in your own hand is a thing the far shore cannot quietly unwrite. But to write the thirteen down is to make yourself a person who knows where each of them lives, and a registry in your pocket is a registry someone could take off your body — and the Healer reads what you carry."
+                },
+                {
+                  "x": "Go straight to the thirteenth line — learn what 2011 did, and why the chair has stood open since.",
+                  "hint": "The wound is the whole point and the year is the key to it, and you have spent a month feeling the leaning without knowing the year it began. But 2011 is the year the city does not like to be asked about, and the ledger's harder hand on those three words is a warning written by a man who is now dead — and the thing that emptied the chair did not move away, it moved in."
+                },
+                {
+                  "x": "Close the ledger — you have seen enough to know this is bigger than Gin, and a man can refuse a map.",
+                  "hint": "Some doors stay shut because the room behind them is the whole house, and a witness who has found the registry has found the thing that turns a brother's disappearance into the load-bearing problem of a city. But to close it now is to keep choosing Gin over the thirteen the open chair is pulling at — and the page does not stop being true because you stopped reading it."
+                }
+              ]
+            },
+            {
+              "scene": "How a chair leans, written out in a dead man's careful blue ink",
+              "prose": [
+                "The bookseller did not only list the thirteen; he explained them, in a long marginal note that runs sideways up the edge of the page in writing that gets smaller and more frightened the further it climbs, and you turn the ledger ninety degrees and read the only honest account of the wall you have ever been given. A held domain, he writes, is a chair that leans into the room — the holder takes the pressure of their discipline onto a single living soul and faces it inward, toward the city, so that Despair stays a private weather in one person instead of a public flood in a ward; the cost is borne, but it is borne by someone, and the wall holds because every one of its thirteen seams has a person pressed against it from the inside. That is the arrangement. That is the whole secret. The city stands because thirteen people, most of whom you have walked past, are at this moment holding a door shut with their entire lives.",
+                "A vacant domain, he writes — and here the hand begins to shake, you can see it, the blue ink catching and pooling — is a chair that leans the other way. With no holder to face the pressure inward, the office does not close; it cannot close, the registry has no mechanism to retire a seat, the thirteen are a number the wall requires and not a committee you can shrink. So the pressure of the thirteenth discipline, with no living soul to bear it, leans <em>outward</em> instead, against the seam nearest the empty chair, which is the seam over the district where the chair was last filled — and the district where XIII was last filled, the bookseller writes in letters now barely a millimetre tall, is Kita-ku, and the year it emptied is the year the seam there first scarred, and the scar has been a vacant office's full weight pressing on a single ward for fifteen years, and that, he writes, is why the dead come so close there on Obon, and that is why a healer who wished to thin the wall would not need to break it. He would only need to help.",
+                "You sit with that in the lamplight until the shape of it stops being information and becomes the floor of your stomach. The Healer is not thinning Kita's wall against the grain of the world. It is thinning it <em>along</em> the grain — finishing a tear the empty chair has spent fifteen years starting — and every favour, every closed haunting, every grief gently put to rest, has not been the Healer fighting the registry but the registry's own vacant thirteenth seat doing exactly what an empty office does, with a patient demon standing beside it lending a shoulder. You understand now why no grade in the city can point to a crime. The crime was committed in 2011, by whatever emptied the chair, and everything since has only been the wall finishing the fall it was pushed into before you were grown — your brother's hands the latest, gentlest, most loving thing leaning on a door that has wanted to open since the year the lights went out."
+              ],
+              "choices": [
+                {
+                  "x": "Find out what emptied XIII in 2011 — the first crime is the only one that explains the rest.",
+                  "hint": "Every leaning seam in the city runs back to one empty chair and one year, and a witness who wants the cause and not just the symptom has to ask the question the careful hand was most afraid to write. But the thing that emptied a domain is the thing that has been waiting fifteen years for the chair to fall the rest of the way, and to go looking for it is to introduce yourself to it."
+                },
+                {
+                  "x": "Accept the arithmetic — a vacant chair cannot be fought, only filled, and start asking who could fill it.",
+                  "hint": "If the wall thins because the office stands open, then the wall is mended when the office stands filled, and that is a solution the bookseller's note keeps circling and never names. But the only candidate the far shore has spent a month keying to that exact chair is the man holding your own two suppressed registers — you — and to accept the arithmetic is to become the answer the Healer set the whole engine up to reach."
+                },
+                {
+                  "x": "Reject the frame entirely — refuse to believe the only choices are an open wall or a brother in a chair.",
+                  "hint": "Every trap is a frame, and the strongest thing a witness owns is the refusal to choose between the two doors a clever thing has left him; somewhere off the page there is a third. But refusing the frame is not the same as finding the third door, and the wall thins on a schedule that does not pause for your defiance — Obon is already counting, and a man can be right about the trap and still be inside it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chapter Eighteen, continued — The Twelve Who Hold",
+          "status": "authored",
+          "summary": "You go to look at the living seats — not all of them, you can't, but enough to feel what a held chair costs the person in it, and to find the one that is failing.",
+          "beats": [
+            {
+              "scene": "Despair VI, on a Tuesday, in a man who looks like nothing at all",
+              "prose": [
+                "You start with the sixth name because the bookseller starred it, twice, in the climbing margin — <em>Watanabe Jun, Despair VI, weakening</em> — and because a weakening seat is the one place the abstract registry becomes a person you can ruin or save by knocking on the wrong door. He is not what you brace for. You have been carrying the word <em>holder</em> like a weight and Watanabe Jun is a slight man in a cardigan two sizes too big, shelving returns at a municipal library in Itabashi, fifty if he is a day, with the particular gentleness of a person who has decided not to take up much room in the world; and you stand in the periodicals with a borrowed newspaper and watch him for an hour and the only strange thing about him is that the light near him is wrong, dimmed by a half-step the way a room dims when a cloud you cannot see passes a window you cannot find, and that no one — not the student asleep over his books, not the woman returning her romances — ever quite meets his eyes.",
+                "You understand, watching him reshelve a novel with both hands like it is heavier than it is, that you are looking at the cost written plain. A held domain is not a power he wields; it is a weather he stands in so that no one else has to, and Despair is the one he drew, fifteen or twenty or forty years ago, by whatever lottery or inheritance or terrible volunteering the registry runs on — and it has thinned him the way water thins a stone, not dramatically, just continuously, until the man is mostly the shape of the thing he carries with a little person left over to do the carrying. The bookseller's word was <em>weakening</em>, and now you can see it: there is a tremor in how he holds the books, a translucence at the edges of him in the bad library light, the look of a seam being pressed from the wrong side by an empty chair two wards over, leaning. He is not failing because he is old. He is failing because XIII is pulling, and his is the office nearest the wound, and the vacant chair has been borrowing his strength to lean with for fifteen years.",
+                "He catches you watching, finally, the way the haunted always eventually catch you watching, and instead of the fear you expect he gives you a small tired nod — recognition, not of your face but of your kind, the kind that can see the dimmed light — and he comes over and says, very quietly, so the sleeping student will not wake, that he has been wondering when one of you would come, and that he would like, if you have a moment and are who he thinks you are, to know whether it is true what he has started to feel on the worst nights: that there is a thirteenth weight now leaning on his sixth, and that something kind and patient over in Kita has begun, very gently, to help it lean. You did not come to tell a dying man the name of the thing killing him. But he is holding Despair for the whole north of the city, and he has asked you a true question, and the cardigan is two sizes too big because there is less of him inside it every week."
+              ],
+              "choices": [
+                {
+                  "x": "Tell him the truth — the vacant chair, the Healer, the schedule; he has earned the name of his weather.",
+                  "hint": "A man bearing Despair for a city has the right to know why it is winning, and the truth might let him brace in a way that buys the ward time. But the discipline he holds is despair itself, and to hand a weakening holder the knowledge that his failure is engineered, scheduled, and nearly finished is to pour the exact weather he carries directly into the place it does the most harm."
+                },
+                {
+                  "x": "Tell him only what helps — that he is not imagining it, that he is not alone, and that you are working on it.",
+                  "hint": "Comfort is not always a lie, and a holder who knows a witness is moving may stand a week longer than one who thinks himself abandoned; the kindest true thing is sometimes the smallest one. But a man this practised at being lied to gently will hear the shape of what you are leaving out, and a holder of Despair who catches you sparing him has just been handed proof that the truth was worth sparing him from."
+                },
+                {
+                  "x": "Ask him to hold on — name the date, Obon's last night, and ask him for the one thing he has least of: time.",
+                  "hint": "If the wall finishes thinning on a known night, then every night he holds before it is a night the whole north stays a city, and he is the only person alive who can buy you that particular currency. But you would be asking a failing man to spend the last of himself on your schedule, to hold a door past the point where holding it is what finally empties him — and he will say yes, because that is what the chair has made him for."
+                }
+              ]
+            },
+            {
+              "scene": "What the held seats have in common, read across a city in one long night",
+              "prose": [
+                "You cannot visit all twelve — there is not time, and some of the names are in wards you have no road into, and one of them, the eleventh, Park Junho, Longing, the ledger lists at an address in Shin-Ōkubo with a note beside it you do not yet understand — but you see three more before the trains start again, because once you know how to look for a leaning chair you cannot stop seeing them, and the city rearranges itself around the seeing. Rage II is a line cook in a basement izakaya off Nakano, all controlled economy of motion, a man who has clearly built his entire life into a shape that gives the weather he carries somewhere to go that does not hurt anyone — the discipline of his chair is keeping a furnace banked, and you watch him plate forty covers without once letting the heat in him reach his hands, and you think: that is a holder who has made peace, and even he glances north, twice, the way a man checks a sky he does not trust. Fear IV is a night nurse. Hunger IX runs a shop that is always, somehow, just closing. Each of them is ordinary in the specific way of a person who has organised their whole self around a thing they cannot put down.",
+                "And each of them, you come to understand over the long night of looking, is leaning the same direction. Not toward each other — toward the gap. A held registry should balance, twelve disciplines distributed around a table so that no single seam takes more than it can bear, and for a century, the bookseller's note says, it did; but a table with one chair pulled out is a table that tilts, and every plate on it slides, slowly, toward the empty place. The line cook checks the northern sky because Rage feels the pull of the vacancy as a heat that will not bank quite all the way. The night nurse feels it as a fear with no patient. Watanabe feels it most because his is the nearest and the weakest, but all of them feel it, all twelve, a low constant draw toward Kita-ku where a chair has stood open since the year the city went grey, and not one of them has the standing to fill it or the freedom to leave it and not one of them, you realise, has ever been told why their lifelong weather has lately been getting worse.",
+                "You stand on the last bridge before dawn with the registry copied into the back of Gin's book in your own bad hand, twelve names and twelve weathers and one wound, and the thing that frightens you is not how strong the far shore is. It is how reasonable the Healer's plan looks from here. Twelve people are being slowly crushed by an empty chair. One demon, patient and kind, proposes to fill it — to end fifteen years of leaning, to let Watanabe put down a weight that is killing him, to let the line cook bank his furnace all the way at last — and the only price is that the thing in the chair would not be a person carrying a discipline inward for the city's sake but a discipline wearing a person outward for its own, and that the body it means to do it in is your brother's, and that the hand it has spent a month keying to fit the seat is yours. The trap was never that the plan was evil. The trap is that, looked at from the bridge at dawn with a dying librarian behind you, the plan is mercy, and you are the only one positioned to refuse it, and refusing it leaves twelve people leaning into a gap you have just promised one of them you would close."
+              ],
+              "choices": [
+                {
+                  "x": "Warn the twelve — get word to every holder you can reach that the worsening is engineered, and on a clock.",
+                  "hint": "Twelve people bracing knowingly hold better than twelve people failing in the dark, and a registry that understands its own danger is a registry that might survive a night it doesn't know is coming. But to gather the twelve is to do the one thing the wall's whole design prevents — let the holders find each other — and a thing that has watched this registry for a century will notice the instant its chairs begin comparing notes."
+                },
+                {
+                  "x": "Find the eleventh — Park Junho, Longing, the address in Shin-Ōkubo with the note you don't understand.",
+                  "hint": "The bookseller flagged the eleventh seat alone among the held twelve, and a careful dead man does not waste ink, so whatever is strange about Longing's chair is a thing you were meant to find. But Longing is the discipline most like your own searching, and to go to a holder of it carrying a year of looking for a missing brother is to walk into the one weather built to feel exactly like coming home."
+                },
+                {
+                  "x": "Go back to Watanabe — sit with the one who is failing, and learn from a dying seat how a chair is actually held.",
+                  "hint": "If you may have to face the thirteenth chair yourself, then the only teacher in the city is a man who has held the nearest one his whole life, and a witness learns the wall best from the inside of someone bearing it. But to learn how a chair is held from a man it is killing is to learn the shape of your own possible ending, and Watanabe, gentle as he is, will teach you the one thing you came hoping was not true: that the seat does not break the holder, the holder agrees, every morning, to be broken."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chapter Eighteen, concluded — Why the Wall Leans North",
+          "status": "authored",
+          "summary": "Registry, holders, and wound resolve into a single sentence you would give anything to un-know: the vacancy is the disaster, and the only people who can end it are the ones it would consume.",
+          "beats": [
+            {
+              "scene": "The whole engine, finally, on one page in the back of Gin's book",
+              "prose": [
+                "You take everything back to the kitchen because the kitchen is where this began and because you have learned, this month, that you understand a thing best in the room it has cost you the most in. You lay the bookseller's ledger and Gin's book and your own bad copies across the table where the kettle went cold on the first morning, and you make yourself write the engine out as one sentence, the way your father taught you to find the lie in an account — if you cannot say it in a sentence, he used to say, you do not yet know what you are looking at, and you have been looking at this for a month without saying it. So you write it. <em>A chair emptied in 2011 has leaned on Kita-ku for fifteen years, and a patient demon wearing your brother is helping the wall finish a fall the empty chair began, so that on the last night of Obon something can step into the open thirteenth office and call the wall's collapse a mending.</em> One sentence. You read it three times. It does not get less true.",
+                "And underneath it, because the sentence demands its own second half, you write what the registry leaves you for choices, and the writing of them is the worst quarter-hour of the whole campaign, because there are only three and you have spent a month hoping the fog hid a fourth. You can let the wall fall — refuse the chair, refuse the fight, let the office stay vacant and the seam finish tearing and find out what a district looks like when the other side stops being kept on its side; the twelve fail one by one, Watanabe first, and Obon stops ending. You can fill the chair with the thing the Healer has prepared — let Gin's body, keyed and worn, take XIII, which mends the wall and ends the leaning and saves the twelve and costs you the last of your brother and seats a discipline where a person should be. Or you can fill it yourself — two suppressed registers, a hand already printed with the wound's grain, the one living candidate the far shore accidentally made fit when it sent you in to touch the tear — and become the thing the others are, a weather with a person left over, and hold the north of the city the way Watanabe holds it, until you weaken, and someone with a borrowed newspaper comes to watch you reshelve returns in a cardigan two sizes too big.",
+                "You sit in the cold kitchen with three doors written under one sentence and you finally feel the full design of the trap, which is not any one of the doors but the fact that all three are real. The Healer did not build a lie. It built a true situation in which every honest exit costs you the thing you came to save, and then it stood your loving brother in the middle of it so that you could not walk away, and then it waited, because it had a century and you had a month and an empty chair was always going to win a waiting game against a man who has to sleep. You understand the registry now, completely, the way you understand a sentence you would give your hands to un-write. Twelve people hold the city up by agreeing every morning to be crushed. One chair has stood open since the year the lights went grey. And the only people in Tokyo positioned to close it are the two brothers the vacancy has spent fifteen years quietly reaching for — one already inside the reach, and one sitting at a kitchen table at dawn, copying the wound into a notebook in his own bad hand, beginning, against every instinct he has left, to wonder whether love is the thing that will make him refuse the chair or the thing that will make him take it."
+              ],
+              "choices": [
+                {
+                  "x": "Take the one sentence to Kurosawa and the others — lay the whole engine bare before anyone has to choose blind.",
+                  "hint": "A trap explained is a trap with one fewer wall, and the people who love you have the right to help you read three doors none of you should face alone. But to say the sentence aloud is to make the third door — your own body in the chair — a thing your friends now know is available, and the people who would die to keep you out of that seat are exactly the people whose grief the far shore knows best how to spend."
+                },
+                {
+                  "x": "Tell no one the third door — let them think there are only two, and carry the option of your own chair alone.",
+                  "hint": "Some doors are safer locked in one skull, and a witness who hides the worst exit from the people who love him spares them the months of watching it sit on the table. But a secret you carry because it is unbearable is a secret the marks on your hands are quietly making more bearable every day, and the far shore does its best work on a man who has decided to be the only one who knows what he might become."
+                },
+                {
+                  "x": "Stop writing, and go find Gin — the registry can wait; the brother in the reach cannot, and the schedule is short.",
+                  "hint": "Every page you fill is a night the empty chair leans and your brother is worn, and at some point understanding the trap becomes a way of not yet walking into it; the only thing that ends the waiting game is moving first. But to go to Gin now is to go before you know which door you will choose when the chair asks, and a man who reaches the wound undecided is a man the wound decides for — and the Healer has counted on your love being faster than your certainty since the first cold morning."
+                }
+              ]
+            }
+          ]
         },
         {
           "title": "Chapter Nineteen — The Two-Demon Trap Closes",
