@@ -1764,8 +1764,112 @@
         },
         {
           "title": "Chapter Nineteen — The Two-Demon Trap Closes",
-          "status": "queued",
-          "summary": "The offer of Domain XIII, the Axis overstretched, and the choice that forecloses the others."
+          "status": "authored",
+          "summary": "The last night of Obon arrives, the counter-demon and the Healer converge on the same wound, and the Axis is asked to hold two things it was built to hold one of.",
+          "beats": [
+            {
+              "scene": "Kita-ku, the thirty-first hour of Obon, the seam over the river thin enough to read print through",
+              "prose": [
+                "You come up the embankment toward the wound on the last night of the festival and the air over the river is doing the thing the bookseller's smallest, most frightened letters warned you it would do — it is thinning the way the skin over a knuckle thins when the fist is made, gone translucent and tight, so that the far bank of the Arakawa is visible through a second far bank that is not there, two cities laid over one another a degree out of register. The paper lanterns the neighbourhood floated downstream an hour ago are still going, little orange certainties on the black water, and behind every one of them, when you let your suppressed registers come halfway up, there is a second light that does not move with the current, a held breath of something on the other side leaning close to watch the small fires the living send to guide it home. It is beautiful, is the obscene thing about it. The wall is failing and the failure looks like a festival, and you understand at last why the Healer chose Obon — not for the cover of the crowds but because on this one night of the year the whole city has agreed to call the thinning of the wall a kindness.",
+                "Gin is already there. He is standing at the rail where the embankment path turns, in the grey cardigan he has worn all month, the one you have stopped being able to see without your throat closing, and he is looking at the doubled river with an expression you have learned to read in two layers like everything else about him now. Underneath there is your brother, tired and frightened and trying, the register he has left, surfacing the way it surfaces when the thing wearing him relaxes its grip to let the body rest. And over it, calm and attentive and almost tender, is the Healer — Yushiro, the Duty-register, the one the dead bookseller's ledger would have numbered if it had ever caught a demon between two skins — wearing your brother's face toward the wound the way a surgeon wears a clean expression toward an open chest. Both of them turn when they hear you on the gravel. Both of them, in the same body, are glad you came, and the two kinds of gladness are the worst thing you have ever had to look at.",
+                "\"You found the registry,\" Gin says, and it is the Healer's evenness in your brother's voice, and it is not a question. \"I hoped you would. I left the shelf un-locked for you — the one door this whole month that did not lock itself. You noticed that. You notice everything; it is the best of you and it is why I could never have done this with anyone else holding the other end.\" He gestures at the doubled river, the lanterns, the thin bright seam where two cities almost touch, and his gesture is gentle, a teacher showing a pupil the one diagram that explains the term. \"So you know what tonight is. You know there is a chair, and you know it has stood open since the year the lights went grey, and you know — because you are the only person left alive who can feel both sides of a thing at once — that an open chair does not stay open. It only waits for the two who can close it. We are both here. The waiting is the part that is over.\""
+              ],
+              "choices": [
+                {
+                  "x": "Ask him, plainly, which of the two is speaking — make the Healer name itself in your brother's mouth.",
+                  "hint": "A thing forced to declare which register holds the tongue is a thing that has, for one sentence, lost the cover of seeming to be your brother — and you have spent a month never once making it say so. But the answer you are most afraid of is the one where the line between them has gone, where there is no longer a seam to point at, and to demand the name is to find out whether the brother underneath can still be reached or has already become a thing the Healer says <em>we</em> about."
+                },
+                {
+                  "x": "Say nothing about the trap — go to him as a brother, close the distance, see if the body still knows you.",
+                  "hint": "The Healer built an argument and an argument is answered on its own ground and lost there; the one move it did not plan for is the one that refuses to debate it. But to walk into the reach of the thing wearing Gin, on the thinnest night of the year, with your hand out and your guard down, is to offer the Healer exactly the contact it has wanted since the first cold morning — and a brother's embrace and a demon's grip use the same arms."
+                },
+                {
+                  "x": "Look past him to the wound itself — read the seam before the conversation, learn how much night is left.",
+                  "hint": "The schedule is the only honest thing on this embankment and the seam will tell you the truth the Healer dresses up — how thin, how soon, how long you have before the chair stops waiting and starts asking. But to read the wound now is to take your eyes off your brother on the thinnest night of the year, and the thing wearing him has spent a month learning that you cannot do two impossible things at once, and has always, always moved in the moment your attention went where it had to go."
+                }
+              ]
+            },
+            {
+              "scene": "The counter-demon arrives on the far side of the same wound, and the trap reveals its second jaw",
+              "prose": [
+                "You do not have to choose how to answer, because the cult's counter-demon chooses for you — it comes up the far embankment on the other side of the wound, the Inverted God's borrowed shape, the thing you hunted through each other for three chapters and never cornered, and it arrives now not as an ambush but as the second guest at an appointment, and the sight of it standing across the thin bright seam from the Healer rearranges the whole month in your chest at once. They are not enemies. That is what the convergence shows you, with the river doubled between them and the lanterns burning down — the patient demon wearing your brother and the cult's inverted thing that has been killing mediums to empty the city of witnesses have been working the same wound from two sides, the Healer thinning the wall along the grain and the counter-demon clearing the room of everyone who could read what was happening, and they have arrived together on the last night because the chair takes two to close and the trap was always a trap for two. One of you to fill the seat. One of you to be the cost of filling it. The Healer never needed to defeat you. It needed you both here, alive, on the thin night, loving each other.",
+                "\"Now you see the second jaw,\" the Healer says, and there is no triumph in it, which is the unbearable part — your brother's voice, used by the thing, is sorry. \"I told you the truth at every step because the truth was the trap; I did not have to lie to a man who notices everything, I only had to let him notice in order. The wall thins tonight no matter what either of us does — that work is fifteen years done, it was done before you could read. What is still open is the chair, and a chair this old closes for one of two living things keyed to it. You.\" He does not point at himself. He lets the silence make the second name. \"Or the body I am standing in. One register goes into the seat and the office is filled and the wall is mended and the twelve stop being crushed and Watanabe sleeps for the first time in a decade. And one register is left over, on the embankment, alive, to spend the rest of a life knowing it could have been the other way. That is the whole of it. There is no third thing across the river except the one that has come to make sure neither of us walks away from the choice — that is what the cult's friend is for. It is the lock on the door I have already opened.\"",
+                "And under the Healer's evenness, for one breath, your actual brother comes up — you feel the register surface the way you feel a swimmer break water, sudden and desperate and not given permission — and Gin looks at you across the lanterns with his own eyes for the length of a single sentence and says, fast, low, in the voice that read to you when you were small: \"Rei. Don't let it be you. Whatever it says, however right it makes the arithmetic sound — the chair is the thing it wants, and it does not care which of us sits in it, and that means the one it is steering you toward is you. Let it be me. I am already most of the way gone. Let it—\" and then the Healer takes the tongue back, smooth, unhurried, the way you take a pen from a child, and the calm sorry teacher is looking at you again, and the river runs doubled and bright between every choice you have left."
+              ],
+              "choices": [
+                {
+                  "x": "Move on the counter-demon — break the lock first, so that whatever choice comes, it is not made at gunpoint.",
+                  "hint": "A trap with its second jaw destroyed is a trap you can step out of, and the cult's thing is the only piece on this embankment that wants you and your brother both dead rather than merely seated. But to turn on the counter-demon is to turn your back on the Healer in the body you love, on the thinnest night, with the chair already asking — and the lock and the chair were placed by the same hand precisely so that fighting one would seat you in the other."
+                },
+                {
+                  "x": "Hold on to what your brother just said — answer Gin, not the Healer; let him hear that you heard him.",
+                  "hint": "The register that surfaced spent its one stolen sentence trying to save you, and a brother who is most of the way gone needs, more than anything, to know the message landed before the grip takes the tongue back for good. But the Healer let that sentence through — nothing surfaces on this embankment that it does not permit — and to answer Gin now may be to answer exactly the lever the thing wanted in your hand, the love it has counted on being faster than your certainty since the first cold morning."
+                },
+                {
+                  "x": "Refuse the binary out loud — tell them both there is a door neither demon has named, and mean it enough to find it.",
+                  "hint": "Every word the Healer has spoken has worked to make two doors feel like all the doors, and the strongest thing a witness owns on the thin night is the flat refusal to choose between a brother in a chair and a city under water. But refusing the frame is not the same as having the third door in your hand, and the seam is thinning on a schedule that does not pause for defiance — Obon is nearly counted, and a man can be right that there must be another way and still run out of night to find it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chapter Nineteen, continued — The Axis Overstretched",
+          "status": "authored",
+          "summary": "The one thing the Healer did not plan for is the Axis trying to hold both brothers at once — and you learn, in the stretching, exactly what it costs to keep two registers off the same chair.",
+          "beats": [
+            {
+              "scene": "The Axis comes up between you without being called, and reaches for both of you at the seam",
+              "prose": [
+                "The Axis surfaces the way weather surfaces — you do not summon it, it arrives, the shared register that runs between you and Gin like a tendon between two bones, the thing the far shore made when it sent you into the tear to touch the wound and accidentally keyed the two brothers to one office. You felt it first in Chapter Nine as a balance, a fulcrum, a single living point that two suppressed registers leaned on from either side; you understand it now, on the thin night, as the only mechanism in the city that does not want either of you in the chair, because the Axis is the part of both of you that is still, stubbornly, brothers — and it comes up between you and the wound and it reaches, in two directions at once, for the register that is yours and the register that is left of Gin's, and it tries, against every line of the Healer's arithmetic, to hold both of you off the seat by holding both of you up. For one impossible second it works. For one second the chair asks and neither register answers, because the Axis has them both, balanced, suspended, two brothers held an inch above a choice by the one thing in them that refuses to let the other fall.",
+                "And then it begins to stretch, and you feel what the bookseller's smallest letters never had the room to say — that the Axis was built to bear one. It is a fulcrum, not a bridge; it holds the city's two readers in balance the way a knife-edge holds a scale, and a knife-edge asked to carry both pans at once does not balance, it bows. You feel it bow inside your chest, the shared register going taut and thin and bright like the seam over the river, the two of you held but held by a thing that is paying for the holding in the only currency it has, which is itself. The Healer watches this with an attention that is, for the first time all month, genuinely surprised — it did not plan for the Axis to refuse the choice, it planned for the Axis to be the very thing that made one of you fit the chair, and now its own mechanism is straining itself to flinders to keep both of you out of the seat it spent fifteen years preparing. You have, for the first time, made the trap do something it did not intend. The cost of that is that you can feel, precisely, how long the Axis can do it. Not long.",
+                "\"Ah,\" the Healer says, soft, in your brother's tired voice, and the surprise in it curdles slowly into something almost like respect. \"You would do that. Of course you would — you would rather burn the fulcrum than let it choose, you would rather both of you fall than either of you sit, because to you the unbearable thing was never the open chair, it was being made to pick. I did account for your love, Rei. I built the whole engine on it. I did not account for your love taking this shape — the shape that would rather end the thing that connects you than let it deliver a verdict.\" The seam over the river answers the strain — it thins faster, the two cities sliding another degree out of register, because the Axis is spending itself and the wall is reading the spending as the holders read everything, as a seam under load. \"But understand what you are doing. The Axis is what was keeping the wound honest. Stretch it to breaking and the chair does not close — it tears, and there is no seat left to fill, only a hole, and a city does not survive an unmade office any better than a vacant one. You have found the one move I did not see. It is also the one move that ends with no door at all.\""
+              ],
+              "choices": [
+                {
+                  "x": "Hold the stretch — accept the burning, buy every second the Axis can give, and use the time to find the third door.",
+                  "hint": "A fulcrum spending itself to keep two brothers off a chair is, for as long as it lasts, the only freedom on this embankment — no verdict, no seat, no cost yet paid — and every second bought is a second to think of the thing neither demon named. But the Axis is the part of you and Gin that is still brothers, and to hold the stretch is to spend exactly that, to feel the connection between you go taut and thin and bright, and a third door found over the corpse of the thing that made you two is a door you may not want to walk through."
+                },
+                {
+                  "x": "Release the Axis on your side first — let it hold Gin alone, take your own register off it, and let the chair ask only you.",
+                  "hint": "A fulcrum carrying one is a fulcrum that survives, and to take your weight off it is to let it keep your brother suspended and safe while you step down into the choice alone — the most loving arithmetic on the embankment. But the chair that asks only you is the chair the Healer steered you toward from the first cold morning, and a man who lifts his own weight off the one thing keeping him out of the seat has, with his own hands, finished the work the trap could not."
+                },
+                {
+                  "x": "Drive the strain into the seam — if the Axis is going to tear, aim the tearing at the wound, not at the chair.",
+                  "hint": "A breaking fulcrum is a force, and a force can be pointed, and a seam already thinning is a thing that a witness might rip the rest of the way on purpose rather than wait for a demon to mend on its terms — the only offensive move left. But to aim the Axis at the wound is to choose the door the Healer named as the end of all doors, the torn office, the hole no city survives, and a man who would rather unmake the chair than let it close has stopped trying to save anyone and started trying to win."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chapter Nineteen, concluded — The Choice That Forecloses the Others",
+          "status": "authored",
+          "summary": "The Axis at its limit, the seam at its thinnest, the chair asking in earnest — and the single decision that closes the trap and opens, beneath it, the five doors out.",
+          "beats": [
+            {
+              "scene": "The last minute of Obon, the chair asking in a voice that is finally, terribly, your own",
+              "prose": [
+                "It comes down, as your father always said the truth of any account comes down, to a single line, and the line is this: the Axis cannot hold both of you for one more minute, and the seam cannot stay open for one more hour, and the chair — you understand this now in your body and not your notes — does not speak in the Healer's voice or your brother's voice but in yours, because a vacant office is not filled by being argued into; it is filled by a living register choosing to bear what it was built to bear, and the only voice that can make that choice is the voice of the one who will sit. The Healer cannot put you in the chair. The counter-demon cannot put you in the chair. Gin, with every desperate stolen sentence, cannot keep you out of it. The whole month, the whole trap, the whole patient fifteen-year lean of an empty office on a sleeping district has done exactly one thing, which is to bring you to the embankment on the last night of Obon and hand you, at the end, the one freedom it could not take: the choice is yours, it has always only been yours, and there is no version of this night where someone else makes it for you.",
+                "So you stand at the thin bright edge of the doubled river with the Axis burning between you and your brother and the lanterns guttering down to their last orange and the seam reading every second as load, and you feel all five doors at once the way you have learned to feel two of anything at once. You can take the chair yourself — fill XIII, become the weather with a person left over, hold the north of the city until you weaken, and let Gin walk off the embankment alive into a life of knowing. You can let it be Gin — release the Axis, let the keyed and worn body take the seat the Healer prepared, mend the wall, save the twelve, and carry the last of your brother's absence home in a cardigan two sizes too big. You can refuse them both and let the office stay vacant — walk away, let the seam finish tearing, find out what a district looks like when Obon stops ending and Watanabe fails first. You can tear the chair rather than fill it, drive the breaking Axis into the wound and unmake the office entirely, a hole instead of a seat, a city that survives or does not. Or you can do the thing none of the four arithmetics allow — refuse to close the trap tonight at all, take Gin off the embankment with the wall still thin and the chair still open, and play a longer game than a one-month man has any right to play against a thing with a century.",
+                "Whatever you choose forecloses the others. That is the last thing the Healer teaches you, and it teaches it gently, in your brother's spent voice, as the seam goes to its thinnest and the Axis to its limit: a door taken is the other four un-taken, a city saved this way is a city not saved that way, a brother kept is a chair unfilled and a chair filled is a brother spent, and there is no reading of the ledger, however long you stare, in which the columns come out even. You have understood the trap completely. Understanding it does not move you out of it. The only thing that moves now is you — one register, two suppressed and searching, a hand printed with the wound's own grain, standing where five doors meet on the last night of the festival, and the city behind you holding its breath through twelve crushed and faithful holders to see which way the one who notices everything will, at last, decide to fall."
+              ],
+              "choices": [
+                {
+                  "x": "Take the chair — sit XIII yourself, and let your brother walk off the embankment alive into the rest of his life.",
+                  "hint": "It is the door that saves the twelve and saves Gin and ends the leaning, and it is the door your love has been quietly building toward every time you chose to carry the worst thing alone — and it is the door the Healer steered you toward from the first cold morning, the cost it wanted, the register it always meant to spend. To sit is to become the thing Watanabe is, a weather with a person left over, until you weaken; and the man who walks away free will spend his life knowing which brother chose the chair. [→ Continuation]"
+                },
+                {
+                  "x": "Let it be Gin — release the Axis, let the worn body take the seat, mend the wall, carry the absence home.",
+                  "hint": "It is the choice your brother begged you to make with his one stolen sentence, the arithmetic that saves the city and saves you and asks the one already most of the way gone to go the rest of the way — and it is the choice that lets the Healer's prepared body win the chair after all, that calls a demon's design a mercy because the demon, this once, wanted what you want. To let it be Gin is to live, and to spend the living knowing you were handed the weight and set it on the person you came here to save. [→ Cost]"
+                },
+                {
+                  "x": "Refuse to close it tonight — take Gin off the embankment, leave the chair open and the wall thin, and play the longer game.",
+                  "hint": "It is the only door that does not spend a brother or a city in the next sixty seconds, the witness's flat refusal to let a thing with a century force a verdict from a man with a month — and it is the door that lets the seam stay torn, the twelve keep failing, Watanabe keep weakening, and the festival's mercy curdle into a slow disaster you have chosen to carry rather than end. To walk off the embankment with the trap still open is to bet everything you have left on outlasting the patience the Healer built the whole engine to outlast you with. [→ Long Game, Refusal, or Quiet — the road you walked here decides which]"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1780,9 +1884,175 @@
           "summary": "Continuation, Refusal, Long Game, Cost, Quiet. (See the Endings tab.)"
         },
         {
-          "title": "Reading the Trajectory",
-          "status": "queued",
-          "summary": "The three variables laid bare — the window, the domain, the succession — and how the earliest to resolve decides the rest."
+          "title": "Reading the Trajectory — The Three Clocks",
+          "status": "authored",
+          "summary": "You lay the month out on the floor and find it is not one countdown but three — the window, the domain, the succession — each running at its own speed toward a different last night.",
+          "beats": [
+            {
+              "scene": "Your apartment, the last grey hour before the festival's final night, three documents laid corner to corner on the tatami",
+              "prose": [
+                "You clear the low table and then the floor beneath it, because the table is not large enough to hold all of it at once, and you lay the three things down corner to corner on the tatami the way a man lays out the clothes of someone who is not coming back — carefully, so the creases fall right, as though neatness could still do them any good. The registry page first, the one the bookseller's locked shelf finally gave up, with the Thirteen domains ruled into it and the thirteenth line empty save for a date. Then the smallest of the bookseller's own notes, the ones he wrote in the cramped hand a person uses only when he is afraid of his own paper, the letters about how the wall over Kita would thin on this night and what it would look like when it did. And last, because you cannot make your hand do it any faster, the page of Gin's handwriting from after the fourteenth, the entry where the loops first started leaning a degree the wrong way, the page you have read so many times the fold is going soft as cloth.",
+                "For a month you have carried this as one thing — a countdown, the dread shaped like a single clock ticking toward one last night — because that is how the Healer wanted you to carry it, light enough to run with, simple enough to panic over. But on the floor, laid flat, in the grey light that is not quite morning and not quite the festival yet, it comes apart in your hands the way a chord comes apart when you finally hear the separate notes inside it. There is not one clock here. There are three. And the obscene, quiet, mathematical truth of the three is that they are not running at the same speed, which means they will not all reach the bottom of the hour together, which means one of them will get there first.",
+                "You let your two suppressed registers come halfway up — only halfway, the way Kurosawa taught you, enough to read and not enough to be read — and the room takes on the second grain it always has when you do, the one where paper remembers being a tree and the dead lean closer to anything that is paying attention. Under that grain the three pages stop being documents and become what they have been all along: schedules. The window, the bookseller's thinning wall, which opens tonight and shuts at dawn whether anyone is ready or not. The domain, the empty thirteenth line, the chair that has stood vacant since the year the lights went grey and does not care how long it waits. And the succession — your brother's leaning loops — the slow erasure of the seam between the man who wrote them and the thing that has started signing his name. Three clocks. You make yourself look at all three at once, and your throat does the thing it does now, and you do not look away."
+              ],
+              "choices": [
+                {
+                  "x": "Read them in the order Gin taught you — node by node, his demanded grammar — and trust that the pattern is true.",
+                  "hint": "His order has never once led you wrong on the facts, which is precisely the problem: a thing that teaches you to read correctly has taught you to read the way it wants you to, and the pattern you trust is the pattern it built. To follow the grammar is to see clearly through the Healer's eyes, and you have never been able to tell, at the end of a clear thought, whose clarity it was."
+                },
+                {
+                  "x": "Read them out of his order, against the grammar, lining up what he was careful never to let you place side by side.",
+                  "hint": "The two pages he never set near each other are the window and the succession, and there is a reason a careful thing keeps a brother's failing hand away from a dawn deadline — but to read against his grammar is to read clumsily, to risk the wrong conclusion drawn from the right fear, and on the last night a wrong conclusion drawn fast is exactly the kind of mistake the Healer has spent a month teaching you to make."
+                },
+                {
+                  "x": "Put the handwriting face-down and read only the two clocks that are not your brother.",
+                  "hint": "Two clocks can be read like an engineer reads a tolerance, cold and exact, and grief is the variable that has been making your arithmetic wrong all month. But the succession is the only one of the three that can still be spoken to, and to turn it face-down is to decide, before you have decided anything else, that the part of tonight that is your brother is already past reading — and you are not sure you can take that back once the page is down."
+                }
+              ]
+            },
+            {
+              "scene": "The bookseller's smallest, most frightened letters, under the one lamp you have left burning",
+              "prose": [
+                "The window is the honest clock, and you start with it because honesty is the only mercy on the floor tonight. The bookseller wrote it in the hand of a man who had measured the thing he was describing and wished he had not: the membrane over Kita-ku does not fail all at once and it does not fail forever — it thins, on Obon, the way ice thins over a warm spring, opening along the river through the festival's last night and then, at the first true light, either closing back to its old hard quiet or, if something has been driven through it while it was soft, tearing along the line of the wound and not closing at all. There is a clean edge to it that the other two clocks do not have. It opens tonight. It shuts at dawn. Everything that is going to be decided about the wall is decided in the dark between.",
+                "You read the small letters twice and feel the particular cold of a deadline you cannot argue with. The domain can wait years; it has. The succession can be pleaded with; you have tried. But the window does not negotiate — it is weather, it is tide, it is the one thing on the embankment tonight that would happen exactly the same way if you and Gin and the Healer had never been born, and that indifference is almost a comfort, because it means there is at least one clock in this whole disaster that is not aimed at you on purpose. By dawn the seam over the Arakawa closes or it tears, and the only variable the window leaves you is which, and the only lever you have on that variable is whether you let anything be pushed through while the ice is soft.",
+                "Under your half-raised registers the page does the thing the bookseller's most frightened letters always do: it shows you the dread he was too disciplined to write down. He measured the thinning and then he locked the shelf, and a man does not lock a true measurement away from a careful reader unless he has understood what a careful reader would do with the schedule — unless he has guessed that someone would come who could feel both sides of the wall at once, and that such a person, handed the exact hour the ice goes soft, would be the perfect tool for either saving the wall or finishing it. The window is honest. The hand that recorded it was afraid of you, specifically, reading it. You sit with both of those being true at the same time, because that is the whole shape of this month."
+              ],
+              "choices": [
+                {
+                  "x": "Trust the window absolutely and plan the night around the dawn line — be at the seam before it goes soft.",
+                  "hint": "The window is the one clock that will not lie to you, and to anchor the whole night to its honest edge is the soundest plan you have — but the Healer also knows the dawn line, knows it better than you, and a plan built on the one schedule it cannot change is a plan it has had a month to wait for you at the end of."
+                },
+                {
+                  "x": "Distrust the bookseller's measurement — assume he, too, was a tool, and the window is dressed to herd you to the river.",
+                  "hint": "A frightened man who locks away an exact hour might be hiding a truth or planting one, and to doubt the measurement is to keep the one freedom the Healer's tidy schedule tries to take from you. But the wall really is thinning — you can feel it from here — and to talk yourself out of the only honest clock because honesty is suspicious is how a careful person reasons himself, on the last night, into being late."
+                },
+                {
+                  "x": "Set the window aside as fixed and spend your reading on the two clocks you can still move.",
+                  "hint": "Weather is not a thing you bargain with, and there is a hard wisdom in spending your attention only where attention changes the outcome — the domain and the succession. But to treat the window as settled is to stop watching the one clock that does not care about you, and the things that do not care about you are exactly the ones that arrive without knocking."
+                }
+              ]
+            },
+            {
+              "scene": "The registry page, the thirteenth line ruled and empty but for a date, turned to the lamp",
+              "prose": [
+                "The domain is the patient clock, and it frightens you in a different key. The registry rules the Thirteen into their columns — the holders, the registers, the dates a seat was taken and the dates a seat was lost — and twelve of the lines are full of names you have come to know this month as people, tired and weakening and holding, Watanabe going grey at the edges, Mori white-knuckled, the whole exhausted choir keeping the wall up by being something. The thirteenth line is ruled like the others and it holds nothing but a date: the year the lights went grey, the year the seat fell vacant, and then nothing, year after year of nothing, a column kept open by the simple bureaucratic fact that no one crossed it out. You have read enough of the bookseller's shelf now to know that an empty domain is not a hole in the wall. It is a chair at the wall, and an empty chair is a question the wall keeps asking.",
+                "This is the clock that has been running longest and moving slowest, and that is exactly why the Healer chose to be patient with it. A seat does not stay open; it waits, and waiting is not the same as forgetting; it waits for the two who can close it, and tonight, for the first time since the lights went grey, the two who can close it are both inside the city while the window is soft. The domain does not have a dawn line. It is older and quieter than dawn. But it has a condition, and the condition is met when a thing of the right register reaches the right place at the moment the wall can be written on — which is to say, the domain's slow clock has no hour of its own, and instead borrows the window's hour, and that is the trap folded inside the registry, the reason the page was on the locked shelf: the patient clock and the honest clock arrive together, tonight, at the seam, by design.",
+                "You hold the page to the lamp and let your registers come the rest of the way to halfway and you can almost feel the chair from here — not a metaphor, an actual cold spot in the shape of an absence over the river, a pressure like a held breath that has been held for eleven years and is, very slightly, beginning to let go. The Healer wants the seat; you have known that for two chapters now; what the registry tells you that the Healer's reasonable voice never did is what the seat wants. It wants to be filled by whoever is standing in front of it when the wall goes soft. It is not loyal to him. It is not loyal to you. It is a chair, and a chair takes whoever sits, and the only thing the patient clock is waiting for is for one of you to be closer to it than the other at the single hour all three clocks finally touch."
+              ],
+              "choices": [
+                {
+                  "x": "Decide the seat must be denied — that the night's whole work is to keep both of you out of that chair.",
+                  "hint": "An empty chair is a question and the cleanest answer to a question is to refuse it, and there is a version of tonight where you save everyone by making sure no one sits — but a vacant domain is a thinning wall, and to leave the chair empty is to leave the choir to keep dying slowly to hold a line that has a hole in it shaped exactly like a solution you refused."
+                },
+                {
+                  "x": "Decide the seat must be filled — and that the only question worth tonight is by whom.",
+                  "hint": "If the chair takes whoever is closest, then the night is a footrace and the prize is becoming the wall, and there is a terrible logic in choosing to win it rather than let the Healer — but to decide the seat must be filled is to decide, somewhere underneath, that you are willing to be the thing that sits it, and a thing that sits the wall does not come back down the embankment a brother."
+                },
+                {
+                  "x": "Refuse to decide the seat from the floor — carry the question to the river and let the night answer it.",
+                  "hint": "Some answers cannot be reasoned out on tatami in the grey hour and have to be met in the place they live, and there is honesty in not pretending you can choose the unchooseable in advance. But to carry the question unanswered to the seam is to arrive at the one place the Healer has prepared with the one decision it most wants you to still be making when it speaks — and an undecided man at a thinning wall is the easiest kind to decide for."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reading the Trajectory, continued — Which Clock Runs Fastest",
+          "status": "authored",
+          "summary": "Three countdowns cannot all reach the bottom of the hour together; the one that arrives first writes the ending, and you sit with each in turn to feel which is gaining.",
+          "beats": [
+            {
+              "scene": "Gin's handwriting, face-up after all, the leaning loops of the entries after the 14th",
+              "prose": [
+                "The succession is the cruel clock, and you have saved it for last because you knew that once you turned the page over you would not be able to read anything else. Here is your brother's hand across the month: the early entries upright and tired and his, the loops closed the way he has closed them since he was a boy learning to write his name small enough to fit the school forms; and then, after the fourteenth, the lean. Not a tremor. Not the shaking of a sick man's hand, which you could have grieved cleanly. A lean — a steady, deliberate, almost graceful drift of every downstroke a single degree off true, as though a second person with very good penmanship had begun, gently, to correct him. You do not need Kurosawa to read this body for you. You have read it in the cardigan and the way he says we and the two kinds of gladness in the same face. The handwriting only makes it a measurement.",
+                "And a measurement is a rate, which is the thing you have been refusing to compute all month. You put your finger on the fourteenth and your finger on tonight and you make yourself do the arithmetic of the lean — how far the loops have gone over in the days between, how much brother per day the Healer has been quietly subtracting, how much is left. It is the kind of sum a person does about a parent in a ward, the sum where the number is small and the units are unbearable, and you do it anyway because the whole night depends on knowing whether the succession is the clock that arrives first. If the seam between Gin and the thing wearing him closes before the window opens or the chair is filled, then there is no brother left at the river to save and the other two clocks are arguments about a body. If it closes after — if there is still, tonight, a degree of him that has not gone over — then the succession is the one clock you might still be able to slow with your bare hands.",
+                "You let your registers up and read the page the way only you can, both sides at once, and the lean tells you its rate and its rate tells you the one thing you wanted and dreaded in equal measure: it is gaining, and it is not finished. There is still a margin. Thin as the wall, soft as the ice, a hand's width of your brother not yet corrected — and the Healer knows it too, has always known it, has been so patient precisely because it is letting the succession run slow on purpose, keeping a little brother in reserve, because a little brother is the lure that keeps you coming to the river and an empty body is not. The cruelest clock is the one the Healer has its thumb on, slowing it, so that the bait stays fresh until the window and the chair arrive. You sit with your finger on the page and you understand that the margin of Gin you have left is being preserved to be used against you."
+              ],
+              "choices": [
+                {
+                  "x": "Resolve to spend the margin saving him — make slowing the succession the whole point of the night.",
+                  "hint": "If there is still a hand's width of brother, then a brother is a thing you fight for, and there is no version of you that walks to the river meaning to do anything else — but the Healer is the one holding that margin open, which means a night spent reaching for it is a night spent going exactly where the bait was set, on the schedule the bait-setter chose."
+                },
+                {
+                  "x": "Resolve to stop the wall and the chair first, and trust that saving them saves what is left of him too.",
+                  "hint": "There is a colder love that says the way to keep your brother is to deny the thing wearing him everything it came for, and let the man be freed by the demon's defeat rather than reached for directly — but if the succession is the clock that arrives first, then winning the other two and losing him is a victory you bring home alone, and you would have spent the night with your back to the only door that still had him behind it."
+                },
+                {
+                  "x": "Refuse to rank him against the others — treat all three clocks as one knot and cut none until the river.",
+                  "hint": "To love someone is to refuse the arithmetic that prices him against a wall, and there is a stubborn dignity in carrying all three clocks unranked to the seam rather than deciding in the grey hour which one your brother loses to. But a knot uncut is a knot the Healer gets to cut for you, in the order it prefers, at the moment it chooses — and the whole reason it left the succession running slow is so you would arrive still unwilling to choose."
+                }
+              ]
+            },
+            {
+              "scene": "All three pages in your sightline at once, the lamp guttering, the festival drums starting up across the ward",
+              "prose": [
+                "Now you do the thing you have been circling all night: you lay the three rates beside one another and let them be what they are, three clocks that cannot all reach the bottom of the hour together, because the bottom of the hour is one hour, the soft middle of the last night, and only one of them can get there first. The window opens tonight and shuts at dawn — fixed, honest, indifferent. The domain borrows that hour and will be filled by whoever is closest when the wall goes soft — patient, conditional, hungry. The succession is gaining and not finished and held deliberately open — cruel, slowed, baited. Three needles dropping toward the same number at three speeds, and the appalling clarity that has been waiting for you under the whole month's dread is this: whichever one resolves first does not just resolve itself. It forecloses the other two.",
+                "You can feel the shapes of it without naming them, the way you can feel a chord's resolution before the chord lands. If the window closes first — if dawn comes and nothing has been driven through the soft ice — then the wall heals on its own indifferent schedule and the chair is left asking and the brother is left at whatever degree he reached, and that is one kind of last night, the quiet kind, the kind where you win by being late to everything on purpose. If the chair is filled first — if one of you reaches it while the ice is soft — then the wall is written on before dawn can heal it and the succession becomes whatever the new wall needs it to be, and that is a different last night entirely, the kind that continues, the kind with a long game folded inside it or a refusal at its heart depending on who sat. And if the succession completes first — if the Healer's thumb slips or it decides the bait has done its work and lets the last degree of Gin go over before the window or the chair resolves — then there is no brother to weigh against anything, and the night becomes only about cost, about what you are willing to pay when the thing you were paying for is already spent.",
+                "The drums start across the ward, the slow Obon rhythm that the whole city has agreed means welcome home to the dead, and under your half-raised registers the second light comes up behind every sound the way it comes up behind every lantern, the held breath of the other side leaning close. You gather the three pages and square their edges and you do not pretend, anymore, that you are reading them. You have read them. You know which clocks are gaining. What is left is not analysis. What is left is the choice of which needle to put your hand on the moment all three touch the same hour at the seam — and the knowledge, cold and total, that to slow one is to let the others fall."
+              ],
+              "choices": [
+                {
+                  "x": "Name to yourself, now, which clock you will reach for first — and walk to the river already decided.",
+                  "hint": "A decided man at a thinning wall moves before the Healer can speak, and there is real power in arriving with your hand already chosen rather than choosing in the reach of the thing wearing your brother — but to decide on the floor is to decide without the river's information, and every plan you have made this month that survived contact with Gin's actual face has been a plan you were willing to break the instant you saw him."
+                },
+                {
+                  "x": "Refuse to name it and trust yourself to read the hour live, in the place, in his presence.",
+                  "hint": "The seam will tell you things the floor cannot, and there is wisdom in keeping your hand open until you can feel which clock is truly first rather than which you feared — but an open hand at the river is the one thing the Healer has prepared a whole month of reasonable arguments to fill, and a man reading the hour live is a man whose attention can be moved, and it has always moved in the moment your eyes went where they had to go."
+                },
+                {
+                  "x": "Decide that the only honest move is to refuse the foreclosure itself — to try to hold all three open past the hour.",
+                  "hint": "Everything in you rebels against an arithmetic where saving one is spending the others, and there may be a sliver of a night where refusing to let any clock land first is its own kind of answer — but three needles do not wait to be held, and a man trying to stop all three at the bottom of the same hour is a man with both hands full and no hand left for the one that the Healer drops first, on purpose, while you are busy with the others."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reading the Trajectory, concluded — The Foreclosure",
+          "status": "authored",
+          "summary": "To save one clock is to spend the others; you choose which last night you are walking toward, and the choosing closes the rest of the doors behind you.",
+          "beats": [
+            {
+              "scene": "The genkan, your shoes already on, the three pages folded into your inside pocket against your chest",
+              "prose": [
+                "You stand in the genkan with your shoes already on and the three folded pages over your heart, and the foreclosure stops being an idea on the floor and becomes a fact in your body, which is the only place ideas ever finally land. Here it is, plain: you cannot be at the seam and at the registry chair and at your brother's side at the same hour, because they are, by the cruelty of how this was built, the same hour, and a body is one body in one place, even a body that can feel both sides of a wall at once. To put your hand on the window is to take it off the chair. To reach for your brother is to leave the wall unread in the moment it can be written. There is no arrangement of the night where all your hands are where you want them, and the month-long dread you could not name was only ever this simple animal fact wearing the costume of complexity, because complexity is bearable and a single forced choice is not.",
+                "You think about the choir, the twelve tired holders keeping the wall up by being something, and how each of them, at the year the lights went grey, must have stood in a genkan like this with their own three pages folded over their own hearts, and chosen, and become whatever their choosing made them. Watanabe weakening. Mori white-knuckled. None of them got to hold every clock. That is what a seat costs and what a wall costs and what, you understand now, a brother costs: not the thing you pay at the river, which is loud and quick, but this — the doors you hear close softly behind you in the genkan as you decide which last night you are walking toward, the ones you will never get to find out were the right ones, because the foreclosure does not tell you. It only forecloses.",
+                "The drums are louder now and the grey is going to the particular blue that means the festival's last night has actually started, the dead are being welcomed home up and down the ward, and somewhere along the embankment your brother is already standing at the rail in his grey cardigan looking at a doubled river, glad you are coming in two ways at once. You put your hand on the door. Under your registers, the whole city is two cities a degree out of register, and you are about to walk into the seam between them carrying three clocks and one body and a margin of brother that is being kept open expressly to be used against you. You do not feel ready. You have stopped believing readiness was ever on the table. You feel, instead, the thing the bookseller's smallest letters were really about: not fear of the wall, but the terrible privilege of being the one person who can feel both sides of a closing door and has to choose, anyway, which side to be on when it shuts."
+              ],
+              "choices": [
+                {
+                  "x": "Walk to the river to save the wall — go toward the seam already meaning to refuse the chair its hour.",
+                  "hint": "There is a clean north in deciding the wall comes first, the choir comes first, the city of the living comes first — and to walk toward the seam meaning to deny the Healer its window is the choice with the fewest people in it and the most. But a man who has decided the wall before he sees his brother's face has already begun to spend the succession, and the door he hears close softest in the genkan is the one with Gin behind it."
+                },
+                {
+                  "x": "Walk to the river to reach your brother — go toward the rail meaning to spend the night on the margin of him.",
+                  "hint": "If there is still a hand's width of brother, then love says you go to the rail and not the chair and not the seam, and there is no version of you that could live with arriving and reaching for anything else first — but the Healer kept that margin open as bait, and to walk toward it knowing it is bait and going anyway is either the bravest thing you will do or the exact thing it built the whole month to make you do, and you cannot, from the genkan, tell which."
+                },
+                {
+                  "x": "Walk to the river having chosen nothing — carry all three clocks to the seam and let the hour force your hand.",
+                  "hint": "Some doors should not be closed in a genkan, in the grey, alone, on the strength of pages; some are owed the river before they shut — and there is a hard honesty in refusing to foreclose your brother or the wall or the chair until you stand where the choosing actually costs. But the hour will force a hand whether or not it is your chosen one, and a man who arrives undecided arrives as the easiest kind of man to decide for, and the Healer has been waiting a month at the end of exactly that walk."
+                }
+              ]
+            },
+            {
+              "scene": "The embankment path, the doubled river ahead, the last door of the apartment heard clicking shut behind you",
+              "prose": [
+                "You hear your own door click shut behind you and the sound is smaller than the thing it is, the way the important sounds always are, and you understand that this is the real foreclosure, not the river — this small click, the apartment with its three pages no longer laid out, the version of the night where you stayed in the grey hour reading and never had to choose now sealed away behind a sound a key makes. The path drops toward the embankment between the shut-up houses and the floating-lantern stalls closing down, and ahead of you the river is doing the thing the bookseller's most frightened letters promised: two banks where there should be one, two cities a degree out of true, the seam between them bright and soft and thinning toward the hour all three of your clocks have been falling toward since the year the lights went grey.",
+                "Everything you have read tonight resolves, here, into the simplest possible shape, which is a man walking toward a river he cannot reach in three places at once. The window will open and shut on its own honest schedule no matter what you do. The chair will take whoever is closest when the ice goes soft. And somewhere on that doubled embankment your brother is standing with a margin of himself held open like a hand, and the thing wearing him is glad, in its calm attentive way, that you have done your reading and come to the only place the reading could ever have sent you. The five last nights the bookseller's shelf hinted at — the continuation and the refusal and the long game and the cost and the quiet — are not five different stories. They are five doors off one embankment, and you are about to find out which ones close as you walk, and which single one is still open when you reach the rail.",
+                "You stop, once, at the turn of the path where you can see him — the grey cardigan, the rail, the two kinds of gladness already turning toward the sound of your shoes on the gravel — and you let your two suppressed registers come all the way up for the first time in a month, both sides at once, no half-measure, because half-measures are for reading and you are done reading. The city goes double and bright and unbearable and beautiful around you, the lanterns and their held-breath shadows, the wall and its soft thin wound, the brother and the Healer in the one body, and the three clocks touch, finally, the same hour. There is no more trajectory to read. There is only the next step onto the embankment, and the door it closes behind you, and the last night it leaves open ahead."
+              ],
+              "choices": [
+                {
+                  "x": "Take the step.",
+                  "hint": "Every door you did not choose closes the instant your foot lands, softly, behind you — and you will never be told which of them you should have walked through instead, because the foreclosure does not explain itself; it only happens, and then it is the only thing that ever happened, and the night becomes the one you are now inside of."
+                },
+                {
+                  "x": "Hold, one breath longer, at the turn — let yourself see all five doors still open before any close.",
+                  "hint": "There is a single held breath at the turn of the path where every last night is still possible at once, the continuation and the refusal and the long game and the cost and the quiet all standing open together, and it is the last moment of your life that will ever be true — but a breath held at a thinning wall is a breath the Healer is also using, and the hour does not pause for you to look at the doors, and the one who moves first on the embankment has always been the one who chooses which door the other is left standing in front of."
+                }
+              ]
+            }
+          ]
         }
       ]
     }
