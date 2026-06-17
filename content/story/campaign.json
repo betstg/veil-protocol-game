@@ -4444,8 +4444,120 @@
     {
       "title": "Kuroki's Favour",
       "giver": "Kuroki Tatsuo (organised crime)",
-      "status": "queued",
-      "hook": "A terrifying ally offers to find what you cannot. The finding is free. The owing is not. A favour from the man who truly runs a stretch of the city is a debt you carry into every later road."
+      "status": "authored",
+      "hook": "A terrifying ally offers to find what you cannot. The finding is free. The owing is not. A favour from the man who truly runs a stretch of the city is a debt you carry into every later road.",
+      "beats": [
+        {
+          "scene": "Kogane, the back room — the only door in Shinjuku that opens by being asked correctly",
+          "prose": [
+            "You do not call Kuroki Tatsuo. You let it be known, through Wada Sho — twenty-nine and loud where his boss is quiet — that you would be grateful for a few minutes, at his convenience, on a matter you cannot bring to the bureaus, and then you wait two days in the August heat for the convenience to arrive. When it does it is a folded slip pushed under the dorm door with a time and the name Kogane and nothing else, and you understand the lesson already, before the meeting: the man does not hurry, and the people who hurry him do not get second meetings. Obon lanterns sag over the Shinjuku alleys as you walk in, paper for the dead who are meant to come home gently this week, and the bar behind the unmarked door is cool and low-lit and smells of cedar and good whisky and the particular hush of a place where nobody writes anything down.",
+            "Kuroki is fifty-one and sits the way still water sits, iron-grey and expensively plain, and he does not stand when you enter and does not offer his hand, because both of those would cost him a degree of the distance he keeps as carefully as other men keep money. He pours you a finger of something amber without asking whether you drink, which is not generosity but a test — whether you will gulp it like a frightened man, or let it sit, or refuse it like a fool who thinks refusal is strength. <em>You're the one looking for a brother,</em> he says, and it is not a question, and you feel the small cold drop of realizing that he knew why you came before you said a word, that the asking-correctly was never about informing him, only about showing him you knew the shape of the thing you were entering.",
+            "You tell him only the edge of it — a person you need to find, a name that is in no file, someone Gin reached and you cannot. You do not tell him about the registers, or the handwriting, or the wall leaning north over Kita; you have decided on the walk over that the less he holds the less you owe, and he watches you decide it, and something almost like respect moves behind the flat patient eyes that are weighing exactly what you are worth to him. <em>I can find anyone in this city who is still in this city,</em> he says, turning his glass a quarter-turn on the cedar and no more. <em>The finding is free. I want you to hear that clearly, because people never do. The finding is free.</em> He lets the second half sit unsaid in the cool air between you, and you understand that the second half is the whole conversation."
+          ],
+          "choices": [
+            {
+              "x": "Let the whisky sit untouched and meet his patience with your own — answer only what he asks.",
+              "hint": "Matching a still man's stillness is the one form of respect he can't buy, and it buys you standing. But it also tells him you've done this before, or learned fast — and a man who reads people for a living will wonder where, and start pulling that thread."
+            },
+            {
+              "x": "Give him one true detail about Gin to prove you're not wasting his time.",
+              "hint": "A man this careful funds favours with information, and a real detail is the cheapest down-payment you have. It is also the first thing he keeps — and what Kuroki keeps about your brother becomes a lever he owns over both of you, forever."
+            },
+            {
+              "x": "Ask him plainly what the owing will be before you accept the finding.",
+              "hint": "Naming the price up front feels like prudence, and he won't punish the question. But he despises desperation, and a man who needs to see the bill before he eats has shown which of you is hungrier — and the hungrier man always pays more."
+            }
+          ]
+        },
+        {
+          "scene": "Three days, and an address that the CVD has spent four months not finding",
+          "prose": [
+            "It takes three days, which is itself a kind of message — fast enough to prove the reach, slow enough that you cannot mistake it for luck. Wada brings it himself, to a noodle counter near the dorm, sliding a single torn corner of paper across the laminate with the studied carelessness of a man who has watched too much of his boss and not yet earned the stillness: an address in a ward you would not have searched, a floor, a name spelled the unusual way, and the detail that closes your throat — <em>she still answers to it Tuesdays and Thursdays, mornings.</em> The person Gin reached and you could not. Four months the bureaus filed her as gone or never-was, and a man with no veil sight and no registered rank produced her in three days, over whisky, for free.",
+            "You go. She is real, and old, and frightened in the particular way of people who have already been found once by someone they did not want finding them, and the conversation you have with her is the conversation this entire mission was for — but it sits oddly in your chest afterward, because the finding was so clean. No bribed clerk left a smear you could see, no Grid favour came due, no register flared. It was as if Kuroki had simply asked the city where she was and the city, which lies to the CVD and stonewalls the Grid, had answered him plainly, the way the dead are said to answer plainly on Obon nights to anyone who knows the right form of the question. You think of the line in his file you were not supposed to read — <em>he brushed the veil and does not know it</em> — and you think about how a man might come to find people no one else can find, and never once wonder why it is so easy for him.",
+            "That night you cannot sleep for the smallness of what you got and the size of what you suspect you spent. The favour is delivered, complete, free, exactly as promised, and that is precisely the problem: a debt you can see the bottom of is one you can pay, but Kuroki has handed you something with no visible price tag and no due date, which means the price is whatever he decides it is, whenever he decides it, and the only thing you know for certain is that he will decide it at the moment it costs you most and him least. You have what you wanted. You have no idea what you have given to get it, and the not-knowing is the interest, compounding in the dark."
+          ],
+          "choices": [
+            {
+              "x": "Go back to Kuroki at once and offer something of your own value, to set the debt's size before he does.",
+              "hint": "An unbounded debt is the worst kind, and forcing a number turns it from a hook into a transaction. But you'd be naming your own worth to a man who prices people for a living — and he will accept your number only if it is lower than what he'd have asked."
+            },
+            {
+              "x": "Say nothing, take the win, and resolve to never need him again.",
+              "hint": "The cleanest debts are the ones never added to, and walking away now caps your exposure at one favour. But Kuroki's reach is the only reach that found her in three days, and the roads ahead have doors that open for no one else — you may be promising a sacrifice you can't afford to keep."
+            },
+            {
+              "x": "Quietly start learning how Kuroki finds people — whether the city answers him the way the veil answers you.",
+              "hint": "If he is brushing the veil unknowing, that knowledge is leverage no one else holds over the most dangerous human in the book. It is also the single fact that could get you buried, because the one thing a man who never raises his voice cannot forgive is being read."
+            }
+          ]
+        },
+        {
+          "scene": "The small return — a favour so reasonable you almost don't notice it is the hook setting",
+          "prose": [
+            "The call comes the following week, and it is Wada's voice but Kuroki's economy, and the ask is so small that you say yes before you have finished hearing it — which is, you realize a beat too late, exactly the design. There is a man, a registered medium of no consequence to you, who has a reading scheduled at an Adachi intake office on Thursday; Kuroki would consider it a kindness if you happened to be in the waiting room at that hour, and afterward simply told Wada what mood the man left in. Nothing more. No lie to tell, no door to open, no harm to do — only to sit in a chair you might have sat in anyway and notice a stranger's face. You hear yourself agreeing and you hear, underneath, the awful familiarity of it, because this is Yushiro's grammar exactly: the reasonable favour, the cost deferred, the help that is help right up until the day you count what you have become by helping.",
+            "You go to the Adachi office on Thursday and you sit under the sagging Obon lanterns at the intake desk and you watch the man come out of his reading, and his face when he comes out is the face of someone who has just been told something true and unbearable, and you carry that face back to Wada in four flat words because that was the deal. It is only walking home that you assemble what you actually did: you confirmed, for organised crime, that a particular man's assessment went deep on a particular Thursday, which means Kuroki now knows which of his people are being read past the safe surface and which are not, which means you have just handed a man with no veil sight a way to manage the one part of his world he could never before see into. The favour was free to do. What you owed was not in the doing. It was in becoming, for an afternoon, his eyes inside a room he is not allowed to enter.",
+            "You understand now why he said <em>the finding is free</em> twice. The finding was always free. You were never going to pay for the address; you were going to pay by being, from that day, a person Kuroki Tatsuo can ask small reasonable things of, each one clean, each one nothing, each one building the next, until one day the small reasonable thing is not small and you discover the debt was never a sum to be cleared but a leash to be lengthened. And the worst of it, the part that keeps you at the window long after the lanterns have guttered, is that he is doing to you precisely what Yushiro is doing to your brother — and you walked into it with your eyes open, for a name, and you would, you suspect, do it again."
+          ],
+          "choices": [
+            {
+              "x": "Do exactly what was asked, report the four words, and accept that you now owe in a currency that compounds.",
+              "hint": "Refusal this early would cost you the only reach that can find what the roads ahead require, and the favour truly was nothing. But each clean small yes is the rail the next one runs on, and you have just learned that you cannot feel the slope until you are already sliding down it."
+            },
+            {
+              "x": "Report it — but lie about the man's mood, and learn what it costs to feed Kuroki something false.",
+              "hint": "A single controlled lie tells you how closely he checks, and whether you can ever steer what he knows. But he is patient, thorough, and final, and a lie discovered is not punished loudly — it is filed, and waited on, and collected at the hour it ruins you."
+            },
+            {
+              "x": "Go to Kuroki and refuse outright — tell him you'll pay any price but won't be his eyes inside the veil's rooms.",
+              "hint": "Drawing the line now, while the debt is small, is the only moment refusing is survivable. But you would be telling the most dangerous human in the city that you see what he's building and won't serve it — and men like him don't keep people who've seen the shape of the leash and slipped it."
+            }
+          ]
+        },
+        {
+          "scene": "The rival who vanished — and the thing on Kuroki you can see and he cannot",
+          "prose": [
+            "You meet him a third time because you ask to, which changes the weather of the room; a man who comes when summoned is staff, but a man who summons is something Kuroki has to weigh, and he weighs you over the same amber whisky in the same cool cedar hush and waits for you to spend the standing you just bought. You spend it on a question that has been turning in you since the address came so clean: you ask, carefully, about a rival of his from some years back, a name you turned up in the grey-economy gossip, a man who was a genuine problem to Kuroki and then one ordinary Tuesday was simply not anywhere, not dead in any way the police could find, not fled in any way his own people could trace — just gone, the way a word is gone from a page that someone has decided to stop having written. Kuroki's face does not change, because it never changes, but his glass goes still on the cedar and does not turn its quarter-turn, and you have your answer in the stillness.",
+            "Because you are looking with the registers half-up — you let them rise, here, in this room, which you have spent your life not doing — and you can see it on him, faint and old and entirely unconscious: a thinness in the air around the man, a place where the veil has been brushed so many times it no longer fully closes behind him, the residue of a lifetime of wanting people gone badly enough that the membrane, leaning and tired and thinned from the north, has more than once simply obliged. He does not know. That is the vertigo of it — the most dangerous human in the book, who runs vice and laundering across half a dozen wards and has buried problems patiently for thirty years, has been doing something far older and far worse than crime without the faintest idea, finding the lost because some unsealed part of him asks the same place the dead come home through on Obon, unmaking his enemies because the wall that should stop a civilian doing that leans, these days, toward Kita and does not always hold.",
+            "And now you are the only person alive who can see it, sitting across a low table from a man who is courteous and economical and final, holding the one fact about him that he himself does not possess — and you feel the whole mission invert in your hands. You came to him for what only he could find. You are leaving with something only you can see: that Kuroki Tatsuo is a door the membrane uses, an unregistered breach in the shape of a quiet man with good whisky, and that whoever is thinning the wall over Kita has, in him, a tool that walks and talks and answers to no register because no register has ever caught him. The question is no longer what you owe him. The question is whether you tell him what he is — and what a man like that does with the knowledge that he has, all his careful life, been someone else's open window."
+          ],
+          "choices": [
+            {
+              "x": "Tell him the truth — that he brushes the veil, that the vanishings were his, that something is using the door he is.",
+              "hint": "He is the most powerful unwitting asset on the board, and a Kuroki who knows what he is might be turned against the thinning instead of feeding it. But you would be handing a man with no conscience about burying people the knowledge that he can do it without a body, a trace, or a law that reaches him — and gratitude is not in his currency."
+            },
+            {
+              "x": "Say nothing, finish the whisky, and carry the fact out of the room as the most dangerous thing you now know.",
+              "hint": "Knowledge he doesn't have is leverage you keep, and an unwitting door is one you might learn to watch, or close, on your own terms. But you would be leaving an open breach over Kita untended and unwarned, in the hands of a man you owe — and secrets this size do not stay yours; they only wait for the worst possible mouth to spill them."
+            },
+            {
+              "x": "Tell him only that his finding has a cost he can't see, and offer to be the one who watches it for him.",
+              "hint": "Half the truth makes you indispensable instead of expendable, and binds him to you the way he has bound you to him — at last, a debt that runs both ways. But you'd be volunteering to stand between organised crime and a thinning wall, owing and owed in the same breath, and a man who keeps his Saturdays ruthlessly clean will not love the person who tells him his work was never only his."
+            }
+          ]
+        },
+        {
+          "scene": "What you carry out of Mejiro — the debt that follows you down every road",
+          "prose": [
+            "However it ends in the cedar room, you walk out of Kuroki's reach changed in a way the bureaus and the Grid never managed, because they wanted things from you that ended when the thing was done, and Kuroki wanted only the standing arrangement of being able to want things later. The address bought your conversation with the frightened old woman; that part is closed, complete, paid for in a currency you are still tallying. But the rest of it — the Thursday in the Adachi waiting room, the four flat words, the half-up registers in a yakuza lieutenant's back room — has woven you into the grey underside of the city in a way you cannot unpick by deciding to, and you understand, walking out under the last sagging Obon lanterns of the week, that this is what owing him means: not a sum, but a door in your own life that he can now open whenever the season suits him.",
+            "And the roads ahead all run past that door. Whatever path you take toward Gin from here — the Tower's polished help, the Directorate's badged certainties, the Grid's unlit favours, the long way that trusts only your own eyes — there will come a night when the official channel stalls, when the name you need is in no file, when only a man in Mejiro with good whisky can find what stands between you and your brother, and on that night the debt will be there, patient, exactly where you left it, and the price will have quietly grown. You went into Kuroki's reach to find one person. You came out carrying organised crime in your pocket like a key you cannot throw away, because the one lock it opens is the one you cannot yet afford to leave shut.",
+            "You stand a long moment at the mouth of the Mejiro street where the discreet house keeps its clean Saturday face to the world, and you think about your brother and the reasonable favours that are eating him from the inside, and about the favour you just took and the favours you just gave, and how thin the line is — how it was never a line at all, only a slope you could not feel until you were on it. The lanterns gutter. The dead are meant to go gently back this week, the way they came. You turn toward the trains, owing a man who never raises his voice, knowing exactly one thing for certain about the road from here: you will need him again, and he knows it, and that knowing is the whole of the debt, compounding quietly in the dark behind you all the way home."
+          ],
+          "choices": [
+            {
+              "x": "Resolve to clear the debt fully before you need him again — and start looking for what he'd accept as payment in full.",
+              "hint": "A debt cleared on your terms is a leash cut while it's short, and looking now means looking while you can still choose. But Kuroki prices things, and a man who comes asking to be free of him has told him exactly how much that freedom is worth — which is to say, more than you have."
+            },
+            {
+              "x": "Accept the debt as a tool, not a wound — keep the door, and decide you'll spend it only on Gin.",
+              "hint": "A reach this rare is worth owing if you spend it on the one thing that matters, and pretending otherwise is how people waste it. But every road has a night that argues the rule is worth bending just once, and the man on the other side of the door has spent thirty years being patient with exactly that argument."
+            },
+            {
+              "x": "Carry it unresolved — let the debt stay open, and the door, and walk the roads knowing both are at your back.",
+              "hint": "Some leverage is only useful while it's unspent, and an open door is one you haven't yet had to pay to walk through. But unresolved is also unguarded, and a debt you keep choosing not to settle is one that settles itself, eventually, in the season that suits the lender and ruins the owed."
+            }
+          ]
+        }
+      ]
     }
   ],
   "romances": [
