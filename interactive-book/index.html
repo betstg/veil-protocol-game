@@ -599,6 +599,25 @@ em { color: var(--text-dim); font-style: italic; }
   text-align: center;
   padding: 2rem 0 0.5rem;
 }
+
+/* ── Loading state ── */
+.loading-state {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.error-state {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--blood-bright);
+  text-align: center;
+  padding: 3rem 1rem;
+}
 </style>
 </head>
 <body>
@@ -618,1087 +637,704 @@ em { color: var(--text-dim); font-style: italic; }
   <button class="tab-btn" data-tab="system" role="tab" aria-selected="false">The System</button>
 </nav>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 1: ARCHIVE -->
 <section class="tab-panel active" id="tab-archive" role="tabpanel">
-<div class="content">
-
-  <div class="intro-block">
-    <p>These are Gin's field notes. The writing is clean until the fourteenth entry. After that the handwriting changes. If you are reading this because something has happened to him, treat everything after the fourteenth as sensitive.</p>
-    <p>Read the Archive in order.</p>
-  </div>
-
-  <div class="section">
-    <h2>Field Notes on Grounding Objects</h2>
-
-    <div class="card card-accent">
-      <div class="prose-block">
-        <p>A grounding object accumulates frequency signature over time. How much depends on how long you carry it and how much you have gone through while carrying it.</p>
-        <p>Years one and two, the signature is low. A practitioner at CL Level 4 or above can read the basic emotional register of the owner with focused effort. Not operationally sensitive.</p>
-        <p>Years three through five, the signature reaches moderate. CL Level 3 can access major emotional events in the practitioner's history. Ability type and approximate level become detectable. At this stage the object is beginning to constitute an intelligence risk.</p>
-        <p>Six years and beyond, the signature is high. CL Level 2 can read a full practitioner profile at contact range. Rank estimate possible. Network connections implied. A grounding object carried for six or more years is a complete intelligence document in object form.</p>
-      </div>
-      <div class="quote-attr">This is why experienced practitioners do not leave their grounding objects in the field.</div>
-    </div>
-
-    <div class="card">
-      <div class="prose-block">
-        <p>The keychain I carry has been in my possession for six years.</p>
-        <p>Rei now has the spare.</p>
-        <p>If something has happened to me, treat it as sensitive material.</p>
-      </div>
-    </div>
-
-    <h3>Soul-Vessels</h3>
-    <div class="card card-teal">
-      <div class="prose-block">
-        <p>When a spirit chooses the object instead of the Font.</p>
-        <p>Every spirit that crosses has the same moment. The membrane opens. The Font is there. What the Font offers is completion — dissolution into the structure, the specific peace of no longer having to be a self. Most spirits take it. Most spirits do not understand there is another option.</p>
-        <p>The option is this. At the moment of crossing, a spirit can choose an object instead of the Font. Not any object. An object they loved, or one that loved them back through the hands of someone they cared about.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>What I Carry — Field Notes on Symbol Work</h2>
-
-    <div class="card card-accent">
-      <div class="prose-block">
-        <p>I carry six prepared configurations at any time. Three containment variants. I adjust which three depending on the expected entity type. One banishment. One communication, for the spirit encounters where talking is the right approach. One that I developed myself in year four, a slow-acting disruption configuration, which I keep having to re-explain to Grid contacts who find it on me because it does not look like anything in their standard reference.</p>
-        <p>I prepare everything in advance. I have never successfully prepared a configuration in the field under active threat. I have tried twice. Both times I used what I had already made, and both times the situation resolved or did not resolve on the basis of what was already in my kit, not what I attempted to draw while something was actively trying to get into my perimeter.</p>
-        <p>Prepare in advance. This is the only advice on symbol work that matters before you learn the rest.</p>
-        <p>The configuration I use most often is the threshold ward. I have a standard set pre-drawn and folded in the left front pocket of every bag I own. I replace them weekly whether or not I have used them because I do not want to reach for one and find it degraded.</p>
-        <p>The most powerful thing I carry is the exorcism circle, in five parts, sealed separately. I have used it once in six years. I prepared for it for three months before the operation. The preparation made the difference.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Skin Glyphs — Permanent Activation Warning</h2>
-
-    <div class="warning-block">Full documentation. Read before any permanent application.</div>
-
-    <div class="card card-blood">
-      <div class="prose-block">
-        <p>Every glyph in the glyph dictionary can be tattooed on skin. The ink substrate works. The configuration is permanent. This is where the comparison with paper glyphs ends entirely.</p>
-      </div>
-      <table class="system-table" style="margin-top:1rem">
-        <thead>
-          <tr>
-            <th>Type</th>
-            <th>State</th>
-            <th>Activation</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Paper glyph</td>
-            <td>Dormant until used</td>
-            <td>Activated by intent. Off until you turn it on.</td>
-          </tr>
-          <tr>
-            <td>Skin glyph (untrained)</td>
-            <td>Always active</td>
-            <td>Interacting with the membrane continuously. No off switch.</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="prose-block" style="margin-top:1rem">
-        <p>In high-entity environments, the skin glyph responds to entity presence automatically, activating fully without the practitioner choosing it. In emotionally intense situations, skin glyphs can surge. A practitioner with an untrained Restraining Circle tattoo who experiences acute emotional distress may spontaneously activate a full containment field around themselves. This traps them inside their own glyph.</p>
-        <p>The cascade risk. Multiple skin glyphs interact. Two glyphs that function correctly in isolation create interference when both activate simultaneously. The anti-possession glyph and the Banishment glyph tattooed on the same person will attempt to fire together in a possession event. The containment effect and the expulsion effect conflict at the point of activation, producing neither correctly and costing the practitioner full backlash from both.</p>
-        <p>This is not theoretical. The Grid has documented cases.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>The Field Kit</h2>
-
-    <div class="card">
-      <h4>Location</h4>
-      <p>Tanizaki safe house, third cabinet. Ask before using.</p>
-      <h4>The Object</h4>
-      <div class="prose-block">
-        <p>A leather field surgery kit from the 1920s, containing instruments in original configuration. Belonged to a practitioner-medic who died in the 1923 Kanto earthquake performing Psychometabolism-level emergency stabilization on thirty-seven people in six hours, until she ran out of stability.</p>
-        <p>The instruments remember the work.</p>
-      </div>
-      <h4>What It Does</h4>
-      <div class="prose-block">
-        <p>Opening the kit stabilizes every living consciousness in the room. Practitioners, civilians, partially possessed hosts. Twenty points. Immediate. Does not discriminate between who should be stabilized and who should not.</p>
-        <p>Entities in partial-physical form in the room also stabilize. An entity that is actively destabilizing gets a reprieve. This has been used to negotiate with entities mid-clearance. It has also been used to keep possessed hosts alive long enough for an exorcism to reach them.</p>
-      </div>
-      <h4>The Cost</h4>
-      <div class="prose-block">
-        <p>Stabilizing the entity stabilizes it. A clearance operation that uses the kit to keep the host alive also makes the clearance harder. The entity is no longer at the depletion point where it would otherwise be vulnerable. Choose carefully.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading archive...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 2: CHAPTER ONE -->
 <section class="tab-panel" id="tab-chapter1" role="tabpanel">
-<div class="content">
-
-  <div class="section">
-    <h2>Opening — 3:47am</h2>
-
-    <div class="card card-accent">
-      <div class="prose-block">
-        <p>3:47am. The kitchen light is on and Gin is not in it.</p>
-        <p>You find the keychain on the walkway outside. The spare key on the hook beside the door — the one he has had for six years, that you have not touched, that you have been pretending is just a key — is gone. He left the Archive open on the table.</p>
-        <p>You do not know if he meant for you to find it or if it was open when he left.</p>
-        <p>You read the first page. Then the second. Then you understand what you are holding.</p>
-        <p>Gin kept records. Twenty-eight years old, Vanguard-grade, and he kept records of everything — the cases, the contacts, the things the CVD was not supposed to know about, the things the Grid would not put in writing. Six years of notes in a handwriting that is very clean until the fourteenth entry.</p>
-        <p>You pick up the keychain. You go outside.</p>
-        <p>There are five roads from here.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>The Oji Overpass</h2>
-
-    <div class="card">
-      <div class="prose-block">
-        <p>The city at 4am is not empty. It is just a different city. The konbini on Showa-dori, the salaryman standing outside it with the cigarette that is his only breathing room. The bikes chained to the overpass rail. The sound of the Kanda river running under Oji station.</p>
-        <p>You stand on the overpass. The air here has a quality to it that the street did not. Something in the membrane, close to the surface. The thin spot under the southbound platform is documented in Gin's notes, Class E, stable since 1998. You can feel why he documented it. Even standing here it is possible to understand that this is a place where something could pass through if conditions were right.</p>
-        <p>They are not right tonight. Tonight it is just air. But you feel the potential of it.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>The Lingering</h2>
-
-    <div class="card card-teal">
-      <div class="prose-block">
-        <p>The old man at the overpass railing. White hair, canvas jacket that should be too cold for this. He is not cold. He has not been cold for a long time.</p>
-        <p>He is looking south. Not at anything specific. The direction of something that was once south of here and is not anymore.</p>
-        <p>If you have the ability, you can feel what he is. A D-grade lingering. Not dangerous. Barely present. He is so much of what he always was that he simply continued, the way some things continue past the point when they should stop, not from force but from habit.</p>
-        <p>You have the choice to help him or leave him. If you help him, he looks at you. He does not speak, but his face does something that means something to you, something about being seen at 4am when you did not know you needed it.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>The Five Roads</h2>
-
-    <div class="quote-block">
-      There are five roads from the overpass. You do not have to take all of them. You may not have the time to take all of them. But each one leads somewhere Gin went, and each one will tell you something about what has happened to him. The thing they will not tell you is where he is now. That is something you will have to find yourself, at the end, when you know enough to know where to look.
-    </div>
-
-    <div class="road-card">
-      <div class="road-name">Road One — The Grid</div>
-      <div class="quote-block">
-        You open the book to the back, where Gin keeps the names not in any record. The Grid. Start here and you start as no one... and no one is who the Grid trusts.
-      </div>
-      <div class="prose-block">
-        <p>The Grid operates in Sanya and Minami-Senju. You go to Tanizaki's back room. The choice here is whether you trust Tanizaki with information about Gin or go to The Gathering without his name attached. Either way you will see what the Grid knows about the disturbance in Kita. Either way someone will mention the man with the wrong shadow.</p>
-        <p>The CVD sweeps here while you are in the building. If you have not yet established a reason to be somewhere else, you will need to choose a side quickly.</p>
-        <p>Key discovery. Someone in the Grid noticed Gin's handwriting changed after the fourteenth entry. They stopped meeting with him after that. They did not report it. They are the only witness you will find who made the right call too late.</p>
-      </div>
-    </div>
-
-    <div class="road-card">
-      <div class="road-name">Road Two — The CVD</div>
-      <div class="prose-block">
-        <p>CVD Headquarters is in Marunouchi. Okada Shizuka has been waiting for four years for you to walk in. She has information she has been legally prohibited from sharing and a case file flagged to one high office, Hagiwara Mizuki's office, with a standing order she will not explain.</p>
-        <p>The contained asset floor. There is something on that floor that should not be containable. The people running the operation know it. They have been running it for three months and they are running out of reasons it is still working.</p>
-        <p>Key discovery. The CVD has been waiting for Gin's brother to come looking. The standing order predates Gin's disappearance by six years.</p>
-      </div>
-    </div>
-
-    <div class="road-card">
-      <div class="road-name">Road Three — Kuroda Itsuki</div>
-      <div class="prose-block">
-        <p>Kuroda Itsuki is at the Geidai studio at 4am because he is always at the studio at 4am. He sees something wrong on you the moment you walk in. Not wrong like threat. Wrong like a painting where the light source is impossible. He cannot stop looking.</p>
-        <p>The Kuroda compound in Nezu. Old family, Tower-adjacent, the kind of people who have been watching this city for so many generations that the watching has become structural. They know about the Thirteen in the specific way powerful families know things they have decided are useful to know.</p>
-        <p>The painting that is a door. What the Kuroda truly fear is not a demon. What they fear is a vacant seat being filled by someone they did not choose. That is a different kind of threat, and it is the one Itsuki will spend the rest of this road being afraid to tell you about.</p>
-      </div>
-    </div>
-
-    <div class="road-card">
-      <div class="road-name">Road Four — The Reach</div>
-      <div class="prose-block">
-        <p>You reach for the thing you are not supposed to do. The room tilts. For half a second you feel the cold of the key and a hand that set it down, a fear not yours... then it is gone and your head is ringing. Minus twelve stability.</p>
-        <p>Clairsentience in the flat. Reading your own reach. You were not supposed to be able to do this. Whatever the CVD file says about your abilities, whatever Gin told them, whatever you believed about yourself until tonight — the key is Gin's and you felt him set it down and what he was feeling when he did and it was not fear of the thing following him. It was something more complicated than fear.</p>
-        <p>The Thirteen's offer. They have been watching the succession line for nine years. They know what Rei is. The offer is this. Let them help. The cost of the offer is that you understand what you actually are before you are ready to.</p>
-        <p>Refusing with Gin's key. You take the key and walk north. The Axis-pull makes sense now in a way it did not before.</p>
-      </div>
-    </div>
-
-    <div class="road-card">
-      <div class="road-name">Road Five — The City at Night</div>
-      <div class="prose-block">
-        <p>4am city walk. Suzuran bar in Ni-chome. Kaneda Toru has been open since before the district was safe to be open in. He has seen every kind of person the city produces at 4am and he does not ask you why you are here. He pours something and you sit at the bar and he does not fill the silence.</p>
-        <p>The old man on the way home. The one you either helped at the overpass or passed. If you helped him, something in the district knows you were here. Not a threat. A witness. The dead in Kita know Gin, and one of them has just decided they know you.</p>
-        <p>The riverbank at Obon. The dead are facing north. All of them, every lingering presence in the district, oriented toward the same point. Not the Font. Something else. A pull that should not exist.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading chapter...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 3: CHARACTERS -->
 <section class="tab-panel" id="tab-characters" role="tabpanel">
-<div class="content">
-
-  <p class="label" style="margin-bottom:1.2rem">Click any card to expand. Tap again to collapse.</p>
-
-  <div class="char-grid" id="charGrid">
-
-    <!-- REI -->
-    <div class="char-card" data-id="rei">
-      <div class="char-name">Rei</div>
-      <div class="char-role">The Player Character</div>
-      <span class="char-tag tag-key">Protagonist</span>
-      <span class="char-tag tag-key">Succession</span>
-      <div class="char-details">
-        <div class="prose-block">
-          <p>Multi-spectrum practitioner line. Actual rank Arbiter approaching Vanguard. Presented in every official record as D-rank. The CVD instruments read her true capacity as noise.</p>
-          <p>Gin's sibling. The succession the demon's entire strategy exists to prevent. Rei is the person Domain XIII has been waiting for since 2009 without knowing what shape they would arrive in.</p>
-          <p>The heir the demon feared is the player. This is the last thing the player discovers.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- GIN -->
-    <div class="char-card" data-id="gin">
-      <div class="char-name">Gin</div>
-      <div class="char-role">Twenty-eight. Vanguard. Missing.</div>
-      <span class="char-tag tag-key">Central</span>
-      <div class="char-details">
-        <div class="prose-block">
-          <p>174cm, lean build. Eyes described as attentive. Actual grade 6d6 Vanguard. Filed as 3d6 Ritualist. Suppression skill at Level 4.</p>
-          <p>The best suppressor in Northern Tokyo. Keeps records of everything the CVD was not supposed to know and the Grid would not put in writing. The handwriting in the Archive is clean until the fourteenth entry. After that it changes.</p>
-          <p>Gin is not a cage to be broken. He is a person being slowly out-argued by something that sounds like his own conscience. He did not go because he was taken. He went because he was reached, for someone he loved. The brother was not taken but reached.</p>
-        </div>
-        <div class="quote-block">If I stop writing, read the Archive in order. Don't trust my handwriting after the 14th.<div class="quote-attr">Cap, Gin's voice</div></div>
-        <h4>Quest Thread — The Handwriting After the 14th</h4>
-        <div class="prose-block">
-          <p>Read Archive in order. Reach Gin in a lucid window — those windows are shrinking. Separate Gin's real intentions from Yushiro's borrowed ones. The stages collapse once the window closes for the last time.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- YUSHIRO -->
-    <div class="char-card" data-id="yushiro">
-      <div class="char-name">Yushiro</div>
-      <div class="char-role">Tachibana Yushiro. Duty Register. Top-Grade.</div>
-      <span class="char-tag tag-antagonist">Antagonist</span>
-      <span class="char-tag tag-entity">Entity</span>
-      <div class="char-details">
-        <div class="quote-block">&mdash;<div class="quote-attr">Cap. There is no opening line because the opening line is always someone else's.</div></div>
-        <div class="prose-block">
-          <p>Surface name. None. Goes by Gin's name, in Gin's voice. True name Tachibana Yushiro. That name is revealed only at the campaign's end.</p>
-          <p>Presents as the most reasonable man in the room. Every decision it advocates for is correct in isolation. The aggregate is catastrophic.</p>
-          <p>Its plan is to thin the Kita membrane until the 2011 dead flood through at once. A district would die in a night and Yushiro would feel only that an obligation had been met.</p>
-          <p>Goal. Not to take Domain XIII. To prevent the succession from activating. A resolved XIII expels Yushiro. This is the thing the campaign must lead the player to understand before the final confrontation.</p>
-        </div>
-        <h4>Quest Thread</h4>
-        <div class="prose-block">
-          <p>Map who Gin has helped since the fourteenth entry. Find the rite that fixes a crosser into a vacant register. Decide whether a fixed Yushiro is a bulwark or a worse throne.</p>
-        </div>
-        <div class="warning-block">True name mechanic. Spoken by someone its vessel loves, the name anchors Yushiro. This is the lever Rei does not yet know she holds.</div>
-      </div>
-    </div>
-
-    <!-- KISHIN -->
-    <div class="char-card" data-id="kishin">
-      <div class="char-name">Kishin</div>
-      <div class="char-role">Fukai Rinka. Far-Shore Circle. Top-Grade Despair.</div>
-      <span class="char-tag tag-antagonist">Antagonist</span>
-      <div class="char-details">
-        <div class="quote-block">Kanna-sensei sees you. Sit. Drink the tea.<div class="quote-attr">Persona voice</div></div>
-        <div class="prose-block">
-          <p>A soft-spoken teacher who gathers the lonely. The room hushes around her. Oatmeal cardigan over a cream blouse, a thin cord necklace. The Far-Shore Circle is her cult — hollowed members placed across the Grid and CVD before anyone understood what they were looking at.</p>
-          <p>Consumed host. Top-grade Despair demon. Wants to become the Inverted God, the dark mirror of the Axis. Not a bureaucrat. A mirror for Gin — another good person worn like a coat, except no brother is coming to read this one's Archive.</p>
-          <p>Hollowed members carry a specific resonance detectable at CL Level 3 or above. The network is the infrastructure, not the members themselves.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- USAMI / REN -->
-    <div class="char-card" data-id="usami">
-      <div class="char-name">Usami Hinata &amp; Ren</div>
-      <div class="char-role">Contractor and Entity. Love Register. Class-C.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <span class="char-tag tag-entity">Contract Pair</span>
-      <div class="char-details">
-        <div class="quote-block">Two of us in here. He does the talking; I do the wanting.<div class="quote-attr">Usami's cap</div></div>
-        <div class="quote-block">Love isn't soft. It's the hunger to be known.<div class="quote-attr">Ren's cap</div></div>
-        <div class="prose-block">
-          <p>Two intelligences that have stopped being able to find the seam between them. Usami Hinata contracted with Ren, a Class-C entity of the Love register. They are living proof the contract can be survived. Barely. Conditionally. Lovingly.</p>
-          <p>The relationship between them is the clearest demonstration in the setting of what a functioning contract looks like. It is not safe. It is not clean. It is two people who chose each other and kept choosing.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- KURODA ITSUKI -->
-    <div class="char-card" data-id="itsuki">
-      <div class="char-name">Kuroda Itsuki</div>
-      <div class="char-role">20. Geidai. Unregistered by Choice.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">Hold still. The light on you is wrong and I want to fix it.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>Geidai student. Tower-adjacent bloodline — Kuroda family, long watchers of this city, the kind of powerful that stops needing to announce itself. Unregistered by choice. The CVD does not know what he is because he has declined to tell them.</p>
-          <p>Cocky on the surface, genuinely observant underneath. He sees wrongness on people — the residue, the signature change, the thing that has attached. He noticed it on you before you opened your mouth. He has been trying to figure out if he should say something since you walked in.</p>
-          <p>What the Kuroda truly fear is not a demon. It is a vacant seat being filled by someone they did not choose. Itsuki is the one who finally tells you this, at the point when not telling you is more dangerous than the telling.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- DAIKI -->
-    <div class="char-card" data-id="daiki">
-      <div class="char-name">Daiki</div>
-      <div class="char-role">Best Friend. Gloriously Ordinary.</div>
-      <div class="char-details">
-        <div class="quote-block">Text me when you're alive. That's the deal.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>No abilities. No practitioner lineage. No interest in acquiring either. He knows something is wrong with Gin because he has known both of you long enough to know what right looks like, and what he has been seeing for six months is not right.</p>
-          <p>Comic relief that becomes a stake. If Daiki is in danger it is because something in the campaign has escalated past the point where civilians are collateral. That escalation is a signal. The GM should not get to this point without intending to.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- HAGIWARA MIZUKI -->
-    <div class="char-card" data-id="mizuki">
-      <div class="char-name">Hagiwara Mizuki</div>
-      <div class="char-role">51. CVD Director of Public Confidence.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <span class="char-tag tag-antagonist">Institutional Antagonist</span>
-      <div class="char-details">
-        <div class="quote-block">The public sleeps because someone keeps the lie tidy. That someone is me.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>Sleek jet-black chin-length bob, razor-precise. Tailored charcoal-grey skirt suit, white silk blouse, thin silver wristwatch, small pearl studs, CVD lapel pin. A closed door with a kind voice.</p>
-          <p>Smooth, reassuring, never rattled. She knows the practitioner world is real. She has spent twenty years managing what the public knows about it, and she has come to believe, with the specific conviction of someone who has seen what panic looks like, that the management is necessary.</p>
-          <p>The Closing is her project. Seal the axis. Wall off the Other Side permanently. She does not know what that will do to the people currently tied to the Other Side. She has declined to find out.</p>
-          <p>She does not know Rei's true power. She does not know Yushiro or Kishin's identities. These are structural blind spots in her intelligence picture.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- NAKAMURA AOI -->
-    <div class="char-card" data-id="aoi">
-      <div class="char-name">Nakamura Aoi</div>
-      <div class="char-role">20. CVD Trainee 2nd Year. Psychokinesis L4.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">Gin said you'd come around eventually. He was right about most things.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>163cm. Channel ability at 4d6+2, Psychokinesis Level 4 — unflagged in her official record. Her grandmother's bracelet gives plus-five stability per hour. She does not know this.</p>
-          <p>CVD trainee second year. She knew Gin. The past tense is grammatical, not certainty. She has been holding the distinction open for six months and she is tired of holding it.</p>
-          <p>Her file says Level 2. The gap between what she is and what the file says is a product of exactly one administrative decision made when she entered the program. Gin knew. He is the one who told her to keep it that way.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- KATO RYUSEI -->
-    <div class="char-card" data-id="ryusei">
-      <div class="char-name">Kato Ryusei</div>
-      <div class="char-role">21. Itabashi. Telepath L3. Tower-Adjacent Bloodline.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">I already know how this conversation goes. I'm letting it happen anyway.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>Based flat over a hardware store in Itabashi. Tower-adjacent through bloodline, not affiliation. Telepathy at Level 3, which means he has heard more conversations than he asked to hear. The flat is heavily warded. The wards are his own work.</p>
-          <p>He says he already knows how conversations go because he often does. He lets them happen anyway because the alternative is a kind of isolation that stops being principled and starts being punitive. He made that calculation years ago and he is still making it.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- KATAGIRI NOA -->
-    <div class="char-card" data-id="noa">
-      <div class="char-name">Katagiri Noa</div>
-      <div class="char-role">38. CVD Senior. Black Cat Familiar Yoru.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">I noticed you before we met. I notice everything. It's the job, and the curse.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>CVD senior field. Black cat familiar named Yoru. She loved Gin. That is not a past-tense statement in her internal grammar and she has not tried to make it one.</p>
-          <p>Withheld evidence for him. She knows what that cost her professionally and she made the calculation. She is not certain she made it for the right reasons. The uncertainty is something she carries the way she carries Yoru — with the specific care of something that chose her back.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- MORIYA -->
-    <div class="char-card" data-id="moriya">
-      <div class="char-name">Moriya</div>
-      <div class="char-role">35. Internal Affairs.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">Internal Affairs. Everyone's nervous when I sit down. Good. Honest people fidget too.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>Internal Affairs. She investigates the CVD. She is investigating the standing order on Gin's file. She has been investigating it for four months and she has a list of people who knew about it and a shorter list of people she is certain did not order it. Hagiwara Mizuki is not on that shorter list.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- OKADA SHIZUKA -->
-    <div class="char-card" data-id="okada">
-      <div class="char-name">Okada Shizuka</div>
-      <div class="char-role">32. CVD Field. Four Years Watching.</div>
-      <span class="char-tag tag-romance">Romanceable</span>
-      <div class="char-details">
-        <div class="quote-block">Gin told me to watch for you. I've been watching for four years. Sit down.<div class="quote-attr">Cap</div></div>
-        <div class="prose-block">
-          <p>Field CVD, four years in Kita district. Gin specifically asked her to watch for Rei. She does not know why he was specific about the timeline. She is starting to understand that he knew something was going to happen and planned accordingly, which means she is holding a piece of something she has not been told the shape of.</p>
-          <p>The two-way choice on the CVD road. She can take Rei to the sealed case or she can take Rei to the contained asset floor. She cannot do both. She will not explain which choice she thinks is right. That is Rei's decision.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- MORI HARUTO -->
-    <div class="char-card" data-id="haruto">
-      <div class="char-name">Mori Haruto</div>
-      <div class="char-role">17. One-Sided.</div>
-      <span class="char-tag tag-minor">Minor</span>
-      <div class="char-details">
-        <div class="prose-block">
-          <p>Seventeen. One-sided crush. The ceiling here is explicit and does not move — a promise to talk again when he is older, and a hug. No romance, no abilities, no more. This line does not move regardless of player choices or run length.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- YUA -->
-    <div class="char-card" data-id="yua">
-      <div class="char-name">Yua</div>
-      <div class="char-role">16. Street Network Organizer.</div>
-      <span class="char-tag tag-minor">Minor</span>
-      <div class="char-details">
-        <div class="prose-block">
-          <p>Sixteen. One-sided. No romance, ever. The street network she runs is a real game system — information, access, protection for kids the official systems are not looking for. If she trusts Rei, that network becomes available. Trust is not automatic and is not purchased with money.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading characters...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 4: THE THIRTEEN -->
 <section class="tab-panel" id="tab-thirteen" role="tabpanel">
-<div class="content">
-
-  <div class="intro-block">
-    <p>The Thirteen Domains are the emotional registers the Axis holds in distributed trust. Thirteen Wardens each carry one so he need not hold them alone. The membrane stays stable as long as every seat is occupied.</p>
-    <p>Domain XIII has been empty since 2009.</p>
-  </div>
-
-  <div class="section">
-    <h2>The Axis</h2>
-    <div class="card card-gold">
-      <div class="prose-block">
-        <p>Was human. Holds the membrane shut. The Thirteen each carry one emotional register so the Axis need not hold them all alone. The architecture is distributed trust — thirteen holders, one structural center.</p>
-        <p>Domain XIII, the Duty register, has no holder. The Axis is overstretched. The membrane in Kita has been thinning since 2009, accelerating since 2011. What 2011 did was not create the thin spot. It deepened something that was already there.</p>
-        <p>The Closing — Mizuki's project to seal the axis permanently — would end the Axis's function. What that does to the Axis, and to everything the Axis holds, is not something Mizuki's team has modeled.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>All Thirteen Domains</h2>
-
-    <div class="domain-grid">
-      <div class="domain-card">
-        <div class="domain-number">Domain I</div>
-        <div class="domain-name">Joy</div>
-        <div class="domain-emotion">Register — Delight</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain II</div>
-        <div class="domain-name">Grief</div>
-        <div class="domain-emotion">Register — Loss</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain III</div>
-        <div class="domain-name">Fear</div>
-        <div class="domain-emotion">Register — Dread</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain IV</div>
-        <div class="domain-name">Love</div>
-        <div class="domain-emotion">Register — Longing</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain V</div>
-        <div class="domain-name">Rage</div>
-        <div class="domain-emotion">Register — Fury</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain VI</div>
-        <div class="domain-name">Shame</div>
-        <div class="domain-emotion">Register — Humiliation</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain VII</div>
-        <div class="domain-name">Desire</div>
-        <div class="domain-emotion">Register — Hunger</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain VIII</div>
-        <div class="domain-name">Despair</div>
-        <div class="domain-emotion">Register — Desolation</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-watch">Watch</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain IX</div>
-        <div class="domain-name">Wonder</div>
-        <div class="domain-emotion">Register — Awe</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain X</div>
-        <div class="domain-name">Solitude</div>
-        <div class="domain-emotion">Register — Isolation</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain XI</div>
-        <div class="domain-name">Hope</div>
-        <div class="domain-emotion">Register — Anticipation</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-stable">Stable</span>
-      </div>
-      <div class="domain-card">
-        <div class="domain-number">Domain XII</div>
-        <div class="domain-name">Wrath</div>
-        <div class="domain-emotion">Register — Vengeance</div>
-        <div class="domain-holder">Warden active</div>
-        <span class="domain-status status-watch">Watch</span>
-      </div>
-      <div class="domain-card" style="border-color: var(--blood-bright);">
-        <div class="domain-number">Domain XIII</div>
-        <div class="domain-name" style="color: var(--blood-bright);">Duty</div>
-        <div class="domain-emotion">Register — Persisting Function</div>
-        <div class="domain-holder" style="color: var(--text-faint);">VACANT since 2009</div>
-        <div style="font-size:0.8rem; color:var(--text-dim); margin:0.5rem 0;">Kita District — membrane thinning</div>
-        <span class="domain-status status-vacant">Critical</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Domain XIII — Full Record</h2>
-
-    <div class="warning-block">Warden-only document. Contains structural spoilers. Do not distribute to players before the campaign's final act.</div>
-
-    <div class="card card-blood">
-      <h3 style="color:var(--blood-bright); margin-top:0">The Keystone</h3>
-      <div class="prose-block">
-        <p>Everything stable depends on it, and no one holds it.</p>
-        <p>Duty is the quality of persisting in a function because stopping would cost everything. Not obedience. Not loyalty. The specific quality of continuing because discontinuation is not survivable by those who depend on the continuation.</p>
-        <p>It is the least glamorous of the thirteen registers and the one that cannot be vacant. Every other domain can thin and produce difficult entities and be managed. A thin Duty register thins the entire structure. The Axis absorbs the load. The Axis has been absorbing it for seventeen years.</p>
-      </div>
-
-      <h4>Why It Was Misclassified as Vacant</h4>
-      <div class="prose-block">
-        <p>CVD instruments are calibrated for variation. Duty's total stillness reads as null. They recorded fullness as nothing. The instruments were not wrong. They were measuring the wrong axis.</p>
-      </div>
-
-      <h4>Destabilization Track</h4>
-      <div class="prose-block">
-        <ol style="padding-left:1.4rem; color:var(--text-dim);">
-          <li style="margin-bottom:0.5rem">2009 — vacancy</li>
-          <li style="margin-bottom:0.5rem">Slow thinning begins, below CVD detection threshold</li>
-          <li style="margin-bottom:0.5rem">Demon arrives, recognizes vacancy, assesses succession risk</li>
-          <li style="margin-bottom:0.5rem">Gin selected and taken — this is not abduction, it is persuasion</li>
-          <li style="margin-bottom:0.5rem">Gin stops answering — campaign start</li>
-          <li style="margin-bottom:0.5rem">Rei arrives at Archive</li>
-          <li style="margin-bottom:0.5rem">Acute thinning, crisis point</li>
-        </ol>
-      </div>
-    </div>
-
-    <button class="spoiler-trigger" id="spoilerBtn">Campaign Endings — Warden Document</button>
-    <div class="spoiler-body" id="spoilerBody">
-      <div class="prose-block">
-        <h4>Ending 1 — Resolution</h4>
-        <p>Rei reaches Domain XIII. Kita stabilizes. Demon expelled. Gin freed — damaged, but present. The seat holds for the first time in seventeen years. The Axis is no longer overstretched.</p>
-        <div class="divider"></div>
-        <h4>Ending 5 — The Quiet</h4>
-        <p>The window closes unreached. The demon moves on. The work is ongoing, incomplete, and done anyway. The Axis absorbs the load again. The membrane thins more slowly now. There is time, but there is less of it.</p>
-        <div class="divider"></div>
-        <h4>On the Structure</h4>
-        <p>Domain XIII is the floor under everything and the thing the campaign must never quite touch directly. The player understands it through its absence, through what the vacancy has cost, through Gin — who walked into the pull not because he was stupid but because he was good, and because someone he loved was in the balance.</p>
-        <p>The final discovery. The succession line is Rei. The thing the demon spent six years preventing is the player arriving at the Archive at 3:47am with Gin's keychain in their hand.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading domains...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 5: BESTIARY -->
 <section class="tab-panel" id="tab-bestiary" role="tabpanel">
-<div class="content">
-
-  <div class="intro-block">
-    <p>Classification by grade and register. Grade indicates operational threat level. Register indicates which of the Thirteen domains the entity draws from or embodies. Top-grade entities are named. Most are not.</p>
-  </div>
-
-  <h2>Grade E — Minimal Threat</h2>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-e">E · Lingering · Grief Register</div>
-    <div class="entity-name">The Lingering</div>
-    <div class="entity-register">Grief — long-dead, habituated presence</div>
-    <div class="prose-block">
-      <p>Barely present. So much of what it always was that it simply continued, the way some things continue past the point when they should stop. Not from force. From habit.</p>
-      <p>Not dangerous. In many cases, not even aware of the practitioner. The primary risk is mistaking a stable lingering for a stable situation and then having conditions change.</p>
-    </div>
-  </div>
-
-  <h2>Grade D — Manageable</h2>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-d">D · Imprint · Grief Register</div>
-    <div class="entity-name">The Imprint</div>
-    <div class="entity-register">Grief — location-bound</div>
-    <div class="prose-block">
-      <p>A location that holds the memory of an event so strongly that the memory has begun to function as an entity. The space responds. Practitioners with Clairsentience above Level 2 experience the full emotional charge on contact.</p>
-      <p>Not mobile. Not intelligent. The Kita district has a dense cluster of imprint sites, most predating 2011.</p>
-    </div>
-  </div>
-
-  <h2>Grade C — Requires Clearance</h2>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-c">C · Contract Entity · Love Register</div>
-    <div class="entity-name">The Devotee</div>
-    <div class="entity-register">Love — parasympathetic</div>
-    <div class="prose-block">
-      <p>It feeds on reciprocal attention. Not harmful in the way a predator is harmful. Harmful in the way a dependency is harmful — gradually, consensually, until the person it has attached to cannot imagine the absence.</p>
-      <p>It can tell you who Rei loves before Rei admits it. The information is accurate. The accuracy is part of what makes the entity difficult to clear without damaging the host.</p>
-    </div>
-  </div>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-c">C · Hollow Shell · Despair Register</div>
-    <div class="entity-name">The Hollowed</div>
-    <div class="entity-register">Despair — consumed host variant</div>
-    <div class="prose-block">
-      <p>A person whose own will has been gradually replaced by the entity's presence. The transition is not violent. It is erosive. The person they were is still technically in there. The question clearance operations must answer is whether there is enough of the original consciousness left to reconstruct, or whether reconstruction would be crueler than completion.</p>
-      <p>Kishin's network is built from Hollowed members. The hollow is not uniform. Some have more left than others.</p>
-    </div>
-  </div>
-
-  <h2>Grade B — High Risk</h2>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-b">B · Collective · Joy Register</div>
-    <div class="entity-name">The Laughing Room</div>
-    <div class="entity-register">Joy — experiential trap</div>
-    <div class="prose-block">
-      <p>It does not present as a threat. It presents as a room where people are having a very good time, and would you like to join them, and yes of course you can leave whenever you want to.</p>
-      <p>The joy is real. That is the horror of it. Everything inside the room is genuine pleasure. The people inside have not been deceived about what they are experiencing. They have simply lost the capacity to want anything else.</p>
-    </div>
-  </div>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-b">B · Predator · Fear Register</div>
-    <div class="entity-name">The Watcher</div>
-    <div class="entity-register">Fear — observation type</div>
-    <div class="prose-block">
-      <p>Feeds on the awareness of being watched. The entity does not need to be seen to function. It needs the target to believe it is present. In many cases this is indistinguishable from paranoia because the mechanism is identical. The difference is that there is actually something there.</p>
-    </div>
-  </div>
-
-  <h2>Grade A — Critical</h2>
-
-  <div class="entity-card">
-    <div class="entity-grade grade-a">A · Architect Entity · Duty Register</div>
-    <div class="entity-name">The Accumulation</div>
-    <div class="entity-register">Duty — structural parasite</div>
-    <div class="prose-block">
-      <p>An entity that has been present long enough to become load-bearing. Clearing it would require clearing the structure it has made itself part of. The operation is technically possible and structurally catastrophic.</p>
-      <p>Most practitioners encountering this classification for the first time do not believe it exists. The architecture is too elegant to look like a predator. It looks like the building.</p>
-    </div>
-  </div>
-
-  <h2>Top-Grade — Named</h2>
-
-  <div class="entity-card" style="border-color:var(--blood-bright);">
-    <div class="entity-grade grade-top">Top-Grade · Idea-Type · Duty Register</div>
-    <div class="entity-name">The Vacancy</div>
-    <div class="entity-register">Duty — absence as entity</div>
-    <div class="prose-block">
-      <p>It is not a creature so much as a pull. The pull of a seat that should be filled toward anything that could fill it. The danger is not that it attacks. The danger is that it makes occupying Domain XIII seem like a reasonable thing to want, and then it watches what arrives to try.</p>
-      <p>Yushiro is not The Vacancy. Yushiro is what arrived when The Vacancy called. The distinction matters because The Vacancy is still there.</p>
-    </div>
-  </div>
-
-  <div class="entity-card" style="border-color:var(--blood-bright);">
-    <div class="entity-grade grade-ss">Top-Grade · Consumed Host · Despair Register</div>
-    <div class="entity-name">Kishin</div>
-    <div class="entity-register">Despair — inverted god candidate</div>
-    <div class="prose-block">
-      <p>See Characters section. Documented here because classification is operational. The entity inside Fukai Rinka is Top-grade Despair with an agenda distinct from standard Despair behavior. Standard Despair feeds. Kishin builds. The infrastructure it is constructing is not a feeding network. It is a proof-of-concept for the Inverted God.</p>
-    </div>
-  </div>
-
-  <div class="entity-card" style="border-color:var(--blood-bright);">
-    <div class="entity-grade grade-ss">Top-Grade · Rider · Duty Register</div>
-    <div class="entity-name">Yushiro</div>
-    <div class="entity-register">Duty — vessel is Gin</div>
-    <div class="prose-block">
-      <p>See Characters section. True name Tachibana Yushiro, revealed at campaign end only. Currently operating from inside Gin. A Duty entity that wants to prevent the Duty seat from being occupied is a paradox that explains itself only when you understand that Yushiro's stability depends on the vacancy. A resolved Domain XIII expels it. Its whole strategy has been a preemptive defense against Rei.</p>
-    </div>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading bestiary...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 6: THE CITY -->
 <section class="tab-panel" id="tab-city" role="tabpanel">
-<div class="content">
-
-  <div class="section">
-    <h2>Kita Ward</h2>
-    <div class="card card-accent">
-      <div class="prose-block">
-        <p>Northern Tokyo, between Itabashi and Arakawa wards. Working-class residential, old commercial strips, the Kanda river running through it. Not on the tourist routes. Continuously inhabited since before the current infrastructure, which means the veil layer has depth — accumulated history, accumulated energy, accumulated everything.</p>
-        <p>The thin spots in Kita are not thin because of 2011 alone. 2011 accelerated and deepened what was already there. The district was already interesting to practitioners. Now it is the kind of interesting that generates a case load.</p>
-      </div>
-    </div>
-
-    <h3>Jujo — Archive District</h3>
-    <div class="card">
-      <div class="prose-block">
-        <p>Jujo Station, Saikyo Line. Small station, single island platform. Class E thin spot under the southbound platform, active since at least 1998. Spectral presence, weak, stable. Ogawa-san knows similar ones near Shinjuku. Someone works Thursday evenings here — not documented.</p>
-        <p>Jujo Ginza shopping arcade. Covered commercial strip, 200m north of station, mostly unchanged since the 1970s. Two suffering beings documented near the old bathhouse at the north end, which has been closed for eleven years.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Adjacent Districts</h2>
-
-    <h3>Shinjuku</h3>
-    <div class="card">
-      <div class="prose-block">
-        <p>Kabukicho — highest suffering being density in Tokyo. Decades of concentrated acute human experience in a small area. Hino Miho works here. She developed the specific Clairsentience management technique required to function here alone, over nine years, without instruction. Worth more than the standard CVD curriculum.</p>
-        <p>Ni-chome. Café Asahi here — Matsuda Keiko, Tuesday evenings. Warm complex register, community formation, visibility. Three anchored spirits, long-term residents. Jin has their schedules.</p>
-        <p>Shinjuku Station south exit. Ogawa-san. Corner position, eleven years. The most complex documented thin spot cluster in Tokyo. Ogawa-san knows it the way structural engineers know a building they have been watching for a decade.</p>
-      </div>
-    </div>
-
-    <h3>Itabashi</h3>
-    <div class="card">
-      <div class="prose-block">
-        <p>Grid territory. Tokiwadai was a planned 1930s development. The planning is visible in the grid street pattern. What the planners did not plan for is in the basement of the building at the corner of the main commercial street — which has had five different businesses in eleven years and currently sits empty.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>After Dark</h2>
-
-    <h3>Tamaya Hall</h3>
-    <div class="card">
-      <div class="prose-block">
-        <p>Pachinko parlour. Kabukicho. All noise and no quiet. The best place in the city to say something you do not want heard. Vast bright hall, walls of machines, smoke and deafening chimes. The manager watches from a glass booth and makes a point of not watching specific conversations.</p>
-        <p>Keeper — Goto Hideki.</p>
-      </div>
-    </div>
-
-    <h3>The Host Club</h3>
-    <div class="card">
-      <div class="prose-block">
-        <p>Kabukicho. Chandeliers and velvet, champagne towers. Hosts in sharp suits. Every rich secret poured out at four a.m. in a room where everyone is paid to listen and no one is paid to remember. The Despair register here is not entity-produced. It is structural to the industry. That does not make it less real.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Venues and Keepers</h2>
-    <p class="label" style="margin-bottom:1rem">Every keeper knows something about what moves through their space. Not all of them know what they know.</p>
-
-    <div class="venue-grid">
-      <div class="venue-card"><div class="venue-name">The Lighthouse</div><div class="venue-keeper">Ni-chome &middot; Kaneda Toru</div></div>
-      <div class="venue-card"><div class="venue-name">Tsuru-no-yu</div><div class="venue-keeper">Kita-ku &middot; Hara Setsu</div></div>
-      <div class="venue-card"><div class="venue-name">Vault</div><div class="venue-keeper">Roppongi &middot; Endo Masa</div></div>
-      <div class="venue-card"><div class="venue-name">Kogane</div><div class="venue-keeper">Ginza &middot; Serizawa</div></div>
-      <div class="venue-card"><div class="venue-name">Tamaya Hall</div><div class="venue-keeper">Kabukicho &middot; Goto Hideki</div></div>
-      <div class="venue-card"><div class="venue-name">The Peony Rooms</div><div class="venue-keeper">Uguisudani &middot; Mariko</div></div>
-      <div class="venue-card"><div class="venue-name">Beck's Stand Platform 3</div><div class="venue-keeper">Oji &middot; The Beck's Man</div></div>
-      <div class="venue-card"><div class="venue-name">Gin's Corner</div><div class="venue-keeper">Komatsu Shigeru</div></div>
-      <div class="venue-card"><div class="venue-name">Café Mikazuki</div><div class="venue-keeper">Maruyama Toshio</div></div>
-      <div class="venue-card"><div class="venue-name">Akebono Bakery</div><div class="venue-keeper">Kawai Yuki</div></div>
-      <div class="venue-card"><div class="venue-name">Tatsuya</div><div class="venue-keeper">Tatsu</div></div>
-      <div class="venue-card"><div class="venue-name">Kemuri</div><div class="venue-keeper">Yoshida Goro</div></div>
-      <div class="venue-card"><div class="venue-name">Maki Ironworks</div><div class="venue-keeper">Old Maki</div></div>
-      <div class="venue-card"><div class="venue-name">Ade Imports</div><div class="venue-keeper">Ade Okonkwo</div></div>
-      <div class="venue-card"><div class="venue-name">The Crooked Shelf</div><div class="venue-keeper">The Bookseller</div></div>
-      <div class="venue-card"><div class="venue-name">Engimono</div><div class="venue-keeper">Sone Kimiko</div></div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Transit Infrastructure</h2>
-    <div class="card">
-      <div class="prose-block">
-        <p>The Saikyo Line, the Keihin-Tohoku Line, the Toden Arakawa streetcar. The subway connections at Akabane and Tabata. Thin spots cluster around stations because stations concentrate human experience — departure and arrival, anticipation and reunion and the specific grief of watching a train leave. Every major station in Kita has at least one documented thin spot. The Jujo southbound platform is the oldest and the most stable. It is also the one nobody talks about because it has been there so long it has become background.</p>
-        <p>The Oji overpass is not documented in CVD records. Gin documented it in the Archive.</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading city data...</div></div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════ TAB 7: THE SYSTEM -->
 <section class="tab-panel" id="tab-system" role="tabpanel">
-<div class="content">
-
-  <div class="section">
-    <h2>Practitioner Tiers</h2>
-
-    <div class="overflow-x: auto">
-      <table class="system-table">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Grade</th>
-            <th>Dice Pool</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Postulate</td>
-            <td>F</td>
-            <td>1d6</td>
-            <td>Newly registered. Ability confirmed, not yet operational.</td>
-          </tr>
-          <tr>
-            <td>Ritualist</td>
-            <td>D–C</td>
-            <td>2d6–3d6</td>
-            <td>Standard operational level. Most CVD field practitioners.</td>
-          </tr>
-          <tr>
-            <td>Arbiter</td>
-            <td>B</td>
-            <td>4d6</td>
-            <td>Independent clearance authority. Rare above C in official records.</td>
-          </tr>
-          <tr>
-            <td>Vanguard</td>
-            <td>A</td>
-            <td>5d6–6d6</td>
-            <td>Named practitioners. Gin's actual grade. Rei approaching.</td>
-          </tr>
-          <tr>
-            <td>Guardian</td>
-            <td>SS</td>
-            <td>6d6+</td>
-            <td>Structural level. The Axis is Guardian-class.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card card-accent" style="margin-top:1rem">
-      <h4>The Suppression Problem</h4>
-      <div class="prose-block">
-        <p>Gin's official grade is 3d6 Ritualist. His actual grade is 6d6 Vanguard. Suppression Level 4 is required to maintain that discrepancy in an official assessment. Most practitioners cannot suppress past Level 2. Gin developed Level 4 suppression specifically to stay under CVD threshold for six years while doing work the CVD was not supposed to know about.</p>
-        <p>Rei's official grade is D-rank. Actual rank Arbiter approaching Vanguard. The CVD instruments read her multi-spectrum capacity as noise because the instruments are not calibrated for that pattern. This is not suppression. The instruments are simply measuring the wrong thing.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>The Three Structures</h2>
-
-    <div class="card card-gold">
-      <h3 style="color:var(--gold-bright); margin-top:0">CVD — Clairvoyant Veil Division</h3>
-      <div class="prose-block">
-        <p>The government body. Official classification, licensing, clearance operations. Theoretically comprehensive. In practice, the CVD knows what practitioners report to it and what it can measure with instruments calibrated against a standard the instruments defined.</p>
-        <p>Hagiwara Mizuki's Closing project is CVD initiative. The CVD does not know about Domain XIII. Its instruments have been recording the vacancy as null since 2009.</p>
-      </div>
-    </div>
-
-    <div class="card card-teal">
-      <h3 style="color:var(--teal-bright); margin-top:0">The Grid — Independent Network</h3>
-      <div class="prose-block">
-        <p>Operates in Sanya, Minami-Senju, and adjacent working-class districts. Practitioners who have decided, for various reasons, that CVD registration is not something they will be doing. The Grid does not have clearance authority. It has operational reach the CVD cannot replicate because the CVD requires practitioners to be visible.</p>
-        <p>Gin maintained Grid contacts without the CVD's knowledge for six years. The Grid knew something was wrong with him before the CVD file was opened.</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <h3 style="color:var(--accent-bright); margin-top:0">The Tower — Old Families</h3>
-      <div class="prose-block">
-        <p>The Tower is not a place. It is a shorthand for the old practitioner families who have been watching this city for enough generations that the watching has become constitutional. The Kuroda family is Tower-adjacent. The Tower proper consists of six families who predate the CVD by several centuries.</p>
-        <p>Tower knowledge about the Thirteen is significant and specific. What the Tower fears about Domain XIII is not the vacancy. It is succession by someone outside Tower influence.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>Stability and Madness</h2>
-
-    <table class="system-table">
-      <thead>
-        <tr>
-          <th>Stat</th>
-          <th>Range</th>
-          <th>Function</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Stability</td>
-          <td>0–100</td>
-          <td>Practitioner integrity. At zero, the membrane threshold drops.</td>
-        </tr>
-        <tr>
-          <td>Madness</td>
-          <td>0–100</td>
-          <td>Accumulated exposure. At threshold, ability patterns change unpredictably.</td>
-        </tr>
-        <tr>
-          <td>Lucidity</td>
-          <td>0–20</td>
-          <td>Gin's window for clear communication. Currently shrinking.</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="card card-blood">
-      <h4>The Possession Track</h4>
-      <div class="prose-block">
-        <p>Not a binary state. A gradual accumulation of entity influence over the host's decision-making, then emotional register, then will, then identity. The host remains present at every stage. They can often describe what is happening to them. That capacity to describe it diminishes as the track progresses.</p>
-        <p>Gin at campaign start is at approximately Stage 4. The handwriting change in the Archive represents the Stage 3 to Stage 4 transition. Stage 5 is the point where the host can no longer access their own intentions clearly enough to distinguish them from the entity's.</p>
-        <p>The lucid window is Stage 4's residual self-awareness. It closes at Stage 5.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>CL Levels — Clairvoyance Classification</h2>
-
-    <table class="system-table">
-      <thead>
-        <tr>
-          <th>Level</th>
-          <th>Can Read</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>CL Level 5</td>
-          <td>Surface impressions. Emotional resonance in current space.</td>
-        </tr>
-        <tr>
-          <td>CL Level 4</td>
-          <td>Grounding object basic signature. Recent emotional events.</td>
-        </tr>
-        <tr>
-          <td>CL Level 3</td>
-          <td>Grounding object major history. Ability type and approximate level.</td>
-        </tr>
-        <tr>
-          <td>CL Level 2</td>
-          <td>Full practitioner profile at contact range. Rank estimate. Network connections.</td>
-        </tr>
-        <tr>
-          <td>CL Level 1</td>
-          <td>Structural membrane read. Domain status. Succession line detection.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="section">
-    <h2>Entity Classification — Register Reference</h2>
-
-    <table class="system-table">
-      <thead>
-        <tr>
-          <th>Grade</th>
-          <th>Threat Level</th>
-          <th>Clearance Required</th>
-          <th>Named Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>E</td><td>Minimal</td><td>Ritualist</td><td>Unnamed</td></tr>
-        <tr><td>D</td><td>Low</td><td>Ritualist</td><td>Unnamed</td></tr>
-        <tr><td>C</td><td>Moderate</td><td>Arbiter</td><td>Unnamed</td></tr>
-        <tr><td>B</td><td>High</td><td>Vanguard</td><td>Sometimes named</td></tr>
-        <tr><td>A</td><td>Critical</td><td>Vanguard plus team</td><td>Named</td></tr>
-        <tr><td>Top-grade / SS</td><td>Structural</td><td>Guardian or equivalent</td><td>Named. Often ancient.</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-</div>
+  <div class="content"><div class="loading-state">Loading system data...</div></div>
 </section>
 
-<div class="fingerprint">Veil Protocol &middot; Campaign Archive &middot; Kita District Operations</div>
-
+<!-- Tab switching -->
 <script>
-// Tab switching
-const tabBtns = document.querySelectorAll('.tab-btn');
-const tabPanels = document.querySelectorAll('.tab-panel');
-
-tabBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const target = btn.dataset.tab;
-    tabBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
-    tabPanels.forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-    document.getElementById('tab-' + target).classList.add('active');
-    window.scrollTo(0, 0);
+(function () {
+  var btns = document.querySelectorAll('.tab-btn');
+  var panels = document.querySelectorAll('.tab-panel');
+  btns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.dataset.tab;
+      btns.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+      panels.forEach(function (p) { p.classList.remove('active'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      document.getElementById('tab-' + target).classList.add('active');
+    });
   });
-});
+})();
+</script>
 
-// Character card expand/collapse
-const charGrid = document.getElementById('charGrid');
-if (charGrid) {
-  charGrid.addEventListener('click', e => {
-    const card = e.target.closest('.char-card');
+<!-- Initialize VP namespace before content scripts run -->
+<script>
+window.VP = { scenes: {}, branchText: {}, actions: {} };
+</script>
+
+<!-- Content modules -->
+<script src="../content/scenes/chapter1.js"></script>
+<script src="../content/lore/branch_text.js"></script>
+
+<!-- Main render script -->
+<script>
+(function () {
+
+/* ── helpers ── */
+function el(tag, cls, html) {
+  var e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (html != null) e.innerHTML = html;
+  return e;
+}
+
+function setContent(panelId, node) {
+  var panel = document.getElementById(panelId);
+  var wrap = panel.querySelector('.content');
+  wrap.innerHTML = '';
+  if (typeof node === 'string') { wrap.innerHTML = node; }
+  else { wrap.appendChild(node); }
+}
+
+function showError(panelId, msg) {
+  setContent(panelId, '<div class="error-state">' + msg + '</div>');
+}
+
+function paragraphs(arr) {
+  if (!arr) return '';
+  return arr.map(function (t) {
+    if (t.trim().startsWith('<p')) return t;
+    return '<p>' + t + '</p>';
+  }).join('');
+}
+
+/* ── renderArchive ── */
+function renderArchive(artifacts) {
+  var frag = document.createDocumentFragment();
+  var sections = Object.keys(artifacts);
+  sections.forEach(function (key) {
+    var val = artifacts[key];
+    // skip embedded base64 sections (Primary Field Materials contains huge data)
+    if (typeof val !== 'string') return;
+    // strip trailing base64 blobs but keep prose
+    var prose = val.replace(/data:image\/[^;]+;base64,[A-Za-z0-9+/=]{100,}/g, '[image]');
+
+    var sec = el('div', 'section');
+    var h2 = el('h2', '', key);
+    sec.appendChild(h2);
+
+    // split on double newlines into paragraphs
+    var parts = prose.split(/\n\n+/);
+    var block = el('div', 'prose-block');
+    parts.forEach(function (p) {
+      if (p.trim()) {
+        var pe = el('p', '', p.trim());
+        block.appendChild(pe);
+      }
+    });
+    sec.appendChild(block);
+    frag.appendChild(sec);
+  });
+
+  var fp = el('p', 'fingerprint', 'Veil Protocol &mdash; Field Reference &mdash; Restricted');
+  frag.appendChild(fp);
+  setContent('tab-archive', frag);
+}
+
+/* ── renderChapter1 ── */
+function renderChapter1() {
+  var sc = window.VP.scenes;
+  var bt = window.VP.branchText;
+
+  if (!sc || !sc.opening || !sc.opening.length) {
+    showError('tab-chapter1', 'Chapter one scenes not loaded.');
+    return;
+  }
+
+  var frag = document.createDocumentFragment();
+
+  // Opening prose
+  var sec1 = el('div', 'section');
+  sec1.appendChild(el('h2', '', 'Chapter One &mdash; The Opening'));
+
+  var intro = el('div', 'intro-block');
+  var op = sc.opening[0];
+  if (op && op.t) {
+    op.t.forEach(function (para) {
+      var p = el('p', '');
+      p.innerHTML = para.replace(/<\/?p[^>]*>/g, '');
+      intro.appendChild(p);
+    });
+  }
+  sec1.appendChild(intro);
+
+  // Oji slope scene
+  var ojiScene = sc.opening[6];
+  if (ojiScene && ojiScene.t) {
+    sec1.appendChild(el('h3', '', 'The Slope to &#332;ji'));
+    var ojiBlock = el('div', 'prose-block');
+    ojiScene.t.forEach(function (t) {
+      var p = el('p', '');
+      p.innerHTML = t.replace(/<\/?p[^>]*>/g, '');
+      ojiBlock.appendChild(p);
+    });
+    sec1.appendChild(ojiBlock);
+  }
+
+  // The Lingering
+  var lingScene = sc.opening[7];
+  if (lingScene && lingScene.t) {
+    sec1.appendChild(el('h3', '', 'The Overpass'));
+    var lingBlock = el('div', 'prose-block');
+    lingScene.t.forEach(function (t) {
+      var p = el('p', '');
+      p.innerHTML = t.replace(/<\/?p[^>]*>/g, '');
+      lingBlock.appendChild(p);
+    });
+    // entity block if present
+    if (lingScene.ent) {
+      var ent = lingScene.ent;
+      var eCard = el('div', 'card card-teal');
+      eCard.appendChild(el('div', 'entity-grade grade-e', 'Entity encountered'));
+      eCard.appendChild(el('div', 'entity-name', ent.name));
+      eCard.appendChild(el('div', 'entity-register', ent.kind));
+      if (ent.rows) {
+        ent.rows.forEach(function (row) {
+          var sr = el('div', 'stat-row');
+          sr.appendChild(el('span', 'stat-label', row[0]));
+          sr.appendChild(el('span', 'stat-value', row[1]));
+          eCard.appendChild(sr);
+        });
+      }
+      sec1.appendChild(eCard);
+    }
+    sec1.appendChild(lingBlock);
+  }
+
+  frag.appendChild(sec1);
+
+  // Five Roads
+  var sec2 = el('div', 'section');
+  sec2.appendChild(el('h2', '', 'The Five Roads'));
+
+  var roadDefs = [
+    { key: 'grid',  label: 'The Grid',          hint: 'Gin\'s book of unregistered names.' },
+    { key: 'cvd',   label: 'The CVD',            hint: 'Report him. Let the Directorate make you theirs.' },
+    { key: 'buddy', label: 'Call Itsuki',        hint: 'Your oldest friend, a Kuroda, awake at the worst hour.' },
+    { key: 'power', label: 'The Gift',           hint: 'The thing you are not supposed to do. Costly.' },
+    { key: 'look',  label: 'Just Go Out',        hint: 'No name, no power, no institution. Only attention.' }
+  ];
+
+  roadDefs.forEach(function (def) {
+    var card = el('div', 'road-card');
+    card.appendChild(el('div', 'road-name', def.label));
+    if (def.hint) {
+      card.appendChild(el('p', 'label', def.hint));
+    }
+    var text = bt[def.key];
+    if (text) {
+      var p = el('p', 'prose-block');
+      p.style.marginTop = '0.7rem';
+      p.textContent = text;
+      card.appendChild(p);
+    }
+    sec2.appendChild(card);
+  });
+
+  frag.appendChild(sec2);
+
+  // Road summaries from scene arrays
+  var roadScenes = [
+    { key: 'itsuki', label: 'Road: Itsuki' },
+    { key: 'grid',   label: 'Road: The Grid' },
+    { key: 'cvd',    label: 'Road: The CVD' },
+    { key: 'power',  label: 'Road: The Gift' },
+    { key: 'look',   label: 'Road: The Long Way' }
+  ];
+
+  roadScenes.forEach(function (rs) {
+    var scenes = sc[rs.key];
+    if (!scenes || !scenes[0]) return;
+    var first = scenes[0];
+    if (!first.t) return;
+
+    var sec = el('div', 'section');
+    sec.appendChild(el('h3', '', rs.label));
+    var block = el('div', 'prose-block');
+    first.t.slice(0, 2).forEach(function (t) {
+      var p = el('p', '');
+      p.innerHTML = t.replace(/<\/?p[^>]*>/g, '');
+      block.appendChild(p);
+    });
+    sec.appendChild(block);
+    frag.appendChild(sec);
+  });
+
+  frag.appendChild(el('p', 'fingerprint', 'Chapter One &mdash; Five Roads'));
+  setContent('tab-chapter1', frag);
+}
+
+/* ── renderCharacters ── */
+var TAG_KEY        = ['rei', 'gin'];
+var TAG_ROMANCE    = ['usami_ren', 'kuroda_itsuki', 'hagiwara_mizuki', 'nakamura_aoi', 'kato_ryusei', 'katagiri_noa', 'moriya', 'okada_shizuka'];
+var TAG_MINOR      = ['mori_haruto', 'yua'];
+var TAG_ENTITY     = ['yushiro', 'usami_ren'];
+var TAG_ANTAGONIST = ['yushiro', 'kishin'];
+
+function charTags(id) {
+  var tags = [];
+  if (TAG_KEY.indexOf(id) > -1)        tags.push(['tag-key',        'Key']);
+  if (TAG_ROMANCE.indexOf(id) > -1)    tags.push(['tag-romance',    'Romance']);
+  if (TAG_MINOR.indexOf(id) > -1)      tags.push(['tag-minor',      'Minor']);
+  if (TAG_ENTITY.indexOf(id) > -1)     tags.push(['tag-entity',     'Entity']);
+  if (TAG_ANTAGONIST.indexOf(id) > -1) tags.push(['tag-antagonist', 'Antagonist']);
+  return tags;
+}
+
+function renderCharacters(authored) {
+  var frag = document.createDocumentFragment();
+  frag.appendChild(el('h2', '', 'Cast'));
+
+  var grid = el('div', 'char-grid');
+
+  Object.keys(authored).forEach(function (id) {
+    var c = authored[id];
+    var card = el('div', 'char-card');
+    card.dataset.id = id;
+
+    // Name and role from meta ("Name · Role" format)
+    var meta = c.meta || '';
+    var metaParts = meta.split('·');
+    var name = metaParts[0] ? metaParts[0].trim() : id;
+    var role = metaParts[1] ? metaParts[1].trim() : '';
+
+    card.appendChild(el('div', 'char-name', name));
+    if (role) card.appendChild(el('div', 'char-role', role));
+
+    // Caption
+    var cap = c.cap || '';
+    if (cap) {
+      var capEl = el('div', 'char-cap', cap.replace(/\n/g, '<br>'));
+      card.appendChild(capEl);
+    }
+
+    // Tags
+    var tags = charTags(id);
+    if (tags.length) {
+      var tagRow = el('div', '');
+      tagRow.style.marginTop = '0.6rem';
+      tags.forEach(function (t) {
+        tagRow.appendChild(el('span', 'char-tag ' + t[0], t[1]));
+      });
+      card.appendChild(tagRow);
+    }
+
+    // Expandable details
+    var details = el('div', 'char-details');
+
+    // Background
+    if (c.back && c.back.length) {
+      var backDiv = el('div', 'prose-block');
+      c.back.forEach(function (para) {
+        backDiv.appendChild(el('p', '', para));
+      });
+      details.appendChild(backDiv);
+    }
+
+    // Relationships
+    if (c.rels && c.rels.length) {
+      details.appendChild(el('h4', '', 'Relationships'));
+      c.rels.forEach(function (rel) {
+        var sr = el('div', 'stat-row');
+        var score = parseInt(rel[1], 10);
+        var scoreStr = (score > 0 ? '+' : '') + score;
+        sr.appendChild(el('span', 'stat-label', rel[0]));
+        var right = el('span', '');
+        right.style.display = 'flex';
+        right.style.gap = '0.5rem';
+        right.style.alignItems = 'baseline';
+        right.appendChild(el('span', 'stat-value', scoreStr));
+        if (rel[2]) {
+          var desc = el('span', '');
+          desc.style.fontFamily = 'var(--font-body)';
+          desc.style.fontSize = '0.8rem';
+          desc.style.color = 'var(--text-faint)';
+          desc.textContent = rel[2];
+          right.appendChild(desc);
+        }
+        sr.appendChild(right);
+        details.appendChild(sr);
+      });
+    }
+
+    // Quest hook
+    if (c.quest && c.quest.hook) {
+      details.appendChild(el('h4', '', c.quest.title || 'Quest'));
+      details.appendChild(el('p', 'prose-block', c.quest.hook));
+    }
+
+    card.appendChild(details);
+    grid.appendChild(card);
+  });
+
+  frag.appendChild(grid);
+
+  // Expand/collapse via delegation on the grid
+  grid.addEventListener('click', function (e) {
+    var card = e.target.closest('.char-card');
     if (!card) return;
-    const wasExpanded = card.classList.contains('expanded');
-    document.querySelectorAll('.char-card.expanded').forEach(c => c.classList.remove('expanded'));
+    var wasExpanded = card.classList.contains('expanded');
+    grid.querySelectorAll('.char-card.expanded').forEach(function (c) {
+      c.classList.remove('expanded');
+    });
     if (!wasExpanded) card.classList.add('expanded');
   });
+
+  frag.appendChild(el('p', 'fingerprint', 'Veil Protocol &mdash; Cast Registry'));
+  setContent('tab-characters', frag);
 }
 
-// Spoiler toggle
-const spoilerBtn = document.getElementById('spoilerBtn');
-const spoilerBody = document.getElementById('spoilerBody');
-if (spoilerBtn && spoilerBody) {
-  spoilerBtn.addEventListener('click', () => {
-    const isOpen = spoilerBody.classList.contains('visible');
-    spoilerBody.classList.toggle('visible', !isOpen);
-    spoilerBtn.classList.toggle('open', !isOpen);
+/* ── renderThirteen ── */
+function renderThirteen(domains, xiii) {
+  var frag = document.createDocumentFragment();
+  frag.appendChild(el('h2', '', 'The Thirteen Domains'));
+
+  // Axis description
+  if (domains.axis) {
+    var axisCard = el('div', 'card card-accent');
+    axisCard.appendChild(el('p', 'label', 'The Axis'));
+    axisCard.appendChild(el('p', 'prose-block', domains.axis));
+    frag.appendChild(axisCard);
+  }
+
+  var grid = el('div', 'domain-grid');
+
+  (domains.domains || []).forEach(function (d) {
+    var card = el('div', 'domain-card');
+    card.appendChild(el('div', 'domain-number', 'Domain ' + d.numeral));
+    card.appendChild(el('div', 'domain-name', d.domain));
+    card.appendChild(el('div', 'domain-emotion', d.emotion));
+    card.appendChild(el('div', 'domain-holder', d.holder || 'Holder unknown'));
+
+    // Status badge
+    var raw = (d.status || '').toUpperCase();
+    var cls = 'domain-status status-watch';
+    if (raw.indexOf('STABLE') > -1) cls = 'domain-status status-stable';
+    else if (raw.indexOf('CRITICAL') > -1) cls = 'domain-status status-critical';
+    else if (raw.indexOf('VACANT') > -1 || raw.indexOf('EMPTY') > -1) cls = 'domain-status status-vacant';
+
+    card.appendChild(el('span', cls, d.status || ''));
+
+    if (d.location) {
+      var loc = el('p', '');
+      loc.style.fontFamily = 'var(--font-ui)';
+      loc.style.fontSize = '0.65rem';
+      loc.style.color = 'var(--text-faint)';
+      loc.style.letterSpacing = '0.1em';
+      loc.style.marginTop = '0.5rem';
+      loc.textContent = d.location;
+      card.appendChild(loc);
+    }
+
+    grid.appendChild(card);
   });
+
+  frag.appendChild(grid);
+
+  // Domain XIII spoiler
+  if (xiii) {
+    var hr = el('hr', 'divider');
+    frag.appendChild(hr);
+
+    frag.appendChild(el('h2', '', 'Domain XIII &mdash; Duty'));
+
+    var warningEl = el('div', 'warning-block', 'Warden-level content. Contains unresolved succession and active destabilization data.');
+    frag.appendChild(warningEl);
+
+    var triggerEl = el('button', 'spoiler-trigger');
+    triggerEl.id = 'spoilerBtn';
+    triggerEl.textContent = 'Unlock Domain XIII Archive';
+    frag.appendChild(triggerEl);
+
+    var bodyEl = el('div', 'spoiler-body');
+    bodyEl.id = 'spoilerBody';
+
+    // Tagline
+    if (xiii.tagline) {
+      var tl = el('div', 'quote-block', '"' + xiii.tagline + '"');
+      bodyEl.appendChild(tl);
+    }
+
+    // Essence
+    if (xiii.essence) {
+      bodyEl.appendChild(el('h3', '', 'Essence'));
+      bodyEl.appendChild(el('p', 'prose-block', xiii.essence));
+    }
+
+    // Status
+    if (xiii.status) {
+      bodyEl.appendChild(el('h3', '', 'Current Status'));
+      bodyEl.appendChild(el('p', 'prose-block', xiii.status));
+    }
+
+    // Destabilization track
+    if (xiii.destabilization_track) {
+      bodyEl.appendChild(el('h3', '', 'Destabilization Track'));
+      var dtVal = xiii.destabilization_track;
+      if (typeof dtVal === 'string') {
+        bodyEl.appendChild(el('p', 'prose-block', dtVal));
+      } else if (Array.isArray(dtVal)) {
+        dtVal.forEach(function (step) {
+          bodyEl.appendChild(el('p', 'prose-block', typeof step === 'string' ? step : JSON.stringify(step)));
+        });
+      }
+    }
+
+    // Axis link
+    if (xiii.axis_link) {
+      bodyEl.appendChild(el('h3', '', 'Axis Link'));
+      bodyEl.appendChild(el('p', 'prose-block', xiii.axis_link));
+    }
+
+    // Warden notes
+    if (xiii.warden_notes) {
+      bodyEl.appendChild(el('h3', '', 'Warden Notes'));
+      var wnVal = xiii.warden_notes;
+      if (typeof wnVal === 'string') {
+        bodyEl.appendChild(el('p', 'prose-block', wnVal));
+      } else if (Array.isArray(wnVal)) {
+        wnVal.forEach(function (n) {
+          bodyEl.appendChild(el('p', 'prose-block', typeof n === 'string' ? n : JSON.stringify(n)));
+        });
+      }
+    }
+
+    frag.appendChild(bodyEl);
+
+    // Spoiler toggle (attach after both are in fragment)
+    triggerEl.addEventListener('click', function () {
+      triggerEl.classList.toggle('open');
+      bodyEl.classList.toggle('visible');
+    });
+  }
+
+  frag.appendChild(el('p', 'fingerprint', 'The Thirteen &mdash; Domain Registry'));
+  setContent('tab-thirteen', frag);
 }
+
+/* ── renderBestiary ── */
+function gradeClass(g) {
+  var gm = { E: 'grade-e', D: 'grade-d', C: 'grade-c', B: 'grade-b', A: 'grade-a', S: 'grade-a', SS: 'grade-ss' };
+  return gm[g] || 'grade-top';
+}
+
+function renderBestiary(bestiary) {
+  var frag = document.createDocumentFragment();
+  frag.appendChild(el('h2', '', 'Entity Register'));
+
+  var intro = el('p', 'prose-block');
+  intro.style.marginBottom = '1.5rem';
+  intro.textContent = 'Entities encountered or documented during Chapter One. Sorted by threat tier.';
+  frag.appendChild(intro);
+
+  (bestiary || []).forEach(function (e) {
+    var card = el('div', 'entity-card');
+
+    var gradeStr = 'Grade ' + e.grade + (e.type ? ' · ' + e.type : '');
+    var gradeEl = el('div', 'entity-grade ' + gradeClass(e.grade), gradeStr);
+    card.appendChild(gradeEl);
+
+    card.appendChild(el('div', 'entity-name', e.name));
+
+    if (e.register) {
+      card.appendChild(el('div', 'entity-register', 'Register: ' + e.register));
+    }
+
+    var stats = [
+      ['HP', e.hp],
+      ['ATK', e.atk],
+      ['Exorcise DC', e.exorciseDC],
+      ['Absorb', e.absorb],
+      ['Anchor', e.anchor]
+    ];
+    stats.forEach(function (s) {
+      if (s[1] == null || s[1] === '') return;
+      var sr = el('div', 'stat-row');
+      sr.appendChild(el('span', 'stat-label', s[0]));
+      sr.appendChild(el('span', 'stat-value', String(s[1])));
+      card.appendChild(sr);
+    });
+
+    if (e.tip) {
+      var tip = el('p', '');
+      tip.style.fontFamily = 'var(--font-body)';
+      tip.style.fontStyle = 'italic';
+      tip.style.fontSize = '0.9rem';
+      tip.style.color = 'var(--text-faint)';
+      tip.style.marginTop = '0.75rem';
+      tip.textContent = e.tip;
+      card.appendChild(tip);
+    }
+
+    frag.appendChild(card);
+  });
+
+  frag.appendChild(el('p', 'fingerprint', 'Veil Protocol &mdash; Entity Register'));
+  setContent('tab-bestiary', frag);
+}
+
+/* ── renderCity ── */
+function renderCity(places) {
+  var frag = document.createDocumentFragment();
+  frag.appendChild(el('h2', '', 'Kita District'));
+
+  // District prose
+  var prose = places.district_prose || {};
+  Object.keys(prose).forEach(function (distName) {
+    var sec = el('div', 'section');
+    sec.appendChild(el('h3', '', distName));
+    var text = prose[distName];
+    var parts = (text || '').split(/\n\n+/);
+    var block = el('div', 'prose-block');
+    parts.forEach(function (p) {
+      if (p.trim()) block.appendChild(el('p', '', p.trim()));
+    });
+    sec.appendChild(block);
+    frag.appendChild(sec);
+  });
+
+  // Venues
+  var venues = places.venues || {};
+  var venueKeys = Object.keys(venues);
+  if (venueKeys.length) {
+    frag.appendChild(el('h2', '', 'Known Venues'));
+    var grid = el('div', 'venue-grid');
+    venueKeys.forEach(function (vName) {
+      var keeper = venues[vName];
+      var card = el('div', 'venue-card');
+      card.appendChild(el('div', 'venue-name', vName));
+      if (keeper) card.appendChild(el('div', 'venue-keeper', 'Keeper: ' + keeper));
+      grid.appendChild(card);
+    });
+    frag.appendChild(grid);
+  }
+
+  frag.appendChild(el('p', 'fingerprint', 'Veil Protocol &mdash; City Reference'));
+  setContent('tab-city', frag);
+}
+
+/* ── renderSystem ── */
+function renderSystem(tiers) {
+  var frag = document.createDocumentFragment();
+  frag.appendChild(el('h2', '', 'Ability Registry'));
+
+  var intro = el('p', 'prose-block');
+  intro.style.marginBottom = '1.5rem';
+  intro.textContent = 'Recorded tiers and active paths by character. Presented status reflects what is known at the start of Chapter One.';
+  frag.appendChild(intro);
+
+  var table = el('table', 'system-table');
+  var thead = el('thead', '');
+  var hrow = el('tr', '');
+  ['Character', 'Class', 'Tier', 'Letter', 'Paths'].forEach(function (h) {
+    hrow.appendChild(el('th', '', h));
+  });
+  thead.appendChild(hrow);
+  table.appendChild(thead);
+
+  var tbody = el('tbody', '');
+
+  Object.keys(tiers).forEach(function (id) {
+    var t = tiers[id];
+    if (!t.presented) return;
+    var tr = el('tr', '');
+    tr.appendChild(el('td', '', t.name || id));
+    tr.appendChild(el('td', '', t.class_old || ''));
+    tr.appendChild(el('td', '', String(t.tier || '')));
+    tr.appendChild(el('td', '', t.letter || ''));
+
+    var pathStr = '';
+    if (t.paths) {
+      pathStr = Object.keys(t.paths).map(function (p) {
+        return p + ' L' + t.paths[p];
+      }).join(', ');
+    }
+    if (t.override) pathStr = t.override;
+    tr.appendChild(el('td', '', pathStr));
+
+    tbody.appendChild(tr);
+  });
+
+  table.appendChild(tbody);
+  frag.appendChild(table);
+  frag.appendChild(el('p', 'fingerprint', 'Veil Protocol &mdash; System Reference'));
+  setContent('tab-system', frag);
+}
+
+/* ── init ── */
+async function init() {
+  try {
+    var base = '../content/registry/';
+    var results = await Promise.all([
+      fetch(base + 'artifacts.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(base + 'authored.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(base + 'bestiary.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(base + 'domains.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(base + 'places.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch(base + 'tiers.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+      fetch('../content/domains/xiii-duty.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    ]);
+
+    var artifacts = results[0];
+    var authored  = results[1];
+    var bestiary  = results[2];
+    var domains   = results[3];
+    var places    = results[4];
+    var tiers     = results[5];
+    var xiii      = results[6];
+
+    renderArchive(artifacts);
+    renderChapter1();
+    renderCharacters(authored);
+    renderThirteen(domains, xiii);
+    renderBestiary(bestiary);
+    renderCity(places);
+    renderSystem(tiers);
+
+  } catch (err) {
+    console.error('VP init error', err);
+    var panels = ['tab-archive','tab-chapter1','tab-characters','tab-thirteen','tab-bestiary','tab-city','tab-system'];
+    panels.forEach(function (p) {
+      var panel = document.getElementById(p);
+      var wrap = panel && panel.querySelector('.content');
+      if (wrap && wrap.querySelector('.loading-state')) {
+        wrap.innerHTML = '<div class="error-state">Content unavailable. Serve this file over HTTP to load from the content registry.</div>';
+      }
+    });
+    // Chapter one can still render from the already-loaded scripts
+    renderChapter1();
+  }
+}
+
+init();
+
+})();
 </script>
 </body>
 </html>
