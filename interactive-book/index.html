@@ -10,218 +10,214 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#0a0a0f;--surface:#12121a;--card:#1a1a26;--border:#2a2a3e;
-  --bx:#3d3d5c;--text:#d4d0e8;--dim:#8a8aaa;--faint:#4a4a6a;
-  --acc:#7a6fa8;--bright:#9d8fd6;--blood:#8b1a1a;--bl2:#c0392b;
-  --gold:#b8960c;--gld2:#d4a017;--teal:#2a6a6a;--tl2:#3d9a9a;
-  --serif:'Crimson Pro',Georgia,serif;--display:'Cinzel',serif;--mono:'Special Elite',monospace;
+  --bx:#3d3d5c;--text:#d4d0e8;--dim:#8a8aaa;--faint:#55557a;
+  --acc:#7a6fa8;--bright:#9d8fd6;--blood:#8b1a1a;--bl2:#d0453a;
+  --gold:#b8960c;--gld2:#e0ad20;--teal:#2a6a6a;--tl2:#3fb0a8;
+  --rose:#e0607e;--rose2:#ff8aa5;
+  --serif:'Crimson Pro',Georgia,serif;--display:'Cinzel',Georgia,serif;--mono:'Special Elite','Courier New',monospace;
+  color-scheme:dark;
 }
 html,body{min-height:100%;background:var(--bg);color:var(--text);font-family:var(--serif);font-size:18px;line-height:1.75}
-body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+body{padding-block:env(safe-area-inset-top,0px) env(safe-area-inset-bottom,0px)}
+button{font:inherit}
 
 /* AGE GATE */
-#agegate{position:fixed;inset:0;background:#000;display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column;gap:1.5rem;padding:2rem;text-align:center}
-#agegate h1{font-family:var(--display);font-size:clamp(1.5rem,5vw,2.5rem);color:var(--gld2);letter-spacing:.1em}
+#agegate{position:fixed;inset:0;background:#000;display:flex;align-items:center;justify-content:center;z-index:9999;flex-direction:column;gap:1.5rem;padding:2rem 1rem;text-align:center}
+#agegate h1{font-family:var(--display);font-size:clamp(1.5rem,7vw,2.5rem);color:var(--gld2);letter-spacing:.1em}
 #agegate p{color:var(--dim);max-width:36ch;font-size:1rem}
 #agegate .gates{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center}
-.gate-btn{padding:.75rem 2rem;border:1px solid var(--bx);background:var(--surface);color:var(--text);font-family:var(--display);font-size:.85rem;letter-spacing:.08em;cursor:pointer;transition:all .2s}
+.gate-btn{padding:.85rem 2rem;border:1px solid var(--bx);background:var(--surface);color:var(--text);font-family:var(--display);font-size:.85rem;letter-spacing:.08em;cursor:pointer;transition:all .2s;min-height:48px}
 .gate-btn:hover{background:var(--card);border-color:var(--acc)}
 .gate-btn.yes{border-color:var(--acc);color:var(--bright)}
 
 /* TITLE SCREEN */
-#title{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.25rem;padding:2rem;text-align:center;z-index:999;overflow-y:auto}
-#title .logo{font-family:var(--display);font-size:clamp(2rem,8vw,4rem);color:var(--gld2);letter-spacing:.15em;text-shadow:0 0 40px rgba(180,150,20,.3)}
+#title{position:fixed;inset:0;background:var(--bg) center/cover no-repeat;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.1rem;padding:2rem 1rem;text-align:center;z-index:999;overflow-y:auto}
+#title::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,15,.55),rgba(10,10,15,.92) 60%,var(--bg));z-index:-1}
+#title .logo{font-family:var(--display);font-size:clamp(2rem,9vw,4rem);color:var(--gld2);letter-spacing:.15em;text-shadow:0 0 40px rgba(180,150,20,.35)}
 #title .tagline{color:var(--dim);font-size:1.05rem;font-style:italic;letter-spacing:.05em}
-#title .road-intro{max-width:42ch;color:var(--text);line-height:1.8;font-size:1rem}
+#title .road-intro{max-width:38ch;color:var(--text);line-height:1.7;font-size:1.02rem}
 .title-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
-.btn{display:inline-block;padding:.65rem 1.6rem;border:1px solid var(--bx);background:var(--surface);color:var(--text);font-family:var(--display);font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:all .2s;text-decoration:none;user-select:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.65rem 1.6rem;border:1px solid var(--bx);background:var(--surface);color:var(--text);font-family:var(--display);font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:all .2s;text-decoration:none;user-select:none}
 .btn:hover{background:var(--card);border-color:var(--acc)}
-.btn.primary{border-color:var(--acc);color:var(--bright)}
+.btn.primary{border-color:var(--gld2);color:var(--gld2)}
 .btn.dimmed{opacity:.4;pointer-events:none}
 
 /* SAVE SLOTS */
-#slotPicker{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:1100;display:none;align-items:center;justify-content:center;padding:1.5rem}
+#slotPicker{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:1100;display:none;align-items:center;justify-content:center;padding:1.5rem 1rem}
 #slotPicker.open{display:flex}
-.slot-box{background:var(--surface);border:1px solid var(--border);max-width:420px;width:100%;padding:1.5rem}
+.slot-box{background:var(--surface);border:1px solid var(--border);max-width:440px;width:100%;padding:1.5rem 1rem}
 .slot-box h2{font-family:var(--display);font-size:.9rem;letter-spacing:.12em;color:var(--gld2);margin-bottom:1.25rem}
 .slot-list{display:flex;flex-direction:column;gap:.6rem}
-.slot-row{display:flex;align-items:center;gap:.75rem;background:var(--card);border:1px solid var(--border);padding:.7rem .9rem;cursor:pointer;transition:all .2s}
+.slot-row{display:flex;align-items:center;gap:.75rem;background:var(--card);border:1px solid var(--border);padding:.8rem .9rem;cursor:pointer;transition:all .2s;min-height:56px}
 .slot-row:hover{border-color:var(--acc)}
 .slot-num{font-family:var(--display);font-size:.7rem;letter-spacing:.1em;color:var(--dim);width:2rem;flex-shrink:0}
-.slot-info{flex:1}
-.slot-name{font-size:.9rem;color:var(--text)}
-.slot-meta{font-size:.72rem;color:var(--dim);font-family:var(--mono);margin-top:.15rem}
-.slot-del{background:none;border:none;color:var(--faint);cursor:pointer;font-size:.75rem;padding:.2rem .4rem;font-family:var(--mono);transition:color .2s}
-.slot-del:hover{color:var(--bl2)}
-.slot-cancel{margin-top:1rem;width:100%;padding:.55rem;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;cursor:pointer;transition:all .2s}
-.slot-cancel:hover{border-color:var(--acc);color:var(--bright)}
+.slot-info{flex:1;min-width:0}
+.slot-name{font-size:.95rem;color:var(--text)}
+.slot-meta{font-size:.72rem;color:var(--dim);font-family:var(--mono);margin-top:.15rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.slot-del{background:none;border:1px solid var(--faint);color:var(--dim);cursor:pointer;font-size:.7rem;padding:.4rem .6rem;font-family:var(--mono)}
+.slot-del.armed{border-color:var(--bl2);color:var(--bl2)}
+.slot-cancel{margin-top:1rem;width:100%;min-height:44px;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;cursor:pointer}
 
 /* TOPBAR */
 #topbar{position:sticky;top:env(safe-area-inset-top,0px);background:rgba(10,10,15,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);display:none;align-items:center;gap:.5rem;padding:.45rem .75rem;z-index:100}
 .bar-left{display:flex;align-items:center;gap:.5rem;flex:1;min-width:0}
 .bar-title{font-family:var(--display);font-size:.7rem;letter-spacing:.08em;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.bar-progress{font-family:var(--mono);font-size:.6rem;color:var(--faint);white-space:nowrap;flex-shrink:0}
-.bar-stats{display:flex;gap:.4rem;align-items:center;flex-shrink:0}
-.stat-pill{display:flex;align-items:center;gap:.25rem;font-size:.65rem;color:var(--dim)}
-.stat-bar{width:36px;height:3px;background:var(--border);border-radius:2px;overflow:hidden}
+.bar-stats{display:flex;gap:.5rem;align-items:center;flex-shrink:0}
+.stat-pill{display:flex;align-items:center;gap:.25rem;font-size:.6rem;color:var(--dim);font-family:var(--mono)}
+.stat-bar{width:36px;height:4px;background:var(--border);border-radius:2px;overflow:hidden}
 .stat-fill{height:100%;border-radius:2px;transition:width .4s}
-.stat-fill.xp{background:var(--gld2)}
 .stat-fill.stab{background:var(--tl2)}
-.bar-menu-btn{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.65rem;padding:.25rem .5rem;cursor:pointer;font-family:var(--mono);letter-spacing:.05em;transition:all .2s;flex-shrink:0;display:none}
-.bar-menu-btn:hover{border-color:var(--acc);color:var(--bright)}
+.stat-fill.mad{background:var(--bl2)}
 .bar-icons{display:flex;gap:.35rem;flex-shrink:0}
-.bar-icon{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.62rem;padding:.22rem .45rem;cursor:pointer;font-family:var(--display);letter-spacing:.04em;transition:all .2s;white-space:nowrap}
+.bar-icon{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.62rem;padding:.3rem .5rem;cursor:pointer;font-family:var(--display);letter-spacing:.04em;transition:all .2s;white-space:nowrap}
 .bar-icon:hover{border-color:var(--acc);color:var(--bright)}
-@media(max-width:520px){
-  .bar-icons{display:none}
-  .bar-menu-btn{display:block}
-  .bar-stats{gap:.3rem}
-  .stat-bar{width:28px}
-}
+.bar-menu-btn{background:none;border:1px solid var(--faint);color:var(--text);font-size:1rem;padding:.25rem .65rem;cursor:pointer;display:none;min-height:36px}
+@media(max-width:600px){.bar-icons{display:none}.bar-menu-btn{display:block}.stat-bar{width:28px}}
 
 /* MOBILE MENU */
 #mobileMenu{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:900;display:none;align-items:flex-end;padding-bottom:env(safe-area-inset-bottom,0px)}
 #mobileMenu.open{display:flex}
 .mob-inner{background:var(--surface);border-top:1px solid var(--border);width:100%;padding:1rem}
 .mob-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:.75rem}
-.mob-btn{background:var(--card);border:1px solid var(--border);color:var(--text);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;padding:.75rem;cursor:pointer;text-align:center;transition:all .2s}
-.mob-btn:hover{border-color:var(--acc);color:var(--bright)}
-.mob-close{width:100%;padding:.55rem;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.7rem;letter-spacing:.08em;cursor:pointer}
+.mob-btn{background:var(--card);border:1px solid var(--border);color:var(--text);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;padding:.9rem .5rem;cursor:pointer;text-align:center;min-height:52px}
+.mob-close{width:100%;min-height:44px;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.7rem;letter-spacing:.08em;cursor:pointer}
 
 /* READER */
-#reader{max-width:680px;margin:0 auto;padding:0 1rem 5rem;display:none}
+#reader{max-width:680px;margin:0 auto;padding:0 16px 5rem;display:none}
 #sceneWrap{opacity:1;transition:opacity .18s ease}
 #sceneWrap.fade{opacity:0}
-
-.scene-img{font-family:var(--mono);font-size:.72rem;color:var(--tl2);letter-spacing:.15em;text-transform:uppercase;margin:2rem 0 .6rem;opacity:.8}
-.scene-illus{display:block;width:100%;max-height:340px;object-fit:cover;object-position:center top;border-radius:4px;margin:0 0 1.5rem;opacity:.93}
+.book-head{font-family:var(--mono);font-size:.7rem;letter-spacing:.25em;color:var(--gld2);text-transform:uppercase;text-align:center;margin-top:2.2rem;opacity:.85}
+.chap-head{font-family:var(--display);font-size:clamp(1.25rem,5.5vw,1.8rem);color:var(--gld2);letter-spacing:.06em;text-align:center;margin:.6rem 0 .4rem;text-wrap:balance;line-height:1.3}
+.scene-img{font-family:var(--mono);font-size:.72rem;color:var(--tl2);letter-spacing:.12em;text-transform:uppercase;margin:1.6rem 0 .7rem;opacity:.9;text-wrap:balance}
+.scene-illus{display:block;width:100%;max-width:100%;aspect-ratio:16/10;max-height:380px;object-fit:cover;object-position:center 25%;border-radius:6px;margin:0 0 1.5rem;border:1px solid var(--border);background:var(--surface)}
 .prose{margin-bottom:1.5rem}
-.prose p{margin-bottom:1em;font-size:1.05rem}
+.prose p{margin-bottom:1em;font-size:1.06rem}
 .prose p:first-child::first-letter{font-family:var(--display);font-size:2.8rem;float:left;line-height:.85;margin:.1em .1em 0 0;color:var(--gld2)}
 .prose em{color:var(--bright);font-style:italic}
 .prose strong{color:var(--gld2);font-weight:600}
-.entity-block{border-left:2px solid var(--blood);padding:.75rem 1rem;margin:1.5rem 0;background:rgba(139,26,26,.07)}
-.entity-block .ent-name{font-family:var(--display);font-size:.7rem;letter-spacing:.15em;color:var(--bl2);margin-bottom:.4rem;text-transform:uppercase}
-.entity-block p{font-size:.95rem;color:var(--dim);margin:0}
+.prose .small{font-size:.85rem;color:var(--dim)}
+.prose .say{color:var(--bright)}
+.note{border-left:3px solid var(--tl2);background:rgba(63,176,168,.07);padding:.7rem 1rem;margin:1.2rem 0;font-size:.95rem;color:var(--text)}
+.pillars{display:grid;grid-template-columns:1fr;gap:.4rem;margin:1rem 0 1.5rem}
+.pillar{display:flex;align-items:center;gap:.6rem;background:var(--surface);border:1px solid var(--border);padding:.5rem .8rem;font-size:.92rem}
+.pillar b{font-family:var(--mono);font-size:.75rem;width:1.4rem;text-align:center}
+.pillar.ok b{color:var(--tl2)} .pillar.no b{color:var(--bl2)}
+.entity-block{border-left:3px solid var(--blood);padding:.75rem 1rem;margin:1.5rem 0;background:rgba(139,26,26,.08)}
+.ent-name{font-family:var(--display);font-size:.78rem;letter-spacing:.12em;color:var(--bl2);text-transform:uppercase}
+.ent-kind{font-size:.85rem;color:var(--dim);font-style:italic;margin:.2rem 0 .5rem}
+.ent-rows{display:grid;grid-template-columns:auto 1fr;gap:.2rem .8rem;font-size:.88rem}
+.ent-rows dt{font-family:var(--mono);font-size:.7rem;color:var(--dim);text-transform:uppercase;letter-spacing:.06em;padding-top:.15rem}
+.ent-rows dd{color:var(--text);min-width:0}
 .sep{text-align:center;color:var(--faint);font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;margin:2rem 0}
-.choices{display:flex;flex-direction:column;gap:.6rem;margin-top:2rem}
-.choice{background:var(--surface);border:1px solid var(--border);padding:.9rem 1.1rem;cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:flex-start;gap:.75rem}
-.choice:hover:not(.locked){background:var(--card);border-color:var(--acc)}
-.choice.locked{opacity:.42;cursor:not-allowed}
-.choice-arrow{color:var(--dim);font-size:.9rem;flex-shrink:0;margin-top:.15rem}
-.choice-body{flex:1}
-.choice-text{font-family:var(--serif);font-size:1rem;color:var(--text)}
-.choice-hint{font-size:.8rem;color:var(--dim);font-style:italic;margin-top:.25rem}
-.choice-lock{font-size:.75rem;color:var(--blood);margin-top:.25rem;font-family:var(--mono);letter-spacing:.05em}
-.choice-badge{font-size:.65rem;border:1px solid var(--bx);color:var(--dim);padding:.1rem .35rem;font-family:var(--mono);letter-spacing:.08em;align-self:flex-start;margin-top:.15rem;white-space:nowrap}
+.choices{display:flex;flex-direction:column;gap:.65rem;margin-top:1.5rem}
+.choice{background:var(--surface);border:1px solid var(--border);padding:.95rem 1rem;cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:center;gap:.8rem;min-height:56px;border-radius:6px}
+.choice:hover:not(.locked),.choice:focus-visible{background:var(--card);border-color:var(--acc);outline:none}
+.choice.locked{opacity:.45;cursor:not-allowed}
+.choice.story{border-color:var(--gld2);background:linear-gradient(90deg,rgba(224,173,32,.12),var(--surface))}
+.choice.story .choice-text{color:var(--gld2);font-family:var(--display);font-size:.95rem;letter-spacing:.03em}
+.choice.love{border-color:rgba(224,96,126,.55)}
+.choice.love .choice-text{color:var(--rose2)}
+.choice-arrow{color:var(--dim);font-size:1rem;flex-shrink:0;width:1rem;text-align:center}
+.choice-av{width:46px;height:46px;border-radius:50%;object-fit:cover;object-position:center 20%;flex-shrink:0;border:1px solid var(--bx);background:var(--card)}
+.choice-body{flex:1;min-width:0}
+.choice-text{font-family:var(--serif);font-size:1.03rem;color:var(--text);line-height:1.45;display:block}
+.choice-hint{display:block;font-size:.83rem;color:var(--dim);font-style:italic;margin-top:.25rem;line-height:1.45}
+.choice-lock{display:block;font-size:.74rem;color:var(--bl2);margin-top:.3rem;font-family:var(--mono);letter-spacing:.04em}
+.choice-badge{font-size:.62rem;border:1px solid var(--bx);color:var(--dim);padding:.12rem .4rem;font-family:var(--mono);letter-spacing:.06em;align-self:flex-start;white-space:nowrap}
 .undo-row{text-align:center;margin-top:1rem}
-.undo-btn{background:none;border:none;color:var(--faint);font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;cursor:pointer;padding:.3rem .6rem;transition:color .2s}
+.undo-btn{background:none;border:none;color:var(--faint);font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;cursor:pointer;padding:.6rem .8rem}
 .undo-btn:hover{color:var(--dim)}
 
-/* END SCREEN */
-#endScreen{position:fixed;inset:0;background:var(--bg);display:none;align-items:center;justify-content:center;flex-direction:column;gap:1.5rem;padding:2rem;text-align:center;z-index:800}
-#endScreen.open{display:flex}
-.end-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;color:var(--dim);text-transform:uppercase}
-.end-title{font-family:var(--display);font-size:clamp(1.5rem,5vw,2.5rem);color:var(--gld2);letter-spacing:.12em}
-.end-text{max-width:40ch;color:var(--text);font-size:1rem;line-height:1.8}
-.end-stats{display:flex;gap:1.5rem;justify-content:center;margin:.5rem 0}
-.end-stat{text-align:center}
-.end-stat-val{font-family:var(--display);font-size:1.5rem;color:var(--bright)}
-.end-stat-label{font-family:var(--mono);font-size:.65rem;color:var(--dim);letter-spacing:.1em;text-transform:uppercase}
-.end-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
-
 /* OVERLAYS */
-.overlay{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:500;overflow-y:auto;display:none}
+.overlay{position:fixed;inset:0;background:rgba(5,5,9,.96);z-index:500;overflow-y:auto;display:none}
 .overlay.open{display:block}
-.overlay-inner{max-width:640px;margin:0 auto;padding:1.5rem 1rem 4rem}
-.overlay-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;border-bottom:1px solid var(--border);padding-bottom:1rem}
+.overlay-inner{max-width:680px;margin:0 auto;padding:1.25rem 16px 4rem}
+.overlay-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1.25rem;border-bottom:1px solid var(--border);padding-bottom:.9rem;position:sticky;top:0;background:rgba(5,5,9,.97);padding-top:.5rem;z-index:2}
 .overlay-title{font-family:var(--display);font-size:1rem;letter-spacing:.12em;color:var(--gld2)}
-.overlay-close{background:none;border:1px solid var(--faint);color:var(--dim);padding:.3rem .7rem;cursor:pointer;font-family:var(--display);font-size:.7rem;letter-spacing:.1em}
-.overlay-close:hover{border-color:var(--acc);color:var(--bright)}
+.overlay-close{background:none;border:1px solid var(--faint);color:var(--dim);padding:.45rem .8rem;cursor:pointer;font-family:var(--display);font-size:.7rem;letter-spacing:.1em;min-height:40px}
+.sec-head{font-family:var(--display);font-size:.75rem;letter-spacing:.12em;color:var(--dim);text-transform:uppercase;margin:1.4rem 0 .6rem;border-bottom:1px solid var(--border);padding-bottom:.4rem}
 
-/* CHAR SHEET */
-.char-name{font-family:var(--display);font-size:1.5rem;color:var(--gld2);letter-spacing:.1em;margin-bottom:.25rem}
-.char-role{color:var(--dim);font-style:italic;margin-bottom:1.5rem}
-.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1.5rem}
-.stat-row{background:var(--surface);border:1px solid var(--border);padding:.6rem .8rem}
+/* CHARACTER */
+.hero{display:flex;gap:1rem;align-items:center;margin-bottom:1rem}
+.hero img{width:92px;height:92px;border-radius:50%;object-fit:cover;object-position:center 20%;border:2px solid var(--gld2);flex-shrink:0}
+.char-name{font-family:var(--display);font-size:1.35rem;color:var(--gld2);letter-spacing:.08em}
+.char-role{color:var(--dim);font-style:italic;font-size:.95rem;line-height:1.5}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.6rem}
+.stat-row{background:var(--surface);border:1px solid var(--border);padding:.6rem .8rem;min-width:0}
 .stat-label{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;color:var(--dim);text-transform:uppercase}
-.stat-val{font-size:1.1rem;color:var(--text);margin-top:.2rem}
-.inv-list{display:flex;flex-direction:column;gap:.4rem}
-.inv-item{background:var(--surface);border:1px solid var(--border);padding:.5rem .8rem;font-size:.9rem;color:var(--dim)}
-.ability-list{display:flex;flex-direction:column;gap:.4rem}
-.ability-row{display:flex;justify-content:space-between;align-items:center;background:var(--surface);border:1px solid var(--border);padding:.5rem .8rem}
-.ability-name{font-size:.9rem;color:var(--text)}
-.ability-dots{display:flex;gap:3px}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--faint);border:1px solid var(--bx)}
-.dot.filled{background:var(--acc)}
-.sec-head{font-family:var(--display);font-size:.75rem;letter-spacing:.12em;color:var(--dim);text-transform:uppercase;margin:1.25rem 0 .6rem;border-bottom:1px solid var(--border);padding-bottom:.4rem}
+.stat-val{font-size:1.1rem;color:var(--text);margin-top:.15rem;font-variant-numeric:tabular-nums}
+.ability-row{display:flex;justify-content:space-between;align-items:center;gap:.6rem;background:var(--surface);border:1px solid var(--border);padding:.55rem .8rem;margin-bottom:.4rem}
+.ability-dots{display:flex;gap:3px;flex-wrap:wrap}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--faint);opacity:.5}
+.dot.filled{background:var(--bright);opacity:1}
+.inv-item{background:var(--surface);border:1px solid var(--border);padding:.55rem .8rem;font-size:.92rem;color:var(--text);margin-bottom:.4rem}
+.inv-item small{display:block;color:var(--dim);font-style:italic}
+
+/* PEOPLE */
+.people{display:grid;grid-template-columns:1fr;gap:.6rem}
+.person{display:flex;gap:.8rem;align-items:center;background:var(--surface);border:1px solid var(--border);padding:.7rem .8rem;border-radius:8px}
+.person.partner{border-color:var(--rose)}
+.person img{width:58px;height:58px;border-radius:50%;object-fit:cover;object-position:center 20%;flex-shrink:0;border:1px solid var(--bx)}
+.person-body{flex:1;min-width:0}
+.person-name{font-family:var(--display);font-size:.9rem;color:var(--text);letter-spacing:.04em}
+.person-role{font-size:.82rem;color:var(--dim);line-height:1.4}
+.meter{height:6px;background:var(--border);border-radius:3px;margin-top:.45rem;position:relative;overflow:hidden}
+.meter i{position:absolute;top:0;bottom:0;border-radius:3px}
+.meter::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--faint)}
+.tier{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;margin-top:.3rem;color:var(--dim)}
+.tier .love{color:var(--rose2)}
 
 /* JOURNAL */
 .journal-entry{border-left:2px solid var(--acc);padding:.6rem 1rem;margin-bottom:.75rem;background:var(--surface)}
 .je-scene{font-family:var(--mono);font-size:.65rem;letter-spacing:.12em;color:var(--acc);text-transform:uppercase;margin-bottom:.3rem}
-.je-text{font-size:.95rem;color:var(--dim)}
+.je-text{font-size:.95rem;color:var(--text)}
 
 /* LORE */
-.lore-tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.5rem}
-.lore-tab{background:none;border:1px solid var(--faint);color:var(--dim);padding:.35rem .75rem;cursor:pointer;font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;transition:all .2s}
-.lore-tab.active,.lore-tab:hover{border-color:var(--acc);color:var(--bright);background:rgba(122,111,168,.1)}
-.lore-tab.locked-tab{opacity:.35;pointer-events:none}
-.lore-section{display:none}
-.lore-section.active{display:block}
+.lore-tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.lore-tab{background:none;border:1px solid var(--faint);color:var(--dim);padding:.45rem .8rem;cursor:pointer;font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;min-height:38px}
+.lore-tab.active,.lore-tab:hover{border-color:var(--acc);color:var(--bright);background:rgba(122,111,168,.12)}
 .lore-card{background:var(--surface);border:1px solid var(--border);padding:1rem;margin-bottom:.75rem}
+.lore-card.gin{border-left:3px solid var(--gld2)}
 .lore-card-title{font-family:var(--display);font-size:.8rem;letter-spacing:.1em;color:var(--gld2);margin-bottom:.5rem}
-.lore-card p{font-size:.9rem;color:var(--dim);margin-bottom:.5em}
-.lore-card ul{padding-left:1.2em;color:var(--dim);font-size:.9rem}
-.lore-card li{margin-bottom:.25em}
-.lore-locked{border:1px solid var(--faint);padding:.75rem 1rem;margin-bottom:.6rem;display:flex;align-items:center;gap:.75rem;opacity:.5}
-.lore-locked-icon{font-family:var(--mono);font-size:.7rem;color:var(--faint)}
-.lore-locked-text{font-size:.85rem;color:var(--faint);font-style:italic}
-.thirteen-entry{border-left:2px solid var(--blood);padding:.6rem 1rem;margin-bottom:.6rem;background:rgba(139,26,26,.06)}
-.thirteen-name{font-family:var(--display);font-size:.75rem;letter-spacing:.12em;color:var(--bl2);text-transform:uppercase}
-.thirteen-role{font-size:.85rem;color:var(--dim);font-style:italic}
-
-/* ROADS */
-.road-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
-@media(max-width:440px){.road-grid{grid-template-columns:1fr}}
-.road-card{background:var(--surface);border:1px solid var(--border);padding:1rem;transition:all .2s}
+.lore-card p{font-size:.95rem;color:var(--text);margin-bottom:.5em}
+.lore-card.gin p{font-style:italic}
+.lore-locked{border:1px dashed var(--faint);padding:.75rem 1rem;margin-bottom:.6rem;color:var(--faint);font-style:italic;font-size:.9rem}
+.seat{display:grid;grid-template-columns:2.6rem 1fr;gap:.6rem;align-items:center;border-left:3px solid var(--blood);padding:.45rem .8rem;margin-bottom:.4rem;background:rgba(139,26,26,.06)}
+.seat b{font-family:var(--display);color:var(--bl2);font-size:.8rem}
+.seat span{font-size:.9rem}
+.road-card{background:var(--surface);border:1px solid var(--border);padding:1rem;margin-bottom:.6rem}
 .road-card.current{border-color:var(--gld2)}
-.road-icon{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;color:var(--dim);text-transform:uppercase;margin-bottom:.3rem}
-.road-title{font-family:var(--display);font-size:.82rem;letter-spacing:.08em;color:var(--gld2);margin-bottom:.3rem}
-.road-desc{font-size:.82rem;color:var(--dim);line-height:1.6}
-.road-status{font-size:.68rem;color:var(--acc);margin-top:.5rem;font-family:var(--mono);padding:.15rem .35rem;border:1px solid var(--faint);display:inline-block}
+.road-title{font-family:var(--display);font-size:.85rem;letter-spacing:.06em;color:var(--gld2);margin-bottom:.3rem}
+.road-desc{font-size:.92rem;color:var(--text);line-height:1.6}
 
 /* TOAST */
-#toast{position:fixed;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--bx);color:var(--text);padding:.6rem 1.2rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;z-index:2000;pointer-events:none;opacity:0;transition:opacity .3s;white-space:nowrap;max-width:90vw;text-align:center}
+#toast{position:fixed;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--bx);color:var(--text);padding:.65rem 1.1rem;font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;z-index:2000;pointer-events:none;opacity:0;transition:opacity .3s;max-width:calc(100vw - 32px);text-align:center}
 #toast.show{opacity:1}
-
-.path-banner{font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;color:var(--tl2);text-transform:uppercase;text-align:center;margin-bottom:1.5rem;opacity:.7}
+.path-banner{font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;color:var(--tl2);text-transform:uppercase;text-align:center;margin-top:1rem;opacity:.75}
 </style>
 </head>
 <body>
 
-<!-- AGE GATE -->
 <div id="agegate">
   <h1>VEIL PROTOCOL</h1>
-  <p>This story contains mature themes including violence, psychological horror, occult content, and moral ambiguity.</p>
+  <p>This story contains mature themes, including violence, possession, grief, psychological horror and adult relationships.</p>
   <div class="gates">
     <button class="gate-btn yes" onclick="passGate(true)">I am 18 or older</button>
     <button class="gate-btn" onclick="passGate(false)">Exit</button>
   </div>
 </div>
 
-<!-- TITLE SCREEN -->
 <div id="title" style="display:none">
   <div class="logo">VEIL PROTOCOL</div>
-  <div class="tagline">An Interactive Novel</div>
-  <div class="road-intro">Three years ago, the city started waking. Gin Okazaki disappeared into it. Tonight her partner Rei follows the same thread into the dark.<br><br>Five roads. One truth. No safe return.</div>
+  <div class="tagline">An interactive novel. The Other Side.</div>
+  <div class="road-intro">Tokyo, August. Obon week.<br>Your brother Gin went quiet on a Wednesday night. His key was on the walkway. You are Uedera Rei, nineteen, and you have spent your whole life being ordinary on purpose.<br><br>Find him. Decide what "found" means.</div>
   <div class="title-actions">
     <button class="btn primary" onclick="newGameSlot()">New Game</button>
     <button class="btn" id="continueBtn" onclick="continueSlot()">Continue</button>
-    <button class="btn" onclick="openOverlay('lorePanel')">Lore Archive</button>
-    <button class="btn" onclick="openOverlay('roadsPanel')">Five Roads</button>
+    <button class="btn" onclick="openOverlay('lorePanel')">The World</button>
   </div>
 </div>
 
-<!-- SAVE SLOT PICKER -->
 <div id="slotPicker">
   <div class="slot-box">
     <h2 id="slotTitle">SELECT SAVE SLOT</h2>
@@ -230,463 +226,444 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
   </div>
 </div>
 
-<!-- TOPBAR -->
 <div id="topbar">
-  <div class="bar-left">
-    <span class="bar-title" id="barTitle">Veil Protocol</span>
-    <span class="bar-progress" id="barProgress"></span>
-  </div>
+  <div class="bar-left"><span class="bar-title" id="barTitle">Veil Protocol</span></div>
   <div class="bar-stats">
-    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill xp" id="xpBar" style="width:0%"></span></span><span style="font-size:.6rem">XP</span></span>
-    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill stab" id="stabBar" style="width:100%"></span></span><span style="font-size:.6rem">STB</span></span>
+    <span class="stat-pill" title="Stability"><span class="stat-bar"><span class="stat-fill stab" id="stabBar" style="width:100%"></span></span>STB</span>
+    <span class="stat-pill" title="Madness"><span class="stat-bar"><span class="stat-fill mad" id="madBar" style="width:0%"></span></span>MAD</span>
   </div>
   <div class="bar-icons">
     <button class="bar-icon" onclick="openOverlay('sheetPanel')">REI</button>
+    <button class="bar-icon" onclick="openOverlay('peoplePanel')">PEOPLE</button>
     <button class="bar-icon" onclick="openOverlay('journalPanel')">LOG</button>
-    <button class="bar-icon" onclick="openOverlay('lorePanel')">LORE</button>
-    <button class="bar-icon" onclick="openOverlay('roadsPanel')">ROADS</button>
+    <button class="bar-icon" onclick="openOverlay('lorePanel')">WORLD</button>
     <button class="bar-icon" onclick="goTitle()">MENU</button>
   </div>
-  <button class="bar-menu-btn" onclick="openMobileMenu()">&#9776;</button>
+  <button class="bar-menu-btn" onclick="openMobileMenu()" aria-label="Menu">&#9776;</button>
 </div>
 
-<!-- MOBILE MENU -->
-<div id="mobileMenu">
+<div id="mobileMenu" onclick="if(event.target===this)closeMobileMenu()">
   <div class="mob-inner">
     <div class="mob-grid">
-      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('sheetPanel')">CHARACTER</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('sheetPanel')">REI</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('peoplePanel')">PEOPLE</button>
       <button class="mob-btn" onclick="closeMobileMenu();openOverlay('journalPanel')">FIELD LOG</button>
-      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('lorePanel')">LORE ARCHIVE</button>
-      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('roadsPanel')">FIVE ROADS</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('lorePanel')">THE WORLD</button>
     </div>
     <button class="mob-btn" style="width:100%;margin-bottom:.5rem" onclick="closeMobileMenu();goTitle()">SAVE &amp; MENU</button>
     <button class="mob-close" onclick="closeMobileMenu()">CLOSE</button>
   </div>
 </div>
 
-<!-- READER -->
 <div id="reader">
   <div id="sceneWrap">
     <div class="path-banner" id="pathBanner"></div>
+    <div class="book-head" id="bookHead"></div>
+    <h2 class="chap-head" id="chapHead"></h2>
     <div id="sceneImg" class="scene-img"></div>
-    <img id="sceneIllus" class="scene-illus" alt="" style="display:none">
+    <img id="sceneIllus" class="scene-illus" alt="" style="display:none" onerror="this.style.display='none'">
     <div id="sceneContent" class="prose"></div>
-    <div id="entityBlock" class="entity-block" style="display:none">
-      <div class="ent-name" id="entName"></div>
-      <p id="entDesc"></p>
-    </div>
-    <div class="sep" id="sceneSep" style="display:none">— — —</div>
+    <div id="entityBlock" class="entity-block" style="display:none"></div>
+    <div class="sep" id="sceneSep" style="display:none">&middot; &middot; &middot;</div>
     <div id="choiceBlock" class="choices"></div>
-    <div class="undo-row" id="undoRow" style="display:none">
-      <button class="undo-btn" onclick="undoChoice()">&#8617; Undo last choice</button>
-    </div>
+    <div class="undo-row" id="undoRow" style="display:none"><button class="undo-btn" onclick="undoChoice()">&#8617; Undo last choice</button></div>
   </div>
 </div>
 
-<!-- END SCREEN -->
-<div id="endScreen">
-  <div class="end-label" id="endLabel">Chapter End</div>
-  <div class="end-title" id="endTitle"></div>
-  <div class="end-text" id="endText"></div>
-  <div class="end-stats">
-    <div class="end-stat"><div class="end-stat-val" id="endXP">0</div><div class="end-stat-label">Experience</div></div>
-    <div class="end-stat"><div class="end-stat-val" id="endStab">100</div><div class="end-stat-label">Stability</div></div>
-    <div class="end-stat"><div class="end-stat-val" id="endJournal">0</div><div class="end-stat-label">Entries</div></div>
-  </div>
-  <div class="end-actions">
-    <button class="btn primary" onclick="closeEnd()">Read Journal</button>
-    <button class="btn" onclick="goTitle()">Main Menu</button>
-  </div>
-</div>
+<div id="sheetPanel" class="overlay"><div class="overlay-inner">
+  <div class="overlay-head"><span class="overlay-title">UEDERA REI</span><button class="overlay-close" onclick="closeOverlay('sheetPanel')">CLOSE</button></div>
+  <div class="hero"><img src="../images/char_rei.png" alt="Uedera Rei" onerror="this.src='../images/rei.jpg'"><div><div class="char-name">Uedera Rei</div><div class="char-role">Nineteen. Criminal investigation intern. Registered rank D, and that is the lie you have kept all your life. Gin's younger brother.</div></div></div>
+  <div class="sec-head">Status</div>
+  <div class="stat-grid" id="shStats"></div>
+  <div class="sec-head">Paths</div>
+  <div id="shAbilities"></div>
+  <div class="sec-head">Carrying</div>
+  <div id="shInv"></div>
+</div></div>
 
-<!-- OVERLAYS -->
+<div id="peoplePanel" class="overlay"><div class="overlay-inner">
+  <div class="overlay-head"><span class="overlay-title">PEOPLE</span><button class="overlay-close" onclick="closeOverlay('peoplePanel')">CLOSE</button></div>
+  <p style="color:var(--dim);font-size:.92rem;margin-bottom:1rem">Everyone you know in this, and where you stand with them. The line runs from enemy on the left to the closest bond on the right.</p>
+  <div class="people" id="peopleList"></div>
+</div></div>
 
-<!-- CHARACTER SHEET -->
-<div id="sheetPanel" class="overlay">
-  <div class="overlay-inner">
-    <div class="overlay-head">
-      <span class="overlay-title">CHARACTER</span>
-      <button class="overlay-close" onclick="closeOverlay('sheetPanel')">CLOSE</button>
-    </div>
-    <div class="char-name">Rei Okazaki</div>
-    <div class="char-role">Off-books consultant, former surveillance analyst. Gin's younger brother.</div>
-    <div class="sec-head">Status</div>
-    <div class="stat-grid">
-      <div class="stat-row"><div class="stat-label">Experience</div><div class="stat-val" id="shXP">0</div></div>
-      <div class="stat-row"><div class="stat-label">Stability</div><div class="stat-val" id="shStab">100</div></div>
-      <div class="stat-row"><div class="stat-label">Madness</div><div class="stat-val" id="shMad">0</div></div>
-      <div class="stat-row"><div class="stat-label">Road</div><div class="stat-val" id="shPath">None</div></div>
-    </div>
-    <div class="sec-head">Abilities</div>
-    <div class="ability-list" id="shAbilities"></div>
-    <div class="sec-head">Inventory</div>
-    <div class="inv-list" id="shInv"></div>
-  </div>
-</div>
+<div id="journalPanel" class="overlay"><div class="overlay-inner">
+  <div class="overlay-head"><span class="overlay-title">FIELD LOG</span><button class="overlay-close" onclick="closeOverlay('journalPanel')">CLOSE</button></div>
+  <div id="journalEntries"></div>
+</div></div>
 
-<!-- JOURNAL -->
-<div id="journalPanel" class="overlay">
-  <div class="overlay-inner">
-    <div class="overlay-head">
-      <span class="overlay-title">FIELD LOG</span>
-      <button class="overlay-close" onclick="closeOverlay('journalPanel')">CLOSE</button>
-    </div>
-    <div id="journalEntries"></div>
-  </div>
-</div>
-
-<!-- LORE ARCHIVE -->
-<div id="lorePanel" class="overlay">
-  <div class="overlay-inner">
-    <div class="overlay-head">
-      <span class="overlay-title">LORE ARCHIVE</span>
-      <button class="overlay-close" onclick="closeOverlay('lorePanel')">CLOSE</button>
-    </div>
-    <div class="lore-tabs">
-      <button class="lore-tab active" onclick="showLore('world',this)">The City</button>
-      <button class="lore-tab" onclick="showLore('thirteen',this)">The Thirteen</button>
-      <button class="lore-tab" onclick="showLore('system',this)">System</button>
-      <button class="lore-tab" id="ginTab" onclick="showLore('gin',this)">Gin's Notes</button>
-      <button class="lore-tab" id="docsTab" onclick="showLore('docs',this)">Documents</button>
-    </div>
-
-    <div id="lore-world" class="lore-section active">
-      <div class="lore-card"><div class="lore-card-title">KUROSAWA CITY</div><p>A mid-sized Japanese coastal city where the veil between the physical world and something older has grown thin over three years. The city's infrastructure looks normal. Its shadows do not behave normally.</p><p>Three years ago: unexplained disappearances, equipment failures in the old ward, and a documented uptick in what the Directorate calls "anomalous social behavior" near the waterbank district.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE VEIL</div><p>What practitioners call the membrane between ordinary space and the layer beneath it where entities move. The Veil is not a place. It is a property of space. Some locations have almost no veil left. Others are thicker than they should be.</p><p>Gin's research suggests the Veil thins through collective belief, repeated ritual, or the sustained presence of certain entities. It does not self-repair quickly.</p></div>
-      <div id="loreCult" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Cult — unlocked through investigation</span></div>
-      <div id="loreWaterbank" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Waterbank — unlocked through investigation</span></div>
-      <div id="loreOverpass" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Oji Overpass — unlocked through investigation</span></div>
-    </div>
-
-    <div id="lore-thirteen" class="lore-section">
-      <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">The Thirteen are the oldest named entities in Gin's research. They are not gods. They are not demons. They predate both frameworks.</p>
-      <div id="loreKeeper" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Keeper of the Fold — unlocked through investigation</span></div>
-      <div id="loreWitness" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Witness — unlocked through investigation</span></div>
-      <div id="loreSpeaker" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The One Who Speaks First — unlocked through investigation</span></div>
-      <div class="thirteen-entry" style="opacity:.4"><div class="thirteen-name">Ten Others</div><div class="thirteen-role">Known only by the symptoms of their presence.</div></div>
-    </div>
-
-    <div id="lore-system" class="lore-section">
-      <div class="lore-card"><div class="lore-card-title">STABILITY</div><p>Rei's capacity to interpret what she sees within normal psychological frameworks. Starts at 100. Drops with entity exposure, traumatic revelation, and certain choices. At 0, Rei cannot distinguish the city from what is beneath it. Some abilities only unlock at low stability.</p></div>
-      <div class="lore-card"><div class="lore-card-title">MADNESS</div><p>Distinct from Stability. Madness measures how much the other side has marked Rei. Madness can open doors Stability cannot. High Madness with high Stability is possible. It is an unstable condition.</p></div>
-      <div class="lore-card"><div class="lore-card-title">CLAIRSENTIENCE</div><p>Rei's latent ability to read psychic residue on objects and locations. Five levels. Each level unlocks scene fragments and choice options not otherwise visible. At level 3 and above, it begins operating without Rei's intention.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE FIVE ROADS</div><p>Five primary investigation paths. Roads overlap. Choices on one road affect what is visible on others. The endings depend on combinations, not individual paths.</p></div>
-      <div class="lore-card"><div class="lore-card-title">READERS AND DEAD READERS</div><p>A reader is a Veil-sensitive individual who can perceive entities and residue. A dead reader is a reader whose sensitivity overloaded and who is now locked in a permanent perceptual state. They are not dead. They are unreachable by normal means.</p></div>
-    </div>
-
-    <div id="lore-gin" class="lore-section">
-      <div id="ginNote1" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 1 — unlocked through investigation</span></div>
-      <div id="ginNote2" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 2 — unlocked through investigation</span></div>
-      <div id="ginNote3" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 3 — unlocked through investigation</span></div>
-      <div id="ginNote4" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Final Entry — unlocked through investigation</span></div>
-    </div>
-
-    <div id="lore-docs" class="lore-section">
-      <div id="docCVD" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">CVD Incident Report — unlocked through investigation</span></div>
-      <div id="docGrid" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Grid Anomaly Report — unlocked through investigation</span></div>
-      <div id="docSuzuran" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Suzuran Bar Incident Report — unlocked through investigation</span></div>
-    </div>
-  </div>
-</div>
-
-<!-- FIVE ROADS -->
-<div id="roadsPanel" class="overlay">
-  <div class="overlay-inner">
-    <div class="overlay-head">
-      <span class="overlay-title">FIVE ROADS</span>
-      <button class="overlay-close" onclick="closeOverlay('roadsPanel')">CLOSE</button>
-    </div>
-    <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">Five primary investigation paths. Roads overlap. Choices carry across paths. Endings depend on what you have seen, not just which road you walked.</p>
-    <div class="road-grid" id="roadGrid"></div>
-  </div>
-</div>
+<div id="lorePanel" class="overlay"><div class="overlay-inner">
+  <div class="overlay-head"><span class="overlay-title">THE WORLD</span><button class="overlay-close" onclick="closeOverlay('lorePanel')">CLOSE</button></div>
+  <div class="lore-tabs" id="loreTabs"></div>
+  <div id="loreBody"></div>
+</div></div>
 
 <div id="toast"></div>
 
 <script>
 var CONTENT_BASE = '../content';
-var loaded = false;
-var slotMode = null; // 'new' | 'continue'
-var currentSlot = 0;
+var IMG = '../images/';
+var CONTENT_FILES = ['/scenes/chapter1.js','/scenes/campaign.js','/scenes/city.js'];
+var loaded = false, slotMode = null, currentSlot = 0;
 
-var EMPTY_G = function(){
+window.VP = { scenes:{}, branchText:{}, people:{}, mainOrder:[], sideMissions:[], romances:{}, endings:{}, lore:[] };
+
+function EMPTY_G(){
   return {
     scene:'opening', idx:0, xp:0, stability:100, madness:0,
-    path:null, flags:{}, inventory:['Cold iron key'], journal:[], abilities:{},
-    lore:{}, history:[], sceneCount:0
+    path:null, flags:{}, inventory:['Cold iron key'], journal:[],
+    abilities:{clair:3, tele:1}, history:[], sceneCount:0,
+    rel:{}, rom:{}, partner:null, done:{}, ch:0, seen:{}, ever:{},
+    career:null, gin:0, where:'The kitchen, 3:47am', v:2
   };
-};
-
-var G = EMPTY_G();
-window.VP = { scenes:{}, branchText:{} };
-
-var ROADS = [
-  {id:'buddy', title:'Buddy Road', icon:'ROAD I', desc:'Follow Itsuki Kuroda, the painter who saw something he cannot unsee. The cult has him. So does whatever he painted.'},
-  {id:'cvd',   title:'Directorate Road', icon:'ROAD II', desc:'Work with the Directorate for Veil-Adjacent Civil Disturbance. Official channels, sealed floors, and the politics of knowing too much.'},
-  {id:'grid',  title:'Grid Road', icon:'ROAD III', desc:'Trace the anomalous signal network through the city. The signal is not a signal. It is a symptom.'},
-  {id:'power', title:'Open Door Road', icon:'ROAD IV', desc:'Pursue Rei\'s clairsentience directly. Opening it fully means accepting what comes through.'},
-  {id:'look',  title:'Walking Road', icon:'ROAD V', desc:'Walk the city until the city tells you something. It will. The city always does.'}
-];
-
-var PATH_NAMES = {buddy:'Road I — Kuroda', cvd:'Road II — Directorate', grid:'Road III — The Grid', power:'Road IV — Open Door', look:'Road V — Walking'};
-
-// Auto-journal: scene+idx key => text to log automatically
-var AUTO_JOURNAL = {
-  'opening:0': 'Gin has been missing since last night. I found his key on the walkway. He never leaves without it.',
-  'opening:7': 'Something was at the overpass. It wasn\'t looking at the road. It was looking at a point above the road. I don\'t have words for what I saw.',
-  'itsuki:0':  'Kuroda is in his studio. The paintings are wrong. The perspective is wrong in a specific way, like whatever he was looking at wasn\'t standing where it appeared to be.',
-  'cvd:0':     'The Directorate knows more than they\'re telling me. The off-books team exists for a reason. Official files don\'t cover everything.',
-  'grid:0':    'The Grid flagged an anomalous signal. Sanya says it\'s using the network\'s own language. That shouldn\'t be possible.',
-  'power:0':   'The cold on the key isn\'t temperature. I\'ve been filtering it as coincidence for years. I need to stop doing that.',
-  'look:0':    'Suzuran bar. The owner recognized Gin\'s name before I said it. She stopped herself and pretended she hadn\'t.'
-};
-
-// Lore unlock map: flag => array of element IDs to reveal with HTML content
-var LORE_UNLOCKS = {
-  'seen_overpass': {
-    id: 'loreOverpass',
-    html: '<div class="lore-card"><div class="lore-card-title">THE OJI OVERPASS</div><p>Elevated crossing on the city\'s north edge. Known locally as a place people stop. Three Veil-sensitive individuals have reported the same entity presence there in the last year. The entity does not interact. It observes from a fixed point above the traffic lane.</p></div>'
-  },
-  'path_cvd': {
-    id: 'docCVD',
-    html: '<div class="lore-card"><div class="lore-card-title">CVD INCIDENT REPORT — WATERBANK / CLASSIFIED</div><p style="font-size:.85rem;color:var(--dim)">[DIRECTORATE FOR VEIL-ADJACENT CIVIL DISTURBANCE] Incident ref: WB-1147-C. Location: Waterbank district, eastern block, sealed section. Nature: Reader cluster emergence, estimated 4-6 individuals, status indeterminate. Access restricted to Level 4 and above. Off-books team authorized for assessment. No documentation to external channels.</p></div>'
-  },
-  'path_grid': {
-    id: 'docGrid',
-    html: '<div class="lore-card"><div class="lore-card-title">SANYA GRID ANOMALY REPORT</div><p style="font-size:.85rem;color:var(--dim)">"Third sweep in two weeks. The signal source has moved again. It\'s not broadcasting on any registered frequency. The Grid\'s own monitoring system flagged it first, which means the signal is interfering with the network\'s anomaly detection layer. That should not be possible for a non-integrated source. Something is using The Grid\'s own language." — S. Chen, Grid analyst</p></div>'
-  },
-  'path_look': {
-    id: 'docSuzuran',
-    html: '<div class="lore-card"><div class="lore-card-title">SUZURAN BAR INCIDENT — POLICE LOG EXCERPT</div><p style="font-size:.85rem;color:var(--dim)">Noise complaint filed 02:14. Premises empty on arrival. Surveillance footage shows normal activity until 23:58, then 2 hours of static, then normal activity resuming at 01:59. No damage. No missing persons reported. [Handwritten margin note: Ask Okami-san directly. Do not bring the report.]</p></div>'
-  },
-  'cult_known': {
-    id: 'loreCult',
-    html: '<div class="lore-card"><div class="lore-card-title">THE CULT</div><p>No confirmed name. Rei calls them the cult. They work in small autonomous cells with no apparent central coordination, yet their ritual methodology is identical across incidents. They are accelerating the thinning. No one knows why with certainty.</p></div>'
-  },
-  'waterbank_known': {
-    id: 'loreWaterbank',
-    html: '<div class="lore-card"><div class="lore-card-title">THE WATERBANK</div><p>Old industrial district along the eastern river. One block remained sealed after a collapse in the 1980s. The cult is active here. Dead readers cluster here. The Directorate has a sealed floor in the local CVD office with files on the district going back to 1971.</p></div>'
-  },
-  'clair_1': {
-    id: 'ginNote3',
-    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 3 — ON CLAIRSENTIENCE</div><p style="font-style:italic">"Rei can do what I can do but she doesn\'t know she can do it. She\'s been filtering it as coincidence for years. The key is the cold sensation — the drop in apparent temperature when she touches something recently touched by the veil. She calls it a drafty room thing. It is not a drafty room thing."</p></div>'
-  },
-  'met_entity': {
-    id: 'loreWitness',
-    html: '<div class="thirteen-entry"><div class="thirteen-name">The Witness</div><div class="thirteen-role">Observes. Does not intervene. Has no known location but is documented in reports across six wards. May or may not be a single entity.</div></div>'
-  },
-  'keeper_known': {
-    id: 'loreKeeper',
-    html: '<div class="thirteen-entry"><div class="thirteen-name">The Keeper of the Fold</div><div class="thirteen-role">Maintains the structural integrity of the Veil in a given area. Has been absent from the waterbank district for at least three years.</div></div>'
-  },
-  'thirteen_offer': {
-    id: 'loreSpeaker',
-    html: '<div class="thirteen-entry"><div class="thirteen-name">The One Who Speaks First</div><div class="thirteen-role">Initiates contact with practitioners it considers capable. Offers. Does not coerce. Every documented refusal was honored. Every documented acceptance changed the person significantly.</div></div>'
-  },
-  'gin_note1': {
-    id: 'ginNote1',
-    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 1 — FIELD OBSERVATION</div><p style="font-style:italic">"The entity at the overpass has been there for eleven days. It does not move. I do not think it is waiting. I think it is watching the spot where something happened and the spot has not finished happening yet. Time is different for them. Maybe all time is the same to it and what we call waiting is just where we are in a sequence it already sees complete."</p></div>'
-  },
-  'gin_note2': {
-    id: 'ginNote2',
-    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 2 — ON THE CULT</div><p style="font-style:italic">"They don\'t want power. I was wrong about that. They want contact. They think accelerating the thinning will force contact before the entities choose to make it. That is the most dangerous possible goal. You don\'t rush a conversation with something that old by removing the walls between you."</p></div>'
-  },
-  'gin_final': {
-    id: 'ginNote4',
-    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 4 — FINAL ENTRY</div><p style="font-style:italic">"Someone from the Thirteen made contact tonight. Not one I\'ve documented. It said one thing and then it was gone. I don\'t know what it meant but I know I have to go look at the waterbank tonight. Rei, if you\'re reading this: the cold key is not a metaphor. The lock it fits is real. Don\'t use it unless you understand what you\'re opening."</p></div>'
-  }
-};
-
-// ── GATE ──
-function passGate(yes){
-  document.getElementById('agegate').style.display = 'none';
-  if(!yes){document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:height:100vh;color:#4a4a6a;font-family:monospace;padding:2rem">Exit</div>';return;}
-  document.getElementById('title').style.display = 'flex';
-  var hasSave = [0,1,2].some(function(i){return !!rawSlot(i);});
-  if(!hasSave) document.getElementById('continueBtn').classList.add('dimmed');
 }
+var G = EMPTY_G();
 
-// ── SAVE SLOTS ──
-var SLOT_KEY = function(i){ return 'vp_slot_'+i; };
+var PATH_NAMES = {buddy:'Itsuki and the Towers', cvd:'The Directorate', grid:'The Grid', power:'The Forbidden Reach', look:'The Long Walk'};
+
+var AUTO_JOURNAL = {
+  'opening:0': 'Gin did not come home. His plate is still under the upturned plate. He calls if he will be ten minutes late. He did not call.',
+  'opening:2': 'His key was on the walkway, cold. He never leaves without it.',
+  'itsuki:0':  'Itsuki was awake. Every third canvas in his studio is the Ōji overpass, and every one comes out wrong.',
+  'cvd:0':     'The CVD. Okada met me in the lobby. There are two ways to find anything out in that building.',
+  'grid:0':    'Sanya. Tanizaki poured a second cup before I asked. Gin never once brought me here.',
+  'power:0':   'The cold on the key is not the temperature. I have called it a draughty room my whole life. It is not.',
+  'look:0':    'I walked. Ōji at four in the morning. The city is not empty. It only looks empty to people who are not paying attention.'
+};
+
+// ---------------------------------------------------------------- gate, slots
+function passGate(yes){
+  document.getElementById('agegate').style.display='none';
+  if(!yes){ document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#55557a;font-family:monospace;padding:2rem">Goodbye.</div>'; return; }
+  var t=document.getElementById('title'); t.style.display='flex';
+  t.style.backgroundImage="url('"+IMG+"place_underpass.png')";
+  if(![0,1,2].some(function(i){return !!rawSlot(i);})) document.getElementById('continueBtn').classList.add('dimmed');
+}
+function SLOT_KEY(i){ return 'vp_slot_'+i; }
 function rawSlot(i){ try{var s=localStorage.getItem(SLOT_KEY(i));return s?JSON.parse(s):null;}catch(e){return null;} }
 function writeSlot(i,g){ try{localStorage.setItem(SLOT_KEY(i),JSON.stringify(g));}catch(e){} }
-function deleteSlot(i,e){ e.stopPropagation(); if(!confirm('Delete this save?')) return; localStorage.removeItem(SLOT_KEY(i)); renderSlots(); }
+var armedDel=null;
+function deleteSlot(i,e){
+  e.stopPropagation();
+  if(armedDel!==i){ armedDel=i; renderSlots(); toast('Tap DEL again to erase this save'); return; }
+  armedDel=null; try{localStorage.removeItem(SLOT_KEY(i));}catch(err){} renderSlots();
+}
 function slotLabel(s){
   if(!s) return 'Empty';
-  var road = s.path ? (PATH_NAMES[s.path]||s.path) : 'No road chosen';
-  var scene = (s.scene||'opening')+'['+(s.idx||0)+']';
-  return road + ' &middot; ' + scene + ' &middot; XP '+s.xp;
+  var bits=[];
+  if(s.where) bits.push(s.where);
+  if(s.path) bits.push(PATH_NAMES[s.path]||s.path);
+  if(s.ch) bits.push('chapter '+(s.ch+1));
+  return bits.join(' · ')||'In progress';
 }
 function renderSlots(){
-  var list = document.getElementById('slotList');
-  list.innerHTML = '';
+  var list=document.getElementById('slotList'); list.innerHTML='';
   [0,1,2].forEach(function(i){
-    var s = rawSlot(i);
-    var row = document.createElement('div');
-    row.className = 'slot-row';
-    row.innerHTML = '<span class="slot-num">0'+(i+1)+'</span><span class="slot-info"><span class="slot-name">'+(s?'Continue':'New Game')+'</span><span class="slot-meta">'+slotLabel(s)+'</span></span>'+(s?'<button class="slot-del" onclick="deleteSlot('+i+',event)">DEL</button>':'');
-    row.addEventListener('click', function(){
-      if(slotMode==='new'){ G=EMPTY_G(); currentSlot=i; beginRead(); closeSlots(); }
-      else if(slotMode==='continue' && s){ G=s; currentSlot=i; beginRead(); closeSlots(); }
-      else if(slotMode==='continue' && !s){ toast('Slot is empty'); }
+    var s=rawSlot(i);
+    var row=document.createElement('div'); row.className='slot-row';
+    row.innerHTML='<span class="slot-num">0'+(i+1)+'</span><span class="slot-info"><span class="slot-name">'+(s?'Continue':'Empty slot')+'</span><span class="slot-meta">'+esc(slotLabel(s))+'</span></span>'+(s?'<button class="slot-del'+(armedDel===i?' armed':'')+'" onclick="deleteSlot('+i+',event)">DEL</button>':'');
+    row.addEventListener('click',function(){
+      if(slotMode==='new'){ G=EMPTY_G(); currentSlot=i; closeSlots(); beginRead(); }
+      else if(s){ G=migrate(s); currentSlot=i; closeSlots(); beginRead(); }
+      else toast('This slot is empty');
     });
     list.appendChild(row);
   });
 }
-function newGameSlot(){ slotMode='new'; renderSlots(); document.getElementById('slotTitle').textContent='SELECT SLOT FOR NEW GAME'; document.getElementById('slotPicker').classList.add('open'); }
-function continueSlot(){ slotMode='continue'; renderSlots(); document.getElementById('slotTitle').textContent='SELECT SAVE SLOT'; document.getElementById('slotPicker').classList.add('open'); }
+function migrate(s){
+  var base=EMPTY_G();
+  Object.keys(base).forEach(function(k){ if(s[k]===undefined) s[k]=base[k]; });
+  if(!s.abilities.clair) s.abilities.clair=3;
+  s.history=[];
+  return s;
+}
+function newGameSlot(){ slotMode='new'; armedDel=null; renderSlots(); document.getElementById('slotTitle').textContent='CHOOSE A SLOT FOR A NEW STORY'; document.getElementById('slotPicker').classList.add('open'); }
+function continueSlot(){ slotMode='continue'; armedDel=null; renderSlots(); document.getElementById('slotTitle').textContent='CONTINUE'; document.getElementById('slotPicker').classList.add('open'); }
 function closeSlots(){ document.getElementById('slotPicker').classList.remove('open'); }
 
-// ── GAME ──
+// ---------------------------------------------------------------- loading
 function beginRead(){
-  document.getElementById('title').style.display = 'none';
-  document.getElementById('topbar').style.display = 'flex';
-  document.getElementById('reader').style.display = 'block';
+  document.getElementById('title').style.display='none';
+  document.getElementById('topbar').style.display='flex';
+  document.getElementById('reader').style.display='block';
   loadContent().then(renderScene);
 }
-
 function goTitle(){
   save();
-  document.getElementById('endScreen').classList.remove('open');
-  document.getElementById('reader').style.display = 'none';
-  document.getElementById('topbar').style.display = 'none';
-  document.getElementById('title').style.display = 'flex';
-  var hasSave = [0,1,2].some(function(i){return !!rawSlot(i);});
-  if(hasSave) document.getElementById('continueBtn').classList.remove('dimmed');
+  document.getElementById('reader').style.display='none';
+  document.getElementById('topbar').style.display='none';
+  document.getElementById('title').style.display='flex';
+  if([0,1,2].some(function(i){return !!rawSlot(i);})) document.getElementById('continueBtn').classList.remove('dimmed');
 }
-
-function loadContent(){
-  if(loaded) return Promise.resolve();
+function loadScript(src){
   return new Promise(function(resolve){
-    var s = document.createElement('script');
-    s.src = CONTENT_BASE + '/scenes/chapter1.js';
-    s.onload = function(){loaded=true;resolve();};
-    s.onerror = function(){loaded=true;resolve();};
+    var s=document.createElement('script'); s.src=src;
+    s.onload=resolve; s.onerror=function(){ console.warn('missing '+src); resolve(); };
     document.head.appendChild(s);
   });
 }
-
-function fadeScene(fn){
-  var wrap = document.getElementById('sceneWrap');
-  wrap.classList.add('fade');
-  setTimeout(function(){ fn(); wrap.classList.remove('fade'); window.scrollTo(0,0); }, 200);
+function loadContent(){
+  if(loaded) return Promise.resolve();
+  return CONTENT_FILES.reduce(function(p,f){ return p.then(function(){ return loadScript(CONTENT_BASE+f); }); }, Promise.resolve())
+    .then(function(){ loaded=true; });
 }
+
+// ---------------------------------------------------------------- helpers
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+function person(id){ return window.VP.people[id]||{name:id}; }
+function relOf(id){ if(G.rel[id]!==undefined) return G.rel[id]; var p=window.VP.people[id]; return p&&p.start!==undefined?p.start:0; }
+function addRel(id,n){ G.rel[id]=clamp(relOf(id)+n,-100,100); }
+var ROM_CHOICE=['Something between you.','Let them closer.','Something has to be done.','Ask them to stay.'];
+var ROM_STAGE=['Noticed','Trust','The turn','Close'];
+function tierName(v,id){
+  if(id && G.partner===id) return 'Partner';
+  if(id && person(id).tier) return person(id).tier;
+  if(v<=-80) return 'Mortal enemy'; if(v<=-60) return 'Enemy'; if(v<=-40) return 'Rival'; if(v<=-20) return 'Adversary';
+  if(v<-5) return 'Bad terms'; if(v<=5) return 'Acquaintance'; if(v<20) return 'Good terms'; if(v<40) return 'Friend';
+  if(v<60) return 'Good friend'; return 'Best friend';
+}
+function romThresholds(id){
+  var p=person(id), T=(p.romance&&p.romance.T)||40;
+  return [T, Math.min(95,T+10), Math.min(95,T+20), Math.min(95,T+28)];
+}
+function list(x){ return Array.isArray(x)?x:[x]; }
+
+// Requirement check. Returns '' when met, or a short reason.
+function reqWhy(r){
+  if(!r) return '';
+  var why='';
+  if(r.any){ var ok=r.any.some(function(q){return !reqWhy(q);}); if(!ok) return r.anyWhy||'Not yet'; }
+  if(r.flag && !list(r.flag).every(function(f){return G.flags[f];})) return 'Not yet';
+  if(r.noflag && list(r.noflag).some(function(f){return G.flags[f];})) return 'Not any more';
+  if(r.done && !list(r.done).every(function(d){return G.done[d];})) return 'Later in the story';
+  if(r.notdone && list(r.notdone).some(function(d){return G.done[d];})) return 'Already done';
+  if(r.path && list(r.path).indexOf(G.path)<0) return 'Another road';
+  if(r.career && list(r.career).indexOf(G.career)<0) return 'Needs other work';
+  if(r.nocareer && G.career) return 'You already have work';
+  if(r.mad!==undefined && G.madness<r.mad) return 'Madness '+r.mad+' or more';
+  if(r.madBelow!==undefined && G.madness>=r.madBelow) return 'Too far gone';
+  if(r.stab!==undefined && G.stability<r.stab) return 'Too shaken. Stability '+r.stab+' needed';
+  if(r.ch!==undefined && G.ch<r.ch) return 'Later in the story';
+  if(r.gin!==undefined && G.gin<r.gin) return 'Reach Gin more often';
+  if(r.clair!==undefined && (G.abilities.clair||0)<r.clair) return 'Clairsentience '+r.clair+' needed';
+  if(r.rel){ for(var k in r.rel){ if(relOf(k)<r.rel[k]) return 'Needs a closer bond with '+person(k).name+' ('+relOf(k)+'/'+r.rel[k]+')'; } }
+  if(r.relBelow){ for(var k2 in r.relBelow){ if(relOf(k2)>=r.relBelow[k2]) return 'Not with this bond'; } }
+  if(r.rom){ for(var k3 in r.rom){ if((G.rom[k3]||0)!==r.rom[k3]) return 'Not now'; } }
+  if(r.partner!==undefined && G.partner!==r.partner) return 'Not now';
+  if(r.once && G.seen[r.once]===G.ch) return r.onceWhy||'Already done this chapter. Give it time';
+  if(r.ever && G.ever[r.ever]) return 'Already done';
+  if(r.chMax!==undefined && G.ch>r.chMax) return 'Not now';
+  if(r.chMin!==undefined && G.ch<r.chMin) return 'Not yet';
+  if(r.madMin!==undefined && G.madness<r.madMin) return 'Not yet';
+  if(r.stabBelow!==undefined && G.stability>=r.stabBelow) return 'Not now';
+  if(r.ginMin!==undefined && G.gin<r.ginMin) return 'Not yet';
+  if(r.partnerAny && !G.partner) return 'Not now';
+  if(r.relMin){ for(var k4 in r.relMin){ if(relOf(k4)<r.relMin[k4]) return 'Needs a closer bond with '+person(k4).name+' ('+relOf(k4)+'/'+r.relMin[k4]+')'; } }
+  return why;
+}
+
+function applyFx(fx){
+  if(!fx) return;
+  if(fx.xp) gainXP(fx.xp);
+  if(fx.stab) G.stability=clamp(G.stability+fx.stab,0,100);
+  if(fx.mad) G.madness=clamp(G.madness+fx.mad,0,100);
+  if(fx.rel) Object.keys(fx.rel).forEach(function(k){ addRel(k,fx.rel[k]); });
+  if(fx.flag) list(fx.flag).forEach(function(f){ G.flags[f]=true; });
+  if(fx.unflag) list(fx.unflag).forEach(function(f){ delete G.flags[f]; });
+  if(fx.done){ G.done[fx.done]=true; }
+  if(fx.ch){ G.ch+=fx.ch; toast('Chapter complete'); }
+  if(fx.career!==undefined){ G.career=fx.career==='none'?null:fx.career; if(G.career) toast('New work. '+careerName(G.career)); }
+  if(fx.rom){ G.rom[fx.rom[0]]=fx.rom[1]; }
+  if(fx.partner){
+    var old=G.partner;
+    if(old && old!==fx.partner){
+      addRel(old,-30); G.flags['hurt_'+old]=true;
+      addJournal(person(old).name+' found out. Something between us broke, and it was my hand that broke it.');
+      toast(person(old).name+' is hurt');
+    }
+    G.partner=fx.partner;
+  }
+  if(fx.gin){ G.gin+=fx.gin; toast('You reached for Gin'); }
+  if(fx.clair){ G.abilities.clair=clamp((G.abilities.clair||0)+fx.clair,0,9); toast('Clairsentience '+G.abilities.clair); }
+  if(fx.tele){ G.abilities.tele=clamp((G.abilities.tele||0)+fx.tele,0,9); toast('Telepathy '+G.abilities.tele); }
+  if(fx.once) G.seen[fx.once]=G.ch;
+  if(fx.ever) G.ever[fx.ever]=true;
+  if(fx.item) G.inventory.push(fx.item);
+  if(fx.journal) addJournal(fx.journal);
+  if(fx.toast) toast(fx.toast);
+}
+function careerName(c){ var x=(window.VP.careers||{})[c]; return x?x.name:c; }
+
+// ---------------------------------------------------------------- render
+function fadeScene(fn){
+  var wrap=document.getElementById('sceneWrap'); wrap.classList.add('fade');
+  setTimeout(function(){ fn(); wrap.classList.remove('fade'); window.scrollTo(0,0); },180);
+}
+
+function currentScene(){ var arr=window.VP.scenes[G.scene]; return arr?arr[G.idx]:null; }
 
 function renderScene(){
   fadeScene(function(){
-    applyLoreUnlocks();
-    var scenes = window.VP.scenes[G.scene];
-    if(!scenes || !scenes[G.idx]){ renderFallback(); return; }
-    var s = scenes[G.idx];
-    G.sceneCount = (G.sceneCount||0)+1;
+    var s=currentScene();
+    if(!s){ G.scene='city'; G.idx=0; s=currentScene(); if(!s){ document.getElementById('sceneContent').innerHTML='<p>The story could not load. Check your connection and reload.</p>'; return; } }
+    G.sceneCount=(G.sceneCount||0)+1;
     autoJournal();
+    if(s.img) G.where=s.img;
 
-    document.getElementById('barTitle').textContent = s.img || 'Veil Protocol';
-    var total = scenes.length;
-    document.getElementById('barProgress').textContent = (G.idx+1)+'/'+total;
-    document.getElementById('sceneImg').textContent = s.img || '';
-    document.getElementById('sceneImg').style.display = s.img ? 'block' : 'none';
-    var illus = document.getElementById('sceneIllus');
-    if(s.imgSrc){ illus.src = s.imgSrc; illus.style.display='block'; } else { illus.src=''; illus.style.display='none'; }
-    document.getElementById('pathBanner').textContent = G.path ? (PATH_NAMES[G.path]||'') : '';
-    document.getElementById('pathBanner').style.display = G.path ? 'block' : 'none';
+    document.getElementById('barTitle').textContent=s.title||s.img||'Veil Protocol';
+    var pb=document.getElementById('pathBanner'); pb.textContent=G.career?careerName(G.career):(G.path?PATH_NAMES[G.path]:''); pb.style.display=pb.textContent?'block':'none';
+    var bh=document.getElementById('bookHead'); bh.textContent=s.book||''; bh.style.display=s.book?'block':'none';
+    var chh=document.getElementById('chapHead'); chh.textContent=s.title||''; chh.style.display=s.title?'block':'none';
+    var si=document.getElementById('sceneImg'); si.textContent=s.img||''; si.style.display=s.img?'block':'none';
+    var il=document.getElementById('sceneIllus');
+    if(s.imgSrc){ il.src=s.imgSrc; il.alt=s.img||''; il.style.display='block'; } else { il.removeAttribute('src'); il.style.display='none'; }
 
-    var content = document.getElementById('sceneContent');
-    content.innerHTML = '';
-    (s.t||[]).forEach(function(t){ var p=document.createElement('p'); p.innerHTML=t; content.appendChild(p); });
+    var content=document.getElementById('sceneContent'); content.innerHTML='';
+    (s.t||[]).forEach(function(t){
+      if(t && typeof t==='object'){ if(reqWhy(t.req)) return; t=t.p; }
+      var p=document.createElement('p'); p.innerHTML=String(t).replace(/^<p>|<\/p>$/g,'').replace(/\{partner\}/g, G.partner?esc(person(G.partner).name):'Someone'); content.appendChild(p);
+    });
+    if(s.pillars) content.appendChild(pillarBox());
 
-    var ent = document.getElementById('entityBlock');
+    var ent=document.getElementById('entityBlock');
     if(s.ent && s.ent.name){
-      document.getElementById('entName').textContent = s.ent.name;
-      document.getElementById('entDesc').textContent = s.ent.desc||'';
-      ent.style.display = 'block';
-      if(!G.flags['met_entity']){ G.flags['met_entity']=true; }
-    } else { ent.style.display='none'; }
+      var rows=(s.ent.rows||[]).map(function(r){return '<dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd>';}).join('');
+      ent.innerHTML='<div class="ent-name">'+esc(s.ent.name)+'</div>'+(s.ent.kind?'<div class="ent-kind">'+esc(s.ent.kind)+'</div>':'')+(rows?'<dl class="ent-rows">'+rows+'</dl>':'');
+      ent.style.display='block'; G.flags.met_entity=true;
+    } else ent.style.display='none';
 
-    var choices = (s.c||[]).filter(function(c){
-      if(c.showIf && G.path && c.showIf!==G.path) return false;
-      return true;
-    });
-
-    // Check chapter end
-    if(choices.length===0 && G.idx===scenes.length-1){
-      save();
-      showEnd();
-      return;
-    }
-
-    document.getElementById('sceneSep').style.display = choices.length>0?'block':'none';
-    var cb = document.getElementById('choiceBlock');
-    cb.innerHTML = '';
-    choices.forEach(function(c){
-      var locked=false, lockReason='';
-      if(c.lock){ var p=c.lock.split(':'); locked=!(G.abilities[p[0]]>=(parseInt(p[1])||1)); if(locked) lockReason=(p[0].charAt(0).toUpperCase()+p[0].slice(1))+' '+(p[1]||1)+' required'; }
-      if(c.need && !G.flags[c.need]){ locked=true; lockReason='Requires: '+c.need.replace(/_/g,' '); }
-      var badge = c.lock?'<span class="choice-badge">'+(c.lock.split(':')[0]).toUpperCase()+'</span>':'';
-      var btn = document.createElement('div');
-      btn.className = 'choice'+(locked?' locked':'');
-      btn.setAttribute('role','button');
-      btn.innerHTML = '<span class="choice-arrow">'+(locked?'&#10005;':'&#8250;')+'</span><span class="choice-body"><span class="choice-text">'+c.x+'</span>'+(c.hint?'<span class="choice-hint">'+c.hint+'</span>':'')+(locked?'<span class="choice-lock">'+lockReason+'</span>':'')+'</span>'+badge;
-      if(!locked) btn.addEventListener('click',function(){choose(c);});
-      cb.appendChild(btn);
-    });
-
-    document.getElementById('undoRow').style.display = G.history && G.history.length>0 ? 'block':'none';
-    updateBars();
-    save();
+    var choices=buildChoices(s);
+    document.getElementById('sceneSep').style.display=choices.length?'block':'none';
+    var cb=document.getElementById('choiceBlock'); cb.innerHTML='';
+    choices.forEach(function(c){ cb.appendChild(choiceEl(c)); });
+    document.getElementById('undoRow').style.display=(G.history&&G.history.length)?'block':'none';
+    updateBars(); save();
   });
 }
 
-function renderFallback(){
-  document.getElementById('barProgress').textContent = '';
-  document.getElementById('sceneContent').innerHTML = '<p>Rei stands in the kitchen at 3:47 in the morning. The apartment is cold in a way that has nothing to do with temperature. On the counter: a cold iron key that does not belong to any lock she knows.</p><p>Gin has been missing for six days.</p>';
-  document.getElementById('sceneSep').style.display = 'block';
-  document.getElementById('pathBanner').style.display = 'none';
-  var cb = document.getElementById('choiceBlock'); cb.innerHTML='';
-  [{x:'Open the lore archive to read what Gin left behind.',hint:'Start here while content loads.'}, {x:'Walk north to the Oji overpass.',hint:'The last place Gin\'s phone pinged.'}].forEach(function(c,i){
-    var btn=document.createElement('div'); btn.className='choice';
-    btn.innerHTML='<span class="choice-arrow">&#8250;</span><span class="choice-body"><span class="choice-text">'+c.x+'</span><span class="choice-hint">'+c.hint+'</span></span>';
-    if(i===0) btn.addEventListener('click',function(){openOverlay('lorePanel');});
-    if(i===1) btn.addEventListener('click',function(){toast('Content still loading');});
-    cb.appendChild(btn);
+function buildChoices(s){
+  var out=[];
+  if(s.dyn==='hub') out=out.concat(hubStoryChoice());
+  if(s.dyn==='phone') out=out.concat(phoneChoices());
+  (s.c||[]).forEach(function(c){
+    if(c.showIf && G.path && c.showIf!==G.path) return;
+    if(c.romance){ var rc=romanceChoice(c); if(rc) out.push(rc); return; }
+    var why=reqWhy(c.req);
+    if(why && c.hide) return;
+    var cc=Object.assign({},c); cc._why=why;
+    if(c.lock){ var m=String(c.lock).match(/^([a-z]+):?(\d+)$/); if(m && (G.abilities[m[1]]||0)<parseInt(m[2],10)){ cc._why=(m[1]==='clair'?'Clairsentience ':m[1]+' ')+m[2]+' needed'; } }
+    if(c.need && !G.flags[c.need]) cc._why = c.needWhy || 'You do not have what this needs';
+    if(c.fx && c.fx.partner && G.partner && G.partner!==c.fx.partner){
+      cc.hint=(cc.hint?cc.hint+' ':'')+'You are with '+person(G.partner).name+'. This will hurt them.';
+    }
+    out.push(cc);
   });
-  updateBars();
+  return out;
+}
+
+function choiceEl(c){
+  var locked=!!c._why;
+  var btn=document.createElement('div');
+  btn.className='choice'+(locked?' locked':'')+(c.kind==='story'?' story':'')+(c.kind==='love'?' love':'');
+  btn.setAttribute('role','button'); btn.tabIndex=locked?-1:0;
+  var av=c.av?'<img class="choice-av" src="'+IMG+c.av+'" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'">':'<span class="choice-arrow">'+(locked?'&#10005;':(c.kind==='love'?'&#9829;':'&#8250;'))+'</span>';
+  btn.innerHTML=av+'<span class="choice-body"><span class="choice-text">'+c.x+'</span>'+(c.hint?'<span class="choice-hint">'+c.hint+'</span>':'')+(locked?'<span class="choice-lock">'+esc(c._why)+'</span>':'')+'</span>'+(c.badge?'<span class="choice-badge">'+esc(c.badge)+'</span>':'');
+  if(!locked){
+    btn.addEventListener('click',function(){ choose(c); });
+    btn.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); choose(c); } });
+  }
+  return btn;
+}
+
+function hubStoryChoice(){
+  var next=window.VP.mainOrder.filter(function(m){return !G.done[m.id];})[0];
+  if(!next) return [];
+  return [{x:'Continue the story', hint:next.book+'. '+next.title, scene:next.id, n:0, kind:'story'}];
+}
+
+function phoneChoices(){
+  var P=window.VP.people, out=[];
+  Object.keys(P).forEach(function(id){
+    var p=P[id]; if(!p.phone) return;
+    if(reqWhy(p.phone.req)) return;
+    out.push({x:p.name, hint:p.status?('"'+p.status+'"'):(p.role||''), av:p.img, scene:'call_'+id, n:0, badge:tierName(relOf(id),id)});
+  });
+  return out;
+}
+
+function romanceChoice(c){
+  var id=c.romance, R=window.VP.romances[id]; if(!R) return null;
+  var k=G.rom[id]||0; if(k>=R.stages.length) return null;
+  var T=romThresholds(id)[k];
+  var why=relOf(id)<T?('Needs a closer bond ('+relOf(id)+'/'+T+')'):'';
+  if(c.req && !why) why=reqWhy(c.req);
+  if(why && c.hide!==false && relOf(id)<T-25) return null;
+  return {x:c.x||ROM_CHOICE[k]||R.stages[k], hint:R.captions[k], scene:'r_'+id, n:k, kind:'love', _why:why};
 }
 
 function choose(c){
-  // Push history (keep last 3)
-  var snap = JSON.parse(JSON.stringify(G));
-  G.history = G.history||[];
-  G.history.push(snap);
-  if(G.history.length>3) G.history.shift();
-
+  var snap=JSON.parse(JSON.stringify(G)); snap.history=[];
+  G.history=(G.history||[]).slice(-2); G.history.push(snap);
   if(c.do) runAction(c.do);
   gainXP(c.xp||2);
-  if(c.scene!==undefined){ G.scene=c.scene; G.idx=c.n||0; }
-  else if(c.n!==undefined){ G.idx=c.n; }
+  applyFx(c.fx);
   if(c.flag) G.flags[c.flag]=true;
   if(c.item) G.inventory.push(c.item);
   if(c.journal) addJournal(c.journal);
-  save();
-  renderScene();
+  if(c.fx && c.fx.go==='ending'){ resolveEnding(); save(); renderScene(); return; }
+  if(c.do==='reset') return;
+  if(c.scene!==undefined){ G.scene=c.scene; G.idx=c.n||0; }
+  else if(c.n!==undefined){ G.idx=c.n; }
+  save(); renderScene();
 }
 
 function undoChoice(){
-  if(!G.history || !G.history.length) return;
-  var prev = G.history.pop();
-  G = prev;
-  toast('Returned to previous scene');
-  renderScene();
+  if(!G.history||!G.history.length) return;
+  var keep=G.history.slice(0,-1), prev=G.history[G.history.length-1];
+  G=prev; G.history=keep; toast('Back one step'); renderScene();
 }
 
+// ---------------------------------------------------------------- endings
+function pillars(){
+  return [
+    {k:'duty', t:'Keep your Duty. Take no foreign seat, and do not let the Madness take you.', ok: G.madness<70 && !G.flags.pact_yushiro},
+    {k:'gin', t:'Save Gin. Reach him again and again, so his clock slows.', ok: G.gin>=5},
+    {k:'kishin', t:'Stop Kishin. Document the Far-Shore and ease the failing Despair holder.', ok: !!(G.done.m_battery && G.flags.eased_watanabe)},
+    {k:'axis', t:'The Axis as ally. Stand at the Axis with your sight grown strong.', ok: !!(G.done.m_axis && (G.abilities.clair||0)>=5)},
+    {k:'closing', t:'Block the Closing. Put the proof in front of the President.', ok: !!G.flags.president_door && !G.flags.closing_side}
+  ];
+}
+function pillarBox(){
+  var d=document.createElement('div'); d.className='pillars';
+  pillars().forEach(function(p){ var r=document.createElement('div'); r.className='pillar '+(p.ok?'ok':'no'); r.innerHTML='<b>'+(p.ok?'&#10003;':'&#10005;')+'</b><span>'+esc(p.t)+'</span>'; d.appendChild(r); });
+  return d;
+}
+function resolveEnding(){
+  var E=window.VP.endings, P=pillars(), all=P.every(function(p){return p.ok;});
+  var exorcism = relOf('shimizu')>=60 && relOf('kurosawa')>=40;
+  var key;
+  if(G.flags.pact_yushiro) key='flood';
+  else if(G.madness>=85) key='throne';
+  else if(G.flags.closing_side) key='closing';
+  else if(G.flags.final_chair) key= all?'anchor':'continuation';
+  else if(G.flags.final_gin) key='cost';
+  else if(G.flags.final_refuse) key= exorcism?'exorcism':'longgame';
+  else key='longgame';
+  G.flags['ending_'+key]=true;
+  addJournal('The night ended. '+(E[key]?E[key].name:'')+'.');
+  G.scene='end'; G.idx=(E[key]||{idx:0}).idx;
+}
+
+// ---------------------------------------------------------------- actions
 function runAction(action){
   var A = {
     // ── PATH SELECTION ──────────────────────────────────────────────────────
-    pathBuddy:  function(){G.path='buddy';G.flags['path_buddy']=true;toast('Road I — Itsuki Kuroda');},
-    pathCVD:    function(){G.path='cvd';G.flags['path_cvd']=true;toast('Road II — The Directorate');},
-    pathGrid:   function(){G.path='grid';G.flags['path_grid']=true;toast('Road III — The Grid');},
-    pathPower:  function(){G.path='power';G.flags['path_power']=true;toast('Road IV — Open Door');},
-    pathLook:   function(){G.path='look';G.flags['path_look']=true;toast('Road V — Walking');},
+    pathBuddy:  function(){G.path='buddy';G.flags['path_buddy']=true;toast('Road one. Itsuki');},
+    pathCVD:    function(){G.path='cvd';G.flags['path_cvd']=true;toast('Road two. The CVD');},
+    pathGrid:   function(){G.path='grid';G.flags['path_grid']=true;toast('Road three. The Grid');},
+    pathPower:  function(){G.path='power';G.flags['path_power']=true;toast('Road four. The Forbidden Reach');},
+    pathLook:   function(){G.path='look';G.flags['path_look']=true;toast('Road five. The Long Walk');},
 
     // ── OPENING ─────────────────────────────────────────────────────────────
     takeBook: function(){
@@ -873,6 +850,22 @@ function runAction(action){
     thirteenOffer: function(){G.flags['thirteen_offer']=true;G.flags['gin_final']=true;},
 
     // ── RESET ────────────────────────────────────────────────────────────────
+
+    // ── INTO THE CITY (end of Chapter One) ──────────────────────────────────
+    enterCity: function(){
+      if(G.flags.ch1_done) return;
+      G.flags.ch1_done=true;
+      if(G.flags.path_buddy){ addRel('itsuki',10); addRel('sei',5); }
+      if(G.flags.itsuki_debt){ addRel('itsuki',5); addRel('sei',-5); }
+      if(G.flags.path_cvd){ addRel('okada',12); G.flags.known_to_cvd=true; }
+      if(G.flags.cvd_off){ addRel('okada',8); }
+      if(G.flags.path_grid){ addRel('tanizaki',12); addRel('switch',6); G.flags.grid_trust=true; }
+      if(G.flags.grid_freed){ addRel('tanizaki',6); }
+      if(G.flags.path_look){ addRel('kaneda',12); }
+      if(G.flags.path_power){ G.abilities.clair=Math.max(G.abilities.clair||0,4); }
+      addJournal('Chapter One is over. Gin is still gone. I have a thread, a direction, and a phone full of people I have never called.');
+      toast('Chapter Two');
+    },
     reset: function(){
       var s=currentSlot;
       G=EMPTY_G();
@@ -884,66 +877,25 @@ function runAction(action){
   if(A[action]) A[action]();
 }
 
+
 function autoJournal(){
-  var key = G.scene+':'+G.idx;
-  if(AUTO_JOURNAL[key] && !G.flags['aj_'+key]){
-    G.flags['aj_'+key]=true;
-    addJournal(AUTO_JOURNAL[key]);
-  }
+  var key=G.scene+':'+G.idx;
+  if(AUTO_JOURNAL[key] && !G.flags['aj_'+key]){ G.flags['aj_'+key]=true; addJournal(AUTO_JOURNAL[key]); }
 }
-
-function addJournal(text){
-  G.journal=G.journal||[];
-  G.journal.push({scene:G.scene+'['+(G.idx||0)+']', text:text, ts:Date.now()});
-}
-
-function gainXP(n){ G.xp+=(n||0); updateBars(); }
-
+function addJournal(text){ G.journal=G.journal||[]; G.journal.push({scene:G.where||G.scene, text:text, ts:Date.now()}); }
+function gainXP(n){ G.xp+=(n||0); }
 function updateBars(){
-  var xp=Math.min(100,(G.xp%100)||0), stab=G.stability||0;
-  document.getElementById('xpBar').style.width=xp+'%';
-  document.getElementById('stabBar').style.width=stab+'%';
-  document.getElementById('stabBar').style.background=stab<30?'var(--bl2)':'var(--tl2)';
+  document.getElementById('stabBar').style.width=clamp(G.stability,0,100)+'%';
+  document.getElementById('stabBar').style.background=G.stability<30?'var(--bl2)':'var(--tl2)';
+  document.getElementById('madBar').style.width=clamp(G.madness,0,100)+'%';
 }
 
-function applyLoreUnlocks(){
-  Object.keys(LORE_UNLOCKS).forEach(function(flag){
-    if(G.flags[flag]){
-      var u=LORE_UNLOCKS[flag];
-      var el=document.getElementById(u.id);
-      if(el && el.classList.contains('lore-locked')){
-        el.outerHTML=u.html;
-      }
-    }
-  });
-}
-
-// ── END SCREEN ──
-function showEnd(){
-  var pathTitles={buddy:'The Painter\'s Road',cvd:'The Directorate\'s Road',grid:'The Grid\'s Road',power:'The Open Door',look:'The Walking Road'};
-  var endings={
-    buddy:'Itsuki Kuroda is no longer in his studio. The painting is still there. Something in it has moved since the last time you looked.',
-    cvd:'The sealed floor is open. The files are real. The Directorate knew and said nothing. The question now is whether knowing makes things better or worse.',
-    grid:'The signal stopped. Sanya says the anomaly is gone. She also says the Grid\'s monitoring layer has a new blind spot in the eastern ward that wasn\'t there before.',
-    power:'The ability is open now. It doesn\'t close. You will have to learn to live with what comes through.',
-    look:'You walked until the city showed you something. The city always does. You wish it had shown you something else.'
-  };
-  document.getElementById('endLabel').textContent = 'Chapter One Complete';
-  document.getElementById('endTitle').textContent = pathTitles[G.path]||'End of Chapter One';
-  document.getElementById('endText').textContent = endings[G.path]||'The night is not over. It never really ends.';
-  document.getElementById('endXP').textContent = G.xp;
-  document.getElementById('endStab').textContent = G.stability;
-  document.getElementById('endJournal').textContent = (G.journal||[]).length;
-  document.getElementById('endScreen').classList.add('open');
-}
-function closeEnd(){ document.getElementById('endScreen').classList.remove('open'); openOverlay('journalPanel'); }
-
-// ── OVERLAYS ──
+// ---------------------------------------------------------------- overlays
 function openOverlay(id){
   if(id==='sheetPanel') updateSheet();
+  if(id==='peoplePanel') updatePeople();
   if(id==='journalPanel') updateJournal();
-  if(id==='roadsPanel') updateRoads();
-  if(id==='lorePanel') applyLoreUnlocks();
+  if(id==='lorePanel') updateLore();
   document.getElementById(id).classList.add('open');
 }
 function closeOverlay(id){ document.getElementById(id).classList.remove('open'); }
@@ -951,68 +903,54 @@ function openMobileMenu(){ document.getElementById('mobileMenu').classList.add('
 function closeMobileMenu(){ document.getElementById('mobileMenu').classList.remove('open'); }
 
 function updateSheet(){
-  document.getElementById('shXP').textContent=G.xp;
-  document.getElementById('shStab').textContent=G.stability;
-  document.getElementById('shMad').textContent=G.madness;
-  document.getElementById('shPath').textContent=G.path?(PATH_NAMES[G.path]||G.path):'None chosen';
-  var abList=document.getElementById('shAbilities'); abList.innerHTML='';
-  var abNames={clair:'Clairsentience'}; var hasAb=false;
-  Object.keys(G.abilities||{}).forEach(function(k){
-    if(!G.abilities[k]) return; hasAb=true;
-    var row=document.createElement('div'); row.className='ability-row';
-    var dots=''; for(var i=1;i<=5;i++) dots+='<div class="dot'+(i<=G.abilities[k]?' filled':'')+'"></div>';
-    row.innerHTML='<span class="ability-name">'+(abNames[k]||k)+'</span><span class="ability-dots">'+dots+'</span>';
-    abList.appendChild(row);
-  });
-  if(!hasAb) abList.innerHTML='<div style="color:var(--faint);font-style:italic;font-size:.9rem;padding:.5rem 0">No abilities developed</div>';
-  var inv=document.getElementById('shInv'); inv.innerHTML='';
-  (G.inventory||[]).forEach(function(item){ var d=document.createElement('div'); d.className='inv-item'; d.textContent=item; inv.appendChild(d); });
-  if(!(G.inventory||[]).length) inv.innerHTML='<div class="inv-item" style="color:var(--faint);font-style:italic">Nothing</div>';
+  var rows=[['Stability',G.stability],['Madness',G.madness],['Experience',G.xp],['Road',G.path?PATH_NAMES[G.path]:'Not chosen'],
+            ['Work',G.career?careerName(G.career):'None yet'],['Times you reached Gin',G.gin],['Partner',G.partner?person(G.partner).name:'No one']];
+  document.getElementById('shStats').innerHTML=rows.map(function(r){return '<div class="stat-row"><div class="stat-label">'+r[0]+'</div><div class="stat-val">'+esc(r[1])+'</div></div>';}).join('');
+  var names={clair:'Clairsentience',tele:'Telepathy'}, html='';
+  Object.keys(G.abilities).forEach(function(k){ var v=G.abilities[k]||0; if(!v) return; var d=''; for(var i=1;i<=9;i++) d+='<i class="dot'+(i<=v?' filled':'')+'"></i>'; html+='<div class="ability-row"><span>'+(names[k]||k)+' '+v+'</span><span class="ability-dots">'+d+'</span></div>'; });
+  document.getElementById('shAbilities').innerHTML=html;
+  document.getElementById('shInv').innerHTML=(G.inventory||[]).map(function(it){ return typeof it==='string'?'<div class="inv-item">'+esc(it)+'</div>':'<div class="inv-item">'+esc(it.n)+(it.d?'<small>'+esc(it.d)+'</small>':'')+'</div>'; }).join('')||'<div class="inv-item">Nothing</div>';
+}
+
+function updatePeople(){
+  var P=window.VP.people, el=document.getElementById('peopleList'), ids=[];
+  Object.keys(P).forEach(function(id){ var p=P[id]; var known=G.rel[id]!==undefined || (p.phone && !reqWhy(p.phone.req)); if(known) ids.push(id); });
+  ids.sort(function(a,b){ return (G.partner===b)-(G.partner===a) || relOf(b)-relOf(a); });
+  if(!ids.length){ el.innerHTML='<p style="color:var(--dim)">No one yet.</p>'; return; }
+  el.innerHTML=ids.map(function(id){
+    var p=P[id], v=relOf(id), w=Math.abs(v)/2, left=v>=0?50:50-w, col=v>=0?'var(--tl2)':'var(--bl2)';
+    if(G.partner===id) col='var(--rose)';
+    var R=window.VP.romances[id], k=G.rom[id]||0, love='';
+    if(R && k>0) love=' · <span class="love">&#9829; '+(k>=R.stages.length?(G.partner===id?'Together':'Unspoken'):ROM_STAGE[k-1])+'</span>';
+    return '<div class="person'+(G.partner===id?' partner':'')+'"><img src="'+IMG+p.img+'" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'"><div class="person-body"><div class="person-name">'+esc(p.name)+'</div><div class="person-role">'+esc(p.role||'')+'</div><div class="meter"><i style="left:'+left+'%;width:'+w+'%;background:'+col+'"></i></div><div class="tier">'+tierName(v,id)+' ('+v+')'+love+'</div></div></div>';
+  }).join('');
 }
 
 function updateJournal(){
-  var el=document.getElementById('journalEntries');
-  var j=G.journal||[];
-  if(!j.length){el.innerHTML='<div style="color:var(--dim);font-style:italic;font-size:.95rem">Nothing logged yet.</div>';return;}
-  el.innerHTML='';
-  j.slice().reverse().forEach(function(e){
-    var d=document.createElement('div'); d.className='journal-entry';
-    d.innerHTML='<div class="je-scene">'+e.scene+'</div><div class="je-text">'+e.text+'</div>';
-    el.appendChild(d);
-  });
+  var el=document.getElementById('journalEntries'), j=G.journal||[];
+  if(!j.length){ el.innerHTML='<p style="color:var(--dim)">Nothing written yet.</p>'; return; }
+  el.innerHTML=j.slice().reverse().map(function(e){ return '<div class="journal-entry"><div class="je-scene">'+esc(e.scene)+'</div><div class="je-text">'+esc(e.text)+'</div></div>'; }).join('');
 }
 
-function updateRoads(){
-  var rg=document.getElementById('roadGrid'); rg.innerHTML='';
-  ROADS.forEach(function(r){
-    var isCurrent=G.path===r.id;
-    var card=document.createElement('div'); card.className='road-card'+(isCurrent?' current':'');
-    card.innerHTML='<div class="road-icon">'+r.icon+'</div><div class="road-title">'+r.title+'</div><div class="road-desc">'+r.desc+'</div>'+(isCurrent?'<div class="road-status">Current path</div>':'');
-    rg.appendChild(card);
-  });
+var loreTab='city';
+function updateLore(){
+  var L=window.VP.lore||[];
+  if(!L.length){ loadContent().then(function(){ if(window.VP.lore.length) updateLore(); }); }
+  var tabs=[]; L.forEach(function(x){ if(tabs.indexOf(x.tab)<0) tabs.push(x.tab); });
+  if(tabs.indexOf(loreTab)<0) loreTab=tabs[0];
+  var labels=window.VP.loreTabs||{};
+  document.getElementById('loreTabs').innerHTML=tabs.map(function(t){ return '<button class="lore-tab'+(t===loreTab?' active':'')+'" onclick="loreTab=\''+t+'\';updateLore()">'+esc(labels[t]||t)+'</button>'; }).join('');
+  document.getElementById('loreBody').innerHTML=L.filter(function(x){return x.tab===loreTab;}).map(function(x){
+    if(x.req && reqWhy(x.req)) return '<div class="lore-locked">'+esc(x.locked||'Not yet known.')+'</div>';
+    return x.html;
+  }).join('');
 }
 
-function showLore(id,btn){
-  document.querySelectorAll('.lore-tab').forEach(function(t){t.classList.remove('active');});
-  document.querySelectorAll('.lore-section').forEach(function(s){s.classList.remove('active');});
-  if(btn) btn.classList.add('active');
-  var el=document.getElementById('lore-'+id); if(el) el.classList.add('active');
-}
-
-// ── SAVE ──
-function save(){ writeSlot(currentSlot, G); }
-
-// ── TOAST ──
+function save(){ writeSlot(currentSlot,G); }
 var toastTimer;
 function toast(msg){ var el=document.getElementById('toast'); el.textContent=msg; el.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(function(){el.classList.remove('show');},2400); }
-
-// ── KEYBOARD ──
 document.addEventListener('keydown',function(e){
-  if(e.key==='Escape'){
-    document.querySelectorAll('.overlay.open').forEach(function(o){o.classList.remove('open');});
-    document.getElementById('mobileMenu').classList.remove('open');
-    document.getElementById('slotPicker').classList.remove('open');
-  }
+  if(e.key==='Escape'){ document.querySelectorAll('.overlay.open').forEach(function(o){o.classList.remove('open');}); closeMobileMenu(); closeSlots(); }
 });
 </script>
 </body>
