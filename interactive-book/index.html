@@ -28,33 +28,71 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 .gate-btn.yes{border-color:var(--acc);color:var(--bright)}
 
 /* TITLE SCREEN */
-#title{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.25rem;padding:2rem;text-align:center;z-index:999}
+#title{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.25rem;padding:2rem;text-align:center;z-index:999;overflow-y:auto}
 #title .logo{font-family:var(--display);font-size:clamp(2rem,8vw,4rem);color:var(--gld2);letter-spacing:.15em;text-shadow:0 0 40px rgba(180,150,20,.3)}
 #title .tagline{color:var(--dim);font-size:1.05rem;font-style:italic;letter-spacing:.05em}
 #title .road-intro{max-width:42ch;color:var(--text);line-height:1.8;font-size:1rem}
-.title-actions{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
+.title-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center;margin-top:.5rem}
 .btn{display:inline-block;padding:.65rem 1.6rem;border:1px solid var(--bx);background:var(--surface);color:var(--text);font-family:var(--display);font-size:.8rem;letter-spacing:.08em;cursor:pointer;transition:all .2s;text-decoration:none;user-select:none}
 .btn:hover{background:var(--card);border-color:var(--acc)}
 .btn.primary{border-color:var(--acc);color:var(--bright)}
-.btn.blood{border-color:var(--blood);color:var(--bl2)}
+.btn.dimmed{opacity:.4;pointer-events:none}
+
+/* SAVE SLOTS */
+#slotPicker{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:1100;display:none;align-items:center;justify-content:center;padding:1.5rem}
+#slotPicker.open{display:flex}
+.slot-box{background:var(--surface);border:1px solid var(--border);max-width:420px;width:100%;padding:1.5rem}
+.slot-box h2{font-family:var(--display);font-size:.9rem;letter-spacing:.12em;color:var(--gld2);margin-bottom:1.25rem}
+.slot-list{display:flex;flex-direction:column;gap:.6rem}
+.slot-row{display:flex;align-items:center;gap:.75rem;background:var(--card);border:1px solid var(--border);padding:.7rem .9rem;cursor:pointer;transition:all .2s}
+.slot-row:hover{border-color:var(--acc)}
+.slot-num{font-family:var(--display);font-size:.7rem;letter-spacing:.1em;color:var(--dim);width:2rem;flex-shrink:0}
+.slot-info{flex:1}
+.slot-name{font-size:.9rem;color:var(--text)}
+.slot-meta{font-size:.72rem;color:var(--dim);font-family:var(--mono);margin-top:.15rem}
+.slot-del{background:none;border:none;color:var(--faint);cursor:pointer;font-size:.75rem;padding:.2rem .4rem;font-family:var(--mono);transition:color .2s}
+.slot-del:hover{color:var(--bl2)}
+.slot-cancel{margin-top:1rem;width:100%;padding:.55rem;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;cursor:pointer;transition:all .2s}
+.slot-cancel:hover{border-color:var(--acc);color:var(--bright)}
 
 /* TOPBAR */
-#topbar{position:sticky;top:env(safe-area-inset-top,0px);background:rgba(10,10,15,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.75rem;padding:.5rem 1rem;z-index:100;display:none}
-.bar-title{font-family:var(--display);font-size:.75rem;letter-spacing:.1em;color:var(--dim);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.bar-stats{display:flex;gap:.5rem;align-items:center}
-.stat-pill{display:flex;align-items:center;gap:.3rem;font-size:.7rem;color:var(--dim)}
-.stat-bar{width:48px;height:4px;background:var(--border);border-radius:2px;overflow:hidden}
+#topbar{position:sticky;top:env(safe-area-inset-top,0px);background:rgba(10,10,15,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);display:none;align-items:center;gap:.5rem;padding:.45rem .75rem;z-index:100}
+.bar-left{display:flex;align-items:center;gap:.5rem;flex:1;min-width:0}
+.bar-title{font-family:var(--display);font-size:.7rem;letter-spacing:.08em;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-progress{font-family:var(--mono);font-size:.6rem;color:var(--faint);white-space:nowrap;flex-shrink:0}
+.bar-stats{display:flex;gap:.4rem;align-items:center;flex-shrink:0}
+.stat-pill{display:flex;align-items:center;gap:.25rem;font-size:.65rem;color:var(--dim)}
+.stat-bar{width:36px;height:3px;background:var(--border);border-radius:2px;overflow:hidden}
 .stat-fill{height:100%;border-radius:2px;transition:width .4s}
 .stat-fill.xp{background:var(--gld2)}
 .stat-fill.stab{background:var(--tl2)}
-.bar-icons{display:flex;gap:.5rem}
-.bar-icon{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.7rem;padding:.2rem .5rem;cursor:pointer;font-family:var(--display);letter-spacing:.05em;transition:all .2s}
+.bar-menu-btn{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.65rem;padding:.25rem .5rem;cursor:pointer;font-family:var(--mono);letter-spacing:.05em;transition:all .2s;flex-shrink:0;display:none}
+.bar-menu-btn:hover{border-color:var(--acc);color:var(--bright)}
+.bar-icons{display:flex;gap:.35rem;flex-shrink:0}
+.bar-icon{background:none;border:1px solid var(--faint);color:var(--dim);font-size:.62rem;padding:.22rem .45rem;cursor:pointer;font-family:var(--display);letter-spacing:.04em;transition:all .2s;white-space:nowrap}
 .bar-icon:hover{border-color:var(--acc);color:var(--bright)}
+@media(max-width:520px){
+  .bar-icons{display:none}
+  .bar-menu-btn{display:block}
+  .bar-stats{gap:.3rem}
+  .stat-bar{width:28px}
+}
+
+/* MOBILE MENU */
+#mobileMenu{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:900;display:none;align-items:flex-end;padding-bottom:env(safe-area-inset-bottom,0px)}
+#mobileMenu.open{display:flex}
+.mob-inner{background:var(--surface);border-top:1px solid var(--border);width:100%;padding:1rem}
+.mob-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:.75rem}
+.mob-btn{background:var(--card);border:1px solid var(--border);color:var(--text);font-family:var(--display);font-size:.75rem;letter-spacing:.08em;padding:.75rem;cursor:pointer;text-align:center;transition:all .2s}
+.mob-btn:hover{border-color:var(--acc);color:var(--bright)}
+.mob-close{width:100%;padding:.55rem;border:1px solid var(--faint);background:none;color:var(--dim);font-family:var(--display);font-size:.7rem;letter-spacing:.08em;cursor:pointer}
 
 /* READER */
-#reader{max-width:680px;margin:0 auto;padding:0 1rem 4rem;display:none}
+#reader{max-width:680px;margin:0 auto;padding:0 1rem 5rem;display:none}
+#sceneWrap{opacity:1;transition:opacity .18s ease}
+#sceneWrap.fade{opacity:0}
 
-.scene-img{font-family:var(--mono);font-size:.75rem;color:var(--tl2);letter-spacing:.15em;text-transform:uppercase;margin:2rem 0 1.25rem;opacity:.8}
+.scene-img{font-family:var(--mono);font-size:.72rem;color:var(--tl2);letter-spacing:.15em;text-transform:uppercase;margin:2rem 0 1.25rem;opacity:.8}
 .prose{margin-bottom:1.5rem}
 .prose p{margin-bottom:1em;font-size:1.05rem}
 .prose p:first-child::first-letter{font-family:var(--display);font-size:2.8rem;float:left;line-height:.85;margin:.1em .1em 0 0;color:var(--gld2)}
@@ -63,22 +101,35 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 .entity-block{border-left:2px solid var(--blood);padding:.75rem 1rem;margin:1.5rem 0;background:rgba(139,26,26,.07)}
 .entity-block .ent-name{font-family:var(--display);font-size:.7rem;letter-spacing:.15em;color:var(--bl2);margin-bottom:.4rem;text-transform:uppercase}
 .entity-block p{font-size:.95rem;color:var(--dim);margin:0}
-
 .sep{text-align:center;color:var(--faint);font-family:var(--mono);font-size:.7rem;letter-spacing:.3em;margin:2rem 0}
-
 .choices{display:flex;flex-direction:column;gap:.6rem;margin-top:2rem}
 .choice{background:var(--surface);border:1px solid var(--border);padding:.9rem 1.1rem;cursor:pointer;transition:all .2s;text-align:left;display:flex;align-items:flex-start;gap:.75rem}
 .choice:hover:not(.locked){background:var(--card);border-color:var(--acc)}
-.choice.locked{opacity:.45;cursor:not-allowed}
+.choice.locked{opacity:.42;cursor:not-allowed}
 .choice-arrow{color:var(--dim);font-size:.9rem;flex-shrink:0;margin-top:.15rem}
 .choice-body{flex:1}
 .choice-text{font-family:var(--serif);font-size:1rem;color:var(--text)}
 .choice-hint{font-size:.8rem;color:var(--dim);font-style:italic;margin-top:.25rem}
 .choice-lock{font-size:.75rem;color:var(--blood);margin-top:.25rem;font-family:var(--mono);letter-spacing:.05em}
-.choice-badge{font-size:.68rem;border:1px solid var(--bx);color:var(--dim);padding:.1rem .4rem;font-family:var(--mono);letter-spacing:.08em;align-self:flex-start;margin-top:.15rem;white-space:nowrap}
+.choice-badge{font-size:.65rem;border:1px solid var(--bx);color:var(--dim);padding:.1rem .35rem;font-family:var(--mono);letter-spacing:.08em;align-self:flex-start;margin-top:.15rem;white-space:nowrap}
+.undo-row{text-align:center;margin-top:1rem}
+.undo-btn{background:none;border:none;color:var(--faint);font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;cursor:pointer;padding:.3rem .6rem;transition:color .2s}
+.undo-btn:hover{color:var(--dim)}
+
+/* END SCREEN */
+#endScreen{position:fixed;inset:0;background:var(--bg);display:none;align-items:center;justify-content:center;flex-direction:column;gap:1.5rem;padding:2rem;text-align:center;z-index:800}
+#endScreen.open{display:flex}
+.end-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;color:var(--dim);text-transform:uppercase}
+.end-title{font-family:var(--display);font-size:clamp(1.5rem,5vw,2.5rem);color:var(--gld2);letter-spacing:.12em}
+.end-text{max-width:40ch;color:var(--text);font-size:1rem;line-height:1.8}
+.end-stats{display:flex;gap:1.5rem;justify-content:center;margin:.5rem 0}
+.end-stat{text-align:center}
+.end-stat-val{font-family:var(--display);font-size:1.5rem;color:var(--bright)}
+.end-stat-label{font-family:var(--mono);font-size:.65rem;color:var(--dim);letter-spacing:.1em;text-transform:uppercase}
+.end-actions{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
 
 /* OVERLAYS */
-.overlay{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:500;overflow-y:auto;display:none}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:500;overflow-y:auto;display:none}
 .overlay.open{display:block}
 .overlay-inner{max-width:640px;margin:0 auto;padding:1.5rem 1rem 4rem}
 .overlay-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;border-bottom:1px solid var(--border);padding-bottom:1rem}
@@ -86,7 +137,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 .overlay-close{background:none;border:1px solid var(--faint);color:var(--dim);padding:.3rem .7rem;cursor:pointer;font-family:var(--display);font-size:.7rem;letter-spacing:.1em}
 .overlay-close:hover{border-color:var(--acc);color:var(--bright)}
 
-/* SHEET */
+/* CHAR SHEET */
 .char-name{font-family:var(--display);font-size:1.5rem;color:var(--gld2);letter-spacing:.1em;margin-bottom:.25rem}
 .char-role{color:var(--dim);font-style:italic;margin-bottom:1.5rem}
 .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1.5rem}
@@ -112,6 +163,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 .lore-tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:1.5rem}
 .lore-tab{background:none;border:1px solid var(--faint);color:var(--dim);padding:.35rem .75rem;cursor:pointer;font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;transition:all .2s}
 .lore-tab.active,.lore-tab:hover{border-color:var(--acc);color:var(--bright);background:rgba(122,111,168,.1)}
+.lore-tab.locked-tab{opacity:.35;pointer-events:none}
 .lore-section{display:none}
 .lore-section.active{display:block}
 .lore-card{background:var(--surface);border:1px solid var(--border);padding:1rem;margin-bottom:.75rem}
@@ -119,6 +171,9 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 .lore-card p{font-size:.9rem;color:var(--dim);margin-bottom:.5em}
 .lore-card ul{padding-left:1.2em;color:var(--dim);font-size:.9rem}
 .lore-card li{margin-bottom:.25em}
+.lore-locked{border:1px solid var(--faint);padding:.75rem 1rem;margin-bottom:.6rem;display:flex;align-items:center;gap:.75rem;opacity:.5}
+.lore-locked-icon{font-family:var(--mono);font-size:.7rem;color:var(--faint)}
+.lore-locked-text{font-size:.85rem;color:var(--faint);font-style:italic}
 .thirteen-entry{border-left:2px solid var(--blood);padding:.6rem 1rem;margin-bottom:.6rem;background:rgba(139,26,26,.06)}
 .thirteen-name{font-family:var(--display);font-size:.75rem;letter-spacing:.12em;color:var(--bl2);text-transform:uppercase}
 .thirteen-role{font-size:.85rem;color:var(--dim);font-style:italic}
@@ -126,23 +181,18 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 /* ROADS */
 .road-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
 @media(max-width:440px){.road-grid{grid-template-columns:1fr}}
-.road-card{background:var(--surface);border:1px solid var(--border);padding:1rem;cursor:pointer;transition:all .2s}
-.road-card:hover{border-color:var(--acc);background:var(--card)}
-.road-card.active{border-color:var(--gld2)}
-.road-icon{font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;color:var(--dim);text-transform:uppercase;margin-bottom:.3rem}
-.road-title{font-family:var(--display);font-size:.85rem;letter-spacing:.08em;color:var(--gld2);margin-bottom:.3rem}
-.road-desc{font-size:.85rem;color:var(--dim);line-height:1.6}
-.road-status{font-size:.7rem;color:var(--acc);margin-top:.4rem;font-family:var(--mono)}
+.road-card{background:var(--surface);border:1px solid var(--border);padding:1rem;transition:all .2s}
+.road-card.current{border-color:var(--gld2)}
+.road-icon{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;color:var(--dim);text-transform:uppercase;margin-bottom:.3rem}
+.road-title{font-family:var(--display);font-size:.82rem;letter-spacing:.08em;color:var(--gld2);margin-bottom:.3rem}
+.road-desc{font-size:.82rem;color:var(--dim);line-height:1.6}
+.road-status{font-size:.68rem;color:var(--acc);margin-top:.5rem;font-family:var(--mono);padding:.15rem .35rem;border:1px solid var(--faint);display:inline-block}
 
 /* TOAST */
-#toast{position:fixed;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--bx);color:var(--text);padding:.6rem 1.2rem;font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;z-index:1000;pointer-events:none;opacity:0;transition:opacity .3s;white-space:nowrap}
+#toast{position:fixed;bottom:calc(1.5rem + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--card);border:1px solid var(--bx);color:var(--text);padding:.6rem 1.2rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;z-index:2000;pointer-events:none;opacity:0;transition:opacity .3s;white-space:nowrap;max-width:90vw;text-align:center}
 #toast.show{opacity:1}
 
-/* DARK SCENES */
-.dark-scene{background:rgba(139,26,26,.08);border-top:1px solid rgba(139,26,26,.25);border-bottom:1px solid rgba(139,26,26,.25);padding:1rem 0;margin:1.5rem -1rem}
-
-/* Path label */
-.path-banner{font-family:var(--mono);font-size:.65rem;letter-spacing:.15em;color:var(--tl2);text-transform:uppercase;text-align:center;margin-bottom:1.5rem;opacity:.7}
+.path-banner{font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;color:var(--tl2);text-transform:uppercase;text-align:center;margin-bottom:1.5rem;opacity:.7}
 </style>
 </head>
 <body>
@@ -150,7 +200,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 <!-- AGE GATE -->
 <div id="agegate">
   <h1>VEIL PROTOCOL</h1>
-  <p>This story contains mature themes: violence, psychological horror, occult content, and moral ambiguity. Reader discretion advised.</p>
+  <p>This story contains mature themes including violence, psychological horror, occult content, and moral ambiguity.</p>
   <div class="gates">
     <button class="gate-btn yes" onclick="passGate(true)">I am 18 or older</button>
     <button class="gate-btn" onclick="passGate(false)">Exit</button>
@@ -163,39 +213,88 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
   <div class="tagline">An Interactive Novel</div>
   <div class="road-intro">Three years ago, the city started waking. Gin Okazaki disappeared into it. Tonight her partner Rei follows the same thread into the dark.<br><br>Five roads. One truth. No safe return.</div>
   <div class="title-actions">
-    <button class="btn primary" onclick="startGame()">Begin</button>
-    <button class="btn" onclick="continueGame()">Continue</button>
+    <button class="btn primary" onclick="newGameSlot()">New Game</button>
+    <button class="btn" id="continueBtn" onclick="continueSlot()">Continue</button>
     <button class="btn" onclick="openOverlay('lorePanel')">Lore Archive</button>
     <button class="btn" onclick="openOverlay('roadsPanel')">Five Roads</button>
   </div>
 </div>
 
+<!-- SAVE SLOT PICKER -->
+<div id="slotPicker">
+  <div class="slot-box">
+    <h2 id="slotTitle">SELECT SAVE SLOT</h2>
+    <div class="slot-list" id="slotList"></div>
+    <button class="slot-cancel" onclick="closeSlots()">CANCEL</button>
+  </div>
+</div>
+
 <!-- TOPBAR -->
 <div id="topbar">
-  <span class="bar-title" id="barTitle">Veil Protocol</span>
+  <div class="bar-left">
+    <span class="bar-title" id="barTitle">Veil Protocol</span>
+    <span class="bar-progress" id="barProgress"></span>
+  </div>
   <div class="bar-stats">
-    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill xp" id="xpBar" style="width:0%"></span></span>XP</span>
-    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill stab" id="stabBar" style="width:100%"></span></span>STB</span>
+    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill xp" id="xpBar" style="width:0%"></span></span><span style="font-size:.6rem">XP</span></span>
+    <span class="stat-pill"><span class="stat-bar"><span class="stat-fill stab" id="stabBar" style="width:100%"></span></span><span style="font-size:.6rem">STB</span></span>
   </div>
   <div class="bar-icons">
     <button class="bar-icon" onclick="openOverlay('sheetPanel')">REI</button>
     <button class="bar-icon" onclick="openOverlay('journalPanel')">LOG</button>
     <button class="bar-icon" onclick="openOverlay('lorePanel')">LORE</button>
     <button class="bar-icon" onclick="openOverlay('roadsPanel')">ROADS</button>
+    <button class="bar-icon" onclick="goTitle()">MENU</button>
+  </div>
+  <button class="bar-menu-btn" onclick="openMobileMenu()">&#9776;</button>
+</div>
+
+<!-- MOBILE MENU -->
+<div id="mobileMenu">
+  <div class="mob-inner">
+    <div class="mob-grid">
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('sheetPanel')">CHARACTER</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('journalPanel')">FIELD LOG</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('lorePanel')">LORE ARCHIVE</button>
+      <button class="mob-btn" onclick="closeMobileMenu();openOverlay('roadsPanel')">FIVE ROADS</button>
+    </div>
+    <button class="mob-btn" style="width:100%;margin-bottom:.5rem" onclick="closeMobileMenu();goTitle()">SAVE &amp; MENU</button>
+    <button class="mob-close" onclick="closeMobileMenu()">CLOSE</button>
   </div>
 </div>
 
 <!-- READER -->
 <div id="reader">
-  <div class="path-banner" id="pathBanner"></div>
-  <div id="sceneImg" class="scene-img"></div>
-  <div id="sceneContent" class="prose"></div>
-  <div id="entityBlock" class="entity-block" style="display:none">
-    <div class="ent-name" id="entName"></div>
-    <p id="entDesc"></p>
+  <div id="sceneWrap">
+    <div class="path-banner" id="pathBanner"></div>
+    <div id="sceneImg" class="scene-img"></div>
+    <div id="sceneContent" class="prose"></div>
+    <div id="entityBlock" class="entity-block" style="display:none">
+      <div class="ent-name" id="entName"></div>
+      <p id="entDesc"></p>
+    </div>
+    <div class="sep" id="sceneSep" style="display:none">— — —</div>
+    <div id="choiceBlock" class="choices"></div>
+    <div class="undo-row" id="undoRow" style="display:none">
+      <button class="undo-btn" onclick="undoChoice()">&#8617; Undo last choice</button>
+    </div>
   </div>
-  <div class="sep" id="sceneSep" style="display:none">— — —</div>
-  <div id="choiceBlock" class="choices"></div>
+</div>
+
+<!-- END SCREEN -->
+<div id="endScreen">
+  <div class="end-label" id="endLabel">Chapter End</div>
+  <div class="end-title" id="endTitle"></div>
+  <div class="end-text" id="endText"></div>
+  <div class="end-stats">
+    <div class="end-stat"><div class="end-stat-val" id="endXP">0</div><div class="end-stat-label">Experience</div></div>
+    <div class="end-stat"><div class="end-stat-val" id="endStab">100</div><div class="end-stat-label">Stability</div></div>
+    <div class="end-stat"><div class="end-stat-val" id="endJournal">0</div><div class="end-stat-label">Entries</div></div>
+  </div>
+  <div class="end-actions">
+    <button class="btn primary" onclick="closeEnd()">Read Journal</button>
+    <button class="btn" onclick="goTitle()">Main Menu</button>
+  </div>
 </div>
 
 <!-- OVERLAYS -->
@@ -219,7 +318,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
     <div class="sec-head">Abilities</div>
     <div class="ability-list" id="shAbilities"></div>
     <div class="sec-head">Inventory</div>
-    <div class="inv-list" id="shInv"><div class="inv-item" style="color:var(--faint);font-style:italic">Nothing yet</div></div>
+    <div class="inv-list" id="shInv"></div>
   </div>
 </div>
 
@@ -230,7 +329,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
       <span class="overlay-title">FIELD LOG</span>
       <button class="overlay-close" onclick="closeOverlay('journalPanel')">CLOSE</button>
     </div>
-    <div id="journalEntries"><div style="color:var(--dim);font-style:italic;font-size:.95rem">Nothing logged yet.</div></div>
+    <div id="journalEntries"></div>
   </div>
 </div>
 
@@ -242,49 +341,48 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
       <button class="overlay-close" onclick="closeOverlay('lorePanel')">CLOSE</button>
     </div>
     <div class="lore-tabs">
-      <button class="lore-tab active" onclick="showLore('world')">The City</button>
-      <button class="lore-tab" onclick="showLore('thirteen')">The Thirteen</button>
-      <button class="lore-tab" onclick="showLore('system')">System</button>
-      <button class="lore-tab" onclick="showLore('gin')">Gin's Notes</button>
-      <button class="lore-tab" onclick="showLore('docs')">Documents</button>
+      <button class="lore-tab active" onclick="showLore('world',this)">The City</button>
+      <button class="lore-tab" onclick="showLore('thirteen',this)">The Thirteen</button>
+      <button class="lore-tab" onclick="showLore('system',this)">System</button>
+      <button class="lore-tab" id="ginTab" onclick="showLore('gin',this)">Gin's Notes</button>
+      <button class="lore-tab" id="docsTab" onclick="showLore('docs',this)">Documents</button>
     </div>
 
     <div id="lore-world" class="lore-section active">
       <div class="lore-card"><div class="lore-card-title">KUROSAWA CITY</div><p>A mid-sized Japanese coastal city where the veil between the physical world and something older has grown thin over three years. The city's infrastructure looks normal. Its shadows do not behave normally.</p><p>Three years ago: unexplained disappearances, equipment failures in the old ward, and a documented uptick in what the Directorate calls "anomalous social behavior" near the waterbank district.</p></div>
       <div class="lore-card"><div class="lore-card-title">THE VEIL</div><p>What practitioners call the membrane between ordinary space and the layer beneath it where entities move. The Veil is not a place. It is a property of space. Some locations have almost no veil left. Others are thicker than they should be.</p><p>Gin's research suggests the Veil thins through collective belief, repeated ritual, or the sustained presence of certain entities. It does not self-repair quickly.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE CULT</div><p>No confirmed name. Rei calls them the cult. They work in small autonomous cells with no apparent central coordination, yet their ritual methodology is identical across incidents. They are accelerating the thinning. No one knows why with certainty.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE WATERBANK</div><p>Old industrial district along the eastern river. The city redeveloped most of it. One block remained sealed after a collapse in the 1980s. The cult is active here. Dead readers cluster here. The Directorate has a sealed floor in the local CVD office with files on the district going back to 1971.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE OJI OVERPASS</div><p>Elevated crossing on the city's north edge. Known locally as a place people stop. Three Veil-sensitive individuals have reported the same entity presence there in the last year. The entity does not interact. It observes from a fixed point above the traffic lane.</p></div>
+      <div id="loreCult" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Cult — unlocked through investigation</span></div>
+      <div id="loreWaterbank" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Waterbank — unlocked through investigation</span></div>
+      <div id="loreOverpass" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Oji Overpass — unlocked through investigation</span></div>
     </div>
 
     <div id="lore-thirteen" class="lore-section">
-      <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">The Thirteen are the oldest named entities in Gin's research. They are not gods. They are not demons. They predate both frameworks. They have names because humans gave them names, and they have kept those names because names are a form of agreement.</p>
-      <div class="thirteen-entry"><div class="thirteen-name">The Keeper of the Fold</div><div class="thirteen-role">Maintains the structural integrity of the Veil in a given area. Has been absent from the waterbank district for at least three years.</div></div>
-      <div class="thirteen-entry"><div class="thirteen-name">The Witness</div><div class="thirteen-role">Observes. Does not intervene. Has no known location but is documented in reports across six wards. May or may not be a single entity.</div></div>
-      <div class="thirteen-entry"><div class="thirteen-name">The One Who Speaks First</div><div class="thirteen-role">Initiates contact with practitioners it considers capable. Offers. Does not coerce. Every documented refusal was honored. Every documented acceptance changed the person significantly.</div></div>
-      <div class="thirteen-entry"><div class="thirteen-name">The Unbound</div><div class="thirteen-role">Not documented in Gin's notes. Referenced in the Directorate's sealed floor files. The description is redacted. The file classification is the highest the CVD uses.</div></div>
-      <div class="thirteen-entry" style="opacity:.5"><div class="thirteen-name">Nine More</div><div class="thirteen-role">Gin's research identified thirteen entities meeting the criteria. Four are named above. The others are known only by the symptoms of their presence.</div></div>
+      <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">The Thirteen are the oldest named entities in Gin's research. They are not gods. They are not demons. They predate both frameworks.</p>
+      <div id="loreKeeper" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Keeper of the Fold — unlocked through investigation</span></div>
+      <div id="loreWitness" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The Witness — unlocked through investigation</span></div>
+      <div id="loreSpeaker" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">The One Who Speaks First — unlocked through investigation</span></div>
+      <div class="thirteen-entry" style="opacity:.4"><div class="thirteen-name">Ten Others</div><div class="thirteen-role">Known only by the symptoms of their presence.</div></div>
     </div>
 
     <div id="lore-system" class="lore-section">
-      <div class="lore-card"><div class="lore-card-title">STABILITY</div><p>Rei's capacity to interpret what she sees within normal psychological frameworks. Starts at 100. Drops with entity exposure, traumatic revelation, and certain choices. At 0, Rei cannot distinguish the city from what is beneath it. Some abilities only unlock at low stability. Some bad endings only trigger there.</p></div>
-      <div class="lore-card"><div class="lore-card-title">MADNESS</div><p>Distinct from Stability. Madness measures how much the other side has marked Rei, not how shaken she is. Madness can open doors Stability cannot. High Madness with high Stability is possible. It is an unstable condition.</p></div>
-      <div class="lore-card"><div class="lore-card-title">CLAIRSENTIENCE</div><p>Rei's latent ability to read psychic residue on objects and locations. Five levels. Each level unlocks scene fragments and choice options not otherwise visible. The ability is not always reliable. At level 3 and above, it begins operating without Rei's intention.</p></div>
-      <div class="lore-card"><div class="lore-card-title">THE FIVE ROADS</div><p>The investigation has five primary paths: following Itsuki Kuroda (Buddy Road), working with the Directorate's off-books team (CVD Road), tracing The Grid's anomalous signal network (Grid Road), pursuing Rei's clairsentient ability directly (Power Road), and walking the city until the city shows her something (Look Road).</p><p>Roads overlap. Choices on one road affect what is visible on others. The endings depend on combinations, not individual paths.</p></div>
-      <div class="lore-card"><div class="lore-card-title">READERS AND DEAD READERS</div><p>A reader is a Veil-sensitive individual who can perceive entities and residue. A dead reader is a reader whose sensitivity overloaded and who is now locked in a permanent perceptual state overlapping the physical with the veil-layer. They are not dead. They are unreachable by normal means.</p></div>
+      <div class="lore-card"><div class="lore-card-title">STABILITY</div><p>Rei's capacity to interpret what she sees within normal psychological frameworks. Starts at 100. Drops with entity exposure, traumatic revelation, and certain choices. At 0, Rei cannot distinguish the city from what is beneath it. Some abilities only unlock at low stability.</p></div>
+      <div class="lore-card"><div class="lore-card-title">MADNESS</div><p>Distinct from Stability. Madness measures how much the other side has marked Rei. Madness can open doors Stability cannot. High Madness with high Stability is possible. It is an unstable condition.</p></div>
+      <div class="lore-card"><div class="lore-card-title">CLAIRSENTIENCE</div><p>Rei's latent ability to read psychic residue on objects and locations. Five levels. Each level unlocks scene fragments and choice options not otherwise visible. At level 3 and above, it begins operating without Rei's intention.</p></div>
+      <div class="lore-card"><div class="lore-card-title">THE FIVE ROADS</div><p>Five primary investigation paths. Roads overlap. Choices on one road affect what is visible on others. The endings depend on combinations, not individual paths.</p></div>
+      <div class="lore-card"><div class="lore-card-title">READERS AND DEAD READERS</div><p>A reader is a Veil-sensitive individual who can perceive entities and residue. A dead reader is a reader whose sensitivity overloaded and who is now locked in a permanent perceptual state. They are not dead. They are unreachable by normal means.</p></div>
     </div>
 
     <div id="lore-gin" class="lore-section">
-      <div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 1 — FIELD OBSERVATION</div><p style="font-style:italic">"The entity at the overpass has been there for eleven days. It does not move. I do not think it is waiting. I think it is watching the spot where something happened and the spot has not finished happening yet. Time is different for them. Maybe all time is the same to it and what we call 'waiting' is just where we are in a sequence it already sees complete."</p></div>
-      <div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 2 — ON THE CULT</div><p style="font-style:italic">"They don't want power. I was wrong about that. They want contact. They think accelerating the thinning will force contact before the entities choose to make it. That is the most dangerous possible goal. You don't rush a conversation with something that old by removing the walls between you."</p></div>
-      <div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 3 — ON CLAIRSENTIENCE</div><p style="font-style:italic">"Rei can do what I can do but she doesn't know she can do it. She's been filtering it as coincidence for years. The key is the cold sensation — the drop in apparent temperature when she touches something recently touched by the veil. She calls it a drafty room thing. It is not a drafty room thing."</p></div>
-      <div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 4 — FINAL ENTRY</div><p style="font-style:italic">"Someone from the Thirteen made contact tonight. Not one I've documented. It said one thing and then it was gone. I don't know what it meant but I know I have to go look at the waterbank tonight. Rei, if you're reading this: the cold key is not a metaphor. The lock it fits is real. Don't use it unless you understand what you're opening."</p></div>
+      <div id="ginNote1" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 1 — unlocked through investigation</span></div>
+      <div id="ginNote2" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 2 — unlocked through investigation</span></div>
+      <div id="ginNote3" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Field Note 3 — unlocked through investigation</span></div>
+      <div id="ginNote4" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Final Entry — unlocked through investigation</span></div>
     </div>
 
     <div id="lore-docs" class="lore-section">
-      <div class="lore-card"><div class="lore-card-title">CVD INCIDENT REPORT — WATERBANK / CLASSIFIED</div><p style="font-size:.85rem;color:var(--dim)">[DIRECTORATE FOR VEIL-ADJACENT CIVIL DISTURBANCE] Incident ref: WB-1147-C. Location: Waterbank district, eastern block, sealed section. Nature: Reader cluster emergence, estimated 4-6 individuals, status indeterminate. Access restricted to Level 4 and above. Off-books team authorized for assessment. No documentation to external channels. — Filed by: [REDACTED]</p></div>
-      <div class="lore-card"><div class="lore-card-title">SANYA GRID ANOMALY REPORT</div><p style="font-size:.85rem;color:var(--dim)">"Third sweep in two weeks. The signal source has moved again. It's not broadcasting on any registered frequency. The Grid's own monitoring system flagged it first, which means the signal is interfering with the network's anomaly detection layer. That should not be possible for a non-integrated source. Something is using The Grid's own language." — S. Chen, Grid analyst</p></div>
-      <div class="lore-card"><div class="lore-card-title">SUZURAN BAR INCIDENT — POLICE LOG EXCERPT</div><p style="font-size:.85rem;color:var(--dim)">Noise complaint filed 02:14. Officers responded 02:31. Premises empty on arrival. Bar staff unable to provide account of events from 00:00-02:00. Surveillance footage shows normal activity until 23:58, then 2 hours of static, then normal activity resuming at 01:59. No damage. No missing persons reported. Case closed — insufficient evidence. [Handwritten margin note: Ask Okami-san directly. Do not bring the report.]</p></div>
+      <div id="docCVD" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">CVD Incident Report — unlocked through investigation</span></div>
+      <div id="docGrid" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Grid Anomaly Report — unlocked through investigation</span></div>
+      <div id="docSuzuran" class="lore-locked"><span class="lore-locked-icon">&#9632;</span><span class="lore-locked-text">Suzuran Bar Incident Report — unlocked through investigation</span></div>
     </div>
   </div>
 </div>
@@ -296,7 +394,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
       <span class="overlay-title">FIVE ROADS</span>
       <button class="overlay-close" onclick="closeOverlay('roadsPanel')">CLOSE</button>
     </div>
-    <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">The investigation has five primary paths. Roads overlap. Choices carry across paths. Endings depend on what you've seen, not just which road you walked.</p>
+    <p style="color:var(--dim);font-size:.9rem;margin-bottom:1.25rem">Five primary investigation paths. Roads overlap. Choices carry across paths. Endings depend on what you have seen, not just which road you walked.</p>
     <div class="road-grid" id="roadGrid"></div>
   </div>
 </div>
@@ -306,56 +404,153 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 <script>
 var CONTENT_BASE = '../content';
 var loaded = false;
+var slotMode = null; // 'new' | 'continue'
+var currentSlot = 0;
 
-var G = {
-  mature: false,
-  scene: 'opening',
-  idx: 0,
-  xp: 0,
-  stability: 100,
-  madness: 0,
-  path: null,
-  flags: {},
-  inventory: ['Cold iron key'],
-  journal: [],
-  abilities: {}
+var EMPTY_G = function(){
+  return {
+    scene:'opening', idx:0, xp:0, stability:100, madness:0,
+    path:null, flags:{}, inventory:['Cold iron key'], journal:[], abilities:{},
+    lore:{}, history:[], sceneCount:0
+  };
 };
+
+var G = EMPTY_G();
 window.VP = { scenes:{}, branchText:{} };
 
 var ROADS = [
-  {id:'buddy',title:'Buddy Road',icon:'ROAD I',desc:'Follow Itsuki Kuroda, the painter who saw something he cannot unsee. The cult has him. So does whatever he painted.'},
-  {id:'cvd',title:'Directorate Road',icon:'ROAD II',desc:'Work with the Directorate for Veil-Adjacent Civil Disturbance. Official channels, sealed floors, and the politics of knowing too much.'},
-  {id:'grid',title:'Grid Road',icon:'ROAD III',desc:'Trace the anomalous signal network through the city with The Grid. The signal is not a signal. It is a symptom.'},
-  {id:'power',title:'Open Door Road',icon:'ROAD IV',desc:'Pursue Rei\'s clairsentience directly. The ability is latent. Opening it fully means accepting what comes through.'},
-  {id:'look',title:'Walking Road',icon:'ROAD V',desc:'Walk the city until the city tells you something. It will. The city always does.'}
+  {id:'buddy', title:'Buddy Road', icon:'ROAD I', desc:'Follow Itsuki Kuroda, the painter who saw something he cannot unsee. The cult has him. So does whatever he painted.'},
+  {id:'cvd',   title:'Directorate Road', icon:'ROAD II', desc:'Work with the Directorate for Veil-Adjacent Civil Disturbance. Official channels, sealed floors, and the politics of knowing too much.'},
+  {id:'grid',  title:'Grid Road', icon:'ROAD III', desc:'Trace the anomalous signal network through the city. The signal is not a signal. It is a symptom.'},
+  {id:'power', title:'Open Door Road', icon:'ROAD IV', desc:'Pursue Rei\'s clairsentience directly. Opening it fully means accepting what comes through.'},
+  {id:'look',  title:'Walking Road', icon:'ROAD V', desc:'Walk the city until the city tells you something. It will. The city always does.'}
 ];
 
+var PATH_NAMES = {buddy:'Road I — Kuroda', cvd:'Road II — Directorate', grid:'Road III — The Grid', power:'Road IV — Open Door', look:'Road V — Walking'};
+
+// Auto-journal: scene+idx key => text to log automatically
+var AUTO_JOURNAL = {
+  'opening:0': 'Gin has been missing for six days. I found her key on the counter. It doesn\'t fit any lock I know.',
+  'opening:7': 'Something was at the overpass. It wasn\'t looking at the road. It was looking at a point above the road. I don\'t have words for what I saw.',
+  'itsuki:0':  'Kuroda is in his studio. The paintings are wrong. The perspective is wrong in a specific way, like whatever he was looking at wasn\'t standing where it appeared to be.',
+  'cvd:0':     'The Directorate knows more than they\'re telling me. The off-books team exists for a reason. Official files don\'t cover everything.',
+  'grid:0':    'The Grid flagged an anomalous signal. Sanya says it\'s using the network\'s own language. That shouldn\'t be possible.',
+  'power:0':   'The cold on the key isn\'t temperature. I\'ve been filtering it as coincidence for years. I need to stop doing that.',
+  'look:0':    'Suzuran bar. The owner recognized Gin\'s name before I said it. She stopped herself and pretended she hadn\'t.'
+};
+
+// Lore unlock map: flag => array of element IDs to reveal with HTML content
+var LORE_UNLOCKS = {
+  'seen_overpass': {
+    id: 'loreOverpass',
+    html: '<div class="lore-card"><div class="lore-card-title">THE OJI OVERPASS</div><p>Elevated crossing on the city\'s north edge. Known locally as a place people stop. Three Veil-sensitive individuals have reported the same entity presence there in the last year. The entity does not interact. It observes from a fixed point above the traffic lane.</p></div>'
+  },
+  'path_cvd': {
+    id: 'docCVD',
+    html: '<div class="lore-card"><div class="lore-card-title">CVD INCIDENT REPORT — WATERBANK / CLASSIFIED</div><p style="font-size:.85rem;color:var(--dim)">[DIRECTORATE FOR VEIL-ADJACENT CIVIL DISTURBANCE] Incident ref: WB-1147-C. Location: Waterbank district, eastern block, sealed section. Nature: Reader cluster emergence, estimated 4-6 individuals, status indeterminate. Access restricted to Level 4 and above. Off-books team authorized for assessment. No documentation to external channels.</p></div>'
+  },
+  'path_grid': {
+    id: 'docGrid',
+    html: '<div class="lore-card"><div class="lore-card-title">SANYA GRID ANOMALY REPORT</div><p style="font-size:.85rem;color:var(--dim)">"Third sweep in two weeks. The signal source has moved again. It\'s not broadcasting on any registered frequency. The Grid\'s own monitoring system flagged it first, which means the signal is interfering with the network\'s anomaly detection layer. That should not be possible for a non-integrated source. Something is using The Grid\'s own language." — S. Chen, Grid analyst</p></div>'
+  },
+  'path_look': {
+    id: 'docSuzuran',
+    html: '<div class="lore-card"><div class="lore-card-title">SUZURAN BAR INCIDENT — POLICE LOG EXCERPT</div><p style="font-size:.85rem;color:var(--dim)">Noise complaint filed 02:14. Premises empty on arrival. Surveillance footage shows normal activity until 23:58, then 2 hours of static, then normal activity resuming at 01:59. No damage. No missing persons reported. [Handwritten margin note: Ask Okami-san directly. Do not bring the report.]</p></div>'
+  },
+  'cult_known': {
+    id: 'loreCult',
+    html: '<div class="lore-card"><div class="lore-card-title">THE CULT</div><p>No confirmed name. Rei calls them the cult. They work in small autonomous cells with no apparent central coordination, yet their ritual methodology is identical across incidents. They are accelerating the thinning. No one knows why with certainty.</p></div>'
+  },
+  'waterbank_known': {
+    id: 'loreWaterbank',
+    html: '<div class="lore-card"><div class="lore-card-title">THE WATERBANK</div><p>Old industrial district along the eastern river. One block remained sealed after a collapse in the 1980s. The cult is active here. Dead readers cluster here. The Directorate has a sealed floor in the local CVD office with files on the district going back to 1971.</p></div>'
+  },
+  'clair_1': {
+    id: 'ginNote3',
+    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 3 — ON CLAIRSENTIENCE</div><p style="font-style:italic">"Rei can do what I can do but she doesn\'t know she can do it. She\'s been filtering it as coincidence for years. The key is the cold sensation — the drop in apparent temperature when she touches something recently touched by the veil. She calls it a drafty room thing. It is not a drafty room thing."</p></div>'
+  },
+  'met_entity': {
+    id: 'loreWitness',
+    html: '<div class="thirteen-entry"><div class="thirteen-name">The Witness</div><div class="thirteen-role">Observes. Does not intervene. Has no known location but is documented in reports across six wards. May or may not be a single entity.</div></div>'
+  },
+  'keeper_known': {
+    id: 'loreKeeper',
+    html: '<div class="thirteen-entry"><div class="thirteen-name">The Keeper of the Fold</div><div class="thirteen-role">Maintains the structural integrity of the Veil in a given area. Has been absent from the waterbank district for at least three years.</div></div>'
+  },
+  'thirteen_offer': {
+    id: 'loreSpeaker',
+    html: '<div class="thirteen-entry"><div class="thirteen-name">The One Who Speaks First</div><div class="thirteen-role">Initiates contact with practitioners it considers capable. Offers. Does not coerce. Every documented refusal was honored. Every documented acceptance changed the person significantly.</div></div>'
+  },
+  'gin_note1': {
+    id: 'ginNote1',
+    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 1 — FIELD OBSERVATION</div><p style="font-style:italic">"The entity at the overpass has been there for eleven days. It does not move. I do not think it is waiting. I think it is watching the spot where something happened and the spot has not finished happening yet. Time is different for them. Maybe all time is the same to it and what we call waiting is just where we are in a sequence it already sees complete."</p></div>'
+  },
+  'gin_note2': {
+    id: 'ginNote2',
+    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 2 — ON THE CULT</div><p style="font-style:italic">"They don\'t want power. I was wrong about that. They want contact. They think accelerating the thinning will force contact before the entities choose to make it. That is the most dangerous possible goal. You don\'t rush a conversation with something that old by removing the walls between you."</p></div>'
+  },
+  'gin_final': {
+    id: 'ginNote4',
+    html: '<div class="lore-card" style="border-left:2px solid var(--acc)"><div class="lore-card-title">NOTE 4 — FINAL ENTRY</div><p style="font-style:italic">"Someone from the Thirteen made contact tonight. Not one I\'ve documented. It said one thing and then it was gone. I don\'t know what it meant but I know I have to go look at the waterbank tonight. Rei, if you\'re reading this: the cold key is not a metaphor. The lock it fits is real. Don\'t use it unless you understand what you\'re opening."</p></div>'
+  }
+};
+
+// ── GATE ──
 function passGate(yes){
-  G.mature = yes;
   document.getElementById('agegate').style.display = 'none';
-  if(!yes){document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#4a4a6a;font-family:monospace">Exit</div>';return;}
-  var saved = loadSave();
+  if(!yes){document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:height:100vh;color:#4a4a6a;font-family:monospace;padding:2rem">Exit</div>';return;}
   document.getElementById('title').style.display = 'flex';
-  if(!saved){document.querySelector('.btn[onclick="continueGame()"]').style.opacity='.4';}
+  var hasSave = [0,1,2].some(function(i){return !!rawSlot(i);});
+  if(!hasSave) document.getElementById('continueBtn').classList.add('dimmed');
 }
 
-function startGame(){
-  G = {mature:true,scene:'opening',idx:0,xp:0,stability:100,madness:0,path:null,flags:{},inventory:['Cold iron key'],journal:[],abilities:{}};
-  beginRead();
+// ── SAVE SLOTS ──
+var SLOT_KEY = function(i){ return 'vp_slot_'+i; };
+function rawSlot(i){ try{var s=localStorage.getItem(SLOT_KEY(i));return s?JSON.parse(s):null;}catch(e){return null;} }
+function writeSlot(i,g){ try{localStorage.setItem(SLOT_KEY(i),JSON.stringify(g));}catch(e){} }
+function deleteSlot(i,e){ e.stopPropagation(); if(!confirm('Delete this save?')) return; localStorage.removeItem(SLOT_KEY(i)); renderSlots(); }
+function slotLabel(s){
+  if(!s) return 'Empty';
+  var road = s.path ? (PATH_NAMES[s.path]||s.path) : 'No road chosen';
+  var scene = (s.scene||'opening')+'['+(s.idx||0)+']';
+  return road + ' &middot; ' + scene + ' &middot; XP '+s.xp;
 }
-
-function continueGame(){
-  var s = loadSave();
-  if(!s){toast('No save found');return;}
-  G = s;
-  beginRead();
+function renderSlots(){
+  var list = document.getElementById('slotList');
+  list.innerHTML = '';
+  [0,1,2].forEach(function(i){
+    var s = rawSlot(i);
+    var row = document.createElement('div');
+    row.className = 'slot-row';
+    row.innerHTML = '<span class="slot-num">0'+(i+1)+'</span><span class="slot-info"><span class="slot-name">'+(s?'Continue':'New Game')+'</span><span class="slot-meta">'+slotLabel(s)+'</span></span>'+(s?'<button class="slot-del" onclick="deleteSlot('+i+',event)">DEL</button>':'');
+    row.addEventListener('click', function(){
+      if(slotMode==='new'){ G=EMPTY_G(); currentSlot=i; beginRead(); closeSlots(); }
+      else if(slotMode==='continue' && s){ G=s; currentSlot=i; beginRead(); closeSlots(); }
+      else if(slotMode==='continue' && !s){ toast('Slot is empty'); }
+    });
+    list.appendChild(row);
+  });
 }
+function newGameSlot(){ slotMode='new'; renderSlots(); document.getElementById('slotTitle').textContent='SELECT SLOT FOR NEW GAME'; document.getElementById('slotPicker').classList.add('open'); }
+function continueSlot(){ slotMode='continue'; renderSlots(); document.getElementById('slotTitle').textContent='SELECT SAVE SLOT'; document.getElementById('slotPicker').classList.add('open'); }
+function closeSlots(){ document.getElementById('slotPicker').classList.remove('open'); }
 
+// ── GAME ──
 function beginRead(){
   document.getElementById('title').style.display = 'none';
   document.getElementById('topbar').style.display = 'flex';
   document.getElementById('reader').style.display = 'block';
   loadContent().then(renderScene);
+}
+
+function goTitle(){
+  save();
+  document.getElementById('endScreen').classList.remove('open');
+  document.getElementById('reader').style.display = 'none';
+  document.getElementById('topbar').style.display = 'none';
+  document.getElementById('title').style.display = 'flex';
+  var hasSave = [0,1,2].some(function(i){return !!rawSlot(i);});
+  if(hasSave) document.getElementById('continueBtn').classList.remove('dimmed');
 }
 
 function loadContent(){
@@ -364,246 +559,269 @@ function loadContent(){
     var s = document.createElement('script');
     s.src = CONTENT_BASE + '/scenes/chapter1.js';
     s.onload = function(){loaded=true;resolve();};
-    s.onerror = function(){loaded=true;console.warn('chapter1.js not found, using fallback');resolve();};
+    s.onerror = function(){loaded=true;resolve();};
     document.head.appendChild(s);
   });
 }
 
+function fadeScene(fn){
+  var wrap = document.getElementById('sceneWrap');
+  wrap.classList.add('fade');
+  setTimeout(function(){ fn(); wrap.classList.remove('fade'); window.scrollTo(0,0); }, 200);
+}
+
 function renderScene(){
-  var scenes = window.VP.scenes[G.scene];
-  if(!scenes || !scenes[G.idx]){
-    renderFallback();return;
-  }
-  var s = scenes[G.idx];
-  save();
+  fadeScene(function(){
+    applyLoreUnlocks();
+    var scenes = window.VP.scenes[G.scene];
+    if(!scenes || !scenes[G.idx]){ renderFallback(); return; }
+    var s = scenes[G.idx];
+    G.sceneCount = (G.sceneCount||0)+1;
+    autoJournal();
 
-  document.getElementById('barTitle').textContent = s.img || 'Veil Protocol';
-  document.getElementById('sceneImg').textContent = s.img || '';
-  document.getElementById('sceneImg').style.display = s.img ? 'block' : 'none';
+    document.getElementById('barTitle').textContent = s.img || 'Veil Protocol';
+    var total = scenes.length;
+    document.getElementById('barProgress').textContent = (G.idx+1)+'/'+total;
+    document.getElementById('sceneImg').textContent = s.img || '';
+    document.getElementById('sceneImg').style.display = s.img ? 'block' : 'none';
+    document.getElementById('pathBanner').textContent = G.path ? (PATH_NAMES[G.path]||'') : '';
+    document.getElementById('pathBanner').style.display = G.path ? 'block' : 'none';
 
-  var pathNames = {buddy:'Road I — Kuroda',cvd:'Road II — Directorate',grid:'Road III — The Grid',power:'Road IV — Open Door',look:'Road V — Walking'};
-  document.getElementById('pathBanner').textContent = G.path ? pathNames[G.path] || '' : '';
-  document.getElementById('pathBanner').style.display = G.path ? 'block' : 'none';
+    var content = document.getElementById('sceneContent');
+    content.innerHTML = '';
+    (s.t||[]).forEach(function(t){ var p=document.createElement('p'); p.innerHTML=t; content.appendChild(p); });
 
-  var content = document.getElementById('sceneContent');
-  content.innerHTML = '';
-  var texts = s.t || [];
-  texts.forEach(function(t){
-    var p = document.createElement('p');
-    p.innerHTML = t;
-    content.appendChild(p);
-  });
+    var ent = document.getElementById('entityBlock');
+    if(s.ent && s.ent.name){
+      document.getElementById('entName').textContent = s.ent.name;
+      document.getElementById('entDesc').textContent = s.ent.desc||'';
+      ent.style.display = 'block';
+      if(!G.flags['met_entity']){ G.flags['met_entity']=true; }
+    } else { ent.style.display='none'; }
 
-  var entBlock = document.getElementById('entityBlock');
-  if(s.ent && s.ent.name){
-    document.getElementById('entName').textContent = s.ent.name;
-    document.getElementById('entDesc').textContent = s.ent.desc || '';
-    entBlock.style.display = 'block';
-  } else {
-    entBlock.style.display = 'none';
-  }
+    var choices = (s.c||[]).filter(function(c){
+      if(c.showIf && G.path && c.showIf!==G.path) return false;
+      return true;
+    });
 
-  var choices = (s.c || []).filter(function(c){
-    if(c.showIf && G.path && c.showIf !== G.path) return false;
-    return true;
-  });
-
-  var sep = document.getElementById('sceneSep');
-  sep.style.display = choices.length > 0 ? 'block' : 'none';
-
-  var cb = document.getElementById('choiceBlock');
-  cb.innerHTML = '';
-  choices.forEach(function(c,i){
-    var locked = false;
-    var lockReason = '';
-    if(c.lock){
-      var parts = c.lock.split(':');
-      var ab = parts[0], lv = parseInt(parts[1])||1;
-      locked = !(G.abilities[ab] >= lv);
-      lockReason = ab.charAt(0).toUpperCase()+ab.slice(1)+' '+lv+' required';
+    // Check chapter end
+    if(choices.length===0 && G.idx===scenes.length-1){
+      save();
+      showEnd();
+      return;
     }
-    if(c.need && !G.flags[c.need]){
-      locked = true;
-      lockReason = 'Requires: ' + c.need.replace(/_/g,' ');
-    }
-    var btn = document.createElement('div');
-    btn.className = 'choice' + (locked?' locked':'');
-    btn.setAttribute('role','button');
-    btn.setAttribute('tabindex', locked?'-1':'0');
-    var badge = '';
-    if(c.lock) badge = '<span class="choice-badge">' + (c.lock.split(':')[0]).toUpperCase() + '</span>';
-    btn.innerHTML = '<span class="choice-arrow">' + (locked?'✕':'›') + '</span><span class="choice-body"><span class="choice-text">' + c.x + '</span>' + (c.hint?'<span class="choice-hint">'+c.hint+'</span>':'') + (locked?'<span class="choice-lock">'+lockReason+'</span>':'') + '</span>' + badge;
-    if(!locked){
-      btn.addEventListener('click',function(){choose(c,locked);});
-    }
-    cb.appendChild(btn);
-  });
 
-  updateBars();
-  window.scrollTo(0,0);
+    document.getElementById('sceneSep').style.display = choices.length>0?'block':'none';
+    var cb = document.getElementById('choiceBlock');
+    cb.innerHTML = '';
+    choices.forEach(function(c){
+      var locked=false, lockReason='';
+      if(c.lock){ var p=c.lock.split(':'); locked=!(G.abilities[p[0]]>=(parseInt(p[1])||1)); if(locked) lockReason=(p[0].charAt(0).toUpperCase()+p[0].slice(1))+' '+(p[1]||1)+' required'; }
+      if(c.need && !G.flags[c.need]){ locked=true; lockReason='Requires: '+c.need.replace(/_/g,' '); }
+      var badge = c.lock?'<span class="choice-badge">'+(c.lock.split(':')[0]).toUpperCase()+'</span>':'';
+      var btn = document.createElement('div');
+      btn.className = 'choice'+(locked?' locked':'');
+      btn.setAttribute('role','button');
+      btn.innerHTML = '<span class="choice-arrow">'+(locked?'&#10005;':'&#8250;')+'</span><span class="choice-body"><span class="choice-text">'+c.x+'</span>'+(c.hint?'<span class="choice-hint">'+c.hint+'</span>':'')+(locked?'<span class="choice-lock">'+lockReason+'</span>':'')+'</span>'+badge;
+      if(!locked) btn.addEventListener('click',function(){choose(c);});
+      cb.appendChild(btn);
+    });
+
+    document.getElementById('undoRow').style.display = G.history && G.history.length>0 ? 'block':'none';
+    updateBars();
+    save();
+  });
 }
 
 function renderFallback(){
+  document.getElementById('barProgress').textContent = '';
   document.getElementById('sceneContent').innerHTML = '<p>Rei stands in the kitchen at 3:47 in the morning. The apartment is cold in a way that has nothing to do with temperature. On the counter: a cold iron key that does not belong to any lock she knows.</p><p>Gin has been missing for six days.</p>';
   document.getElementById('sceneSep').style.display = 'block';
-  var cb = document.getElementById('choiceBlock');
-  cb.innerHTML = '';
-  var choices = [
-    {x:'Walk north to the Oji overpass — the last place Gin\'s phone pinged.',hint:'Begin the investigation.'},
-    {x:'Open the lore archive.',hint:'Read what Gin left behind.'},
-  ];
-  choices.forEach(function(c,i){
-    var btn = document.createElement('div');
-    btn.className = 'choice';
-    btn.setAttribute('role','button');
-    btn.innerHTML = '<span class="choice-arrow">›</span><span class="choice-body"><span class="choice-text">'+c.x+'</span>'+(c.hint?'<span class="choice-hint">'+c.hint+'</span>':'')+'</span>';
-    if(i===0){btn.addEventListener('click',function(){toast('Content loading...');});}
-    if(i===1){btn.addEventListener('click',function(){openOverlay('lorePanel');});}
+  document.getElementById('pathBanner').style.display = 'none';
+  var cb = document.getElementById('choiceBlock'); cb.innerHTML='';
+  [{x:'Open the lore archive to read what Gin left behind.',hint:'Start here while content loads.'}, {x:'Walk north to the Oji overpass.',hint:'The last place Gin\'s phone pinged.'}].forEach(function(c,i){
+    var btn=document.createElement('div'); btn.className='choice';
+    btn.innerHTML='<span class="choice-arrow">&#8250;</span><span class="choice-body"><span class="choice-text">'+c.x+'</span><span class="choice-hint">'+c.hint+'</span></span>';
+    if(i===0) btn.addEventListener('click',function(){openOverlay('lorePanel');});
+    if(i===1) btn.addEventListener('click',function(){toast('Content still loading');});
     cb.appendChild(btn);
   });
   updateBars();
 }
 
-function choose(c, locked){
-  if(locked) return;
-  if(c.do) runAction(c.do, c);
+function choose(c){
+  // Push history (keep last 3)
+  var snap = JSON.parse(JSON.stringify(G));
+  G.history = G.history||[];
+  G.history.push(snap);
+  if(G.history.length>3) G.history.shift();
+
+  if(c.do) runAction(c.do);
   gainXP(c.xp||2);
-  if(c.scene !== undefined){ G.scene = c.scene; G.idx = c.n||0; }
-  else if(c.n !== undefined){ G.idx = c.n; }
-  if(c.flag) G.flags[c.flag] = true;
+  if(c.scene!==undefined){ G.scene=c.scene; G.idx=c.n||0; }
+  else if(c.n!==undefined){ G.idx=c.n; }
+  if(c.flag) G.flags[c.flag]=true;
   if(c.item) G.inventory.push(c.item);
   if(c.journal) addJournal(c.journal);
   save();
   renderScene();
 }
 
-function runAction(action, c){
-  var actions = {
-    pathBuddy:  function(){G.path='buddy';toast('Road I — Itsuki Kuroda');},
-    pathCVD:    function(){G.path='cvd';toast('Road II — The Directorate');},
-    pathGrid:   function(){G.path='grid';toast('Road III — The Grid');},
-    pathPower:  function(){G.path='power';toast('Road IV — Open Door');},
-    pathLook:   function(){G.path='look';toast('Road V — Walking');},
-    gainClair:  function(){G.abilities.clair=(G.abilities.clair||0)+1;toast('Clairsentience '+G.abilities.clair);},
+function undoChoice(){
+  if(!G.history || !G.history.length) return;
+  var prev = G.history.pop();
+  G = prev;
+  toast('Returned to previous scene');
+  renderScene();
+}
+
+function runAction(action){
+  var A = {
+    pathBuddy:  function(){G.path='buddy';G.flags['path_buddy']=true;toast('Road I — Itsuki Kuroda');},
+    pathCVD:    function(){G.path='cvd';G.flags['path_cvd']=true;toast('Road II — The Directorate');},
+    pathGrid:   function(){G.path='grid';G.flags['path_grid']=true;toast('Road III — The Grid');},
+    pathPower:  function(){G.path='power';G.flags['path_power']=true;toast('Road IV — Open Door');},
+    pathLook:   function(){G.path='look';G.flags['path_look']=true;toast('Road V — Walking');},
+    gainClair:  function(){G.abilities.clair=(G.abilities.clair||0)+1;G.flags['clair_'+G.abilities.clair]=true;toast('Clairsentience '+G.abilities.clair);},
     loseStab:   function(){G.stability=Math.max(0,G.stability-10);},
     gainMad:    function(){G.madness=Math.min(100,G.madness+10);},
     gainStab:   function(){G.stability=Math.min(100,G.stability+5);},
+    seenOverpass: function(){G.flags['seen_overpass']=true;G.flags['gin_note1']=true;},
+    cultKnown:  function(){G.flags['cult_known']=true;G.flags['gin_note2']=true;},
+    waterbankKnown: function(){G.flags['waterbank_known']=true;G.flags['keeper_known']=true;},
+    thirteenOffer: function(){G.flags['thirteen_offer']=true;G.flags['gin_final']=true;}
   };
-  if(actions[action]) actions[action]();
+  if(A[action]) A[action]();
 }
 
-function gainXP(n){
-  G.xp += (n||0);
-  updateBars();
+function autoJournal(){
+  var key = G.scene+':'+G.idx;
+  if(AUTO_JOURNAL[key] && !G.flags['aj_'+key]){
+    G.flags['aj_'+key]=true;
+    addJournal(AUTO_JOURNAL[key]);
+  }
 }
 
 function addJournal(text){
-  G.journal.push({scene: G.scene+'['+G.idx+']', text:text});
+  G.journal=G.journal||[];
+  G.journal.push({scene:G.scene+'['+(G.idx||0)+']', text:text, ts:Date.now()});
 }
+
+function gainXP(n){ G.xp+=(n||0); updateBars(); }
 
 function updateBars(){
-  var xpPct = Math.min(100, (G.xp % 100));
-  var stabPct = G.stability;
-  document.getElementById('xpBar').style.width = xpPct+'%';
-  document.getElementById('stabBar').style.width = stabPct+'%';
-  if(stabPct < 30) document.getElementById('stabBar').style.background = 'var(--bl2)';
-  else document.getElementById('stabBar').style.background = 'var(--tl2)';
+  var xp=Math.min(100,(G.xp%100)||0), stab=G.stability||0;
+  document.getElementById('xpBar').style.width=xp+'%';
+  document.getElementById('stabBar').style.width=stab+'%';
+  document.getElementById('stabBar').style.background=stab<30?'var(--bl2)':'var(--tl2)';
 }
 
+function applyLoreUnlocks(){
+  Object.keys(LORE_UNLOCKS).forEach(function(flag){
+    if(G.flags[flag]){
+      var u=LORE_UNLOCKS[flag];
+      var el=document.getElementById(u.id);
+      if(el && el.classList.contains('lore-locked')){
+        el.outerHTML=u.html;
+      }
+    }
+  });
+}
+
+// ── END SCREEN ──
+function showEnd(){
+  var pathTitles={buddy:'The Painter\'s Road',cvd:'The Directorate\'s Road',grid:'The Grid\'s Road',power:'The Open Door',look:'The Walking Road'};
+  var endings={
+    buddy:'Itsuki Kuroda is no longer in his studio. The painting is still there. Something in it has moved since the last time you looked.',
+    cvd:'The sealed floor is open. The files are real. The Directorate knew and said nothing. The question now is whether knowing makes things better or worse.',
+    grid:'The signal stopped. Sanya says the anomaly is gone. She also says the Grid\'s monitoring layer has a new blind spot in the eastern ward that wasn\'t there before.',
+    power:'The ability is open now. It doesn\'t close. You will have to learn to live with what comes through.',
+    look:'You walked until the city showed you something. The city always does. You wish it had shown you something else.'
+  };
+  document.getElementById('endLabel').textContent = 'Chapter One Complete';
+  document.getElementById('endTitle').textContent = pathTitles[G.path]||'End of Chapter One';
+  document.getElementById('endText').textContent = endings[G.path]||'The night is not over. It never really ends.';
+  document.getElementById('endXP').textContent = G.xp;
+  document.getElementById('endStab').textContent = G.stability;
+  document.getElementById('endJournal').textContent = (G.journal||[]).length;
+  document.getElementById('endScreen').classList.add('open');
+}
+function closeEnd(){ document.getElementById('endScreen').classList.remove('open'); openOverlay('journalPanel'); }
+
+// ── OVERLAYS ──
 function openOverlay(id){
   if(id==='sheetPanel') updateSheet();
   if(id==='journalPanel') updateJournal();
   if(id==='roadsPanel') updateRoads();
+  if(id==='lorePanel') applyLoreUnlocks();
   document.getElementById(id).classList.add('open');
 }
-function closeOverlay(id){
-  document.getElementById(id).classList.remove('open');
-}
+function closeOverlay(id){ document.getElementById(id).classList.remove('open'); }
+function openMobileMenu(){ document.getElementById('mobileMenu').classList.add('open'); }
+function closeMobileMenu(){ document.getElementById('mobileMenu').classList.remove('open'); }
 
 function updateSheet(){
-  document.getElementById('shXP').textContent = G.xp;
-  document.getElementById('shStab').textContent = G.stability;
-  document.getElementById('shMad').textContent = G.madness;
-  var pathNames = {buddy:'Road I — Kuroda',cvd:'Road II — Directorate',grid:'Road III — The Grid',power:'Road IV — Open Door',look:'Road V — Walking'};
-  document.getElementById('shPath').textContent = G.path ? pathNames[G.path]||G.path : 'None chosen';
-  var abList = document.getElementById('shAbilities');
-  abList.innerHTML = '';
-  var abNames = {clair:'Clairsentience'};
-  var hasAb = false;
-  Object.keys(G.abilities).forEach(function(k){
-    if(!G.abilities[k]) return;
-    hasAb = true;
-    var row = document.createElement('div');
-    row.className = 'ability-row';
-    var dots = '';
-    for(var i=1;i<=5;i++) dots+='<div class="dot'+(i<=G.abilities[k]?' filled':'')+'"></div>';
-    row.innerHTML = '<span class="ability-name">'+(abNames[k]||k)+'</span><span class="ability-dots">'+dots+'</span>';
+  document.getElementById('shXP').textContent=G.xp;
+  document.getElementById('shStab').textContent=G.stability;
+  document.getElementById('shMad').textContent=G.madness;
+  document.getElementById('shPath').textContent=G.path?(PATH_NAMES[G.path]||G.path):'None chosen';
+  var abList=document.getElementById('shAbilities'); abList.innerHTML='';
+  var abNames={clair:'Clairsentience'}; var hasAb=false;
+  Object.keys(G.abilities||{}).forEach(function(k){
+    if(!G.abilities[k]) return; hasAb=true;
+    var row=document.createElement('div'); row.className='ability-row';
+    var dots=''; for(var i=1;i<=5;i++) dots+='<div class="dot'+(i<=G.abilities[k]?' filled':'')+'"></div>';
+    row.innerHTML='<span class="ability-name">'+(abNames[k]||k)+'</span><span class="ability-dots">'+dots+'</span>';
     abList.appendChild(row);
   });
-  if(!hasAb) abList.innerHTML = '<div style="color:var(--faint);font-style:italic;font-size:.9rem;padding:.5rem 0">No abilities developed</div>';
-  var inv = document.getElementById('shInv');
-  inv.innerHTML = '';
-  if(G.inventory.length){
-    G.inventory.forEach(function(item){
-      var d = document.createElement('div');
-      d.className = 'inv-item';
-      d.textContent = item;
-      inv.appendChild(d);
-    });
-  } else {
-    inv.innerHTML = '<div class="inv-item" style="color:var(--faint);font-style:italic">Nothing yet</div>';
-  }
+  if(!hasAb) abList.innerHTML='<div style="color:var(--faint);font-style:italic;font-size:.9rem;padding:.5rem 0">No abilities developed</div>';
+  var inv=document.getElementById('shInv'); inv.innerHTML='';
+  (G.inventory||[]).forEach(function(item){ var d=document.createElement('div'); d.className='inv-item'; d.textContent=item; inv.appendChild(d); });
+  if(!(G.inventory||[]).length) inv.innerHTML='<div class="inv-item" style="color:var(--faint);font-style:italic">Nothing</div>';
 }
 
 function updateJournal(){
-  var el = document.getElementById('journalEntries');
-  if(!G.journal.length){el.innerHTML='<div style="color:var(--dim);font-style:italic;font-size:.95rem">Nothing logged yet.</div>';return;}
-  el.innerHTML = '';
-  G.journal.forEach(function(e){
-    var d = document.createElement('div');
-    d.className = 'journal-entry';
-    d.innerHTML = '<div class="je-scene">'+e.scene+'</div><div class="je-text">'+e.text+'</div>';
+  var el=document.getElementById('journalEntries');
+  var j=G.journal||[];
+  if(!j.length){el.innerHTML='<div style="color:var(--dim);font-style:italic;font-size:.95rem">Nothing logged yet.</div>';return;}
+  el.innerHTML='';
+  j.slice().reverse().forEach(function(e){
+    var d=document.createElement('div'); d.className='journal-entry';
+    d.innerHTML='<div class="je-scene">'+e.scene+'</div><div class="je-text">'+e.text+'</div>';
     el.appendChild(d);
   });
 }
 
 function updateRoads(){
-  var rg = document.getElementById('roadGrid');
-  rg.innerHTML = '';
+  var rg=document.getElementById('roadGrid'); rg.innerHTML='';
   ROADS.forEach(function(r){
-    var card = document.createElement('div');
-    card.className = 'road-card' + (G.path===r.id?' active':'');
-    card.innerHTML = '<div class="road-icon">'+r.icon+'</div><div class="road-title">'+r.title+'</div><div class="road-desc">'+r.desc+'</div>'+(G.path===r.id?'<div class="road-status">Current path</div>':'');
+    var isCurrent=G.path===r.id;
+    var card=document.createElement('div'); card.className='road-card'+(isCurrent?' current':'');
+    card.innerHTML='<div class="road-icon">'+r.icon+'</div><div class="road-title">'+r.title+'</div><div class="road-desc">'+r.desc+'</div>'+(isCurrent?'<div class="road-status">Current path</div>':'');
     rg.appendChild(card);
   });
 }
 
-function showLore(id){
+function showLore(id,btn){
   document.querySelectorAll('.lore-tab').forEach(function(t){t.classList.remove('active');});
   document.querySelectorAll('.lore-section').forEach(function(s){s.classList.remove('active');});
-  event.target.classList.add('active');
-  document.getElementById('lore-'+id).classList.add('active');
+  if(btn) btn.classList.add('active');
+  var el=document.getElementById('lore-'+id); if(el) el.classList.add('active');
 }
 
+// ── SAVE ──
+function save(){ writeSlot(currentSlot, G); }
+
+// ── TOAST ──
 var toastTimer;
-function toast(msg){
-  var el = document.getElementById('toast');
-  el.textContent = msg;
-  el.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(function(){el.classList.remove('show');},2200);
-}
+function toast(msg){ var el=document.getElementById('toast'); el.textContent=msg; el.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(function(){el.classList.remove('show');},2400); }
 
-function save(){
-  try{localStorage.setItem('vp_save',JSON.stringify(G));}catch(e){}
-}
-function loadSave(){
-  try{var s=localStorage.getItem('vp_save');return s?JSON.parse(s):null;}catch(e){return null;}
-}
-
+// ── KEYBOARD ──
 document.addEventListener('keydown',function(e){
   if(e.key==='Escape'){
     document.querySelectorAll('.overlay.open').forEach(function(o){o.classList.remove('open');});
+    document.getElementById('mobileMenu').classList.remove('open');
+    document.getElementById('slotPicker').classList.remove('open');
   }
 });
 </script>
