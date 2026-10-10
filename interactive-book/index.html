@@ -92,7 +92,8 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
 #sceneWrap{opacity:1;transition:opacity .18s ease}
 #sceneWrap.fade{opacity:0}
 
-.scene-img{font-family:var(--mono);font-size:.72rem;color:var(--tl2);letter-spacing:.15em;text-transform:uppercase;margin:2rem 0 1.25rem;opacity:.8}
+.scene-img{font-family:var(--mono);font-size:.72rem;color:var(--tl2);letter-spacing:.15em;text-transform:uppercase;margin:2rem 0 .6rem;opacity:.8}
+.scene-illus{display:block;width:100%;max-height:340px;object-fit:cover;object-position:center top;border-radius:4px;margin:0 0 1.5rem;opacity:.93}
 .prose{margin-bottom:1.5rem}
 .prose p{margin-bottom:1em;font-size:1.05rem}
 .prose p:first-child::first-letter{font-family:var(--display);font-size:2.8rem;float:left;line-height:.85;margin:.1em .1em 0 0;color:var(--gld2)}
@@ -268,6 +269,7 @@ body{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
   <div id="sceneWrap">
     <div class="path-banner" id="pathBanner"></div>
     <div id="sceneImg" class="scene-img"></div>
+    <img id="sceneIllus" class="scene-illus" alt="" style="display:none">
     <div id="sceneContent" class="prose"></div>
     <div id="entityBlock" class="entity-block" style="display:none">
       <div class="ent-name" id="entName"></div>
@@ -584,6 +586,8 @@ function renderScene(){
     document.getElementById('barProgress').textContent = (G.idx+1)+'/'+total;
     document.getElementById('sceneImg').textContent = s.img || '';
     document.getElementById('sceneImg').style.display = s.img ? 'block' : 'none';
+    var illus = document.getElementById('sceneIllus');
+    if(s.imgSrc){ illus.src = s.imgSrc; illus.style.display='block'; } else { illus.src=''; illus.style.display='none'; }
     document.getElementById('pathBanner').textContent = G.path ? (PATH_NAMES[G.path]||'') : '';
     document.getElementById('pathBanner').style.display = G.path ? 'block' : 'none';
 
