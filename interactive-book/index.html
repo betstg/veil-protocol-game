@@ -430,7 +430,7 @@ var PATH_NAMES = {buddy:'Road I — Kuroda', cvd:'Road II — Directorate', grid
 
 // Auto-journal: scene+idx key => text to log automatically
 var AUTO_JOURNAL = {
-  'opening:0': 'Gin has been missing for six days. I found her key on the counter. It doesn\'t fit any lock I know.',
+  'opening:0': 'Gin has been missing since last night. I found his key on the walkway. He never leaves without it.',
   'opening:7': 'Something was at the overpass. It wasn\'t looking at the road. It was looking at a point above the road. I don\'t have words for what I saw.',
   'itsuki:0':  'Kuroda is in his studio. The paintings are wrong. The perspective is wrong in a specific way, like whatever he was looking at wasn\'t standing where it appeared to be.',
   'cvd:0':     'The Directorate knows more than they\'re telling me. The off-books team exists for a reason. Official files don\'t cover everything.',
@@ -677,19 +677,205 @@ function undoChoice(){
 
 function runAction(action){
   var A = {
+    // ── PATH SELECTION ──────────────────────────────────────────────────────
     pathBuddy:  function(){G.path='buddy';G.flags['path_buddy']=true;toast('Road I — Itsuki Kuroda');},
     pathCVD:    function(){G.path='cvd';G.flags['path_cvd']=true;toast('Road II — The Directorate');},
     pathGrid:   function(){G.path='grid';G.flags['path_grid']=true;toast('Road III — The Grid');},
     pathPower:  function(){G.path='power';G.flags['path_power']=true;toast('Road IV — Open Door');},
     pathLook:   function(){G.path='look';G.flags['path_look']=true;toast('Road V — Walking');},
-    gainClair:  function(){G.abilities.clair=(G.abilities.clair||0)+1;G.flags['clair_'+G.abilities.clair]=true;toast('Clairsentience '+G.abilities.clair);},
-    loseStab:   function(){G.stability=Math.max(0,G.stability-10);},
-    gainMad:    function(){G.madness=Math.min(100,G.madness+10);},
-    gainStab:   function(){G.stability=Math.min(100,G.stability+5);},
-    seenOverpass: function(){G.flags['seen_overpass']=true;G.flags['gin_note1']=true;},
-    cultKnown:  function(){G.flags['cult_known']=true;G.flags['gin_note2']=true;},
+
+    // ── OPENING ─────────────────────────────────────────────────────────────
+    takeBook: function(){
+      G.flags['hasBook']=true;
+      G.flags['knowsOkada']=true;
+      G.inventory=G.inventory||[];
+      if(G.inventory.indexOf("Gin's field compendium")<0) G.inventory.push("Gin's field compendium");
+      toast("Gin's field compendium");
+    },
+
+    // ── ROAD START ──────────────────────────────────────────────────────────
+    beginItsuki: function(){G.flags['road_start']=true;G.flags['itsuki_started']=true;addJournal('I called Itsuki. He was already awake. He always is when it matters.');},
+    beginCVD:    function(){G.flags['road_start']=true;G.flags['cvd_started']=true;addJournal('Called the CVD number. Okada answered in two rings. She sounded like she expected it.');},
+    beginGrid:   function(){G.flags['road_start']=true;G.flags['grid_started']=true;addJournal("Gin's book. The back pages. Tanizaki, underlined twice.");},
+    beginPower:  function(){
+      G.flags['road_start']=true;G.flags['power_started']=true;
+      G.stability=Math.max(0,G.stability-12);updateBars();
+      addJournal('I reached for it. The room went thin and wrong. A shape with the wrong shadow, going north.');
+    },
+    beginLook:   function(){G.flags['road_start']=true;G.flags['look_started']=true;addJournal('No name, no power, no institution. I went out and walked.');},
+
+    // ── ITSUKI ROAD ─────────────────────────────────────────────────────────
+    itsukiCommit: function(){G.flags['itsuki_committed']=true;gainXP(5);addJournal('Itsuki is with me. He said "tell me what you need" before I finished the sentence.');},
+    towerGate:    function(){
+      G.flags['tower_gate']=true;G.stability=Math.max(0,G.stability-5);updateBars();
+      addJournal('The Kuroda compound. A cousin met us at the gate and did not like what she read in the air behind me.');
+    },
+    towerPress:   function(){G.flags['tower_pressed']=true;G.flags['itsuki_debt']=true;addJournal('Itsuki spent the name. I watched him do it. He will not get it back.');},
+    towerSpare:   function(){G.flags['tower_spared']=true;addJournal('Found another way. Itsuki still has the name. The debt is mine to pay some other way.');},
+    seiOpens:     function(){
+      G.flags['sei_reached']=true;G.flags['kuroda_used']=true;
+      G.stability=Math.max(0,G.stability-10);updateBars();
+      addJournal('Sei reached once. The world folded. For half a heartbeat I was nowhere.');
+    },
+    towerSecret:  function(){
+      G.flags['tower_secret']=true;G.flags['kuroda_fear_known']=true;
+      G.madness=Math.min(100,G.madness+10);updateBars();
+      addJournal('Read what the compound is afraid of. I should not have done that. I am glad I did.');
+    },
+    towerLead:    function(){G.flags['tower_lead']=true;addJournal('Took what the family gave and did not ask for what it did not offer.');},
+    paintingJump: function(){
+      G.flags['painting_jumped']=true;
+      G.stability=Math.max(0,G.stability-15);G.madness=Math.min(100,G.madness+5);updateBars();
+      addJournal('The canvas became a door. The smell of linseed oil became the smell of the river. We went through.');
+    },
+    cultFight:    function(){
+      G.flags['cult_fight']=true;G.flags['cult_known']=true;gainXP(10);
+      addJournal('Broke the borrowed grief off the woman before the rite could take her. The medium watched and did not chase. The grieving come back; she can afford to wait.');
+    },
+    paintFlee:    function(){
+      G.flags['paint_fled']=true;G.stability=Math.max(0,G.stability-5);updateBars();
+      addJournal('Grabbed Itsuki and ran for the tear before it closed. It cost him. It always costs him.');
+    },
+    paintLead:    function(){G.flags['paint_lead']=true;addJournal('Sat with him while the colour came back, or did not. The easel is blank. He says it will return.');},
+
+    // ── CVD ROAD ────────────────────────────────────────────────────────────
+    cvdRegister:  function(){
+      G.flags['cvd_registered']=true;G.flags['known_to_cvd']=true;
+      addJournal('Signed three forms. My name is in the Catalogue now, with my level (D, as far as they know) and my address. The door opened and closed in the same motion.');
+    },
+    cvdSecret:    function(){
+      G.flags['cvd_secret']=true;G.madness=Math.min(100,G.madness+5);updateBars();
+      addJournal('Read the assessor while she read me. She has a note she will not show me. The pause was the word I did not want.');
+    },
+    cvdAsset:     function(){
+      G.flags['cvd_asset']=true;G.flags['waterbank_known']=true;
+      G.madness=Math.min(100,G.madness+10);updateBars();
+      addJournal('Reached through the ward-glass. The cold stayed in me an hour after. It held the one piece the file did not: where he went.');
+    },
+    cvdRegLead:   function(){
+      G.flags['cvd_reg_lead']=true;
+      addJournal('Took the pieces the record gave. A time: 1:14am. A note: SECOND-PRESENCE INDICATORS. A clearance stamp that made Okada go still.');
+    },
+    cvdOff:       function(){
+      G.flags['cvd_off']=true;G.flags['gin_protecting']=true;
+      addJournal('She told me. He was protecting something. She thinks it was me. She does not know from what. That part is sealed even from her.');
+    },
+    cvdWitness:   function(){
+      G.flags['cvd_witness']=true;G.flags['keeper_known']=true;
+      G.madness=Math.min(100,G.madness+10);updateBars();
+      addJournal('Read what the water kept. The last night he came, he did not come alone. He went north with it willing.');
+    },
+    cvdOffLead:   function(){
+      G.flags['cvd_off_lead']=true;
+      addJournal('Not ready for the last night. Stepped back. The water kept its witness. It always keeps more than you are ready for.');
+    },
+
+    // ── GRID ROAD ───────────────────────────────────────────────────────────
+    gridScatter:  function(){
+      G.flags['grid_scatter']=true;G.flags['grid_trust']=true;gainXP(5);
+      addJournal("Helped the Gathering scatter. Tanizaki held me back a beat in the emptying room.");
+    },
+    gridGrab:     function(){G.flags['grid_grab']=true;addJournal("Grabbed Tanizaki before the sweep hit. Got the answer. The Gathering moved anyway.");},
+    gridName:     function(){
+      G.flags['grid_name']=true;
+      addJournal('Tanizaki took me to the one who reads the dead. She has been refusing to sleep for a week. She said she knew which man before I asked.');
+    },
+    gridSecret:   function(){
+      G.flags['grid_secret']=true;G.flags['axis_known']=true;
+      G.madness=Math.min(100,G.madness+10);updateBars();
+      addJournal('Read what the Grid is most afraid of. The Axis. The empty place pulling everything north. The small predators following the current down.');
+    },
+    gridCreditLead: function(){
+      G.flags['grid_credit_lead']=true;
+      addJournal('Took the charm-reading and did not reach for the rest. A seat of the Thirteen, going north. Enough to walk on.');
+    },
+    gridCultFight:  function(){
+      G.flags['grid_cult_fight']=true;G.flags['cult_known']=true;gainXP(10);
+      addJournal('Cut the cord. Refused to let go first, and it parted. The medium lost her calm for one second. The boy came up gasping, himself, wrecked and alive.');
+    },
+    gridRun:      function(){
+      G.flags['grid_run']=true;G.stability=Math.max(0,G.stability-5);updateBars();
+      addJournal('Took the intel and ran. Left the cord in him. The medium did not even look up. She got what she came for. So did I, in a thinner way.');
+    },
+    gridFreed:    function(){
+      G.flags['grid_freed']=true;G.flags['grid_trust']=true;gainXP(5);
+      addJournal('Got him to safety. Tanizaki poured the second cup without being asked. "You will do," he said. From him it is a great deal.');
+    },
+    gridRunLead:  function(){G.flags['grid_run_lead']=true;addJournal('Carried it north. Did not look back. The intel is good. The way I got it is not something I will tell the Grid.');},
+
+    // ── POWER ROAD ──────────────────────────────────────────────────────────
+    powerCareful: function(){
+      G.flags['power_careful']=true;
+      G.stability=Math.max(0,G.stability-10);G.madness=Math.min(100,G.madness+5);updateBars();
+      addJournal('Read carefully. Stayed inside the disguise. The fragment: north, toward water, a weight that bent my careful sight. Something far off felt me, lightly, and went still to mark the place.');
+    },
+    powerSecret:  function(){
+      G.flags['power_secret']=true;
+      G.stability=Math.max(0,G.stability-5);G.madness=Math.min(100,G.madness+10);updateBars();
+      addJournal('Turned the sight inward. Saw the shape of the wall I have been building all my life, and what it holds back, and how thin it actually is. Put it back. My hands shook for an hour.');
+    },
+    powerCarefulLead: function(){
+      G.flags['power_careful_lead']=true;
+      addJournal('The fragment and the disguise intact. A new cold knowledge: I could reach further, any time. Things on the other side have begun to wait for me to be tired enough to open the door.');
+    },
+    powerDeep:    function(){
+      G.flags['power_deep']=true;G.flags['axis_known']=true;
+      G.stability=Math.max(0,G.stability-20);G.madness=Math.min(100,G.madness+20);updateBars();
+      addJournal('Dropped the disguise. Let go of the wall. The world turned to look. A Directorate sensor logged a spike somewhere. A Grid ward tightened. Something with thirteen facets turned attention this way, one facet awake.');
+    },
+    powerFight:   function(){
+      G.flags['power_fight']=true;G.flags['axis_refused']=true;gainXP(15);
+      addJournal('Refused it. Fist closed white around the brass key, and pushed the tear shut around the regard. It withdrew with something almost like amusement. It will be back. They always come back to the ones who can reach.');
+    },
+    powerPullLead: function(){
+      G.flags['power_pull_lead']=true;G.stability=Math.max(0,G.stability-10);updateBars();
+      addJournal('Pulled back before it finished the offer. Got out before it had a name for what it showed me. That was the right choice. I am not certain I would make it again.');
+    },
+    powerDeepLead: function(){
+      G.flags['power_deep_lead']=true;
+      addJournal('Wrote it down with shaking hands. He was not taken. He was reached, at his hardest reach, for someone he loved. I know, because the same door stood open in me, and the same offer was made.');
+    },
+
+    // ── LOOK ROAD ───────────────────────────────────────────────────────────
+    lookPeople:   function(){
+      G.flags['look_people']=true;G.flags['cult_known']=true;gainXP(5);
+      G.stability=Math.min(100,G.stability+5);updateBars();
+      addJournal('Helped Kaneda pull the old man back to himself. Salt, a steady voice, the cold key pressed once to his hand. He wept the way a drowning man breathes when the surface finds him.');
+    },
+    lookSecret:   function(){
+      G.flags['look_secret']=true;G.flags['axis_known']=true;
+      G.madness=Math.min(100,G.madness+5);updateBars();
+      addJournal('Read the ward through Kaneda. The whole district has been thinning for weeks, a slow water going out, and the small predators following the current down toward something empty.');
+    },
+    lookPeopleLead: function(){G.flags['look_people_lead']=true;addJournal('Took the rumour and went. North. The water. The direction the not-saying points.');},
+    lookFight:    function(){
+      G.flags['look_fight']=true;G.flags['cult_known']=true;gainXP(10);
+      G.stability=Math.min(100,G.stability+5);updateBars();
+      addJournal('Broke the rite at the water. Salt, the cold key, refusing to let go first. The borrowed sorrow came off the mourner all at once. The dead let me near after, because I did a kind thing at their water.');
+    },
+    lookRiverLead: function(){
+      G.flags['look_river_lead']=true;G.flags['thirteen_known']=true;
+      addJournal('The dead showed me what they saw. The man with the wrong shadow crossed going north. They all turned from him, because what he carried was a seat of the Thirteen, and he was not afraid, and the dead know there is only one kind of thing that walks among them unafraid.');
+    },
+
+    // ── STAT HELPERS (backward-compat) ──────────────────────────────────────
+    gainClair:     function(){G.abilities.clair=(G.abilities.clair||0)+1;G.flags['clair_'+G.abilities.clair]=true;toast('Clairsentience '+G.abilities.clair);},
+    loseStab:      function(){G.stability=Math.max(0,G.stability-10);updateBars();},
+    gainMad:       function(){G.madness=Math.min(100,G.madness+10);updateBars();},
+    gainStab:      function(){G.stability=Math.min(100,G.stability+5);updateBars();},
+    seenOverpass:  function(){G.flags['seen_overpass']=true;G.flags['gin_note1']=true;},
+    cultKnown:     function(){G.flags['cult_known']=true;G.flags['gin_note2']=true;},
     waterbankKnown: function(){G.flags['waterbank_known']=true;G.flags['keeper_known']=true;},
-    thirteenOffer: function(){G.flags['thirteen_offer']=true;G.flags['gin_final']=true;}
+    thirteenOffer: function(){G.flags['thirteen_offer']=true;G.flags['gin_final']=true;},
+
+    // ── RESET ────────────────────────────────────────────────────────────────
+    reset: function(){
+      var s=currentSlot;
+      G=EMPTY_G();
+      currentSlot=s;
+      renderScene();
+      toast('Starting over');
+    }
   };
   if(A[action]) A[action]();
 }
