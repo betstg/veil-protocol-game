@@ -1,0 +1,1316 @@
+{
+ "m13": {
+  "meets": [],
+  "journal": "There is a second worker in the seams, a preacher the Grid calls the Inverted God, and next to him the thing in Gin starts to look like the lesser evil.",
+  "beats": [
+   {
+    "img": "place_underpass",
+    "choices": [
+     {
+      "fx": {
+       "stab": -5,
+       "mad": 4,
+       "xp": 4,
+       "flags": [
+        "heard_the_sermon"
+       ]
+      },
+      "echo": "You decide to stand in his crowd and listen. Your gift is already leaning toward him. You tell yourself it is only listening."
+     },
+     {
+      "fx": {
+       "standing": {
+        "grid": 2
+       },
+       "decency": -1,
+       "xp": 3,
+       "flags": [
+        "sold_gin_as_asset"
+       ]
+      },
+      "echo": "You give the Grid the preacher's name. By night every back room talks about him. Nobody asks about Gin any more, and you know why."
+     },
+     {
+      "fx": {
+       "stab": -4,
+       "veil": 1,
+       "xp": 5,
+       "flags": [
+        "suspects_staged_rivalry"
+       ]
+      },
+      "echo": "You go looking for a meeting between them. You find no proof yet. You find two sets of marks at the underpass, laid down on the same nights."
+     }
+    ]
+   },
+   {
+    "img": "ch19_cults",
+    "choices": [
+     {
+      "fx": {
+       "mad": 6,
+       "stab": -6,
+       "xp": 5,
+       "flags": [
+        "asked_sora_outright"
+       ]
+      },
+      "echo": "You ask him straight. He answers with a smile and one true sentence, and it stays in you like a splinter. You cannot stop turning it over."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 5
+       },
+       "decency": 1,
+       "veil": 1,
+       "xp": 3,
+       "flags": [
+        "warned_gin_of_second_author"
+       ]
+      },
+      "echo": "You keep your mouth shut and carry the warning home for Gin. If any of him is awake, he will hear it. So will the thing wearing him."
+     }
+    ]
+   }
+  ]
+ },
+ "m14": {
+  "meets": [
+   "gin",
+   "yushiro"
+  ],
+  "journal": "The two demons lock together over Kita, and the Healer offered me Gin back whole if I stop pulling, while Gin tapped on the phone to tell me no.",
+  "beats": [
+   {
+    "img": "ch2_architect",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cvd": 1,
+        "grid": 1
+       },
+       "rel": {
+        "gin": -3
+       },
+       "decency": 1,
+       "veil": 1,
+       "xp": 4,
+       "flags": [
+        "named_the_healer_as_door"
+       ]
+      },
+      "echo": "You tell them which demon is the real door. Some of them believe you. Now they look at your brother the way they look at a target."
+     },
+     {
+      "fx": {
+       "mad": 6,
+       "stab": -5,
+       "veil": -2,
+       "decency": 2,
+       "xp": 5,
+       "flags": [
+        "seeks_third_move"
+       ]
+      },
+      "echo": "You refuse to pick a monster. You push against the thin place with your own two paths. The wall holds a little better and your head rings for hours."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 6
+       },
+       "stab": -6,
+       "mad": 3,
+       "xp": 4,
+       "flags": [
+        "told_gin_his_trap"
+       ]
+      },
+      "echo": "You catch Gin in a clear minute and tell him the shape of the trap. His face goes grey. Then the calm comes back over it like a lid."
+     }
+    ]
+   },
+   {
+    "img": "char_uedera-gin",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": 2
+       },
+       "decency": -1,
+       "stab": -4,
+       "xp": 4,
+       "flags": [
+        "pact_offer_heard",
+        "heard_yushiro_out",
+        "feigned_acceptance"
+       ]
+      },
+      "echo": "You say yes to the voice in your brother's phone. The Healer thanks you, warmly, and lists what it will need from you. You hear every word of the offer and you remember all of it."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 8
+       },
+       "standing": {
+        "pact": -2
+       },
+       "decency": 2,
+       "stab": -4,
+       "veil": 1,
+       "xp": 4,
+       "flags": [
+        "answered_the_knock",
+        "open_war_with_healer"
+       ]
+      },
+      "echo": "You tap back. Once, once, once. The line goes silent. There is no cover now, and somewhere inside that silence your brother heard you."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Listen past the voice for where the breath is coming from.",
+      "hint": "Your sight might catch the room behind the call.",
+      "lock": "clair:2",
+      "fx": {
+       "mad": 4,
+       "xp": 5,
+       "flags": [
+        "heard_the_pump"
+       ]
+      },
+      "echo": "Under the voice there is a low hum, like a pump far away. You write it down. Wherever Gin's body is, there is water close by."
+     }
+    ]
+   }
+  ],
+  "proseFix": {
+   "0": {
+    "1": "This is the trap, and you finally see that it was never set for you. You are not the prey; you are the witness it can afford, because a witness with no grade and a brother's love makes a perfect leash and a perfect alibi both. The factions will rush to stop the obvious monster. The obvious monster will let them, will even help, will be so reasonable about it that when the wall finally goes and your brother's captor steps into the Thirteenth Seat through the gap, every grade in the city will have spent its strength on the wrong demon and feel, for a terrible clean moment, that it had won."
+   }
+  }
+ },
+ "m15": {
+  "meets": [],
+  "journal": "The ledger keeps growing, thirty-four names now, and the new entries follow my own questions and drift toward the old waterworks north of Kita.",
+  "beats": [
+   {
+    "img": "res_archive",
+    "choices": [
+     {
+      "fx": {
+       "decency": 1,
+       "veil": 1,
+       "stab": -3,
+       "xp": 3,
+       "flags": [
+        "chased_sumida_knot"
+       ]
+      },
+      "echo": "You copy the Sumida address onto your palm. The ink is still wet when you leave. So is the binding, you hope."
+     },
+     {
+      "fx": {
+       "stab": -2,
+       "veil": 1,
+       "xp": 5,
+       "flags": [
+        "built_the_timeline"
+       ]
+      },
+      "echo": "You stop reacting and start dating. It is slow, cold work. By evening the strip of paper runs the length of the table."
+     },
+     {
+      "fx": {
+       "mad": 4,
+       "stab": -4,
+       "xp": 5,
+       "flags": [
+        "logged_own_dates"
+       ]
+      },
+      "echo": "You write your own dates beside its dates. Seeing them side by side makes your skin crawl. You were never only the reader."
+     }
+    ]
+   },
+   {
+    "img": "ch13_intel",
+    "choices": [
+     {
+      "fx": {
+       "veil": 2,
+       "mad": 5,
+       "stab": -5,
+       "xp": 5,
+       "flags": [
+        "walked_the_spiral"
+       ]
+      },
+      "echo": "You walk the coil north until your sight refuses to go further. The air near the waterworks feels like pressure behind the eyes. You turn back before it decides for you."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 1
+       },
+       "veil": 3,
+       "stab": -2,
+       "xp": 4,
+       "flags": [
+        "tested_the_silence"
+       ]
+      },
+      "echo": "You do nothing for a whole day. The ledger does not grow. A whole day is gone, and you have learned that the tide is you."
+     },
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 5
+       },
+       "decency": 1,
+       "xp": 3,
+       "flags": [
+        "kurosawa_knows_ledger"
+       ]
+      },
+      "echo": "You show Kurosawa the strip and tell him who holds the pen. He reads it twice without a word. Now he carries the same silence you do."
+     }
+    ]
+   },
+   {
+    "img": "res_apartmentlivingroom",
+    "choices": [
+     {
+      "fx": {
+       "rel": {
+        "gin": 6
+       },
+       "standing": {
+        "pact": 1
+       },
+       "mad": 3,
+       "xp": 4,
+       "flags": [
+        "wrote_back_to_gin"
+       ]
+      },
+      "echo": "You answer in the shorthand from when you were kids. You leave the note where the ledger lives. You have opened a channel, and it was waiting for you to do it."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "decency": 2,
+       "stab": -6,
+       "xp": 4,
+       "flags": [
+        "refused_the_rest"
+       ]
+      },
+      "echo": "You say no out loud to the empty flat. The fan keeps turning. Nothing answers, and the waiting is worse than an answer."
+     },
+     {
+      "fx": {
+       "stab": -4,
+       "mad": 3,
+       "xp": 3,
+       "flags": [
+        "pinned_the_offer"
+       ]
+      },
+      "echo": "You pin the note above your desk. Every time you look up, his hand asks you to stop. You keep working under it."
+     }
+    ]
+   }
+  ]
+ },
+ "m16": {
+  "meets": [],
+  "journal": "The man in Sumida is alive because the Healer saved him, and when I said Gin's name with love the thread reached back and the Healer felt me.",
+  "beats": [
+   {
+    "img": "ext_griefbeing",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "decency": 2,
+       "stab": -5,
+       "xp": 4,
+       "flags": [
+        "warned_the_convert"
+       ]
+      },
+      "echo": "You tell him everything. He listens politely and keeps smiling. When you leave, he thanks you for the visit, and you cannot tell if any of it went in."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 1
+       },
+       "decency": -2,
+       "xp": 5,
+       "flags": [
+        "mined_the_convert"
+       ]
+      },
+      "echo": "You ask careful questions and let him talk. He describes Gin's voice, Gin's hands, the river. You take it all and leave him his peace, and you feel the shape of the Healer's method in your own mouth."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 3
+       },
+       "mad": 5,
+       "veil": 1,
+       "xp": 4,
+       "flags": [
+        "tested_the_thread"
+       ]
+      },
+      "echo": "You say your brother's name the old way. The light over the sink dims. Something very far off has noticed you."
+     }
+    ]
+   },
+   {
+    "img": "ch5_possession",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": 2
+       },
+       "rel": {
+        "gin": 5
+       },
+       "mad": 6,
+       "stab": -4,
+       "xp": 5,
+       "flags": [
+        "held_the_thread"
+       ]
+      },
+      "echo": "You keep your love on the line. It pulls, steady and warm, north. You do not know any more which end of the rope is yours."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "rel": {
+        "gin": -4
+       },
+       "stab": -3,
+       "xp": 3,
+       "flags": [
+        "cut_the_thread"
+       ]
+      },
+      "echo": "You go cold on purpose and the line drops. You are free tonight. The warmth that proved Gin was in there is gone with it."
+     },
+     {
+      "fx": {
+       "decency": 1,
+       "veil": 1,
+       "xp": 3,
+       "flags": [
+        "marked_sumida_knot"
+       ]
+      },
+      "echo": "You finish your tea and leave him whole. On the street you write down the knot and the hour. You will come back, if the thing lets you."
+     }
+    ]
+   }
+  ]
+ },
+ "m17": {
+  "meets": [],
+  "journal": "The thirty-fifth entry was about me, and the ledger is a countdown that wins when I stop or break, so I keep counting, tired and ungrateful.",
+  "beats": [
+   {
+    "img": "res_apartmentginroom",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": 1
+       },
+       "mad": 3,
+       "xp": 5,
+       "flags": [
+        "wrote_in_the_ledger"
+       ]
+      },
+      "echo": "You take the pen and write a line in your own hand. It looks small on that page. The Healer now has your answer in writing."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "decency": -1,
+       "stab": -2,
+       "xp": 3,
+       "flags": [
+        "burned_the_ledger"
+       ]
+      },
+      "echo": "The pages curl in the sink and go black. The conversation goes dark with them. So does the only record of thirty-five people."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 1
+       },
+       "veil": 2,
+       "mad": 4,
+       "stab": -4,
+       "xp": 5,
+       "flags": [
+        "walked_ledger_north"
+       ]
+      },
+      "echo": "You pack the ledger and the strip of dates for the walk north. You will go at first light. The Healer has been waiting for exactly this, and you know it."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Photograph every page for Kurosawa before you decide anything.",
+      "hint": "Kurosawa already knows about the ledger.",
+      "need": "kurosawa_knows_ledger",
+      "fx": {
+       "rel": {
+        "kurosawa": 3
+       },
+       "decency": 1,
+       "xp": 3,
+       "flags": [
+        "ledger_copied"
+       ]
+      },
+      "echo": "You photograph every page and send the files to Kurosawa. Now the record of thirty-five people exists outside this room, whatever happens to the paper."
+     }
+    ]
+   },
+   {
+    "img": "res_apartmentreiroom",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "stab": 6,
+       "mad": 2,
+       "veil": 1,
+       "flags": [
+        "slept_with_page_open"
+       ]
+      },
+      "echo": "You sleep with the page open beside you. You dream of nothing. In the morning your three words are still there, and nothing new is written under them."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 7
+       },
+       "stab": -8,
+       "mad": 3,
+       "xp": 4,
+       "flags": [
+        "reached_for_gin_lucid"
+       ]
+      },
+      "echo": "You spend the last of your strength reaching for him. For one breath you feel him reach back. Then you are empty, and the night is very long."
+     },
+     {
+      "fx": {
+       "standing": {
+        "street": 1
+       },
+       "stab": -7,
+       "xp": 4,
+       "flags": [
+        "walked_the_obon_night"
+       ]
+      },
+      "echo": "You walk until the lanterns go out. Your feet ache and your head is clear. The flat is still there when you get back, and so is the page."
+     }
+    ]
+   }
+  ]
+ },
+ "m18": {
+  "meets": [
+   "kishin"
+  ],
+  "journal": "The Far-Shore Circle gathers the city's grief into a battery that both demons draw on, and Kanna-sensei, who is Kishin wearing Fukai Rinka, kept a seat for me.",
+  "beats": [
+   {
+    "img": "higankai_vesselfarm",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cult": 2
+       },
+       "mad": 5,
+       "xp": 4,
+       "flags": [
+        "took_the_eastern_seat"
+       ]
+      },
+      "echo": "You sit in the empty place on the east side. The ring closes around you like warm water. For a moment you feel lighter, and that frightens you more than the hum."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": -1
+       },
+       "decency": 1,
+       "stab": -4,
+       "xp": 3,
+       "flags": [
+        "held_the_threshold"
+       ]
+      },
+      "echo": "You stay in the doorway. Nobody turns, but the hum tightens. The woman at the centre smiles as if you have done something expected."
+     },
+     {
+      "fx": {
+       "mad": 4,
+       "veil": 1,
+       "decency": 1,
+       "xp": 5,
+       "flags": [
+        "found_sumida_man_in_ring"
+       ]
+      },
+      "echo": "You open your gift a little wider than is safe. You find the man from Sumida in the ring. The centre feels you reach, and you feel it feel you."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Look for the man you warned in Sumida.",
+      "hint": "You told him the truth. Did it keep him away?",
+      "need": "warned_the_convert",
+      "fx": {
+       "stab": -5,
+       "xp": 4,
+       "flags": [
+        "convert_returned_to_ring"
+       ]
+      },
+      "echo": "He is here anyway, sitting in the ring with the same kind smile. Your warning did not keep him away. It only brought him sooner."
+     }
+    ]
+   },
+   {
+    "img": "ch19_funnel",
+    "choices": [
+     {
+      "fx": {
+       "veil": 1,
+       "stab": -3,
+       "xp": 5,
+       "flags": [
+        "traced_the_draw"
+       ]
+      },
+      "echo": "You follow the current with your gift, east and down, toward the old flooded ground. You lose it at the river. You know where it goes now."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": -2
+       },
+       "decency": 2,
+       "stab": -6,
+       "xp": 4,
+       "flags": [
+        "tried_to_wake_convert"
+       ]
+      },
+      "echo": "You lean over and tell him, quietly, what is being done to him. His eyes fill. Then the ring hums, and his face goes calm again, and he pats your hand."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": 2
+       },
+       "mad": 4,
+       "xp": 4,
+       "flags": [
+        "let_kishin_measure"
+       ]
+      },
+      "echo": "You stop moving and let her look. It is like being weighed by cold hands. When it ends, she seems pleased with the number."
+     }
+    ]
+   },
+   {
+    "img": "char_fukai-rinka-kishin",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cult": 3
+       },
+       "decency": -1,
+       "mad": 6,
+       "stab": 4,
+       "xp": 4,
+       "flags": [
+        "circle_seen",
+        "drank_the_tea"
+       ]
+      },
+      "echo": "You sit and drink. The tea is warm and ordinary. Your shoulders drop for the first time in a week, and a thing that eats grief watches them drop."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": -3
+       },
+       "decency": 2,
+       "stab": -6,
+       "veil": 1,
+       "xp": 5,
+       "flags": [
+        "circle_seen",
+        "named_kishin"
+       ]
+      },
+      "echo": "You say its name out loud. The kind face does not change, but the room goes cold. Some of the faces in the ring look at you with real hatred."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": 1
+       },
+       "decency": -1,
+       "mad": 4,
+       "xp": 5,
+       "flags": [
+        "circle_seen",
+        "bargained_with_kishin"
+       ]
+      },
+      "echo": "You leave the cup where it is and offer a trade. Kishin tilts Rinka's head, interested. You have let it taste what you are worth."
+     }
+    ]
+   }
+  ]
+ },
+ "m19": {
+  "meets": [
+   "kishin"
+  ],
+  "journal": "Kishin sells the battery to both demons, the Healer drawing gently and the preacher in greedy pulls, and its price for what I learned is my next fresh grief.",
+  "beats": [
+   {
+    "img": "char_fukai-rinka-kishin",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cult": 1,
+        "pact": 1
+       },
+       "mad": 3,
+       "xp": 5,
+       "flags": [
+        "asked_healer_schedule"
+       ]
+      },
+      "echo": "You ask when the Healer comes. She tells you the hour without a pause. Now you have an appointment with your brother's wearer, and Kishin set it."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": -2
+       },
+       "decency": 1,
+       "stab": -2,
+       "xp": 3,
+       "flags": [
+        "refused_second_cup"
+       ]
+      },
+      "echo": "You put your hand over the cup. She does not pour. You feel your edge come back, and with it the cold of being alone again."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "mad": 5,
+       "stab": -5,
+       "xp": 5,
+       "flags": [
+        "surfaced_rinka"
+       ]
+      },
+      "echo": "You ask the woman, not the demon. For one second Rinka's eyes are frightened and her own. Then she is gone again, and the hand holding the pot shakes."
+     }
+    ]
+   },
+   {
+    "img": "ch19_possessed_leader",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cult": 3
+       },
+       "decency": -1,
+       "mad": 5,
+       "xp": 5,
+       "flags": [
+        "owes_kishin_a_grief"
+       ]
+      },
+      "echo": "You agree. She nods as if you signed something. You leave with what you came for, and a debt you swear you will never pay."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": 2
+       },
+       "decency": -3,
+       "mad": 4,
+       "xp": 4,
+       "flags": [
+        "sold_a_knot_to_kishin"
+       ]
+      },
+      "echo": "You offer her a grief from Gin's ledger instead of your own. She accepts at once. You have fed a stranger to it, and it thanked you."
+     },
+     {
+      "fx": {
+       "standing": {
+        "cult": -2
+       },
+       "decency": 2,
+       "stab": -4,
+       "veil": 1,
+       "xp": 3,
+       "flags": [
+        "walked_out_owing_nothing"
+       ]
+      },
+      "echo": "You stand up and leave owing nothing. On the stairs your grief is still yours, heavy and sharp. Behind you she is already pouring for someone else."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Admit, to yourself and to her, that you want to come back.",
+      "hint": "The tea is still warm in you.",
+      "need": "drank_the_tea",
+      "fx": {
+       "standing": {
+        "cult": 2
+       },
+       "decency": -1,
+       "stab": 5,
+       "mad": 6,
+       "flags": [
+        "wants_the_circle"
+       ]
+      },
+      "echo": "You say it quietly. She does not gloat. She tells you the eastern seat will be kept, and you believe her, and some part of you is glad."
+     }
+    ]
+   }
+  ]
+ },
+ "m20": {
+  "meets": [
+   "yushiro"
+  ],
+  "journal": "The cleanest cut in the wiring runs through the Circle itself, and the Healer texted to ask me not to cut it.",
+  "beats": [
+   {
+    "img": "ch3_thinspot",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "cult": -3,
+        "pact": -2
+       },
+       "decency": -1,
+       "veil": -3,
+       "stab": -6,
+       "xp": 6,
+       "flags": [
+        "resolved_to_cut_battery"
+       ]
+      },
+      "echo": "You decide to cut the battery. Both demons lose their fuel. Thirty-five people will get their grief back, and they will know who gave it to them."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 2
+       },
+       "rel": {
+        "gin": 5
+       },
+       "veil": 3,
+       "xp": 4,
+       "flags": [
+        "follows_gentle_draw",
+        "heard_yushiro_out"
+       ]
+      },
+      "echo": "You text back one word. Okay. The ring keeps charging. You are on the path to Gin now, and you agreed with the thing wearing him to get there."
+     },
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 6
+       },
+       "standing": {
+        "grid": 1
+       },
+       "decency": 1,
+       "xp": 4,
+       "flags": [
+        "kurosawa_has_diagram"
+       ]
+      },
+      "echo": "You take the diagram to Kurosawa. He studies the cut you marked for a long time. Two people hold it now, and either of you can be reached."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Go back up the stairs and tell the ring what their sensei is.",
+      "hint": "You already said its name to its face.",
+      "need": "named_kishin",
+      "fx": {
+       "standing": {
+        "cult": -3
+       },
+       "decency": 2,
+       "stab": -8,
+       "veil": 1,
+       "xp": 5,
+       "flags": [
+        "told_the_ring"
+       ]
+      },
+      "echo": "You go back up and say it plainly to the people still putting on their sandals. Most of them look at you with pity. One woman starts to cry and does not stop."
+     }
+    ]
+   }
+  ]
+ },
+ "m21": {
+  "meets": [
+   "gin",
+   "yushiro"
+  ],
+  "journal": "The counter-demon wears a courier's body in a basement off Ushigome-Kagurazaka, and when the Healer came down the stairs in Gin, both of them looked at me as the thing they fight over.",
+  "beats": [
+   {
+    "img": "ch9_encounter",
+    "choices": [
+     {
+      "fx": {
+       "mad": 5,
+       "stab": -4,
+       "xp": 5,
+       "flags": [
+        "heard_the_aspirant_out"
+       ]
+      },
+      "echo": "You ask what he wants the wall to do. He looks happy to be asked. Your second voice leans in to listen, and you let it."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "stab": -3,
+       "xp": 3,
+       "flags": [
+        "left_the_crying_man"
+       ]
+      },
+      "echo": "You step back toward the stairs. He starts talking anyway. You find you have stopped on the third step, with the crying man still in the corner."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "decency": -1,
+       "veil": 2,
+       "xp": 4,
+       "flags": [
+        "tipped_off_aspirant"
+       ]
+      },
+      "echo": "You tell him the Healer is hunting him. For a moment the borrowed face goes blank with fear. Then he smiles, and you know you gave him something useful."
+     }
+    ]
+   },
+   {
+    "img": "ch21_entitysight",
+    "choices": [
+     {
+      "fx": {
+       "decency": 2,
+       "mad": 2,
+       "xp": 5,
+       "flags": [
+        "named_the_seam"
+       ]
+      },
+      "echo": "You tell him he priced the living at zero. He hears it. He does not stop, but you saw it land."
+     },
+     {
+      "fx": {
+       "mad": 4,
+       "xp": 4,
+       "flags": [
+        "kept_the_seam"
+       ]
+      },
+      "echo": "You keep the seam to yourself. He preaches on, and the second voice in your chest keeps nodding along. You hold the handle very tight."
+     },
+     {
+      "fx": {
+       "decency": 2,
+       "stab": -5,
+       "xp": 4,
+       "flags": [
+        "asked_for_the_courier"
+       ]
+      },
+      "echo": "You ask who he was before. The face twitches, just once. The thing inside closes around its host like a fist."
+     }
+    ]
+   },
+   {
+    "img": "char_uedera-gin",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": -2
+       },
+       "decency": 2,
+       "mad": 4,
+       "stab": -6,
+       "veil": -1,
+       "xp": 6,
+       "flags": [
+        "refused_to_be_the_table"
+       ]
+      },
+      "echo": "You tell them both you will not be the table. The basement goes very quiet. Gin's eyes and the courier's eyes are on you at the same time, and neither looks pleased."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 2
+       },
+       "rel": {
+        "gin": 5
+       },
+       "decency": -1,
+       "xp": 4,
+       "flags": [
+        "left_with_the_healer"
+       ]
+      },
+      "echo": "You climb the stairs at your brother's side. His hand rests on your shoulder, light and kind. You let it stay there."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": -4
+       },
+       "mad": 6,
+       "stab": -6,
+       "veil": 2,
+       "xp": 5,
+       "flags": [
+        "stayed_with_the_aspirant"
+       ]
+      },
+      "echo": "Gin goes up the stairs without you. He does not look back. You stay among the weeping screens with the flood."
+     }
+    ]
+   }
+  ]
+ },
+ "m22": {
+  "meets": [],
+  "journal": "Both demons need the same mourners and neither has counted the living, so the third move is to help people truly grieve and to say the names of the dead.",
+  "beats": [
+   {
+    "img": "map_tokyo",
+    "choices": [
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 6
+       },
+       "standing": {
+        "grid": 1
+       },
+       "xp": 4,
+       "flags": [
+        "kurosawa_has_map"
+       ]
+      },
+      "echo": "You lay the map in front of Kurosawa. He puts a finger on the living, the part both demons skipped. Then he asks who else has seen this list."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1,
+        "cult": -1
+       },
+       "decency": 3,
+       "veil": -1,
+       "stab": -5,
+       "xp": 5,
+       "flags": [
+        "helped_one_mourner_grieve"
+       ]
+      },
+      "echo": "You sit with one of the soothed faces and help her remember the person she lost. She cries for an hour. At the end she is tired and sad and her own."
+     },
+     {
+      "fx": {
+       "mad": 3,
+       "xp": 3,
+       "flags": [
+        "map_in_head_only"
+       ]
+      },
+      "echo": "The paper burns in the sink. The map lives only in your head now. You go over it twice, afraid of what the gentle register will soften."
+     }
+    ]
+   },
+   {
+    "img": "res_apartmentlivingroom",
+    "choices": [
+     {
+      "fx": {
+       "decency": 2,
+       "veil": -2,
+       "stab": -3,
+       "xp": 6,
+       "flags": [
+        "seeking_the_rites"
+       ]
+      },
+      "echo": "You start a list of the names you can actually learn. It is short. It is a beginning, and it belongs to neither of them."
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "rel": {
+        "gin": 6
+       },
+       "mad": 5,
+       "stab": -6,
+       "xp": 5,
+       "flags": [
+        "confronted_gin_with_names"
+       ]
+      },
+      "echo": "You decide to take the names to Gin. The idea feels like holding a knife by the blade. If he is in there, this will reach him."
+     },
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 5
+       },
+       "decency": 1,
+       "xp": 4,
+       "flags": [
+        "kurosawa_knows_rites"
+       ]
+      },
+      "echo": "You tell Kurosawa what the courier said about rites. He is quiet a long time. Then he says real rites have worked before, for him, on smaller deaths."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Reach through the glass for the young man, not the flood.",
+      "hint": "For one moment the courier was there.",
+      "lock": "clair:3",
+      "fx": {
+       "decency": 1,
+       "mad": 6,
+       "stab": -5,
+       "xp": 5,
+       "flags": [
+        "touched_the_courier"
+       ]
+      },
+      "echo": "For a second you feel the young man under the flood, tired and very far down. Then it closes over him again. Your head aches for an hour after."
+     }
+    ]
+   }
+  ],
+  "proseFix": {
+   "0": {
+    "1": "Which means, you write, and then sit looking at the words a long time before you let yourself finish the sentence — which means there is no clean side. To starve Sora's flood you must keep the mourners soothed, which is to say you must let the Healer keep soothing them, which is to say the price of stopping the loud catastrophe is feeding the gentle one a little more every night. And to deny your brother his quiet door you must let the griefs go raw, which hands the flood its fuel. The wiring is built so that any cut you make in one line charges the other. You have read enough poisonings to recognize the shape of a trap that uses your own care as the mechanism: the more you love the living the more you serve one demon, the more you love the dead the more you serve the other, and the only person in the whole diagram positioned to see this and refuse it is sitting on a cold floor at dawn with ink on the side of his hand."
+   },
+   "1": {
+    "2": "When he leaves he goes the way grief goes, without any sound, and you are left at the window in the kitchen's stolen hour with the third move finally clear and finally impossible-seeming in its size: a hundred years of the unnamed dead, owed their names by a city that has nine million living mouths and not one institution willing to spend the time. You cannot say a hundred years of names. But you saw the courier remember being a person, and you saw your brother, in the basement, glance at your face out of an old reflex of love the Healer had not bothered to erase, and you think — at the bottom of the worst week of your life, with both catastrophes leaning on you like weather — that the blind spot both demons share might also be the one place your brother is still in there. Neither of them has costed the living. But your brother, before he was the Healer, costed exactly one living person above everything, and his name is yours, and he is sitting at the window, awake at 3:47, refusing to be only the table."
+   }
+  }
+ },
+ "m23": {
+  "meets": [],
+  "journal": "Every kindness the Healer did thinned the wall over Kita, and it chose Obon so the pull of the dead would finish the work on the night of the sending-fire.",
+  "beats": [
+   {
+    "img": "res_bookshop",
+    "choices": [
+     {
+      "fx": {
+       "stab": -5,
+       "mad": 3,
+       "xp": 5,
+       "flags": [
+        "found_first_favour"
+       ]
+      },
+      "echo": "You walk the month backward to the first favour. It is older than you hoped. You remember the week, and you remember being grateful."
+     },
+     {
+      "fx": {
+       "stab": -3,
+       "xp": 4,
+       "flags": [
+        "knows_okuribi_deadline"
+       ]
+      },
+      "echo": "You do the sum three times. It lands on the last night of Obon every time. You stop checking."
+     },
+     {
+      "fx": {
+       "mad": 7,
+       "stab": -4,
+       "veil": 2,
+       "xp": 6,
+       "flags": [
+        "felt_the_scar"
+       ]
+      },
+      "echo": "You stand on the scar and let your paths wake. The wall is thin as wet paper. Something on the other side presses back against your palms."
+     }
+    ]
+   },
+   {
+    "img": "ch20_layered",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": -1
+       },
+       "decency": 2,
+       "veil": 1,
+       "xp": 3,
+       "flags": [
+        "warned_kita_residents"
+       ]
+      },
+      "echo": "You tell the old man he should stay with family until after Obon. He looks at the photograph and shakes his head, politely. Down the street, someone else has started watching you."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "stab": -5,
+       "xp": 3,
+       "flags": [
+        "kept_kita_silent"
+       ]
+      },
+      "echo": "You walk on without a word. The children finish their hopscotch. You are the only one on the street who knows what the lanterns are counting."
+     }
+    ]
+   },
+   {
+    "img": "place_riverside",
+    "choices": [
+     {
+      "fx": {
+       "decency": 1,
+       "veil": -5,
+       "mad": 10,
+       "stab": -10,
+       "xp": 6,
+       "flags": [
+        "thickened_the_wall"
+       ]
+      },
+      "echo": "You spend the night leaning against the breath of the city with both paths open. By dawn the wall over Kita is a little thicker. Your hands will not stop shaking."
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "mad": 8,
+       "stab": -6,
+       "xp": 6,
+       "flags": [
+        "sought_the_axis"
+       ]
+      },
+      "echo": "You open the paths you have always kept shut and go looking for the place the chair is decided. You find a light with its back to you. It does not turn."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 4
+       },
+       "decency": 1,
+       "stab": 8,
+       "veil": 1,
+       "xp": 2,
+       "flags": [
+        "lit_a_lantern_for_gin"
+       ]
+      },
+      "echo": "You light a lantern for Gin and set it on the water. For one hour you are only his brother. It costs an hour, and you feel steadier for the rest of the night."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Spend the first night at the scar, saying the names you have learned.",
+      "hint": "You started looking for the rites.",
+      "need": "seeking_the_rites",
+      "fx": {
+       "decency": 2,
+       "veil": -3,
+       "stab": -4,
+       "mad": 3,
+       "xp": 5,
+       "flags": [
+        "said_names_at_the_scar"
+       ]
+      },
+      "echo": "You stand at the scar and say each name out loud, slowly. It is not many. The pressure eases a little, the way a held breath eases when someone finally speaks."
+     }
+    ]
+   }
+  ]
+ }
+}

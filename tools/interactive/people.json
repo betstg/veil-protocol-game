@@ -1,0 +1,461 @@
+[
+ {
+  "id": "gin",
+  "name": "Uedera Gin",
+  "role": "Your brother. CVD field investigator. Gone quiet.",
+  "img": "char_uedera-gin",
+  "romance": false,
+  "minor": false,
+  "faction": "family"
+ },
+ {
+  "id": "itsuki",
+  "name": "Kuroda Itsuki",
+  "role": "Your oldest friend. Geidai painter, Kuroda by name.",
+  "img": "char_kuroda-itsuki",
+  "romance": true,
+  "minor": false,
+  "faction": "tower"
+ },
+ {
+  "id": "sei",
+  "name": "Kuroda Sei",
+  "role": "Kuroda family operative. Teleportation.",
+  "img": "char_kuroda-sei",
+  "romance": false,
+  "minor": false,
+  "faction": "tower"
+ },
+ {
+  "id": "soun",
+  "name": "Kuroda Sōun",
+  "role": "Head of the Kuroda house.",
+  "img": "tower_kuroda",
+  "romance": false,
+  "minor": false,
+  "faction": "tower"
+ },
+ {
+  "id": "sena",
+  "name": "Fujiwara-Kage Sena",
+  "role": "CVD Auditor. Fujiwara-Kage Tower family.",
+  "img": "char_fujiwara-kage-sena",
+  "romance": true,
+  "minor": false,
+  "faction": "tower"
+ },
+ {
+  "id": "haruki",
+  "name": "Tsukishiro Haruki",
+  "role": "Independent investigator. Grid-adjacent.",
+  "img": "char_tsukishiro-haruki",
+  "romance": true,
+  "minor": false,
+  "faction": "tower"
+ },
+ {
+  "id": "okada",
+  "name": "Okada Shizuka",
+  "role": "CVD Investigation. Has watched for you for four years.",
+  "img": "char_okada-shizuka",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "adachi",
+  "name": "Director Adachi Kenshin",
+  "role": "CVD Director, Northern Tokyo.",
+  "img": "char_director-adachi-kenshin",
+  "romance": false,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "noa",
+  "name": "Katagiri Noa",
+  "role": "Senior CVD field operative. Gin's partner on Kita.",
+  "img": "char_katagiri-noa",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "moriya",
+  "name": "Moriya Tatsuki",
+  "role": "CVD Internal Affairs. Keeps the accurate record.",
+  "img": "char_moriya-tatsuki",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "shimizu",
+  "name": "Shimizu Ren",
+  "role": "CVD Suppression, field specialist.",
+  "img": "char_shimizu-ren",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "tendo",
+  "name": "Tendo Akira",
+  "role": "CVD field operative. Psychokinesis.",
+  "img": "char_tendo-akira",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "aoi",
+  "name": "Nakamura Aoi",
+  "role": "CVD trainee, second year. Field track.",
+  "img": "char_nakamura-aoi",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "ryusei",
+  "name": "Kato Ryusei",
+  "role": "CVD trainee, second year. Assessment track. Telepath.",
+  "img": "char_kato-ryusei",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "hagiwara",
+  "name": "Hagiwara Mizuki",
+  "role": "Director, CVD Office of Public Confidence.",
+  "img": "char_hagiwara-mizuki",
+  "romance": true,
+  "minor": false,
+  "faction": "cvd"
+ },
+ {
+  "id": "kurosawa",
+  "name": "Kurosawa Shou",
+  "role": "Reads the body. Sub-level four.",
+  "img": "char_kurosawa-shou",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "tanizaki",
+  "name": "Tanizaki Seiichi",
+  "role": "Gin's mentor. The door to the Grid.",
+  "img": "char_tanizaki-seiichi",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "switch",
+  "name": "Switch",
+  "role": "Runs the rotating Grid meet.",
+  "img": "char_switch",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "hana",
+  "name": "Choi Hana",
+  "role": "Unregistered Grid operative. Your age.",
+  "img": "char_choi-hana",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "majima",
+  "name": "Majima Kenji",
+  "role": "Grid independent, combat specialist.",
+  "img": "char_majima-kenji",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "tanaka",
+  "name": "Tanaka Ryu",
+  "role": "Independent. Field support and stability.",
+  "img": "char_tanaka-ryu",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "uehara",
+  "name": "Uehara",
+  "role": "Independent, former CVD.",
+  "img": "char_uehara",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "inoue_m",
+  "name": "Inoue Misaki",
+  "role": "Independent. Singularity rank.",
+  "img": "char_inoue-misaki",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "sora",
+  "name": "Mochizuki Sora",
+  "role": "Unregistered. Library evenings.",
+  "img": "char_mochizuki-sora",
+  "romance": true,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "hara",
+  "name": "Hara Setsu",
+  "role": "Keeps the Tsuru-no-yu bath-house.",
+  "img": "char_hara-setsu",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "kondo",
+  "name": "Kondō Fumio",
+  "role": "Baker. Gin's first node.",
+  "img": "char_kondo-fumio",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "hayashi",
+  "name": "Hayashi Fumiko",
+  "role": "The clinic behind the blue curtain.",
+  "img": "char_hayashi-fumiko",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "matsuda",
+  "name": "Matsuda Keiko",
+  "role": "Café owner. Reads you on sight.",
+  "img": "char_matsuda-keiko",
+  "romance": false,
+  "minor": false,
+  "faction": "grid"
+ },
+ {
+  "id": "yamamoto",
+  "name": "Yamamoto Koji",
+  "role": "Independent archivist. Twenty-two years of entities.",
+  "img": "char_yamamoto-koji",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "kaneda",
+  "name": "Kaneda Tōru",
+  "role": "Bartender. The honest table.",
+  "img": "char_kaneda-t-ru",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "yua",
+  "name": "Yua",
+  "role": "Street kid from the Toyoko crowd. Watches your back.",
+  "img": "npc_yua",
+  "romance": false,
+  "minor": true,
+  "faction": "street"
+ },
+ {
+  "id": "mori",
+  "name": "Mori Haruto",
+  "role": "High-school kid. Sees things.",
+  "img": "char_mori-haruto",
+  "romance": false,
+  "minor": true,
+  "faction": "street"
+ },
+ {
+  "id": "miyamoto",
+  "name": "Miyamoto Kazuo",
+  "role": "Head priest of the shrine.",
+  "img": "char_miyamoto-kazuo",
+  "romance": false,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "bookseller",
+  "name": "The Bookseller",
+  "role": "The Crooked Shelf. The locked case.",
+  "img": "char_the-bookseller",
+  "romance": false,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "iwata",
+  "name": "Iwata Kenji",
+  "role": "Handyman in your building.",
+  "img": "char_iwata-kenji",
+  "romance": false,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "komatsu",
+  "name": "Komatsu Shigeru",
+  "role": "Tobacco kiosk on Gin's corner.",
+  "img": "char_komatsu-shigeru",
+  "romance": false,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "leo",
+  "name": "Leo (Sato)",
+  "role": "Host in Kabukichō.",
+  "img": "char_leo-sato",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "mali",
+  "name": "Mali",
+  "role": "Masseuse near the Peony.",
+  "img": "char_mali",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "aizawa",
+  "name": "Aizawa Yuto",
+  "role": "Heir. Drowning.",
+  "img": "char_aizawa-yuto",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "ito",
+  "name": "Itō Kenta",
+  "role": "Eighteen. Sells to survive.",
+  "img": "char_it-kenta",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "kuroki",
+  "name": "Kuroki Tatsuo",
+  "role": "Yakuza lieutenant. A terrifying ally.",
+  "img": "npc_kuroki",
+  "romance": false,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "wada",
+  "name": "Wada Sho",
+  "role": "Soldier under Kuroki.",
+  "img": "char_wada-sho",
+  "romance": true,
+  "minor": false,
+  "faction": "street"
+ },
+ {
+  "id": "usami",
+  "name": "Usami Hinata and Ren",
+  "role": "The Pair. A man and a demon, swapped.",
+  "img": "char_usami-hinata-ren",
+  "romance": true,
+  "minor": false,
+  "faction": "vessel"
+ },
+ {
+  "id": "kishin",
+  "name": "Kanna-sensei",
+  "role": "Guide of the Far-Shore Circle. Wears Fukai Rinka.",
+  "img": "char_fukai-rinka-kishin",
+  "romance": false,
+  "minor": false,
+  "faction": "cult"
+ },
+ {
+  "id": "yushiro",
+  "name": "Yushiro",
+  "role": "What wears your brother. Duty.",
+  "img": "char_uedera-gin",
+  "romance": false,
+  "minor": false,
+  "faction": "pact"
+ },
+ {
+  "id": "watanabe",
+  "name": "Watanabe Jun",
+  "role": "Despair, Seat VI. Weakening.",
+  "img": "npc_watanabe_jun",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "mori_takao",
+  "name": "Mori Takao",
+  "role": "Rage, Seat II.",
+  "img": "thirteen_II_mori_takao",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "nakashima",
+  "name": "Nakashima Yuna",
+  "role": "Fear, Seat IV.",
+  "img": "thirteen_IV_nakashima_yuna",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "inoue_s",
+  "name": "Inoue Satoru",
+  "role": "Hunger, Seat IX.",
+  "img": "thirteen_IX_inoue_satoru",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "park",
+  "name": "Park Junho",
+  "role": "Longing, Seat XI.",
+  "img": "thirteen_XI_park_junho",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ },
+ {
+  "id": "axis",
+  "name": "The Axis",
+  "role": "Light at the centre. Back to the world.",
+  "img": "char_the-axis",
+  "romance": false,
+  "minor": false,
+  "faction": "axis"
+ }
+]

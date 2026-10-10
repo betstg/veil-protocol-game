@@ -1,0 +1,1489 @@
+{
+ "m24": {
+  "meets": [
+   "axis"
+  ],
+  "journal": "I stood on the floor of the Axis and saw that the empty Thirteenth chair and the thinning wall over Kita are one wound.",
+  "beats": [
+   {
+    "img": "char_the-axis",
+    "choices": [
+     {
+      "fx": {
+       "stab": -12,
+       "mad": 10,
+       "xp": 6,
+       "clair": 1,
+       "veil": 2,
+       "flags": [
+        "axis_read_full"
+       ]
+      },
+      "echo": "You read the whole lattice before you let go. It comes back up with you as a pressure behind your eyes. Some of what you saw does not feel like yours."
+     },
+     {
+      "fx": {
+       "stab": -4,
+       "mad": 3,
+       "xp": 3,
+       "veil": 1,
+       "flags": [
+        "axis_one_fact"
+       ]
+      },
+      "echo": "You take the shape of the wound and close both registers. Your hands stop shaking on the climb. Whole parts of the lattice stay dark to you."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "ch14_layer2",
+    "choices": [
+     {
+      "fx": {
+       "mad": 6,
+       "stab": -6,
+       "xp": 4,
+       "decency": 1,
+       "flags": [
+        "sought_old_occupant"
+       ]
+      },
+      "echo": "You look for whatever was torn out of the chair. The lattice gives you nothing but the outline of an absence. You keep the outline."
+     },
+     {
+      "fx": {
+       "stab": -8,
+       "mad": 4,
+       "xp": 4,
+       "standing": {
+        "axis": 1
+       },
+       "veil": -2,
+       "flags": [
+        "hold_wound_self"
+       ]
+      },
+      "echo": "You press your own weight against the gap to see if it holds. It holds for a breath. Something in your chest stays pressed there after you pull back."
+     },
+     {
+      "fx": {
+       "xp": 3,
+       "decency": -1,
+       "standing": {
+        "pact": 1
+       },
+       "veil": 1,
+       "flags": [
+        "chair_will_be_taken"
+       ]
+      },
+      "echo": "You stop asking how to save the chair and start asking who gets it. It is easier to think about. That ease frightens you a little."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Look for the place where Gin is leaning on the lattice.",
+      "hint": "You came down here for him first.",
+      "need": "answered_gin_knock",
+      "fx": {
+       "rel": {
+        "gin": 4
+       },
+       "mad": 4,
+       "xp": 3
+      },
+      "echo": "You find a small steady pressure near the seam that taps three times. It is him. You cannot reach it from here."
+     }
+    ]
+   },
+   {
+    "img": "char_uedera-gin",
+    "choices": [
+     {
+      "fx": {
+       "stab": -3,
+       "xp": 4,
+       "decency": 1,
+       "rel": {
+        "gin": 2
+       },
+       "flags": [
+        "chose_on_surface"
+       ]
+      },
+      "echo": "You climb out with the map and lose most of the reasons on the way up. You are a person again on the kitchen floor. The choice is still in front of you."
+     },
+     {
+      "fx": {
+       "stab": -10,
+       "mad": 9,
+       "veil": 3,
+       "rel": {
+        "gin": 6
+       },
+       "xp": 5,
+       "flags": [
+        "stayed_at_axis"
+       ]
+      },
+      "echo": "You stay down and call for him through the structure. For one second he answers in his own voice. The Madness takes its fee on the way back up."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m25": {
+  "meets": [
+   "yushiro",
+   "gin"
+  ],
+  "journal": "The Healer offered me the Thirteenth seat in our own kitchen, and Gin came up long enough to tell me its old occupant was hidden, not destroyed.",
+  "beats": [
+   {
+    "img": "res_apartmentlivingroom",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "stab": -6,
+       "mad": 4,
+       "xp": 4,
+       "rel": {
+        "gin": -3
+       },
+       "flags": [
+        "leaning_to_seat"
+       ]
+      },
+      "echo": "You tell it yes and mean it. The kitchen goes very quiet. The thing in Gin's face looks almost relieved."
+     },
+     {
+      "fx": {
+       "decency": 2,
+       "xp": 4,
+       "veil": 2,
+       "rel": {
+        "gin": 3
+       },
+       "flags": [
+        "seek_third_move"
+       ]
+      },
+      "echo": "You turn down the offer for the chair and for the demon. It nods as if it expected this. You have two nights and no plan."
+     },
+     {
+      "fx": {
+       "decency": -2,
+       "xp": 5,
+       "stab": -4,
+       "rel": {
+        "gin": -4
+       },
+       "flags": [
+        "feigned_acceptance"
+       ]
+      },
+      "echo": "You say the words in your brother's kitchen. The Healer relaxes its watch a little. You do not know if Gin heard you agree."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "char_uedera-gin",
+    "choices": [
+     {
+      "fx": {
+       "xp": 5,
+       "veil": 2,
+       "mad": 3,
+       "rel": {
+        "gin": 3
+       },
+       "flags": [
+        "old_occupant_trail"
+       ]
+      },
+      "echo": "You start pulling on Gin's half-sentence. The Healer heard it too. Now you are racing it to the same answer."
+     },
+     {
+      "fx": {
+       "decency": 2,
+       "rel": {
+        "gin": 8
+       },
+       "stab": -5,
+       "standing": {
+        "pact": -2
+       },
+       "veil": 1,
+       "flags": [
+        "answered_gin_knock"
+       ]
+      },
+      "echo": "You tap three times on the table. Gin's hand twitches under the evenness. The Healer stops pretending you are still deciding."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "xp": 3,
+       "rel": {
+        "gin": -4
+       },
+       "veil": 1,
+       "flags": [
+        "silent_on_offer"
+       ]
+      },
+      "echo": "You say nothing. The Healer waits on your yes and does not hunt you. Your brother goes on knocking against a table you do not answer."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "place_riverside",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "pact": 2
+       },
+       "decency": -2,
+       "veil": 5,
+       "rel": {
+        "gin": 4
+       },
+       "xp": 4,
+       "flags": [
+        "fire_continuation"
+       ]
+      },
+      "echo": "You step back and let the Healer climb. The sending-fires bend toward the gap. If it is wrong, you lit this yourself."
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 1
+       },
+       "stab": -14,
+       "mad": 12,
+       "veil": -4,
+       "xp": 6,
+       "decency": 1,
+       "flags": [
+        "fire_refusal"
+       ]
+      },
+      "echo": "You open both registers and lean into the wound. The wall stops sliding. Something in your head starts to give."
+     },
+     {
+      "fx": {
+       "stab": -8,
+       "mad": 6,
+       "veil": -2,
+       "xp": 6,
+       "decency": 1,
+       "rel": {
+        "gin": -2
+       },
+       "flags": [
+        "fire_cost"
+       ]
+      },
+      "echo": "You go after the hidden occupant and what it costs to put it back. The wound flinches at your touch. The price has not been named yet."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Light the Quiet. Take Gin's hand at the seam and walk away.",
+      "hint": "He asked you to hear him. Maybe this is what he meant.",
+      "need": "answered_gin_knock",
+      "fx": {
+       "rel": {
+        "gin": 6
+       },
+       "veil": 4,
+       "decency": -1,
+       "standing": {
+        "axis": -1
+       },
+       "xp": 3,
+       "flags": [
+        "fire_quiet"
+       ]
+      },
+      "echo": "You reach for his hand instead of the chair. His fingers close on yours for a second. Behind you the seam keeps thinning."
+     }
+    ]
+   }
+  ],
+  "proseFix": {
+   "0": {
+    "2": "It is the most reasonable offer anyone has ever made you, and it is built entirely of true things, and you sit in the chair from the morning everything started and feel the exact angle at which it drowns. Because it is not lying. You probably could take the Seat. The wall probably would close. Gin probably would be set down whole. And the thing it does not itemize, because it does not need to, because it knows you can already feel it, is what becomes of the person who holds the difference: that there is no climbing back up from a Domain, that the load is permanent and total and unhuman, that you would save your brother by becoming a pressure with a name he almost knows, a law instead of a brother, eyes in a dark room he could feel and never again sit across a kitchen table from. It offers you everyone's life but your own, and it offers it gently, and it means it, and that is the worst part — that the kindest exit in the structure is the one where you stop, forever, being someone Gin could come home to."
+   },
+   "2": {
+    "1": "And you understand, finally, standing in the open door with the okuribi burning under you, that this was never a puzzle with a solution. There is no move that saves everything; the Axis showed you that and the offer in the kitchen proved it. There are only the five roads, each one true, each one a different thing you are willing to lose. You can let the Healer take the chair and stake the district on its mercy being worth the flood — the Continuation, the road where you trust the monster wearing your brother to be the kindest answer after all. You can refuse it all and throw your two registers against the wound and try to hold the difference yourself until your mind goes — the Refusal, the road that keeps the wall whole and may not keep you. You can let the chair be taken and survive to spend your whole life unseating what takes it — the Long Game, the road that chooses tomorrow over tonight. You can chase your brother's half-sentence into the architecture and pay the one specific price that puts the old occupant back — the Cost, the road where the wound closes and something is spent that does not come back. Or you can take Gin's hand at the seam and simply leave, let the structure fall on a district that lit its own lanterns, and be only a brother who got his brother out — the Quiet, the road that saves the one thing you came for and nothing else."
+   }
+  }
+ },
+ "m26": {
+  "meets": [],
+  "journal": "I crossed at the Senju waterworks node into a copy of my own district and walked Gin's order to an empty kitchen chair at its centre.",
+  "beats": [
+   {
+    "img": "ch3_thinspot",
+    "choices": [
+     {
+      "fx": {
+       "stab": -6,
+       "mad": 5,
+       "xp": 4,
+       "veil": 1,
+       "flags": [
+        "walked_inward"
+       ]
+      },
+      "echo": "You keep walking before the far shore makes up its mind. The street lets you through. The way back gets longer with each step."
+     },
+     {
+      "fx": {
+       "stab": -8,
+       "mad": 7,
+       "xp": 5,
+       "clair": 1,
+       "flags": [
+        "met_far_attention"
+       ]
+      },
+      "echo": "You stand still and let it come. You learn what keeps this place running. It learns the rhythm of your breathing."
+     },
+     {
+      "fx": {
+       "stab": -3,
+       "veil": 2,
+       "xp": 3,
+       "flags": [
+        "marked_way_out"
+       ]
+      },
+      "echo": "You fix the half-step home in your body first. It costs you minutes and a little sight. You know where the door is."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "ch14_layer1",
+    "choices": [
+     {
+      "fx": {
+       "mad": 8,
+       "stab": -5,
+       "xp": 5,
+       "standing": {
+        "axis": 2
+       },
+       "veil": 2,
+       "flags": [
+        "named_self_to_seat"
+       ]
+      },
+      "echo": "You tell the chair what you are. The ringing changes pitch. It has heard the shape it was waiting for."
+     },
+     {
+      "fx": {
+       "stab": -10,
+       "mad": 10,
+       "xp": 6,
+       "veil": 3,
+       "flags": [
+        "read_the_tear"
+       ]
+      },
+      "echo": "You put your hand on the wound to learn how it tears. The grain runs hot into your palm. It is made of abilities you never had."
+     },
+     {
+      "fx": {
+       "stab": 3,
+       "xp": 2,
+       "veil": 1,
+       "standing": {
+        "axis": -1
+       },
+       "flags": [
+        "turned_back_early"
+       ]
+      },
+      "echo": "You turn around one step from the chair. The far shore lets you go. You bring home where the wound is and nothing about how it works."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Give the chair Gin's courtesy. The half-step, the order, and no answer.",
+      "hint": "He wrote a way of walking this place will tolerate.",
+      "need": "marked_way_out",
+      "fx": {
+       "xp": 5,
+       "stab": -2,
+       "rel": {
+        "gin": 3
+       },
+       "flags": [
+        "courtesy_to_seat"
+       ]
+      },
+      "echo": "You walk the half-step and say nothing. The chair's attention passes over you like a lamp. For now it does not decide."
+     }
+    ]
+   }
+  ]
+ },
+ "m27": {
+  "meets": [],
+  "journal": "The Seat shoved me out of the far shore and left marks in my hands, traces of abilities that belonged to whoever was torn out of it.",
+  "beats": [
+   {
+    "img": "ch14_layer2",
+    "choices": [
+     {
+      "fx": {
+       "stab": -4,
+       "xp": 2,
+       "flags": [
+        "ran_from_node"
+       ]
+      },
+      "echo": "You run until the node is two streets behind you. Your lungs burn. The marks on your hands do not fade with distance."
+     },
+     {
+      "fx": {
+       "stab": -6,
+       "mad": 6,
+       "xp": 5,
+       "clair": 1,
+       "flags": [
+        "read_own_hands"
+       ]
+      },
+      "echo": "You lie on the concrete and read your own palms. The lines are still loose enough to see apart. Something on the other side reads you back."
+     },
+     {
+      "fx": {
+       "veil": 3,
+       "xp": 4,
+       "mad": 3,
+       "standing": {
+        "axis": 1
+       },
+       "flags": [
+        "questioned_axis"
+       ]
+      },
+      "echo": "You call the Axis and demand an answer. It gives you one word about the marks and goes quiet. Over Kita the wall sags a little while it talks."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "prac_clairsent",
+    "choices": [
+     {
+      "fx": {
+       "decency": -1,
+       "stab": -5,
+       "xp": 3,
+       "flags": [
+        "marks_hidden",
+        "seat_marks"
+       ]
+      },
+      "echo": "You bind your hands with tape and tell no one. Nobody can grade what they cannot see. You carry the weight alone."
+     },
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 6
+       },
+       "stab": 3,
+       "xp": 4,
+       "decency": 1,
+       "flags": [
+        "marks_shown_kurosawa",
+        "seat_marks"
+       ]
+      },
+      "echo": "You hold your palms out to Kurosawa. He looks for a long time. Then he tells you plainly how far in the marks already go."
+     },
+     {
+      "fx": {
+       "mad": 8,
+       "stab": -6,
+       "veil": 2,
+       "rel": {
+        "gin": 4
+       },
+       "standing": {
+        "axis": 1
+       },
+       "xp": 5,
+       "flags": [
+        "marks_used_find_gin",
+        "seat_marks"
+       ]
+      },
+      "echo": "You aim the borrowed sense through the wall and find him. He is near the river, leaning. The marks feel more like yours afterwards."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m28": {
+  "meets": [],
+  "journal": "I walked home with a dead holder's gifts settling into my hands and could no longer tell if wanting Gin was me or the marks.",
+  "beats": [
+   {
+    "img": "res_apartment",
+    "choices": [
+     {
+      "fx": {
+       "stab": 4,
+       "xp": 4,
+       "decency": 1,
+       "flags": [
+        "wrote_it_small"
+       ]
+      },
+      "echo": "You sit at the kitchen table and write it down small, in his order. Your hand steadies as the page fills. The marks are on paper now, real."
+     },
+     {
+      "fx": {
+       "stab": 2,
+       "veil": 1,
+       "xp": 2,
+       "flags": [
+        "fled_kitchen"
+       ]
+      },
+      "echo": "You sleep somewhere else tonight. The offer cannot reach you there. The Seat now knows which room works on you."
+     },
+     {
+      "fx": {
+       "mad": 7,
+       "stab": -7,
+       "veil": 3,
+       "rel": {
+        "gin": 5
+       },
+       "xp": 4,
+       "flags": [
+        "reached_from_step"
+       ]
+      },
+      "echo": "You reach for him from the doorstep with everything the marks give. For a breath you feel his tiredness. The thing on the wall feels you too."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m29": {
+  "meets": [],
+  "journal": "The bookseller's ledger lists twelve held domains and one, Duty XIII, vacant, and the vacancy has been leaning on Kita all this time.",
+  "beats": [
+   {
+    "img": "res_bookshop",
+    "choices": [
+     {
+      "fx": {
+       "xp": 5,
+       "veil": 1,
+       "item": "Copied Domain Registry",
+       "flags": [
+        "registry_copied"
+       ]
+      },
+      "echo": "You copy every name in your own hand. It takes an hour. You now carry a map of who holds the city up."
+     },
+     {
+      "fx": {
+       "xp": 4,
+       "mad": 3,
+       "stab": -3,
+       "flags": [
+        "asked_vacancy_year"
+       ]
+      },
+      "echo": "You go straight to the thirteenth line. The ink is pressed almost through the paper. Whatever emptied the chair never left."
+     },
+     {
+      "fx": {
+       "stab": 3,
+       "xp": 2,
+       "veil": 2,
+       "rel": {
+        "gin": 2
+       },
+       "flags": [
+        "closed_ledger"
+       ]
+      },
+      "echo": "You shut the ledger and put your hand flat on it. Gin is still the only thing you are chasing. The page stays true without you."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "char_the-bookseller",
+    "choices": [
+     {
+      "fx": {
+       "mad": 5,
+       "stab": -4,
+       "xp": 5,
+       "veil": 1,
+       "flags": [
+        "hunt_what_emptied"
+       ]
+      },
+      "echo": "You decide to find what emptied the chair. It is a question the dead man was afraid to write. You write it anyway."
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "mad": 3,
+       "xp": 4,
+       "decency": -1,
+       "flags": [
+        "arithmetic_accepted"
+       ]
+      },
+      "echo": "You accept that a vacant chair can only be filled. The marks in your palms warm at the thought. You notice they agree with you."
+     },
+     {
+      "fx": {
+       "decency": 1,
+       "xp": 3,
+       "veil": 2,
+       "flags": [
+        "frame_refused"
+       ]
+      },
+      "echo": "You refuse the two doors the page gives you. It feels like the right refusal. The wall goes on thinning while you look for a third."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Read the ink itself. Feel how hard the dead man pressed.",
+      "hint": "Paper remembers the hand that wrote it.",
+      "lock": "clair:2",
+      "fx": {
+       "xp": 4,
+       "mad": 2,
+       "flags": [
+        "read_bookseller_ink"
+       ]
+      },
+      "echo": "You lay two fingers on the margin. You feel a man writing smaller and smaller because he was scared. He was scared of someone like you reading it."
+     }
+    ]
+   }
+  ]
+ },
+ "m30": {
+  "meets": [
+   "watanabe",
+   "mori_takao"
+  ],
+  "journal": "Watanabe Jun holds Despair VI and is failing because the vacant Thirteenth pulls hardest on the seat nearest Kita, and every holder leans toward the same gap.",
+  "beats": [
+   {
+    "img": "npc_watanabe_jun",
+    "choices": [
+     {
+      "fx": {
+       "decency": 2,
+       "rel": {
+        "watanabe": 4
+       },
+       "veil": 2,
+       "xp": 4,
+       "flags": [
+        "watanabe_told_truth"
+       ]
+      },
+      "echo": "You tell him everything. He sits down on the library step. The light around him dims another half-step."
+     },
+     {
+      "fx": {
+       "decency": 1,
+       "rel": {
+        "watanabe": 6
+       },
+       "xp": 3,
+       "flags": [
+        "watanabe_comforted"
+       ]
+      },
+      "echo": "You tell him he is not imagining it and not alone. He nods slowly. He can tell you left something out, and he lets you."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "rel": {
+        "watanabe": 3
+       },
+       "veil": -3,
+       "xp": 4,
+       "standing": {
+        "axis": 1
+       },
+       "flags": [
+        "watanabe_holding_on"
+       ]
+      },
+      "echo": "You ask him to hold until the last night of Obon. He says yes at once. You both know what yes costs him."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Show him the copied page and let him read his own line.",
+      "hint": "He has carried it without ever seeing it written.",
+      "need": "registry_copied",
+      "fx": {
+       "rel": {
+        "watanabe": 8
+       },
+       "decency": 1,
+       "stab": -3,
+       "xp": 3,
+       "flags": [
+        "watanabe_saw_registry"
+       ]
+      },
+      "echo": "He reads his own name and the number six beside it. He runs a thumb over it once. Then he hands the copy back very carefully."
+     }
+    ]
+   },
+   {
+    "img": "thirteen_II_mori_takao",
+    "choices": [
+     {
+      "fx": {
+       "veil": -3,
+       "xp": 5,
+       "standing": {
+        "axis": 2
+       },
+       "decency": 1,
+       "mad": 2,
+       "flags": [
+        "holders_warned"
+       ]
+      },
+      "echo": "You get word to every holder you can reach. Some write back, most do not. Something on the far side notices the chairs talking."
+     },
+     {
+      "fx": {
+       "xp": 4,
+       "mad": 4,
+       "stab": -4,
+       "rel": {
+        "park": 4
+       },
+       "flags": [
+        "sought_park_junho"
+       ]
+      },
+      "echo": "You head for the address in Shin-Ōkubo. Longing reaches you two streets early. It feels too much like coming home."
+     },
+     {
+      "fx": {
+       "rel": {
+        "watanabe": 6
+       },
+       "stab": -5,
+       "xp": 5,
+       "veil": 1,
+       "flags": [
+        "learned_from_watanabe"
+       ]
+      },
+      "echo": "You go back and sit with Watanabe until the library closes. He shows you how a chair is held. You do not like what he shows you."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m31": {
+  "meets": [],
+  "journal": "I wrote the engine out in one sentence: an empty chair has leaned on Kita for years and the Healer means to call the wall's collapse a mending.",
+  "beats": [
+   {
+    "img": "res_apartmentlivingroom",
+    "choices": [
+     {
+      "fx": {
+       "rel": {
+        "kurosawa": 5
+       },
+       "decency": 2,
+       "stab": 3,
+       "xp": 4,
+       "flags": [
+        "engine_shared"
+       ]
+      },
+      "echo": "You lay the sentence in front of Kurosawa and the others. They read all three doors. Nobody says the third one out loud yet."
+     },
+     {
+      "fx": {
+       "decency": -1,
+       "stab": -6,
+       "mad": 4,
+       "standing": {
+        "axis": 1
+       },
+       "xp": 3,
+       "flags": [
+        "third_door_secret"
+       ]
+      },
+      "echo": "You keep your own chair out of what you tell them. They thank you for being honest. The marks in your hands go warm and quiet."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 5
+       },
+       "veil": -1,
+       "stab": -3,
+       "xp": 3,
+       "flags": [
+        "went_for_gin"
+       ]
+      },
+      "echo": "You leave the pages on the table and go out looking for him. The night is short already. You still do not know which door you will choose."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m32": {
+  "meets": [],
+  "journal": "On the floor before the last night I saw there are three clocks, the window, the domain and the succession, and they will not run out together.",
+  "beats": [
+   {
+    "img": "res_apartmentempty",
+    "choices": [
+     {
+      "fx": {
+       "xp": 4,
+       "rel": {
+        "gin": 3
+       },
+       "flags": [
+        "read_in_gin_order"
+       ]
+      },
+      "echo": "You read the pages in his order. Everything lines up cleanly. You cannot tell whose clarity it is."
+     },
+     {
+      "fx": {
+       "xp": 5,
+       "mad": 4,
+       "stab": -3,
+       "flags": [
+        "read_against_order"
+       ]
+      },
+      "echo": "You put the window page beside Gin's handwriting. Your reading is clumsy. It shows you something his order hid."
+     },
+     {
+      "fx": {
+       "stab": 3,
+       "xp": 3,
+       "rel": {
+        "gin": -3
+       },
+       "flags": [
+        "gin_page_face_down"
+       ]
+      },
+      "echo": "You turn his handwriting face down. The arithmetic gets clean and cold. The face-down page sits at your knee the whole time."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "char_the-bookseller",
+    "choices": [
+     {
+      "fx": {
+       "xp": 4,
+       "veil": -2,
+       "flags": [
+        "window_trusted"
+       ]
+      },
+      "echo": "You plan the whole night around the dawn line. It is the soundest plan you have. The Healer knows the same hour."
+     },
+     {
+      "fx": {
+       "xp": 3,
+       "veil": 2,
+       "decency": -1,
+       "flags": [
+        "window_doubted"
+       ]
+      },
+      "echo": "You assume the dead man's measurement is a trap. It frees you to think. You can still feel the wall thinning while you doubt it."
+     },
+     {
+      "fx": {
+       "xp": 3,
+       "veil": 1,
+       "flags": [
+        "window_set_aside"
+       ]
+      },
+      "echo": "You treat the window as weather and look away from it. Your attention goes to the two clocks you can move. Nothing watches the dawn line now."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "res_archive",
+    "choices": [
+     {
+      "fx": {
+       "decency": 1,
+       "standing": {
+        "axis": -1
+       },
+       "veil": 1,
+       "xp": 4,
+       "flags": [
+        "seat_denied"
+       ]
+      },
+      "echo": "You decide that no one sits tonight. It feels clean. The twelve go on carrying the gap."
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "mad": 4,
+       "xp": 4,
+       "flags": [
+        "seat_must_fill"
+       ]
+      },
+      "echo": "You decide the chair must be filled. A race is simpler than a question. Somewhere under that, you have entered it."
+     },
+     {
+      "fx": {
+       "xp": 3,
+       "stab": -2,
+       "flags": [
+        "seat_question_carried"
+       ]
+      },
+      "echo": "You fold the question up and take it with you unanswered. It is honest. It is also exactly what the Healer hoped you would bring."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m33": {
+  "meets": [],
+  "journal": "Gin's handwriting leans a little further every day since the 14th, and the Healer is keeping a margin of him alive as bait.",
+  "beats": [
+   {
+    "img": "char_uedera-gin",
+    "choices": [
+     {
+      "fx": {
+       "rel": {
+        "gin": 6
+       },
+       "veil": 2,
+       "xp": 3,
+       "flags": [
+        "margin_first"
+       ]
+      },
+      "echo": "You decide the night is for him. Your chest unclenches a little. You are walking where the bait was set."
+     },
+     {
+      "fx": {
+       "veil": -3,
+       "rel": {
+        "gin": -3
+       },
+       "decency": -1,
+       "xp": 4,
+       "standing": {
+        "axis": 1
+       },
+       "flags": [
+        "wall_first"
+       ]
+      },
+      "echo": "You decide to beat the wall and the chair first and hope he comes free with them. It is a cold kind of love. You feel it settle in your shoulders."
+     },
+     {
+      "fx": {
+       "decency": 1,
+       "stab": -4,
+       "xp": 3,
+       "flags": [
+        "clocks_unranked"
+       ]
+      },
+      "echo": "You refuse to rank him against the others. It feels like loyalty. It also leaves the order to the Healer."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "res_apartmentlivingroom",
+    "choices": [
+     {
+      "fx": {
+       "stab": 3,
+       "xp": 4,
+       "flags": [
+        "clock_decided_early"
+       ]
+      },
+      "echo": "You name your clock to yourself and stand up. The drums start across the ward. You will have to see if the plan survives his face."
+     },
+     {
+      "fx": {
+       "xp": 3,
+       "mad": 2,
+       "flags": [
+        "read_hour_live"
+       ]
+      },
+      "echo": "You keep your hand open for the river. You trust yourself to feel the hour there. The Healer has a month of arguments ready for an open hand."
+     },
+     {
+      "fx": {
+       "stab": -6,
+       "mad": 5,
+       "veil": 2,
+       "decency": 1,
+       "xp": 4,
+       "flags": [
+        "refuse_foreclosure"
+       ]
+      },
+      "echo": "You decide to hold all three open past the hour. Your whole body braces at the thought. Both your hands are already full."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m34": {
+  "meets": [],
+  "journal": "In the genkan I chose which clock to walk toward, knowing that walking toward one lets the others close.",
+  "beats": [
+   {
+    "img": "res_apartment",
+    "choices": [
+     {
+      "fx": {
+       "veil": -4,
+       "standing": {
+        "axis": 1
+       },
+       "rel": {
+        "gin": -4
+       },
+       "decency": 1,
+       "xp": 4,
+       "flags": [
+        "clock_domain"
+       ]
+      },
+      "echo": "You go out meaning to save the wall first. The plan feels clean and true. The softest door closing behind you is the one with Gin behind it.",
+      "clock": "domain"
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 8
+       },
+       "veil": 3,
+       "stab": -3,
+       "xp": 4,
+       "flags": [
+        "clock_window"
+       ]
+      },
+      "echo": "You go out meaning to reach him before his margin runs out. You know it is bait. You go anyway.",
+      "clock": "window"
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "mad": 5,
+       "stab": -4,
+       "veil": 2,
+       "xp": 3,
+       "flags": [
+        "clock_succession"
+       ]
+      },
+      "echo": "You go out with nothing chosen. Every step toward the river is a step toward the chair. It is waiting for whoever comes undecided.",
+      "clock": "succession"
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "place_riverside",
+    "choices": [
+     {
+      "fx": {
+       "xp": 4,
+       "rel": {
+        "gin": 4
+       },
+       "stab": -2,
+       "flags": [
+        "clock_window"
+       ]
+      },
+      "echo": "You step onto the embankment and walk straight toward him. The doors you passed close behind you. He turns at the sound of your shoes.",
+      "clock": "window"
+     },
+     {
+      "fx": {
+       "mad": 6,
+       "stab": -5,
+       "veil": 3,
+       "standing": {
+        "axis": 1
+       },
+       "xp": 3,
+       "flags": [
+        "clock_succession"
+       ]
+      },
+      "echo": "You hold the breath and look at all five doors. The Healer uses the breath too. When you move, the chair is closer than your brother.",
+      "clock": "succession"
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m35": {
+  "meets": [
+   "gin",
+   "yushiro"
+  ],
+  "journal": "At the river the Healer showed me its second jaw, the cult's thing across the seam, and Gin surfaced long enough to beg me to let it be him.",
+  "beats": [
+   {
+    "img": "place_riverside",
+    "choices": [
+     {
+      "fx": {
+       "xp": 5,
+       "stab": -5,
+       "rel": {
+        "gin": 3
+       },
+       "standing": {
+        "pact": -1
+       },
+       "flags": [
+        "named_the_healer"
+       ]
+      },
+      "echo": "You make it say which of them is speaking. It says Yushiro, without heat. Under the name you feel your brother flinch, still there."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 8
+       },
+       "stab": -6,
+       "mad": 4,
+       "standing": {
+        "pact": 1
+       },
+       "flags": [
+        "embraced_gin"
+       ]
+      },
+      "echo": "You walk up and put your arms around him. The body knows you, for a second. Then the grip in his arms is not only his."
+     },
+     {
+      "fx": {
+       "xp": 5,
+       "veil": -1,
+       "mad": 4,
+       "rel": {
+        "gin": -3
+       },
+       "clair": 1,
+       "flags": [
+        "read_seam"
+       ]
+      },
+      "echo": "You look past him at the wound. You learn how much night is left, and it is not much. When you look back he has moved closer."
+     }
+    ],
+    "extra": []
+   },
+   {
+    "img": "char_fukai-rinka-kishin",
+    "choices": [
+     {
+      "fx": {
+       "stab": -10,
+       "mad": 6,
+       "standing": {
+        "cult": -2
+       },
+       "veil": -2,
+       "xp": 6,
+       "rel": {
+        "gin": -2
+       },
+       "flags": [
+        "broke_the_lock"
+       ]
+      },
+      "echo": "You go across the seam at the cult's thing. It gives ground, hurt. Behind you the Healer has not moved, and the chair is still asking."
+     },
+     {
+      "fx": {
+       "rel": {
+        "gin": 10
+       },
+       "decency": 2,
+       "stab": -4,
+       "standing": {
+        "pact": 1
+       },
+       "flags": [
+        "answered_gin"
+       ]
+      },
+      "echo": "You tell Gin you heard him. His eyes hold yours for a breath before the evenness closes. The Healer let that breath through."
+     },
+     {
+      "fx": {
+       "decency": 1,
+       "standing": {
+        "axis": 1,
+        "pact": -1
+       },
+       "veil": 2,
+       "xp": 5,
+       "flags": [
+        "refused_binary"
+       ]
+      },
+      "echo": "You say out loud that there is a third door. Neither demon answers. The seam thins while they wait for you to find it."
+     }
+    ],
+    "extra": [
+     {
+      "x": "Tell the Healer you followed Gin's half-sentence to where the old occupant was put.",
+      "hint": "It heard him say it. It does not know how far you got.",
+      "need": "old_occupant_trail",
+      "fx": {
+       "standing": {
+        "pact": -2
+       },
+       "rel": {
+        "gin": 5
+       },
+       "mad": 4,
+       "xp": 5,
+       "flags": [
+        "healer_knows_trail"
+       ]
+      },
+      "echo": "For the first time the Healer goes still in a way that is not calm. Gin's hand taps the rail once. The cult's thing turns to look at you."
+     }
+    ]
+   }
+  ]
+ },
+ "m36": {
+  "meets": [
+   "axis",
+   "gin",
+   "yushiro"
+  ],
+  "journal": "The Axis came up between Gin and me and held us both off the chair, and I felt exactly how little time it could do that for.",
+  "beats": [
+   {
+    "img": "finale_two_thirteens",
+    "choices": [
+     {
+      "fx": {
+       "stab": -12,
+       "mad": 10,
+       "veil": 4,
+       "rel": {
+        "gin": -3
+       },
+       "xp": 6,
+       "decency": 1,
+       "flags": [
+        "held_the_stretch"
+       ]
+      },
+      "echo": "You hold on and let it burn. Every second is yours to think in. The thing between you and Gin goes thin as wire."
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": 2
+       },
+       "rel": {
+        "gin": 6
+       },
+       "stab": -6,
+       "mad": 5,
+       "xp": 4,
+       "flags": [
+        "released_axis"
+       ]
+      },
+      "echo": "You lift your weight off and let it hold only him. He stays suspended and safe. The chair turns to ask only you."
+     },
+     {
+      "fx": {
+       "stab": -15,
+       "mad": 14,
+       "veil": 5,
+       "decency": -2,
+       "standing": {
+        "pact": -2
+       },
+       "xp": 6,
+       "flags": [
+        "tore_seam"
+       ]
+      },
+      "echo": "You aim the breaking strain at the wound. The seam rips wider and the river goes white. The Healer says your name very softly."
+     }
+    ],
+    "extra": []
+   }
+  ]
+ },
+ "m37": {
+  "meets": [
+   "gin",
+   "yushiro",
+   "axis"
+  ],
+  "journal": "On the last minute of Obon the chair asked in my own voice, and I answered it.",
+  "beats": [
+   {
+    "img": "Rei_Gin_Together",
+    "choices": [
+     {
+      "fx": {
+       "standing": {
+        "axis": 3
+       },
+       "veil": -5,
+       "stab": -10,
+       "mad": 8,
+       "rel": {
+        "gin": 5
+       },
+       "decency": 1,
+       "flags": [
+        "final_accept_seat"
+       ]
+      },
+      "echo": "You sit down, and Gin walks free.",
+      "final": "accept_seat"
+     },
+     {
+      "fx": {
+       "standing": {
+        "pact": 3
+       },
+       "veil": 4,
+       "rel": {
+        "gin": -8
+       },
+       "decency": -2,
+       "stab": -6,
+       "flags": [
+        "final_yushiro_wins"
+       ]
+      },
+      "echo": "You let go of the Axis, and the Healer takes the chair in your brother's body.",
+      "final": "yushiro_wins"
+     },
+     {
+      "fx": {
+       "standing": {
+        "axis": -2,
+        "pact": -2
+       },
+       "veil": 3,
+       "rel": {
+        "gin": 8
+       },
+       "stab": -4,
+       "decency": 1,
+       "flags": [
+        "final_refuse_seat"
+       ]
+      },
+      "echo": "You take Gin off the embankment and leave the chair empty.",
+      "final": "refuse_seat"
+     }
+    ],
+    "extra": [
+     {
+      "x": "Put the torn-out occupant back in its chair, and pay what that takes.",
+      "hint": "Gin told you where to look. The price is not yours to set.",
+      "need": "fire_cost",
+      "final": "sacrifice",
+      "fx": {
+       "stab": -15,
+       "mad": 12,
+       "veil": -5,
+       "rel": {
+        "gin": 6
+       },
+       "decency": 2,
+       "flags": [
+        "final_sacrifice"
+       ]
+      },
+      "echo": "You open the lock the registered world became, and it takes its price from you."
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,709 @@
+{
+ "main": [
+  {
+   "id": "m01",
+   "src": [
+    "main",
+    0,
+    "chapters",
+    1
+   ],
+   "title": "Chapter Two — The Archive",
+   "book": "The Vanishing"
+  },
+  {
+   "id": "m02",
+   "src": [
+    "main",
+    0,
+    "chapters",
+    2
+   ],
+   "title": "Chapter Three — The Last Week",
+   "book": "The Vanishing"
+  },
+  {
+   "id": "m03",
+   "src": [
+    "main",
+    0,
+    "chapters",
+    3
+   ],
+   "title": "Interlude — The Door That Locks Itself",
+   "book": "The Vanishing"
+  },
+  {
+   "id": "m04",
+   "src": [
+    "main",
+    0,
+    "chapters",
+    4
+   ],
+   "title": "Interlude — The Briefing They Kept Quiet",
+   "book": "The Vanishing"
+  },
+  {
+   "id": "m05",
+   "src": [
+    "main",
+    0,
+    "chapters",
+    5
+   ],
+   "title": "Interlude — The Form That Files Itself",
+   "book": "The Vanishing"
+  },
+  {
+   "id": "m06",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    0
+   ],
+   "title": "Chapter Four — The Lucid Window",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m07",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    1
+   ],
+   "title": "Chapter Eleven — The Entries After the 14th",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m08",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    2
+   ],
+   "title": "Chapter Twelve — The Texts",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m09",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    3
+   ],
+   "title": "Chapter Twelve, continued — Where the Love Bleeds Through",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m10",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    4
+   ],
+   "title": "Chapter Thirteen — Kurosawa Reads the Body",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m11",
+   "src": [
+    "main",
+    1,
+    "chapters",
+    5
+   ],
+   "title": "Chapter Thirteen, continued — The Word You Did Not Have",
+   "book": "The Handwriting"
+  },
+  {
+   "id": "m12",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    0
+   ],
+   "title": "Chapter Five — The Ledger of Favours",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m13",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    1
+   ],
+   "title": "Chapter Six — The Inverted God",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m14",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    2
+   ],
+   "title": "Chapter Seven — The Two-Demon Trap",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m15",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    3
+   ],
+   "title": "Chapter Fourteen — The Ledger Grows",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m16",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    4
+   ],
+   "title": "Chapter Fourteen, continued — The Knot That Pulls Back",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m17",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    5
+   ],
+   "title": "Chapter Fourteen, continued — The Thirty-Fifth Name",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m18",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    6
+   ],
+   "title": "Chapter Fifteen — The Far-Shore Circle",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m19",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    7
+   ],
+   "title": "Chapter Fifteen, continued — The Tea That Costs You Something",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m20",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    8
+   ],
+   "title": "Chapter Fifteen, concluded — The Battery of Grief",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m21",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    9
+   ],
+   "title": "Chapter Sixteen — The Counter-Demon Surfaces",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m22",
+   "src": [
+    "main",
+    2,
+    "chapters",
+    10
+   ],
+   "title": "Chapter Sixteen, continued — The Hunt Through Each Other",
+   "book": "The Recruited"
+  },
+  {
+   "id": "m23",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    0
+   ],
+   "title": "Chapter Eight — The Thinning Wall",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m24",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    1
+   ],
+   "title": "Chapter Nine — The Axis",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m25",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    2
+   ],
+   "title": "Chapter Ten — The Offer of Domain XIII",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m26",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    3
+   ],
+   "title": "Chapter Seventeen — Beyond the Veil",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m27",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    4
+   ],
+   "title": "Chapter Seventeen, continued — The Shove",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m28",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    5
+   ],
+   "title": "Chapter Seventeen, concluded — What You Carried Back",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m29",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    6
+   ],
+   "title": "Chapter Eighteen — The Domain Registry",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m30",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    7
+   ],
+   "title": "Chapter Eighteen, continued — The Twelve Who Hold",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m31",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    8
+   ],
+   "title": "Chapter Eighteen, concluded — Why the Wall Leans North",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m32",
+   "src": [
+    "main",
+    4,
+    "chapters",
+    1
+   ],
+   "title": "Reading the Trajectory — The Three Clocks",
+   "book": "The Endings"
+  },
+  {
+   "id": "m33",
+   "src": [
+    "main",
+    4,
+    "chapters",
+    2
+   ],
+   "title": "Reading the Trajectory, continued — Which Clock Runs Fastest",
+   "book": "The Endings"
+  },
+  {
+   "id": "m34",
+   "src": [
+    "main",
+    4,
+    "chapters",
+    3
+   ],
+   "title": "Reading the Trajectory, concluded — The Foreclosure",
+   "book": "The Endings"
+  },
+  {
+   "id": "m35",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    9
+   ],
+   "title": "Chapter Nineteen — The Two-Demon Trap Closes",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m36",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    10
+   ],
+   "title": "Chapter Nineteen, continued — The Axis Overstretched",
+   "book": "The Vacant Seat"
+  },
+  {
+   "id": "m37",
+   "src": [
+    "main",
+    3,
+    "chapters",
+    11
+   ],
+   "title": "Chapter Nineteen, concluded — The Choice That Forecloses the Others",
+   "book": "The Vacant Seat"
+  }
+ ],
+ "roads": {
+  "f_tower": {
+   "src": [
+    "roads",
+    "itsuki"
+   ],
+   "title": "Itsuki's Road — the Kuroda",
+   "ch1path": "buddy"
+  },
+  "f_cvd": {
+   "src": [
+    "roads",
+    "cvd"
+   ],
+   "title": "The Directorate",
+   "ch1path": "cvd"
+  },
+  "f_grid": {
+   "src": [
+    "roads",
+    "grid"
+   ],
+   "title": "The Grid",
+   "ch1path": "grid"
+  },
+  "f_axis": {
+   "src": [
+    "roads",
+    "power"
+   ],
+   "title": "The Forbidden Reach",
+   "ch1path": "power"
+  },
+  "f_street": {
+   "src": [
+    "roads",
+    "look"
+   ],
+   "title": "The Long Walk",
+   "ch1path": "look"
+  }
+ },
+ "side": [
+  {
+   "id": "s_yua",
+   "src": [
+    "sideMissions",
+    0
+   ],
+   "title": "Yua's Debt",
+   "giver": "Yua"
+  },
+  {
+   "id": "s_mori",
+   "src": [
+    "sideMissions",
+    1
+   ],
+   "title": "The Thing in the Dorm",
+   "giver": "Mori Haruto"
+  },
+  {
+   "id": "s_tanizaki",
+   "src": [
+    "sideMissions",
+    2
+   ],
+   "title": "Tanizaki's Drowned Client",
+   "giver": "Tanizaki"
+  },
+  {
+   "id": "s_broker",
+   "src": [
+    "sideMissions",
+    3
+   ],
+   "title": "The Broker's Vacant Mediums",
+   "giver": "Suzuran-dō"
+  },
+  {
+   "id": "s_shrine",
+   "src": [
+    "sideMissions",
+    4
+   ],
+   "title": "The Shrine That Stopped Answering",
+   "giver": "Miyamoto Kazuo"
+  },
+  {
+   "id": "s_kaneda",
+   "src": [
+    "sideMissions",
+    5
+   ],
+   "title": "Kaneda's Last Bottle",
+   "giver": "Kaneda Tōru (the honest table)"
+  },
+  {
+   "id": "s_bookseller",
+   "src": [
+    "sideMissions",
+    6
+   ],
+   "title": "The Bookseller's Locked Shelf",
+   "giver": "Sōma the bookseller, Jūjō"
+  },
+  {
+   "id": "s_courier",
+   "src": [
+    "sideMissions",
+    7
+   ],
+   "title": "The Grid Courier Gone Dark",
+   "giver": "'Switch' (Grid quartermaster)"
+  },
+  {
+   "id": "s_watanabe",
+   "src": [
+    "sideMissions",
+    8
+   ],
+   "title": "The Weakening Holder",
+   "giver": "Watanabe Jun (Despair VI)"
+  },
+  {
+   "id": "s_mori_takao",
+   "src": [
+    "sideMissions",
+    9
+   ],
+   "title": "The Rage That Won't Cool",
+   "giver": "Mori Takao (Rage II)"
+  },
+  {
+   "id": "s_nakashima",
+   "src": [
+    "sideMissions",
+    10
+   ],
+   "title": "The Fear on the Stairwell",
+   "giver": "Nakashima Yuna (Fear IV)"
+  },
+  {
+   "id": "s_inoue_s",
+   "src": [
+    "sideMissions",
+    11
+   ],
+   "title": "The Hunger With No Address",
+   "giver": "Inoue Satoru (Hunger IX)"
+  },
+  {
+   "id": "s_park",
+   "src": [
+    "sideMissions",
+    12
+   ],
+   "title": "The Longing at Shin-Ōkubo",
+   "giver": "Park Junho (Longing XI)"
+  },
+  {
+   "id": "s_auditor",
+   "src": [
+    "sideMissions",
+    13
+   ],
+   "title": "The Auditor's Anomaly",
+   "giver": "Okada Shizuka / Sena (the assessment loop)"
+  },
+  {
+   "id": "s_kuroki",
+   "src": [
+    "sideMissions",
+    14
+   ],
+   "title": "Kuroki's Favour",
+   "giver": "Kuroki Tatsuo (organised crime)"
+  }
+ ],
+ "romance": [
+  {
+   "id": "r_itsuki",
+   "person": "itsuki",
+   "src": [
+    "romances",
+    0
+   ],
+   "who": "Itsuki"
+  },
+  {
+   "id": "r_aoi",
+   "person": "aoi",
+   "src": [
+    "romances",
+    1
+   ],
+   "who": "Aoi"
+  },
+  {
+   "id": "r_hagiwara",
+   "person": "hagiwara",
+   "src": [
+    "romances",
+    2
+   ],
+   "who": "Hagiwara Mizuki"
+  },
+  {
+   "id": "r_noa",
+   "person": "noa",
+   "src": [
+    "romances",
+    3
+   ],
+   "who": "Katagiri Noa"
+  },
+  {
+   "id": "r_tendo",
+   "person": "tendo",
+   "src": [
+    "romances",
+    4
+   ],
+   "who": "Tendo Akira"
+  },
+  {
+   "id": "r_okada",
+   "person": "okada",
+   "src": [
+    "romances",
+    5
+   ],
+   "who": "Okada Shizuka"
+  },
+  {
+   "id": "r_shimizu",
+   "person": "shimizu",
+   "src": [
+    "romances",
+    6
+   ],
+   "who": "Shimizu Ren"
+  },
+  {
+   "id": "r_ryusei",
+   "person": "ryusei",
+   "src": [
+    "romances",
+    7
+   ],
+   "who": "Kato Ryusei"
+  },
+  {
+   "id": "r_moriya",
+   "person": "moriya",
+   "src": [
+    "romances",
+    8
+   ],
+   "who": "Moriya Tatsuki"
+  },
+  {
+   "id": "r_usami",
+   "person": "usami",
+   "src": [
+    "romances",
+    9
+   ],
+   "who": "Usami & Ren (the Pair)"
+  },
+  {
+   "id": "r_haruki",
+   "person": "haruki",
+   "src": [
+    "romances",
+    10
+   ],
+   "who": "Tsukishiro Haruki"
+  },
+  {
+   "id": "r_hana",
+   "person": "hana",
+   "src": [
+    "romances",
+    11
+   ],
+   "who": "Choi Hana"
+  },
+  {
+   "id": "r_kurosawa",
+   "person": "kurosawa",
+   "src": [
+    "romances",
+    12
+   ],
+   "who": "Kurosawa Shou"
+  }
+ ]
+}
