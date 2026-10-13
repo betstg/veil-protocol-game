@@ -456,7 +456,7 @@
    "tanizaki": {
     "value": 67,
     "tier": 2,
-    "note": "Thirty years. The contact who shaped his field practice more than any other.",
+    "note": "Since Gin was a boy. The contact who shaped his field practice more than any other.",
     "source": "authored"
    },
    "okada_shizuka": {
@@ -1120,7 +1120,7 @@
    "start": 0,
    "start_tier": 0,
    "ladder": {
-    "3": "The twenty-two-year-old entry. First correct identification of the demon’s register as Ambition, and the complete case history of this entity’s presence in the district going back further than any institutional record. The intelligence that changes the exorcism approach.",
+    "3": "The twenty-two-year-old entry. First correct identification of the demon’s register as Duty, and the complete case history of this entity’s presence in the district going back further than any institutional record. The intelligence that changes the exorcism approach.",
     "2": "Archive access beyond the standard exchange. He shares the working files.",
     "1": "The exchange has been made. The archive is open for this case.",
     "0": "Exchange model in place. Bring something worth knowing.",
@@ -1437,7 +1437,7 @@
    "start": 0,
    "start_tier": 0,
    "ladder": {
-    "3": "Forty years of Kita history. The ward methodology. Gin’s field profile from a practitioner who knew him for thirty years... and what Tanizaki noticed in the district that no institutional archive contains.",
+    "3": "Forty years of Kita history. The ward methodology. Gin’s field profile from a practitioner who knew him since he was a boy... and what Tanizaki noticed in the district that no institutional archive contains.",
     "2": "Provides safe-house access and Grid introductions without reservation.",
     "1": "Has passed the assessment. The tea means something now.",
     "0": "Assessing. He decides when.",
@@ -1456,7 +1456,7 @@
    "gin": {
     "value": 67,
     "tier": 2,
-    "note": "Thirty years. The relationship that shaped Gin’s field practice more than any other single contact.",
+    "note": "Since Gin was a boy. The relationship that shaped Gin’s field practice more than any other single contact.",
     "source": "authored"
    },
    "choi_hana": {

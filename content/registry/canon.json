@@ -37,7 +37,7 @@
   {
    "id": "tower",
    "name": "The Tower Families",
-   "aim": "Help one of the five families command the CVD with resources and put mediums into proper training under that family's flag.",
+   "aim": "Help one of the seven families command the CVD with resources and put mediums into proper training under that family's flag.",
    "faction_toolkit": "content/factions/tower.json",
    "outcomes": {
     "noble_success": "A patronage that genuinely trains and shelters mediums; old money spent well; Rei gains reach without a leash.",
@@ -82,7 +82,7 @@
    "register": "Duty (XIII)",
    "host": "Gin",
    "goal": "Discharge an interrupted duty; willing to drop the veil and merge living and dead to do it. Hunting the Inverted-God aspirant.",
-   "not": "Does not want power or the Axis."
+   "not": "Does not want power over the living, or the Axis. Wants the empty Duty seat on the demon side, and Kishin dead."
   },
   "inverted_god_aspirant": {
    "role": "A higher demon running a human cult (the Far-Shore Circle / Higan-kai lineage) in the living world, feeding to become the Inverted God: the dark mirror of the Axis.",

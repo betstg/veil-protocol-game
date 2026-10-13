@@ -75,7 +75,7 @@ These thread through every road. They are the through-line the Warden returns to
 - **Tragedy.** The system grinds him down or scapegoats him; the bad ones he chased were protected from above all along.
 
 ### Road C — The Tower Families
-**Aim.** Help one of the five families command the CVD and train mediums under that family's flag.
+**Aim.** Help one of the seven families command the CVD and train mediums under that family's flag.
 
 **How it opens.** Through **Itsuki** to the Kuroda (the teleport lineage); Sei's grievance gates the family archive; Sena (Fujiwara-Kage Auditor) assesses Rei as a risk category.
 
