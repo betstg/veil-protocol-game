@@ -6,23 +6,26 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
+   "p": "Akabane was two stops north of Ōji on the Keihin-Tōhoku line. Rei stood by the door all the way, because the seats were full of people with luggage. At Akabane the platform was crowded with families changing trains for the long lines north, toward Saitama and beyond, carrying boxes of sweets in shop paper to give to relatives. Outside the station, music played from speakers in a covered shopping arcade, and the smell of frying oil came out of the small bars that were already open at midday. Rei turned away from all of it into a quiet side street, where the clinic was."
+  },
+  {
    "img": "char_hayashi-fumiko.png",
    "cap": "The doctor behind the blue curtain at the Akabane clinic"
   },
   {
-   "p": "The woman behind the blue curtain held the discharge form up to the window, so that the light came through the paper and Gin's signature floated on it like something drowned."
+   "p": "The woman behind the blue curtain held the discharge form up to the window. The light came through the paper, and Gin's signature floated on it like something under water."
   },
   {
    "p": "“Look,” she said. “There.”"
   },
   {
-   "p": "Rei looked. The clinic was two rooms over a dry cleaner's in Akabane, a blue cotton curtain across the door of the back one, a smell of antiseptic and incense. The woman was small and sharp and did not give her name. She had been patching up people the hospitals would have reported for longer than Rei had been alive, and in all that time, she said, Gin had signed for a great many of them."
+   "p": "Rei looked. The clinic was two rooms over a dry cleaner's, with a blue cotton curtain across the door of the back room and a smell of antiseptic and incense. The woman was small and sharp and did not give her name. She had been patching up people the hospitals would have reported for longer than Rei had been alive. In all that time, she said, Gin had signed for a great many of them."
   },
   {
    "p": "“I know his hand better than my sister's,” she said. “This is the Friday. The drowning out by the Arakawa. He closed it in a day. He never closes anything in a day.” She tilted the form. “See the G?”"
   },
   {
-   "p": "Gin's G had always leaned left, as though it were trying to take up less room than it was given. This one stood up straight."
+   "p": "Gin's G had always leaned left, as if it were trying to take up less room than it was given. This one stood up straight."
   },
   {
    "p": "“A little,” Rei said."
@@ -31,13 +34,16 @@
    "p": "“A little,” she agreed. She put the form down very gently, the way she might lay down a hand that had stopped moving. “That's how it starts.”"
   },
   {
-   "p": "Piece by piece the nodes gave him a week. It was Gin's last ordinary week, rebuilt out of the things he had done that were not ordinary."
+   "p": "Piece by piece, Gin's contacts gave him a week. It was Gin's last ordinary week, rebuilt out of the things he had done that were not ordinary."
   },
   {
-   "p": "On the Thursday he had skipped a Division briefing, the first he had missed in nine years. A man like Gin did not skip a thing he had done nine hundred times unless what he was doing instead was larger. On the Friday he had closed the drowning case too fast and too clean. And on the Saturday he had gone to an address that was in no file, no registry, no map the Division kept. His own archive named it only once, in a line by itself. <em>The low place, where the water remembers.</em>"
+   "p": "On the Thursday he had skipped a Division briefing, the first he had missed in nine years. A man like Gin did not skip a thing he had done nine hundred times unless what he was doing instead was bigger. On the Friday he had closed the drowning case too fast and too clean. And on the Saturday he had gone to an address that was in no file, no register, no map the Division kept. His own archive named it only once, in a line by itself. <em>The low place, where the water remembers.</em>"
   },
   {
-   "p": "After the Saturday, the entries in the archive stopped being entries and became arguments. Gin arguing with himself on paper, the lines tightening as they went, about whether a debt that had never been his to pay might still be the only honest thing left to do."
+   "p": "After the Saturday, the entries in the archive stopped being entries and became arguments. Gin was arguing with himself on paper, and the lines grew tighter as they went. The argument was about a debt. It had never been his debt to pay. And yet he kept asking if paying it might be the only honest thing left to do."
+  },
+  {
+   "p": "Rei rode home through the hottest part of the afternoon. The sky over Kita was white, with no colour in it at all. On the train a boy of about ten pressed his face to the glass and asked his mother if Grandpa would really come home this week. She said yes, if they lit the fire at the door properly. The boy nodded, very serious, as if he had been given a job. From Ōji station he climbed the hill past the dark green trees of Asukayama, and the cicadas were so loud there that he could feel the sound on his skin."
   },
   {
    "break": "Chapter Three. The Veil Itself"
@@ -61,14 +67,20 @@
    }
   },
   {
+   "p": "Rei read the page slowly. The other side was not far away, it said. It was right here, on the other side of a thin skin. And a person with power, when that person grew tired or hurt, became a thin place in that skin. A door."
+  },
+  {
    "img": "ch20_layered.png",
    "cap": "Tokyo, an old city lived in for centuries"
   },
   {
-   "p": "Old cities were thin cities, the chapter said. Tokyo had been lived in for centuries, and the weight of all its ended lives pressed against the membrane from the other side. A practitioner in Tokyo at low strength did not need to reach for the other side. It reached for them. And the morning of March 2011 had thinned it further. <em>The wave took close to twenty thousand,</em> Gin had written. <em>Four years on it is thinner than when I started, not thicker.</em>"
+   "p": "Old cities were thin cities, the chapter said. Tokyo had been lived in for centuries, and the weight of all its ended lives pressed against the membrane from the other side. A practitioner in Tokyo with only a little power did not need to reach for the other side. It reached for them."
   },
   {
-   "p": "Then came a diagram, drawn in pencil and inked over with care. A line across the top of the page for the living world. Under it, the membrane. Under that, three bands, each one darker than the last."
+   "p": "Then Gin wrote about March 2011. Everyone in Japan remembered that month. On the eleventh of March a huge earthquake struck under the sea off the north-east coast, and the wave that followed it came over the towns on the shore. That morning, Gin wrote, had thinned the veil further. <em>The wave took close to twenty thousand,</em> he had written. <em>Four years on it is thinner than when I started, not thicker.</em>"
+  },
+  {
+   "p": "Then came a diagram, drawn in pencil and carefully inked over. A line across the top of the page for the living world. Under it, the membrane. Under that, three bands, each one darker than the last."
   },
   {
    "doc": {
@@ -93,31 +105,34 @@
    }
   },
   {
-   "p": "Rei sat with the diagram on his knees for a long time. The low place, where the water remembers. He did not know which band it belonged to. But he understood now that the other side had a top and a bottom, and that the things at the bottom had politics, and that his brother had gone down there on purpose twice and written about it in the same small print he used for shopping lists."
+   "p": "Rei sat with the diagram on his knees for a long time. He went over it in his head the way he would explain it to a friend. Just under the skin of the world was the Threshold, crowded and noisy, full of the newly dead who did not yet know where to go. Below that was the Deep, where old things lived that had their own wishes, their own friends and enemies, their own kingdoms. And at the very bottom was the Font, where everything came from and everything went back to, and nothing came out again."
   },
   {
-   "p": "He began, slowly and against his will, to understand the shape of it. Understanding was worse than not understanding, because it closed off the comfortable lie that his brother had simply been taken. Gin had not been taken. He had been <em>persuaded</em>, and he was being persuaded still. The cruelty of the thing wearing him was that it had never once asked him to want something selfish. It had asked him to do what was right."
+   "p": "The low place, where the water remembers. He did not know which band it belonged to. But he understood now that the other side had a top and a bottom, and that the things at the bottom had politics. And his brother had gone down there on purpose twice, and written about it in the same small print he used for shopping lists."
   },
   {
-   "p": "It had found the vacant place in the order of the world, the place where an old obligation had gone unmet. Then it had framed every step toward catastrophe as a duty already owed. In the end the line between what Gin wanted and what it wanted stopped being a line and became a rhyme."
+   "p": "Slowly, and against his will, Rei began to understand what had happened. Understanding was worse than not understanding. It closed off the comfortable lie that his brother had simply been taken. Gin had not been taken. He had been <em>persuaded</em>, and he was being persuaded still. The cruel part was this. The thing inside him had never once asked him to want something selfish. It had asked him to do what was right."
+  },
+  {
+   "p": "It had found an empty place in the order of the world, a place where an old duty had been left undone. Then it had made every step toward disaster look like a duty Gin already owed. In the end Gin could no longer tell which wishes were his own and which were its. They sounded the same."
   },
   {
    "p": "<em>You are not a target. You are a door.</em> Rei read the sentence again in Gin's print and understood that Gin had written it about other people. It had never occurred to him, or it had occurred to him and he had not written that part down, that a door can be talked into opening from the inside."
   },
   {
-   "p": "He was still in there. Rei held on to that. Gin was not a cage to be broken open. He was not a man replaced by a monster wearing his coat. He was a person being slowly out-argued by something that sounded exactly like his own conscience. It did not shout. It was simply there every hour, patient as a tide."
+   "p": "He was still in there. Rei held on to that. Gin was not a cage to be broken open. He was not a man replaced by a monster wearing his coat. He was a person being slowly out-argued by something that sounded exactly like his own conscience. It did not shout. It was simply there every hour, patient as the tide."
   },
   {
    "p": "Rei went back to the page about doors to copy the line into his phone. That was when he saw the tick."
   },
   {
-   "p": "It was in the margin beside <em>A weakened practitioner is a local thinning.</em> A small neat check mark in black ink. Gin did not tick things. Gin underlined, or wrote a word, or drew his little pencil mark when something mattered and he would not say why. This was none of those. It was upright and even and perfectly made, the tick of someone marking a sentence as correct."
+   "p": "It was in the margin beside <em>A weakened practitioner is a local thinning.</em> A small neat check mark in black ink. Gin did not tick things. Gin underlined, or wrote a word, or drew his little pencil mark when something mattered and he would not say why. This was none of those. It was upright and even and perfectly made. It was the tick of someone marking a sentence as correct."
   },
   {
    "p": "Rei turned back through the chapter. He found two more. One beside <em>you are not a target, you are a door.</em> One beside the Deep, under <em>they have had time to develop opinions about visitors.</em>"
   },
   {
-   "p": "Each one in the same steady hand. Each one a little more confident than his brother had ever been."
+   "p": "Each one was in the same steady hand. Each one was a little more confident than his brother had ever been."
   }
  ]
 }

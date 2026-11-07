@@ -4,7 +4,10 @@
  "src": "gin",
  "blocks": [
   {
-   "p": "On the Keihin-Tōhoku line home, with the waxed smell of the river still in his clothes, Rei opened the soft cardboard folder. Behind the first pages of Gin's field profile, Tanizaki had tucked four sheets copied out of Gin's archive, from a chapter headed The Masters. Gin had written them the way he wrote everything for the archive, plainly, for someone who would need them later. Tanizaki had added one yellow note of his own, stuck to the first sheet in his small square hand."
+   "p": "Rei walked back to Akabane through the wet morning and caught the Keihin-Tōhoku line south toward home. It was early, and the train was nearly empty. An old man sat across from him with a cloth bundle on his knees, tied at the top. Through the cloth Rei could see the shapes of fruit and a small bottle of sake, offerings for a family grave. A cleaner in white gloves moved down the car picking up a newspaper someone had left. The river smell was still in Rei's clothes."
+  },
+  {
+   "p": "He opened the soft cardboard folder on his knees. Behind the first pages of Gin's field profile, Tanizaki had tucked four sheets copied from Gin's archive. They came from a chapter headed The Masters. Gin had written them the way he wrote everything for the archive, plainly, for someone who would need them later. Tanizaki had added one yellow note of his own, stuck to the first sheet in his small square hand."
   },
   {
    "doc": {
@@ -19,6 +22,9 @@
      "Working rules. Do not deploy, consult. The exchange is real. Their cost is visible. Respect what they will not tell you. (G.U.)"
     ]
    }
+  },
+  {
+   "p": "The next three sheets were portraits of the three Masters Gin knew best. Each one gave the person's rank and gift, what they would do and what they would not, and what their power had cost them."
   },
   {
    "img": "char_yamamoto-koji.png",
@@ -88,6 +94,9 @@
    "p": "Under the Mediator's page was one more sheet. It was a photocopy of a CVD reference card with a red stamp in the corner, and Gin had written along its margin in pencil."
   },
   {
+   "p": "The card was about something Rei had never heard of. The CVD had a squad made of the dead. These were practitioners who had agreed, before they died, that their bodies could go on working afterwards. When they died, their souls went on to wherever the dead go. Then a demon was let into each empty body under a written contract, and the body kept working for the CVD. The card called it the Vessel Program. The squad's name was Kairo."
+  },
+  {
    "img": "ch15_squad.png",
    "cap": "A CVD squad in the field"
   },
@@ -120,7 +129,7 @@
    }
   },
   {
-   "p": "Rei closed the folder at Ōji and sat with it on his knees until the doors began to close. Three people his brother had trusted, and every one of them had paid. A demon in Kōenji that kept a dead man's mug. And on the yellow note, a twenty-two-year-old page in a flat full of books that might name the thing in Gin more truly than the whole CVD ever had. He got off the train one stop late and walked back."
+   "p": "Rei read the last line twice. Then the train pulled into Ōji, the short departure melody began to play on the platform, and he looked up. He closed the folder and sat with it on his knees until the doors began to close. Three people his brother had trusted, and every one of them had paid. A demon in Kōenji that kept a dead man's mug. And on the yellow note, a page twenty-two years old in a flat full of books, which might name the thing in Gin more truly than the whole CVD ever had. He got off the train one stop late and walked back under the cicadas."
   }
  ]
 }

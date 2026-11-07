@@ -6,6 +6,15 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
+   "p": "Rei left the flat a little after six, as the city was remembering itself. He carried his bag in front of him, against his chest, with both arms around it."
+  },
+  {
+   "p": "The streets were grey and soft at that hour. The heat had not come up yet, but it was waiting. A delivery truck was unloading crates of milk outside the konbini, and a man in a white apron was hosing down the pavement in front of a closed noodle shop, the water steaming a little where it hit. Somewhere up the hill the Toden tram went by, the old single-car streetcar that still runs through this part of the ward, its bell ringing twice at a crossing. The first cicadas were starting up in Asukayama park, one, then three, then the whole hill. An old woman in a sun hat walked her small white dog past the station, and the dog stopped to sniff at an Obon offering of rice and fruit left on a low wall. She pulled it gently away and bowed her head to the wall, quickly, as if apologising to someone."
+  },
+  {
+   "p": "Rei went in at the grey block by the east exit and showed the borrowed card on its lanyard. The gate thought about it and let him through. He did not go up toward the intake hall. He went down."
+  },
+  {
    "p": "He went down past the floors that had names, past the floors that had only numbers, to the floor the directory listed as <em>archival storage, climate-controlled</em>. Everyone who had been there called it the cold room."
   },
   {
@@ -13,20 +22,20 @@
    "cap": "Kurosawa Shou, who reads what a possession leaves behind"
   },
   {
-   "p": "Kurosawa was waiting the way a man waits who has spent two years deciding whether he is a coward. He was already on his feet when the lift opened, already reading Rei's face for how much he had guessed."
+   "p": "Kurosawa Shou was waiting for him. He waited the way a man waits who has spent two years deciding whether he is a coward. He was already on his feet when the lift opened, already reading Rei's face to see how much he had guessed."
   },
   {
-   "p": "Rei had brought the things that still held Gin. The journal in its evidence sleeve. The coat Gin had left over Rei's chair in May and never come back for. And the cup Gin had drunk from on the last morning he was Rei's brother. Rei had not washed it, and had told no one he kept it."
+   "p": "Rei had brought the things that still held Gin. The journal, in a clear plastic evidence sleeve. The coat Gin had left over the chair in May and never come back for. And the cup Gin had drunk from on the last morning he was still Rei's brother. Rei had not washed it. He had told no one he had kept it."
   },
   {
-   "p": "Kurosawa looked at the cup longest. He did not ask why Rei had kept it. He understood keeping."
+   "p": "Kurosawa looked at the cup the longest. He did not ask why Rei had kept it. He understood keeping."
   },
   {
    "img": "ch6_reading.png",
    "cap": "The steel table on sub-level four"
   },
   {
-   "p": "The cold room was not cold for the bodies. There were no bodies here. There were only their residues, the signatures that cling to objects the way smoke clings to wool. Kurosawa explained this while he laid a black cloth on the steel table and weighted its corners. His voice was low and even, pitched under the hum of machines that were not, he said, switched to record."
+   "p": "The cold room was not cold for the sake of bodies. There were no bodies here. There were only what bodies left behind. Kurosawa called them residues. They were the traces of a person that cling to their things, the way smoke clings to a wool jumper. He explained this while he laid a black cloth on the steel table and weighted its corners. His voice was low and even. He kept it pitched under the hum of the machines, which were not, he said, switched to record."
   },
   {
    "p": "\"A possession leaves a wake,\" he said. \"On the host. On what the host loves. On the rooms they pass through slowly. I do not read the demon. No one reads the demon. I read the wake. The shape of the water after the thing has already gone under.\""
@@ -35,7 +44,10 @@
    "break": "The chart on the wall"
   },
   {
-   "p": "He needed a few minutes to settle before he would touch anything, and he did not want to be watched while he settled. Rei turned away and found himself facing the one decoration in the room. It was an old laminated wall chart, yellowed at the corners, the kind the Directorate printed for trainees and then forgot to replace. Someone had stuck it up beside the cabinets where the residues of the dead were kept, as if to remind the residues where they had gone."
+   "p": "He needed a few minutes to settle before he would touch anything, and he did not want to be watched while he did it. Rei turned away and found himself facing the one decoration in the room. It was an old laminated wall chart, yellow at the corners, the kind the Directorate printed for trainees and then forgot to replace. Someone had stuck it up beside the cabinets where the residues of the dead were kept. It was as if someone had wanted to remind the residues where their owners had gone."
+  },
+  {
+   "p": "The chart was about death. Rei had grown up knowing, the way every child in Japan knew it, that people did not all go to the same place when they died. There were different roads, and the Division called them paths. This chart named all six."
   },
   {
    "doc": {
@@ -50,6 +62,9 @@
      "Path Six. Font Return. Dissolution into the source. The only true rest."
     ]
    }
+  },
+  {
+   "p": "Under it was a second chart. It listed what decided which road a dying person took."
   },
   {
    "doc": {
@@ -67,25 +82,25 @@
    }
   },
   {
-   "p": "Rei read the fourth factor three times. <em>Possession status at death.</em> If Gin's body died with the thing still in it, the chart did not offer him any of the gentle paths. It offered him the dark ones, weighted."
+   "p": "Rei read the fourth line three times. <em>Possession status at death.</em> If Gin's body died with the thing still inside it, the chart did not offer him any of the gentle roads. It offered him the dark ones, and the dice were loaded."
   },
   {
    "p": "He made himself stop reading. He would read Gin's own pages on the six paths that night. For now he turned back to the table, because Kurosawa had begun."
   },
   {
-   "p": "Kurosawa set the cup in the centre of the cloth and held his bare hands a few centimetres above it. His breathing changed. Rei watched a man go quiet in the particular way Rei's own gift went quiet, and understood he was watching someone do, with discipline and a steel table, what Rei did by drowning."
+   "p": "Kurosawa set the cup in the centre of the cloth and held his bare hands a few centimetres above it. His breathing changed. Rei watched the man go quiet, in the same particular way Rei's own gift went quiet. He understood that he was watching someone do on purpose, with training and a steel table, what Rei did by accident, by drowning in it."
   },
   {
-   "p": "He should not have been here, and they both knew it. The reading Kurosawa had filed on Gin eleven months ago was the reading that got redacted, the three lines and then the black bar. The only words that survived it were <em>double-layer, not consistent with the registered subject, recommend esca</em>. Those words had brought Rei four floors below the daylight, to a man whose career had ended on the day he was honest in writing. If Internal Affairs walked in now, Kurosawa would lose the pension he had left. And Rei would lose the one person in this building who would tell him the truth without first asking what the truth was worth."
+   "p": "Rei should not have been here, and they both knew it. Eleven months ago Kurosawa had filed a reading on Gin. That reading had been redacted. Three lines of it survived, and then a thick black bar. The only words left were <em>double-layer, not consistent with the registered subject, recommend esca</em>. The word had been cut off in the middle. Those surviving words had brought Rei four floors below the daylight, to a man whose career had ended on the day he wrote the truth down. If Internal Affairs walked in now, Kurosawa would lose what was left of his pension. And Rei would lose the one person in this building who would tell him the truth without first asking what the truth was worth."
   },
   {
-   "p": "So Rei stood very still and breathed shallow. He watched Kurosawa's hands over the cup his brother's mouth had touched, and he waited to be told what he already could not un-know."
+   "p": "So Rei stood very still and breathed shallowly. He watched Kurosawa's hands over the cup his brother's mouth had touched. And he waited to be told the thing he already could not un-know."
   },
   {
-   "p": "When Kurosawa finally spoke, it was not with the relief of a man delivering a diagnosis. It was with the unease of a man who has found something his training does not have a drawer for."
+   "p": "When Kurosawa finally spoke, he did not sound like a man relieved to give a diagnosis. He sounded uneasy. He sounded like a man who has found something his training has no drawer for."
   },
   {
-   "p": "\"Every possession I have ever read runs hot,\" he said. His hands were still above the cup and his eyes were somewhere past the wall. \"It rides the host like a fever rides a child. Fast, clumsy, greedy. It burns the body to keep itself lit, and in three weeks, four, the body cannot pay anymore and the thing moves on, or the host dies. That is what possession <strong>is</strong>, on this table, in this building's books. A wasting. A theft that ends in an empty room.\""
+   "p": "\"Every possession I have ever read runs hot,\" he said. His hands were still above the cup, and his eyes were somewhere past the wall. \"It rides the host like a fever rides a child. Fast, clumsy, greedy. It burns the body to keep itself lit, and in three weeks, four, the body cannot pay anymore and the thing moves on, or the host dies. That is what possession <em>is</em>, on this table, in this building's books. A wasting. A theft that ends in an empty room.\""
   },
   {
    "p": "He lowered his hands at last and looked at Rei. Rei could see him choosing the next words, because the true ones frightened him."
@@ -94,37 +109,37 @@
    "p": "\"This is not that. This is the opposite of that.\""
   },
   {
-   "p": "What he had read in the cup, he said, was a second register laid down under the first, as deliberately as a restorer lays a second coat of varnish. It was not consuming Gin. It was <em>preserving</em> him. Regulating him. Keeping his sleep clean and his hands steady and his ledgers current. The signature was cold where a fever is hot, patient where a fever is starving. It had been resident not for the weeks a host can survive but for the better part of a year, because it had no interest in burning the body down."
+   "p": "What he had read in the cup, he said, was a second register laid down under the first. It had been laid as carefully as a restorer lays a second coat of varnish on an old painting. It was not eating Gin. It was <em>preserving</em> him. It was regulating him. It kept his sleep clean and his hands steady and his paperwork up to date. A fever is hot. This was cold. A fever is starving. This was patient. And it had been living in him not for the few weeks a host can survive, but for the better part of a year, because it had no interest in burning the body down."
   },
   {
-   "p": "\"That is the double layer,\" Kurosawa said. \"Two presences in one person. Your brother underneath. The tenant on top. Any Clairsentient can learn to see it, if they climb far enough. At the fifth step of the craft the veil stops being feeling and becomes seeing. You stop sensing that something is there and you start seeing what it is. The register shows by sight. A possession shows as two outlines, one inside the other.\" He glanced at Rei, measuring. \"You are closer to that step than you pretend to be.\""
+   "p": "\"That is the double layer,\" Kurosawa said. \"Two presences in one person. Your brother underneath. The tenant on top. Any Clairsentient can learn to see it, if they climb far enough. At the fifth step of the craft the veil stops being feeling and becomes seeing. You stop sensing that something is there and you start seeing what it is. The register shows by sight. A possession shows as two outlines, one inside the other.\" He glanced at Rei, measuring him. \"You are closer to that step than you pretend to be.\""
   },
   {
-   "p": "\"I have read a great many possessed,\" he went on, very quietly, into the hum. \"I have never read one being taken care of. Whatever is wearing your brother is keeping him in good repair. It does not want him dead. It does not even want him diminished. It wants him <strong>working.</strong>\""
+   "p": "\"I have read a great many possessed,\" he went on, very quietly, into the hum. \"I have never read one being taken care of. Whatever is wearing your brother is keeping him in good repair. It does not want him dead. It does not even want him diminished. It wants him <em>working.</em>\""
   },
   {
-   "p": "Rei felt the floor of himself tip the few degrees he had learned to recognise. Everything reasonable his family had told itself for a year, <em>he's tired, he's coping, he's holding together</em>, was now the exact description of a thing doing its job well."
+   "p": "Rei felt his inner floor tip by the few degrees he had learned to recognise. For a year his brother had seemed tired, but coping, holding together. Rei had told himself that every week. Now every word of it was the exact description of a thing doing its job well."
   },
   {
-   "p": "\"He's still in there,\" Rei said. It was not a question, but he needed it said by someone else."
+   "p": "\"He's still in there,\" Rei said. It was not a question, but he needed to hear someone else say it."
   },
   {
    "p": "\"He is in there.\" Kurosawa did not soften it. \"Alive inside. Aware. Watching. He cannot surface except in flashes. It did not overpower him, you understand. A thing like this does not need to be stronger than the man. It waited until he was emptier than his own floor. It outlasted his margin.\""
   },
   {
-   "p": "Rei thought of the entries after the fourteenth of August going suddenly neat, the handwriting steadying, the man he had grown up beside becoming on paper a better-regulated version of himself than grief should allow. He thought of the smooth voice at 3:16 that arrived too fast and aimed its warmth too well. He had been afraid he would learn his brother was being destroyed. Instead he was learning Gin was being <em>maintained</em>. Somehow that was worse. A thing that destroys can be interrupted. A thing that maintains has all the time in the world."
+   "p": "Rei thought of the journal entries after the fourteenth of August. The handwriting going suddenly neat and steady. The man he had grown up beside becoming, on paper, a calmer and better-run version of himself than grief should allow. He thought of the smooth voice at 3:16 that came too fast and aimed its warmth too well. He had been afraid he would learn that his brother was being destroyed. Instead he was learning that Gin was being <em>maintained</em>. Somehow that was worse. A thing that destroys can be interrupted. A thing that maintains has all the time in the world."
   },
   {
-   "p": "\"Why,\" Rei said, and his voice did not sound like his. \"Why keep him working. Working at what.\""
+   "p": "\"Why,\" Rei said, and his voice did not sound like his own. \"Why keep him working. Working at what.\""
   },
   {
-   "p": "Kurosawa did not answer that. He had filed the symptom once and watched the symptom get a black bar drawn through it. He had learned the difference between what he read and what he was allowed to know."
+   "p": "Kurosawa did not answer that. He had filed the symptom once, and he had watched someone draw a black bar through it. He had learned the difference between what he could read and what he was allowed to know."
   },
   {
    "break": "What the watching was"
   },
   {
-   "p": "But there was something Rei needed answered that was only a symptom, and so he asked it. He told Kurosawa about the journal. The coffee made before Gin remembered making it. The apartment growing smaller. The thing in the building across the street that had watched the window since a Tuesday. And the page where Gin had decided it was the Architect, the veil's own slow correction, coming for a man who had hidden his rank for years."
+   "p": "But Rei had another question, and that one was only about a symptom, so he asked it. He told Kurosawa about the journal. The coffee made before Gin remembered making it. The flat that felt smaller. The thing in the building across the street that had watched the window since a Tuesday. And the page where Gin had decided it was the Architect, the veil's own slow correction, coming for a man who had hidden his rank for years."
   },
   {
    "p": "Kurosawa listened with his eyes closed. Then he put two fingers on the coat, not the cup, and held them there a long time."
@@ -139,7 +154,7 @@
    "p": "\"It was the thing that is now wearing him. Preparing. Thinning the membrane toward him a little at a time, patient, and wearing the exact quality of structural attention he had been taught to expect. He had the framework for one and not the other.\" Kurosawa took his hand back. \"Do not blame him for that. The best practitioners in this building would have made the same mistake. They would have made it faster.\""
   },
   {
-   "p": "He wrapped the cup again himself, slowly, the way a mourner wraps a thing that is going back into a grave. Then he stopped, and unwrapped one corner, and held his palm over it again with a frown, as if he had heard a second voice in a room he thought was empty."
+   "p": "He wrapped the cup again himself, slowly, the way a mourner wraps something that is going back into a grave. Then he stopped. He unwrapped one corner and held his palm over it again, frowning, like a man who has heard a second voice in a room he thought was empty."
   },
   {
    "p": "\"There is something else on this,\" he said. \"Not the tenant. Not your brother. Something loud.\""
@@ -151,13 +166,13 @@
    "p": "\"It's you,\" he said. \"Your signature. All over his cup, his coat, everything from that flat. Not a trace. A flood. You read the whole world all the time and you don't know you're doing it, so you never close the tap. In that apartment you would have been noise in every direction, day and night.\""
   },
   {
-   "p": "Rei could not speak. Kurosawa went on, carefully, as if setting each word on the table where Rei could see it."
+   "p": "Rei could not speak. Kurosawa went on carefully, as if he were setting each word on the table where Rei could see it."
   },
   {
    "p": "\"Your brother was a fine reader. He should have felt this thing coming months before it reached him. He couldn't. Its signal was thin and patient and pointed, and it was buried under yours. That is why he looked at the window and wondered first if it was only you.\""
   },
   {
-   "p": "Rei remembered a page in Gin's book that Gin had rewritten six times, a demon catalogue entry with no name and no class. Gin had headed it <em>Unknown. Possession Specialist.</em> Rei had read it once in the Archive and not understood why it frightened him. He understood now."
+   "p": "Rei remembered a page in Gin's book. Gin had rewritten it six times. It was an entry in a catalogue of demons, with no name and no class. Gin had headed it <em>Unknown. Possession Specialist.</em> Rei had read it once in the Archive and had not understood why it frightened him. He understood now."
   },
   {
    "doc": {
@@ -176,43 +191,46 @@
    "p": "\"I did this,\" Rei said. His voice came out very small. \"It chose him because of me.\""
   },
   {
-   "p": "\"No.\" Kurosawa said it at once and with more force than anything else he had said in that room. \"Listen to me. Your aperture was flooding that apartment. That is true. The demon used it. That is also true. It picked its way in under your noise because it is clever and it had years to plan. But you did not cause what happened to your brother. It used you as cover. Those are not the same sentence. Do not let anyone, least of all the thing in him, tell you they are.\""
+   "p": "\"No.\" Kurosawa said it at once, and with more force than anything else he had said in that room. \"Listen to me. Your aperture was flooding that apartment. That is true. The demon used it. That is also true. It picked its way in under your noise because it is clever and it had years to plan. But you did not cause what happened to your brother. It used you as cover. Those are not the same sentence. Do not let anyone, least of all the thing in him, tell you they are.\""
   },
   {
    "p": "Rei held on to the edge of the steel table until the room stopped moving."
   },
   {
-   "p": "Then Kurosawa told him the last clinical fact, the only one that sounded like a confession. A reading leaves a wake of its own, he said. It is faint and lasts a few days, nothing a demon of this calibre would even register. But the residue he had just lifted off the cup had now passed, however slightly, through him. And a man who reads a thing is a man the thing could, in principle, read back."
+   "p": "Then Kurosawa told him the last clinical fact. It was the only one that sounded like a confession. A reading leaves a wake of its own, he said. It is faint, and it lasts a few days. A demon this strong would not even notice it. But the residue he had just lifted off the cup had now passed, however slightly, through him. And a man who reads a thing is a man the thing could, in principle, read back."
   },
   {
-   "p": "\"I am not important enough to be noticed,\" he said, in the flat voice of someone who had spent two years making himself unimportant on purpose. \"That was the strategy. File it once, get erased, become a clerk in a cold room. The mistake people make is thinking the erasing was done to me. I did most of it myself. It was the only safe place to stand.\""
+   "p": "\"I am not important enough to be noticed,\" he said. His voice was flat, the voice of a man who had spent two years making himself unimportant on purpose. \"That was the strategy. File it once, get erased, become a clerk in a cold room. The mistake people make is thinking the erasing was done to me. I did most of it myself. It was the only safe place to stand.\""
   },
   {
-   "p": "Rei understood, looking at him, that Kurosawa had just told him why no one had warned his family. The why was not malice. It was the ordinary arithmetic of survival inside a building that drew a black bar through the truth and then promoted the people who held the pen."
+   "p": "Looking at him, Rei understood that Kurosawa had just told him why nobody had warned his family. The reason was not cruelty. It was the ordinary arithmetic of staying alive inside a building that drew a black bar through the truth and then promoted the people who held the pen."
   },
   {
-   "p": "Before the lift came, Kurosawa gave him the one operational thread that had survived the cover-up. It was not what Gin was. He had now read that and named it. It was where the recommendation went on the day his escalation was denied. A clerk named Tanaka, two seats up the chain and one floor above, had his name on the routing slip. Tanaka knew the single concrete thing the redaction was built to hide. The floor the reading had been sent to, and the initial that signed for it."
+   "p": "Before the lift came, Kurosawa gave him the one useful thread that had survived the cover-up. It was not about what Gin was. Kurosawa had already read that and named it. It was about where his report went on the day his request to escalate the case was refused. A clerk named Tanaka, two seats up the chain and one floor above, had his name on the routing slip. Tanaka knew the one hard fact the redaction had been made to hide. Which floor the reading had been sent to, and the initial of the person who signed for it."
   },
   {
-   "p": "\"I read the symptom,\" Kurosawa said, already turning back toward the steel table, already putting on his innocence like a coat. \"Tanaka can tell you where the symptom was filed. After that you are on your own, and so am I, and we did not have this conversation.\""
+   "p": "\"I read the symptom,\" Kurosawa said. He was already turning back toward the steel table, already putting his innocence back on like a coat. \"Tanaka can tell you where the symptom was filed. After that you are on your own, and so am I, and we did not have this conversation.\""
   },
   {
-   "p": "The machines hummed. The cold room kept its residues. Rei put the cup back in his bag against his chest, where he had carried it since the morning. He felt how light a thing can be and still be the heaviest thing a person owns."
+   "p": "The machines hummed. The cold room kept its residues. Rei put the cup back in his bag and held the bag against his chest, the way he had carried it since the morning. He felt how light a thing can be, and still be the heaviest thing a person owns."
   },
   {
-   "p": "In the lift going up he held what Kurosawa had given him and what he had taken. A word for the wrongness, finally. A shape to the year. Not a haunting. Not a wasting. A tenancy. Patient, tidy, well-meaning in the way that is most frightening of all. A thing that kept his brother in good repair because a tool in good repair is worth more than a tool used up."
+   "p": "In the lift going up, he held on to what Kurosawa had given him, and to what the cup had taken from him. A word for the wrongness, at last. A shape for the whole year. It was not a haunting. It was not a wasting. It was a tenancy. Patient. Tidy. Well-meaning, in the way that is the most frightening of all. A thing that kept his brother in good repair, because a tool in good repair is worth more than a tool used up."
   },
   {
-   "p": "And under it, quieter, the other thing. <em>You did not cause this.</em> He did not believe it yet. He carried it anyway, the way he carried the cup."
+   "p": "And under that, quieter, there was the other thing. <em>You did not cause this.</em> He did not believe it yet. He carried it anyway, the way he carried the cup."
   },
   {
-   "p": "Four floors of daylight came back to meet him, one button at a time. The higher he rose, the more ordinary the building pretended to be, fluorescent and procedural and full of people filing things. He understood for the first time that the procedure <em>was</em> the camouflage. A thing that wanted a man kept working had chosen the perfect city and the perfect institution to keep him in. The doors opened on a corridor that did not know what was under it. Rei stepped out, carrying the cold room with him."
+   "p": "Four floors of daylight came back to meet him, one button at a time. The higher he rose, the more ordinary the building pretended to be. Fluorescent lights. Forms. People filing things. For the first time he understood that the forms <em>were</em> the disguise. A thing that wanted a man kept working had chosen the perfect city and the perfect institution to keep him in. The doors opened onto a corridor that did not know what was underneath it. Rei stepped out, carrying the cold room with him."
+  },
+  {
+   "p": "Outside, the morning had turned white with heat. The trains came and went beside the station in their bright stripes. The station jingle played, and played again. A group of schoolboys in white shirts ran for a bus, shouting, their sports bags banging against their legs. Rei stood on the steps of the grey block and let the noise of the ordinary city wash over him."
   },
   {
    "p": "He had asked Kurosawa why. Why keep a man working. Working at what. Kurosawa had looked at the cup and not answered."
   },
   {
-   "p": "Rei stood in the bright corridor and decided that tomorrow he would go back down and ask again, and this time he would not leave until he had a word for it."
+   "p": "Rei stood in the bright heat and decided that tomorrow he would go back down and ask again. And this time he would not leave until he had a word for it."
   }
  ]
 }

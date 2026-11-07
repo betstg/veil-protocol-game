@@ -4,10 +4,10 @@
  "src": "s_rage",
  "blocks": [
   {
-   "p": "Higuchi would not write this name down. He said it aloud, once, in the back room of the Crooked Shelf with the door shut and the radio turned up. Then he made Rei repeat it back with a hand laid over the margin, as if the ink might overhear."
+   "p": "Higuchi would not write this name down. He said it aloud only once, in the back room of the Crooked Shelf, with the door shut and the radio turned up. Then he made Rei repeat it back to him, with a hand laid over the margin of the ledger, as if the ink might overhear."
   },
   {
-   "p": "Mori Takao. The second of the Thirteen. He carried Rage. He was forty-eight, the eldest of them, and the one the others deferred to. He had held the seat for twenty years. And for most of those years he had been making himself impossible to find, on purpose."
+   "p": "Mori Takao. The second of the Thirteen. He carried Rage. He was forty-eight, the eldest of them, and the one the others looked to. He had held the seat for twenty years. And for most of those years he had made himself impossible to find, on purpose."
   },
   {
    "p": "\"He's in the CVD system as a retired field operative,\" Higuchi said. \"He is not retired. The others hide because hiding is restful. He hides because a Rage holder you can find is a Rage holder somebody can stand in front of and insult until the wall cracks. Despair you have to coax out. Rage you only have to provoke. So the second seat learned to be nobody, and he is very, very good at it.\""
@@ -19,7 +19,16 @@
    "p": "\"Where people go when they have nowhere left to go.\" Higuchi turned the radio up another notch. \"And ask the old man in the freight-yard blocks, if he'll talk to you. Tomi. He counts what crosses that fence at night. He's seen Mori cross.\""
   },
   {
-   "p": "Rei had already seen a man at a boiler on the long night, and had not trusted it. It took him nine days and three wrong men to be sure. A night porter at a capsule hotel. A retired fireman who fed pigeons. A cook at a soup kitchen in Sanya who looked the part and was only a cook. Old Tomi, at his window in the condemned blocks, said only that the big man with the cropped black hair came through the yard some nights toward the worst corner and always walked back out again, and that he walked like a man carrying a full pan of oil."
+   "break": "Nine days and three wrong men"
+  },
+  {
+   "p": "Rei had already seen a man at a boiler on the long night, and he had not trusted what he saw. It took him nine days and three wrong men to be sure."
+  },
+  {
+   "p": "He searched the places Higuchi meant, the places people end up when they have run out of other places. He rode the trains in the heat of the afternoon and walked the streets at night. The first wrong man was a night porter at a capsule hotel, the kind of cheap hotel where guests sleep in plastic pods stacked two high along a corridor, like drawers. The porter was big and quiet, and he was only a porter. The second was a retired fireman who fed the pigeons in a small park every evening at six. The third was a cook at a soup kitchen in Sanya. Sanya is an old neighbourhood in the east of the city where day labourers once came looking for work, and where many of them stayed on, old and alone, in tiny rented rooms. The cook looked exactly right. He was only a cook."
+  },
+  {
+   "p": "The fourth was not a man Rei was looking for. He was a witness. Old Tomi, at his window in the condemned blocks, told Rei only that the big man with the cropped black hair came through the yard some nights, walked toward the worst corner, and always walked back out again. He said the man walked like someone carrying a full pan of oil."
   },
   {
    "p": "Tomi was the only one of them who was worth the walk."
@@ -29,14 +38,14 @@
    "cap": "The condemned blocks beside the freight yard"
   },
   {
-   "p": "The condemned blocks stood beside the freight yard like teeth left in a jaw. Most of the windows were boarded. The city had given up on them years ago, and the dead had not. Rei felt it from the street. Forty years of bad deaths, layered like old paint, so thick in places that the air seemed to bend. Gin's book said an hour inside was a possession risk for anyone with an open aperture. Rei did not go inside."
+   "p": "The condemned blocks stood beside the freight yard like the last teeth left in a jaw. Long lines of goods wagons sat on the tracks behind a wire fence, and somewhere in the dark a diesel engine idled with a low, steady rumble. Most of the windows in the blocks were boarded up. The city had given up on these buildings years ago. The dead had not. Rei felt them from the street. Forty years of bad deaths had built up there, layer on layer like old paint. In places it was so thick that the air seemed to bend. Gin's book said that one hour inside was a risk of possession for anyone whose aperture was open. Rei's had been opening all month. He did not go inside."
   },
   {
    "img": "char_old-tomi.png",
    "cap": "Old Tomi, the last man living in the blocks"
   },
   {
-   "p": "He did not have to. A single window on the third floor had a light in it, and an old man sitting in it, watching the yard."
+   "p": "He did not need to. A single window on the third floor had a light in it, and an old man sat in it, watching the yard."
   },
   {
    "p": "\"I live where the city gave up,\" the old man called down, before Rei had said a word. \"Things come through here. I watch which ones.\" He pointed a finger at Rei. \"You're not one of the things. You're one of the ones that comes looking. Like the big fellow.\""
@@ -48,41 +57,53 @@
    "p": "\"Carrying a full pan of oil and terrified to spill it.\" Tomi spat out of the window, neatly, away from Rei. \"Some nights when it's bad over the fence, he comes through the yard. Goes right up to the worst corner, where I won't go. Stands there. Then something that was coming through stops coming through, and he walks back out. I've seen him cross a dozen times.\" He squinted. \"Bathhouse man. Smells of coke smoke. You'll want the bath by the old chimney, if you want him at all. Most people wouldn't.\""
   },
   {
-   "p": "In the end Rei came back to where he had started. The boiler room of a public bath in Kita. The wrong ward. The thin ward. A man tending a furnace forty metres from the wound in the world. A public bath at night was exactly where people went when they had nowhere left to go. Rei did not think any of it was an accident."
+   "break": "The bath by the old chimney"
+  },
+  {
+   "p": "So in the end Rei came back to where he had started. It was the boiler room of a public bath in Kita. The wrong ward. The thin ward. A man tending a furnace forty metres from the wound in the world. Rei did not think any of that was an accident. And a public bath at night was exactly where people went when they had nowhere left to go."
+  },
+  {
+   "p": "He walked there after dark, from the station through the narrow back streets. The heat had not broken. Families sat out on their doorsteps on folding stools, fanning themselves. Every few houses, a small lantern hung by the door for Obon, lit to welcome the family dead. A boy on a bicycle went past with a plastic bucket of fireworks hanging from the handlebars. Rei could see the chimney long before he reached the bath. It was a tall brick stack, rising over the low rooftops like an old finger pointing at the sky."
   },
   {
    "img": "place_sento.png",
    "cap": "The old bath, its Mount Fuji mural pale with steam"
   },
   {
-   "p": "The bath was an old one, with a tall brick chimney and a tiled mural of Mount Fuji gone pale with steam. At the front desk sat an old woman in a cardigan, counting coins into a tray. She looked at Rei over her glasses, then at the empty air just behind his left shoulder, and nodded to it politely, as if to an acquaintance."
+   "p": "It was an old neighbourhood sentō. Baths like this were built in the years when most small flats in Tokyo had no bath of their own. People came every evening with a towel and a small basin, paid a few hundred yen, washed on little stools at the taps and then soaked together in a big hot pool. Men bathed on one side of a wall and women on the other. Many sentō had closed since then. The old ones that were left still had a painting of Mount Fuji on the tiled wall above the bath. This one did too, its blue and white gone pale with years of steam. Somewhere below, out of sight, a boiler kept all that water hot, and somebody had to feed it."
+  },
+  {
+   "p": "At the front desk sat an old woman in a cardigan, counting coins into a tray. She looked at Rei over her glasses. Then she looked at the empty air just behind his left shoulder, and nodded to it politely, as if to an acquaintance."
   },
   {
    "p": "\"He's downstairs,\" she said, before Rei could ask. \"The iron stairs past the men's side. Don't go banging down them. He doesn't like banging.\" She went back to her coins. \"And tell your friend there to wait up here with me. He's no trouble.\""
   },
   {
-   "p": "Rei did not turn to look at whoever she meant. He went through the curtain and found the iron stairs."
+   "p": "Rei did not turn to look at whoever she meant. He went through the cloth curtain and found the iron stairs."
   },
   {
-   "p": "Black hair cropped short. Dark plain clothes, always a second layer, nothing that restricted his movement. People who saw him from across a room took him for a retired man. Then they looked at his hands. The first thing Rei noticed was how still he held them. It was the way a man holds his hands when he has learned that his hands are the part of him most likely to do something he cannot take back."
+   "p": "He went down them slowly, one foot at a time, and the heat came up to meet him."
   },
   {
-   "p": "He was shovelling coke into the boiler with an economy of motion that was almost beautiful. No wasted gesture. No slammed door. Every movement banked down to the minimum. The heat off the firebox was enormous and he stood in it without flinching, entirely at home inside something that would burn anyone else."
+   "p": "Black hair cropped short. Plain dark clothes, always a second layer, nothing that would stop him moving. People who saw him across a room took him for a retired man. Then they looked at his hands. The first thing Rei noticed was how still the man held them. It was the stillness of a man who has learned that his hands are the part of him most likely to do something he can never take back."
   },
   {
-   "p": "He did not turn round when Rei came down the iron stairs."
+   "p": "He was shovelling coke into the boiler. Coke is a hard, dark fuel made from coal, and it burns very hot with little smoke. He worked with an economy of movement that was almost beautiful. No wasted gesture. No slammed door. Every movement was kept down to the smallest it could be. The heat off the firebox was enormous, and he stood in it without flinching. He looked completely at home inside something that would burn anyone else."
+  },
+  {
+   "p": "He did not turn round when Rei reached the bottom of the stairs."
   },
   {
    "p": "\"You walked careful,\" he said, to the fire. \"Most people come down those stairs like the building owes them money. You came down like you didn't want to wake anything. So either you're afraid of me, which is sensible, or somebody taught you what I am. Which is dangerous. For you. Sit where I can see your hands.\""
   },
   {
-   "p": "Rei sat, and let him look at his hands. Mori read them the way the others read the air round Rei. Rei watched him take in the two suppressed registers, the searching, the keyed thing in him that the chair wanted. Mori's jaw did something that was not quite anger but was the muscle anger lives in. It tightened. Then, deliberately and visibly, it let go."
+   "p": "Rei sat on the bench by the wall and let him look at his hands. Mori read them the way the others read the air around Rei. Rei watched him take in the two registers Rei had pressed down all his life, the searching, and the shaped thing in him that the empty chair wanted. Mori's jaw tightened. It was not quite anger, but it was the muscle anger lives in. Then, slowly, and in a way Rei could see, he made it let go."
   },
   {
    "p": "\"Two of you,\" Mori said. \"And neither one's lit. You've spent your whole life sitting on your own boiler, same as me. I can always tell.\""
   },
   {
-   "p": "He shovelled another scoop. The firebox door swung shut on its own before his hand reached it. It closed with a care that made the small sound smaller than it should have been. Mori looked at the door with something like irritation, as if it had embarrassed him."
+   "p": "He threw in another shovelful. The firebox door swung shut on its own before his hand reached it. It closed so carefully that the sound it made was smaller than it should have been. Mori looked at the door with something like irritation, as if it had embarrassed him."
   },
   {
    "p": "\"Telekinesis,\" he said, though Rei had not asked. \"Rage makes it stronger. It also makes it cost more. I use it anyway. Somebody has to.\" He set the shovel down. \"So I'll ask you the only question that matters down here. Did you come to provoke me? Or did you come because you finally understood that somebody's been trying to, and you wanted to see the man they're aiming at?\""
@@ -91,37 +112,40 @@
    "p": "\"The second,\" Rei said."
   },
   {
-   "p": "Mori looked at him for a long moment, and then nodded once at the bench by the wall."
+   "p": "Mori looked at him for a long moment. Then he nodded once at the bench by the wall."
   },
   {
-   "p": "He let Rei stay a shift. The shift taught Rei that Rage was the opposite of Despair in every way that mattered."
+   "break": "The furnace"
   },
   {
-   "p": "Watanabe's seat was a drain, a low place the district's despair ran down into so that no one drowned in their own. Mori's seat was a furnace. The difference was that despair wants to pool and rage wants to spread. It wants to jump, to find the next dry thing and take it. So the second holder's whole art was not gathering but containment. He stood in the middle of the ward's anger the way this boiler stood in the middle of the bathhouse. He took all of it in. He burned it down to a heat he could stand inside. He let out only as much as kept the water warm, and never one degree more."
+   "p": "He let Rei stay for a shift. That one shift taught Rei that Rage was the opposite of Despair in every way that mattered."
   },
   {
-   "p": "\"Rage is the register for one thing,\" Mori said, feeding the fire by hand. \"The feeling that something was taken that shouldn't have been. That kind of feeling pushes harder against the wall than any other. The things on the other side that feed on it come at the wall harder than any other kind, too. More of them try to cross through my seat than through anyone's. There's one over there that circles it. Has done for years. Waiting for me to slip.\" He threw another shovelful. \"You can't put rage out. People who think the job is putting it out burn their own house down inside a year. You can't even let it go cold. A cold furnace with this much fuel in it doesn't stay cold. It goes off. The job is banked. Hot enough that it never builds a head of pressure. Low enough that it never throws a spark. Twenty years I've kept this ward's temper at a simmer, and not one of them knows there's a reason the fights downstairs never quite start.\""
+   "p": "Watanabe's seat was a drain. It was a low place where the district's despair could run down, so that nobody drowned in their own. Mori's seat was a furnace. The difference was simple. Despair wants to pool. Rage wants to spread. It wants to jump, to find the next dry thing and set it alight. So the second holder's skill was not gathering. It was containing. He stood in the middle of the ward's anger the way this boiler stood in the middle of the bathhouse. He took all of it in. He burned it down to a heat he could bear to stand inside. And he let out only enough to keep the water warm, and never one degree more."
   },
   {
-   "p": "Rei spent the night watching him do it. It was the most exhausting thing he had ever seen done by a man standing almost still."
+   "p": "\"Rage is the register for one thing,\" Mori said, feeding the fire. \"The feeling that something was taken that shouldn't have been. That kind of feeling pushes harder against the wall than any other. The things on the other side that feed on it come at the wall harder than any other kind, too. More of them try to cross through my seat than through anyone's. There's one over there that circles it. Has done for years. Waiting for me to slip.\" He threw another shovelful. \"You can't put rage out. People who think the job is putting it out burn their own house down inside a year. You can't even let it go cold. A cold furnace with this much fuel in it doesn't stay cold. It goes off. The job is banked. Hot enough that it never builds a head of pressure. Low enough that it never throws a spark. Twenty years I've kept this ward's temper at a simmer, and not one of them knows there's a reason the fights downstairs never quite start.\""
   },
   {
-   "p": "Every time something in the ward flared, Rei felt it arrive in Mori. A drunk three streets over winding himself up. A married couple two floors above finding the old wound again. A kid somewhere deciding that tonight was the night he finally hit back. Each one landed in Mori as a small hard surge. A flush went up the back of his neck. His hands closed. His breath went slow and counted. Then Rei felt him take it down into the firebox of himself and burn it into something the ward could stand, and let out, through the boiler, only warmth."
+   "p": "To bank a fire is to cover it and turn it low, so that it burns slowly all night without dying and without blazing up. Rei spent the night watching Mori bank a whole ward. It was the most exhausting thing he had ever seen a man do while standing almost still."
   },
   {
-   "p": "\"That one was a knife,\" Mori said quietly, after a surge worse than the rest. \"Kid two wards over had his hand on a knife and his sister's boyfriend in front of him. He doesn't know why he put it down. He'll tell himself he chickened out and hate himself a bit for it. That's the job. They never get to know it was held for them. They just get to keep their hands clean and think less of themselves for it. You learn to be all right with that or you don't last.\""
+   "p": "Every time something in the ward flared, Rei felt it arrive in Mori. A drunk three streets away working himself up. A married couple two floors up finding an old wound again. A boy somewhere deciding that tonight was the night he finally hit back. Each one landed in Mori as a small, hard surge. A flush went up the back of his neck. His hands closed. His breath went slow and counted. Then Rei felt him take it down into the furnace inside himself and burn it into something the ward could stand. What came out, through the boiler, was only warmth."
+  },
+  {
+   "p": "\"That one was a knife,\" Mori said quietly, after a surge worse than the others. \"Kid two wards over had his hand on a knife and his sister's boyfriend in front of him. He doesn't know why he put it down. He'll tell himself he chickened out and hate himself a bit for it. That's the job. They never get to know it was held for them. They just get to keep their hands clean and think less of themselves for it. You learn to be all right with that or you don't last.\""
   },
   {
    "p": "Near three in the morning, the pull came."
   },
   {
-   "p": "It was exactly the northward lean Watanabe had described. But it landed wrong in a furnace. It landed as a draught. Rei felt the vacant seat pull, and he felt Mori's banked fire want to rise toward it, the way a fire leans toward an opened door. Mori's control went from difficult to brutal in a single breath. He gripped the shovel in both hands and planted his feet. Rei watched a forty-eight-year-old man hold a furnace down by main strength while something off to the north tried to open the flue."
+   "p": "It was the same northward lean that Watanabe had described. But in a furnace it landed differently. It landed as a draught. Rei felt the empty seat pull, and he felt Mori's banked fire want to rise toward it, the way a fire leans toward an open door. In a single breath, Mori's control went from hard to brutal. He gripped the shovel in both hands and planted his feet. Rei watched a forty-eight-year-old man hold a furnace down by plain strength while something to the north tried to open the flue, the chimney pipe that lets a fire breathe."
   },
   {
-   "p": "It passed. Mori set the shovel against the wall with a care that was itself a held thing."
+   "p": "It passed. Mori leaned the shovel against the wall so carefully that even that was a kind of holding."
   },
   {
-   "p": "\"That's new this year,\" he said. For the first time, the flatness in his voice had a hairline crack in it. \"The empty chair's started pulling on mine. And a furnace that gets pulled on wants to flare. You understand what I'm telling you. Despair leaning north just leans. Rage leaning north wants to go off. If the second seat ever flares, really flares, twenty years all at once, it doesn't drain anywhere. It throws a spark into the thinnest part of the membrane in the whole city. Which happens to be right over our heads.\""
+   "p": "\"That's new this year,\" he said. For the first time, his flat voice had a hairline crack in it. \"The empty chair's started pulling on mine. And a furnace that gets pulled on wants to flare. You understand what I'm telling you. Despair leaning north just leans. Rage leaning north wants to go off. If the second seat ever flares, really flares, twenty years all at once, it doesn't drain anywhere. It throws a spark into the thinnest part of the membrane in the whole city. Which happens to be right over our heads.\""
   },
   {
    "p": "He nodded north, through the wall."
@@ -130,10 +154,13 @@
    "p": "\"Watanabe's going. You've seen him. Nakashima's let go. They'll all have been looking to me this week, the way they do, and I've had nothing to tell them except hold on.\" He wiped his face with the back of his wrist. \"Eldest. It mostly means you're the one who's been tired longest.\""
   },
   {
-   "p": "Once Mori let himself look for it, he found the provocation. A Rage holder spends his life feeling for the things that try to light him. Now that someone had named the pattern out loud, he could point straight at it."
+   "break": "The soft voice"
   },
   {
-   "p": "Three times in the last month, he said, it had been the same kind of night. A man came into the bathhouse who did not want a bath. He sat in the changing room saying small ugly things just loud enough to start something. He left the moment a fight nearly began, as if the fight was the errand and the bath was only the cover."
+   "p": "Once Mori let himself look for it, he found the provocation. A Rage holder spends his whole life feeling for the things that try to set him alight. Now that someone had said the pattern out loud, he could point straight at it."
+  },
+  {
+   "p": "Three times in the last month, he said, it had been the same kind of night. A man came into the bathhouse who did not want a bath. He sat in the changing room and said small, ugly things, just loud enough to start something. He left the moment a fight nearly began. It was as if the fight was the real errand and the bath was only the excuse."
   },
   {
    "p": "\"Testing the boiler,\" Mori said. \"Walking in here and tapping the gauge to see how far the needle jumps. I thought he was just some sad bastard with a grudge. But he comes on the nights the pull's worst. He leaves the second the room tips. And he's never the one who throws the first punch. He's the one who makes sure somebody else nearly does.\""
@@ -142,22 +169,22 @@
    "p": "\"Who sent him?\""
   },
   {
-   "p": "Mori shook his head. Then his face did the thing Rei had learned to dread. The gentleness that comes over a holder's face when they have just understood their own ruin."
+   "p": "Mori shook his head. Then his face did the thing Rei had learned to dread. It went gentle, the way a holder's face goes gentle when he has just understood his own ruin."
   },
   {
    "p": "\"He talks soft,\" Mori said. \"Soothing, almost. Calls it a shame, all this anger. Says wouldn't it be a mercy if a man like me could finally set the weight down. He talks like a doctor.\""
   },
   {
-   "p": "Rei knew the voice before Mori finished describing it. He had been chasing that bedside tone all summer. The reasonable favour. The kindness that is a hook. The same borrowed warmth he had heard in everything the Healer touched, wearing whatever face the errand needed. Whoever had sent this man, the campaign against the Thirteen spoke in that voice."
+   "p": "Rei knew the voice before Mori had finished. He had been chasing that bedside manner all summer. The reasonable favour. The kindness that is really a hook. It was the same borrowed warmth he had heard in everything the Healer touched, whatever face it wore for the job. Whoever had sent this man, the campaign against the Thirteen spoke in that voice."
   },
   {
-   "p": "They were not trying to break the Rage seat by attacking it. They were trying to break it by being kind to it. They were walking a tired furnace keeper toward the idea that flaring would be a relief. That letting go would be mercy. That twenty years was enough and no one would blame him. And every near-fight in the changing room was a tap on the gauge, to measure how close that idea had brought the needle."
+   "p": "They were not trying to break the Rage seat by attacking it. They were trying to break it by being kind to it. They were walking a tired furnace keeper toward the idea that flaring would be a relief. That letting go would be a mercy. That twenty years was enough and nobody would blame him. And every near-fight in the changing room was a tap on the gauge, to measure how close that idea had brought the needle."
   },
   {
    "p": "\"They want me to want it,\" Mori said, very quietly, into the firebox. \"Same as the others, I'd bet. They can't make a holder flare. They can only make a holder tired enough to choose it, and then tell him choosing it is kindness. And the hell of it is, some nights, listening to that soft voice, they're not entirely wrong. That's the part that frightens me. A furnace that half agrees to go off is already leaking.\""
   },
   {
-   "p": "It was the same engine Rei had watched run on his brother. The same engine Watanabe had described from inside Despair. One single fact lay under all of it. The seat could not be forced. It could only be consented to. And the whole patient art on the far side was the making of consent in holders worn thin enough to give it. Mori Takao was being courted toward a yes, the way Gin had been courted toward a yes, by a voice that called the worst possible choice a mercy. And he had just admitted that on the bad nights, the voice was starting to make sense."
+   "p": "It was the same machine Rei had watched working on his brother. The same machine Watanabe had described from inside Despair. One fact lay under all of it. A seat could not be taken by force. It could only be agreed to. And the whole patient work of the far shore was to wear holders down until they were thin enough to agree. Mori Takao was being led gently toward a yes, the way Gin had been led toward a yes, by a voice that called the worst possible choice a mercy. And he had just admitted that on the bad nights, the voice was starting to make sense."
   },
   {
    "p": "He banged the firebox shut."
@@ -166,43 +193,46 @@
    "p": "\"So now you know why I made myself nobody for twenty years,\" he said. \"It was never the strangers I was hiding from. It was the one who'd come talking soft. I always knew he'd come eventually. I just didn't think I'd be this tired when he did.\""
   },
   {
-   "p": "Rei gave him the night, because in the end Mori asked for it. He asked plainly, the way a man asks who has not asked for anything in twenty years and has used up his pride doing it. One night off the shovel. One night when the furnace was not his alone. One night of sleep without one ear on the gauge."
+   "break": "One night off the shovel"
   },
   {
-   "p": "So Rei did what he had done for Watanabe. Except that Rage would not let him do it gently."
+   "p": "In the end Rei gave him the night, because Mori asked for it. He asked plainly, the way a man asks when he has not asked for anything in twenty years and has used up all his pride getting the words out. One night off the shovel. One night when the furnace was not his alone. One night of sleep without one ear always listening for the gauge."
   },
   {
-   "p": "He stood in the boiler room in the small hours and took the banking onto his two unlit registers. The ward's anger came into him, and it did not come as gravity. It came as fire. Every flaring temper in Kita arrived at once and wanted to spread. In about ninety seconds Rei learned why Mori held his hands so still."
+   "p": "So Rei did what he had done for Watanabe. But Rage would not let him do it gently."
   },
   {
-   "p": "The rage did not make him sad, and it did not make him tired. It made him right. It handed him a hundred perfectly good reasons to do something unforgivable and dressed every one of them as justice. The discipline was not strength. It was refusal. A moment-by-moment refusal of a hundred true grievances that all deserved an answer and could not be given one without burning the ward down."
+   "p": "He stood in the boiler room in the small hours and took the banking onto his own two unlit registers. The ward's anger came into him, and it did not come as gravity. It came as fire. Every flaring temper in Kita arrived at once, and every one of them wanted to spread. In about ninety seconds, Rei learned why Mori held his hands so still."
   },
   {
-   "p": "He banked it. He stood in the middle of the city's temper, took it in, burned it down to a heat he could stand inside, and let out, through himself, only warmth. Across the room Mori Takao lay on the changing-room bench with his arm over his eyes and slept. He actually slept, for the first time in longer than he would say. The sleeping was the whole point. Rei kept the furnace banked over a sleeping man for the worst four hours of his life."
+   "p": "The rage did not make him sad, and it did not make him tired. It made him feel right. It handed him a hundred perfectly good reasons to do something unforgivable, and it dressed every one of them up as justice. Holding it was not about strength. It was about refusal. Moment after moment, he had to refuse a hundred real grievances. All of them deserved an answer. None of them could be answered without burning the ward down."
+  },
+  {
+   "p": "He banked it. He stood in the middle of the city's temper, took it in, burned it down to a heat he could bear, and let out only warmth. Across the room, Mori Takao lay on the changing-room bench with his arm over his eyes, and he slept. He really slept, for the first time in longer than he would say. The sleeping was the whole point. Rei kept the furnace banked over a sleeping man for the worst four hours of his life."
   },
   {
    "p": "In the middle of it, the soft voice nearly got him."
   },
   {
-   "p": "It was not a man this time. It was only the idea, arriving the way it must arrive in Mori on every bad night. A perfectly reasonable thought. He was holding a hundred just grievances unanswered. The people upstairs, the people three wards over, had done real wrong to real people. They deserved the fire he was keeping from them. Letting it out would not be rage at all. It would be justice. Mercy. A setting right."
+   "p": "It was not a man this time. It was only the idea, arriving the way it must arrive in Mori on every bad night. A perfectly reasonable thought. He was holding a hundred real grievances back. The people upstairs, the people three wards over, had done real harm to real people. They deserved the fire he was keeping from them. Letting it out would not be rage at all. It would be justice. Mercy. A putting right."
   },
   {
-   "p": "Rei felt the needle jump in his own chest. He understood, all the way down, how a tired holder gets walked to a yes. It is not weakness that opens the flue. It is the furnace speaking in the holder's own voice, saying that going off would be the moral thing to do."
+   "p": "Rei felt the needle jump in his own chest. He understood, all the way down, how a tired holder is walked toward a yes. It is not weakness that opens the flue. It is the furnace speaking in the holder's own voice, saying that going off would be the right thing to do."
   },
   {
    "p": "He held."
   },
   {
-   "p": "By dawn he was emptied out and shaking, and he had not flared. Mori woke, sat up, and took one look at Rei's face. He knew everything. He knew Rei had stood in his fire. He knew the soft voice had come for Rei too. He knew Rei had held."
+   "p": "By dawn he was emptied out and shaking, and he had not flared. Mori woke, sat up and took one look at Rei's face. He knew everything. He knew Rei had stood in his fire. He knew the soft voice had come for Rei too. And he knew Rei had held."
   },
   {
-   "p": "\"Now you know,\" he said. They were the same words Watanabe had used. Rei began to think they were the words the Thirteen said to the rare outsider who finally felt it from inside. \"It doesn't come at you like a monster. It comes at you like you're finally being honest. That's why they can't just take the seat. They have to get you to agree the fire's only fair. And a register that agrees the fire's fair has already opened the flue a crack. You held it.\""
+   "p": "\"Now you know,\" he said. They were the same words Watanabe had used. Rei began to think they were the words the Thirteen said to the rare outsider who finally felt it from the inside. \"It doesn't come at you like a monster. It comes at you like you're finally being honest. That's why they can't just take the seat. They have to get you to agree the fire's only fair. And a register that agrees the fire's fair has already opened the flue a crack. You held it.\""
   },
   {
    "p": "He said it like a man handing over something he had earned the right to give."
   },
   {
-   "p": "An old black telephone hung on the boiler-room wall, the kind with a cord. At ten past six it rang. Mori answered it without surprise and listened for a long time."
+   "p": "An old black telephone hung on the boiler-room wall, the kind with a curly cord. At ten past six it rang. Mori answered it without surprise and listened for a long time."
   },
   {
    "p": "\"No,\" he said at last. \"No, it held. Quiet night, for once. You?\" He listened again. \"Then do the settling and eat something after, Jun, I mean it. Eat. And stop counting seasons, it doesn't help.\" A pause. \"Yes. He's here.\" Mori glanced at Rei. \"He held it. All night. I slept.\" Another pause, longer. \"I know. I know what that means. We'll talk.\""
@@ -214,22 +244,28 @@
    "p": "\"Watanabe,\" he said. \"He rings when it's bad. They all do, sooner or later. The young ones think I've got answers.\" He shook his head. \"I've just got twenty years of not having any, and still being here. Apparently that counts for something.\""
   },
   {
+   "p": "He turned back to Rei."
+  },
+  {
    "p": "\"Twenty years I've wondered if anyone else could. You did it one night and it nearly had you. Now you understand what you'd be saying yes to, if it's ever your chair. Most people learn that the easy way. By being told. You'll never be able to unfeel it.\""
   },
   {
-   "p": "The next night Mori Takao was back on the shovel. No one had handed him a way out of the boiler room that did not crack the membrane over his head. The second seat could not be left untended any more than the sixth."
+   "break": "Down the careful stairs"
   },
   {
-   "p": "Rei visited when he could through the back half of August, down the careful iron stairs. Each time the northward draught was a little worse and the flue a little harder to hold shut. The soft voice had come once or twice more while Rei was away. Each time it had found Mori just tired enough to listen and just warned enough not to agree."
+   "p": "The next night Mori Takao was back on the shovel. Nobody had given him a way out of the boiler room that would not crack the membrane over his head. The second seat could not be left untended any more than the sixth."
+  },
+  {
+   "p": "Rei visited when he could through the back half of August, down the iron stairs, slowly and carefully. The trip became familiar. The hot walk from the station. The lanterns by the doors. The old woman at the desk with her coins, who always nodded to the air behind his shoulder. Each time, the northward draught was a little worse, and the flue a little harder to hold shut. The soft voice had come once or twice more while Rei was away. Each time it had found Mori just tired enough to listen, and just warned enough not to agree."
   },
   {
    "p": "\"You bought me time,\" Mori told him on one visit, feeding the fire. \"Not a cure. There isn't one that doesn't end with somebody in a chair. But a man who knows the kindness is the hook can hold a furnace a good while longer than a man who thinks the kindness is real. You gave me that. I'll burn it slow.\""
   },
   {
-   "p": "What Rei carried out of the boiler room was Watanabe's lesson in a different register. Together the two lessons became the spine of everything left in the month. The seat is held by consent. The wall is a yes renewed daily. And the whole patient engine on the far side is the making of one yes in one worn body keyed to fit."
+   "p": "What Rei carried out of the boiler room was Watanabe's lesson, learned again in a different register. Together the two lessons became the backbone of the rest of his month. The seat is held by consent. The wall is a yes, given again every day. And the whole patient effort on the far side is the making of one yes, in one worn-out body shaped to fit."
   },
   {
-   "p": "But Rage taught him the part Despair could not. How the yes feels from the inside when it comes. Not as surrender. As righteousness. The furnace handing over a hundred just reasons and calling the worst of them mercy. He would hear that voice again. He would hear it at the river. He would hear it in his brother's entries after the fourteenth. And because of one terrible night on a sleeping man's behalf, he would know it for the flue opening, and not for the truth arriving."
+   "p": "But Rage taught him the part Despair could not. It taught him how the yes feels from the inside when it comes. Not as giving up. As being in the right. The furnace hands over a hundred good reasons and calls the worst of them mercy. He would hear that voice again. He would hear it at the river. He would hear it in his brother's diary entries after the fourteenth. And because of one terrible night spent holding the fire for a sleeping man, he would know that voice for what it was. It was the flue opening. It was not the truth arriving."
   },
   {
    "p": "On the last good visit, Mori asked him the thing the second seat would ask."

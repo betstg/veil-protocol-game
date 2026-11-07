@@ -4,7 +4,10 @@
  "src": "gin_33_paths",
  "blocks": [
   {
-   "p": "For the next few days the sparks kept coming, each one weaker than the last, and each time one fired Rei went back to Gin's book and found the chapter Gin had written about it. Gin had written all six, path by path, in his patient field voice, as if he had known someone would one day need them in a hurry. Rei read them on the train, at the konbini counter, in the bath. He read them the way a man reads the instructions for a machine that has already started."
+   "p": "For the next few days the sparks kept coming. Each one was weaker than the last. Each time one fired, Rei went back to Gin's book and found the chapter Gin had written about that path. Gin had written all six, one by one, in his patient field voice, as if he had known that someone would one day need them in a hurry. Rei read them on the sky-blue Keihin-Tōhoku train, standing by the door with the book held close to his chest while a high-school boy beside him slept on his feet. He read them at the konbini counter while the clerk heated his rice. He read them in the bath. He read them the way a man reads the instructions for a machine that has already started."
+  },
+  {
+   "p": "A path is one of the six ways a practitioner's gift can reach into the world. Most practitioners are born with one, and some never open a second. What follows are Gin's own notes on each of the six, signed with his initials, G.U."
   },
   {
    "img": "skill_paths.png",
@@ -90,7 +93,7 @@
    }
   },
   {
-   "p": "It was the last page that Rei read most often. It was not in Gin's voice. It was a reference sheet Gin had copied out by hand from somewhere he should not have been, and he had underlined one word three times."
+   "p": "The last page was the one Rei read most often. It was not in Gin's voice. It was a reference sheet that Gin had copied out by hand from somewhere he should not have been. He had underlined one word three times. The word was <em>transmission</em>."
   },
   {
    "doc": {
@@ -108,10 +111,13 @@
    }
   },
   {
-   "p": "By the fourth day the sparks had almost stopped. The teleport flicker never came back after the second night. The lamp hum faded. The old woman's thoughts went quiet behind the wall. Rei understood why from the underlined word. He had not been taught anything. He had touched a man with every path lit and come home warm from it, and the warmth was cooling, the way a hand cools after it lets go of another hand. The sparks would not stay unless someone who truly had the path sat beside him and used it, again and again, until his aperture recognised what it had felt. They could be taught now. That was all."
+   "p": "In plain words, the sheet said this. Nobody can teach himself a new path. Someone who truly has that path must use it close to him, again and again, until his own gift recognises it and opens. The higher a practitioner's rank, the fewer sessions it takes, from as many as ten at the lowest rank down to one or two at the top. And the Uedera family was the one exception written on the page. They were born with a second path already there, sleeping, which could wake by itself in a moment of need."
   },
   {
-   "p": "The grain under them did not fade. Every morning he turned his palms up in the light from the kitchen window and found the second set of prints exactly where it had been, a little clearer, a little more his."
+   "p": "By the fourth day the sparks had almost stopped. The teleport flicker never came back after the second night. The lamp hum faded. The old woman's thoughts went quiet behind the wall. Rei understood why from the underlined word. He had not been taught anything. He had touched a man with every path lit and come home warm from it, and now the warmth was cooling, the way a hand cools after it lets go of another hand. The sparks would not stay unless someone who truly had the path sat beside him and used it, over and over, until his own gift recognised what it had felt. They could be taught to him now. That was all."
+  },
+  {
+   "p": "The grain under them did not fade. Every morning he turned his palms up in the light from the kitchen window and found the second set of prints exactly where it had been. Each morning it was a little clearer, and a little more his."
   }
  ]
 }

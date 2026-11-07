@@ -4,10 +4,10 @@
  "src": "gin_02_towers",
  "blocks": [
   {
-   "p": "At Ōji, Itsuki stayed on the train. Rei stood on the platform and typed one word to him before the doors closed. <em>Tempered?</em>"
+   "p": "At Ōji, Itsuki stayed on the train. Rei stepped down onto the platform, and before the doors closed he typed one word to him. <em>Tempered?</em> The doors slid shut. The sky-blue stripe of the train pulled away north toward Akabane, and the station jingle played its short bright tune for the next one."
   },
   {
-   "p": "He did not open the archive. Gin had told him to read it in order, and he was not ready to break the first rule his brother had left him. But Itsuki had drawn the Tower chapter for Gin in the spring, seven portraits, one for each house, and he still had photographs of every page. They began arriving while Rei sat on a bench at the end of the platform with the first commuters flowing past him. Itsuki sent them one by one, without a word."
+   "p": "He did not open the archive. Gin had told him to read it in order, and he was not ready to break the first rule his brother had left him. But Itsuki had drawn the Tower chapter for Gin in the spring, seven portraits, one for each family, and he still had photographs of every page. They began to arrive while Rei sat on a bench at the end of the platform. Commuters flowed past him in their white shirts, fanning themselves, already sweating at seven in the morning. Itsuki sent the pages one by one, without a word."
   },
   {
    "doc": {
@@ -26,6 +26,9 @@
    "cap": "The Tower families, old money and older arrangements"
   },
   {
+   "p": "The next page was not in Gin's voice. It was a copy of a report from the Grid. Rei knew the name the way most people in Kita knew it, as a rumour. The Grid was not a company or a club. It was a loose network of people with power who had never joined the Division, or who had left it. They had no office and no leader. They helped each other, and sometimes they helped strangers, and they kept their own records. Gin, it seemed, had read them."
+  },
+  {
    "doc": {
     "kind": "case",
     "title": "Grid Intelligence. What the Tower Families Are",
@@ -36,6 +39,9 @@
      "What they share. Generational wealth. Training programs that predate and sometimes outperform the CVD academy. And one political posture, held for centuries. They cooperate with whatever framework governs the public world, and keep enough independence that cooperation is always a choice and never a requirement."
     ]
    }
+  },
+  {
+   "p": "Then came the page Rei had asked for without knowing it. It explained the word <em>tempered</em>."
   },
   {
    "doc": {
@@ -51,6 +57,9 @@
    }
   },
   {
+   "p": "Rei read it twice to be sure he understood. Every person with power is born with a certain amount of it. Gin's book called that the aperture, the size of the opening a person has onto the other side. Ordinary training helps a person grow up to that natural limit and no further. The Tower families did not accept the limit. They put their children near the veil from the age of four or five, again and again, under watch, until the opening grew wider than nature had made it. Each generation went a little further than the last. Arbiter and Vanguard were very high ranks, he could tell that much. The cost was the children. Rei thought of the cousin at the gate, who had started at four, and who looked at the air instead of at people."
+  },
+  {
    "p": "Beside the last line, in the margin, Gin had drawn a small pencil mark and nothing else. Rei looked at it for a long time. It was the mark Gin made when something mattered to him and he had decided not to say why."
   },
   {
@@ -64,7 +73,7 @@
    }
   },
   {
-   "p": "Rei thought of Sei's hand on the roof tile, and of an arrangement that had held the veil steady on Kita's streets for three generations until someone from Gin's building broke it. He read the next page more slowly."
+   "p": "Rei thought of Sei's hand on the roof tile, and of an arrangement that had held the veil steady on Kita's streets for three generations, until someone from Gin's building broke it. He read the next page more slowly."
   },
   {
    "img": "tower_tsukishiro.png",
@@ -101,6 +110,9 @@
    }
   },
   {
+   "p": "Under that page Gin had written one more note, in the margin, in the pen he used for things that were his own and not the Division's."
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "Gin's margin, beside the deal",
@@ -123,7 +135,7 @@
    }
   },
   {
-   "p": "The platform had filled and emptied twice. The sun was up over the station roof. Rei typed one line to Itsuki. <em>Your brother said we're the blood without the house.</em> The dots appeared and vanished three times before the answer came. <em>He's right. It's the nicest thing he's said about anyone in years.</em>"
+   "p": "The platform had filled and emptied twice. The sun was up over the station roof, and the cicadas in the trees of Asukayama had started in earnest, a long electric scream that would not stop now until dark. Rei typed one line to Itsuki. <em>Your brother said we're the blood without the house.</em> The dots appeared and vanished three times before the answer came. <em>He's right. It's the nicest thing he's said about anyone in years.</em>"
   }
  ]
 }

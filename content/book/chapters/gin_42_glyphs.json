@@ -4,10 +4,10 @@
  "src": "gin_42_glyphs",
  "blocks": [
   {
-   "p": "Before the sky was fully light Rei read the chapter Gin had headed <em>Symbols, Seals and Tattoos</em>, and then the dictionary that followed it, all of it, in order, the way Gin had asked to be read. He had seen his brother draw these shapes at the desk a hundred times and had never once asked what they were. Gin had noticed that too. It was written down."
+   "p": "Before the sky was fully light, Rei read the chapter Gin had headed <em>Symbols, Seals and Tattoos</em>. Then he read the dictionary of glyphs that came after it. He read all of it, in order, the way Gin had asked to be read. He had watched his brother draw these shapes at the desk a hundred times and had never once asked what they were. Gin had noticed that too. He had written it down."
   },
   {
-   "p": "Halfway through the preface Rei stopped and sat very still. Gin wrote that, going down his left arm one late night, he had twice reached a mark he did not remember sitting for. Rei remembered both. He had been there both times, on a plastic stool in a back room that smelled of antiseptic and green tea, watching the needle and pretending to read. Gin had put it down to the hour and the number of marks. Reading it now, in the month the handwriting leaned, Rei did not put it down to anything."
+   "p": "Halfway through the preface, Rei stopped and sat very still. Gin wrote that one late night, going down his left arm, he had twice come to a mark he did not remember having tattooed. Rei remembered both. He had been there both times, sitting on a plastic stool in a back room that smelled of antiseptic and green tea, watching the needle and pretending to read. Gin had blamed the late hour and the number of marks. Reading it now, in the month when Gin's handwriting leaned, Rei did not blame anything."
   },
   {
    "doc": {
@@ -22,6 +22,9 @@
    }
   },
   {
+   "p": "The next pages explained how the shapes worked. Gin wrote them like a teacher, plainly, as if he expected someone to learn from them one day. Rei understood now that the someone was him."
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "How symbols work",
@@ -34,6 +37,9 @@
      "Noise. Quiet preparation makes none. Activation on entity contact makes a little. A rushed configuration pushed with active ability makes the most. This is why experienced people prepare before the situation asks."
     ]
    }
+  },
+  {
+   "p": "Rei read the page slowly. It was simpler than it looked. A symbol was not a prayer. It was a shape, and the shape did the work, the way a key opens a lock whether or not the person turning it believes in keys. A practitioner's skill at drawing these shapes was called Symbol Work, and it was measured in levels. Ink on paper faded in hours. A tattoo never faded and never switched off. And the stronger the thing on the other side, the less time any shape could hold it."
   },
   {
    "doc": {
@@ -51,6 +57,9 @@
    }
   },
   {
+   "p": "So that was what the marks on his brother's skin were. Rei had always thought of them as Gin's, the way a face is someone's. Now he saw that each one was a tool, chosen and tested and added over years. The small marks between Gin's knuckles were not decoration either. They were switches. When Gin rubbed his hands together or pressed a palm to his chest, he was firing a seal somewhere else on his body. Rei had seen him do it a thousand times and had thought it was a habit."
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "Skin glyphs. The control problem",
@@ -65,7 +74,10 @@
    }
   },
   {
-   "p": "Rei found the year-three pages. The exercises ran down the left margin in Gin's small print. Down the right margin, in the same pen, ran notes about Rei. <em>R. maths test, did badly, did not care. R. did not eat lunch again. R. laughed at something on the train today and I did not ask what, and should have.</em> The methodology was sound. The margin was the part Rei had to put the book down for."
+   "p": "Rei found the year-three pages. The exercises ran down the left margin in Gin's small print. Down the right margin, in the same pen, ran notes about Rei. <em>R. maths test, did badly, did not care. R. did not eat lunch again. R. laughed at something on the train today and I did not ask what, and should have.</em> The method was sound. The margin was the part Rei had to put the book down for."
+  },
+  {
+   "p": "He made more tea and let it go cold, the way Gin used to. Then he read on, to the page about what his brother carried every day."
   },
   {
    "doc": {
@@ -78,6 +90,9 @@
      "Prepare in advance. That is the only advice on symbol work that matters before you learn the rest. And learn from someone who knows them. Documentation makes configurations learnable. It does not make you able. Find a teacher first."
     ]
    }
+  },
+  {
+   "p": "After that came the dictionary itself. A glyph, Gin explained, is a shape drawn on paper ahead of time, folded and carried until it is needed. All the real work goes into drawing it. Using it is only a touch."
   },
   {
    "img": "cvdroom_sigil_room.png",
@@ -96,6 +111,9 @@
      "Carrying. More than ten prepared glyphs on one person can be felt by a Clairsentient at Level 5. More than fifteen and anyone in range feels them. Carry what the operation needs."
     ]
    }
+  },
+  {
+   "p": "Each entry in the lists that followed gave the glyph's name in English and in Japanese characters, then how long it took to draw, then what it did, then the level of Symbol Work needed to draw it. Gin had split them into groups. The first twelve protected and contained. The next six did harm. And the last few, at the very bottom of the chapter, he did not recommend at all."
   },
   {
    "doc": {
@@ -145,6 +163,9 @@
    }
   },
   {
+   "p": "Rei read the entry for the Final Refusal twice. He did not want to know which two people had asked his brother to draw it, or why. He turned the page quickly. Stuck inside the back cover of the chapter was a yellow post-it note."
+  },
+  {
    "doc": {
     "kind": "postit",
     "title": "Post-it, inside the back cover of the chapter",
@@ -152,6 +173,9 @@
      "Studying this gives understanding. It does not give the hand. R. will need someone to show him. Tanizaki for the standard set, Banishment, the Exorcism Circle, the Weight and the Arrest. Shimizu for the Burn. Kurosawa knows the offensive ones and will not volunteer it."
     ]
    }
+  },
+  {
+   "p": "Under the post-it there was one more page. It was dated only by the day of the week, like most of Gin's personal notes, and it was about paper."
   },
   {
    "img": "res_washi.png",
@@ -169,7 +193,7 @@
    }
   },
   {
-   "p": "Rei closed the book and went to the desk and opened the bottom drawer. Two bundles of washi lay there, each tied with plain cord, each marked in Gin's hand with a small compass rose. He did not untie them. He put his palm flat on the top one and felt, under the paper, the faint patient hum of something drawn correctly a long time ago by someone who had expected to need it. Then he shut the drawer and went to find his shoes. He could not draw a single one of these. But Gin had already drawn them, and a prepared glyph does not care whose hand releases it."
+   "p": "Rei closed the book. He went to the desk and opened the bottom drawer. Two bundles of washi lay there, each tied with plain cord, each marked in Gin's hand with a small compass rose. Rei thought of the Exorcism Circle, its glyphs laid out at the compass points around the host. Rei did not untie them. He laid his palm flat on the top one and felt, under the paper, the faint, patient hum of something drawn correctly a long time ago by someone who had expected to need it. Then he shut the drawer and went to find his shoes. He could not draw a single one of these shapes. But Gin had already drawn them, and a prepared glyph does not care whose hand releases it."
   }
  ]
 }

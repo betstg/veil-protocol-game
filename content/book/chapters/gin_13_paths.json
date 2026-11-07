@@ -5,11 +5,14 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "p": "The chart in the cold room gave Rei six names and seven reasons. Gin's book gave him the rest. He read Chapter Six and its addendum that night at the kitchen table, because he needed to know every place a soul could go, and which of them his brother's body was being steered toward. Gin had written the chapter, he said in its preface, for Rei. These are the pages Rei kept open longest."
+   "p": "The chart in the cold room had given Rei six names for where the dead go, and seven reasons for which road they take. Gin's book gave him the rest. That night he sat at the kitchen table with the window open to the cicadas and read Chapter Six and the addendum that followed it. He needed to know every place a soul could go, and which of them his brother's body was being steered toward. In the preface Gin said he had written this chapter for Rei. These are the pages Rei kept open the longest."
   },
   {
    "img": "ch6_sixpaths.png",
    "cap": "The six paths a crossing soul can take"
+  },
+  {
+   "p": "The first page was practical. It told a practitioner how to guess, from outside, which road a dead person had already taken, by the feeling each kind of entity gives off."
   },
   {
    "doc": {
@@ -36,7 +39,7 @@
    }
   },
   {
-   "p": "The addendum came after, on paper of a slightly different colour, as if Gin had come back to the chapter months later. Its first page said it replaced an older version. Gin had thrown out a scale measured in time and put in one measured in weight."
+   "p": "The addendum came after, on paper of a slightly different colour, as if Gin had come back to the chapter months later. It was about the Font, the bright source at the very bottom of the other side, where all the veil comes from and where the most peaceful dead dissolve. A living person cannot stay near the Font. If one gets too close, the Font throws them straight back out. Gin's addendum said it replaced an older page. The old page had measured the harm by how long a person stayed near the Font. The new one measured it by how heavy a blow they carried back."
   },
   {
    "doc": {
@@ -75,6 +78,9 @@
    }
   },
   {
+   "p": "Folded into the addendum was another flyer from the Grid, with the purple stamp. It was written for people who had come too close and come back wrong, and it spoke to them as kindly as a friend."
+  },
+  {
    "doc": {
     "kind": "postit",
     "title": "Other Side Distribution. You Got Too Close. What To Do",
@@ -88,7 +94,7 @@
    }
   },
   {
-   "p": "Rei read the family section too, the page where Gin admitted he had opened four paths in secret and believed Rei carried more than one. He read it twice. Then he went back to the chart in his head, the fourth factor, <em>possession status at death</em>, and to Gin's line about partial possession in the same chapter. <em>The host is trapped, not gone.</em> Not gone. That was the only path on any page that night that he was prepared to accept."
+   "p": "Rei also read the family section again, the page where Gin admitted he had opened four paths in secret and believed Rei carried more than one. He read it twice. Then he went back to the chart in his head, to the fourth line, <em>possession status at death</em>. And he went back to Gin's line about partial possession, from the same chapter. <em>The host is trapped, not gone.</em> Not gone. Of all the roads on all the pages that night, that was the only one he was prepared to accept."
   }
  ]
 }

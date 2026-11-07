@@ -4,7 +4,10 @@
  "src": "gin_35_thirteen",
  "blocks": [
   {
-   "p": "Rei went home on the first train with the registry copied into the back of Gin's book in his own bad hand. Higuchi had said Gin copied the names too. So Rei went looking, and found them. They were in a section near the end that he had skimmed in the first week, when they had read like notes about strangers. A page headed The Thirteen. A page of rank letters. Thirteen short files, one for each domain, each with the kind of small practical details Gin always wrote down. Where to go. When. Who in the city already knew. With the ledger beside him, the strangers became people. Rei read them at the kitchen table while the kettle ticked and cooled."
+   "p": "Rei went home on the first train of the morning, with the registry copied into the back of Gin's book in his own bad handwriting. The sky over Iidabashi was turning grey, and the crows were already loud on the wires. The first Namboku train north was nearly empty. A cleaner in a blue uniform dozed at one end of the carriage with her mop bucket between her knees. A young couple in festival clothes, a cotton yukata each, sat holding hands with their eyes shut, still wearing the paper wristbands from some party the night before. Nobody spoke. The train ran under the sleeping city, and Rei sat with the book on his knees and did not open it until he was home."
+  },
+  {
+   "p": "Higuchi had said that Gin copied the names too. So Rei went looking, and he found them. They were in a section near the end of the book that he had only skimmed in the first week, when they had read like notes about strangers. There was a page headed The Thirteen. There was a page of rank letters. And there were thirteen short files, one for each domain, full of the small practical details Gin always wrote down. Where to go. When. Who in the city already knew. With the ledger beside him, the strangers became people. Rei read them at the kitchen table while the kettle ticked as it cooled."
   },
   {
    "doc": {
@@ -20,6 +23,9 @@
    }
   },
   {
+   "p": "Next to it, Gin had copied the top two lines of the CVD's rank chart. The CVD ranks every practitioner with a letter, from E at the bottom up through D, C, B, A and S. Above those sit two ranks almost nobody ever sees written down."
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "Rank chart. The top two lines, copied from the CVD sheet",
@@ -29,6 +35,9 @@
      "Every holder file I have found lists the rank as Guardian."
     ]
    }
+  },
+  {
+   "p": "Then came the thirteen files. Gin had written each one the same way. First the holder, with their age, their work, their path, and the weight they carried. Then, under <em>Who knows</em>, the ordinary people in the city who had noticed something about that holder without being told."
   },
   {
    "img": "thirteen_I_asakura_mio.png",
@@ -66,6 +75,9 @@
    }
   },
   {
+   "p": "One name in the files Rei had to stop on. Kabukichō is the night district of Shinjuku, all bars, hosts and neon, open until dawn. Gin had called it the worst ground in Tokyo, and Rei believed him."
+  },
+  {
    "doc": {
     "kind": "postit",
     "title": "Stuck beside VII",
@@ -85,7 +97,7 @@
    }
   },
   {
-   "p": "Rei read the last line three times. Then he turned back to the sixth file and put his finger on the name with two stars beside it in the ledger, and on the word Itabashi that Higuchi had pencilled beside it, and did not sleep."
+   "p": "Rei read the last line three times. Then he turned back to the sixth file. He put his finger on the name with two stars beside it in the ledger, and on the word Itabashi that Higuchi had pencilled next to it. Itabashi was the ward just west of Kita, close enough to walk. Rei did not sleep."
   }
  ]
 }

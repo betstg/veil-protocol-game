@@ -6,13 +6,22 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
+   "p": "Rei did not walk back over the bridge. He went the long way round to Ōji station and waited outside the gates with two drunk students and a cleaner in a grey uniform until the station opened. The first train of the morning came in at last. It was a Keihin-Tōhoku line train, silver with a sky-blue stripe down its side, the line that runs north to south through Kita and on into the middle of Tokyo. Rei touched his Suica card to the gate, and the gate gave its small electronic beep, the sound of every day in the city."
+  },
+  {
+   "p": "The carriage was nearly empty and much too cold. The air conditioning on Tokyo trains in August is always too cold. A man in a white shirt slept across from him with his arms folded over his briefcase and his tie loose. At the far end a young woman in a waitress uniform ate a rice ball very slowly, looking at nothing. Station names went past in a calm recorded voice. Tabata. Nippori. Uguisudani. Outside, the sky over the rooftops was turning from black to a dirty grey."
+  },
+  {
+   "p": "At Ueno he got off and climbed up through the park. Ueno park sits on a hill above the station, full of old trees, museums and temples. At this hour it belonged to the crows and to a few homeless men asleep on flattened cardboard under the trees. The first cicadas were starting, one at a time, like engines warming up. On the far side of the park, behind a long wall, stood Geidai. Geidai is the short name for Tokyo University of the Arts, the most famous art school in Japan. Itsuki had a studio there, high up in an old building, and he often worked in it through the night."
+  },
+  {
    "p": "Eleven bridges leaned against the walls of the studio, and every one of them was wrong."
   },
   {
-   "p": "Rei counted them while Itsuki locked the door behind him. Eleven canvases of the Ōji overpass, in every light. Dawn, rain, a summer noon so white it hurt. Some had been scraped back to the weave and painted over. One had been slashed once with a palette knife and then carefully taped together from behind. In all of them, in the middle of the walkway, there was a place where the paint went muddy and strange, as though Itsuki's brush had kept trying to put something there and he had kept refusing to let it."
+   "p": "Rei counted them while Itsuki locked the door behind him. There were eleven canvases of the Ōji overpass, in every light. Dawn, rain, a summer noon so white it hurt. Some had been scraped back to the bare cloth and painted over. One had been slashed once with a palette knife and then carefully taped together from behind. In all of them, in the middle of the walkway, there was a place where the paint went muddy and strange. It was as if Itsuki's brush had kept trying to put something there and he had kept refusing to let it."
   },
   {
-   "p": "The room smelled of linseed oil and cold convenience-store coffee. Through the high windows Geidai was grey and asleep. The cleaners would not come for another hour."
+   "p": "The room smelled of linseed oil and cold konbini coffee. Through the high windows the art school was grey and asleep. The cleaners would not come for another hour."
   },
   {
    "p": "“I never sold one,” Itsuki said. “People ask. I always say they're not finished.” He laughed, and it did not work. “They're not finished.”"
@@ -22,19 +31,19 @@
    "cap": "Kuroda Itsuki, with paint under every nail"
   },
   {
-   "p": "Kuroda Itsuki was twenty. He had a grown-out bleached streak in his black hair, paint under every nail, and a laptop he had rebuilt three times balanced on a stool beside the easel, its screen full of code. He and Rei had been friends since middle school. For the last two years he had also been Gin's illustrator. Gin brought him pages of strange symbols, circles and broken lines and knots, and asked him to draw them clean. Itsuki drew them and thought they were diagrams. He had built Gin a search program for the archive, too, so Gin could find a case by a single word."
+   "p": "Kuroda Itsuki was twenty. He had a grown-out bleached streak in his black hair, paint under every nail, and a laptop he had rebuilt three times balanced on a stool beside the easel, its screen full of code. He and Rei had been friends since middle school. For the last two years he had also been Gin's illustrator. Gin brought him pages of strange symbols, circles and broken lines and knots, and asked him to draw them clean. Itsuki drew them and thought they were diagrams. He had also built Gin a search program for the archive, so Gin could find a case by a single word."
   },
   {
    "p": "“Tell me,” Itsuki said. “All of it. Don't make it nice.”"
   },
   {
-   "p": "Rei told him. The plate. The lamp. The open door and the cold key and the half-smoked cigarette. The column of cold on the overpass, and what the cold had shown him."
+   "p": "Rei told him. The plate. The lamp. The open door, the cold key and the half-smoked cigarette. The column of cold on the overpass, and what the cold had shown him."
   },
   {
    "p": "When he got to the shadow, Itsuki's brush stopped moving."
   },
   {
-   "p": "He set it down across the jar, very carefully, and turned to look at the canvases. He looked at them the way a person looks at a dog that has growled for the first time."
+   "p": "He laid it across the jar, very carefully, and turned to look at the canvases. He looked at them the way a person looks at a dog that has growled for the first time."
   },
   {
    "p": "“A shadow that goes ahead,” he said. “Against the light.”"
@@ -46,7 +55,7 @@
    "p": "“I know what my grandmother said it meant. I was six.” Itsuki rubbed his face and left a smear of blue on his cheekbone. “It means there are two of them. The man, and something that walks with him. Or in him. She said you could tell a man who'd been ridden because his shadow got there first.” He pointed with his chin at the muddy places in the paintings. “That's why they keep coming out wrong. I've been painting something that was already standing there.”"
   },
   {
-   "p": "Rei had always known the Kuroda were not an ordinary family. Itsuki had told him that much at fourteen, in a voice that meant <em>do not ask me again</em>. They were one of the old houses Gin called the Towers, and the gift that ran in their blood was teleportation. In Itsuki it had never opened. Every reading anyone had ever taken of him came back blank, as if there were nothing there at all. So the family had steered him away from their work and sent him to art school, and he had gone gladly."
+   "p": "Rei had always known the Kuroda were not an ordinary family. Itsuki had told him that much at fourteen, in a voice that meant <em>do not ask me again</em>. They were one of the old families Gin called the Towers. These were families with power in the blood, passed down for centuries, and old money to match. The gift in the Kuroda blood was teleportation, the power to go from one place to another without crossing the space between. In Itsuki it had never opened. Every test anyone had ever done on him came back blank, as if there were nothing there at all. So the family had steered him away from their work and sent him to art school, and he had gone gladly."
   },
   {
    "p": "He had told Rei the rest only once, drunk, on a roof. The gift had not opened properly. That was different from not opening at all."
@@ -58,7 +67,7 @@
    "p": "“How?”"
   },
   {
-   "p": "Itsuki did not answer at once. He went to the nearest canvas, the slashed one, and put two fingers flat against the painted concrete of the bridge. Rei watched the paint around his fingertips. For a second he could have sworn the surface gave, like skin."
+   "p": "Itsuki did not answer at once. He went to the nearest canvas, the slashed one, and put two fingers flat against the painted concrete of the bridge. Rei watched the paint around his fingertips. For a second he could have sworn the surface gave a little, like skin."
   },
   {
    "p": "“My own oils hold best,” Itsuki said quietly. “The place has to still be there. It has to still look like I painted it, or I come out somewhere close and wrong. Two copies of the same picture make a door between them. It never goes backwards in time. I tried.” He took his fingers away. There was a faint pale print on the paint. “It hurts going through. And every time, it takes a bit more.”"
@@ -85,11 +94,14 @@
    "p": "Itsuki opened his mouth to argue. Then he closed it and picked up his jacket. That was how Rei knew how frightened he was."
   },
   {
+   "p": "They walked. Nezu lies just below the hill of Ueno park, on its western side, and it takes ten minutes to go down into it on foot. It is one of the oldest corners of Tokyo, a maze of narrow lanes, wooden houses, potted plants on doorsteps and small temples squeezed between homes. Itsuki talked about the tile on the way down, about his brother and the house. Rei listened and watched the lanes. A cat sat on a wall and did not move as they passed. An old woman was already out in her cotton apron, sweeping the step in front of her house, and she stopped sweeping to watch the two young men go by."
+  },
+  {
    "img": "tower_kuroda.png",
    "cap": "The Kuroda family, the Teleportation house in Nezu"
   },
   {
-   "p": "Nezu was still dark when they came out of the station. Old money lived here, and old silence. The Kuroda compound did not have a sign. It had a wall that had outlived three governments, a gate of black wood, and over everything a stillness that was not peace. It was attention. The whole house felt like something holding its breath to hear better."
+   "p": "Nezu was still dark at the bottom of the hill. Old money lived here, and old silence. The Kuroda compound did not have a sign. It had a wall that had outlived three governments, a gate of black wood, and over everything a stillness that was not peace. It was attention. The whole house felt like something holding its breath to hear better."
   },
   {
    "p": "Itsuki talked all the way up the lane, fast and low, the way he did when he was scared."
@@ -98,19 +110,19 @@
    "p": "“There are seven of them. Seven families in Japan. Gin had a whole chapter.” He kicked a stone. “They were doing this for centuries before the government admitted any of it was real, and they've never forgiven the government for being late. Mine are the strangest of the seven. We don't sit on councils. We don't go to the parties. The Division asks for help, and if the case is interesting the family helps, and if it isn't the family doesn't, and nobody can make them.” He almost smiled. “The Division stopped trying years ago. They just send very polite letters.”"
   },
   {
-   "p": "A woman was waiting at the gate. She had Itsuki's cheekbones and none of his softness. She did not look at Rei at all. She looked at the air behind him, as though she could read in it the exact path he had walked up the lane."
+   "p": "A woman was waiting at the gate. She had Itsuki's cheekbones and none of his softness. She did not look at Rei at all. She looked at the air behind him, as if she could read in it the exact path he had walked up the lane."
   },
   {
    "p": "“Tempered,” Itsuki breathed, before they reached her. “My cousin. They started her at four.”"
   },
   {
-   "p": "Rei did not know the word. He filed it."
+   "p": "Rei did not know the word. He kept it to think about later."
   },
   {
    "p": "“You brought an outsider,” the cousin said to Itsuki."
   },
   {
-   "p": "Her hand rested on the gatepost. Rei saw that a mark had been cut into the wood under her fingers, a sigil just at the edge of what his eyes would hold. It looked like the symbols Gin had brought Itsuki to draw. It was not a drawing. Rei could feel it in his teeth."
+   "p": "Her hand rested on the gatepost. Rei saw that a mark had been cut into the wood under her fingers. It was a sigil, a magic sign, and it sat just at the edge of what his eyes could hold. It looked like the symbols Gin had brought Itsuki to draw. But it was not a drawing. Rei could feel it in his teeth."
   },
   {
    "p": "“He's Gin Uedera's brother,” Itsuki said."
@@ -128,7 +140,7 @@
    "p": "“A wrong shadow carrying weight,” she said. “You're describing a seated one.”"
   },
   {
-   "p": "She did not explain. She did not need to. The way she said it made the dark lane colder, and Rei understood that whatever a seated one was, this family had been afraid of it for longer than the Division had existed."
+   "p": "She did not explain. She did not need to. The way she said it made the dark lane colder. Rei understood that whatever a seated one was, this family had been afraid of it for longer than the Division had existed."
   },
   {
    "p": "Itsuki had gone pale. “Don't make me use the name,” he said to her, very low. “If I spend it to get Sei, I don't get it back. And everyone will know what I spent it on.”"
@@ -137,16 +149,16 @@
    "p": "The cousin studied him the way a buyer studies a price. Then she stepped aside."
   },
   {
-   "p": "Kuroda Sei received them in a room with nothing in it but a low table and the grey beginnings of light at the paper screens."
+   "p": "Kuroda Sei received them in a room with nothing in it but a low table, the straw tatami mats on the floor and the grey beginnings of light at the paper screens."
   },
   {
-   "p": "He was Itsuki's older brother. Twenty-two, Rei would learn later, and younger than Rei expected for the person a whole house went quiet for. He was the stillest human being Rei had ever seen. He did not fidget, did not blink often, did not fill silences. His weight sat slightly back, as if he were always ready to be somewhere else."
+   "p": "He was Itsuki's older brother. He was twenty-two, Rei would learn later, and younger than Rei expected for the person a whole house went quiet for. He was the stillest human being Rei had ever seen. He did not fidget. He did not blink often. He did not fill silences. His weight sat slightly back, as if he were always ready to be somewhere else."
   },
   {
-   "p": "On the table lay two things. One was a stone the colour of an old bruise, set in lacquer so ancient it had gone to glass. The other was a fragment of grey roof tile, ordinary and chipped. Sei's right hand rested on the tile. There was a scar across the back of it."
+   "p": "On the table lay two things. One was a stone the colour of an old bruise, set in lacquer so old it had turned to something like glass. The other was a piece of grey roof tile, ordinary and chipped. Sei's right hand rested on the tile. There was a scar across the back of it."
   },
   {
-   "p": "Itsuki had told Rei about the tile on the train. It came from the oldest building in the Kuroda district, demolished when Sei was fourteen. He had climbed in and taken a piece before it came down. Their parents had left Japan three years later, pushed out by people Itsuki would not name, and Sei had stayed to keep the family's ground. Alone. At seventeen."
+   "p": "Itsuki had told Rei about the tile on the way down the hill. It came from the oldest building in the Kuroda district, which was torn down when Sei was fourteen. Sei had climbed in and taken a piece before it came down. Their parents had left Japan three years later, pushed out by people Itsuki would not name, and Sei had stayed to keep the family's ground. Alone. At seventeen."
   },
   {
    "p": "Sei looked at Rei for a long time."
@@ -161,7 +173,7 @@
    "p": "“In your brother's third year in this ward, a Division operation in Kita broke something my family had kept there for three generations. An arrangement. It held the veil steady on our streets, and nobody in your building ever knew it was there.” His fingers did not move on the tile. “Their file says the case closed successfully. I have been holding the pieces together with my own hands since I was seventeen.”"
   },
   {
-   "p": "Rei felt Itsuki go rigid beside him."
+   "p": "Rei felt Itsuki go stiff beside him."
   },
   {
    "p": "“Was it Gin?” Rei asked. “Did he do it?”"
@@ -176,25 +188,25 @@
    "p": "“I don't know what my brother's unit did to you,” he said. “I didn't know any of this until tonight. I'll find the file. I won't pretend I've read it before I have.”"
   },
   {
-   "p": "Something in Sei's stillness shifted by a single degree. It was not warmth. It was more like a ledger being written in."
+   "p": "Something in Sei's stillness shifted by a single degree. It was not warmth. It was more like a line being written in an account book."
   },
   {
-   "p": "“The Uedera are not a Tower,” he said. “Did your brother ever tell you that? You have the blood and none of the house. No wall. No money. No seat on any council.” He tilted his head a fraction. “That's why nobody ever protected you. It might also be why nobody ever came looking.”"
+   "p": "“The Uedera are not a Tower,” he said. “Did your brother ever tell you that? You have the blood and none of the house. No wall. No money. No seat on any council.” He tilted his head a little. “That's why nobody ever protected you. It might also be why nobody ever came looking.”"
   },
   {
    "p": "Rei did not understand that. He kept it anyway, the way he had kept the word <em>tempered</em>, to turn over later."
   },
   {
-   "p": "The cousin had followed them in. Rei did not see her move. He only felt the air in the room thicken all at once, heavy and wrong, like breathing through wet cloth. He opened his mouth to say his brother's name and found that he could not. The word would not come. It simply was not there."
+   "p": "The cousin had followed them in. Rei did not see her move. He only felt the air in the room grow thick all at once, heavy and wrong, like breathing through wet cloth. He opened his mouth to say his brother's name and found that he could not. The word would not come. It simply was not there."
   },
   {
-   "p": "Sei glanced at her. That was all. A glance, the way one stops a child reaching for a stove. The air went thin again. Rei's breath came back with Gin's name on the end of it."
+   "p": "Sei glanced at her. That was all. A glance, the way a parent stops a child reaching for a hot stove. The air went thin again. Rei's breath came back with Gin's name on the end of it."
   },
   {
    "p": "The cousin bowed slightly and left. Nobody mentioned it."
   },
   {
-   "p": "“A wrong shadow at Ōji,” Sei said into the silence, “on the night a Division officer stopped answering.” It was not a question. Something about the case had caught on him, on the family, for reasons that were theirs. “I'll reach once. Toward the man, not toward your brother. Put your hand on the stone.”"
+   "p": "“A wrong shadow at Ōji,” Sei said into the silence, “on the night a Division officer stopped answering.” It was not a question. Something about the case had caught on him, and on the family, for reasons that were theirs. “I'll reach once. Toward the man, not toward your brother. Put your hand on the stone.”"
   },
   {
    "p": "Rei put his hand on the stone. It was warm, like something alive."
@@ -206,13 +218,16 @@
    "p": "The world folded."
   },
   {
-   "p": "It did not hurt. That was the wrong part. For half a heartbeat Rei was nowhere at all, in a place where <em>here</em> and <em>there</em> were the same word, and the nowhere was not empty. It was crowded. It was loud. Things turned toward him in it, the way heads turn in a train carriage when someone sits down."
+   "p": "It did not hurt. That was the wrong part. For half a heartbeat Rei was nowhere at all, in a place where <em>here</em> and <em>there</em> were the same word. And the nowhere was not empty. It was crowded. It was loud. Things turned toward him in it, the way heads turn in a train carriage when someone sits down."
   },
   {
-   "p": "Then concrete. Damp air. A low underpass by water, the black smell of a river that was not quite a river, and the faint after-shape of someone who had stood exactly here not long ago."
+   "p": "Then concrete. Damp air. A low underpass beside water, the black smell of a river that was not quite a river, and the faint leftover shape of someone who had stood exactly here not long ago."
   },
   {
    "p": "Knowledge settled into him as the fold let go. It was the family's kind of knowledge, old and without pity. The thing the man carried was a seated one, of the highest grade, and the register it fed on was Duty."
+  },
+  {
+   "p": "Rei did not really know the word register yet. He would learn it soon. Each being from the other side feeds on one human feeling, and grows strong where that feeling is strong. That feeling is its register. Grief is one register, Rage another, Fear another. There are thirteen in all. This one fed on Duty, the feeling of a thing that must be done because it is owed."
   },
   {
    "p": "Sei's voice reached him across the fold, flat and very far away. “We do not go near a seated one. Find your brother, Uedera. But do not bring it to our door.”"
@@ -221,7 +236,10 @@
    "break": "The train home"
   },
   {
-   "p": "Itsuki found him by the river twenty minutes later, out of breath, and they rode the first train north together with their shoulders touching. Neither of them said anything for three stations."
+   "p": "Itsuki found him by the river twenty minutes later, out of breath, and they rode an early train north together with their shoulders touching. Neither of them said anything for three stations."
+  },
+  {
+   "p": "The train was filling up now. The sun was out, already hot through the glass. Men in short-sleeved white shirts stood holding the straps and reading their phones. Two schoolgirls in summer uniform shared one pair of earphones, one bud each, and laughed at the same moment at something only they could hear. By the door an old man held a bundle on his knees, wrapped in a purple furoshiki, the square cloth people in Japan use to carry things. Through the knot Rei could see the tops of a box of sweets and a bunch of flowers. Offerings, for a family grave or a family altar. The old man saw Rei looking and gave a small nod, as if they both knew what week it was."
   },
   {
    "p": "“He never reaches for outsiders,” Itsuki said finally, to the window. “Never. I've asked him for things my whole life.”"

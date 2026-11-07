@@ -4,26 +4,32 @@
  "src": "m_registry",
  "blocks": [
   {
-   "p": "The deep drawer at the bottom of Higuchi's case was the one closed door in Rei's whole month that had not locked itself. So it was the one he trusted least, and the one he put off longest."
+   "p": "The deep drawer at the bottom of Higuchi's case was the one closed door in Rei's whole month that had not locked itself. So it was the one he trusted least. And it was the one he put off longest."
   },
   {
-   "p": "He went back to the Crooked Shelf after closing on a night when the borrowed grain was still faint in his palms. The shop was dark except for a single lamp. Higuchi was asleep on the cot in the back room with a book open on his chest, the way he slept most nights, among the books. Rei did not wake him. He knelt in front of the case, fitted the old dark key into the drawer, and opened it the way a man lifts a dressing he has been afraid to look under."
+   "p": "He went back on a night when the borrowed grain was still faint in his palms. This time he took the Namboku subway from Ōji. It was late, and the station under the street was almost empty. The platform had tall glass screen doors along its edge, so that nobody could fall or jump onto the tracks, and in the glass Rei could see his own tired reflection waiting beside him. When the train came, the screen doors and the train doors slid open together with a soft double hiss. In the carriage a young man in a suit was asleep on his briefcase, his tie loosened, his phone still lit in his hand. A woman in a nurse's cardigan read a paperback. Across from Rei, a man held a flip phone to his ear and said nothing at all, only listened, for four whole stations."
   },
   {
-   "p": "There was no grimoire. There was no spellbook, no contract that smelled of sulphur, none of the furniture the films had promised for a moment like this."
+   "p": "Rei got off at Iidabashi and walked east. The office streets were dark and shuttered, and the heat came up off the pavement even at this hour. A vending machine glowed on every corner. In a ramen shop by the road, three workmen in split-toed boots sat at the counter slurping noodles without speaking, under a television showing the late news. Further on, the streets of Jinbōchō were closed and sleeping. The bookshops had pulled their carts of cheap paperbacks inside and rolled their shutters down. The whole quarter smelled of paper even in the dark."
+  },
+  {
+   "p": "The Crooked Shelf was dark except for a single lamp. The side door was unlatched. The old man was asleep on the cot in the back room with a book open on his chest, the way he slept most nights, among his books. Rei did not wake him. He knelt in front of the case and fitted the old dark key into the drawer. He opened it the way a man lifts a bandage he has been afraid to look under."
+  },
+  {
+   "p": "There was no book of spells. There was no magic manual, no contract that smelled of sulphur. None of the props the films had promised for a moment like this."
   },
   {
    "img": "res_library.png",
    "cap": "The ledger from the deep drawer, read by lamplight"
   },
   {
-   "p": "There was a ledger. A plain accountant's ledger, the kind his father had kept, ruled in faint blue. The early pages were in an old, cramped hand, the dead exorcist's. Names had been entered there decades ago and crossed out and entered again as the years went by. The later pages were in Higuchi's careful script. Across the top of the newest page, in a hand so careful it must have taken the writer an hour, was one word."
+   "p": "There was a ledger. A plain accountant's ledger, the kind his father had kept, ruled in faint blue lines. The early pages were in an old, cramped hand. That was the dead exorcist's writing. Names had been written there decades ago, crossed out, and written in again as the years went by. The later pages were in Higuchi's careful script. Across the top of the newest page, in a hand so careful it must have taken an hour, was one word."
   },
   {
    "p": "<em>Registry.</em>"
   },
   {
-   "p": "Under it, numbered one to thirteen, were the only thirteen names that mattered in the city Rei had lived in his whole life without knowing they were there."
+   "p": "Under it, numbered one to thirteen, were the only thirteen names that mattered in the city. Rei had lived there his whole life without knowing they were there."
   },
   {
    "doc": {
@@ -47,40 +53,40 @@
    }
   },
   {
-   "p": "He read it the way people read the worst test results, top to bottom, refusing to skip ahead."
+   "p": "He read it the way people read the worst test results, from top to bottom, refusing to skip ahead."
   },
   {
-   "p": "They were not gods. That was the first thing the page taught him, and it landed like cold water. The thirteen were not gods and never had been. They were offices. The ledger called them domains, the way a ward has a registrar and a precinct has a captain. Thirteen standing arrangements between the living city and the pressure on the other side of its wall. Each one was an emotion. Each one had a holder. Each one was a discipline that a single person had agreed to carry so that the rest of Tokyo did not have to feel the full weight of it."
+   "p": "They were not gods. That was the first thing the page taught him, and it hit him like cold water. The Thirteen were not gods and never had been. They were offices. The ledger called them domains. A domain was a post, the way a ward has a registrar and a police precinct has a captain. There were thirteen standing arrangements between the living city and the pressure on the other side of its wall. Each one was an emotion. Each one had a holder. And each one was a discipline that a single person had agreed to carry, so that the rest of Tokyo did not have to feel its full weight."
   },
   {
-   "p": "Despair had an office. Rage had an office. Fear, Hunger, Longing. Each had a number, a chair and a person. Somewhere in this city those people were alive right now, each bearing one of the thirteen ways the other side leans on the world, so that for everyone else it stayed a mood instead of a flood."
+   "p": "Despair had an office. Rage had an office. So did Fear, Hunger and Longing. Each had a number, a chair and a person. Somewhere in this city, those people were alive right now. Each of them was bearing one of the thirteen ways the other side leans on the world. Because of them, for everyone else, it stayed a mood instead of a flood."
   },
   {
-   "p": "Then there was the thirteenth line. It was different, and Rei knew it would be before his eye reached it, the way a body knows which stair is the broken one in the dark."
+   "p": "Then there was the thirteenth line. It was different. Rei knew it would be before his eye reached it, the way a body knows which stair is the broken one in the dark."
   },
   {
-   "p": "Twelve of the lines had names. The thirteenth had only a number and a word, Duty, and beside it, in the same careful hand but pressed harder, almost through the paper, the words <em>vacant since 2009</em>."
+   "p": "Twelve of the lines had names. The thirteenth had only a number and a word, Duty. Beside it, in the same careful hand but pressed harder, almost through the paper, were the words <em>vacant since 2009</em>."
   },
   {
-   "p": "No name. No holder. No discipline carried. An office of the city had stood open for six years. There was a chair at the table of the thirteen with no one in it."
+   "p": "No name. No holder. Nobody carrying it. An office of the city had stood open for six years. There was a chair at the table of the Thirteen with no one in it."
   },
   {
-   "p": "Rei sat back on the bookshop floor and understood, finally and completely, what his brother had been pulled toward all month. Not a throne. Not a power. A vacancy. The one unbearable thing the registry had been built never to allow. An office of the wall left unmanned, and leaning."
+   "p": "Rei sat back on the bookshop floor. Finally and completely, he understood what his brother had been pulled toward all month. Not a throne. Not a power. A vacancy. The one unbearable thing the registry had been built never to allow. An office of the wall left empty, and leaning."
   },
   {
-   "p": "Higuchi had not only listed the thirteen. He had explained them, in a long note that ran sideways up the margin of the page. The writing got smaller and more frightened the higher it climbed. Rei turned the ledger on its side and read the only honest account of the wall he had ever been given."
+   "p": "Higuchi had not only listed the thirteen. He had explained them, in a long note that ran sideways up the margin of the page. The higher it climbed, the smaller and more frightened the writing became. Rei turned the ledger on its side and read the only honest account of the wall he had ever been given."
   },
   {
    "p": "<em>A held domain is a chair that leans into the room.</em>"
   },
   {
-   "p": "The holder takes the pressure of one emotion onto a single living soul and turns it inward, toward the city. That way Despair stays a private weather inside one person instead of a public flood across a ward. The cost is paid, but it is paid by someone. When people feel any of these thirteen things strongly enough, all at once, the feeling presses on the membrane. The holder takes that pressure and keeps the emotion moving, keeps it in circulation, so that it never settles and pools into the stuff suffering beings are made from."
+   "p": "This was how it worked. The holder takes the pressure of one emotion onto a single living soul and turns it inward, toward the city. That way Despair stays a private weather inside one person, instead of a public flood across a whole ward. The cost is paid, but one person pays it. When people feel any of these thirteen things strongly enough, all at once, the feeling presses on the veil. The holder takes that pressure and keeps the emotion moving. It stays in circulation, like water in a pipe, so that it never settles and pools. Pooled emotion is what suffering beings are made from."
   },
   {
    "p": "<em>That is the arrangement. That is the whole secret.</em>"
   },
   {
-   "p": "The city stood because thirteen people, most of whom Rei had walked past without a glance, were at this moment holding a door shut with their entire lives. They lived ordinary lives. They had jobs and apartments and habits. The CVD knew only that the old Accord mentioned some kind of stabilising structure. Higuchi had underlined one sentence twice. <em>No one outside a very small group knows the anchors are thirteen people eating breakfast.</em>"
+   "p": "The city stood because thirteen people were holding a door shut with their whole lives, at this very moment. Rei had probably walked past most of them without a glance. They lived ordinary lives. They had jobs and flats and habits. The CVD knew only that the old Accord mentioned some kind of stabilising structure. Higuchi had underlined one sentence twice. <em>No one outside a very small group knows the anchors are thirteen people eating breakfast.</em>"
   },
   {
    "p": "<em>A vacant domain,</em> the note went on, <em>is a chair that leans the other way.</em>"
@@ -89,10 +95,10 @@
    "p": "Here the hand began to shake. Rei could see it. The blue ink caught and pooled."
   },
   {
-   "p": "With no holder to turn the pressure inward, the office does not close. It cannot close. The registry has no way to retire a seat. Thirteen is a number the wall requires, not a committee that can be made smaller. So the pressure of the thirteenth emotion, with no living person to bear it, leans outward instead. It leans against the seam nearest the empty chair. The membrane there thins. Entity activity rises. And the city feels a wrongness that civilians cannot name."
+   "p": "With no holder to turn the pressure inward, the office does not close. It cannot close. The registry has no way to retire a seat. Thirteen is a number the wall requires. It is not a committee that can be made smaller. So the pressure of the thirteenth emotion, with no living person to bear it, leans outward instead. It leans against the seam nearest the empty chair. The veil there grows thin. Activity from the other side rises. And the city feels a wrongness that ordinary people cannot name."
   },
   {
-   "p": "The seam nearest the empty chair was the one over the district where the chair had last been filled. The last holder of Duty had died in 2009, in Kita. When a holder crosses, the succession is meant to find the next holder by itself, among whoever is near with the right kind of opening to the Font. That night no one with the right aperture was anywhere near. The succession did not take. Since then the thing at the centre that Rei had already met, the one the old books called the Axis, had been carrying the thirteenth seat itself, directly, from inside. Higuchi had written beside that, in letters barely a millimetre tall, <em>not sustainable</em>."
+   "p": "The seam nearest the empty chair was the one over the district where the chair had last been filled. The last holder of Duty had died in 2009, in Kita. When a holder dies, the succession is meant to find the next holder by itself, among whoever is near with the right kind of opening to the Font. That night, nobody with the right opening was anywhere near. The succession did not take. Since then, the thing at the centre that Rei had already met, the one the old books called the Axis, had been carrying the thirteenth seat itself, directly, from inside. Beside that, Higuchi had written two words in letters barely a millimetre tall. <em>not sustainable</em>."
   },
   {
    "p": "That was why Kita had been coming apart since 2009. That was why March 2011 had torn it so much faster. A vacant office had been pressing its full weight on a single ward for six years."
@@ -101,16 +107,16 @@
    "p": "<em>That is why the dead come so close there at Obon,</em> the note said. <em>And that is why a healer who wished to thin the wall would not need to break it. He would only need to help.</em>"
   },
   {
-   "p": "Rei sat with that in the lamplight until the shape of it stopped being information and became the floor of his stomach."
+   "p": "Rei sat with that in the lamplight until it stopped being information and settled in the pit of his stomach."
   },
   {
-   "p": "The Healer was not thinning Kita's wall against the grain of the world. It was thinning it along the grain. It was finishing a tear the empty chair had spent six years starting. Every favour, every haunting closed, every grief gently put to rest, had not been the Healer fighting the registry. It had been the registry's own vacant thirteenth seat doing exactly what an empty office does, with a patient demon standing beside it lending a shoulder."
+   "p": "The Healer was not thinning Kita's wall against the grain of the world. It was thinning it along the grain. It was finishing a tear that the empty chair had spent six years starting. Every favour, every haunting closed, every grief gently put to rest, had not been the Healer fighting the registry. It had been the registry's own empty thirteenth seat doing exactly what an empty office does, with a patient demon standing beside it, lending a shoulder."
   },
   {
-   "p": "Now he understood why no grade in the city could point to a crime. There had been no crime. There had been a death in 2009, and no one in the right place, and a wall that had been sagging ever since. Everything after that had only been the wall finishing the fall it began before Rei was grown. His brother's hands were the latest, gentlest, most loving thing leaning on a door that had wanted to open since the year the lights went out."
+   "p": "Now he understood why nobody of any grade in the city could point to a crime. There had been no crime. There had been a death in 2009, and no one in the right place, and a wall that had been sagging ever since. Everything after that was only the wall finishing a fall it had begun before Rei was grown. His brother's hands were the latest, gentlest, most loving thing leaning on a door that had wanted to open since the year the lights went out."
   },
   {
-   "p": "From the back room came the creak of the cot. Higuchi was awake, standing in the doorway in his cardigan, looking at the ledger on the floor and at the boy sitting beside it."
+   "p": "From the back room came the creak of the cot. Higuchi was awake. He stood in the doorway in his cardigan, looking at the ledger on the floor and at the boy sitting beside it."
   },
   {
    "p": "\"I told you it would make it worse,\" he said."

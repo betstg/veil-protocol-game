@@ -13,10 +13,10 @@
    "p": "The index card had not been there last night."
   },
   {
-   "p": "Rei was sure of it. He had held the archive open at the first page in the kitchen at four in the morning and read the Opening Note twice. Now it was nearly noon, the flat bright and hot, the cicadas going in the zelkova outside, and when he opened the cover a card slid out onto the table as if it had been waiting for him to look away."
+   "p": "Rei was sure of it. He had held the archive open at the first page in the kitchen at four in the morning and read the Opening Note twice. Now it was nearly noon. The flat was bright and hot, and the cicadas were going in the big zelkova tree outside the window. When he opened the cover, a card slid out onto the table, as if it had been waiting for him to look away."
   },
   {
-   "p": "It was Gin's hand. Small, exact, but pressed so hard that the pen had dented the card through to the back."
+   "p": "It was Gin's hand. Small, exact, but pressed so hard that the pen had dented the card right through to the back."
   },
   {
    "doc": {
@@ -29,13 +29,13 @@
    }
   },
   {
-   "p": "Rei turned it over. The back was blank. He looked at the flat around him, at the locked door with the chain on, at the window he had shut and latched before going to Nezu. Nobody had been in. He was almost certain nobody had been in."
+   "p": "Rei turned it over. The back was blank. He looked around the flat. The door was locked with the chain on. The window had been shut and latched before he went to Nezu. Nobody had been in. He was almost certain nobody had been in."
   },
   {
-   "p": "The fourteenth. Of August? This August, with Obon about to begin? He could not tell whether the card was warning him about something that had already happened or something still on its way. He put it back under the cover exactly where it had been, the way a person puts things back in a dead man's room, and then hated himself for thinking it."
+   "p": "The fourteenth. Of August? This August, with Obon about to begin? He could not tell if the card was warning him about something that had already happened or something still on its way. He put it back under the cover exactly where it had been, the way a person puts things back in a dead man's room. Then he hated himself for thinking it."
   },
   {
-   "p": "He cleared the cold dinner off the table without looking at the second plate. He set the archive down in the space. It was heavier than a book that size had any right to be. Gin had once told him that the difference between a practitioner who lives and one who doesn't is whether they wrote it down before the night made them doubt it. Rei had thought it was a joke."
+   "p": "He cleared the cold dinner off the table without looking at the second plate. He set the archive down in the space. It was heavier than a book that size should be. Gin had once told him that the difference between a practitioner who lives and one who doesn't is whether they wrote it down before the night made them doubt it. A practitioner was the Division's word for anyone who used the power. Rei had thought it was a joke."
   },
   {
    "p": "He started at the beginning, and he read in order."
@@ -44,7 +44,7 @@
    "break": "The foreword"
   },
   {
-   "p": "The foreword was undated. <em>Written in the morning. Coffee going cold on the left.</em>"
+   "p": "The foreword had no date. Under the heading Gin had written only <em>Written in the morning. Coffee going cold on the left.</em>"
   },
   {
    "doc": {
@@ -65,10 +65,10 @@
    "p": "So last night Gin had gone out onto the step in the dark, as if it were morning, and smoked half a cigarette, and put it out, and not come back in."
   },
   {
-   "p": "All those mornings. All those few centimetres. He had thought it was a joke Gin never caught. Gin had caught it every time, and kept quiet about it, and written it down as the most reliable part of his day. Rei pressed the heel of his hand against his eyes until the kitchen came back in coloured spots, and then he went on reading, because the card said in order and he did not trust himself to stop."
+   "p": "All those mornings. All those few centimetres. Rei had thought it was a joke Gin never caught. Gin had caught it every time, and kept quiet about it, and written it down as the most reliable part of his day. Rei pressed the heel of his hand against his eyes until the kitchen came back in coloured spots. Then he went on reading, because the card said in order, and he did not trust himself to stop."
   },
   {
-   "p": "The foreword ended with a note in a different pen, a little faster, as if written on the way out of the door."
+   "p": "The foreword ended with a note in a different pen. It was a little faster, as if written on the way out of the door."
   },
   {
    "doc": {
@@ -82,13 +82,13 @@
    }
   },
   {
-   "p": "Rei got up and opened the freezer. It was full. Rice portioned into flat bags, labelled in Gin's print. Curry. Gyoza. Enough for weeks. He stood in the cold breath of it longer than he needed to. Then he turned to page 47. There was a phone number on it and nothing else. No name. He copied it into his phone and did not call it yet. He did not know yet what he needed, and Gin had told him not to lead with that anyway."
+   "p": "Rei got up and opened the freezer. It was full. Rice portioned into flat bags, labelled in Gin's print. Curry. Gyoza dumplings. Enough for weeks. He stood in the cold breath of it longer than he needed to. Then he turned to page 47. There was a phone number on it and nothing else. No name. He copied it into his phone and did not call it yet. He did not know yet what he needed, and Gin had told him not to lead with that anyway."
   },
   {
    "break": "Chapter One. What Everyone Knows"
   },
   {
-   "p": "Chapter One was written as an official document, with a stamp at the top that said it was for CVD personnel only. Rei knew most of it the way everyone knew it. He read it anyway, because Gin had told him to, and because it was strange to see the ordinary world written down as if someone might need it explained."
+   "p": "Chapter One was written as an official document, with a stamp at the top that said it was for CVD staff only. Rei knew most of it the way everyone knew it. He read it anyway, because Gin had told him to, and because it was strange to see the ordinary world written down as if someone might need it explained."
   },
   {
    "doc": {
@@ -103,7 +103,7 @@
    }
   },
   {
-   "p": "Every child in Japan learned the outline in school. The veil was real. Some people could feel it and some could not. There was a Division for it, the way there was a Division for water and roads. Rei had never once wondered who decided it would be that way. Gin's page told him, in a dry paragraph he could almost hear in his brother's voice."
+   "p": "Every child in Japan learned the outline in school. The veil was real. Some people could feel it and some could not. There was a Division for it, the way there was a department for water and roads. Rei had never once wondered who decided it would be that way. Gin's page told him, in a dry paragraph he could almost hear in his brother's voice."
   },
   {
    "doc": {
@@ -115,6 +115,9 @@
      "What matters operationally is what a thing does, not what it is. CVD Training Manual, p.3"
     ]
    }
+  },
+  {
+   "p": "So that was the Accord. In 1962, at a meeting in Tokyo, governments had agreed to stop hiding the veil. Instead of keeping it secret, they made it ordinary. They gave it forms, offices and rules. People with power would be written down. Things that came through would be sorted into types. And the Division would keep order at the edge."
   },
   {
    "p": "In the margin, in pencil, Gin had argued with himself."
@@ -131,7 +134,7 @@
    }
   },
   {
-   "p": "<em>Or do not know what they are.</em> Rei read that line again and found that his mouth had gone dry, and could not have said why."
+   "p": "<em>Or do not know what they are.</em> Rei read that line again and found that his mouth had gone dry. He could not have said why."
   },
   {
    "doc": {
@@ -148,7 +151,7 @@
    }
   },
   {
-   "p": "<em>What the public is given,</em> Gin had captioned it. Under the table he had copied out the promise everyone knew. <em>Register, and the Division will support you, protect you in law, let you work and give you a rank.</em> Then, underneath, Gin's own line, underlined once."
+   "p": "<em>What the public is given,</em> Gin had written under it. Below the table he had copied out the promise everyone knew. <em>Register, and the Division will support you, protect you in law, let you work and give you a rank.</em> Then, underneath, came Gin's own line, underlined once."
   },
   {
    "doc": {
@@ -160,10 +163,10 @@
    }
   },
   {
-   "p": "Rei had never been registered. He had never been measured by anyone. In nineteen years nobody from the Division had come to the door to ask, though they asked every child of every officer sooner or later, and his brother was an officer. He had never once thought about why."
+   "p": "Rei had never been registered. He had never been measured by anyone. In nineteen years nobody from the Division had come to the door to ask. They asked every child of every officer sooner or later, and his brother was an officer. He had never once thought about why."
   },
   {
-   "p": "Between the official pages there was a field note in Gin's own voice, dated only <em>A Tuesday. Third week of October. Rei had an exam.</em> Rei remembered the exam. He had failed half of it and come home and slept on the couch in his clothes."
+   "p": "Between the official pages there was a field note in Gin's own voice. Its only date was <em>A Tuesday. Third week of October. Rei had an exam.</em> Rei remembered the exam. He had failed half of it and come home and slept on the couch in his clothes."
   },
   {
    "doc": {
@@ -179,35 +182,38 @@
    }
   },
   {
-   "p": "A post-it was stuck to the bottom of the page, curling at one corner. <em>Sometimes an old man just wants to finish his tea. Learning to tell the difference is the job.</em>"
+   "p": "A yellow sticky note was stuck to the bottom of the page, curling at one corner. <em>Sometimes an old man just wants to finish his tea. Learning to tell the difference is the job.</em>"
   },
   {
-   "p": "Rei looked at the two cups upturned on the rack. He thought about a man who had said goodbye to an empty chair in Nerima and come home the same night and asked his brother how the exam went."
+   "p": "Rei looked at the two cups upturned on the rack. He thought about a man who had said goodbye to an empty chair in Nerima, then come home the same night and asked his brother how the exam went."
   },
   {
    "img": "agenda_board.png",
    "cap": "Gin's map of the unregistered network of northern Tokyo"
   },
   {
-   "p": "It took him the rest of the afternoon to see the shape of the whole thing. When he did, it resolved the way a face comes out of static once a person stops trying to see it. The archive was not a journal. It was a key-ring."
+   "p": "It took him the rest of the afternoon to see the shape of the whole thing. When he did, it came clear all at once, the way a face comes out of a blurred photograph once a person stops trying to see it. The archive was not a diary. It was a ring of keys."
   },
   {
-   "p": "Gin had mapped the unregistered network of northern Tokyo, the people the registry did not count, the way the Directorate never could. Not as a list of suspects but as a map of trust. Who would open a door for whom, and at what hour, and after which password. And on page 147 he had locked the live parts of it behind four people. Four primary nodes. A baker who did not know what he was. A clinic behind a blue curtain. A café that kept Tuesday evenings free for the kind of customer who came in already knowing. A shrine room behind a Korean restaurant in Shin-Ōkubo."
+   "p": "Gin had mapped the unregistered people of northern Tokyo, the ones the Division's lists did not count. He had done it better than the Division ever could. It was not a list of suspects. It was a map of trust. Who would open a door for whom, at what hour, after which password. And on page 147 he had locked the live parts of it behind four people. Four main contacts. A baker who did not know what he was. A clinic behind a blue curtain. A café that kept Tuesday evenings free for the kind of customer who came in already knowing. A shrine room behind a Korean restaurant in Shin-Ōkubo, the Korean quarter of the city, on the west side."
   },
   {
-   "p": "None of them would speak to a stranger. All of them, the margins said in Gin's smallest hand, owed him. Not money. The dangerous kind of debt, the kind a careful man collects only once. He had never collected. He had left them for Rei instead. That was either the most generous thing his brother had ever done or the most damning, because to walk this map was to announce, to everyone Gin had protected, that the man who kept them safe was gone."
+   "p": "None of them would speak to a stranger. All of them, the margins said in Gin's smallest hand, owed him. Not money. The dangerous kind of debt, the kind a careful man collects only once. He had never collected. He had left them for Rei instead. That was either the most generous thing his brother had ever done or the most dangerous. To walk this map was to announce, to everyone Gin had protected, that the man who kept them safe was gone."
   },
   {
-   "p": "The first node was the baker."
+   "p": "The first contact was the baker."
   },
   {
-   "p": "The shop was on a narrow street behind Jūjō station, two tables and a glass case and the smell of melon bread. The man behind the counter was in his fifties, round, floury to the elbows. Gin's margin said he did not know what he was. Rei watched him for a minute from the doorway and saw what Gin meant. Every time a customer came in, the baker looked up a half-second before the bell rang."
+   "p": "Rei went out into the full heat of the afternoon. It was the kind of Tokyo heat that comes up off the pavement as well as down from the sky, thirty-four degrees and so humid that his shirt stuck to his back before he reached the station. He rode the Keihin-Tōhoku one stop north to Higashi-Jūjō and walked west through the back streets toward Jūjō. A green Saikyō line train rattled through a level crossing while the warning bells rang. Old women sat in the shade of shop awnings with paper fans. A shopping street had hung its Obon lanterns in a long row, red and white, and they swayed a little though there was no wind. Rei noticed that, and then made himself stop noticing it."
+  },
+  {
+   "p": "The bakery was on a narrow street behind Jūjō station. It had two tables, a glass case and the smell of melon bread, the sweet round buns with a crisp sugar crust that every child in Japan grows up on. The man behind the counter was in his fifties, round, floury to the elbows. Gin's margin said he did not know what he was. Rei watched him for a minute from the doorway and saw what Gin meant. Every time a customer came in, the baker looked up half a second before the bell rang."
   },
   {
    "p": "When the shop was empty Rei went to the counter. The baker smiled the shop smile. Then he looked properly at Rei's face, and the smile stopped."
   },
   {
-   "p": "Rei watched the recognition cross him. The small flinch. The recalculation. The careful arrangement of his features into something that gave nothing away. Rei understood that he had walked into a story that was already half told, and that he was the only person in it who did not know the plot."
+   "p": "Rei watched the recognition cross him. The small flinch. The quick rethink. The careful arranging of his face into something that gave nothing away. Rei understood that he had walked into a story that was already half told, and that he was the only person in it who did not know the plot."
   },
   {
    "p": "“You're his brother,” the baker said."
@@ -219,10 +225,13 @@
    "p": "“How are you?” he asked instead. “How have you been keeping?”"
   },
   {
-   "p": "The baker blinked. Then something in his shoulders let go. He told Rei, slowly, about his knees, and his daughter in Osaka, and the August heat that made the dough rise wrong. Rei listened to all of it. When it was finished, the baker turned the sign on the door to <em>Closed</em> and poured them both a cup of barley tea."
+   "p": "The baker blinked. Then something in his shoulders let go. He told Rei, slowly, about his knees, and his daughter in Osaka, and the August heat that made the dough rise wrong. Rei listened to all of it. When it was finished, the baker turned the sign on the door to <em>Closed</em> and poured them both a glass of cold barley tea, the brown, slightly bitter tea that every house in Japan keeps in the fridge in summer."
   },
   {
-   "p": "He told Rei a piece of it, and by evening the clinic and the café had told him more. Not all of it. None of them would ever tell him all of it, because Gin had trained them not to, and grief makes people loyal to the rules of the dead. But a piece. That in his last weeks Gin had been <em>wrong</em>, the way a room is wrong after something has stood in it. That he had been carrying something carefully and quietly, the way a person carries a thing they have decided to die for rather than set down. And that whatever it was, he had been certain. They all said this, each in their own words, and it was the part that frightened Rei most."
+   "p": "From Jūjō he went on to Akabane, the last stop in Kita before the river, a busy, cheerful district of cheap bars and covered shopping arcades. Then to the café. The trains were crowded with families going home for Obon, with suitcases and paper bags of gifts, and small children asleep against their parents. At every station the doors opened on the same wall of heat. By the time the sun went down behind the buildings, Rei had asked three people how they were, had listened to every answer, and had drunk more tea than he wanted."
+  },
+  {
+   "p": "The baker told him a piece of it. By evening the clinic and the café had told him more. Not all of it. None of them would ever tell him all of it, because Gin had trained them not to, and grief makes people loyal to the rules of the dead. But a piece. In his last weeks, they said, Gin had been <em>wrong</em>, the way a room is wrong after something has stood in it. He had been carrying something carefully and quietly, the way a person carries a thing they have decided to die for rather than put down. And whatever it was, he had been certain. They all said this, each in their own words, and it was the part that frightened Rei most."
   },
   {
    "p": "Gin had been protecting <em>him</em>."

@@ -4,10 +4,13 @@
  "src": "m_ledger",
  "blocks": [
   {
-   "p": "Rei spread his brother's papers across the low table the way a body is laid out for washing. He sorted them by region, then by what was left. The official case files were clean to the point of insult. Every margin was squared. Every closure was signed off in a fortnight, on cases that should have taken a season. The tidiness did not reassure him. It raised the hair on his arms, because he had learned this week that the thing wearing Gin loved order the way a tourniquet loves a limb."
+   "p": "The morning was already hot when Rei sat down at the low table in Gin's flat. Outside, the cicadas had started at six and had not stopped. Somewhere in the building a neighbour was burning incense for the Obon dead, and the sweet grey smell came in through the window screen. Rei spread his brother's papers across the table and began to sort them. First by region. Then by whatever was left."
   },
   {
-   "p": "Before he reached the bottom of the pile he found Gin's money. It was a page torn from the back of the archive, headed <em>Money and Resources</em>, and it was so ordinary that Rei had to sit back and breathe. A CVD operative earned two hundred and twenty thousand yen a month and had an expense account for salt and cedar. A Grid practitioner earned whatever the month's cases paid, twenty to eighty thousand, and lived on favours. And then, in its own box, there was Rei."
+   "p": "The official case files were very clean. Every margin was straight. Every case was closed and signed within two weeks, even cases that should have taken a whole season. A week ago that neatness would have looked like good work. Now it made the hair on his arms stand up. He had learned this week that the thing wearing Gin loved order. It liked things tight and tidy, the way a tourniquet is tight and tidy. A tourniquet also stops the blood."
+  },
+  {
+   "p": "Before he reached the bottom of the pile, he found Gin's money. It was a page torn from the back of the archive, headed <em>Money and Resources</em>. It was so ordinary that Rei had to sit back and breathe. A CVD operative earned two hundred and twenty thousand yen a month, which was a modest office salary in Tokyo, plus an expense account for salt and cedar. A Grid practitioner earned whatever the month's cases paid, anything from twenty to eighty thousand, and lived on favours. And then, in a box of its own, there was Rei."
   },
   {
    "doc": {
@@ -22,14 +25,14 @@
    }
   },
   {
-   "p": "Rei laughed once, out loud, in the empty flat. It was true. Eighty thousand a month, and fifteen thousand of his own when the week began, and most of that gone now on trains and cold tea. Gin had written it down as if his little brother were a line in a field budget. Then he had added the joke about the coffee maker, because he could not help himself."
+   "p": "Rei laughed once, out loud, in the empty flat. It was all true. Eighty thousand a month from the internship. Fifteen thousand of his own at the start of the week, and most of that already gone on train fares and cold tea from vending machines. Gin had written his little brother down like a line in a field budget. Then he had added the joke about the coffee maker, because he could never help himself."
   },
   {
    "img": "currency_prices.png",
    "cap": "Gin's price list and the month's money"
   },
   {
-   "p": "The next page was a price list, written in the same patient hand. Rei read it slowly. It was the closest thing he had to Gin's voice telling him how to live."
+   "p": "The next page was a price list in the same patient handwriting. Rei read it slowly. It was the closest thing he had to Gin's voice, telling him how to live."
   },
   {
    "doc": {
@@ -50,10 +53,13 @@
    }
   },
   {
-   "p": "Rei took his own pass out of his wallet. Jūjō to Shinjuku. It had renewed on the first of the month, after Gin had already gone quiet, and he had not noticed. Under the price list Gin had left a short note. <em>Every month it renews and I do not cancel it and that is a decision I make by not making it.</em>"
+   "p": "Rei knew the name at the bottom only from the archive. Tanizaki was an old practitioner who had known Gin since Gin was a boy. Gin wrote about him the way a person writes about a difficult uncle, with respect and a little bit of fear. And the kissaten on the list was the old kind of Japanese coffee shop, with dark wood booths, slow service and a cup that cost too much. People did not pay for the coffee there. They paid for the right to sit still."
   },
   {
-   "p": "Rei turned the card over in his fingers. He could cancel it. It would take five minutes at the station office. He put it back in his wallet instead, in the same slot, and understood that he had just made the same decision his brother made every month. Some things a person keeps paying for because stopping them would mean saying out loud what has changed."
+   "p": "Rei took his own train pass out of his wallet. It was a plastic IC card printed with the route, Jūjō to Shinjuku. It had renewed itself on the first of the month, after Gin had already gone quiet, and Rei had not even noticed. Under the price list Gin had left a short note. <em>Every month it renews and I do not cancel it and that is a decision I make by not making it.</em>"
+  },
+  {
+   "p": "Rei turned the card over in his fingers. He could cancel it. It would take five minutes at the ticket office at Jūjō station. Instead he put it back in his wallet, in the same slot. He understood that he had just made the same decision his brother made every month. People keep paying for some things because stopping would mean saying out loud that something has changed."
   },
   {
    "break": "The other ledger"
@@ -63,44 +69,62 @@
    "cap": "The other ledger, a cheap notebook of favours"
   },
   {
-   "p": "Under the files and the money, in a cheap notebook with a bent spine, was the other ledger. It was a list of favours. Each one was small. Each one was dated after the fourteenth. Each one was a person helped across some private threshold they could not cross alone."
+   "p": "Under the files and the money was the other ledger. It was a cheap school notebook with a bent spine. Inside was a list of favours. Each one was small. Each one was dated after the fourteenth, the Wednesday night Gin went quiet. And each one was a person Gin had helped across some private line they could not cross alone."
   },
   {
-   "p": "A widow in Adachi, whose husband would not stop knocking on the inside of the family altar. <em>Soothed,</em> Gin's note said. <em>Given rest, both of them.</em> A boy in Kita who heard the 2011 dead in the gutters when it rained. <em>Shown how to listen without drowning.</em> A pharmacist sinking under a debt no salary could touch. <em>Relieved.</em>"
+   "p": "A widow in Adachi, whose dead husband would not stop knocking on the inside of the family altar. <em>Soothed,</em> Gin's note said. <em>Given rest, both of them.</em> A boy in Kita who heard the 2011 dead in the gutters whenever it rained. <em>Shown how to listen without drowning.</em> A pharmacist sinking under a debt that no salary could pay. <em>Relieved.</em>"
   },
   {
    "img": "res_pharmacist.png",
    "cap": "A pharmacist sinking under a debt, one of the names in the ledger"
   },
   {
-   "p": "Read one at a time, each entry was a kindness. That was the horror of it. Mercy and recruitment used the same handwriting. Rei sat in the Obon heat with the neighbours' incense drifting through the screen, and he understood that this was not a record of help. It was a map of leashes. Every grateful person on it was a thread the Healer was still holding."
+   "p": "Read one at a time, each entry was a kindness. That was what frightened him. Mercy and recruitment were written in the same handwriting. Rei sat in the Obon heat, with the neighbour's incense drifting through the screen, and he understood what the notebook really was. It was not a record of help. It was a list of leashes. Every grateful person in it was tied by a thread, and the Healer was still holding the other end."
   },
   {
-   "p": "He counted the entries twice. There were thirty-one. Thirty-one people in this city who would, if he knocked tonight, tell him with shining eyes that his brother had saved them. And without knowing it, every one of them would lie to his face about where Gin slept. Gratitude is the cleanest counterfeit of love, and the thing in Gin had been minting it for a month."
+   "p": "He counted the entries twice. There were thirty-one. Thirty-one people in this city who would tell him, with shining eyes, that his brother had saved them. If Rei asked any of them where Gin was sleeping, they would lie to protect him, and they would not even know they were lying. Gratitude can look exactly like love from the outside. The thing in Gin had been making it, carefully and in bulk, for a month."
   },
   {
-   "p": "He started with the widow, because she was first on the list and because Adachi was one change of train away. Her house was a narrow two-storey place with potted morning glories on the step. She opened the door, looked at his face for a long second, and said, \"You're his brother.\" Then she made him tea he did not want."
+   "p": "He decided to start with the widow. She was first on the list, and Adachi was only one change of train away."
   },
   {
-   "p": "She talked about Gin as though he had hung the moon and then come back to dust it. The altar behind her was quiet now. It had not been quiet in four years, she said. Her husband used to knock from inside the lacquer every night at the hour he died. Gin had sat with her through one whole night. By morning the knocking had stopped and something else had started. \"A warmth,\" she said, and pressed her hand flat to her chest. \"A sense of being <em>accounted for</em>. As if someone careful is keeping a tally, and I'm on it.\""
+   "p": "He walked to Ōji station through streets that smelled of hot asphalt and the cut grass of Asukayama park. The station was busy for a weekday. It was Obon week, the time when the dead are said to come home for a few days, and half of Tokyo was going home too. People stood on the platform with suitcases and paper shopping bags of gifts for their parents. An old man held a cloth bundle tied at the top, the kind called a furoshiki, and through the cloth Rei could see the square shapes of boxed sweets. Offerings, probably, for a family grave."
+  },
+  {
+   "p": "Rei touched his card to the gate. It gave its small electronic beep and let him through. The train came in with its sky-blue stripe, the Keihin-Tōhoku line, and the air conditioning hit him like cold water. He stood by the door. Across from him a salaryman slept sitting up, his briefcase on his knees and his chin on his chest. A girl in a school uniform watched a video on her phone with the sound off. At every station a short cheerful melody played as the doors opened, a different tune for each stop. Rei had heard those jingles all his life. This week they sounded too bright, as if the city were smiling over something it did not want to talk about."
+  },
+  {
+   "p": "He changed at Nippori. The second train ran east and crossed the Sumida river on a long iron bridge. Below, the water was flat and brown in the heat. On the far side was Adachi, low houses and narrow lanes and laundry hanging from every balcony."
+  },
+  {
+   "p": "The widow's house was a narrow two-storey place with potted morning glories on the step. She opened the door, looked at his face for a long second, and said, \"You're his brother.\" Then she made him tea he did not want."
+  },
+  {
+   "p": "Rei saw the altar as soon as he sat down. Most Japanese families keep one, a lacquered cabinet called a butsudan, where they place photographs of their dead with a small bell, a candle and offerings of rice and fruit. At Obon the doors stay open and the offerings are fresh, because the dead are expected home. Her altar was open now. There were peaches on a plate in front of it, and a stick of incense burning."
+  },
+  {
+   "p": "She talked about Gin as if he were a saint who had come to her door by mistake. The altar was quiet now, she said. It had not been quiet in four years. Every night, at the hour her husband died, he used to knock from inside the lacquer. Gin had sat with her through one whole night. By morning the knocking had stopped, and something else had started. \"A warmth,\" she said, and pressed her hand flat against her chest. \"A sense of being <em>accounted for</em>. As if someone careful is keeping a tally, and I'm on it.\""
   },
   {
    "p": "Rei asked her, gently, what she would do if Gin asked her for something. She looked at him as if he had asked whether she would breathe if the air requested it."
   },
   {
-   "p": "\"Anything,\" she said. She meant it the way the drowning mean the rope."
+   "p": "\"Anything,\" she said. She meant it the way a drowning person means it when someone throws a rope."
   },
   {
-   "p": "Sitting in her tidy front room, with the cicadas sawing the afternoon to pieces outside, Rei saw exactly how the trap was built. It was not built out of fear. Fear can be fled. It was built out of debt, and debt follows a person home. Thirty-one people saying <em>anything</em>, scattered across the wards like seeds. Each one was ready to become a hand the Healer could call its own on the night it finally reached for the Thirteenth Seat. He finished the tea so as not to insult the grief that had made it."
+   "p": "Sitting in her tidy front room, with the cicadas loud outside, Rei saw exactly how the trap was built. It was not built out of fear. A person can run away from fear. It was built out of debt, and debt follows a person home. Thirty-one people saying <em>anything</em>, scattered across the city like seeds. On the night the Healer finally reached for the Thirteenth Seat, every one of them would be a pair of hands it could call on. He finished the tea, so that he would not insult the grief that had made it."
   },
   {
-   "p": "Before he left he looked at the altar for a long moment. The photograph of the husband was an ordinary one, a man in a work jacket squinting at a camera. Rei did not know what he had been after he died. A spirit, surely, if he had knocked for four years. But a lonely one or a frightened one or something worse, Rei could not say, and he did not know where the man had gone when the knocking stopped. Gin would have known. Gin had written it all down somewhere."
+   "p": "Before he left, he looked at the altar for a long moment. The photograph of the husband was an ordinary one, a man in a work jacket squinting at the camera. Rei did not know what he had become after he died. A spirit, surely, if he had knocked for four years. But was he lonely, or frightened, or something worse? Rei could not say. He did not know where the man had gone when the knocking stopped. Gin would have known. Gin had written it all down somewhere."
   },
   {
-   "p": "On the way out, his own gift stirred without permission. It did that near places where the veil had been worked. There was a thinning at the threshold of her door, a cold seam where Gin had stood and done whatever he had done. Through it, faint, came an aftertaste. It was not his brother's register. It was not quite a demon's reach he recognised either. Something else had been here too. It had come in behind the mercy like a second guest, unseen by the widow, and it had left its own small mark on the seam."
+   "p": "At the front door his own gift stirred, without his permission. It did that near places where someone had worked on the veil. There was a weak place in the air at the threshold, a cold line where Gin had stood and done whatever he had done. Through it came a faint aftertaste, like the taste a room keeps after a stranger has smoked in it. It was not his brother's register. It was not the Healer's touch either, or not only. Something else had been here too. It had come in behind the mercy like a second guest. The widow had never seen it. But it had left its own small mark on the seam."
   },
   {
-   "p": "Rei rode the train home with his hand on his pass and the widow's tea still bitter on his tongue. That night he opened Gin's archive at the chapter on spirits. He wanted to know what her husband had been. He wanted to know what <em>given rest</em> could mean in his brother's hand."
+   "p": "Rei rode home in the late afternoon. The train was fuller now, and warmer. Two schoolgirls shared one pair of earphones, a white wire running between them, and nodded to the same song. A woman fanned herself with a folded train timetable. At Nippori the platform smelled of hot metal and fried food from the station shops, and paper lanterns for Obon hung above the exit stairs, white and unlit. Rei stood with his hand on the pass in his pocket. The widow's tea was still bitter on his tongue."
+  },
+  {
+   "p": "That night he opened Gin's archive at the chapter on spirits. He wanted to know what her husband had been. He wanted to know what <em>given rest</em> could mean in his brother's hand."
   }
  ],
  "n": 15,

@@ -4,7 +4,10 @@
  "src": "gin_28_font",
  "blocks": [
   {
-   "p": "After he wrote the hour down, Rei could not sleep, so he turned back through Gin's book to the chapter Gin had called the capstone. He had skipped it twice. It was the one where Gin admitted, in his careful field voice, what he did not know. Rei read it now with the crow's look still on his skin, because whatever had looked up at the bird lived under the thing these pages were about."
+   "p": "Rei walked home through the lantern-lit streets. A konbini on the corner was the brightest thing for blocks, and two high-school boys sat on the kerb outside it, sharing a bag of fried chicken and arguing about baseball. In the flat the air was hot and still. He switched on the fan, sat on the floor with his back against the bed, and opened Gin's book again."
+  },
+  {
+   "p": "After he wrote the hour down, he could not sleep. He turned back to the chapter Gin had called the capstone. He had skipped it twice. It was the one where Gin admitted, in his careful field voice, what he did not know. Rei read it now with the crow's look still on his skin, because whatever had looked up at the bird lived under the thing these pages were about."
   },
   {
    "doc": {
@@ -39,6 +42,9 @@
    }
   },
   {
+   "p": "Rei put it in plain words for himself, the way Gin had taught him to do with any hard page. All power came from one source, and that source was the Font. The Font kept the wall between the living and the dead standing. Souls that took the Font path went back into it in the end. And at the centre of it was the Axis, a being that had once been a person."
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "The rank table, last row",
@@ -50,7 +56,7 @@
    }
   },
   {
-   "p": "Two pages on, pasted in with the edges gone soft from handling, was the classified sheet Gin had never been cleared to own."
+   "p": "Two pages on, pasted in, with the edges gone soft from handling, was the classified sheet Gin had never been cleared to own."
   },
   {
    "img": "ch2_architect.png",
@@ -82,10 +88,10 @@
    }
   },
   {
-   "p": "Rei read the comment three times. Three years of being watched. Three years of Gin putting it down to the great patient system under the city. And for three years something else had been standing across the street. Gin had been right about the feeling and wrong about whose eyes they were. He had blamed the Architect, and the Architect had only been the excuse the demon wore."
+   "p": "Rei read the comment three times. Three years of being watched. For three years Gin had put the feeling down to the great patient system under the city. And for three years something else had been standing across the street. Gin had been right about the feeling and wrong about whose eyes they were. He had blamed the Architect, and the Architect had only been the excuse the demon wore."
   },
   {
-   "p": "On the facing page Gin had drawn ten small boxes in a row, ruled with care, and written <em>Noise</em> over them. Rei had seen the boxes before without understanding them. Gin had shaded three of them in pencil and then rubbed the shading out."
+   "p": "On the facing page Gin had drawn ten small boxes in a row, ruled with care, and written <em>Noise</em> over them. Rei had seen the boxes before without understanding them. They were a way of keeping score. Every time a practitioner changed the world, the score went up, and if it went high enough, the Architect answered. Gin had shaded three of the boxes in pencil and then rubbed the shading out."
   },
   {
    "doc": {
@@ -107,7 +113,7 @@
    }
   },
   {
-   "p": "Rei sat with the book open on his knees until the window went grey. Everything the Healer had done was quiet. Kindness was quiet. A month of mercy had hardly moved the boxes at all, and the structure had never once turned to look at it. Whatever he did now, he understood, would be loud."
+   "p": "Rei sat with the book open on his knees until the window went grey and the first crows began calling over the rooftops. Everything the Healer had done was quiet. Kindness was quiet. A month of mercy had hardly moved the boxes at all, and the structure had never once turned to look at it. Whatever he did now, he understood, would be loud."
   }
  ]
 }

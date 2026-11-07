@@ -5,7 +5,10 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "p": "This is the chapter Gin left open on the kitchen table twice, the one Rei closed both times without reading. He read it on the floor of the flat on the night of the journal, by the light of a desk lamp pulled down beside him. These are the pages as he found them. The last note is not Gin's. Rei wrote it in pencil in the margin, a little before dawn."
+   "p": "This is the chapter Gin left open on the kitchen table twice. Both times Rei closed it without reading it. He read it now, on the floor of Gin's room on the night of the journal, by the light of the desk lamp pulled down beside him. The pages are set out here as he found them. The last note is not Gin's. Rei wrote it himself, in pencil in the margin, a little before dawn."
+  },
+  {
+   "p": "Gin's chapter measured Stability as a number, from one hundred percent down to zero. One hundred meant the door between a person and the other side was fully shut. Zero meant the door was gone, and the person with it. The first page explained what happened at each step on the way down."
   },
   {
    "doc": {
@@ -29,6 +32,9 @@
    "cap": "A practitioner running low on Stability"
   },
   {
+   "p": "The next page listed what made the number fall. Rei read it with an uncomfortable feeling of recognition, because most of the list was simply a description of how people live in a big city in August."
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "What Depletes Stability",
@@ -45,6 +51,9 @@
    }
   },
   {
+   "p": "Beside the line about stimulants, Gin had written a note. It was about Rei. Rei looked at the empty can of coffee on the floor beside him and did not argue with it."
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "Gin, beside the stimulant entry",
@@ -53,6 +62,9 @@
      "He runs on stimulants and spite. His actual stability is consistently lower than his experience of himself. He thinks he is fine. He is fine until suddenly he is not, with less warning than he expects, because the warning system has been masked."
     ]
    }
+  },
+  {
+   "p": "Then came what made the number rise again. It was the plainest advice in the whole book. Eat. Sleep. Rest somewhere quiet."
   },
   {
    "doc": {
@@ -83,6 +95,9 @@
    }
   },
   {
+   "p": "The next page was the one Gin had underlined the most. It showed how possession actually comes. It does not come all at once, like a door kicked in. It comes slowly, down a slope, and the person on the slope usually thinks he is only tired."
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "The Possession Risk Curve. What Actually Happens at Each Level",
@@ -98,6 +113,9 @@
    }
   },
   {
+   "p": "Folded into the chapter was a small flyer from the Grid, the unregistered network, printed cheaply and signed with the purple Other Side Distribution stamp. It said the same things in plainer words, for people with no training at all."
+  },
+  {
    "doc": {
     "kind": "postit",
     "title": "Other Side Distribution. Running Low. What It Actually Feels Like",
@@ -110,7 +128,7 @@
    }
   },
   {
-   "p": "Under the curve, where the page still had room, Rei took a pencil from Gin's desk and wrote. He did not think about whether he was allowed to write in the book. He wrote small, in the lowercase he had always used, so it would be clear whose hand it was."
+   "p": "Under the curve, where the page still had room, Rei took a pencil from Gin's desk and wrote. He did not stop to ask whether he was allowed to write in the book. He wrote small, in the lowercase letters he had always used, so it would be clear whose hand it was."
   },
   {
    "doc": {

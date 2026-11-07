@@ -4,7 +4,10 @@
  "src": "gin_03_nobody_says",
  "blocks": [
   {
-   "p": "The baker's barley tea was still sour in Rei's mouth when he got home. He turned to Chapter Two, because it came next. The preface was dated <em>A Friday. Rain. Rei forgot his umbrella again. Left mine by the door for him.</em> Rei remembered the umbrella. He had not known it was Gin's. He read the chapter at the kitchen table with both lamps on, and twice he got up to check the lock, and both times it was locked."
+   "p": "He came home on a late train, standing, pressed between a man who smelled of beer and grilled chicken and a woman fanning herself with a folded train timetable. When he climbed the hill from Ōji station it was dark, and still hot. In the doorways of a few houses, small paper lanterns had been lit for the dead. A dog barked behind a fence and then stopped, all at once, as if someone had told it to."
+  },
+  {
+   "p": "The baker's barley tea was still sour in Rei's mouth when he got in. He turned to Chapter Two, because it came next. The preface was dated <em>A Friday. Rain. Rei forgot his umbrella again. Left mine by the door for him.</em> Rei remembered the umbrella. He had not known it was Gin's. He read the chapter at the kitchen table with both lamps on. Twice he got up to check the lock, and both times it was locked."
   },
   {
    "doc": {
@@ -21,6 +24,9 @@
   {
    "img": "ch4_ranktiers.png",
    "cap": "Practitioners ranked by class, as the CVD sorts them"
+  },
+  {
+   "p": "The first document was a secret report from inside the Division. It did not sort people by how much power they had. It sorted them by who they were, where they came from and how much money their families had. Rei had never seen it put so plainly."
   },
   {
    "doc": {
@@ -45,7 +51,10 @@
    }
   },
   {
-   "p": "Folded into the page was a cheap photocopied flyer, soft from being carried in a pocket. It had no letterhead. At the bottom someone had stamped <em>Other Side Distribution</em> in blurred purple ink, which Rei would learn later was how the Grid signed things."
+   "p": "Rei read the red note slowly. Gin meant that hard lives made people stronger on the other side, not weaker. The poor, the frightened, the people with nowhere else to go were the ones whose power grew fastest. And they were exactly the people the Division had been built to keep an eye on."
+  },
+  {
+   "p": "Folded into the page was a cheap photocopied flyer, soft from being carried in a pocket. It had no letterhead. At the bottom someone had stamped <em>Other Side Distribution</em> in blurred purple ink. Rei would learn later that this was how the Grid signed things."
   },
   {
    "doc": {
@@ -71,7 +80,7 @@
    }
   },
   {
-   "p": "The next document had a different stamp, darker and heavier, and Gin had not written a caption under it. <em>Veil Protocol Division. Classified Reference. Level 5+ Clearance Required. Top Secret. Protocol Eyes Only.</em> Rei had never heard of a Veil Protocol division. Reading the first paragraph, he understood that this was the point. It was a separate operation that lived inside the Division like a second skeleton. Gin had written one line above the stamp, small. <em>I work for the sixty percent officially. I know about the forty percent because six years of field work teaches you to read what is not written in the operational briefings.</em>"
+   "p": "The next document had a different stamp, darker and heavier, and Gin had not written a caption under it. <em>Veil Protocol Division. Classified Reference. Level 5+ Clearance Required. Top Secret. Protocol Eyes Only.</em> Rei had never heard of a Veil Protocol division. Reading the first paragraph, he understood that this was the point. It was a separate operation that lived hidden inside the Division, like a second skeleton under the skin. Gin had written one line above the stamp, small. <em>I work for the sixty percent officially. I know about the forty percent because six years of field work teaches you to read what is not written in the operational briefings.</em>"
   },
   {
    "doc": {
@@ -83,6 +92,9 @@
      "Component Three. Control. Neutralization of practitioners assessed as uncontrollable variables. Coercive recruitment (offer followed by compulsion if refused), indefinite detention under veil security protocols, ability suppression through pharmaceutical and procedural means, and, in cases assessed as extreme risk, termination. The threshold for extreme risk is not public. It is not consistent. It has been applied to practitioners whose primary offense was refusing recruitment."
     ]
    }
+  },
+  {
+   "p": "Rei put the three parts into plain words for himself, because he needed to be sure. First, find everyone with real power and write them down. Second, learn to use that power as a weapon. Third, deal with anyone who would not be used. The last word of the last part was <em>termination</em>. He knew what it meant. He read it anyway, twice."
   },
   {
    "doc": {
@@ -105,7 +117,7 @@
    }
   },
   {
-   "p": "Rei read that page three times. He thought of Sei, alone at seventeen in a house whose children were marked safe, and of Itsuki, who had run from that house to paint bridges. He thought of himself, nineteen, never assessed, in a flat that belonged to no family anyone had heard of. Nobody had marked him anything. He had always taken that to mean nobody had noticed him. It occurred to him for the first time that Gin might have worked very hard to keep it that way."
+   "p": "Rei read that page three times. He thought of Sei, alone at seventeen in a house whose children were marked safe. He thought of Itsuki, who had run from that house to paint bridges. He thought of himself, nineteen, never measured, in a flat that belonged to no family anyone had heard of. Nobody had marked him anything. He had always taken that to mean nobody had noticed him. It occurred to him for the first time that Gin might have worked very hard to keep it that way."
   },
   {
    "doc": {
@@ -121,7 +133,7 @@
    }
   },
   {
-   "p": "Rei closed the book on his finger and sat with the last line. <em>Didn't check, just knew.</em> It sounded like a man getting better at something. Reading it now, at the empty hook, it sounded like a man who had stopped looking."
+   "p": "Rei closed the book on his finger and sat with the last line. <em>Didn't check, just knew.</em> When Gin wrote it, it had sounded like a man getting better at something. Reading it now, across from the empty hook, it sounded like a man who had stopped looking."
   }
  ]
 }

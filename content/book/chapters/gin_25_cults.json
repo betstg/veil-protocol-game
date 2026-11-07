@@ -4,7 +4,10 @@
  "src": "gin",
  "blocks": [
   {
-   "p": "Rei did not go home after the text. He walked to an all-night family restaurant by Ōji station, ordered coffee he did not drink, and opened Gin's book at the chapter on entity cults. He had skimmed it once. Now he read it the way Gin had written it, slowly, as a file on a living thing. Near the end Gin had copied out three cases from the active files, anonymised where he had to. He had chosen them, he wrote, because they sat at different points on the only spectrum that matters, from victims to participants, from addressable to embedded."
+   "p": "Rei did not go home after the text. The streetcars had stopped for the night, so he walked back to Ōji beside the empty tram rails, down the hill past the dark trees of Asukayama. The station was still lit. A few late passengers came out of the gates, and a man in a suit stood by the taxi rank eating a rice ball in three bites. Next to the station was an all-night family restaurant, one of the cheap chain places with big windows and plastic menus, where students study and night workers eat at three in the morning. Rei went in, ordered coffee he did not drink, and opened Gin's book at the chapter on entity cults."
+  },
+  {
+   "p": "He had skimmed it once. Now he read it the way Gin had written it, slowly, as a file on a living thing. Near the end Gin had copied out three cases from the active files, with names removed where he had to. He had chosen them, he wrote, because they sat at different points on the only scale that matters. At one end are groups whose members are victims. At the other are groups whose members are participants. At one end a cult can still be reached and treated. At the other it is built so deep into people's lives that it cannot be pulled out."
   },
   {
    "img": "higankai_vesselfarm.png",
@@ -73,7 +76,7 @@
    }
   },
   {
-   "p": "Below the playbook, in a smaller hand, written later and faster, was a note that Rei did not want to read and read anyway."
+   "p": "Below the playbook, in a smaller hand, written later and faster, was a note that Rei did not want to read. He read it anyway."
   },
   {
    "doc": {
@@ -88,7 +91,7 @@
    }
   },
   {
-   "p": "Rei sat with the cold coffee until the waitress stopped coming to the table. The Far-Shore Circle was not on Gin's list. It was worse than all three. It had the Quiet Hour's gentle grief-farming and the Tenth Door's slow hollowing and something of the Loom's reach, with its vessels walking the city in courier vests. Address, terminate, or leave and watch. He went down the three words with his pencil and could not tick any of them. Then he read the last note again, the one Gin had left at three in the morning, and wondered whether his brother had felt the thing in him long before it took him, and had called it clarity."
+   "p": "Rei sat with the cold coffee until the waitress stopped coming to the table. At the next booth a student had fallen asleep on her textbooks, and a pair of taxi drivers were eating curry in silence. The Far-Shore Circle was not on Gin's list. It was worse than all three. It had the Quiet Hour's gentle grief-farming. It had the Tenth Door's slow hollowing. And it had something of the Loom's reach, with its vessels walking the city in courier vests. Address, terminate, or leave and watch. He went down the three words with his pencil and could not tick any of them. Then he read the last note again, the one Gin had left at three in the morning. He wondered whether his brother had felt the thing in him long before it took him, and had called it clarity."
   }
  ]
 }

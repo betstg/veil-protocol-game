@@ -4,10 +4,16 @@
  "src": "m_beyond",
  "blocks": [
   {
-   "p": "He went through at the node behind the Senju waterworks because it was the one Gin had marked smallest, in the back of the book, the way Gin marked the things he meant to come back to. <em>Smallest tear. Most likely to let a living man back out.</em> And because it was not in Kita. He had walked out of the ward with the carrier on his shoulder and felt the attention of the gutters slide off him somewhere around the river. The rats watched Kita. They did not watch Senju. Gin's book had said to change the district, and for one night he had."
+   "p": "Rei walked to Senju along the river. It took him more than an hour, with the carrier on his shoulder and Kuga's weight shifting inside it at every step. The Sumida river runs east out of Kita in long slow bends, with a raised concrete embankment on each side and a path along the top. At night the path was nearly empty. A man in a sweat-soaked T-shirt jogged past with a small light on his chest. Further on, an old man sat on a folding stool with a fishing rod, a radio playing baseball quietly at his feet, though there could be nothing worth catching in that black water. The air smelled of mud and warm concrete."
   },
   {
-   "p": "Okada was already there, kneeling at the edge of a concrete settling pool behind the pump house where the overflow water lay dead still under the security lights. She had brought two things in a cool-box. One was a towel. The other, when she lifted the lid, was a long, pale, patterned snake that poured itself over her wrist without hurry."
+   "p": "Down in the streets on either side, the okuribi were burning. From the embankment Rei could see them as tiny orange points by the doorsteps, one here, two there, and families crouched beside them in summer clothes. A grandmother held a small child's hand over a flame to show him how close was safe. A man in a white shirt stood alone by his fire with his hands together and his head bowed, and did not move the whole time Rei was passing. The smoke from the burning hemp stalks drifted up over the river and made his eyes water."
+  },
+  {
+   "p": "He chose the node behind the Senju waterworks because it was the one Gin had marked smallest, in the back of the book, the way Gin marked the things he meant to come back to. <em>Smallest tear. Most likely to let a living man back out.</em> And he chose it because it was not in Kita. Somewhere along the river, with the carrier on his shoulder, he had felt the attention of the gutters slide off him. The rats watched Kita. They did not watch Senju. Gin's book had said to change the district, and for one night he had."
+  },
+  {
+   "p": "Okada was already there. She was kneeling at the edge of a concrete settling pool behind the pump house, where the overflow water lay dead still under the security lights. Big pipes ran along the wall behind her, humming. She had brought two things in a cool-box. One was a towel. The other, when she lifted the lid, was a long, pale, patterned snake that poured itself over her wrist without any hurry."
   },
   {
    "img": "animal_snake.png",
@@ -17,7 +23,7 @@
    "p": "\"Japanese rat snake,\" she said. \"Not venomous. The venom isn't the point.\" She set it across the sill of the yard gate and dusted the concrete in front of it with a handful of dark earth from a paper bag. \"Graveyard earth. It sharpens the snake at that one spot, gives us another forty minutes of good warning. Anything that tries to cross that gate, it strikes. It can't see what it's striking any better than we can. It just knows.\" She sat back on her heels. \"It strikes people too. So when you come back, you come back here, at the water. Not through the gate. Route yourself.\" She rubbed the snake's head with one thumb. \"Two hours, then it gets tired and starts snapping at its own side. We won't need two hours. Nobody holds a cat door past forty minutes.\""
   },
   {
-   "p": "While she set the snake, Rei sat on the edge of the pool with Gin's book open on his knees at the page he had read most often that month. It was a map of Kita's pockets, drawn by hand."
+   "p": "While she set the snake, Rei sat on the edge of the pool with Gin's book open on his knees. It was open at the page he had read most often that month, a hand-drawn map of Kita's pockets. A pocket, as Gin used it, meant a fold in the veil, a small hidden space between the living world and the other side."
   },
   {
    "doc": {
@@ -37,10 +43,10 @@
    }
   },
   {
-   "p": "He had thought about the unmarked pocket all afternoon, the one where the needle pointed down. It went where he needed to go. It also went where nobody came back from with their words in order, and Gin had been the one to stop at its edge. A pocket would hide him from the Healer. It would not hide him from the thing he was going to see. Nothing would. He shut the book and put it inside his shirt, against his skin, where he could feel its corner."
+   "p": "Put simply, a pocket could hide a person from demons, but not from the Font, and the deeper the pocket, the closer it sat to the Architect. Rei had thought about the unmarked pocket all afternoon, the one where the needle pointed down. It went where he needed to go. It also went to the place nobody had come back from with their words in order, and even Gin had stopped at its edge. A pocket would hide him from the Healer. It would not hide him from the thing he was going to see. Nothing would. He shut the book and put it inside his shirt, against his skin, where he could feel its corner."
   },
   {
-   "p": "Okada took Gin's sight-scale page out of the book before he closed it, read it, and handed it back folded small. \"Read it once more,\" she said. \"So you know what's happening when it happens.\""
+   "p": "Before he closed it, Okada took out Gin's page on the sight scale. She read it and handed it back folded small. \"Read it once more,\" she said. \"So you know what's happening when it happens.\""
   },
   {
    "doc": {
@@ -57,7 +63,7 @@
    }
   },
   {
-   "p": "Rei took off his shoes and socks. The water was warm as a bath at the edges and cool where he stood in it, two fingers deep over the concrete, flat as a sheet of glass. Okada unclipped the carrier. Kuga stepped out into the night as if he owned the waterworks, considered the pool with distaste, and then let Rei lift him. He was heavier than he looked. Rei held him against his chest with both hands, the way the page said, and Okada knelt at his shoulder with one hand an inch from the surface, ready to slap it into ripples if the cat decided wrong. A broken reflection is no door."
+   "p": "Rei took off his shoes and socks. The water was as warm as a bath at the edges and cool where he stood in it. It was two fingers deep over the concrete and flat as a sheet of glass. Okada unclipped the carrier. Kuga stepped out into the night as if he owned the waterworks. He looked at the pool with distaste, and then he let Rei lift him. He was heavier than he looked. Rei held him against his chest with both hands, the way the page said. Okada knelt at his shoulder with one hand an inch above the surface, ready to slap it into ripples if the cat decided wrong. A broken reflection is no door."
   },
   {
    "p": "\"Eyes,\" Okada said. \"Don't look away. Whatever you see.\""
@@ -66,50 +72,53 @@
    "p": "Rei looked into Kuga's eyes."
   },
   {
-   "p": "For a long time it was only a cat. Yellow eyes, a slit of black, a torn ear twitching at the pumps. Ten seconds. Twenty. Rei held on and did not blink. Then the weight in his hands changed, as if the cat had settled more deeply into himself, and the eyes went half-lidded and then fixed on his, and the black of the pupil opened like a door being opened from the far side. It cost him at once. He felt a measure of himself go out of him like warm water down a drain. Behind Kuga's head, the waterworks stopped being the waterworks."
+   "p": "For a long time it was only a cat. Yellow eyes, a slit of black, one torn ear twitching at the sound of the pumps. Ten seconds. Twenty. Rei held on and did not blink. Then the weight in his hands changed, as if the cat had settled more deeply into itself. The eyes went half closed, and then fixed on his. The black of the pupil opened like a door being opened from the far side. It cost him at once. He felt a measure of himself drain out of him like warm water down a plughole. Behind Kuga's head, the waterworks stopped being the waterworks."
   },
   {
-   "p": "He had expected the lurch. The cold. The smell of a room shut up too long. He got none of it. He got Tokyo. The same August, the same Obon lanterns strung between the same poles, the same heat sitting on the canal like a held breath. Only after a long moment did he understand that none of it was moving. The lanterns hung without swinging. The canal did not lap. The heat was a memory of heat laid over a place where there had never been weather."
+   "p": "He had expected a lurch. Cold. The smell of a room shut up too long. He got none of it. He got Tokyo. The same August. The same Obon lanterns strung between the same poles. The same heat lying on the canal like a held breath. Only after a long moment did he understand that none of it was moving. The lanterns hung without swinging. The canal did not lap at its banks. The heat was only a memory of heat, laid over a place that had never had weather."
   },
   {
    "break": "The Threshold, and below it"
   },
   {
-   "p": "He went through the first layer so fast he barely had time to be afraid of it. Kuga carried him through it the way an express train carries a passenger past a crowded platform. For a few heartbeats there was noise everywhere, and the noise was people. The Threshold. Gin had written that the other side is not dark, it is loud, and here was the loud. The recent dead stood shoulder to shoulder like commuters in a stalled station, confused, turning, not yet sure which way they were meant to go. Mediums worked here. Exorcists worked here. A depleted practitioner who touched this layer was at risk of possession, not because anything hunted him, but because the crowd was so dense it pressed. Then the cat's gaze tipped, and the crowd fell away above Rei, and the quiet began."
+   "p": "He went through the first layer so fast that he barely had time to be afraid of it. Kuga carried him through it the way an express train carries a passenger past a crowded platform without stopping. For a few heartbeats there was noise everywhere, and the noise was people. This was the Threshold, the nearest layer of the other side, where the newly dead arrive. Gin had written that the other side is not dark, it is loud, and here was the loud. The recent dead stood shoulder to shoulder like commuters in a station where the trains have stopped. They were confused. They kept turning, not yet sure which way they were meant to go. Mediums worked here. Exorcists worked here. A practitioner who touched this layer while worn out was at risk of possession. Nothing here hunted him. The crowd was simply so thick that it pressed in. Then the cat's gaze tipped, and the crowd fell away above Rei, and the quiet began."
   },
   {
    "img": "ch20b_cat.png",
    "cap": "Kuga, and the Deep's copy of Kita"
   },
   {
-   "p": "Below the Threshold was the Deep, and the Deep had made itself a copy of his district. It was Kita rendered by something that had learned it secondhand. The konbini on the corner was lit and empty, and the rice balls behind the glass were the same four kinds forever, and the prices were right, and the little hand-lettered apology taped to the broken coffee machine was right, down to its worn fold. The door, when he tried it with one bare foot, opened onto more of the same street, because there was no inside here. There was only the surface things keep up to seem alive. <em>Entities that have had time to develop culture, alliances, hierarchies, territories, agendas,</em> Gin's book said of this layer. <em>They have had time to develop opinions about visitors.</em> Gin had been here twice. Both times on purpose."
+   "p": "Below the Threshold was the Deep, and the Deep had made itself a copy of his district. It was Kita drawn by something that had only heard about it from others. The konbini on the corner was lit and empty. The rice balls behind the glass were the same four kinds, forever. The prices were right. The little hand-written apology taped to the broken coffee machine was right, down to its worn fold. When he tried the door with one bare foot, it opened onto more of the same street. There was no inside here. There was only the surface that things keep up to seem alive. <em>Entities that have had time to develop culture, alliances, hierarchies, territories, agendas,</em> Gin's book said of this layer. <em>They have had time to develop opinions about visitors.</em> Gin had been here twice. Both times on purpose."
   },
   {
-   "p": "Rei walked the way Gin had walked him through the Archive, in Gin's demanded order. North, then west, then the half step back that is not on any map. He kept Kuga's eyes the whole way. The false city let him pass, because to the far shore he was not yet a man. He was a draft under a door. He was the one cold thing in a room that did not know it had gone cold."
+   "p": "Rei walked the way Gin had made him walk through the Archive, in Gin's strict order. North, then west, then the half step back that is not on any map. He kept Kuga's eyes the whole way. The false city let him pass, because to the far shore he was not yet a man. He was a draught under a door. He was the one cold thing in a room that did not know it had gone cold."
   },
   {
    "p": "Then it noticed."
   },
   {
-   "p": "He felt the moment it happened, the way a person feels a stranger's eyes find the back of his neck in a crowd. A small wrongness became an attention. Every lantern on the canal turned, all at once and without swinging, to face the same way, which was him. Rei's sight climbed on its own, the way the page had said it would, and then climbed again, because this whole place was one great thin spot. The street became shapes, and the shapes became forms with registers he could read. <em>From here, entities see you back.</em> They did. The not-weather thickened. The konbini light behind him went from welcome to witness. Okada had been right about the cat. To every instrument in Tokyo he was a stray in a pool. To the things already here, he was perfectly visible. He had come in as a draft, and the far shore had just learned to count. The number it had reached was one too many. Somewhere ahead, past the place where the streets stopped pretending, something that had been very patient for a very long time set down what it was holding and began, unhurried, to come and see what was alive in its house."
+   "p": "He felt the moment it happened, the way a person feels a stranger's eyes land on the back of his neck in a crowd. A small wrongness became an attention. Every lantern on the canal turned to face the same way, all at once and without swinging. They faced him. Rei's sight climbed on its own, as the page had said it would. Then it climbed again, because this whole place was one huge thin spot. The street became shapes. The shapes became forms, and he could read their registers, the feelings they fed on. <em>From here, entities see you back.</em> They did. The not-weather thickened. The konbini light behind him changed from a welcome into a witness. Okada had been right about the cat. To every instrument in Tokyo, he was a stray in a pool. To the things already here, he was perfectly visible."
   },
   {
-   "p": "Inward, the city gave up its pretence by degrees, and the degrees were worse than a clean edge would have been. First the lettering went. The konbini signs, the ward notices, the lost-cat flyer on the pole all kept their shape but lost their words, the way a name goes soft in the mouth after being said too many times. Then the depth went. Buildings became the idea of buildings, façades with the conviction of façades, and where two of them met he could see that there was nothing behind either. Only the seam. Only the place the far shore had not bothered to imagine, because no living eye was ever supposed to reach it."
+   "p": "He had come in as a draught, and the far shore had just learned to count. The number it had reached was one too many. Somewhere ahead, past the place where the streets stopped pretending, something that had been patient for a very long time put down what it was holding. And it began, without hurry, to come and see what was alive in its house."
   },
   {
-   "p": "Rei kept Gin's order because it was the only handrail in a stairwell with no stairs. And he understood at last what the Archive had been. Not a map of this place. A way of walking that this place would tolerate. A courtesy his brother had learned and written down small, so that one day Rei could be rude to a god without it killing him on the doorstep."
+   "p": "Further in, the city gave up its pretending little by little, and that was worse than a clean edge would have been. First the writing went. The konbini signs, the ward notices, the lost-cat poster on the pole all kept their shape but lost their words, the way a name goes soft when it is said too many times. Then the depth went. Buildings became the idea of buildings, fronts that only believed they were fronts. Where two of them met, he could see there was nothing behind either one. Only the seam. Only the place the far shore had not bothered to imagine, because no living eye was ever meant to reach it."
   },
   {
-   "p": "He passed through what had been the canal and was now only the suggestion of a long cold absence. On the far side the houses were gone. There was only the standing. That was the only word he had for it. A field of upright attention, like a crowd seen from behind, none of it facing him, all of it facing in, toward the centre, the way iron filings face a thing they cannot help facing. His sight had doubled now, full and steady, and it was exactly what the page had promised. A street, plus everything that has died on it. Except that the street was gone and only the dead were left, every soul who had ever stood in Kita in the dark and felt something with a name they almost knew pass overhead. He was walking through the inside of the dread his whole ward had felt all month without being able to say why."
+   "p": "Rei kept Gin's order, because it was the only handrail in a stairwell with no stairs. And at last he understood what the Archive had been. It was not a map of this place. It was a way of walking that this place would put up with. It was a politeness his brother had learned and written down small, so that one day Rei could be rude to a god without being killed on the doorstep."
   },
   {
-   "p": "And he could feel the slope again, the one he had seen from the kitchen floor. It was not under him now. It was ahead of him, and it was everything. This was the third layer, the one Gin's diagram had drawn last and smallest, with no exit arrow. The Font layer. <em>Entities that reach it dissolve completely. Not painful. It is described as coming home. That is the part that frightens.</em> Kuga's claws pricked through Rei's shirt, very gently, and Rei realised he had taken a step toward it without meaning to. He stopped. He held the cat's eyes and made himself stand still until the wanting passed. It did not pass. It only waited."
+   "p": "He passed through what had been the canal. Now it was only the feeling of a long, cold absence. On the far side the houses were gone. There was only the standing. That was the only word he had for it. A field of upright attention, like a crowd seen from behind. None of it faced him. All of it faced inward, toward the centre, the way iron filings face a magnet. His sight had doubled now, full and steady, exactly as the page had promised. A street, plus everything that has died on it. Except the street was gone, and only the dead were left. Every soul who had ever stood in Kita in the dark and felt something with a name they almost knew pass overhead. He was walking through the inside of the dread his whole ward had felt all month without being able to say why."
+  },
+  {
+   "p": "And he could feel the slope again, the one he had seen from the kitchen floor. It was not under him now. It was in front of him, and it was everything. This was the third layer, the one Gin's diagram had drawn last and smallest, with no arrow showing a way out. The Font layer. <em>Entities that reach it dissolve completely. Not painful. It is described as coming home. That is the part that frightens.</em> Kuga's claws pricked through Rei's shirt, very gently, and Rei realised he had taken a step toward it without meaning to. He stopped. He held the cat's eyes and made himself stand still until the wanting passed. It did not pass. It only waited."
   },
   {
    "p": "At the heart of the standing, where all of it leaned, there was a chair."
   },
   {
-   "p": "Not a throne. A chair. A plain one, the kind that belongs at a kitchen table, the kind he had sat across from his brother in a thousand mornings. It was empty, and it was the loudest thing he had ever stood near. The Thirteenth Seat was not occupied and not ruined. It was vacant the way a struck bell is vacant of silence, still ringing with the shape of the last holder who had died out of it in 2009. The ring was what thinned the wall. The ring was what had been pulling at Gin. The ring was the open mouth the Healer meant to fill."
+   "p": "Not a throne. A chair. A plain one, the kind that belongs at a kitchen table, the kind he had sat in across from his brother on a thousand mornings. It was empty, and it was the loudest thing he had ever stood near. The Thirteenth Seat was neither occupied nor ruined. It was empty the way a bell is empty just after it has been struck. It was still ringing with the shape of the last holder, who had died out of it in 2009. The ringing was what thinned the wall. The ringing was what had been pulling at Gin. The ringing was the open mouth the Healer meant to fill."
   },
   {
    "img": "char_kuze-kaname-light.png",
@@ -119,10 +128,10 @@
    "p": "Behind the chair, so close that the chair might have been his, stood the man."
   },
   {
-   "p": "He was made of light so cold that looking at it hurt in Rei's teeth. He stood with his back to Rei and his back to the whole world, very straight and very still, his attention fixed on something Rei could not see, holding it shut. He did not turn. Gin's book had said he would not. <em>It does not show its face.</em> But Rei was close enough now to see what the light was wrapped around. The shoulders of a young man. Dark hair gone faintly see-through at the edges, where the light leaked out of him. A coat cut in a way nobody had cut a coat for a very long time, dark and plain and worn at the elbows, the kind of coat a man wears to work."
+   "p": "He was made of light so cold that looking at it hurt Rei's teeth. He stood with his back to Rei and his back to the whole world, very straight and very still. His attention was fixed on something Rei could not see, and he was holding it shut. He did not turn. Gin's book had said he would not. <em>It does not show its face.</em> But Rei was close enough now to see what the light was wrapped around. The shoulders of a young man. Dark hair turning faintly see-through at the edges, where the light leaked out of him. A coat cut in a style nobody had used for a very long time. It was dark and plain and worn at the elbows, the kind of coat a man wears to work."
   },
   {
-   "p": "Rei was closer to the centre than any living man had stood and lived to mind the distance. He took one more step, into the place where the standing leaned hardest. And the chair, the empty chair, turned its attention on him the way the whole far shore had turned, all at once. Without words, in his own brother's cadence, it asked him what he thought he was."
+   "p": "Rei was closer to the centre than any living man had ever stood. He took one more step, into the place where the standing leaned hardest. And the chair, the empty chair, turned its attention on him, all at once, the way the whole far shore had turned. Without words, in his own brother's way of speaking, it asked him what he thought he was."
   }
  ]
 }

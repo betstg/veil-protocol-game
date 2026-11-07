@@ -4,21 +4,27 @@
  "src": "s_bookseller",
  "blocks": [
   {
+   "p": "Rei took the Keihin-Tōhoku line south in the late afternoon. The sky-blue train was cool after the street, and half empty, because so many people had left the city for the festival. Across from him, an old man held a furoshiki on his knees, a square of dark cloth knotted around a box of offerings, and he kept one hand on the knot the whole way as if it might run off. Two schoolgirls shared a pair of earphones, one bud each, and nodded to the same song without speaking. At each station the doors opened onto a blast of heat and the sound of cicadas, and then closed again with a soft chime. Nippori went by, then Ueno, with its crowds and its big park beyond the station. Rei got off at Akihabara."
+  },
+  {
+   "p": "He walked west from there, away from the music and the electronics shops. The streets grew older and quieter as he went, and after twenty minutes he was in Jinbōchō, among the bookshops. Some sold cheap paperbacks from carts on the pavement. Others kept rare old volumes behind glass. The air smelled of paper and dust. On the pavement outside one shop, an elderly woman in a sun hat was going through a box of hundred-yen books with great care, turning each one over to read the back."
+  },
+  {
    "img": "res_bookshop.png",
    "cap": "The Crooked Shelf, off Jinbōchō"
   },
   {
-   "p": "The Crooked Shelf had no sign. It sat on a side street off Jinbōchō, the old book town, and the only way to know it was a shop at all was the one crooked shelf in the window, leaning a few degrees out of true as if it had given up arguing with gravity. Inside it was the kind of narrow that made Rei turn sideways between the stacks. Three floors of other people's libraries were pressed into a frontage barely wider than its door."
+   "p": "The Crooked Shelf had no sign. It sat on a side street off the main road, and the only way to know it was a shop at all was the one crooked shelf in the window. It leaned a few degrees off straight, as if it had given up arguing with gravity. Inside, the shop was so narrow that Rei had to turn sideways between the stacks. Three floors of other people's libraries were pressed into a front barely wider than the door."
   },
   {
    "img": "char_the-bookseller.png",
    "cap": "Higuchi, the bookseller"
   },
   {
-   "p": "The owner was a thin man in his late fifties with ink on his fingers, smudged glasses and a wispy grey comb-over gone pale with dust. His cardigan was dusted with old paper. His name was Higuchi, and Jinbōchō knew him as a careful dealer who read every book before he sold it. He did not look up when Rei came in. He finished the page he was on, the way booksellers do, to make it clear that the book outranked the customer."
+   "p": "The owner was a thin man in his late fifties. He had ink on his fingers, smudged glasses, and a wispy grey comb-over gone pale with dust. His cardigan was dusted with old paper. His name was Higuchi, and Jinbōchō knew him as a careful dealer who read every book before he sold it. He did not look up when Rei came in. He finished the page he was on, the way booksellers do, to make it clear that the book was more important than the customer."
   },
   {
-   "p": "When he did look up, he went very still. Rei watched him place the face. Gin's jaw. Gin's way of standing in a doorway as if apologising for the space he took. The placing cost the old man something."
+   "p": "When he did look up, he went very still. Rei watched him recognise the face. Gin's jaw. Gin's way of standing in a doorway, as if apologising for the space he took up. Recognising it cost the old man something."
   },
   {
    "p": "\"You're the brother,\" Higuchi said. It was not a question."
@@ -27,7 +33,7 @@
    "p": "Behind him, high on the locked case at the back of the shop, something shifted its weight. It was the way a sleeper shifts when a familiar voice comes into the room."
   },
   {
-   "p": "Rei felt the case before he properly saw it. It was not loud. It was the opposite of loud. It was a pocket of held quiet inside a shop that was already quiet. On the highest shelf, behind a small brass lock, a dozen volumes had stopped giving off the soft contact history of handled books. They gave off something denser instead, something deliberate, the way a word repeated too many times stops being a word."
+   "p": "Rei felt the case before he properly saw it. It was not loud. It was the opposite of loud. It was a pocket of held quiet inside a shop that was already quiet. On the highest shelf, behind a small brass lock, a dozen volumes were different from all the other books. Ordinary books give off a soft trace of all the hands that have held them. These gave off something thicker instead, something deliberate. It was like a word repeated so many times that it stops being a word."
   },
   {
    "p": "Higuchi watched him feel it."
@@ -36,10 +42,10 @@
    "p": "\"I keep the dangerous things locked,\" he said. \"The case opens when I decide what a person will do with what is inside it. I have refused it to people who could pay anything.\" He tapped the key that hung on a cord round his neck. \"But that top shelf I did not lock. The key turned itself, four years ago, the week your brother first stood where you are standing.\""
   },
   {
-   "p": "Higuchi made tea on a hotplate that should have been condemned a decade ago. While the water heated he told Rei the part the bureaus would file as folklore, the part Rei now knew to be field-accurate."
+   "p": "Higuchi made tea on a hotplate that should have been thrown out ten years ago. While the water heated, he told Rei the part that the bureaus would file as folklore. Rei now knew it was accurate."
   },
   {
-   "p": "Objects are not alive, Higuchi said. They do not think. What they have is contact history. He said it the way a man says a thing he worked out alone over years and never had anyone to tell. It is decades of being present when things happened. It is being held during particular moments. It is sitting in the same room as something that left a residue, the way a fire leaves smoke in cloth."
+   "p": "Objects are not alive, Higuchi said. They do not think. What they have is contact history. He said it the way a man says a thing he has worked out alone over many years, with nobody to tell. Contact history is decades of being present when things happened. It is being held during particular moments. It is sitting in the same room as something that left a trace behind, the way a fire leaves the smell of smoke in cloth."
   },
   {
    "p": "\"Most books carry a little,\" he said. \"A book held by the same grieving hands every night for thirty years carries a lot. And a book that was open in the room during a crossing, at the exact moment a self came apart at the membrane...\" He set two cups on the counter. \"That one carries something that is not memory at all. It is a standing wound. A place where the page remembers being a threshold.\""
@@ -51,7 +57,7 @@
    "p": "\"Accumulated,\" Higuchi said."
   },
   {
-   "p": "Long ago he had bought the library of a dead exorcist, without knowing what some of the volumes had sat through. The worst of them had found their own level on the high shelf, the way water finds the low place. There they had stayed, quietly thickening, a small private membrane behind the counter of a bookshop. Strange things drifted into the Crooked Shelf. A diary that should have burned. A translation that should not exist. A pamphlet from a cult the CVD had erased. Higuchi kept them all in the locked case and sold them only to people he trusted. But nothing he owned was as heavy as that top shelf."
+   "p": "Long ago he had bought the library of a dead exorcist, without knowing what some of the volumes had lived through. The worst of them had found their own way to the high shelf, the way water finds the lowest place. There they had stayed, slowly growing thicker, a small private piece of the veil behind the counter of a bookshop. Strange things drifted into the Crooked Shelf. A diary that should have burned. A translation that should not exist. A pamphlet from a cult the CVD had erased. Higuchi kept them all in the locked case and sold them only to people he trusted. But nothing he owned was as heavy as that top shelf."
   },
   {
    "p": "\"Four years ago your brother came in,\" he said, \"white to the lips. He asked to be left alone with the case. I went into the back. When I came out he had his hand flat against the wood, and the lock on the top shelf had turned. I swear that on my wife's grave.\""
@@ -60,88 +66,88 @@
    "p": "The lock did for Rei what it had done for Gin. It turned under his hand. The small brass tongue slid back with a click he felt in his teeth, and the shelf breathed four years of held quiet out into the shop."
   },
   {
-   "p": "He did not reach blindly. He let his sight walk along the spines until one of them looked back. It was a slim casebound notebook with no title. Its boards were swollen with damp that had never been water."
+   "p": "He did not reach blindly. He let his sight walk along the spines until one of them looked back. It was a slim hardbacked notebook with no title. Its covers were swollen with a damp that had never been water."
   },
   {
-   "p": "The moment his attention landed on it, he was not in the shop."
+   "p": "The moment his attention landed on it, he was not in the shop any more."
   },
   {
-   "p": "He was in a low place where the water remembered. It was night. A man with his brother's careful hands was writing by lamplight. He was arguing with himself on the page. The argument was about whether a debt that had never been his to pay might still be the only honest thing left to do."
+   "p": "He was in a low place where the water remembered. It was night. A man with his brother's careful hands was writing by lamplight. He was arguing with himself on the page. The argument was about a debt that had never been his to pay, and whether paying it might still be the only honest thing left to do."
   },
   {
-   "p": "The notebook had been in the room the night Gin first found the low place. It had kept that threshold. And it had gone on keeping it, faithfully, on the high shelf, for four years. It was like Sachiko's bottle that kept filling, an object continuing a function past every reason except the function itself."
+   "p": "The notebook had been in the room on the night Gin first found the low place. It had kept that threshold. And it had gone on keeping it, faithfully, on the high shelf, for four years. It was like Sachiko's bottle that kept filling, an object still doing its job long after every reason was gone except the job itself."
   },
   {
-   "p": "This was the find and the danger in one motion. The notebook was a fixed copy of a night Rei had been trying to rebuild from the outside. Gin's Saturday. The address that was in no file. The seam where the entries stopped being entries and started being arguments. To read it was to stand where Gin had stood, inside his dread, at the exact hour the thing wearing him made its reasonable case. It would tell him more than any node ever could."
+   "p": "This was the discovery and the danger in one. The notebook was a fixed copy of a night Rei had been trying to rebuild from the outside. Gin's Saturday. The address that was in no file. The point where the entries stopped being entries and started being arguments. To read it would be to stand where Gin had stood, inside his dread, at the exact hour the thing wearing him made its reasonable case. It would tell him more than any node ever could."
   },
   {
-   "p": "It would also open him. Here, in a shop with a private membrane behind the counter, in the one week of the year the dead were expected. His unmanaged aperture would flood the room with the same noise that had buried the warning the first time. The book remembered being a threshold. Held by the wrong hands on the wrong night, a threshold is a door. And a door opens both ways."
+   "p": "It would also open him. Here, in a shop with a private piece of the veil behind the counter, in the one week of the year when the dead were expected. His untrained gift would flood the room with the same noise that had buried the warning the first time. The book remembered being a threshold. Held by the wrong hands on the wrong night, a threshold is a door. And a door opens both ways."
   },
   {
    "p": "He had come across the city for exactly this. He opened it."
   },
   {
-   "p": "The notebook did not narrate. It deposited."
+   "p": "The notebook did not tell him a story. It left things in him."
   },
   {
-   "p": "The low place came in fragments and in the wrong order, the way Itsuki's sight had come back scrambled. The smell of river mud at slack tide. The particular cold of a place where a great many crossings had happened and nobody had mourned them. A voice that was not a voice, making its case in a tone of pure reasonableness."
+   "p": "The low place came in pieces and in the wrong order, the way Itsuki's sight had come back scrambled. The smell of river mud when the tide is still. The particular cold of a place where a great many crossings had happened and nobody had mourned them. A voice that was not a voice, making its case in a tone of pure reasonableness."
   },
   {
    "p": "<em>They are owed, and no one will pay them, and you are the only one who can. Is that not the definition of a duty?</em>"
   },
   {
-   "p": "And under the voice, his brother's hand on the page. With every line the writing grew tighter and truer, until the line between what Gin wanted and what it wanted stopped being a line and became a rhyme."
+   "p": "And under the voice was his brother's hand on the page. With every line, the writing grew tighter and truer. In the end, what Gin wanted and what the voice wanted were no longer two different things. They sounded the same, like two words that rhyme."
   },
   {
-   "p": "Rei learned the address. He learned the shape of the argument. Worst of all, he learned that Gin had not been deceived. Gin had been persuaded, by something that only ever asked him to do what was right. Standing inside that persuasion was the most frightening thing Rei had ever done, because as he read he could feel how nearly it would work on him."
+   "p": "Rei learned the address. He learned the shape of the argument. Worst of all, he learned that Gin had not been tricked. Gin had been persuaded, by something that only ever asked him to do what was right. Standing inside that persuasion was the most frightening thing Rei had ever done. As he read, he could feel how nearly it would work on him too."
   },
   {
    "p": "The room answered, because he had opened the book in it."
   },
   {
-   "p": "The shop went one particular degree colder. It was the cold that means a residue has noticed a strong, unmanaged aperture and turned toward it. The other spines on the high shelf leaned their quiet weight his way. Somewhere under the floorboards the building did the listening thing that buildings did in this city this week."
+   "p": "The shop went one particular degree colder. It was the cold that means a trace has noticed a strong, untrained gift and turned toward it. The other books on the high shelf leaned their quiet weight his way. Somewhere under the floorboards, the building did the listening thing that buildings in this city did this week."
   },
   {
-   "p": "If he kept reading, he would have to hold the whole room shut with his own strength while he did it, and he had very little strength left to spend. If he stopped, the membrane would settle, and he would never know the last line Gin wrote before the entries became arguments."
+   "p": "If he kept reading, he would have to hold the whole room shut with his own strength while he did it, and he had very little strength left. If he stopped, the room would settle, and he would never know the last line Gin wrote before the entries became arguments."
   },
   {
-   "p": "Higuchi stood by the hotplate with the tea going cold and did not interfere. He had always understood that some books are only honestly read at a price."
+   "p": "Higuchi stood by the hotplate with the tea going cold and did not interfere. He had always understood that some books can only be honestly read at a price."
   },
   {
-   "p": "Rei held the room. He closed his sight down to a slit the way Gin had taught him at the kitchen table, and he pushed back against the leaning shelf with everything he had, and he read on. His nose began to bleed. He wiped it on his sleeve and kept going. The cold pressed at the back of his skull like a hand."
+   "p": "Rei held the room. He closed his sight down to a slit, the way Gin had taught him at the kitchen table. He pushed back against the leaning shelf with everything he had, and he read on. His nose began to bleed. He wiped it on his sleeve and kept going. The cold pressed on the back of his skull like a hand."
   },
   {
-   "p": "The last line before the arguments began was not an argument at all. It was small and ordinary and it nearly undid him."
+   "p": "The last line before the arguments began was not an argument at all. It was small and ordinary, and it nearly broke him."
   },
   {
    "p": "<em>Keys on the hook. I checked.</em>"
   },
   {
-   "p": "Gin had written it the way he wrote it at the end of every note, the habit of a man making sure his little brother was locked in safe. After that line the handwriting changed. Rei shut the book. The room let go of him slowly, the way a held breath goes out."
+   "p": "Gin had written it the way he wrote it at the end of every note, the habit of a man making sure his little brother was locked in safe. After that line, the handwriting changed. Rei shut the book. The room let go of him slowly, the way a held breath goes out."
   },
   {
-   "p": "The shelf was Rei's problem now. It had been Higuchi's only by accident, and the old man knew it and was, in his dry way, relieved. He had kept a private membrane behind his counter for years out of nothing but a bookseller's refusal to burn a book. He was tired. And Rei was the first person to walk in with the right face and the wrong, useful gift."
+   "p": "The shelf was Rei's problem now. It had only been Higuchi's by accident, and the old man knew it, and in his dry way he was relieved. For years he had kept a private piece of the veil behind his counter, for no reason except that a bookseller will not burn a book. He was tired. And Rei was the first person to walk in with the right face and the wrong, useful gift."
   },
   {
-   "p": "Rei stood with his hand on the open door of the shelf and thought it through. Tanizaki would know what to do with kept thresholds, and would not thank him for the work. And there was the notebook itself. Some part of him wanted to end it. Not read it again, but end it, let the recorded night finally cross the way the man in it never had. It would close the clearest window he had. It might also be the only mercy on that shelf."
+   "p": "Rei stood with his hand on the open door of the shelf and thought it through. Tanizaki would know what to do with kept thresholds, and would not thank him for the work. And there was the notebook itself. Part of him wanted to end it. Not read it again, but end it, and let the recorded night finally cross over, the way the man in it never had. That would close the clearest window he had. It might also be the only mercy on that shelf."
   },
   {
-   "p": "Then he thought about Gin's hand flat against the wood. Gin had not burned it. Gin had not carried it off. Gin had left it here with the one man in the city who read everything before he sold it."
+   "p": "Then he thought about Gin's hand flat against the wood. Gin had not burned the notebook. Gin had not carried it off. Gin had left it here, with the one man in the city who read everything before he sold it."
   },
   {
-   "p": "Rei turned the brass lock. It slid home under his fingers, warm now, where a dozen other hands had never warmed it."
+   "p": "Rei turned the brass lock. It slid home under his fingers. It was warm now, where a dozen other hands had never warmed it."
   },
   {
    "p": "\"It stays with you,\" he said. \"If that's all right. I'll come back for it if I need it.\""
   },
   {
-   "p": "Higuchi nodded as if he had expected nothing else. Then he took the cord from round his own neck. A second key hung on it, older, darker. It fitted the deep drawer at the bottom of the case, the one Higuchi never opened while customers were in the shop."
+   "p": "Higuchi nodded, as if he had expected nothing else. Then he took the cord from round his own neck. A second key hung on it, older and darker. It fitted the deep drawer at the bottom of the case, the one Higuchi never opened while there were customers in the shop."
   },
   {
    "p": "\"Not tonight,\" Higuchi said, and pressed it into Rei's palm. \"You've bled enough for one evening. Come back when you're ready to read something that is not about your brother, and is about everything else. It will make what you just read make sense. It will also make it worse.\""
   },
   {
-   "p": "Then he gave Rei the one thing a bookseller has to give, which is provenance. He wrote the name of the dead exorcist on the back of a receipt. And last, the way the true thing always comes, he added that the exorcist had once had a student. The student came to nothing the bureaus ever recorded. He might not have come to nothing at all."
+   "p": "Then he gave Rei the one thing a bookseller has to give, which is provenance, the history of where a book came from. He wrote the name of the dead exorcist on the back of a receipt. And last, the way the true thing always comes last, he added that the exorcist had once had a student. The student came to nothing that the bureaus ever recorded. He might not have come to nothing at all."
   },
   {
    "p": "A thread for later."
@@ -157,7 +163,7 @@
    "cap": "Mochizuki Sora at the door of the Crooked Shelf"
   },
   {
-   "p": "A young woman stood on the step with a canvas bag of library books on her shoulder. She was a few years older than him, thin, with a quick, wary face. She had stopped dead on the threshold. Her eyes went to the back of the shop, then to the case, then to Rei. She had felt the cold from the street."
+   "p": "A young woman stood on the step with a canvas bag of library books on her shoulder. She was a few years older than him, thin, with a quick, wary face. She had stopped dead in the doorway. Her eyes went to the back of the shop, then to the case, then to Rei. She had felt the cold from the street."
   },
   {
    "p": "\"Mochizuki-san,\" Higuchi said mildly. \"Come in, or go home. Don't stand in my door letting the heat out.\""
@@ -166,28 +172,28 @@
    "p": "She came in. She did not take her eyes off Rei."
   },
   {
-   "p": "\"That was you,\" she said. \"That cold. I felt it at the corner.\" She looked at his sleeve, at the blood drying on it, and something in her face loosened and tightened at once. \"You read something from the top shelf. Nobody reads the top shelf.\""
+   "p": "\"That was you,\" she said. \"That cold. I felt it at the corner.\" She looked at his sleeve and the blood drying on it, and her face loosened and tightened at the same time. \"You read something from the top shelf. Nobody reads the top shelf.\""
   },
   {
    "p": "\"My brother did,\" Rei said."
   },
   {
-   "p": "She was quiet for a moment. Then she said the thing she had clearly been carrying a long time with no one to give it to."
+   "p": "She was quiet for a moment. Then she said the thing she had clearly been carrying for a long time, with nobody to give it to."
   },
   {
    "p": "\"You're doing the same thing I am, aren't you. From the other side.\""
   },
   {
-   "p": "Her name was Mochizuki Sora. She worked evenings at a neighbourhood library and lived in a share-house in Kōenji with art students who did not know what they lived with. She was not registered with anyone. For three years she had been mapping something from the outside. A pattern in Kita. A cold signature that moved through the north wards and left the same marks behind it, year after year."
+   "p": "Her name was Mochizuki Sora. She worked evenings at a neighbourhood library and lived in a share-house in Kōenji, a neighbourhood in the west of the city full of students, musicians and secondhand clothes shops. The art students she lived with did not know what they lived with. She was not registered with anyone. For three years she had been mapping something from the outside. A pattern in Kita. A cold signature that moved through the northern wards and left the same marks behind it, year after year."
   },
   {
-   "p": "\"I started because of my mother,\" she said. She took a coat button from her pocket and turned it between her fingers without seeming to notice she did it. \"She was a practitioner. When I was twelve, something got into her. It was four years before they got it out. They called it a partial success.\" She put the button away. \"Permanent damage, partial success. I've spent eleven years trying to understand what happened to her. Her case file has the same regional signature as the thing in Kita. The same one. Nobody at the CVD would tell me what that means.\""
+   "p": "\"I started because of my mother,\" she said. She took a coat button from her pocket and turned it between her fingers without seeming to notice. \"She was a practitioner. When I was twelve, something got into her. It was four years before they got it out. They called it a partial success.\" She put the button away. \"Permanent damage, partial success. I've spent eleven years trying to understand what happened to her. Her case file has the same regional signature as the thing in Kita. The same one. Nobody at the CVD would tell me what that means.\""
   },
   {
-   "p": "Higuchi set a third cup on the counter without a word. He had been steering this girl gently for a long time, Rei realised. He had been giving her the books she could carry and keeping back the ones she could not."
+   "p": "Higuchi set a third cup on the counter without a word. Rei realised that the old man had been guiding this girl gently for a long time. He had been giving her the books she could carry, and keeping back the ones she could not."
   },
   {
-   "p": "Rei looked at her with his sight, carefully, the way he would look at a stranger in a thin place. Her Clairsentience was strong and steady and self-taught. But beside it there was something else, a pressure, faint and new, like a second door in a wall where there had only ever been one. She did not mention it. He was not sure she knew. It reminded him of something in Gin's pages about the family, about paths that open in pairs, and he did not know yet what to do with that."
+   "p": "Rei looked at her with his sight, carefully, the way he would look at a stranger in a thin place. Her Clairsentience was strong and steady and self-taught. But beside it there was something else. A pressure, faint and new, like a second door in a wall where there had only ever been one. She did not mention it. He was not sure she knew. It reminded him of something in Gin's pages about the family, about paths that open in pairs, and he did not know yet what to do with that."
   },
   {
    "p": "\"I've got the outside of it,\" Mochizuki said. \"Three years of where and when. You've got the inside. Haven't you.\""
@@ -196,13 +202,16 @@
    "p": "\"Some of it,\" Rei said."
   },
   {
-   "p": "She wrote a number on the inside cover of one of her library books, tore the flyleaf out, and handed it to him. The page was a crime against the book. Higuchi winced and said nothing."
+   "p": "She wrote a number on the inside cover of one of her library books, tore the page out, and handed it to him. Tearing a page from a book was a crime in that shop. Higuchi winced and said nothing."
   },
   {
    "p": "\"I'm not asking you to owe me anything,\" she said. \"I don't want anyone owing anyone. I just want to stop being the only person in the room who sees it.\""
   },
   {
-   "p": "Rei left the shop turning sideways between the stacks the way he had come in. The key to the deep drawer was a small cold weight in his pocket. Outside, the street was doing its Obon business of small fires and propped gates. He understood that he had added a place to the map his brother drew. A shelf off Jinbōchō where, if the worst ever came, a door stood already half open behind a bookseller's counter."
+   "p": "Rei left the shop turning sideways between the stacks, the way he had come in. The key to the deep drawer was a small cold weight in his pocket. Outside, the street was busy with its Obon evening. Small fires burned in dishes by the doors. Gates were propped open so the dead could find their way. A shop owner was pulling down his shutter with a long hooked pole, and the metal rattled down the street like distant thunder."
+  },
+  {
+   "p": "Walking back toward the station in the blue dusk, Rei understood that he had added a place to the map his brother had drawn. A shelf off Jinbōchō where, if the worst ever came, a door already stood half open behind a bookseller's counter."
   },
   {
    "p": "And for the first time all month, he had added a person to it who was looking for the same thing he was."
