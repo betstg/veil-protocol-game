@@ -54,6 +54,16 @@ p.t{margin:0 0 1em}
 .toc button.c span{font-family:var(--tag);font-size:12px;color:var(--dim);min-width:22px;padding-top:2px}
 .toc button.c[aria-current="true"]{background:var(--sel);color:var(--blood)}
 .toc .tools{display:flex;gap:8px;padding:0 16px 8px;flex-wrap:wrap}
+.doc{margin:26px 0;padding:16px 18px;border:1px solid var(--rule);background:var(--page);font-size:.92em;line-height:1.5}
+.doc .dk{font-family:var(--tag);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--blood)}
+.doc .dt{font-family:var(--display);font-size:16px;letter-spacing:.04em;margin:2px 0 10px}
+.doc p{margin:0 0 .5em}
+.doc.form{border-top:3px solid var(--blood)}
+.doc.postit{background:#f6e7a6;color:#2a2410;border:0;transform:rotate(-.6deg);box-shadow:0 2px 6px rgba(0,0,0,.15);font-family:var(--tag)}
+.doc.postit .dk{color:#7a5a10}
+.doc.note,.doc.letter{font-style:italic;border-left:3px solid var(--gold)}
+.doc.case{border-top:3px solid var(--gold)}
+.doc.table p{font-family:var(--tag);font-size:13px;border-bottom:1px dotted var(--rule);padding-bottom:4px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
@@ -85,30 +95,32 @@ function cover(){
   var saved=+store('vpbook_ch')||0;
   main.innerHTML='<section class="cover"><img src="'+IMG+'res_apartmentlivingroom.jpg" alt=""><div class="eyebrow">Tokyo, Obon, 2015</div><h1>VEIL PROTOCOL</h1><p>Your brother is gone. His book is on the kitchen table. Read it in order.</p>'+
    '<button class="big" id="go">'+(saved>0?'Continue at chapter '+(saved+1):'Begin')+'</button>'+(saved>0?'<button class="big ghost" id="restart">Start from the beginning</button>':'')+
-   '<p class="eyebrow">'+CH.length+' chapters</p></section>';
+   '<p class="eyebrow">'+CH.length+' chapters · about '+(B.pages||'?')+' pages</p></section>';
   document.getElementById('go').onclick=function(){show(saved)};
   var r=document.getElementById('restart');if(r)r.onclick=function(){show(0)};
   window.scrollTo(0,0);
 }
 function show(i){
   i=Math.max(0,Math.min(CH.length-1,i));cur=i;var c=CH[i];store('vpbook_ch',i);
-  var h='<header class="head"><div class="eyebrow">'+esc(c.part.title)+' · '+esc(c.part.sub)+'</div><div class="eyebrow">Chapter '+c.n+(c.kind==='side'?' <span class="side">Side story</span>':'')+(c.kind==='ending'?' <span class="side">Ending</span>':'')+'</div><h2 class="ch">'+esc(c.title)+'</h2></header>';
+  var h='<header class="head"><div class="eyebrow">'+esc(c.part.title)+' · '+esc(c.part.sub)+'</div><div class="eyebrow">Chapter '+c.n+(c.kind==='side'?' <span class="side">Side story</span>':'')+(c.kind==='ending'?' <span class="side">Ending</span>':'')+(c.kind==='gin'?' <span class="side">Gin\'s book</span>':'')+'</div><h2 class="ch">'+esc(c.title)+'</h2></header>';
   c.blocks.forEach(function(b){
     if(b.img)h+='<figure><img loading="lazy" src="'+IMG+encodeURI(b.img)+'" alt="'+esc(b.cap||'')+'">'+(b.cap?'<figcaption>'+esc(b.cap)+'</figcaption>':'')+'</figure>';
     else if(b.break)h+='<div class="brk">'+esc(b.break)+'</div>';
     else if(b.p)h+='<p class="t">'+b.p+'</p>';
+    else if(b.doc){var d=b.doc,k=d.kind||'note',lab={form:'Official form',postit:'Post-it',note:'Gin\'s note',case:'Case file',letter:'Letter',table:'Reference'}[k]||'Document';
+      h+='<div class="doc '+esc(k)+'"><div class="dk">'+lab+'</div>'+(d.title?'<div class="dt">'+esc(d.title)+'</div>':'')+(d.lines||[]).map(function(l){return '<p>'+l+'</p>'}).join('')+'</div>';}
   });
   h+='<div class="nav">'+(i>0?'<button class="big ghost" id="prev">Previous</button>':'<button class="big ghost" id="prev">Cover</button>')+(i<CH.length-1?'<button class="big" id="next">Next chapter</button>':'<button class="big" id="next">The end</button>')+'</div>';
   main.innerHTML=h;
   document.getElementById('prev').onclick=function(){i>0?show(i-1):cover()};
   document.getElementById('next').onclick=function(){i<CH.length-1?show(i+1):cover()};
-  document.getElementById('barTitle').textContent=c.n+'. '+c.title;
+  document.getElementById('barTitle').textContent=(c.kind==='gin'?'':c.n+'. ')+c.title;
   document.getElementById('prog').style.width=((i+1)/CH.length*100)+'%';
   window.scrollTo(0,0);drawToc();
 }
 function drawToc(){
   var h='';B.parts.forEach(function(p){h+='<h3>'+esc(p.title)+'<small>'+esc(p.sub)+'</small></h3>';
-    p.chapters.forEach(function(c){var i=CH.indexOf(c);h+='<button class="c" data-i="'+i+'" aria-current="'+(i===cur)+'"><span>'+c.n+'</span>'+esc(c.title)+(c.kind==='side'?' <span class="side">Side</span>':'')+'</button>'})});
+    p.chapters.forEach(function(c){var i=CH.indexOf(c);h+='<button class="c" data-i="'+i+'" aria-current="'+(i===cur)+'"><span>'+(c.kind==='gin'?'✦':c.n)+'</span>'+esc(c.title)+(c.kind==='side'?' <span class="side">Side</span>':'')+'</button>'})});
   document.getElementById('tocList').innerHTML=h;
 }
 var toc=document.getElementById('toc');

@@ -74,16 +74,55 @@ parts = [
     {'title': 'The Anchor', 'kind': 'ending', 'src': 'end', 'blocks': [{'img': 'char_the-axis.png', 'cap': 'The end. The Anchor'}] + [{'p': p} for p in ENDING]}]},
 ]
 
+# Rewritten chapters (third person, with the Bible woven in) replace the
+# assembled ones. Interludes named gin_NN_slug.json follow chapter NN.
+OVR = os.path.join(ROOT, 'content', 'book', 'chapters')
+if os.path.isdir(OVR):
+    files = sorted(os.listdir(OVR))
+    by_src = {}
+    for f in files:
+        if f.endswith('.json') and not f.startswith('gin_'):
+            by_src[f[3:-5]] = json.load(open(os.path.join(OVR, f), encoding='utf8'))
+    k = 0
+    for part in parts:
+        out = []
+        for ch in part['chapters']:
+            k += 1
+            src = ch['src']
+            if src in by_src:
+                o = by_src[src]; o.setdefault('src', src); o.setdefault('kind', ch['kind'])
+                out.append(o)
+            else:
+                out.append(ch)
+            for f in files:
+                if f.startswith('gin_%02d_' % k):
+                    g = json.load(open(os.path.join(OVR, f), encoding='utf8')); g['kind'] = 'gin'; g.setdefault('src', f[:-5])
+                    out.append(g)
+        part['chapters'] = out
+
+def img_src(name):
+    stem = os.path.splitext(name)[0]
+    for ext in ('.png', '.jpg', '.jpeg'):
+        if os.path.exists(os.path.join(ROOT, 'images', stem + ext)):
+            return os.path.join(ROOT, 'images', stem + ext)
+    if os.path.exists(os.path.join(ROOT, 'book', 'img', stem + '.jpg')):
+        return os.path.join(ROOT, 'book', 'img', stem + '.jpg')
+    return None
+
 n = 0
 words = 0
 missing = []
 for part in parts:
     for ch in part['chapters']:
-        n += 1
-        ch['n'] = n
+        if ch.get('kind') != 'gin':
+            n += 1
+            ch['n'] = n
+        else:
+            ch['n'] = n
         words += sum(len(b['p'].split()) for b in ch['blocks'] if 'p' in b)
+        words += sum(len(' '.join(b['doc'].get('lines', [])).split()) for b in ch['blocks'] if 'doc' in b)
         for b in ch['blocks']:
-            if 'img' in b and not os.path.exists(os.path.join(ROOT, 'images', b['img'])):
+            if 'img' in b and not img_src(b['img']):
                 missing.append(b['img'])
         if not any('img' in b for b in ch['blocks']):
             missing.append('NO IMAGE in chapter ' + ch['title'])
@@ -95,16 +134,16 @@ for part in parts:
     for ch in part['chapters']:
         for b in ch['blocks']:
             if 'img' in b:
-                src = os.path.join(ROOT, 'images', b['img'])
+                src = img_src(b['img'])
                 name = os.path.splitext(b['img'])[0] + '.jpg'
                 dst = os.path.join(ROOT, 'book', 'img', name)
-                if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+                if src and src != dst and (not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src)):
                     im = Image.open(src).convert('RGB')
                     im.thumbnail((1200, 1600))
                     im.save(dst, 'JPEG', quality=80, optimize=True, progressive=True)
                 b['img'] = name
 with open(os.path.join(ROOT, 'book', 'book.js'), 'w', encoding='utf8') as f:
     f.write('// Built by tools/build_book.py. Do not edit by hand.\nwindow.BOOK = ')
-    json.dump({'parts': parts}, f, ensure_ascii=False)
+    json.dump({'parts': parts, 'words': words, 'pages': round(words / 275)}, f, ensure_ascii=False)
     f.write(';\n')
-print('chapters', n, 'words', words, 'missing', missing)
+print('chapters', n, 'words', words, 'pages', round(words / 275), 'missing', missing)
