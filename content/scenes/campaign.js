@@ -1387,7 +1387,7 @@ Object.assign(window.VP.scenes, {
 "You sit because to stand would be to flee, and you take the tea because to refuse it would be to start the conversation with an accusation, and across the low table you watch a genuinely happy man explain how a soft-spoken stranger named Gin found him three nights ago at the river, where he had gone to do the thing the grief was steering him toward, and simply... Iwata's hands open, helplessly grateful... <em>took the weight off.</em> Showed him how to set it down. Iwata sleeps now. Iwata eats. Iwata has, he says with shining eyes, never felt so held in his life, and every true word of it lands in you like a nail, because you came here to show this man a leash and what you have found is a man who would have died on Saturday and is alive on Tuesday, and the thing that saved him is the thing you have come to destroy.",
 "You try, gently, to find the seam... you ask him whether he's noticed anything he can't explain, any debts he doesn't remember agreeing to, any pull when he thinks of the man who helped him. And you watch the question slide off him like rain off oilcloth, watch the gratitude close smoothly over the place where doubt should go, and you understand the engineering of it at last: the Healer does not bind people against their grief. It binds them through it. The leash is not laid over the wound; it is woven into the healing, so that to pull on the thread is to pull on the one thing keeping the person whole, and no one... not Iwata, not the widow, not you... can hate the hand that is also the stitches."
 ],
-"imgSrc": "../images/char_iwata-shuji.png",
+"imgSrc": "../images/ext_sojo.png",
 "title": "Chapter Fourteen, continued. The Knot That Pulls Back",
 "c": [
 {
@@ -1425,7 +1425,7 @@ Object.assign(window.VP.scenes, {
 "This is the thing the ledger could not teach you and the man at the river just did: a knot is not a knot. A knot is a place where the rope folds back on itself, and when you pull, both lengths move. You have spent a week imagining yourself outside the design, a reader standing over a map, and in this small bright kitchen with a saved man pouring you more tea you finally feel the truth your sight has been muffling... that the moment you touched a binding with love in your voice, you put love into the system, and the Healer keeps a ledger of love the way it keeps a ledger of favours, and you have just made an entry you cannot unwrite. It knows your frequency now. It has been wanting it since the fourteenth.",
 "You set the cup down before your hand can shake it. Across the table Iwata's peace is undisturbed, perfect, sealed, and that is the horror you will carry out the door... that the convert felt nothing, that the violence ran entirely between you and the thing in your brother, over the head of the man whose grief was the medium. You came to Sumida to free a knot and instead you proved the rope runs both ways, which means the Healer can be reached, which means the Healer can reach you, and you no longer know whether you are pulling it toward the light or it is reeling you toward the post at Kita, one warm patient turn at a time."
 ],
-"imgSrc": "../images/ext_sojo.png",
+"imgSrc": "../images/res_archive.png",
 "c": [
 {
 "x": "Hold the thread... keep your love on the line and let it pull you toward Gin.",
@@ -1476,7 +1476,7 @@ Object.assign(window.VP.scenes, {
 "So the count was always a countdown. You see it whole now, the way you saw the timeline stand up, the way you saw the spiral aim at Kita: the ledger was never a list of the saved with you outside it taking notes. It was a list of the saved with a blank line kept open at the bottom, and the blank line had your name on it from the first night you came to the door, and everything since... the spiral, the daylight favours, the note in his hand, Iwata's tea poured before you arrived... has been the Healer narrowing the distance between you and the moment you are tired enough to be helped. It is not racing you to Gin. It is waiting for you to arrive at it, exhausted and grateful, which is the only door it has ever needed anyone to walk through.",
 "You should feel hunted and instead you feel, for one clarifying second, almost calm... because a countdown, unlike a hunt, has a logic you can read, and the logic is simple and terrible: it wins when you stop, and it wins when you break, and the only state it has no entry for is a man who keeps moving while tired and refuses to be grateful. That is the whole of your road now. Not to outrun the ledger... you can't, it writes faster than you read... but to stay, every hour, the one name it cannot finish: awake, ungrateful, still counting, still yours. You take out the folded note from this morning and lay the two of them side by side, the offer and the refusal recorded in the same patient hand, and you understand you are reading a conversation the Healer has been having with you for a week, in which only it has been allowed to speak."
 ],
-"imgSrc": "../images/char_iwata-shuji.png",
+"imgSrc": "../images/ext_sojo.png",
 "title": "Chapter Fourteen, continued. The Thirty-Fifth Name",
 "c": [
 {
@@ -1555,7 +1555,7 @@ Object.assign(window.VP.scenes, {
 "Through the gap of the door you see them: thirty, maybe thirty-five people, seiza on borrowed zabuton, arranged not in rows but in a ring, and the ring is not facing a shrine or a screen or a priest. It faces inward, toward a single woman at the centre in a grey summer kimono, hands loose in her lap, eyes closed, and every face in that circle is turned to her the way sunflowers turn... not in worship, exactly, but in the helpless geometry of things that have found their source of light. The air around her is doing something your eyes refuse to render cleanly, a shimmer like heat off asphalt except that it is August-still in the room and the shimmer is cold. You have walked into more haunted rooms than you can count. You have never walked into one that was this organized about it.",
 "And then, without opening her eyes, without raising her voice, the woman at the centre says your brother's surname... your surname... into the ringing quiet, and adds, in a tone of perfect hospitality, that the seat at the eastern edge of the circle has been kept open for some time now, that the tea is still warm, and that there is no need to keep standing in a doorway as though you were not expected. The congregation does not turn to look at you. That is the worst part. They do not need to. Whatever sees you is seeing through all of them at once, and it has been waiting, and it is pleased."
 ],
-"imgSrc": "../images/ch19_funnel.png",
+"imgSrc": "../images/place_farshore_white_room.png",
 "title": "Chapter Fifteen. The Far-Shore Circle",
 "c": [
 {
@@ -1588,7 +1588,7 @@ Object.assign(window.VP.scenes, {
 "You make yourself follow the current to where it goes, because that is the only question that matters and you already half know the answer. The harvested thinness does not stay here. It is being drawn somewhere, eastward and downward, toward the old flooded ground in Kita where you felt the membrane scored on purpose, toward the held breath before the window breaks... and you realize the Higan-kai and the Inverted God are one operation with two mouths. Gin's ledger binds the grateful one careful favour at a time. Kaito's sermons tear from the outside. And this circle gathers the city's grief into a battery, and the thing in Rinka draws it down. The horror is not that these people were tricked. The horror is that they were helped, and that their being helped is a fuel.",
 "The man from Sumida is three seats to your left, and when you let your gift brush him you feel the knot the ledger described... the soothed grief, the leash of gratitude... but here in the circle it is doubled, because the Healer's mercy and the Far-Shore's harvest have both passed through him and he no longer remembers a self that existed before either. He turns his head, mild and kind, and asks if you, too, lost someone in the water, and his face is so open and so unburdened that you understand the cruelty of what you are about to consider: that to save this room you may have to give grief back to people who would rather die than carry it again."
 ],
-"imgSrc": "../images/char_kaito.png",
+"imgSrc": "../images/ch19_funnel.png",
 "c": [
 {
 "x": "Trace the eastward draw... follow the current out of the room toward Kita.",
@@ -2098,7 +2098,7 @@ Object.assign(window.VP.scenes, {
 "It costs you immediately and it costs you in the coin you have least of. The Madness comes up through the opened registers like water through a hull, not as terror but as <em>recognition</em>, the unbearable feeling that you are finally seeing the room you were always in, and the part of you that wants to keep living has to hold, with both hands, to the single fact that the recognition is the trap and not the truth. You see the lattice now. It runs under everything, a held geometry of thirteen places, and twelve of them are <em>occupied</em>... you feel the occupation the way you feel eyes in a dark room... each Domain a pressure with a name you almost know, each Seat a demon old enough to be a law instead of a thing, and the whole vast careful weave of it is the wall, is the membrane, is the held breath, because the seats are not thrones. They are the load-bearing.",
 "And the thirteenth place is empty, and the emptiness has a shape, and the shape is a wound. You understand in one falling instant the thing the factions have argued about for a century without anyone living long enough at the Axis to simply look: the Thirteenth Seat is not vacant because no demon is strong enough to take it. It is vacant because it was <em>vacated</em>, torn out, the way a tooth is torn out, in a violence the lattice has been compensating for ever since by leaning the held breath of the whole structure against the gap... and the place where that compensation is thinnest, where the lattice has spent the most of itself holding the wound shut, is the seam under Kita-ku. The vacant chair and the thinning wall are not two problems. They are one wound, seen from two ends, and your brother's captor has spent a month walking the city pressing on the bruise."
 ],
-"imgSrc": "../images/char_the-axis.png",
+"imgSrc": "../images/char_kuze-kaname-light.png",
 "title": "Chapter Nine. The Axis",
 "c": [
 {
@@ -5063,7 +5063,7 @@ Object.assign(window.VP.scenes, {
 "It is not the contrast. You have read the ledger; you know this handwriting now, the patient kindness that hollows the chairs that hold the sky up. Someone has found the one thing a Hunger holder cannot afford to want... a place to stop... and they have wrapped it in a soft voice and a real bed and a room with his name on it, and every time he comes, they let him taste the rest he has denied himself for four years, and let the appetite taste the address he has spent four years refusing to give it. They are not trying to feed him. They are teaching the empty where its holder would live if he ever let himself, drawing it toward a fixed door one merciful night at a time, until the seat finds an address and the ninth domain settles and starts to pull... beside a membrane already thin, during the festival when the doors between here and the other side are propped open for the dead. The Thirteenth Seat is vacant. The work wants neighbours for it on the wall that leans north, and the cruelty wears the face of a woman who thinks a tired man deserves a bed.",
 "<em>She asked me to come tonight,</em> Satoru says, and the appetite spikes with the saying of it, the way the fear spiked when the stairwell holder named her visitor. <em>She said the room's made up. She said I looked so tired last time. She's not... I don't think she's pretending, that's the thing, I think she really does want to give a tired old man a place to sleep. That's what makes it impossible to say no to.</em> He is walking faster now, as though he could outpace the offer itself. <em>And I want to go. God help me, I want to go and lie down on a real bed and sleep eight hours and let it learn the address and let the whole thing settle and be someone else's problem, because I am so tired, and four years is so long, and a bed is such a small thing to want.</em> He looks at you. <em>So before I walk myself to Nippori like I do every time... tell me what you are. Because I think you might be the only person who could make it so I don't have to.</em>"
 ],
-"imgSrc": "../images/res_archive.png",
+"imgSrc": "../images/char_kitagawa.png",
 "c": [
 {
 "x": "Go with him to the guesthouse and let the kindness happen with you in the room... watch Kitagawa-san run the method so you learn its shape, even if it means letting the appetite taste the address one more time.",
@@ -5098,7 +5098,7 @@ Object.assign(window.VP.scenes, {
 "He does not sleep, exactly. But he rests in a way he had forgotten was possible... moving without driving the movement, held inside a current larger than his own exhaustion, the appetite finding no door because the whole street is in motion and there is no still place for it to write down. You walk and you keep walking and you take the empty into your own walled chest where it cannot reach all the way in, a half-step ahead of him the way you climbed a half-step ahead of the fear, being hungry in the right place on purpose so the river of him runs clean for one hour. It is the worst kind of useful, and you feel the old quiet voice start up under the festival noise... <em>see, the wall is good, the empty can't eat you, why would you ever take it down</em>... and you keep that voice at the edge of the crowd with the rest of what you're carrying, and you walk Satoru down to the water with his eyes closed and his face, for the first time, not braced.",
 "At the river's edge the lanterns are going out onto the black water by the hundred, small boxes of orange light loosed downstream toward the dead, and Satoru opens his eyes and watches them go. <em>They don't stop either,</em> he says softly, of the lanterns. <em>That's the trick of it. They're not at rest. They're at peace because they're still moving.</em> Something in him has eased that no bed could have eased... not the hunger, which is weather and will always be weather, but the four-year cramp of a man who thought his only choices were a chair that kills him or a road that never ends. You have not cured the ninth seat. You have shown its holder a way to be still inside motion, which is the one thing the soft-voiced woman's bed could never give him, because her stillness came with an address and yours came with a current. <em>I didn't know it could be like this,</em> he says, watching the light go downstream. <em>I thought stopping was the only way to rest. Nobody ever told me I could rest by being carried.</em>"
 ],
-"imgSrc": "../images/ch3_thinspot.png",
+"imgSrc": "../images/place_kitagawa_guesthouse.png",
 "c": [
 {
 "x": "Tell him what the river taught you about your own wall... that you could carry his empty only because yours is walled off, and you no longer know if that wall is saving you or eating you.",
@@ -5121,7 +5121,7 @@ Object.assign(window.VP.scenes, {
 "She does not push. They never push, this kind; the push would show the method, and the method only works as long as it looks like nothing but kindness. She simply absorbs that tonight's bed will go unslept-in, recalculates with that frictionless ease, and folds her hands. <em>The room will keep,</em> she says, mild and warm, to him and past him to you. <em>It's no trouble. Everyone needs somewhere to stop, in the end. Even him.</em> The <em>even him</em> is aimed at you, and it is a small precise thing, a note filed: that the ninth seat can be carried through motion by someone with a wall instead of an address, that the keyed thing that walked the river tonight is exactly the apparatus the work could use, and that you have, without meaning to, shown the other side a tool while you thought you were only saving a man. You came to keep a holder from his door. You have also taught the people thinning the wall a new way to think about doors... and about you.",
 "When she has gone back inside, and the gold light of the shoji has closed behind her, Satoru stands in the lane with the festival murmuring down toward the river and the lanterns still going out on the black water beyond the rooftops. He is not fixed; he will be moving again before dawn, because the seat is a sentence and you have not commuted it. But he is standing in the lane like a man who has remembered there is a difference between a road and a current. <em>She'll find another one,</em> he says. <em>Somebody who hasn't learned the river yet. There's always somebody more tired than they can stand to be.</em> He is not wrong; somewhere across the thin ward there is a seat for every want, and a soft voice with a bed or a meal or a kindness shaped to exactly that want, and you cannot walk every river. But you walked this one. <em>Thank you for carrying it,</em> Satoru says, which is the oddest gratitude and the truest, and he means: thank you for showing me I don't only get to choose between starving and stopping."
 ],
-"imgSrc": "../images/place_riverside.png",
+"imgSrc": "../images/ch3_thinspot.png",
 "c": [
 {
 "x": "Promise him you'll follow the method back up the chain... find whoever sends the soft voices with their made-up beds, before they empty another seat.",
@@ -5946,7 +5946,7 @@ Object.assign(window.VP.scenes, {
 ],
 "romance": "aoi",
 "stage": 3,
-"imgSrc": "../images/ch19_funnel.png",
+"imgSrc": "../images/place_sumida_lanterns.png",
 "c": [
 {
 "x": "Stay.",
