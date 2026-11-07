@@ -1,0 +1,127 @@
+{
+ "title": "From Gin's Book. Veil Stability",
+ "kind": "gin",
+ "src": "bible",
+ "part": "Book Two. The Handwriting",
+ "blocks": [
+  {
+   "p": "This is the chapter Gin left open on the kitchen table twice, the one Rei closed both times without reading. He read it on the floor of the flat on the night of the journal, by the light of a desk lamp pulled down beside him. These are the pages as he found them. The last note is not Gin's. Rei wrote it in pencil in the margin, a little before dawn."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "Veil Stability. The Complete System. Mandatory Reading, All Field Grades",
+    "lines": [
+     "Veil Stability is the practitioner's current membrane integrity, the percentage measure of how intact the boundary between the practitioner and the other side is at any given moment. It is dynamic, continuous, and requires active management.",
+     "Stability is entirely independent of rank. A Vanguard at thirty percent stability is more vulnerable than a Ritualist at eighty. Rank determines what you can do. Stability determines whether doing it ends you.",
+     "100 to 70 percent. Safe Operation. Full capacity. Membrane intact. Things on the other side do not notice you passively.",
+     "69 to 40 percent. Monitor. Visible wear. Some passive perception bleed. Recovery recommended before high-demand operations.",
+     "39 to 20 percent. Thinning. Noticed. Passive perception becomes intrusive. Things on the other side notice you before you notice them.",
+     "19 to 10 percent. Acute Risk. The other side is present whether engaging or not. Font pull perceptible at A rank and above. Weak entities can slip in during unconscious states. No field operations.",
+     "9 to 1 percent. Possession Window. Strong entities have access. Conscious possession possible. Membrane functionally compromised. Emergency protocols only.",
+     "0 percent. Death. Crossing. The membrane fails completely. Standard death path selection applies.",
+     "The zones are guidelines, not hard lines. Your real risk at any percentage is a function of your rank, the density of where you stand, and what is present and interested in you."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "What Depletes Stability",
+    "lines": [
+     "Ability use. The visible drain. Practitioners generally track it, which makes it the least dangerous one to miss.",
+     "Passive ability leak. Ability running without deliberate engagement. Most common in Clairsentients who read their surroundings without knowing it. The main source of chronic low stability in careful practitioners.",
+     "Physical exhaustion. Sleep loss, hunger, illness, injury. The body and the membrane are not separate systems.",
+     "Emotional strain. Grief, fear, rage, anxiety, depression. Acute grief can drop stability twenty to thirty percent in hours.",
+     "Substances. Alcohol thins the membrane in proportion to intoxication. Stimulants make the practitioner feel stable while depleting faster than they can tell.",
+     "Environmental density. Dense districts, strong suffering beings, entity territory. Presence alone drains.",
+     "Entity proximity. Strong demons deplete the practitioners around them. This is how they make possession opportunities. They thin the target before the approach.",
+     "Suppression maintenance. Holding a false rank costs a low, continuous effort. It does not thin the membrane, but it shrinks the margin for everything else."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin, beside the stimulant entry",
+    "lines": [
+     "I am noting this because it describes Rei's primary management failure and he does not know it.",
+     "He runs on stimulants and spite. His actual stability is consistently lower than his experience of himself. He thinks he is fine. He is fine until suddenly he is not, with less warning than he expects, because the warning system has been masked."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "What Restores Stability",
+    "lines": [
+     "Sleep. Fifteen to twenty-five percent per full cycle of seven to nine hours. Six broken hours is not three quarters of the recovery. It is much less.",
+     "Food. Five to ten percent per adequate meal. The body is the membrane's anchor in the living world.",
+     "Grounding. Five to fifteen percent per session, depending on how well the practice fits the practitioner.",
+     "Emotional stability. Not a source but a multiplier. In crisis, everything else recovers at a fraction of its rate.",
+     "Low-density places. Even brief time in genuinely quiet space gives back more than the time spent.",
+     "Passive ability suspension. Resting the reading you did not know you were doing.",
+     "The compounding problem. A practitioner who is not sleeping, not eating, carrying grief and reading continuously is not recovering slowly. They are not recovering at all."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "The Floor. What Training Actually Does",
+    "lines": [
+     "Training does not raise rank. It builds the floor, the minimum a practitioner holds under the worst conditions, where depletion slows and the system starts to protect itself.",
+     "An untrained practitioner has no effective floor. A trained one has a real floor that can still be breached.",
+     "The floor is built from discipline in recovery, willpower under pressure, and awareness of where you actually are.",
+     "Eat. Sleep. This is the entire foundation of field methodology and I have had to explain it to new operatives in the same words at least forty times.",
+     "Rei's floor is lower than it should be. His ceiling is higher than he knows. The floor is the problem I can do something about. The ceiling is the problem I am afraid to address, because addressing it means having the conversation."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "The Possession Risk Curve. What Actually Happens at Each Level",
+    "lines": [
+     "Possession does not happen suddenly. It happens at the end of a curve that began much earlier.",
+     "100 to 70 percent. No possession risk. Entities can perceive the practitioner but cannot engage without real effort.",
+     "69 to 40 percent. Passive attention risk. Minor entities drift closer. Strong entities in the area become aware. You are becoming visible to things you are not looking at.",
+     "39 to 20 percent. Intrusion risk from minor entities. Sounds, presences, things at the edge of sight. Sleep at this level opens windows for weak entities.",
+     "19 to 10 percent. Acute possession risk. Strong entities that have been monitoring the practitioner now have workable access. Sleep, sedation and injury become high-risk windows. Active resistance is the last barrier left.",
+     "9 to 1 percent. Open window. Any motivated entity with access can attempt possession, even while the practitioner is awake. Resisting depletes stability further.",
+     "Fusion event. Possession complete. The entity is fused with the host body. The host consciousness remains, aware, present, unable to surface. The entity cannot leave without killing the host. The entity knows this. It will not leave."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "postit",
+    "title": "Other Side Distribution. Running Low. What It Actually Feels Like",
+    "lines": [
+     "19 to 10 percent. You feel exposed in a way that has no physical cause. Not threatened. Reachable. Like a door is open somewhere. Check your stability. Eat something. Sleep if you can. You are lower than you think.",
+     "9 to 1 percent. You know. Move. Do not engage. Get to low-density space and get someone with stable integrity beside you.",
+     "At 9 to 1 percent do not be alone. A second stable practitioner's membrane interferes with the entity. Get someone. Call someone.",
+     "Gin, underneath. I have failed to follow this advice. Do as I say. Not as I have done."
+    ]
+   }
+  },
+  {
+   "p": "Under the curve, where the page still had room, Rei took a pencil from Gin's desk and wrote. He did not think about whether he was allowed to write in the book. He wrote small, in the lowercase he had always used, so it would be clear whose hand it was."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "In the margin, in pencil. Rei's hand.",
+    "lines": [
+     "he was not in the 1 to 9 window when it happened. i think he was about 15 to 18 percent. the acute zone. high enough that someone managing carefully might have been fine.",
+     "he was not managing carefully because he did not know how low he was. he thought he was tired. he was emptying.",
+     "the weeks before. the district was busy and short of people. he was eating badly. he was not sleeping. he was reading all day at work and all night at home, and he was managing me on top of it, and he never once called that a cost.",
+     "the thing across the street had been near for weeks, maybe longer. it watched. it waited. it did not rush when he dropped. it waited for the moment his resistance would be lowest. walking home alone, late, after a long day, through a district it knew was dense.",
+     "the fourteenth. the dense way along the canal. because he could not face the train.",
+     "it did not need to be stronger than him. it needed to outlast his margin.",
+     "this is the case file i live with now."
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "title": "The Door That Locks Itself",
+ "kind": "main",
+ "src": "m_door",
+ "n": 5,
+ "part": "Book One. The Vanishing",
+ "blocks": [
+  {
+   "img": "tools_trap.jpg",
+   "cap": "The handyman, on the cold spot by the genkan"
+  },
+  {
+   "p": "There was a line on the floor of Gin's genkan where August stopped."
+  },
+  {
+   "p": "It ran from wall to wall, a hand's width inside the door, exactly where the step up into the flat began. On one side of it, the wet heat of Obon week and the cicadas grinding through the open window. On the other, cold. Not the cold of a draught. The cold inside a well in summer, a coldness that had been kept rather than made."
+  },
+  {
+   "p": "Iwata Shūji had fixed forty-one doors in this building over nineteen years, and he told Rei so before he told him anything else, because he wanted it understood from the start that he was not a man who believed in things. He knelt in the genkan of Gin's flat with his toolbox open and his reading glasses pushed down his nose, and he talked the whole time, the way men talk when the talking is a wall they are building against the quiet."
+  },
+  {
+   "p": "Rei knew, without deciding to know it, how to read that cold. It was the first thing in the Grid flyer Gin had folded into Chapter Three. <em>Temperature is the first indicator. Not physical temperature, veil temperature.</em> It did not spread the way real cold spreads. It sat in one place and pointed. Then density, the heaviness of air before a storm that never came. Then sound, which was not a sound but the feeling that the silence had weight and was listening back. Gin had added a fourth sign in his own hand. <em>Familiarity. The threat that feels like home.</em> Rei stood on the warm side of the line and felt all four at once, in the doorway he had walked through every day of his life."
+  },
+  {
+   "p": "“It started after Obon began,” Iwata said, not looking at him, working a screwdriver he didn't need into a screw that didn't need it. “The tenant downstairs said her ceiling sweated. I came up to check the seal on the window. There's no leak. There's nothing. But you stand here...” He tapped the threshold with the screwdriver, twice, on the exact line where the cold began. “...and you'll feel the building think you're a stranger.”"
+  },
+  {
+   "p": "He laughed at his own phrase and the laugh came out thin. Rei was standing in his brother's home, in the gap where Gin's coat used to hang, and the cold was reading him. It was finding him in the dark and deciding what he was. He understood, with a flatness worse than fear, that Iwata had described it exactly."
+  },
+  {
+   "break": "Stay sloppy"
+  },
+  {
+   "p": "He knew what to do when something read him. He had known since before he could read."
+  },
+  {
+   "p": "He was five, maybe six, and it was this kitchen, and the table had been too high, so Gin had put him on a cushion. Gin was fourteen and very serious. He had made Rei breathe out slowly and then let his attention go loose, like letting a balloon string slip through his fingers. Not gone. Just loose. “Like you're bored,” Gin had said. “Like you're thinking about lunch.” They had practised it every evening for a year, the way other children practised times tables. If anyone ever made the air feel funny, Gin said, that was what Rei did. He did not hold his breath. He did not go still and careful. He went a little bit stupid, on purpose, and stayed that way until the funny feeling went away."
+  },
+  {
+   "p": "“Why?” Rei had asked."
+  },
+  {
+   "p": "“Because the wrong breath at the wrong moment marks you,” Gin had said. And then, because Rei was six and looked frightened, he had ruffled his hair and given him the version a child could carry. “Stay sloppy, Rei. Stay unremarkable. That's the whole trick.”"
+  },
+  {
+   "p": "Rei had stayed sloppy for thirteen years. It was the most practised skill he owned. He had always thought it was just who he was. A well-liked, unfocused, ordinary boy. The intern who filed paper and forgot his umbrella."
+  },
+  {
+   "p": "Now he did it again, in the doorway, with the cold pressing on him. He breathed out. He let his attention go loose and a little foolish. He thought deliberately about whether there was any rice left in the freezer. He did not tighten. The cold went over him the way a hand goes over a table in the dark, looking for something, and found a slightly bored young man thinking about lunch, and moved on."
+  },
+  {
+   "p": "Iwata had noticed nothing. He was still talking."
+  },
+  {
+   "p": "Rei asked him, carefully, when he had last seen Gin. Iwata thought about it for longer than the question should have needed."
+  },
+  {
+   "p": "“That's the thing,” he said. “I saw him on the Sunday. Said good morning on the stairs. Polite man, your brother. Always was.” He set the screwdriver down. “But the missus in 3C, she swears she saw him on Friday, by the door, fitting his key. And I checked the log. He hasn't badged the front entrance since the Wednesday. So one of us is wrong about a man we both know on sight.”"
+  },
+  {
+   "p": "He said it like a small accounting error. He did not yet hear what he had said. The building had been letting in someone who looked like Gin, on a day Gin was not here, through a door that had started to keep its own counsel."
+  },
+  {
+   "img": "char_iwata-kenji.jpg",
+   "cap": "The key that no longer fits"
+  },
+  {
+   "p": "He showed Rei the lock, because the lock was the reason he had been called, and a lock was something he could hold. Gin's key, the one Rei had picked up cold off the walkway at four in the morning, slid halfway into the cylinder and stopped."
+  },
+  {
+   "p": "Iwata took it from him and tried it himself. Gently, then less gently, his craftsman's patience curdling into the small affront a tradesman feels when a thing he understands refuses to behave. “This is his key,” he said. “I cut the spare myself, three years ago. It fit yesterday. I oiled it yesterday.” He drew it out and held the teeth up to the light and found nothing wrong with them. The fault was not in the key. The fault was in the lock, which had, sometime between yesterday and now, quietly become a lock for a different door."
+  },
+  {
+   "p": "Then he showed Rei the other thing, the thing he had not wanted to call about and had called about anyway. He pulled the door shut from the inside and let go."
+  },
+  {
+   "p": "The deadbolt turned. By itself. No hand on it, no draught strong enough. The mechanism rotated its full quarter-turn with the heavy, satisfied <em>chunk</em> of a bolt seating home. The flat had locked them both in."
+  },
+  {
+   "p": "Iwata stared at the brass knob as though it had spoken to him in a language he half remembered from childhood. For a long moment neither of them reached for it, because reaching for it meant admitting that something in the room had wanted the door shut and got its wish."
+  },
+  {
+   "p": "“It does that now,” Iwata said, very quietly. The wall was finally down. “Three times since Thursday. It locks itself. Like it's keeping something in. Or...” He could not stop the next part. It came out of him sideways. “...like it forgot which side the inside is on.”"
+  },
+  {
+   "p": "Rei turned the bolt back. It came easily, oiled and ordinary, a thing a man had built and a man could undo. But he had felt it now, the small will in the room. The flat was no longer a container for his brother's absence. It was taking part in it. The cold by the genkan, the changed lock and the bolt that seated itself were not three faults. They were one fact, said three ways, by a space that had learned to testify."
+  },
+  {
+   "p": "Years ago, in the only voice of his that Rei had ever fully trusted, Gin had told him that a place holds the shape of whoever lives there, the way a glove holds a hand. This place was holding a shape. It was just not his brother's any more."
+  },
+  {
+   "img": "res_archive.jpg",
+   "cap": "What changes tenancy, and what stays to attest it"
+  },
+  {
+   "p": "Iwata packed his toolbox the way a man folds a flag, slowly, with a ceremony he would have denied. At the door, which he now opened with his own master key, because Gin's no longer worked and he would not say so out loud again, he stopped and gave Rei the thing he had been circling for an hour."
+  },
+  {
+   "p": "“My grandmother kept the house in Niigata,” he said. “She used to say a house knows when the owner's debt comes due. She said the cold spot was the house making room.” He shook his head at himself, at the disgrace of repeating it, a man who fixed things repeating a thing that could not be fixed. “Making room for what, I asked her. She never said. I think she didn't like the answer either.”"
+  },
+  {
+   "p": "Then he was gone down the stairs, and Rei was alone in the doorway of his brother's flat at the high heat of Obon, the week when the line between the living shore and the other is thinnest and the dead come back across the water. The lock had been recut for whatever was crossing."
+  },
+  {
+   "break": "Chapter Six, the addendum"
+  },
+  {
+   "p": "He did not go inside. He sat down on the warm side of the cold line with his back against the wall of the walkway and opened the archive on his knees, at the place he had reached in order. It was the end of Chapter Four, the section on suppression. The heading said <em>Read it twice. Nobody knows this exists. This is why high-rank practitioners die.</em> Halfway down, Gin had stopped writing as a field officer and started writing to him."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Suppression. Technical reference, with Gin's notes",
+    "lines": [
+     "What it is. A rare secondary ability allowing a practitioner to mask their true rank from external assessment, including Auditor reading, entity perception, and most detection equipment. The rank remains. The broadcast changes.",
+     "What it is not. A stability technique. A suppressed practitioner at 12% is still at 12%, presenting differently, at the same risk. Nor does it hide the structural thinning a high-rank aperture produces. It hides the signal. It cannot hide the effect.",
+     "Family lineage. Appears in family lines more strongly than any other secondary ability. The Uedera family variant produces an environmental interference pattern: the absence reads as background noise, not deliberate masking.",
+     "Rei Uedera. Presented rank: D. Null-signature reads as distracted, unfocused, a Sensitive rank not paying attention. This is the Uedera suppression variant functioning as trained. The disguise is working.",
+     "Actual rank: A. Possibly touching S at ceiling.",
+     "To Rei, if this is you: your null reads as distraction. Do not tighten it. The slightly sloppy, slightly unfocused quality is the disguise and it works because it is consistent. The day you present a clean null it will read as deliberate masking and someone will start asking why. Stay sloppy. Stay unremarkable. Read Chapter 5 twice. Then read it again."
+    ]
+   }
+  },
+  {
+   "p": "Rei read the single letter and did not feel anything for a while. He had always been the boy who was bad at exams and good at noticing, who fell asleep on the couch in the afternoons and never knew why he was so tired. Gin had known why. Gin had written it down in a book and put the book on a shelf and made him rice. He turned the pages forward through Chapter Five and Chapter Six, faster than Gin would have liked, until he found the note Gin had put at the very end of the addendum, on its own page."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Personal Archive. Private Note",
+    "lines": [
+     "I have been debating including this since I began the archive. Including it now.",
+     "The family has never passed information about this. My parents did not know what they were carrying.",
+     "What I know about my ancestors is from their case files. Two of them were field operatives during the early period, before the CVD's current structure existed, when a specific unit was deployed to manage what was crossing over from the other side. In those files there are moments where the documented response should not have been possible for a single-path practitioner at the recorded rank.",
+     "They had blocked one path each, maybe two. Not unlocked, blocked, held unused alongside whatever they presented as. The same way I present as C and hold the rest back. They never opened what they had. They just held it there, and occasionally, under sufficient pressure, something else moved.",
+     "I have unlocked four paths. Not fully. But they are present and accessible and when I push hard enough in the right direction they engage. I have been developing it deliberately for four years without telling anyone, because the ability taxonomy from the CVD does not have a category for what I am describing.",
+     "Rei. I believe he has the same profile. The way his Clairsentience bleeds into other registers occasionally in ways that a single-path ability should not. The specific chaos of his passive output, which reads as multiple things interfering with each other rather than one thing running loud. I believe he has more than one path available to him. I believe he has not accessed any of them deliberately.",
+     "I have not told him this. I am going to have the conversation. I am documenting this commitment here, again, in the hope that committing it to the archive creates the accountability I have not been able to create through internal resolve alone.",
+     "Keys on the hook. Said something I have not said before. The archive is more complete than it was this morning."
+    ]
+   }
+  },
+  {
+   "p": "So that was the secret. Not a curse. Not a power. A line of people who were born with more than one door open, and who had learned, generation after generation, to stand in front of the extra doors so nobody would see them. Rei had been born with two. He could feel the second one now that he knew to look, the way a person suddenly notices a sound that has been in the room all along. It was nothing he could name. It was only the sense that the noise Gin had taught him to make had always been covering more than one thing."
+  },
+  {
+   "p": "Gin had been going to tell him. He had written that down twice, in two different chapters, and then he had run out of time."
+  },
+  {
+   "p": "Rei thought about the entries in the archive that stopped being entries after the fourteenth. He thought about the case Gin had closed too fast, the drowning, the address in no file. He thought about a debt that had never been Gin's to pay and the brother who would pay it anyway, in the one currency he had left, which was his own residency in his own life. And he understood, sitting there, that this was what it looked like from the outside. Not a vanishing. Not a violence. Nothing the Directorate had a form for. A change of tenancy. The slow handover of a man to whatever he had agreed to let in, witnessed only by a handyman who did not believe in things and a brother who was learning, room by room, to read the handwriting before he could bear to name it."
+  },
+  {
+   "p": "He took the key, Gin's useless key, the one that fit nothing now, and put it in his pocket anyway. It was the shape of a door Gin had once been able to open, and Rei was not ready to be a man who threw away the last key to his brother."
+  },
+  {
+   "p": "Behind him, as he pulled the door to from the warm side, the deadbolt turned. He did not reach for it. He let the flat keep what it was keeping, and he went down the stairs into the heat, and the cicadas took him back. He carried the cold out into August in the small of his back, where it would sit for days, reading him, deciding what he was. And every time it looked, it would find a slightly bored young man, thinking about lunch."
+  }
+ ]
+}

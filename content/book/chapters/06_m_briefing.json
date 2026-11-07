@@ -1,0 +1,180 @@
+{
+ "title": "The Briefing They Kept Quiet",
+ "kind": "main",
+ "src": "m_briefing",
+ "n": 6,
+ "part": "Book One. The Vanishing",
+ "blocks": [
+  {
+   "img": "cvdroom_the_dispatch_center.jpg",
+   "cap": "Civil Veil Division, Kita, intake desk, 09:14"
+  },
+  {
+   "p": "The building looked like a tax office. It was meant to."
+  },
+  {
+   "p": "It stood a minute's walk from the east exit of Ōji Station, a grey block of no particular distinction, the kind of building the eye slides off. Rei had walked past it most of his life without once looking up. That was what it was for."
+  },
+  {
+   "p": "Gin had written about it in a page Rei had read the night before, a list of the building's rooms that he had compiled over six years and marked by how he knew each one. <em>The grey block by Ōji Station. Home, most days.</em> The Division had not put it there by accident. Under it ran the fault-line intersection beneath the ward, the thinnest structural point in the district, and around it lay the worst ground the district had. The freight-yard blocks to the north. The station underpass to the south. The riverside memorial to the east. The old market arcade to the west. <em>They built here to be close to all of it,</em> Gin had written, <em>and to be standing on the access while they did.</em> Every CVD in the world was built the same way, he said. Dropped into the middle of its city's worst veil ground, on the thinnest point, looking like nothing."
+  },
+  {
+   "p": "The plate by the door said <em>Civil Veil Division</em> and, underneath, <em>Ministry of Internal Affairs.</em> Gin had once put its purpose more plainly than the plate did. Under the mandate language and the classified programs, he said, what the Division actually did on a Tuesday afternoon was manage the ratio of outside entities in the living world. Nobody in Kita called it by the name on the plate. Older people called it the Directorate, and so did everyone who worked inside it, and so, after a while, did Rei."
+  },
+  {
+   "p": "The intake hall was the coldest warm room in Tokyo. They kept it at exactly the temperature that let a salaryman keep his jacket on and a frightened person keep their hands from shaking, and after four minutes in one of the bolted plastic chairs Rei could no longer tell which of the two he was. The clerk behind the glass had a queue-ticket dispenser, a stamp, and a face arranged into the particular blankness of a person who had decided in advance that whatever he had come to report was already accounted for."
+  },
+  {
+   "p": "He slid his brother's name across the steel tray under the window and watched her type it. He watched for the small light of recognition that should cross any face when a name lands on a screen. It did not come."
+  },
+  {
+   "p": "“Uedera Gin,” she read back, flat, and turned the monitor a careful two degrees away from him."
+  },
+  {
+   "p": "He told her Gin had been gone since Wednesday night. He told her about the door that locked itself and the neighbour who had seen a man wearing Gin's face fit a key on a day Gin never badged the building. He heard his own voice doing the thing voices do in rooms like this. Going reasonable. Going small. Sanding the edges off the impossible so the impossible would fit through the slot under the glass."
+  },
+  {
+   "p": "She listened the way water listens. When he finished she did not write anything down. “I'm showing him as current,” she said. “Status active. Last verification...” She leaned toward the screen, and he leaned with her, and they both read a date. The date was three days ago."
+  },
+  {
+   "p": "Three days ago Gin's flat had been a held breath and an empty coat hook. Three days ago someone in this building had looked at his brother's file and certified that he was, in the language of the form, <em>present and accounted for.</em>"
+  },
+  {
+   "p": "Rei asked the only question that mattered, which was who. The clerk's hand found the stamp without her looking at it, the way a hand finds a railing on a stair it has climbed a thousand times."
+  },
+  {
+   "p": "“Verifications are system-generated,” she said. The sentence had the worn smoothness of something repeated until it stopped meaning anything, a stone in a river of other stones. “If you'd like to file a discrepancy, take a ticket.”"
+  },
+  {
+   "p": "The dispenser ticked. A paper tongue slid out toward him with a number on it. Holding it, Rei understood that he had just been handed his place in a line designed to be longer than his patience, by an institution that had already decided his brother was not missing, because someone had taken the trouble to make sure the form would say so."
+  },
+  {
+   "break": "The waiting chairs"
+  },
+  {
+   "p": "While he waited, he read what the hall gave him to read. On a clipboard chained to the counter there was a stack of registration intake forms, the kind people filled in when they walked in off the street to be measured. The second page was a grid of tick boxes. Gin had told him once, without explaining, that every number in the Directorate came from that one page."
+  },
+  {
+   "doc": {
+    "kind": "form",
+    "title": "Civil Veil Division. Practitioner Intake. Section B. Rank and Path (for assessor use)",
+    "lines": [
+     "Rank (natural). Tick one. Assessed by the panel. Do not self-assess.",
+     "☐ Null. No aperture. About 60 in 100 people. Cannot perceive, cannot be trained.",
+     "☐ Sensitive. Passive bleed only. Feels the shiver and forgets it.",
+     "☐ Postulate. Level 1. About 20 in 100. Passive perception, mostly felt as instinct. Low monitor.",
+     "☐ Adept. Level 2. About 10 in 100. First rank where deliberate use is possible. Registration encouraged.",
+     "☐ Ritualist. Level 3. Grade C. About 5 in 100. The working grade of field operations. Registration mandatory.",
+     "☐ Channel. Level 4. Grade B. About 3 in 100. The other side begins to notice back. Flagged.",
+     "☐ Arbiter. Level 5. Grade A. About 1.5 in 100. Thins the local membrane whether used or not. Priority.",
+     "☐ Vanguard. Grade S. Hundreds in the world. The city notices. Cannot be compelled.",
+     "☐ Singularity or Guardian. Grade SS, fifty to eighty in the world. Grade SSS, single digits.",
+     "Axis. Not a rank. Not to be ticked.",
+     "Path (primary). Tick one. Path is independent of rank.",
+     "☐ Clairsentience. About 28 in 100 practitioners. Reads what people, objects and places give off. Low cost per use, high over time.",
+     "☐ Telepathy. About 18 in 100. Enters minds. High cost per use. Most regulated.",
+     "☐ Telekinesis. About 22 in 100. Force at a distance. Leaves signatures for hours.",
+     "☐ Psychometabolism. About 14 in 100. The body. Healing others is among the highest costs of any path.",
+     "☐ Psychokinesis. About 11 in 100. Heat, current, sound, light. Very high cost.",
+     "☐ Teleportation. About 7 in 100. Transit through the Threshold. Extreme cost. Maximum priority.",
+     "Natural rank is where you sit without training. Trained rank is where development can reach. Zero cannot be trained into anything."
+    ]
+   }
+  },
+  {
+   "p": "Rei looked at the boxes for a long time. Somewhere in this building there was a version of the form with Gin's name on it and a tick against <em>Ritualist</em>. Gin had sat in the intake chair and been measured as a Ritualist, and stayed a Ritualist, for six years. There was no version with Rei's name. He had never ticked anything. Yesterday, on the walkway, he had read a single letter in Gin's print. <em>Actual rank: A.</em> On this form that was the box marked <em>Arbiter</em>, the first line on the page with the word <em>Priority</em> beside it."
+  },
+  {
+   "p": "He put the clipboard back exactly where it had been."
+  },
+  {
+   "p": "At ten past ten a woman came through the inner door and walked the length of the hall. She was not a clerk. She carried nothing. She walked slowly, the way a person walks through a gallery, and as she passed each row of chairs the people in them shifted without knowing why. Rei knew what she was before she was halfway down the room. He had read about her kind two nights ago, in a page of Gin's book with a red stamp across the top."
+  },
+  {
+   "doc": {
+    "kind": "form",
+    "title": "CVD Field Classification. Auditor Profile. Restricted Access",
+    "lines": [
+     "Designation. Auditor. Psychic signature assessment operative.",
+     "Ability basis. Clairsentience variant. Signature reading.",
+     "Function. Real-time assessment of practitioner power level, veil integrity status, ability type, and active use indicators.",
+     "Assessment range. Standard 15m radius passive read. Active scan up to 200m with ability use. Signature lingering readable up to 6 hours post-use at location.",
+     "Limitations. Cannot read suppressed practitioners reliably. Suppression presents as anomalous null-signature, identifiable as suppression but not readable through it. Estimated 2 to 4% of the practitioner population possesses suppression ability.",
+     "Psychological profile. High veil sensitivity. Elevated risk of chronic low-integrity degradation. Standard rotation 6 months active field, 3 months supervised recovery. Non-compliance with rotation correlates with 340% increased possession risk.",
+     "CVD deployment. Registration processing centers, field surveillance units, Protocol active operations support, Tower family contracted assessment services."
+    ]
+   }
+  },
+  {
+   "p": "Gin's note had been underneath it. <em>An Auditor can tell that someone is suppressing. The null reads as a specific kind of absence, like a space where a sound should be. The Uedera family suppression variant is, as far as I am aware, undetected in the literature. I have been careful to ensure it stays that way.</em>"
+  },
+  {
+   "p": "A clean null was a hole in the room, and holes got noticed. Gin had not taught him to make a hole. Gin had taught him to make noise."
+  },
+  {
+   "p": "Rei counted the chairs between them, the way Gin's page had taught him to measure the distance, and felt the moment she came inside the circle, a faint pressure like someone reading over his shoulder. He did not go still. He did not go careful. He breathed out and let his attention go loose and a little foolish. He looked at the ticket in his hand and wondered, sincerely, whether the vending machine by the door took IC cards. He was a tired nineteen-year-old in yesterday's T-shirt who had come to complain about a form, and he let himself be exactly that, and nothing behind it."
+  },
+  {
+   "p": "Her eyes passed over him and did not stop. Whatever she felt there was static, the hum of a crowded room, background. She moved on down the row and through the far door, and the hall let its breath out."
+  },
+  {
+   "p": "Rei sat with his hands between his knees until they stopped shaking. <em>Stay sloppy. Stay unremarkable.</em> It had worked. It had worked in the one building in the city built to catch him, and he could not decide whether that made him feel safe or entirely alone."
+  },
+  {
+   "img": "ch3_thinspot.jpg",
+   "cap": "The liaison who agrees with everything"
+  },
+  {
+   "p": "They sent him eventually to a man named Sekine, whose office was a glass box on the fourth floor with a view of the air-handling units and a plant doing the slow, patient work of dying in a corner. Sekine was kind in the way that costs nothing. He stood when Rei came in. He offered him the good chair. He used Gin's given name as if they had been at school together. Within ninety seconds Rei understood that the kindness was the interface, the soft cladding the building wore so that its hardness never had to touch anyone directly."
+  },
+  {
+   "p": "Sekine agreed with everything. He agreed that the situation was concerning. He agreed that the verification looked, on its face, irregular. He agreed, with a small sorrowful tilt of the head, that he could find no record of who had authorised it. He agreed so completely and so soon that Rei realised agreement was how this office said no."
+  },
+  {
+   "p": "Rei asked him to mark Gin missing. He asked him to change the one field that would turn the whole machine the other way, that would put his brother's face on a board instead of a verification on a server."
+  },
+  {
+   "p": "Sekine's hands came together on the desk, very gently, two halves of a closing thing. “Here is the difficulty,” he said. And the difficulty, when he laid it out, was exquisite. To file a missing-person flag on a registered officer required the counter-signature of his supervising desk. Gin's supervising desk had, as of the last roster, no supervisor listed. The chair sat vacant, a small administrative weather system, pending an appointment that kept not happening."
+  },
+  {
+   "p": "“So you see,” Sekine said, almost apologetic, “there is no one with the standing to declare him gone.”"
+  },
+  {
+   "p": "The sentence landed in the cold warm room and sat there. A man had been erased not by force but by procedure, by the careful removal of every official who would have the authority to notice."
+  },
+  {
+   "p": "Rei watched Sekine's face for the lie and did not find one, and that was the worst of it. He was not lying. He was reciting. He was a decent man reading Rei the rules of a game whose rules had been written, recently and quietly, by someone who wanted exactly this room to produce exactly this answer."
+  },
+  {
+   "p": "When Rei asked who had left the supervising chair empty, Sekine glanced, just once, at the dying plant, as if it might know. The previous supervisor, he said, had taken a personal leave in late July. “For health. He'd been...” Sekine searched for the word a kind man uses for a colleague who came apart. “...helped, I think, by someone. A consultation. He spoke very warmly of it.”"
+  },
+  {
+   "p": "The word <em>helped</em> went into Rei like cold water down a wall. He had heard it before, in his brother's flat, in the cadence of a thing that did favours. He knew now that the briefing they had kept quiet was never a briefing at all. It was a clearing of the room."
+  },
+  {
+   "img": "cvdroom_assessment_registry.jpg",
+   "cap": "The corridor, and the badge that still works"
+  },
+  {
+   "p": "He left through the same turnstile he had come in by. On instinct, the bad, useful instinct of a person who has stopped believing the official story, he took out the visitor's lanyard they had clipped to him at the door and looked at it properly for the first time."
+  },
+  {
+   "p": "It was not a visitor's pass. The clerk, somewhere in the long blank ritual of intake, had made an error or been made to make one. The card in his hand carried a low-grade access tier under a name that was not his. It was a temporary credential issued, the small print said, <em>on behalf of the supervising desk, G. Uedera.</em>"
+  },
+  {
+   "p": "For one impossible second Rei read it as a message from his brother, a hand reaching out of the machine. Then the colder reading arrived. The vacant chair was not empty. Something was sitting in it long enough to issue credentials, quietly, in his brother's authority, and it had just, by accident or by design, handed him the keys to the building that said Gin was not missing."
+  },
+  {
+   "p": "The corridor outside intake ran long and fluorescent toward the lifts. Halfway along it he passed a plain door with a plain plate. <em>Assessment and Registry.</em> Below it, on a slip of card in a holder, the names of that week's panel, and the second of them was <em>Okada S.</em> The door stood open a hand's width. Inside there was a single chair facing a desk, and an instrument on the desk, and nothing else. Rei knew that room from Gin's list too. <em>The intake chair. Where an aperture becomes a rank and a number. I have sat in it lying.</em> Six years of sitting in that chair and being measured wrong on purpose. <em>It is the most important work I ever did,</em> Gin had written, <em>and no one will ever know I did it.</em> Rei did not slow down. Slowing down would have been interesting."
+  },
+  {
+   "p": "The cold that lived in Gin's flat was here too, he realised. Thinner. Dilute. A single thread of it laid along the floor like a tripwire of held breath. He could feel where it led. It did not lead toward the exit. It led deeper, toward the archive floors, toward the locked registry where the verification had been born. He stood at the seam between the way out and the way in, with a credential in his fist that should not exist, issued by an authority that should belong to a missing man, warm under the lights of an institution that had decided, on excellent paper, that nothing was wrong."
+  },
+  {
+   "p": "Somewhere below him a printer was running. He could hear it through the floor, the soft mechanical patience of a document filing itself, certifying again, on schedule, that Uedera Gin was present and accounted for. A small machine was keeping a large lie current while the city outside ground out its cicadas and lit lanterns for the dead it was willing to admit were gone."
+  },
+  {
+   "p": "He thought of the word <em>helped.</em> He thought of an empty chair that issued keys. And he understood, with the flat clarity that had replaced fear in him over these three days, that to find his brother he would have to walk in the one direction the building had been built to prevent, carrying a borrowed authority that was really a borrowed wound."
+  }
+ ]
+}

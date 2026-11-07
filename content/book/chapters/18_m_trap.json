@@ -1,0 +1,161 @@
+{
+ "title": "The Two-Demon Trap",
+ "kind": "main",
+ "src": "m_trap",
+ "blocks": [
+  {
+   "img": "ch7_preconflict.jpg",
+   "cap": "Where the two seams meet, and the table is set"
+  },
+  {
+   "p": "Rei laid the two maps over each other on the kitchen floor. One was the Healer's thirty-one bound favours, each a pencil dot on a ward map. The other was the Inverted God's scored and thinning seams, traced in red from what he had felt at the underpass and the widow's door. Under both of them he spread the pages Gin had headed <em>Disturbed Areas</em>. The Division's own map of Kita, Gin had written, was accurate and useless. It showed the streets. The real map was the one a person built with their feet, over years."
+  },
+  {
+   "p": "With the three layers together, the city resolved into a single design, the way two halves of a torn photograph resolve into one face. Gin's mercy clustered around the wards where the membrane was strongest. Kaito's tearing concentrated where it was already weakest. Rei could name those places now from his brother's pages. The station underpass. The freight-yard blocks. The old market arcade."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's archive. Disturbed Areas. The Freight-Yard Blocks",
+    "lines": [
+     "ACCUMULATION. Condemned housing by the rail yard. Forty years of bad death, and the walls remember.",
+     "You feel the register thicken on the stairs, and by the third floor it is genuinely hard to tell your own mood from the building's. Nothing in there is malevolent. It is simply too much ended life pressed into too little space.",
+     "Danger. Low ambient, high cumulative. An hour inside at a poor floor is a real possession risk. The density does the hunting for whatever is there.",
+     "I clear a corridor there twice a year and I am always a little worse for a week after. Some places do not forgive being read. G.U."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "Suffering Beings. Environmental Effect Scale, By Duration",
+    "lines": [
+     "Recent, months. Subtle. No structural membrane alteration. Clearance is straightforward.",
+     "Established, years. Occupants describe a feeling in the space they cannot explain. Cold spots, strange acoustics, animals behaving oddly.",
+     "Deep, decades. The membrane in the location has been structurally altered. The space actively generates the register. Surface clearance produces temporary relief only.",
+     "Ancient, centuries. The location has become the accumulation. Management, not clearance. Some places are simply not habitable for long."
+    ]
+   }
+  },
+  {
+   "p": "Forty years put the freight-yard blocks in the third row. Deep. A place that made its own grief now, with or without new dead to feed it. Kaito's people did not have to make the wall thin there. They only had to keep scraping."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's archive. Disturbed Areas. The Old Market Arcade",
+    "lines": [
+     "CROSSING POINT. A shuttered arcade. The crossings are in the drains.",
+     "A fixed set of crossing points... doors, sills, storm drains... worn into the place by decades of use.",
+     "When it is bad, the Division sends Kurosawa Shou. That alone tells you how seriously to take the bad nights.",
+     "Things come through on their own schedule, not yours. The drains are the worst of it. Never stand over one you have not warded.",
+     "It is the one ground in Kita where I have felt something on the far side waiting, specifically, for a door to open."
+    ]
+   }
+  },
+  {
+   "p": "And between the two patterns, in Kita-ku, at the wound that 2011 had never closed, they did not collide. They interlocked. One thinned the wall to breaking point. The other stood ready, grateful hands and all, to do something <em>careful</em> at the moment it broke. To close a seat. To take a seat. To turn catastrophe into the one obligation a Duty-register demon had waited forty years to be allowed to meet."
+  },
+  {
+   "p": "This was the trap, and Rei finally saw that it had never been set for him. He was not the prey. He was the witness it could afford. A witness with no grade and a brother's love made a perfect leash and a perfect alibi both. The factions would rush to stop the obvious monster. The obvious monster would let them, would even help, would be so reasonable about it. And when the wall finally went and his brother's captor stepped into the Thirteenth Seat through the gap, every grade in the city would have spent its strength on the wrong demon. For one terrible clean moment, they would feel that they had won."
+  },
+  {
+   "break": "The kit by the door"
+  },
+  {
+   "p": "He could not sit in the flat with it. Before he went out he took Gin's field kit down from the hook in the genkan, where it had hung since the fourteenth. It was an ordinary grey shoulder bag. Gin had written that a good kit looks like someone who is prepared for a camping trip and nothing else. This one did. Inside were salt in a sealed tub, iron filings in a separate sealed jar, a small cloth pouch of silver, a flat case of folded paper glyphs, a notebook, a pen that worked, and a twist of cedar ash. In the left side front pocket, wrapped in a handkerchief, were three small glass vials, sealed, intact."
+  },
+  {
+   "p": "Rei knew what they were, because Gin's page on field materials had told him he would find them."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "Primary Field Materials. What They Do",
+    "lines": [
+     "Salt. An unbroken line is a barrier. Spectral spirits, suffering beings and Class E demons are fully blocked. Class B can break through and arrives destabilised. Class A and above crosses, but its signature spikes. 500g covers a room. Rain dissolves an outdoor line in 20 minutes. Carry two containers minimum.",
+     "Iron, cast or wrought only. Steel processing removes what disrupts the veil layer. A steel knife does nothing. A cast iron skillet works. A wrought iron nail works. Iron filings on a threshold with a salt line make a door trap that damages what forces through.",
+     "Silver. Effect scales with fusion depth, how old and embedded the entity is. Sterling, 92.5% minimum. Silver-plated objects do not work.",
+     "Running water. Most entities cannot hold together crossing moving water. The Kanda and Ara rivers function as natural entity movement barriers in Kita. Drainage channels do not count.",
+     "Cedar ash. Burned in a space, each hour cuts ambient contamination by about 10%. Mixed with water, it is the paste base for the Purification Seal. Rubbed on an object, it clears mild contamination before a read.",
+     "Sulfur. Detection only. Placed at an entry point, it oxidises slightly when a demon passes. The trace is readable for about two hours. Not useful against experienced Class B demons. They learn to suppress the trace.",
+     "Gin's kit. Three sealed vials, small glass. Left side, front pocket of the field kit. Intact. Rei will find them."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "postit",
+    "title": "Margin, under Silver",
+    "lines": [
+     "The Kita demon specifically. The entity is old and Arbiter-grade, so the fusion already runs deep. It cannot fully suppress its reaction to silver. Useful for testing suspected possession without announcing that you know.",
+     "The Kita demon has been operating for 18 months. Assume trace suppression is active."
+    ]
+   }
+  },
+  {
+   "p": "Eighteen months. Gin had known that long. He had known it was here, in his district, and he had written the numbers down as calmly as he wrote the price of salt."
+  },
+  {
+   "p": "Rei opened the silver pouch. Inside were four old coins, heavy for their size, the kind antique shops sell as pre-decimal. He took one and put it in his trouser pocket, against his leg, where Gin's cold key had been. If he ever stood in the same room as his brother again, he would find a way to put that coin in Gin's hand. He would watch what the thing in him could not hide."
+  },
+  {
+   "break": "The riverside memorial"
+  },
+  {
+   "p": "He went to the river, because Gin's page said running water was a wall, and because he wanted to stand somewhere the Healer's threads would have to cross a current to reach him. He went to the small riverside memorial in Kita, where the city had set a stone for the 2011 dead. Gin had written about it too, in a different voice from the rest of the pages."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's archive. Disturbed Areas. The Riverside Memorial",
+    "lines": [
+     "GRIEF GROUND. The 11th-of-March ground. It runs thick, and it earns the thickness.",
+     "Every year since 2011 the grief register spikes across the city on that date, and the memorial places run thick with it. This one is ours. Standing in it is less like reading a haunting than like standing in a room where everyone has just stopped crying.",
+     "Who works it. No one, and you should not try to. The shrine and the temple tend it, gently, the way it ought to be tended.",
+     "It will pull on your own grief, and we all carry some. Go to help, or to mourn. Do not go to take notes.",
+     "I have stood there on the 11th more than once, not as an operative, just as a person. It is one of the very few grounds in this book I would ask you to be quiet in. G.U."
+    ]
+   }
+  },
+  {
+   "p": "So Rei was quiet there. He sat on the low wall in the worst hour of the Obon heat, with the lanterns going up on the river to guide the dead home. Someone had left fresh flowers and a can of coffee at the foot of the stone. He did not take notes. He did the arithmetic no one should have to do, and he did it in his head."
+  },
+  {
+   "p": "To stop the Healer, he might have to let the Inverted God be stopped by it. To stop the Inverted God, he might have to hand the factions a reasonable ally wearing his brother's face. There was no move on this board that did not cost him something he was still pretending he got to keep."
+  },
+  {
+   "img": "ext_sojo.jpg",
+   "cap": "The Healer answers, reasonably, through Gin's mouth"
+  },
+  {
+   "p": "It called him this time. The phone lit in the dark and it was Gin's number, and Rei knew before he answered which of the two voices would be on the line. The trap was sprung now. There was no further use in pretending to be only his brother. The evenness was total tonight. There was no frightened seam in it, no <em>go home</em>. Only the Healer, speaking through a mouth it had stopped sharing."
+  },
+  {
+   "p": "\"You've done the arithmetic,\" it said. There was something almost like pride in it. \"Good. Then you understand I am the kinder answer. The boy in the pool would unmake the wall and let this city drown in its own unfinished grief. I would close the wound properly, from the only seat high enough to do it. And the dead would finally be accounted for.\" A pause, perfectly judged. \"Including ours.\""
+  },
+  {
+   "p": "It let <em>ours</em> land. It knew what it was doing. It had had a month inside Gin's memories, and it spent them like coins."
+  },
+  {
+   "p": "\"The thing behind that boy cannot be ended from outside,\" it went on, in the same reasonable tone. \"Not on this side of the wall. A thing like that can only be killed here from inside a body. That is why I need your brother's hands for a little while longer. Only a little while.\""
+  },
+  {
+   "p": "Then Gin's voice dropped half a step. Rei had heard it do that before, on the nights Gin told him a case had gone fine when it had not. \"When I take the Thirteenth Seat I will not need him any more. He can be set down. Intact. Returned, the way you set down a tool when the work is finished. All of this can end with you getting your brother back, whole. You only have to stop pulling on the one thread that might tear the work before it is done.\""
+  },
+  {
+   "p": "It was the most reasonable offer anyone had ever made him. It was built entirely of true things, tilted at the exact angle that drowns."
+  },
+  {
+   "p": "And in the silence after it, so quietly that Rei almost missed it under the dial tone of its certainty, there was a sound that was not the Healer. A breath, three rooms deep in the voice, ragged and human. It was choosing, with the last lucid strength it had, to spend that strength on something other than a word. A single tap against the receiver. Once. Then once. Then once."
+  },
+  {
+   "p": "It was the rhythm of the widow's altar. The knock from the inside. His brother was telling him, in the only language left to him, that he was still in there. That the kind offer was a wall. And that he would rather Rei tore it down than leave him accounted for."
+  },
+  {
+   "p": "The line went dead. Rei sat by the river with the phone against his ear for a long time after. The current went past in the dark, carrying the paper lanterns toward the sea. When he finally walked home, he opened the first of Gin's three vials at the door of the flat. He laid a thin yellow line of sulfur across the threshold, and another beside the ledger on the table, the way the page said. If anything came in while he slept, it would leave a mark for two hours. He did not expect it to. He did it anyway, because it was something Gin had left for him to do."
+  }
+ ],
+ "n": 18,
+ "part": "Book Three. The Recruited"
+}

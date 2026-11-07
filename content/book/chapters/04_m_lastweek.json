@@ -1,0 +1,123 @@
+{
+ "title": "The Last Week",
+ "kind": "main",
+ "src": "m_lastweek",
+ "n": 4,
+ "part": "Book One. The Vanishing",
+ "blocks": [
+  {
+   "img": "res_apartmentginroom.jpg",
+   "cap": "A briefing he skipped, in a building that does not forget"
+  },
+  {
+   "p": "The woman behind the blue curtain held the discharge form up to the window, so that the light came through the paper and Gin's signature floated on it like something drowned."
+  },
+  {
+   "p": "“Look,” she said. “There.”"
+  },
+  {
+   "p": "Rei looked. The clinic was two rooms over a dry cleaner's in Akabane, a blue cotton curtain across the door of the back one, a smell of antiseptic and incense. The woman was small and sharp and did not give her name. She had been patching up people the hospitals would have reported for longer than Rei had been alive, and in all that time, she said, Gin had signed for a great many of them."
+  },
+  {
+   "p": "“I know his hand better than my sister's,” she said. “This is the Friday. The drowning out by the Arakawa. He closed it in a day. He never closes anything in a day.” She tilted the form. “See the G?”"
+  },
+  {
+   "p": "Gin's G had always leaned left, as though it were trying to take up less room than it was given. This one stood up straight."
+  },
+  {
+   "p": "“A little,” Rei said."
+  },
+  {
+   "p": "“A little,” she agreed. She put the form down very gently, the way she might lay down a hand that had stopped moving. “That's how it starts.”"
+  },
+  {
+   "p": "Piece by piece the nodes gave him a week. It was Gin's last ordinary week, rebuilt out of the things he had done that were not ordinary."
+  },
+  {
+   "p": "On the Thursday he had skipped a Division briefing, the first he had missed in nine years. A man like Gin did not skip a thing he had done nine hundred times unless what he was doing instead was larger. On the Friday he had closed the drowning case too fast and too clean. And on the Saturday he had gone to an address that was in no file, no registry, no map the Division kept. His own archive named it only once, in a line by itself. <em>The low place, where the water remembers.</em>"
+  },
+  {
+   "p": "After the Saturday, the entries in the archive stopped being entries and became arguments. Gin arguing with himself on paper, the lines tightening as they went, about whether a debt that had never been his to pay might still be the only honest thing left to do."
+  },
+  {
+   "break": "Chapter Three. The Veil Itself"
+  },
+  {
+   "p": "Rei needed to know what kind of place the low place was. The archive would not let him skip ahead. So he read Chapter Three, in order, on the floor of Gin's room with his back against the bed. The preface was dated in winter. <em>The heating in the apartment is broken again. Rei is wearing three sweaters.</em>"
+  },
+  {
+   "p": "Gin had first touched the other side at twenty-two, he wrote, on a possession case in a Kita building that had been gathering suffering for decades. For four seconds he had been in two places at once. It had taken him three weeks to come all the way back. <em>The other side is not dark,</em> he had written. <em>It is loud.</em>"
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Chapter Three, a page pinned with a paperclip",
+    "lines": [
+     "“The membrane is not a wall. It is the only thing that makes the distinction between here and there meaningful. Without it, both sides would be present simultaneously and neither would be navigable.” Practitioner account, identity withheld, 34 years field experience.",
+     "The other side is not the absence of this world. It is this world without the membrane that makes it livable.",
+     "Entities that cross into the living world are not traveling from a distant place. They are pressing through a membrane from a state of existence that is immediately adjacent to this one. A thin veil requires less effort. A weakened practitioner is a local thinning.",
+     "You are not a target. You are a door. The entity is not interested in you specifically in most cases. It is interested in the passage you represent. What it does once it has crossed, who it becomes interested in, is a different question."
+    ]
+   }
+  },
+  {
+   "p": "Old cities were thin cities, the chapter said. Tokyo had been lived in for centuries, and the weight of all its ended lives pressed against the membrane from the other side. A practitioner in Tokyo at low strength did not need to reach for the other side. It reached for them. And the morning of March 2011 had thinned it further. <em>The wave took close to twenty thousand,</em> Gin had written. <em>Four years on it is thinner than when I started, not thicker.</em>"
+  },
+  {
+   "p": "Then came a diagram, drawn in pencil and inked over with care. A line across the top of the page for the living world. Under it, the membrane. Under that, three bands, each one darker than the last."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "The Layers of the Other Side",
+    "lines": [
+     "The living world. Where you stand. The default.",
+     "The membrane. The veil. Organised by significance, not distance.",
+     "I. The Threshold. Proximate, veil-adjacent. The recent dead, the disoriented, those who have not yet resolved into a path. Suffering beings anchored nearby bleed into it. Dense, chaotic, loud. This is where mediums, readers and exorcists actually work. Manageable with your strength intact. Dangerous when you are depleted. Danger moderate to high.",
+     "II. The Deep. Established, entity territory. Spirits and demons that have resolved into their nature. Ancient suffering beings. Entities that have been there long enough to develop culture, alliances, hierarchies, territories, agendas. They have intent. Level 5+ with controlled method only. Unsanctioned access is the main source of high-level possessions. Danger high.",
+     "III. The Font. Source, origin point. Generates the veil. Absorbs what returns to it. Approached as a direction, not a destination. Entities that reach it dissolve completely. It is not described as painful. It is described as coming home. That is the part that frightens. The wanting. No return."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "postit",
+    "title": "Gin's note beside the Deep",
+    "lines": [
+     "I have been here twice. Both times deliberately, both times with preparation. It is not the same as the Threshold. The entities here know you are there. They have had time to develop opinions about visitors."
+    ]
+   }
+  },
+  {
+   "p": "Rei sat with the diagram on his knees for a long time. The low place, where the water remembers. He did not know which band it belonged to. But he understood now that the other side had a top and a bottom, and that the things at the bottom had politics, and that his brother had gone down there on purpose twice and written about it in the same small print he used for shopping lists."
+  },
+  {
+   "img": "ch3_thinspot.jpg",
+   "cap": "What a top-grade of Duty does to a good man"
+  },
+  {
+   "p": "He began, slowly and against his will, to understand the shape of it. Understanding was worse than not understanding, because it closed off the comfortable lie that his brother had simply been taken. Gin had not been taken. He had been <em>persuaded</em>, and he was being persuaded still. The cruelty of the thing wearing him was that it had never once asked him to want something selfish. It had asked him to do what was right."
+  },
+  {
+   "p": "It had found the vacant place in the order of the world, the place where an old obligation had gone unmet. Then it had framed every step toward catastrophe as a duty already owed. In the end the line between what Gin wanted and what it wanted stopped being a line and became a rhyme."
+  },
+  {
+   "p": "<em>You are not a target. You are a door.</em> Rei read the sentence again in Gin's print and understood that Gin had written it about other people. It had never occurred to him, or it had occurred to him and he had not written that part down, that a door can be talked into opening from the inside."
+  },
+  {
+   "p": "He was still in there. Rei held on to that. Gin was not a cage to be broken open. He was not a man replaced by a monster wearing his coat. He was a person being slowly out-argued by something that sounded exactly like his own conscience. It did not shout. It was simply there every hour, patient as a tide."
+  },
+  {
+   "p": "Rei went back to the page about doors to copy the line into his phone. That was when he saw the tick."
+  },
+  {
+   "p": "It was in the margin beside <em>A weakened practitioner is a local thinning.</em> A small neat check mark in black ink. Gin did not tick things. Gin underlined, or wrote a word, or drew his little pencil mark when something mattered and he would not say why. This was none of those. It was upright and even and perfectly made, the tick of someone marking a sentence as correct."
+  },
+  {
+   "p": "Rei turned back through the chapter. He found two more. One beside <em>you are not a target, you are a door.</em> One beside the Deep, under <em>they have had time to develop opinions about visitors.</em>"
+  },
+  {
+   "p": "Each one in the same steady hand. Each one a little more confident than his brother had ever been."
+  }
+ ]
+}

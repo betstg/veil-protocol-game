@@ -1,0 +1,145 @@
+{
+ "title": "The Ledger Grows",
+ "kind": "main",
+ "src": "m_ledgergrows",
+ "blocks": [
+  {
+   "img": "char_director-adachi-kenshin.jpg",
+   "cap": "The count that will not hold still"
+  },
+  {
+   "p": "Rei began the way he had been taught to begin a body. First establish what is fixed. Only then trust anything that moves. Thirty-one entries, he had told himself. Thirty-one leashes in his brother's neat hand, a finite shape he could walk the edges of in a single sweltering Obon week."
+  },
+  {
+   "p": "So he copied them again onto fresh paper. Each name, each ward, each dated mercy. Copying is how a person makes a thing their own, and right now nothing in this city belonged to Rei, least of all the count. It was in the copying that the floor tilted. Between the widow in Adachi and the pharmacist in Kita there was now an entry he had not transcribed two nights ago. A young man in Sumida, soothed of a grief that was eating his sleep. It was dated the day before yesterday, in the same patient script."
+  },
+  {
+   "p": "He sat very still in the heat, with the fan pushing the incense around, and made himself say the unbearable thing in plain words. The ledger was not a record. A record is finished. This was a living document, and the hand keeping it had not stopped. It had not even slowed. It was writing faster now than in the first week after the fourteenth. It was as if Rei's counting were a kind of pressure, and the Healer answered it by simply helping more people, more openly, daring him to call mercy a crime. Thirty-one had never been the number. Thirty-one was just the last time he had looked away."
+  },
+  {
+   "p": "He counted once more, slowly, touching each line. Thirty-three. Two names he had never met had been added to his brother's list of the saved since he had decided to save Gin. The symmetry was so clean it turned his stomach. Every step he took toward Gin, the thing wearing Gin took a step into someone else, and the rope grew from both ends at once. Somewhere out there a man in Sumida was sleeping soundly for the first time in months. He would weep with gratitude if Rei told him why. And Rei was the only person in Tokyo who understood that the man's good night's sleep was a knot, and that Rei was standing at the end of the rope it was tied to."
+  },
+  {
+   "img": "ch19_possessed_leader.jpg",
+   "cap": "What the dates make when they are lined up"
+  },
+  {
+   "p": "He gave in and built the timeline, because the dead had taught him that chronology is the one thing grief cannot argue with. He tore a long strip from the back of Gin's archive notebook and laid the favours along it by the day each was granted. The heat-thick room went quiet around him, the way rooms go quiet when a pattern that was hiding in plain noise finally stands up."
+  },
+  {
+   "p": "The favours did not fall evenly. They came in tides. There was a flurry in the days right after the fourteenth. Then a lull, through the assessments his brother's employers still thought they were giving a living man. Then a second swell. It began, he noticed, with a cold that had nothing to do with the fan, in the exact week he had started asking questions at Gin's door."
+  },
+  {
+   "p": "And they aimed. Plotted by ward, they had looked like a city-wide scatter, mercy sprayed at random need. Plotted by date, the scatter became a drift. Each new knot was a little nearer the river. A little nearer the old waterworks land north of Kita, where the official files had nothing and Rei's skin had too much. The Healer was not helping wherever help was needed. It was helping in a widening spiral that kept one edge always pointed at a single quarter of the map. It was the way a long rope coils toward the post it is finally tied off on. The favours were not the point, any more than the turns of a rope are the point. They were the length being paid out toward the thing at the end."
+  },
+  {
+   "p": "North again. The same way the shrine's draught had run."
+  },
+  {
+   "break": "The Satō case"
+  },
+  {
+   "p": "Rei went back into the archive for the district's thin spots, and found that Gin had already been walking this way for years. There were four documented thin spots in Kita, Gin wrote. The Kita building, where Gin had first touched the Threshold three years ago. The transit station. The Higashi cluster. The Kasugacho area. And in the chapter on the absorbed, filed under the first of them, there was a case Gin said he had carried for eight months before he could write it properly."
+  },
+  {
+   "doc": {
+    "kind": "form",
+    "title": "CVD Entity Classification Reference. Chapter 13. The Absorbed. What Absorption Is",
+    "lines": [
+     "Possession takes a living host. The soul remains, suppressed but present. Absorption takes the soul itself.",
+     "There is no suppressed consciousness inside an absorber the way there is inside a possessing demon. There are fragments, echoes of what the soul was, but not a self. Possession is recoverable if caught in time. Most absorption is not.",
+     "The absorber does not gain the absorbed soul's capabilities directly. It gains the absorbed soul's relationship to those capabilities, how they were used, what the soul learned from a lifetime of practice.",
+     "Over centuries, some of the oldest demons carry enough of this that what they are cannot be separated from what they have consumed."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "The Absorption Spectrum",
+    "lines": [
+     "Passive. A weakened soul crosses near a strong entity, and the entity takes what it can as the path completes. What reaches the other side is less than it should have been.",
+     "Active. The entity weakens a soul deliberately over time, then consumes it whole. No path completes. Patient work.",
+     "Elimination for essence. The soul is destroyed for pure energy. No fragment remains.",
+     "Exorcism recovery. A partly absorbed soul can be exorcised back to complete its crossing, if it is still coherent enough. The window closes as integration deepens. The Satō case. Eleven years. The window closed a long time ago.",
+     "Natural passage after partial. A recovered soul may still cross, diminished. A soul that would have been a good spirit may cross as a troubled one.",
+     "Fragment persistence. Absorbed souls remain as resonant structures inside the absorber. The more someone had, the more remains to echo."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "Fragment Reading. The Complete Methodology",
+    "lines": [
+     "Surface assessment. Type, class, age, feeding register. Confirms an absorber. Channel rank.",
+     "Depth read. Below the entity's own signature, to the layered complexity that means absorption history. Arbiter rank minimum.",
+     "Fragment isolation. Individual resonant structures that feel more personal than the rest. Impressions of people. Arbiter rank, precision training required.",
+     "Fragment identification. Matching a fragment against prior knowledge of the person. Confirmation, not discovery. Arbiter rank.",
+     "Fragment communication. Not conversation. What it was reaching toward, what it was afraid of. Vanguard rank recommended. Do not attempt without a second practitioner present to pull you out."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "Case Documentation. Fragment Read / Established Absorber / High-Grade Entity",
+    "lines": [
+     "Date. Approximately eight months prior to this entry. Location. Kita district, adjacent to the residential building from previous clearance work. Entity class. B minimum, possibly higher.",
+     "During a surface read I picked up the depth quality. This entity had absorbed. Multiple times. Possibly over decades.",
+     "I should have continued the surveillance. Instead I pushed deeper. I had approximately 40% stability when I started the depth read. I had significantly less when I finished it.",
+     "Three distinct fragment profiles. The most recent was clearest. A Grid practitioner's veil relationship. The capability residue was Teleportation. The emotional register at the moment of absorption was grief and the quality of an interrupted intention. Someone who was in the middle of doing something when it happened. Someone who did not finish.",
+     "The match I found. Haruki Satō, Grid operative, Teleportation-type, Channel rank, disappeared eleven years ago during what his contacts described as a routine information extraction operation in the Kita district. Case never resolved. Body never found. Official status. Missing, presumed dead.",
+     "Presumed dead. He is. He has been in that entity for eleven years.",
+     "I have not filed this officially. The entity is operating in the Kita thin spot, the same area where I first touched the Threshold three years ago. The case file reference is in the Grid intelligence file at the location described on page 147."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Margin, G.U.",
+    "lines": [
+     "I find myself thinking about who sent him. Why that district. Why eleven years ago. What was happening in Kita eleven years ago that required a Channel rank Grid Teleporter to go in alone.",
+     "I have been going in the same direction he went for three years now. I am noting this because I want whoever reads this to understand that I notice the parallel. I am not concluding anything from it. I am noting that I notice."
+    ]
+   }
+  },
+  {
+   "p": "Rei read the margin note until the words stopped being words. <em>I have been going in the same direction he went.</em> Satō had gone into Kita alone and had not come out. Gin had followed the same road for three years, reading the thin spot from its edges, pushing deeper than he should when he was already running low. And now the Healer's spiral was paying itself out toward the north of the same ward, one grateful stranger at a time."
+  },
+  {
+   "p": "He made himself say what he did not know, out loud, in the empty flat. He did not know that the spiral and Satō's entity pointed at the same ground. He did not know whether the thing that had taken Satō had anything to do with the thing that had taken Gin. He only knew that his brother had noticed a parallel and refused to conclude anything from it, and that Rei was now standing in the same place, noticing the same thing."
+  },
+  {
+   "p": "Then he found his own dates on the strip without meaning to look for them. The morning he came to the apartment. The night he read the archive in the order it demanded. The afternoon he stood in the drained pool listening to Kaito preach the true things stacked wrong. Beside each one, within a day, there was a fresh favour. The correlation was not perfect, and Rei made himself say that too, because false certainty is its own kind of possession. But it was close enough that the alternative, coincidence, now cost more belief than the truth did. He was being answered. Every question he asked of the dark got answered in the body of a stranger. The kindness of the reply was the cruelest part. There was no one he could warn who would not first have to stop being grateful."
+  },
+  {
+   "img": "ext_sojo.jpg",
+   "cap": "The entry it wrote for Rei to find"
+  },
+  {
+   "p": "He fell asleep at the table sometime before dawn. When he woke, grey light was on the strip of dates and there was a thirty-fourth entry in the ledger."
+  },
+  {
+   "p": "The first thing he did was check the sulfur. The yellow line across the threshold was exactly as he had laid it. So was the line beside the notebook, pale and dry and unchanged. Either nothing had crossed the door, or something had crossed it that had learned long ago not to leave a mark. <em>Assume trace suppression is active.</em> Gin's page could not tell him which, and neither could the sulfur."
+  },
+  {
+   "p": "The thirty-fourth entry was the only one in either ledger written in a hand that was not quite Gin's. The letters were his. The patience was his. But something in the pressure was wrong, leaning, the way handwriting goes when a different intelligence is steering a familiar arm. And the favour it recorded was not for a stranger."
+  },
+  {
+   "p": "<em>R.,</em> it began, the way his brother had begun notes to him since they were children. <em>R., you have not slept since the fourteenth and it is starting to show in the work. Let me give you rest, both of us, the way I gave the widow. You only have to stop counting.... G.</em>"
+  },
+  {
+   "p": "He read it four times in the grey light, with the neighbours' incense and the fan turning its slow refusal. He understood that the ledger had finally written the only entry it had ever been building toward."
+  },
+  {
+   "p": "It was an offer and a threat folded into the same kindness, which was the Healer's only grammar. Stop counting and be given rest. It was exactly what it had told the widow whose husband knocked inside the altar. Exactly what it had told the boy who heard the drowned in the gutters. Rei had spent a week learning what rest meant in that hand. It meant the knot tied off, the gratitude set, the thread held forever by something that loved the word the way a tourniquet loves a limb. The thing wearing his brother was not afraid of him. It had simply decided, reasonably, patiently, that he was the next person in Tokyo who could be helped across a threshold he could not cross alone. It had written his name on the list before he ever agreed to be on it."
+  },
+  {
+   "p": "He folded the note and did not put it in the ledger with the others. The others were knots. This one was the hand reaching for him, and he would not file the hand among the rope. Out on the balcony the first commuters were folding themselves into the day with their grief-lit Obon faces. Every one of them was a person who could be saved into a leash. Rei stood there with his brother's love-shaped trap in his pocket, next to the silver coin, and made the smallest, hardest promise of the week. He would keep counting. Not because counting was winning. It was not. The ledger grew faster than he could read it. But the day he stopped would be the day the thirty-fifth entry had his gratitude in it. He would rather be tired and his own than rested and held."
+  }
+ ],
+ "n": 19,
+ "part": "Book Three. The Recruited"
+}

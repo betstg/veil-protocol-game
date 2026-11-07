@@ -1,0 +1,104 @@
+{
+ "title": "The Ledger of Favours",
+ "kind": "main",
+ "src": "m_ledger",
+ "blocks": [
+  {
+   "img": "currency_prices.jpg",
+   "cap": "Gin's accounts, kept in a hand that learned to be helpful"
+  },
+  {
+   "p": "Rei spread his brother's papers across the low table the way a body is laid out for washing. He sorted them by region, then by what was left. The official case files were clean to the point of insult. Every margin was squared. Every closure was signed off in a fortnight, on cases that should have taken a season. The tidiness did not reassure him. It raised the hair on his arms, because he had learned this week that the thing wearing Gin loved order the way a tourniquet loves a limb."
+  },
+  {
+   "p": "Before he reached the bottom of the pile he found Gin's money. It was a page torn from the back of the archive, headed <em>Money and Resources</em>, and it was so ordinary that Rei had to sit back and breathe. A CVD operative earned two hundred and twenty thousand yen a month and had an expense account for salt and cedar. A Grid practitioner earned whatever the month's cases paid, twenty to eighty thousand, and lived on favours. And then, in its own box, there was Rei."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "Money and Resources. The Suppressed (Rei)",
+    "lines": [
+     "Internship stipend ¥80,000/month.",
+     "Personal funds ¥15,000 at the start of the month.",
+     "Has Gin's apartment and Gin's kitchen and Gin's coffee maker.",
+     "The archive does not pay anything."
+    ]
+   }
+  },
+  {
+   "p": "Rei laughed once, out loud, in the empty flat. It was true. Eighty thousand a month, and fifteen thousand of his own when the week began, and most of that gone now on trains and cold tea. Gin had written it down as if his little brother were a line in a field budget. Then he had added the joke about the coffee maker, because he could not help himself."
+  },
+  {
+   "p": "The next page was a price list, written in the same patient hand. Rei read it slowly. It was the closest thing he had to Gin's voice telling him how to live."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "What Things Cost. Reference Prices, Tokyo 2015",
+    "lines": [
+     "Kombini meal (onigiri + drink). ¥300 to 500. The practitioner's most common meal.",
+     "Ramen. ¥700 to 900. The one Gin always went to on Tuesdays is ¥850 for the tonkotsu. Worth it.",
+     "Train fare (IC card). ¥170 to 300 per trip.",
+     "Monthly train pass (Jujo-Shinjuku). ¥8,410. I bought this for Rei six months ago. It auto-renews. It is still renewing.",
+     "Coffee (kissaten). ¥450 to 600. The sitting-still cost.",
+     "Salt, 1kg bag. ¥200 to 300. Buy two. Always buy two.",
+     "Cedar ash (prepared). ¥1,200 per 200g from Grid supply contacts. The Grid has a supplier in Koenji... ask Tanizaki.",
+     "Iron filings, 100g. ¥800 to 1,200.",
+     "Sterling silver (coin or wire). ¥3,000 to 8,000. Ask for pre-decimal coins if you want purity without the price.",
+     "Safe house use (Grid network). ¥5,000 to 15,000 per night or equivalent favour. Tanizaki does not charge cash. He charges something else."
+    ]
+   }
+  },
+  {
+   "p": "Rei took his own pass out of his wallet. Jūjō to Shinjuku. It had renewed on the first of the month, after Gin had already gone quiet, and he had not noticed. Under the price list Gin had left a short note. <em>Every month it renews and I do not cancel it and that is a decision I make by not making it.</em>"
+  },
+  {
+   "p": "Rei turned the card over in his fingers. He could cancel it. It would take five minutes at the station office. He put it back in his wallet instead, in the same slot, and understood that he had just made the same decision his brother made every month. Some things a person keeps paying for because stopping them would mean saying out loud what has changed."
+  },
+  {
+   "break": "The other ledger"
+  },
+  {
+   "p": "Under the files and the money, in a cheap notebook with a bent spine, was the other ledger. It was a list of favours. Each one was small. Each one was dated after the fourteenth. Each one was a person helped across some private threshold they could not cross alone."
+  },
+  {
+   "p": "A widow in Adachi, whose husband would not stop knocking on the inside of the family altar. <em>Soothed,</em> Gin's note said. <em>Given rest, both of them.</em> A boy in Kita who heard the 2011 dead in the gutters when it rained. <em>Shown how to listen without drowning.</em> A pharmacist sinking under a debt no salary could touch. <em>Relieved.</em>"
+  },
+  {
+   "p": "Read one at a time, each entry was a kindness. That was the horror of it. Mercy and recruitment used the same handwriting. Rei sat in the Obon heat with the neighbours' incense drifting through the screen, and he understood that this was not a record of help. It was a map of leashes. Every grateful person on it was a thread the Healer was still holding."
+  },
+  {
+   "p": "He counted the entries twice. There were thirty-one. Thirty-one people in this city who would, if he knocked tonight, tell him with shining eyes that his brother had saved them. And without knowing it, every one of them would lie to his face about where Gin slept. Gratitude is the cleanest counterfeit of love, and the thing in Gin had been minting it for a month."
+  },
+  {
+   "img": "ext_sojo.jpg",
+   "cap": "The widow who would not be saved from her saviour"
+  },
+  {
+   "p": "He started with the widow, because she was first on the list and because Adachi was one change of train away. Her house was a narrow two-storey place with potted morning glories on the step. She opened the door, looked at his face for a long second, and said, \"You're his brother.\" Then she made him tea he did not want."
+  },
+  {
+   "p": "She talked about Gin as though he had hung the moon and then come back to dust it. The altar behind her was quiet now. It had not been quiet in four years, she said. Her husband used to knock from inside the lacquer every night at the hour he died. Gin had sat with her through one whole night. By morning the knocking had stopped and something else had started. \"A warmth,\" she said, and pressed her hand flat to her chest. \"A sense of being <em>accounted for</em>. As if someone careful is keeping a tally, and I'm on it.\""
+  },
+  {
+   "p": "Rei asked her, gently, what she would do if Gin asked her for something. She looked at him as if he had asked whether she would breathe if the air requested it."
+  },
+  {
+   "p": "\"Anything,\" she said. She meant it the way the drowning mean the rope."
+  },
+  {
+   "p": "Sitting in her tidy front room, with the cicadas sawing the afternoon to pieces outside, Rei saw exactly how the trap was built. It was not built out of fear. Fear can be fled. It was built out of debt, and debt follows a person home. Thirty-one people saying <em>anything</em>, scattered across the wards like seeds. Each one was ready to become a hand the Healer could call its own on the night it finally reached for the Thirteenth Seat. He finished the tea so as not to insult the grief that had made it."
+  },
+  {
+   "p": "Before he left he looked at the altar for a long moment. The photograph of the husband was an ordinary one, a man in a work jacket squinting at a camera. Rei did not know what he had been after he died. A spirit, surely, if he had knocked for four years. But a lonely one or a frightened one or something worse, Rei could not say, and he did not know where the man had gone when the knocking stopped. Gin would have known. Gin had written it all down somewhere."
+  },
+  {
+   "p": "On the way out, his own gift stirred without permission. It did that near places where the veil had been worked. There was a thinning at the threshold of her door, a cold seam where Gin had stood and done whatever he had done. Through it, faint, came an aftertaste. It was not his brother's register. It was not quite a demon's reach he recognised either. Something else had been here too. It had come in behind the mercy like a second guest, unseen by the widow, and it had left its own small mark on the seam."
+  },
+  {
+   "p": "Rei rode the train home with his hand on his pass and the widow's tea still bitter on his tongue. That night he opened Gin's archive at the chapter on spirits. He wanted to know what her husband had been. He wanted to know what <em>given rest</em> could mean in his brother's hand."
+  }
+ ],
+ "n": 15,
+ "part": "Book Three. The Recruited"
+}

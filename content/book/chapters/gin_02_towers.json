@@ -1,0 +1,121 @@
+{
+ "title": "From Gin's Book. The Seven Houses",
+ "kind": "gin",
+ "src": "gin_02_towers",
+ "blocks": [
+  {
+   "p": "At Ōji, Itsuki stayed on the train. Rei stood on the platform and typed one word to him before the doors closed. <em>Tempered?</em>"
+  },
+  {
+   "p": "He did not open the archive. Gin had told him to read it in order, and he was not ready to break the first rule his brother had left him. But Itsuki had drawn the Tower chapter for Gin in the spring, seven portraits, one for each house, and he still had photographs of every page. They began arriving while Rei sat on a bench at the end of the platform with the first commuters flowing past him. Itsuki sent them one by one, without a word."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Personal Archive. Chapter Sixteen, preface",
+    "lines": [
+     "The Towers are old. Some of them older than the CVD's institutional precursors, older than the Accord, older than any public acknowledgment that the veil was real. What the CVD built in 1962, the Tower Families had been building privately for centuries: training programs, ability tempering, assessment methodology, operational protocols.",
+     "The Tower Families are not the system's enemies. They are something more complicated: its predecessors, its sponsors, and its most persistent critics, simultaneously. They are inside the institution and above it and outside it all at once.",
+     "I have three Tower Family contacts. I would work with all three again. I would not have dinner with any of them.",
+     "G.U."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "Grid Intelligence. What the Tower Families Are",
+    "lines": [
+     "Tower Family is not a formal designation. It is a term from the Grid's intelligence vocabulary for lineages old enough that their veil practice predates modern institutions, wealthy enough to stay independent of them, and established enough that both the CVD and the Grid consider their cooperation worth keeping.",
+     "There are approximately thirty Tower Family lineages globally. Seven operate with significant influence in Japan.",
+     "They range from samurai lineages who folded veil practice into warrior tradition centuries ago, to nineteenth-century merchant families who learned it from older houses, to Meiji-era industrial families whose founders developed abilities under extreme stress.",
+     "What they share. Generational wealth. Training programs that predate and sometimes outperform the CVD academy. And one political posture, held for centuries. They cooperate with whatever framework governs the public world, and keep enough independence that cooperation is always a choice and never a requirement."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "The Tempering System. How Towers Manufacture Rank Above Natural Ceiling",
+    "lines": [
+     "Natural rank is the aperture a practitioner is born with. Standard CVD training develops a practitioner to that ceiling and stops. Tower training does not stop.",
+     "How it works. Sustained high-intensity exposure to controlled veil environments from early childhood, with senior practitioners present to monitor and stabilize. Each generation pushes the ceiling slightly. The next generation starts slightly above where the last one ended.",
+     "The cost. Tower children have a different childhood. Heavy veil exposure from an early age. Some develop faster than projected. Some develop veil-absorption complications that the family manages privately. The cost is not documented in any public record.",
+     "What it produces. Practitioners who typically register two to three rank levels above the family's lineage baseline. Arbiter rank is common in the Towers. Vanguard rank emerges from the deepest programs.",
+     "What it does not produce. Reliable development of a second path. The Towers have optimized single-path depth to an extraordinary degree. The second path stays closed for most of them. They know this. They research it. They have not solved it."
+    ]
+   }
+  },
+  {
+   "p": "Beside the last line, in the margin, Gin had drawn a small pencil mark and nothing else. Rei looked at it for a long time. It was the mark Gin made when something mattered to him and he had decided not to say why."
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "The Ancestral Deals",
+    "lines": [
+     "The oldest Tower lineages, pre-Edo in Japan, made arrangements with entities over centuries of cohabitation and cooperation. Specific entities agreed to provide stability support, environmental management and in some cases active help with tempering, in exchange for resources and protections the families could provide.",
+     "Some of these arrangements are still active. The entities involved are not in any CVD case file, because the families have ensured they never needed to be."
+    ]
+   }
+  },
+  {
+   "p": "Rei thought of Sei's hand on the roof tile, and of an arrangement that had held the veil steady on Kita's streets for three generations until someone from Gin's building broke it. He read the next page more slowly."
+  },
+  {
+   "doc": {
+    "kind": "table",
+    "title": "The Seven Families. Japan",
+    "lines": [
+     "Tsukishiro. Oldest lineage, practice documented back to the Heian period. Highest tempering, consistently produces Arbiters, one Vanguard in this generation. Two seats on the CVD advisory council since its founding. An arrangement of at least three centuries with a grief-register spirit tied to the estate.",
+     "Fujiwara-Kage. Edo-period investigation lineage, founded beside the shogunate's intelligence service. Clairsentient Arbiters. The most embedded in the CVD. Two family members inside it now, one in the Research Division and one in the Auditor network.",
+     "Orimoto. Meiji-era industrial family, founder's Telekinesis woke under factory stress. Telekinesis and Psychokinesis, suppression-focused training. Formally cooperative, operationally independent. The most Grid-adjacent of the seven.",
+     "Higashiyama. Psychometabolism lineage. The most reliable field medics in the country. The CVD buys their training method without saying where it came from. Politically neutral, operationally indispensable.",
+     "Kuroda. Teleportation lineage. The most politically isolated of the seven. Near-complete operational independence. Will cooperate with the CVD on cases that interest them. Cannot be compelled on cases that do not. The CVD has stopped trying.",
+     "Akiyama. Contested. A six-year internal dispute. The young want to renegotiate an ancestral arrangement the old consider binding. The entity involved in the arrangement has opinions. Three unreported entity events in the compound in two years.",
+     "Nishimura. The newest, third generation only. Eager for CVD ties in ways the older families find slightly undignified. Will either learn the politics the Tower position requires or be absorbed into the CVD's asset pipeline before they understand what happened to them."
+    ]
+   }
+  },
+  {
+   "p": "Itsuki had drawn the Kuroda portrait last. Rei could tell, because it was the only one where the face was turned away."
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "The Tower Families and the CVD. What It Gets, and What It Pays",
+    "lines": [
+     "What the CVD gets. High-rank practitioners. Training methods. Political cover where Tower connections outweigh the CVD's. Stability management in Tower-associated areas. Ancestral intelligence about entities the CVD's own records do not contain.",
+     "What the CVD pays. Looking the other way. Not pursuing registration violations the Towers commit. Not investigating ancestral arrangements that would technically require review. Not applying the Accord's international reporting rules to Tower operations that cross borders.",
+     "The unstated deal. Tower practitioners who enter CVD service get better assignments, faster advancement and quiet exemptions. It is in no policy document. It is visible in the career records. Both parties understand the deal. Neither has written it down.",
+     "You will meet them eventually, usually at the point where your case brushes something their family arranged a century ago, and they will be unfailingly polite about not helping you."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's margin, beside the deal",
+    "lines": [
+     "The Uedera family is not a Tower Family. We do not have the generational wealth, the political connections, or the tempering program infrastructure. What we have is the lineage capability without the institutional framework that would make it visible and valuable to the Towers.",
+     "I have occasionally wondered whether a Tower assessor who knew what to look for would have identified what our lineage carries. I am noting that it did not happen and that I am not sure whether to be relieved or not.",
+     "G.U."
+    ]
+   }
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Working Near Tower Families. What to Know",
+    "lines": [
+     "Tower practitioners are not better than you. They have had more structured development and a higher ceiling. None of that makes them more capable in the case you are both working. Know the difference between rank and experience.",
+     "The ancestral arrangements are the part to be careful around. An entity that has been party to a Tower arrangement for generations has a status that is not in the standard taxonomy. If an entity in a Tower context fails to respond to protocols that should work, stop, and find out what arrangement the family has before you continue.",
+     "If a Tower practitioner seems to know more about your case than they should, they probably do. Treat their read as data, not as threat."
+    ]
+   }
+  },
+  {
+   "p": "The platform had filled and emptied twice. The sun was up over the station roof. Rei typed one line to Itsuki. <em>Your brother said we're the blood without the house.</em> The dots appeared and vanished three times before the answer came. <em>He's right. It's the nicest thing he's said about anyone in years.</em>"
+  }
+ ]
+}

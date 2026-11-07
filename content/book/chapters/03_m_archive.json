@@ -1,0 +1,235 @@
+{
+ "title": "The Archive",
+ "kind": "main",
+ "src": "m_archive",
+ "n": 3,
+ "part": "Book One. The Vanishing",
+ "blocks": [
+  {
+   "img": "res_archive.jpg",
+   "cap": "The table, the book open to a page that wasn't there last night"
+  },
+  {
+   "p": "The index card had not been there last night."
+  },
+  {
+   "p": "Rei was sure of it. He had held the archive open at the first page in the kitchen at four in the morning and read the Opening Note twice. Now it was nearly noon, the flat bright and hot, the cicadas going in the zelkova outside, and when he opened the cover a card slid out onto the table as if it had been waiting for him to look away."
+  },
+  {
+   "p": "It was Gin's hand. Small, exact, but pressed so hard that the pen had dented the card through to the back."
+  },
+  {
+   "doc": {
+    "kind": "postit",
+    "title": "Index card, under the front cover",
+    "lines": [
+     "If I stop writing, read the Archive in order. Out of order it lies by omission.",
+     "Don't trust my handwriting after the 14th."
+    ]
+   }
+  },
+  {
+   "p": "Rei turned it over. The back was blank. He looked at the flat around him, at the locked door with the chain on, at the window he had shut and latched before going to Nezu. Nobody had been in. He was almost certain nobody had been in."
+  },
+  {
+   "p": "The fourteenth. Of August? This August, with Obon about to begin? He could not tell whether the card was warning him about something that had already happened or something still on its way. He put it back under the cover exactly where it had been, the way a person puts things back in a dead man's room, and then hated himself for thinking it."
+  },
+  {
+   "p": "He cleared the cold dinner off the table without looking at the second plate. He set the archive down in the space. It was heavier than a book that size had any right to be. Gin had once told him that the difference between a practitioner who lives and one who doesn't is whether they wrote it down before the night made them doubt it. Rei had thought it was a joke."
+  },
+  {
+   "p": "He started at the beginning, and he read in order."
+  },
+  {
+   "break": "The foreword"
+  },
+  {
+   "p": "The foreword was undated. <em>Written in the morning. Coffee going cold on the left.</em>"
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Foreword. Personal Archive",
+    "lines": [
+     "I almost forgot my keys again today.",
+     "I do this every morning. I put them on the hook by the door because I read somewhere that building habits around physical anchors helps people like us stay grounded. People whose minds tend to slip sideways before the rest of them catches up. I put them on the hook. I make coffee. I smoke half a cigarette on the step outside because Rei complains about the smell in the apartment even though he leaves his own cigarettes everywhere.",
+     "I have been a field operative for six years. I have performed 340 documented exorcisms. I have a near-perfect case closure rate in a district that most senior operatives request transfers out of. I cannot reliably remember where I put my keys.",
+     "Rei thinks this is funny. He has started moving them slightly, just a few centimeters, to see if I notice. I notice. I don't tell him I notice. It's the most reliable part of my morning."
+    ]
+   }
+  },
+  {
+   "p": "Rei sat back in his chair. Across the kitchen the hook by the door was still empty. In his pocket, under the cold key, was the half cigarette he had picked up off the walkway without knowing why he kept it. <em>On the step outside.</em> Every morning. Never at night."
+  },
+  {
+   "p": "So last night Gin had gone out onto the step in the dark, as if it were morning, and smoked half a cigarette, and put it out, and not come back in."
+  },
+  {
+   "p": "All those mornings. All those few centimetres. He had thought it was a joke Gin never caught. Gin had caught it every time, and kept quiet about it, and written it down as the most reliable part of his day. Rei pressed the heel of his hand against his eyes until the kitchen came back in coloured spots, and then he went on reading, because the card said in order and he did not trust himself to stop."
+  },
+  {
+   "p": "The foreword ended with a note in a different pen, a little faster, as if written on the way out of the door."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Foreword. A note at the bottom of the page",
+    "lines": [
+     "Rei, if this is you, and I know there is a reasonable chance this is you, the rent is paid through the end of the month. There is food in the freezer. The contact number on page 47 is someone who will help you if you ask correctly. Do not lead with what you need. Ask how they are first. They will respect that.",
+     "I know you don't take things seriously. I know you think that's armor. You are smarter than I was at your age. You are also more exposed than you know. Read Chapter 5 twice.",
+     "Keys were on the hook. Coffee was terrible. Left on time anyway."
+    ]
+   }
+  },
+  {
+   "p": "Rei got up and opened the freezer. It was full. Rice portioned into flat bags, labelled in Gin's print. Curry. Gyoza. Enough for weeks. He stood in the cold breath of it longer than he needed to. Then he turned to page 47. There was a phone number on it and nothing else. No name. He copied it into his phone and did not call it yet. He did not know yet what he needed, and Gin had told him not to lead with that anyway."
+  },
+  {
+   "break": "Chapter One. What Everyone Knows"
+  },
+  {
+   "p": "Chapter One was written as an official document, with a stamp at the top that said it was for CVD personnel only. Rei knew most of it the way everyone knew it. He read it anyway, because Gin had told him to, and because it was strange to see the ordinary world written down as if someone might need it explained."
+  },
+  {
+   "doc": {
+    "kind": "form",
+    "title": "Working Definition. The Veil. CVD Standard Reference",
+    "lines": [
+     "Official term. The Veil (also the Membrane, the Threshold, regional variants exist).",
+     "Classification. Naturally occurring psychic boundary layer between the living world and post-mortem dimensional space.",
+     "Permeability. Variable. Influenced by geography, population density, historical trauma, individual practitioner ability, and factors not yet fully catalogued.",
+     "Public awareness. General. Not classified. Managed through normalization rather than concealment since 1962 Tokyo Accord."
+    ]
+   }
+  },
+  {
+   "p": "Every child in Japan learned the outline in school. The veil was real. Some people could feel it and some could not. There was a Division for it, the way there was a Division for water and roads. Rei had never once wondered who decided it would be that way. Gin's page told him, in a dry paragraph he could almost hear in his brother's voice."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "What Everyone Knows. From the official text",
+    "lines": [
+     "The Veil exists. It has not been disputed in any serious academic, governmental, or theological context for approximately ninety years. The gap between what practitioners documented and when governments formally acknowledged it is about two hundred years. Two hundred years of institutional notes filed under 'anomalous' by people who knew perfectly well what they were looking at.",
+     "The decision to normalize rather than conceal was made for practical reasons. Concealment creates panic when it fails. Normalization creates bureaucracy, which is manageable. The 1962 Tokyo Accord established the framework still in use today: the Veil is real, practitioners are registered, entities are classified, and the Civil Veil Division maintains order at the boundary.",
+     "What matters operationally is what a thing does, not what it is. CVD Training Manual, p.3"
+    ]
+   }
+  },
+  {
+   "p": "In the margin, in pencil, Gin had argued with himself."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's margin, beside the Accord",
+    "lines": [
+     "The Accord has been updated four times. The current version has been in effect since 1991. I have read all four versions. The 1962 original is the most honest. The subsequent versions are more careful.",
+     "The CVD operates in forty-three countries. In Japan it is under the Ministry of Internal Affairs. In 2015 it has approximately 340 registered field operatives across the country, of which I am one. The registered network represents, in my estimate, roughly forty percent of the practitioners actually operating. The other sixty percent work through the Grid, work alone, or do not know what they are.",
+     "I wrote the line about what a thing does for the training manual five years ago. It is the right advice for your first six months. After that, you start asking the questions anyway. Everyone does."
+    ]
+   }
+  },
+  {
+   "p": "<em>Or do not know what they are.</em> Rei read that line again and found that his mouth had gone dry, and could not have said why."
+  },
+  {
+   "doc": {
+    "kind": "form",
+    "title": "Public Knowledge Framework. What Citizens Are Told",
+    "lines": [
+     "The Veil. Real. A natural boundary layer. Managed by Civil Veil Division and licensed practitioners.",
+     "Psychic ability. Real. Occurs in approximately 12% of the population at measurable levels. Registration encouraged, required at Level 3+.",
+     "Entities. Real. Classified into manageable categories. Most are non-threatening. Dangerous entities are handled by CVD.",
+     "Possession. Real but rare. Occurs in cases of extreme veil integrity failure. CVD response available 24 hours.",
+     "Death paths. Multiple confirmed. Details vary by jurisdiction and are considered a matter of personal and religious belief beyond CVD mandate.",
+     "The Font. Not officially acknowledged at public level. Classified research only."
+    ]
+   }
+  },
+  {
+   "p": "<em>What the public is given,</em> Gin had captioned it. Under the table he had copied out the promise everyone knew. <em>Register, and the Division will support you, protect you in law, let you work and give you a rank.</em> Then, underneath, Gin's own line, underlined once."
+  },
+  {
+   "doc": {
+    "kind": "note",
+    "title": "Gin's margin",
+    "lines": [
+     "What registration also provides, which the public framework does not emphasize: your name, your level, your known abilities, your current address, and your assessed threat potential in a database accessible to the Veil Protocol division, the Tower family councils, and seventeen other agencies whose mandates are not fully public."
+    ]
+   }
+  },
+  {
+   "p": "Rei had never been registered. He had never been measured by anyone. In nineteen years nobody from the Division had come to the door to ask, though they asked every child of every officer sooner or later, and his brother was an officer. He had never once thought about why."
+  },
+  {
+   "p": "Between the official pages there was a field note in Gin's own voice, dated only <em>A Tuesday. Third week of October. Rei had an exam.</em> Rei remembered the exam. He had failed half of it and come home and slept on the couch in his clothes."
+  },
+  {
+   "doc": {
+    "kind": "case",
+    "title": "Field Note. Case 7-114",
+    "lines": [
+     "Elderly woman in Nerima, third floor apartment, has been cohabiting with what she calls “my late husband” for four years since his passing. Neighbors reported lights, sounds, temperature fluctuations.",
+     "When I arrived she offered me tea. She poured two cups. The second one she placed at the empty chair across from her without looking at it.",
+     "Her late husband, Kenji, 74. By all behavioral indicators he retained enough of himself to constitute a Type 2 spirit, good alignment, low permeability risk, stable emotional signature. He was, as far as I could determine, sitting in that chair because he was not ready to leave and she was not ready for him to.",
+     "I wrote: No actionable threat identified. Recommend monitoring. Case closed pending review.",
+     "I drank the tea. I did not drink the second cup. I said goodbye to the empty chair on my way out, because it seemed like the right thing to do."
+    ]
+   }
+  },
+  {
+   "p": "A post-it was stuck to the bottom of the page, curling at one corner. <em>Sometimes an old man just wants to finish his tea. Learning to tell the difference is the job.</em>"
+  },
+  {
+   "p": "Rei looked at the two cups upturned on the rack. He thought about a man who had said goodbye to an empty chair in Nerima and come home the same night and asked his brother how the exam went."
+  },
+  {
+   "img": "tools_trap.jpg",
+   "cap": "Four nodes, four locks, four people you have never met"
+  },
+  {
+   "p": "It took him the rest of the afternoon to see the shape of the whole thing. When he did, it resolved the way a face comes out of static once a person stops trying to see it. The archive was not a journal. It was a key-ring."
+  },
+  {
+   "p": "Gin had mapped the unregistered network of northern Tokyo, the people the registry did not count, the way the Directorate never could. Not as a list of suspects but as a map of trust. Who would open a door for whom, and at what hour, and after which password. And on page 147 he had locked the live parts of it behind four people. Four primary nodes. A baker who did not know what he was. A clinic behind a blue curtain. A café that kept Tuesday evenings free for the kind of customer who came in already knowing. A shrine room behind a Korean restaurant in Shin-Ōkubo."
+  },
+  {
+   "p": "None of them would speak to a stranger. All of them, the margins said in Gin's smallest hand, owed him. Not money. The dangerous kind of debt, the kind a careful man collects only once. He had never collected. He had left them for Rei instead. That was either the most generous thing his brother had ever done or the most damning, because to walk this map was to announce, to everyone Gin had protected, that the man who kept them safe was gone."
+  },
+  {
+   "img": "ch3_thinspot.jpg",
+   "cap": "The first node opens, and the city tilts a degree toward you"
+  },
+  {
+   "p": "The first node was the baker."
+  },
+  {
+   "p": "The shop was on a narrow street behind Jūjō station, two tables and a glass case and the smell of melon bread. The man behind the counter was in his fifties, round, floury to the elbows. Gin's margin said he did not know what he was. Rei watched him for a minute from the doorway and saw what Gin meant. Every time a customer came in, the baker looked up a half-second before the bell rang."
+  },
+  {
+   "p": "When the shop was empty Rei went to the counter. The baker smiled the shop smile. Then he looked properly at Rei's face, and the smile stopped."
+  },
+  {
+   "p": "Rei watched the recognition cross him. The small flinch. The recalculation. The careful arrangement of his features into something that gave nothing away. Rei understood that he had walked into a story that was already half told, and that he was the only person in it who did not know the plot."
+  },
+  {
+   "p": "“You're his brother,” the baker said."
+  },
+  {
+   "p": "Everything in Rei wanted to say <em>where is he, what was he doing, what do you know.</em> He thought of the note at the bottom of the foreword."
+  },
+  {
+   "p": "“How are you?” he asked instead. “How have you been keeping?”"
+  },
+  {
+   "p": "The baker blinked. Then something in his shoulders let go. He told Rei, slowly, about his knees, and his daughter in Osaka, and the August heat that made the dough rise wrong. Rei listened to all of it. When it was finished, the baker turned the sign on the door to <em>Closed</em> and poured them both a cup of barley tea."
+  },
+  {
+   "p": "He told Rei a piece of it, and by evening the clinic and the café had told him more. Not all of it. None of them would ever tell him all of it, because Gin had trained them not to, and grief makes people loyal to the rules of the dead. But a piece. That in his last weeks Gin had been <em>wrong</em>, the way a room is wrong after something has stood in it. That he had been carrying something carefully and quietly, the way a person carries a thing they have decided to die for rather than set down. And that whatever it was, he had been certain. They all said this, each in their own words, and it was the part that frightened Rei most."
+  },
+  {
+   "p": "Gin had been protecting <em>him</em>."
+  }
+ ]
+}
