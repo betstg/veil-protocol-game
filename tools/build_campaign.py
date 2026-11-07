@@ -52,7 +52,7 @@ IMAGE_RULES = [
     (r'Itsuki', 'char_kuroda-itsuki.png'),
     (r'\bSei\b', 'char_kuroda-sei.png'),
     (r'Kanna|Kishin|Fukai', 'char_fukai-rinka-kishin.png'),
-    (r'\bKaito\b', 'ch19_possessed_leader.png'),
+    (r'\bKaito\b', 'char_kaito.png'),
     (r'Watanabe', 'thirteen_VI_watanabe_jun.png'),
     (r'Mori Takao|Rage seat', 'thirteen_II_mori_takao.png'),
     (r'Nakashima', 'thirteen_IV_nakashima_yuna.png'),
