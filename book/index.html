@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Veil Protocol. The Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap">
+<style>
+/* One chapter per screen. Paper by day, ink by night. Pictures run the full column. */
+:root{
+  --bg:#f3efe6; --page:#fbf8f1; --ink:#1d1a16; --dim:#6b6358; --rule:#d8cfbf;
+  --blood:#8b1a1a; --gold:#8a6a1c; --sel:#f3dcc9;
+  --display:'Cinzel',Georgia,serif; --body:'Crimson Pro',Georgia,'Times New Roman',serif; --tag:'Special Elite','Courier New',monospace;
+  --size:20px; color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e0c0a; --page:#16130f; --ink:#e3d9c2; --dim:#968a72; --rule:#352b1d; --blood:#d0574a; --gold:#c9a84c; --sel:#3a2418; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0c0a; --page:#16130f; --ink:#e3d9c2; --dim:#968a72; --rule:#352b1d; --blood:#d0574a; --gold:#c9a84c; --sel:#3a2418; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:var(--size);line-height:1.6}
+button{font:inherit;color:inherit}
+button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:calc(env(safe-area-inset-top,0px) + 8px) 12px 8px;background:var(--page);border-bottom:1px solid var(--rule)}
+.bar .t{flex:1;min-width:0;font-family:var(--display);font-size:13px;letter-spacing:.06em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ib{background:none;border:1px solid var(--rule);border-radius:8px;height:38px;min-width:38px;padding:0 10px;cursor:pointer;font-family:var(--tag);font-size:13px}
+.prog{position:absolute;left:0;bottom:-1px;height:2px;background:var(--blood);transition:width .3s}
+main{max-width:680px;margin:0 auto;padding:0 18px 40px}
+.cover{min-height:80vh;display:flex;flex-direction:column;justify-content:center;gap:18px;text-align:center;padding-block:40px}
+.cover img{width:100%;max-height:48vh;object-fit:cover;border-radius:6px}
+.cover h1{font-family:var(--display);font-weight:700;letter-spacing:.12em;font-size:clamp(30px,8vw,46px);margin:0}
+.cover p{margin:0;color:var(--dim)}
+.big{display:block;width:100%;padding:16px;border-radius:10px;border:1px solid var(--blood);background:var(--blood);color:#fff;font-family:var(--display);letter-spacing:.06em;font-size:16px;cursor:pointer}
+.big.ghost{background:none;color:var(--blood)}
+.eyebrow{font-family:var(--tag);font-size:12px;letter-spacing:.12em;color:var(--dim);text-transform:uppercase}
+h2.ch{font-family:var(--display);font-weight:500;font-size:clamp(24px,6vw,32px);letter-spacing:.04em;margin:6px 0 22px;text-wrap:balance;line-height:1.25}
+.head{padding-top:32px}
+figure{margin:26px -18px}
+figure img{width:100%;display:block;max-height:70vh;object-fit:cover;background:var(--rule)}
+figcaption{font-family:var(--tag);font-size:12px;color:var(--dim);padding:6px 18px 0;letter-spacing:.03em}
+.brk{text-align:center;color:var(--dim);font-family:var(--tag);font-size:12px;margin:30px 0 18px;letter-spacing:.04em}
+.brk::before{content:'✦';display:block;color:var(--gold);font-size:14px;margin-bottom:6px}
+p.t{margin:0 0 1em}
+.side{display:inline-block;font-family:var(--tag);font-size:11px;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:1px 9px;margin-left:6px;vertical-align:middle}
+.nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:36px}
+.nav .big{font-size:14px;padding:14px 10px}
+.toc{position:fixed;inset:0;z-index:20;display:flex}
+.toc[hidden]{display:none}
+.toc .shade{flex:1;background:rgba(0,0,0,.35)}
+.toc .panel{width:min(360px,88vw);background:var(--page);border-right:1px solid var(--rule);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 14px) 0 30px;order:-1}
+.toc h3{font-family:var(--display);font-weight:500;font-size:14px;letter-spacing:.08em;margin:18px 16px 4px;color:var(--blood)}
+.toc h3 small{display:block;font-family:var(--tag);color:var(--dim);letter-spacing:0;font-size:11px}
+.toc button.c{display:flex;gap:10px;width:100%;text-align:left;background:none;border:0;padding:8px 16px;cursor:pointer;font-size:16px;line-height:1.3}
+.toc button.c span{font-family:var(--tag);font-size:12px;color:var(--dim);min-width:22px;padding-top:2px}
+.toc button.c[aria-current="true"]{background:var(--sel);color:var(--blood)}
+.toc .tools{display:flex;gap:8px;padding:0 16px 8px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bar" id="bar">
+  <button class="ib" id="menuBtn" aria-label="Contents">☰</button>
+  <div class="t" id="barTitle">Veil Protocol</div>
+  <button class="ib" id="sizeBtn" aria-label="Text size">Aa</button>
+  <div class="prog" id="prog" style="width:0"></div>
+</div>
+<main id="main"></main>
+<div class="toc" id="toc" hidden>
+  <div class="shade" id="shade"></div>
+  <nav class="panel" aria-label="Contents">
+    <div class="tools"><button class="ib" id="toCover">Cover</button><button class="ib" id="closeToc">Close</button></div>
+    <div id="tocList"></div>
+  </nav>
+</div>
+<script src="book.js"></script>
+<script>
+var B=window.BOOK, CH=[];
+B.parts.forEach(function(p){p.chapters.forEach(function(c){c.part=p;CH.push(c)})});
+var IMG='img/';
+function esc(s){return String(s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]})}
+function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+var main=document.getElementById('main'), cur=-1;
+function cover(){
+  cur=-1;document.getElementById('barTitle').textContent='Veil Protocol';document.getElementById('prog').style.width='0';
+  var saved=+store('vpbook_ch')||0;
+  main.innerHTML='<section class="cover"><img src="'+IMG+'res_apartmentlivingroom.jpg" alt=""><div class="eyebrow">Tokyo, Obon, 2015</div><h1>VEIL PROTOCOL</h1><p>Your brother is gone. His book is on the kitchen table. Read it in order.</p>'+
+   '<button class="big" id="go">'+(saved>0?'Continue at chapter '+(saved+1):'Begin')+'</button>'+(saved>0?'<button class="big ghost" id="restart">Start from the beginning</button>':'')+
+   '<p class="eyebrow">'+CH.length+' chapters</p></section>';
+  document.getElementById('go').onclick=function(){show(saved)};
+  var r=document.getElementById('restart');if(r)r.onclick=function(){show(0)};
+  window.scrollTo(0,0);
+}
+function show(i){
+  i=Math.max(0,Math.min(CH.length-1,i));cur=i;var c=CH[i];store('vpbook_ch',i);
+  var h='<header class="head"><div class="eyebrow">'+esc(c.part.title)+' · '+esc(c.part.sub)+'</div><div class="eyebrow">Chapter '+c.n+(c.kind==='side'?' <span class="side">Side story</span>':'')+(c.kind==='ending'?' <span class="side">Ending</span>':'')+'</div><h2 class="ch">'+esc(c.title)+'</h2></header>';
+  c.blocks.forEach(function(b){
+    if(b.img)h+='<figure><img loading="lazy" src="'+IMG+encodeURI(b.img)+'" alt="'+esc(b.cap||'')+'">'+(b.cap?'<figcaption>'+esc(b.cap)+'</figcaption>':'')+'</figure>';
+    else if(b.break)h+='<div class="brk">'+esc(b.break)+'</div>';
+    else if(b.p)h+='<p class="t">'+b.p+'</p>';
+  });
+  h+='<div class="nav">'+(i>0?'<button class="big ghost" id="prev">Previous</button>':'<button class="big ghost" id="prev">Cover</button>')+(i<CH.length-1?'<button class="big" id="next">Next chapter</button>':'<button class="big" id="next">The end</button>')+'</div>';
+  main.innerHTML=h;
+  document.getElementById('prev').onclick=function(){i>0?show(i-1):cover()};
+  document.getElementById('next').onclick=function(){i<CH.length-1?show(i+1):cover()};
+  document.getElementById('barTitle').textContent=c.n+'. '+c.title;
+  document.getElementById('prog').style.width=((i+1)/CH.length*100)+'%';
+  window.scrollTo(0,0);drawToc();
+}
+function drawToc(){
+  var h='';B.parts.forEach(function(p){h+='<h3>'+esc(p.title)+'<small>'+esc(p.sub)+'</small></h3>';
+    p.chapters.forEach(function(c){var i=CH.indexOf(c);h+='<button class="c" data-i="'+i+'" aria-current="'+(i===cur)+'"><span>'+c.n+'</span>'+esc(c.title)+(c.kind==='side'?' <span class="side">Side</span>':'')+'</button>'})});
+  document.getElementById('tocList').innerHTML=h;
+}
+var toc=document.getElementById('toc');
+function openToc(){drawToc();toc.hidden=false;var a=toc.querySelector('[aria-current="true"]');if(a)a.scrollIntoView({block:'center'})}
+function closeToc(){toc.hidden=true}
+document.getElementById('menuBtn').onclick=openToc;
+document.getElementById('shade').onclick=closeToc;
+document.getElementById('closeToc').onclick=closeToc;
+document.getElementById('toCover').onclick=function(){closeToc();cover()};
+document.getElementById('tocList').onclick=function(e){var b=e.target.closest('button.c');if(b){closeToc();show(+b.dataset.i)}};
+var sizes=[17,20,23],si=+(store('vpbook_size')||1);
+function applySize(){document.documentElement.style.setProperty('--size',sizes[si]+'px')}
+document.getElementById('sizeBtn').onclick=function(){si=(si+1)%sizes.length;store('vpbook_size',si);applySize()};
+applySize();cover();
+</script>
+</body>
+</html>

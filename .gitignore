@@ -14,3 +14,4 @@ grid_patch.mjs
 
 # one-off authoring scratch scripts
 _author_*.mjs
+content/scenes/_scenes.json
