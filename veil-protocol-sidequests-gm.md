@@ -203,10 +203,10 @@
 ## Wildcard
 
 ### Fujiwara-Kage Sena — The Auditor's verdict
-*Sena assesses Rei as a risk category by default — and her family is watching what she decides.*
-- ◻ Survive sustained Auditor scrutiny without giving her a legitimate concern to file.
-- ◻ Get her to treat Rei as an institutional peer rather than a threat.
-- ◻ At depth she pauses active opposition and chooses, against the family, to see a person.
+*Sena assesses Rei as a risk category by default — and his family is watching what he decides.*
+- ◻ Survive sustained Auditor scrutiny without giving him a legitimate concern to file.
+- ◻ Get him to treat Rei as an institutional peer rather than a threat.
+- ◻ At depth he pauses active opposition and chooses, against the family, to see a person.
 
 **Payoff —** The Tower's threat assessment turned aside — or, if mishandled, an Auditor building the case that ends Rei.
 

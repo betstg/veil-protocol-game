@@ -1881,32 +1881,32 @@
    "Core Stats:Path"
   ],
   "back": [
-   "Twenty-four, a CVD Auditor and a daughter of the Fujiwara-Kage Tower Family — which makes her two kinds of institution at once, and twice as hard to read. Sena assesses risk for a living and has been raised to assess it for a bloodline; she meets Rei first as a threat category, not a person, and her default is sustained, polite, devastating scrutiny. Each concern she files about him is individually legitimate, which is what makes her dangerous.",
-   "Underneath the Auditor's composure is someone exhausted by being the family's instrument, who has never once been allowed to want something that wasn't strategic. Earning her means surviving the assessment long enough for her to start treating Rei as a peer rather than a risk — and, far down the line, letting her discover she has a preference of her own. She is the coldest start of any romanceable contact and, precisely for that, the most transformative to thaw.",
-   "Her flaw is the assessor's curse: she has analysed feeling so long she no longer trusts her own, and reads her growing regard for Rei as a vulnerability to be managed."
+   "Twenty-four, a CVD Auditor and a son of the Fujiwara-Kage Tower Family — which makes him two kinds of institution at once, and twice as hard to read. Sena assesses risk for a living and has been raised to assess it for a bloodline; he meets Rei first as a threat category, not a person, and his default is sustained, polite, devastating scrutiny. Each concern he files about him is individually legitimate, which is what makes him dangerous.",
+   "Underneath the Auditor's composure is someone exhausted by being the family's instrument, who has never once been allowed to want something that wasn't strategic. Earning him means surviving the assessment long enough for him to start treating Rei as a peer rather than a risk — and, far down the line, letting him discover he has a preference of his own. He is the coldest start of any romanceable contact and, precisely for that, the most transformative to thaw.",
+   "His flaw is the assessor's curse: he has analysed feeling so long he no longer trusts his own, and reads his growing regard for Rei as a vulnerability to be managed."
   ],
   "quest": {
    "tag": "Wildcard",
    "title": "The Auditor's verdict",
-   "hook": "Sena assesses Rei as a risk category by default — and her family is watching what she decides.",
+   "hook": "Sena assesses Rei as a risk category by default — and his family is watching what he decides.",
    "stages": [
-    "Survive sustained Auditor scrutiny without giving her a legitimate concern to file.",
-    "Get her to treat Rei as an institutional peer rather than a threat.",
-    "At depth she pauses active opposition and chooses, against the family, to see a person."
+    "Survive sustained Auditor scrutiny without giving him a legitimate concern to file.",
+    "Get him to treat Rei as an institutional peer rather than a threat.",
+    "At depth he pauses active opposition and chooses, against the family, to see a person."
    ],
    "payoff": "The Tower's threat assessment turned aside — or, if mishandled, an Auditor building the case that ends Rei."
   },
   "romance": {
-   "opens": "Player chooses it; Sena, an adult, has never wanted anything un-strategic — the route is her own preference surprising her.",
+   "opens": "Player chooses it; Sena, an adult, has never wanted anything un-strategic — the route is his own preference surprising him.",
    "beats": [
-    "She analyses the attraction as a vulnerability before she allows it as a feeling.",
-    "Every step toward Rei is a step away from the family instrument she was raised to be.",
+    "He analyses the attraction as a vulnerability before he allows it as a feeling.",
+    "Every step toward Rei is a step away from the family instrument he was raised to be.",
     "Intimacy is the Auditor letting one thing go un-assessed."
    ],
    "routes": {
-    "noble": "Sena chooses her own want over the family's strategy, and stops being only an instrument.",
-    "dark": "Rei plays the assessment and weaponises the one preference she ever let herself have.",
-    "tragic": "The Tower notices the daughter has a heart, and a heart is the easiest thing to use against her."
+    "noble": "Sena chooses his own want over the family's strategy, and stops being only an instrument.",
+    "dark": "Rei plays the assessment and weaponises the one preference he ever let himself have.",
+    "tragic": "The Tower notices the son has a heart, and a heart is the easiest thing to use against him."
    }
   }
  },

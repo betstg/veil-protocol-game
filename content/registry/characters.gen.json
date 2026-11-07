@@ -196,7 +196,7 @@
       {
         "with": "fujiwarakage",
         "value": 33,
-        "who": "Fujiwara-Kage SenaKnew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r"
+        "who": "Fujiwara-Kage SenaKnew him by institutional file. He has read his assessment anomaly and noted it... more times than the audit function r"
       },
       {
         "with": "moriya",
@@ -383,7 +383,7 @@
   {
     "id": "fujiwarakage",
     "name": "Fujiwara-Kage Sena, 藤原影 星奈",
-    "sub": "24 / F / CVD Auditor / Fujiwara-Kage Tower Family / Arbiter (A)... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
+    "sub": "24 / M / CVD Auditor / Fujiwara-Kage Tower Family / Arbiter (A)... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
     "entity": false,
     "romanceable": true,
     "relationships": [
@@ -400,7 +400,7 @@
       {
         "with": "gin",
         "value": 33,
-        "who": "Uedera GinKnew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function r"
+        "who": "Uedera GinKnew him by institutional file. He has read his assessment anomaly and noted it... more times than the audit function r"
       }
     ]
   },

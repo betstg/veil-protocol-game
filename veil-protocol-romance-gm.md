@@ -270,15 +270,15 @@
 - **Tragic —** What Rei brings to Ōkubo is the danger she built the wall against.
 
 ### Fujiwara-Kage Sena
-**Opens:** Player chooses it; Sena, an adult, has never wanted anything un-strategic — the route is her own preference surprising her.
+**Opens:** Player chooses it; Sena, an adult, has never wanted anything un-strategic — the route is his own preference surprising him.
 **Beats:**
-- She analyses the attraction as a vulnerability before she allows it as a feeling.
-- Every step toward Rei is a step away from the family instrument she was raised to be.
+- He analyses the attraction as a vulnerability before he allows it as a feeling.
+- Every step toward Rei is a step away from the family instrument he was raised to be.
 - Intimacy is the Auditor letting one thing go un-assessed.
 **Where it can go:**
-- **Noble —** Sena chooses her own want over the family's strategy, and stops being only an instrument.
-- **Dark —** Rei plays the assessment and weaponises the one preference she ever let herself have.
-- **Tragic —** The Tower notices the daughter has a heart, and a heart is the easiest thing to use against her.
+- **Noble —** Sena chooses his own want over the family's strategy, and stops being only an instrument.
+- **Dark —** Rei plays the assessment and weaponises the one preference he ever let himself have.
+- **Tragic —** The Tower notices the son has a heart, and a heart is the easiest thing to use against him.
 
 ## Crush — one-sided, NO romance (minors)
 

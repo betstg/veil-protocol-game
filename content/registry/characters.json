@@ -213,7 +213,7 @@
       ],
       "Appearance": [
         "Height / Build 174cm. Field-work build, lean without being slight.",
-        "Hair / Eyes Black, short at the sides. Dark brown eyes with a quality people call attentive and that he’d call a professional liability.",
+        "Hair / Eyes Black, long and loose, worn down past the jaw. Dark brown eyes with a quality people call attentive and that he’d call a professional liability.",
         "Tell A faint double-layer signature now visible to Clairsentience L5 or above. Recent enough that it still surprises people who knew him.",
         "Clothing A specific jacket. Otherwise unremarkable by design."
       ],
@@ -520,17 +520,17 @@
     "name": "Fujiwara-Kage Sena",
     "full": "Fujiwara-Kage Sena, 藤原影 星奈",
     "japanese": "藤原影",
-    "sub": "24 / F / CVD Auditor / Fujiwara-Kage Tower Family / Channel... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
+    "sub": "24 / M / CVD Auditor / Fujiwara-Kage Tower Family / Channel... Clairsentience L4 / Entry: The Institutional Enforcer / Track -2",
     "romanceable": true,
     "facts": {
       "Identity": [
-        "Age / Gender 24 / F",
+        "Age / Gender 24 / M",
         "Occupation CVD Auditor. Fujiwara-Kage Tower Family representative in the CVD audit function.",
         "Lineage Fujiwara-Kage family. The oldest Tower Family institutional presence in the CVD. Three auditors in the last two generations.",
         "Registered rank Channel... no suppression",
         "Actual rank Channel",
         "Entry point The Institutional Enforcer",
-        "Grounding object Her father’s fountain pen, given the day she joined the CVD. Always in her left jacket pocket. She does not use it for ordinary writing.",
+        "Grounding object His father’s fountain pen, given the day he joined the CVD. Always in his left jacket pocket. He does not use it for ordinary writing.",
         "Starting money CVD Auditor salary plus family stipend. Not relevant to the campaign."
       ],
       "Core Stats": [
@@ -543,13 +543,13 @@
       "Routine": [
         "Lives A serviced apartment near the CVD in Ōji... clean, anonymous, nothing on the walls.",
         "Works Internal Affairs & Audit... the floor everyone is polite to and no one likes.",
-        "Most nights Late at her desk; she reads files the way other people watch television.",
+        "Most nights Late at his desk; he reads files the way other people watch television.",
         "Saturdays"
       ],
       "Reputation": [
         "In the CVD Internal Audit’s blade; correct, isolated, unbribable.",
-        "Among operatives Politely dreaded; her arrival means scrutiny.",
-        "Not known That the loneliness of the posting is a price she chose, and it costs more than she admits."
+        "Among operatives Politely dreaded; his arrival means scrutiny.",
+        "Not known That the loneliness of the posting is a price he chose, and it costs more than he admits."
       ],
       "Resources": [
         "Housing Fujiwara-Kage family property, Minato-ku.",
@@ -559,7 +559,7 @@
       ],
       "Relationships": [
         "Rei Track -2. Default institutional threat assessment, not personal... he is CVD-adjacent without institutional protection, which triggers review.",
-        "Gin Knew him by institutional file. She has read his assessment anomaly and noted it... more times than the audit function requires.",
+        "Gin Knew him by institutional file. He has read his assessment anomaly and noted it... more times than the audit function requires.",
         "Noa The eight months are in the room, unspoken. Two years ago. Ended because the institutional conflict made it untenable. Neither has disclosed it. Both know the other is in Rei’s orbit."
       ],
       "Appearance": [
@@ -570,11 +570,11 @@
         "Clothing CVD professional standard, impeccable. Communicates family background without stating it."
       ],
       "Personality": [
-        "In conversation Institutional with genuine political intelligence. Does not dislike people who threaten her family’s position... manages them. The distinction matters to her.",
+        "In conversation Institutional with genuine political intelligence. Does not dislike people who threaten his family’s position... manages them. The distinction matters to him.",
         "About the family position Protects it through legitimate institutional mechanisms... trained to, and genuinely believes institutional stability matters. Both true.",
-        "About textile dyeing She does not discuss it. The two hours a week she is not performing institutional competence.",
-        "When leverage is available She uses it. Without pleasure, hesitation, or apology. The mechanism is legitimate; the outcome is what it is.",
-        "About Noa A professional fact she manages. That it was real does not change what her institutional position requires of her now."
+        "About textile dyeing He does not discuss it. The two hours a week he is not performing institutional competence.",
+        "When leverage is available He uses it. Without pleasure, hesitation, or apology. The mechanism is legitimate; the outcome is what it is.",
+        "About Noa A professional fact he manages. That it was real does not change what his institutional position requires of him now."
       ]
     }
   },
