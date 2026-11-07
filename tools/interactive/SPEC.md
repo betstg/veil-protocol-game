@@ -80,7 +80,7 @@ way costs time (`veil` +1 or +2) or standing with an impatient faction. Kindness
 * Do not invent new named characters, new places with names, or backstory. Do not give a character a trait the canon
   does not give them. Check `content/registry/characters.json` when unsure.
 * Keep characters in character. Dark choices may stay dark. No softening.
-* Minors. Yua (16) and Mori Haruto (17) are never romantic or sexual in any way. Never.
+* Minors. Yua (16) and Nagai Haruto (17) are never romantic or sexual in any way. Never.
 
 ## Canon you must respect
 

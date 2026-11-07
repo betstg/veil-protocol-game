@@ -563,7 +563,7 @@
       {
         "with": "arai",
         "value": 0,
-        "who": "Det. Sgt. Arai Goro0. The official liaison; Arai is the unofficial one."
+        "who": "Det. Sgt. Arai Makoto0. The official liaison; Arai is the unofficial one."
       }
     ]
   },
@@ -614,9 +614,9 @@
         "who": "Uedera GinKnew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,"
       },
       {
-        "with": "sugimoto_tatsuya",
+        "with": "sugimoto_hiroshi",
         "value": 67,
-        "who": "Sugimoto Tatsuya+2. Trades history for company; brings soup and questions."
+        "who": "Sugimoto Hiroshi+2. Trades history for company; brings soup and questions."
       },
       {
         "with": "rei",
@@ -712,9 +712,9 @@
         "who": "‘Tatsu’+1. The late regular; he keeps her usual."
       },
       {
-        "with": "endo_sumi",
+        "with": "okuma_sumi",
         "value": 33,
-        "who": "Endo Sumi+1. Hana reads the grief; Mrs. Endō tends it."
+        "who": "Okuma Sumi+1. Hana reads the grief; Mrs. Okuma tends it."
       },
       {
         "with": "leo_sato",
@@ -878,9 +878,9 @@
         "who": "Mochizuki SoraKnows him. He provided safe-house access for recovery-support operations. Professional and warm."
       },
       {
-        "with": "sugimoto_tatsuya",
+        "with": "sugimoto_hiroshi",
         "value": 33,
-        "who": "Sugimoto Tatsuya+1. Two old men who saw too much and stayed kind."
+        "who": "Sugimoto Hiroshi+1. Two old men who saw too much and stayed kind."
       },
       {
         "with": "maruyama_toshio",
@@ -951,9 +951,9 @@
         "who": "‘Old Maki’+1. Restocks the Grid’s kit here; Maki sets iron aside."
       },
       {
-        "with": "mori_haruto",
+        "with": "nagai_haruto",
         "value": 0,
-        "who": "Mori Haruto0. The Grid has clocked him; deciding whether to reach out."
+        "who": "Nagai Haruto0. The Grid has clocked him; deciding whether to reach out."
       }
     ]
   },
@@ -1111,9 +1111,9 @@
         "who": "Uedera GinHas told him twice to bring Rei more often."
       },
       {
-        "with": "endo_sumi",
+        "with": "okuma_sumi",
         "value": 33,
-        "who": "Endo Sumi+1. Two old women who keep the dead company."
+        "who": "Okuma Sumi+1. Two old women who keep the dead company."
       },
       {
         "with": "rei",
@@ -1320,9 +1320,9 @@
         "who": "Itō KentaTried to put her to work. She got away."
       },
       {
-        "with": "mori_haruto",
+        "with": "nagai_haruto",
         "value": 33,
-        "who": "Mori Haruto+1. Treats the runaway like family."
+        "who": "Nagai Haruto+1. Treats the runaway like family."
       },
       {
         "with": "rei",
@@ -1397,9 +1397,9 @@
     "romanceable": true,
     "relationships": [
       {
-        "with": "mori_haruto",
+        "with": "nagai_haruto",
         "value": 33,
-        "who": "Mori HarutoRival gang; Mori’s calm enrages him."
+        "who": "Nagai HarutoRival gang; Nagai’s calm enrages him."
       },
       {
         "with": "aizawa_yuto",
@@ -1448,8 +1448,8 @@
     ]
   },
   {
-    "id": "sugimoto_tatsuya",
-    "name": "Sugimoto Tatsuya, 杠本 達也",
+    "id": "sugimoto_hiroshi",
+    "name": "Sugimoto Hiroshi, 杉本 浩",
     "sub": "68 / M / Homeless; ex-history professor / Sensitive (E) / Track 0",
     "entity": false,
     "romanceable": false,
@@ -1477,8 +1477,8 @@
     ]
   },
   {
-    "id": "mori_haruto",
-    "name": "Mori Haruto, 森 陽太",
+    "id": "nagai_haruto",
+    "name": "Nagai Haruto, 永井 陽太",
     "sub": "17 / M / School gang (rival to It&#333;) / Sensitive (E) / Track 0",
     "entity": false,
     "romanceable": false,
@@ -1513,9 +1513,9 @@
     "romanceable": false,
     "relationships": [
       {
-        "with": "sato",
+        "with": "kubo",
         "value": 33,
-        "who": "Sato+1. The cleaner and the busker hold the underpass between them."
+        "who": "Kubo+1. The cleaner and the busker hold the underpass between them."
       },
       {
         "with": "tendo",
@@ -1600,9 +1600,9 @@
         "who": "Uedera ReiWatched him since small; slips him sweets still."
       },
       {
-        "with": "iwata_kenji",
+        "with": "iwata_shuji",
         "value": 33,
-        "who": "Iwata KenjiCorner cronies; they trade news."
+        "who": "Iwata ShūjiCorner cronies; they trade news."
       },
       {
         "with": "sone_kimiko",
@@ -1612,8 +1612,8 @@
     ]
   },
   {
-    "id": "iwata_kenji",
-    "name": "Iwata Kenji, 岩田 健二",
+    "id": "iwata_shuji",
+    "name": "Iwata Shūji, 岩田 修二",
     "sub": "58 / M / Building handyman (Gin &amp; Rei&rsquo;s block) / The Null (0) / Track +1",
     "entity": false,
     "romanceable": false,
@@ -1777,9 +1777,9 @@
     "romanceable": false,
     "relationships": [
       {
-        "with": "sugimoto_tatsuya",
+        "with": "sugimoto_hiroshi",
         "value": 33,
-        "who": "Sugimoto TatsuyaTwo of a kind... sight that ruined an ordinary life."
+        "who": "Sugimoto HiroshiTwo of a kind... sight that ruined an ordinary life."
       },
       {
         "with": "choi_hana",
@@ -1835,9 +1835,9 @@
         "who": "Fujimoto KenjiThey argue doctrine for hours."
       },
       {
-        "with": "father_anselm_mbeki",
+        "with": "father_anselm_mabuchi",
         "value": 33,
-        "who": "Father Anselm MbekiTwo reluctant exorcists, same hard knowledge."
+        "who": "Father Anselm MabuchiTwo reluctant exorcists, same hard knowledge."
       },
       {
         "with": "rei",
@@ -1847,8 +1847,8 @@
     ]
   },
   {
-    "id": "father_anselm_mbeki",
-    "name": "Father Anselm Mbeki... Catholic priest",
+    "id": "father_anselm_mabuchi",
+    "name": "Father Anselm Mabuchi... Catholic priest",
     "sub": "61 / M / Catholic priest / Roman-rite exorcist / Track 0",
     "entity": false,
     "romanceable": false,
@@ -1916,9 +1916,9 @@
     "romanceable": false,
     "relationships": [
       {
-        "with": "father_anselm_mbeki",
+        "with": "father_anselm_mabuchi",
         "value": 33,
-        "who": "Father Anselm MbekiTwo leaders of immigrant faiths who look out for each other."
+        "who": "Father Anselm MabuchiTwo leaders of immigrant faiths who look out for each other."
       },
       {
         "with": "ade_okonkwo",
@@ -1971,8 +1971,8 @@
     ]
   },
   {
-    "id": "sato",
-    "name": "Sato... the blind busker",
+    "id": "kubo",
+    "name": "Kubo... the blind busker",
     "sub": "50s / M / Plays the station underpass / Sensitive (E) / Track 0",
     "entity": false,
     "romanceable": false,
@@ -1990,8 +1990,8 @@
     ]
   },
   {
-    "id": "endo_sumi",
-    "name": "Endo Sumi... the memorial keeper",
+    "id": "okuma_sumi",
+    "name": "Okuma Sumi... the memorial keeper",
     "sub": "70s / F / Tends the riverside memorial / The Null (0) / Track 0",
     "entity": false,
     "romanceable": false,
@@ -1999,7 +1999,7 @@
       {
         "with": "choi_hana",
         "value": 33,
-        "who": "Choi HanaHana reads the grief; Mrs. Endō tends it."
+        "who": "Choi HanaHana reads the grief; Mrs. Okuma tends it."
       },
       {
         "with": "hara_setsu",
@@ -2015,7 +2015,7 @@
   },
   {
     "id": "arai",
-    "name": "Det. Sgt. Arai Goro, 新井 叉郎",
+    "name": "Det. Sgt. Arai Makoto, 新井 誠",
     "sub": "48 / M / Police detective (Kita ward) / Knows more than he admits / Track 0",
     "entity": false,
     "romanceable": false,

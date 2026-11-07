@@ -2493,16 +2493,16 @@
         "Known for A short fuse and a sharper knife.",
         "Not known He is in over his head; the gang above him is the real danger.",
         "Network The school gang; a supplier he fears.",
-        "Ties Mori (-, rival) · Yua (-) · Aizawa (+, customer)"
+        "Ties Nagai (-, rival) · Yua (-) · Aizawa (+, customer)"
       ],
       "Resources": [
         "Housing With an aunt who has given up on him, in Adachi-ku.",
         "Income Modest, their own.",
         "Equipment As the role requires.",
-        "Network Mori (-, rival) · Yua (-) · Aizawa (+, customer)"
+        "Network Nagai (-, rival) · Yua (-) · Aizawa (+, customer)"
       ],
       "Relationships": [
-        "Mori Haruto -1. Rival gang; Mori’s calm enrages him.",
+        "Nagai Haruto -1. Rival gang; Nagai’s calm enrages him.",
         "Aizawa Yuto +1. Best customer; despises and needs him.",
         "Yua -1. She refused him. He has not forgotten."
       ],
@@ -2601,8 +2601,8 @@
     }
   },
   {
-    "name": "Sugimoto Tatsuya",
-    "full": "Sugimoto Tatsuya, 杠本 達也",
+    "name": "Sugimoto Hiroshi",
+    "full": "Sugimoto Hiroshi, 杉本 浩",
     "japanese": "杠本",
     "sub": "68 / M / Homeless; ex-history professor / Hidden burnt-out sensitive / Track 0",
     "romanceable": false,
@@ -2671,8 +2671,8 @@
     }
   },
   {
-    "name": "Mori Haruto",
-    "full": "Mori Haruto, 森 陽太",
+    "name": "Nagai Haruto",
+    "full": "Nagai Haruto, 永井 陽太",
     "japanese": "森",
     "sub": "17 / M / School gang (rival to Itō) / Hidden latent sensitive / Track 0",
     "romanceable": false,
@@ -3003,7 +3003,7 @@
       "Relationships": [
         "Gin +1. Daily customer; Komatsu worries about him openly.",
         "Rei +1. Watched him since small; slips him sweets still.",
-        "Iwata Kenji +1. Corner cronies; they trade news."
+        "Iwata Shūji +1. Corner cronies; they trade news."
       ],
       "Appearance": [
         "Build 160cm, stooped, spry.",
@@ -3030,8 +3030,8 @@
     }
   },
   {
-    "name": "Iwata Kenji",
-    "full": "Iwata Kenji, 岩田 健二",
+    "name": "Iwata Shūji",
+    "full": "Iwata Shūji, 岩田 修二",
     "japanese": "岩田",
     "sub": "58 / M / Building handyman (Gin & Rei’s block) / Civilian / Track +1",
     "romanceable": false,
@@ -3336,13 +3336,13 @@
         "In the CVD Unknown.",
         "Known for Being open and kind at the hour when nowhere else is.",
         "Not known How many notes she has passed for the Grid without calling it that.",
-        "Ties Aoi (+) · Okada (+) · Sasaki Kei/Love (the dawn regular she feeds)"
+        "Ties Aoi (+) · Okada (+) · Sakuma Kei/Love (the dawn regular she feeds)"
       ],
       "Resources": [
         "Housing Behind the bakery; up at four, asleep by eight.",
         "Income Modest, their own.",
         "Equipment As the role requires.",
-        "Network Aoi (+) · Okada (+) · Sasaki Kei/Love (the dawn regular she feeds)"
+        "Network Aoi (+) · Okada (+) · Sakuma Kei/Love (the dawn regular she feeds)"
       ],
       "Relationships": [
         "Nakamura Aoi +1. Buys bread after a bad shift; always a kind word.",
@@ -3547,7 +3547,7 @@
       ],
       "Relationships": [
         "Choi Hana 0. Suspects the truth, never pushed.",
-        "Sugimoto Tatsuya +1. Two of a kind... sight that ruined an ordinary life."
+        "Sugimoto Hiroshi +1. Two of a kind... sight that ruined an ordinary life."
       ],
       "Appearance": [
         "Build Slight, still.",
@@ -3708,8 +3708,8 @@
     }
   },
   {
-    "name": "Father Anselm Mbeki",
-    "full": "Father Anselm Mbeki... Catholic priest",
+    "name": "Father Anselm Mabuchi",
+    "full": "Father Anselm Mabuchi... Catholic priest",
     "japanese": "",
     "sub": "61 / M / Catholic priest / Roman-rite exorcist / Track 0",
     "romanceable": false,
@@ -3949,7 +3949,7 @@
         "Network Father Anselm (+) · the African community (+) · the Grid (0)"
       ],
       "Relationships": [
-        "Father Anselm Mbeki +1. Two leaders of immigrant faiths who look out for each other.",
+        "Father Anselm Mabuchi +1. Two leaders of immigrant faiths who look out for each other.",
         "The African community +2. Its elder and anchor."
       ],
       "Appearance": [
@@ -4110,8 +4110,8 @@
     }
   },
   {
-    "name": "Sato",
-    "full": "Sato... the blind busker",
+    "name": "Kubo",
+    "full": "Kubo... the blind busker",
     "japanese": "",
     "sub": "50s / M / Plays the station underpass / Hidden sensitive (blind) / Track 0",
     "romanceable": false,
@@ -4176,8 +4176,8 @@
     }
   },
   {
-    "name": "Endo Sumi",
-    "full": "Endo Sumi... the memorial keeper",
+    "name": "Okuma Sumi",
+    "full": "Okuma Sumi... the memorial keeper",
     "japanese": "",
     "sub": "70s / F / Tends the riverside memorial / Civilian / Track 0",
     "romanceable": false,
@@ -4216,7 +4216,7 @@
         "Network Choi Hana (+) · Mrs. Hara (+) · Watanabe/Despair (felt at the water)"
       ],
       "Relationships": [
-        "Choi Hana +1. Hana reads the grief; Mrs. Endō tends it.",
+        "Choi Hana +1. Hana reads the grief; Mrs. Okuma tends it.",
         "Hara Setsu +1. Two old women who keep the dead company."
       ],
       "Appearance": [
@@ -4243,8 +4243,8 @@
     }
   },
   {
-    "name": "Det. Sgt. Arai Goro",
-    "full": "Det. Sgt. Arai Goro, 新井 叉郎",
+    "name": "Det. Sgt. Arai Makoto",
+    "full": "Det. Sgt. Arai Makoto, 新井 誠",
     "japanese": "新井",
     "sub": "48 / M / Police detective (Kita ward) / Knows more than he admits / Track 0",
     "romanceable": false,

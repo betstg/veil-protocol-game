@@ -1,7 +1,7 @@
 {
-  "id": "det-sgt-arai-goro",
-  "name": "Det. Sgt. Arai Goro",
-  "full_name": "Det. Sgt. Arai Goro,",
+  "id": "det-sgt-arai-makoto",
+  "name": "Det. Sgt. Arai Makoto",
+  "full_name": "Det. Sgt. Arai Makoto,",
   "faction": "street",
   "role": "48",
   "location": "A salaryman's flat in the ward with a wife who worries.",
@@ -23,8 +23,8 @@
     },
     "knows": [
       "Yushiro",
-      "Mori Haruto",
-      "Sugimoto Tatsuya"
+      "Nagai Haruto",
+      "Sugimoto Hiroshi"
     ],
     "look": "Japanese man, 48. Black brush-cut going grey, regulation-short. Seen-it-all, and one thing more. A detective’s rumpled suit, a cheap watch.",
     "facts": [],

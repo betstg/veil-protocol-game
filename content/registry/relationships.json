@@ -201,13 +201,13 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "sugimoto_tatsuya": {
+   "sugimoto_hiroshi": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "mori_haruto": {
+   "nagai_haruto": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
@@ -237,7 +237,7 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "iwata_kenji": {
+   "iwata_shuji": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
@@ -297,7 +297,7 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "father_anselm_mbeki": {
+   "father_anselm_mabuchi": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
@@ -333,13 +333,13 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "sato": {
+   "kubo": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "endo_sumi": {
+   "okuma_sumi": {
     "value": 0,
     "tier": 0,
     "note": "(Rei track start)",
@@ -1142,7 +1142,7 @@
     "note": "Knew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,",
     "source": "authored"
    },
-   "sugimoto_tatsuya": {
+   "sugimoto_hiroshi": {
     "value": 67,
     "tier": 2,
     "note": "(mirrored) +2. Trades history for company; brings soup and questions.",
@@ -1286,10 +1286,10 @@
     "note": "(mirrored) +2. Hana’s grandmother’s tradition; Pak watches her like blood.",
     "source": "mirrored"
    },
-   "endo_sumi": {
+   "okuma_sumi": {
     "value": 33,
     "tier": 1,
-    "note": "(mirrored) +1. Hana reads the grief; Mrs. Endō tends it.",
+    "note": "(mirrored) +1. Hana reads the grief; Mrs. Okuma tends it.",
     "source": "mirrored"
    }
   }
@@ -1495,7 +1495,7 @@
     "note": "(mirrored) +2. Old friends; they sit without speaking.",
     "source": "mirrored"
    },
-   "sugimoto_tatsuya": {
+   "sugimoto_hiroshi": {
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Two old men who saw too much and stayed kind.",
@@ -1585,7 +1585,7 @@
     "note": "The operational relationship. Ryu follows Kurosawa’s read of a situation. Has for ten years.",
     "source": "authored"
    },
-   "mori_haruto": {
+   "nagai_haruto": {
     "value": 0,
     "tier": 0,
     "note": "(mirrored) 0. The Grid has clocked him; deciding whether to reach out.",
@@ -1827,7 +1827,7 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "endo_sumi": {
+   "okuma_sumi": {
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Two old women who keep the dead company.",
@@ -2102,7 +2102,7 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "mori_haruto": {
+   "nagai_haruto": {
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Treats the runaway like family.",
@@ -2201,10 +2201,10 @@
    }
   },
   "ties": {
-   "mori_haruto": {
+   "nagai_haruto": {
     "value": 33,
     "tier": 1,
-    "note": "−1. Rival gang; Mori’s calm enrages him.",
+    "note": "−1. Rival gang; Nagai’s calm enrages him.",
     "source": "authored"
    },
    "aizawa_yuto": {
@@ -2266,8 +2266,8 @@
    }
   }
  },
- "sugimoto_tatsuya": {
-  "name": "Sugimoto Tatsuya, 杠本 達也",
+ "sugimoto_hiroshi": {
+  "name": "Sugimoto Hiroshi, 杉本 浩",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -2305,8 +2305,8 @@
    }
   }
  },
- "mori_haruto": {
-  "name": "Mori Haruto, 森 陽太",
+ "nagai_haruto": {
+  "name": "Nagai Haruto, 永井 陽太",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -2369,7 +2369,7 @@
     "note": "(Rei track start)",
     "source": "rei_track"
    },
-   "sato": {
+   "kubo": {
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. The cleaner and the busker hold the underpass between them.",
@@ -2474,7 +2474,7 @@
     "note": "+1. Watched him since small; slips him sweets still.",
     "source": "authored"
    },
-   "iwata_kenji": {
+   "iwata_shuji": {
     "value": 33,
     "tier": 1,
     "note": "+1. Corner cronies; they trade news.",
@@ -2488,8 +2488,8 @@
    }
   }
  },
- "iwata_kenji": {
-  "name": "Iwata Kenji, 岩田 健二",
+ "iwata_shuji": {
+  "name": "Iwata Shūji, 岩田 修二",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -2726,7 +2726,7 @@
     "note": "0. Suspects the truth, never pushed.",
     "source": "authored"
    },
-   "sugimoto_tatsuya": {
+   "sugimoto_hiroshi": {
     "value": 33,
     "tier": 1,
     "note": "+1. Two of a kind... sight that ruined an ordinary life.",
@@ -2798,7 +2798,7 @@
     "note": "+1. They argue doctrine for hours.",
     "source": "authored"
    },
-   "father_anselm_mbeki": {
+   "father_anselm_mabuchi": {
     "value": 33,
     "tier": 1,
     "note": "+1. Two reluctant exorcists, same hard knowledge.",
@@ -2812,8 +2812,8 @@
    }
   }
  },
- "father_anselm_mbeki": {
-  "name": "Father Anselm Mbeki... Catholic priest",
+ "father_anselm_mabuchi": {
+  "name": "Father Anselm Mabuchi... Catholic priest",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -2912,7 +2912,7 @@
    }
   },
   "ties": {
-   "father_anselm_mbeki": {
+   "father_anselm_mabuchi": {
     "value": 33,
     "tier": 1,
     "note": "+1. Two leaders of immigrant faiths who look out for each other.",
@@ -2986,8 +2986,8 @@
    }
   }
  },
- "sato": {
-  "name": "Sato... the blind busker",
+ "kubo": {
+  "name": "Kubo... the blind busker",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -3013,8 +3013,8 @@
    }
   }
  },
- "endo_sumi": {
-  "name": "Endo Sumi... the memorial keeper",
+ "okuma_sumi": {
+  "name": "Okuma Sumi... the memorial keeper",
   "rei_track": {
    "start": 0,
    "start_tier": 0,
@@ -3029,7 +3029,7 @@
    "choi_hana": {
     "value": 33,
     "tier": 1,
-    "note": "+1. Hana reads the grief; Mrs. Endō tends it.",
+    "note": "+1. Hana reads the grief; Mrs. Okuma tends it.",
     "source": "authored"
    },
    "hara_setsu": {
@@ -3047,7 +3047,7 @@
   }
  },
  "arai": {
-  "name": "Det. Sgt. Arai Goro, 新井 叉郎",
+  "name": "Det. Sgt. Arai Makoto, 新井 誠",
   "rei_track": {
    "start": 0,
    "start_tier": 0,

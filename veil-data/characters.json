@@ -658,7 +658,7 @@
    "knows": [
     "Sasaki Daiki",
     "Aizawa Yuto",
-    "Endo Sumi"
+    "Okuma Sumi"
    ],
    "look": "Japanese, adult. no fixed form — felt more than seen; when it borrows Gin's face, the eyes are too steady, too old.",
    "facts": [],
@@ -750,7 +750,7 @@
    "patient",
    "knows:Sasaki Daiki",
    "knows:Aizawa Yuto",
-   "knows:Endo Sumi"
+   "knows:Okuma Sumi"
   ]
  },
  {
@@ -2602,7 +2602,7 @@
     "note": "(mirrored) +1. A standing usual; knows his real tells."
    },
    {
-    "to": "det-sgt-arai-goro",
+    "to": "det-sgt-arai-makoto",
     "value": 0,
     "tier": 0,
     "note": "(mirrored) 0. The official liaison; Arai is the unofficial one."
@@ -2934,7 +2934,7 @@
     "note": "Knew him. Gin consulted the archive three times over six years; the entries are there. The last was fourteen months ago,"
    },
    {
-    "to": "sugimoto-tatsuya",
+    "to": "sugimoto-hiroshi",
     "value": 67,
     "tier": 2,
     "note": "(mirrored) +2. Trades history for company; brings soup and questions."
@@ -3333,10 +3333,10 @@
     "note": "(mirrored) +1. The late regular; he keeps her usual."
    },
    {
-    "to": "endo-sumi",
+    "to": "okuma-sumi",
     "value": 33,
     "tier": 1,
-    "note": "(mirrored) +1. Hana reads the grief; Mrs. Endō tends it."
+    "note": "(mirrored) +1. Hana reads the grief; Mrs. Okuma tends it."
    },
    {
     "to": "leo-sato",
@@ -4101,7 +4101,7 @@
     "note": "(mirrored) Knows him. He provided safe-house access for recovery-support operations. Professional and warm."
    },
    {
-    "to": "sugimoto-tatsuya",
+    "to": "sugimoto-hiroshi",
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Two old men who saw too much and stayed kind."
@@ -4455,7 +4455,7 @@
     "note": "(mirrored) +1. Restocks the Grid’s kit here; Maki sets iron aside."
    },
    {
-    "to": "mori-haruto",
+    "to": "nagai-haruto",
     "value": 0,
     "tier": 0,
     "note": "(mirrored) 0. The Grid has clocked him; deciding whether to reach out."
@@ -5092,9 +5092,9 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Endo Sumi",
+    "Okuma Sumi",
     "Serizawa",
-    "Iwata Kenji"
+    "Iwata Shūji"
    ],
    "look": "Japanese man, 35. 182cm. Lean, easy in his body, forearms from lifting kegs. Dark, pushed back, a few days’ stubble he keeps on purpose. Warm brown, steady, the kind that make you talk. A good plain shirt, open at the throat; understated and very deliberate. Leaning on the bar, sleeves rolled, listening like it matters.",
    "facts": [],
@@ -5230,9 +5230,9 @@
    "fair",
    "adult",
    "loc:suzuran",
-   "knows:Endo Sumi",
+   "knows:Okuma Sumi",
    "knows:Serizawa",
-   "knows:Iwata Kenji"
+   "knows:Iwata Shūji"
   ]
  },
  {
@@ -5350,7 +5350,7 @@
     "note": "+1. Has told him twice to bring Rei more often."
    },
    {
-    "to": "endo-sumi",
+    "to": "okuma-sumi",
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Two old women who keep the dead company."
@@ -5622,7 +5622,7 @@
    "knows": [
     "Komatsu Shigeru",
     "Miyamoto Kazuo",
-    "Father Anselm Mbeki"
+    "Father Anselm Mabuchi"
    ],
    "look": "Japanese man, 63. 172cm. Spare, exact, ageless. Silver, barbered weekly. Grey, courteous, reading your shoes. Black waistcoat, white shirt, not a thread astray in thirty years. Carving ice, apparently deaf, missing nothing.",
    "facts": [
@@ -5746,7 +5746,7 @@
    "loc:tsukishima",
    "knows:Komatsu Shigeru",
    "knows:Miyamoto Kazuo",
-   "knows:Father Anselm Mbeki"
+   "knows:Father Anselm Mabuchi"
   ]
  },
  {
@@ -5781,7 +5781,7 @@
    "knows": [
     "The Beck's Man",
     "Komatsu Shigeru",
-    "Det. Sgt. Arai Goro"
+    "Det. Sgt. Arai Makoto"
    ],
    "look": "Japanese man, 47. 168cm. Forgettable, which is his gift. Greying, neat, unremarkable. On the cup. Always on the cup. The stand’s uniform, a little faded. Wiping the counter, somewhere else entirely.",
    "facts": [],
@@ -5910,7 +5910,7 @@
    "loc:nishishinjuku",
    "knows:The Beck's Man",
    "knows:Komatsu Shigeru",
-   "knows:Det. Sgt. Arai Goro"
+   "knows:Det. Sgt. Arai Makoto"
   ]
  },
  {
@@ -6239,7 +6239,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Sato",
+    "Kubo",
     "Gotō Hideki",
     "Miyamoto Kazuo"
    ],
@@ -6318,7 +6318,7 @@
     "note": "−1. Tried to put her to work. She got away."
    },
    {
-    "to": "mori-haruto",
+    "to": "nagai-haruto",
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. Treats the runaway like family."
@@ -6332,7 +6332,7 @@
   ],
   "backstory": [
    "Sixteen, part of the Toyoko-kids community that sleeps in the seams of Kabukichō, sharp the way you get when no one is coming to help. Yua survives on information — who is where, who is dangerous, which doors stay open — which makes her one of the most useful contacts in the district and one of the most guarded. She has been let down by enough adults to assume Rei is one more, right up until he isn’t.",
-   "She develops a one-sided crush on Rei, because Rei is cool and, more importantly, because he treats her like a person and not a problem. Like Mori’s, it stays a crush and nothing else — she is a minor and the story holds that line without exception. It shows as prickly loyalty, showing off her network to impress him, and a fierce, unspoken disappointment she would never admit to. Rei’s job is to be a steady, safe adult presence: the rarest thing in her life.",
+   "She develops a one-sided crush on Rei, because Rei is cool and, more importantly, because he treats her like a person and not a problem. Like Nagai’s, it stays a crush and nothing else — she is a minor and the story holds that line without exception. It shows as prickly loyalty, showing off her network to impress him, and a fierce, unspoken disappointment she would never admit to. Rei’s job is to be a steady, safe adult presence: the rarest thing in her life.",
    "Yua’s street network is a real game system — eyes in places the CVD and the Grid both miss. Earning it means earning her trust, and her trust is the slowest, most worthwhile currency in Kabukichō."
   ],
   "quest": {
@@ -6369,7 +6369,7 @@
    "scrappy",
    "minor",
    "loc:kabuki",
-   "knows:Sato",
+   "knows:Kubo",
    "knows:Gotō Hideki",
    "knows:Miyamoto Kazuo"
   ]
@@ -6406,7 +6406,7 @@
    "knows": [
     "Aizawa Yuto",
     "Kaneda Tōru",
-    "Mori Haruto"
+    "Nagai Haruto"
    ],
    "look": "Japanese man, 51. Iron-grey, severe. Patient, flat, weighing the cost of you. Quiet money; nothing flashy, everything perfect.",
    "facts": [],
@@ -6528,7 +6528,7 @@
    "loc:mejiro",
    "knows:Aizawa Yuto",
    "knows:Kaneda Tōru",
-   "knows:Mori Haruto"
+   "knows:Nagai Haruto"
   ]
  },
  {
@@ -6561,7 +6561,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Father Anselm Mbeki",
+    "Father Anselm Mabuchi",
     "Gotō Hideki",
     "The Beck's Man"
    ],
@@ -6692,7 +6692,7 @@
    "fair",
    "adult",
    "loc:shinokubo",
-   "knows:Father Anselm Mbeki",
+   "knows:Father Anselm Mabuchi",
    "knows:Gotō Hideki",
    "knows:The Beck's Man"
   ]
@@ -6728,7 +6728,7 @@
    },
    "knows": [
     "Mariko",
-    "Mori Haruto",
+    "Nagai Haruto",
     "Kuroki Tatsuo"
    ],
    "look": "Japanese man, 18. Bleached, bad roots. Darting, defensive. Knockoff brands worn like armour.",
@@ -6785,10 +6785,10 @@
   "romanceable": true,
   "relationships": [
    {
-    "to": "mori-haruto",
+    "to": "nagai-haruto",
     "value": 33,
     "tier": 1,
-    "note": "−1. Rival gang; Mori’s calm enrages him."
+    "note": "−1. Rival gang; Nagai’s calm enrages him."
    },
    {
     "to": "aizawa-yuto",
@@ -6859,7 +6859,7 @@
    "adult",
    "loc:adachi",
    "knows:Mariko",
-   "knows:Mori Haruto",
+   "knows:Nagai Haruto",
    "knows:Kuroki Tatsuo"
   ]
  },
@@ -6894,7 +6894,7 @@
    },
    "knows": [
     "Komatsu Shigeru",
-    "Mori Haruto",
+    "Nagai Haruto",
     "Kaneda Tōru"
    ],
    "look": "Japanese man, 22. Salon-perfect, slept-in. Glassy, charming, far away. Designer, careless; a watch worth a year of Yua’s meals.",
@@ -7025,14 +7025,14 @@
    "adult",
    "loc:hiroo",
    "knows:Komatsu Shigeru",
-   "knows:Mori Haruto",
+   "knows:Nagai Haruto",
    "knows:Kaneda Tōru"
   ]
  },
  {
-  "id": "sugimoto-tatsuya",
-  "name": "Sugimoto Tatsuya",
-  "fullName": "Sugimoto Tatsuya,",
+  "id": "sugimoto-hiroshi",
+  "name": "Sugimoto Hiroshi",
+  "fullName": "Sugimoto Hiroshi,",
   "faction": "street",
   "role": "68",
   "location": "Cardboard and a bench in the park by the university; the library by day.",
@@ -7191,9 +7191,9 @@
   ]
  },
  {
-  "id": "mori-haruto",
-  "name": "Mori Haruto",
-  "fullName": "Mori Haruto,",
+  "id": "nagai-haruto",
+  "name": "Nagai Haruto",
+  "fullName": "Nagai Haruto,",
   "faction": "street",
   "role": "17",
   "location": "Public housing in Kita-ku with a mother on nights and a younger sister he raises",
@@ -7220,7 +7220,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Sato",
+    "Kubo",
     "Pak Sun-ja",
     "Yushiro"
    ],
@@ -7307,13 +7307,13 @@
   ],
   "backstory": [
    "Seventeen, runs with a school gang as the rival to Itō’s crew, and latently sensitive in a way no one has named for him — he reads rooms a beat before they turn, which keeps him alive and keeps him frightened. Hard outside, soft where it counts. He met Rei across a bad situation and decided, with a teenager’s whole heart, that Rei is the coolest and most decent person he has ever stood next to.",
-   "Mori develops a crush on Rei — and that is exactly where it stays. Rei is nineteen; Mori is a minor, and the story treats that line as absolute. The feeling is characterisation, not a route: it makes Mori braver, more loyal, occasionally reckless on Rei’s behalf, and quietly heartbroken in the ordinary way first crushes break. If it is ever spoken aloud, the most it becomes is a promise — that they could talk about it when Mori is older — and a hug, nothing more.",
-   "His latent sensitivity is a thread for later: untrained, he is the kind of kid the Grid recruits and the cults prey on. Keeping Mori ordinary may be a kindness Rei can’t actually afford to give."
+   "Nagai develops a crush on Rei — and that is exactly where it stays. Rei is nineteen; Nagai is a minor, and the story treats that line as absolute. The feeling is characterisation, not a route: it makes Nagai braver, more loyal, occasionally reckless on Rei’s behalf, and quietly heartbroken in the ordinary way first crushes break. If it is ever spoken aloud, the most it becomes is a promise — that they could talk about it when Nagai is older — and a hug, nothing more.",
+   "His latent sensitivity is a thread for later: untrained, he is the kind of kid the Grid recruits and the cults prey on. Keeping Nagai ordinary may be a kindness Rei can’t actually afford to give."
   ],
   "quest": {
    "tag": "Street",
    "title": "The one the others follow",
-   "hook": "Mori is seventeen and the steadiest of the Toyoko kids, which has made him responsible for all of them and no one responsible for him.",
+   "hook": "Nagai is seventeen and the steadiest of the Toyoko kids, which has made him responsible for all of them and no one responsible for him.",
    "stages": [
     "See the weight he carries for the others.",
     "Take one burden off him without making it charity.",
@@ -7326,8 +7326,8 @@
    "consequence": "Helped, the Toyoko kids become eyes across the city; failed, the weight finally breaks him."
   },
   "crush": {
-   "after": "A genuine friendship is established — Mori has stood by Rei through something real.",
-   "note": "One-sided, unspoken or gently deflected. Rei is kind and clear; Mori is not mocked for it.",
+   "after": "A genuine friendship is established — Nagai has stood by Rei through something real.",
+   "note": "One-sided, unspoken or gently deflected. Rei is kind and clear; Nagai is not mocked for it.",
    "ceiling": "A promise to talk ‘when you’re older’ and a hug. No romance, no abilities, no more. This line does not move."
   },
   "tier": "Sensitive",
@@ -7348,7 +7348,7 @@
    "scrappy",
    "minor",
    "loc:ojihome",
-   "knows:Sato",
+   "knows:Kubo",
    "knows:Pak Sun-ja",
    "knows:Yushiro"
   ]
@@ -7385,7 +7385,7 @@
    "knows": [
     "Kawai Yuki",
     "Saeki Reno",
-    "Det. Sgt. Arai Goro"
+    "Det. Sgt. Arai Makoto"
    ],
    "look": "Japanese man, 63. Thin, grey, under a cap. Down mostly; up more than you think. Coveralls, reflective strip, soft gloves.",
    "facts": [
@@ -7442,7 +7442,7 @@
   "romanceable": false,
   "relationships": [
    {
-    "to": "sato",
+    "to": "kubo",
     "value": 33,
     "tier": 1,
     "note": "(mirrored) +1. The cleaner and the busker hold the underpass between them."
@@ -7496,7 +7496,7 @@
    "loc:ojihome",
    "knows:Kawai Yuki",
    "knows:Saeki Reno",
-   "knows:Det. Sgt. Arai Goro"
+   "knows:Det. Sgt. Arai Makoto"
   ]
  },
  {
@@ -7702,8 +7702,8 @@
    },
    "knows": [
     "Pak Sun-ja",
-    "Sato",
-    "Endo Sumi"
+    "Kubo",
+    "Okuma Sumi"
    ],
    "look": "Japanese person, 44. lean build, hair tied back, soft brown, practical, lived-in clothes, guarded; warmth has to be earned.",
    "facts": [],
@@ -7839,8 +7839,8 @@
    "adult",
    "loc:shinokubo",
    "knows:Pak Sun-ja",
-   "knows:Sato",
-   "knows:Endo Sumi"
+   "knows:Kubo",
+   "knows:Okuma Sumi"
   ]
  },
  {
@@ -7944,7 +7944,7 @@
     "note": "+1. Watched him since small; slips him sweets still."
    },
    {
-    "to": "iwata-kenji",
+    "to": "iwata-shuji",
     "value": 33,
     "tier": 1,
     "note": "+1. Corner cronies; they trade news."
@@ -7995,9 +7995,9 @@
   ]
  },
  {
-  "id": "iwata-kenji",
-  "name": "Iwata Kenji",
-  "fullName": "Iwata Kenji,",
+  "id": "iwata-shuji",
+  "name": "Iwata Shūji",
+  "fullName": "Iwata Shūji,",
   "faction": "street",
   "role": "58",
   "location": "A super's flat on the ground floor of the block.",
@@ -8024,7 +8024,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Det. Sgt. Arai Goro",
+    "Det. Sgt. Arai Makoto",
     "Gotō Hideki",
     "Aizawa Yuto"
    ],
@@ -8127,7 +8127,7 @@
    "fair",
    "adult",
    "loc:ojihome",
-   "knows:Det. Sgt. Arai Goro",
+   "knows:Det. Sgt. Arai Makoto",
    "knows:Gotō Hideki",
    "knows:Aizawa Yuto"
   ]
@@ -8446,7 +8446,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Father Anselm Mbeki",
+    "Father Anselm Mabuchi",
     "Gotō Hideki",
     "Tanabe Isamu"
    ],
@@ -8563,7 +8563,7 @@
    "knowing",
    "adult",
    "loc:ojihome",
-   "knows:Father Anselm Mbeki",
+   "knows:Father Anselm Mabuchi",
    "knows:Gotō Hideki",
    "knows:Tanabe Isamu"
   ]
@@ -8599,8 +8599,8 @@
    },
    "knows": [
     "Gotō Hideki",
-    "Det. Sgt. Arai Goro",
-    "Iwata Kenji"
+    "Det. Sgt. Arai Makoto",
+    "Iwata Shūji"
    ],
    "look": "Japanese woman, 57. Black, a choppy shoulder-length bob she cuts herself. Soft, tired, warm. Whites and an apron, always.",
    "facts": [],
@@ -8708,8 +8708,8 @@
    "adult",
    "loc:ojihome",
    "knows:Gotō Hideki",
-   "knows:Det. Sgt. Arai Goro",
-   "knows:Iwata Kenji"
+   "knows:Det. Sgt. Arai Makoto",
+   "knows:Iwata Shūji"
   ]
  },
  {
@@ -8746,8 +8746,8 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Sugimoto Tatsuya",
-    "Endo Sumi",
+    "Sugimoto Hiroshi",
+    "Okuma Sumi",
     "Kaneda Tōru"
    ],
    "look": "Japanese man, 52. Shaved bald, sweat-banded; a grey soul-patch. Quick, taking the measure of the counter. Whites, a towel, steam.",
@@ -8856,8 +8856,8 @@
    "kind",
    "adult",
    "loc:ojihome",
-   "knows:Sugimoto Tatsuya",
-   "knows:Endo Sumi",
+   "knows:Sugimoto Hiroshi",
+   "knows:Okuma Sumi",
    "knows:Kaneda Tōru"
   ]
  },
@@ -9094,7 +9094,7 @@
   "romanceable": false,
   "relationships": [
    {
-    "to": "sugimoto-tatsuya",
+    "to": "sugimoto-hiroshi",
     "value": 33,
     "tier": 1,
     "note": "+1. Two of a kind... sight that ruined an ordinary life."
@@ -9188,9 +9188,9 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Father Anselm Mbeki",
+    "Father Anselm Mabuchi",
     "Gotō Hideki",
-    "Det. Sgt. Arai Goro"
+    "Det. Sgt. Arai Makoto"
    ],
    "look": "Japanese man, 66. White, tied in a small traditional topknot. Calm, watchful of the tree-line. White and indigo vestments.",
    "facts": [
@@ -9311,9 +9311,9 @@
    "knowing",
    "adult",
    "loc:inari",
-   "knows:Father Anselm Mbeki",
+   "knows:Father Anselm Mabuchi",
    "knows:Gotō Hideki",
-   "knows:Det. Sgt. Arai Goro"
+   "knows:Det. Sgt. Arai Makoto"
   ]
  },
  {
@@ -9411,7 +9411,7 @@
     "note": "+1. They argue doctrine for hours."
    },
    {
-    "to": "father-anselm-mbeki",
+    "to": "father-anselm-mabuchi",
     "value": 33,
     "tier": 1,
     "note": "+1. Two reluctant exorcists, same hard knowledge."
@@ -9463,9 +9463,9 @@
   ]
  },
  {
-  "id": "father-anselm-mbeki",
-  "name": "Father Anselm Mbeki",
-  "fullName": "Father Anselm Mbeki — Catholic priest",
+  "id": "father-anselm-mabuchi",
+  "name": "Father Anselm Mabuchi",
+  "fullName": "Father Anselm Mabuchi — Catholic priest",
   "faction": "street",
   "role": "61",
   "location": "The parish house beside the church.",
@@ -9492,7 +9492,7 @@
     "close": "Tells Rei what they really know and feel — within their limits."
    },
    "knows": [
-    "Det. Sgt. Arai Goro",
+    "Det. Sgt. Arai Makoto",
     "Yoshida Goro",
     "The Beck's Man"
    ],
@@ -9604,7 +9604,7 @@
    "kind",
    "adult",
    "loc:shinokubo",
-   "knows:Det. Sgt. Arai Goro",
+   "knows:Det. Sgt. Arai Makoto",
    "knows:Yoshida Goro",
    "knows:The Beck's Man"
   ]
@@ -9641,7 +9641,7 @@
    "knows": [
     "Mariko",
     "Maruyama Toshio",
-    "Endo Sumi"
+    "Okuma Sumi"
    ],
    "look": "Japanese man, 63. slight build, thinning white hair, dark, tired, plain robes or a worn cassock, prayer beads, guarded; warmth has to be earned.",
    "facts": [
@@ -9747,7 +9747,7 @@
    "loc:shinokubo",
    "knows:Mariko",
    "knows:Maruyama Toshio",
-   "knows:Endo Sumi"
+   "knows:Okuma Sumi"
   ]
  },
  {
@@ -9929,7 +9929,7 @@
    },
    "knows": [
     "The Beck's Man",
-    "Det. Sgt. Arai Goro",
+    "Det. Sgt. Arai Makoto",
     "Rev. Egami Jakū"
    ],
    "look": "Japanese man, 64. Soft white perm, set weekly out of habit. Wet, kind, far-seeing at the water. Plain, an apron of flowers.",
@@ -9987,7 +9987,7 @@
   "romanceable": false,
   "relationships": [
    {
-    "to": "father-anselm-mbeki",
+    "to": "father-anselm-mabuchi",
     "value": 33,
     "tier": 1,
     "note": "+1. Two leaders of immigrant faiths who look out for each other."
@@ -10043,7 +10043,7 @@
    "adult",
    "loc:shinokubo",
    "knows:The Beck's Man",
-   "knows:Det. Sgt. Arai Goro",
+   "knows:Det. Sgt. Arai Makoto",
    "knows:Rev. Egami Jakū"
   ]
  },
@@ -10220,7 +10220,7 @@
    },
    "knows": [
     "Yoshida Goro",
-    "Sato",
+    "Kubo",
     "Sone Kimiko"
    ],
    "look": "Japanese person, 60. lean build, thinning white hair, dark, tired, a weathered work jacket, decades-worn, guarded; warmth has to be earned.",
@@ -10325,14 +10325,14 @@
    "adult",
    "loc:ojihome",
    "knows:Yoshida Goro",
-   "knows:Sato",
+   "knows:Kubo",
    "knows:Sone Kimiko"
   ]
  },
  {
-  "id": "sato",
-  "name": "Sato",
-  "fullName": "Sato — the blind busker",
+  "id": "kubo",
+  "name": "Kubo",
+  "fullName": "Kubo — the blind busker",
   "faction": "street",
   "role": "50s",
   "location": "A shelter by night; the underpass by day, for coins and acoustics.",
@@ -10361,7 +10361,7 @@
    "knows": [
     "Miyamoto Kazuo",
     "Pak Sun-ja",
-    "Father Anselm Mbeki"
+    "Father Anselm Mabuchi"
    ],
    "look": "Japanese person, 50. wiry build, short black hair, sharp dark, layered worn clothes, a guitar case, guarded; warmth has to be earned.",
    "facts": [],
@@ -10430,14 +10430,14 @@
    }
   ],
   "backstory": [
-   "Fifties, a blind busker who plays the station underpass for coins and, unknown to the commuters who pass him, hears the place the way no sighted person can. Sato is a blind sensitive: deprived of sight, his other readings are uncanny, and over years of playing the same tunnel he has mapped its moods by ear — when it is safe to be down there, when the air sours, when the underpass 'turns' into something that is no longer just a tunnel.",
+   "Fifties, a blind busker who plays the station underpass for coins and, unknown to the commuters who pass him, hears the place the way no sighted person can. Kubo is a blind sensitive: deprived of sight, his other readings are uncanny, and over years of playing the same tunnel he has mapped its moods by ear — when it is safe to be down there, when the air sours, when the underpass 'turns' into something that is no longer just a tunnel.",
    "For Rei he is a living instrument for one of the city's reliable thin spots: whether it's safe to be down there now, and — at full trust — exactly when and how the underpass turns, a schedule of a haunting he has learned through his fingertips and ears across a thousand nights. He gives it to the rare person who stops to actually listen to the busker rather than dropping a coin and walking on.",
    "His flaw is the performer's resignation: he is so used to being background that he'll pack up and be gone the moment he feels used rather than heard."
   ],
   "quest": {
    "tag": "Contact",
    "title": "When the underpass turns",
-   "hook": "Sato can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
+   "hook": "Kubo can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
    "stages": [
     "Stop and listen to the busker instead of dropping a coin and leaving.",
     "Learn from him whether it's safe down there now.",
@@ -10446,7 +10446,7 @@
    "payoff": "A precise, ear-mapped timetable of a recurring thin spot — exactly when it's lethal and when it's only a tunnel.",
    "goal": "What they want: To get by and keep their corner of the ward okay",
    "place": "A shelter by night; the underpass by day",
-   "stake": "Sato can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
+   "stake": "Kubo can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
    "consequence": "A precise, ear-mapped timetable of a recurring thin spot — exactly when it's lethal and when it's only a tunnel."
   },
   "tier": "Sensitive",
@@ -10468,13 +10468,13 @@
    "loc:shibuya",
    "knows:Miyamoto Kazuo",
    "knows:Pak Sun-ja",
-   "knows:Father Anselm Mbeki"
+   "knows:Father Anselm Mabuchi"
   ]
  },
  {
-  "id": "endo-sumi",
-  "name": "Endo Sumi",
-  "fullName": "Endo Sumi — the memorial keeper",
+  "id": "okuma-sumi",
+  "name": "Okuma Sumi",
+  "fullName": "Okuma Sumi — the memorial keeper",
   "faction": "street",
   "role": "70s",
   "location": "A flat overlooking the river; close enough to tend daily.",
@@ -10503,7 +10503,7 @@
    "knows": [
     "Kaneda Tōru",
     "Kuroki Tatsuo",
-    "Sato"
+    "Kubo"
    ],
    "look": "Japanese woman, 70. compact build, close-cropped grey hair, dark, tired, a weathered work jacket, decades-worn, guarded; warmth has to be earned.",
    "facts": [
@@ -10564,7 +10564,7 @@
     "to": "choi-hana",
     "value": 33,
     "tier": 1,
-    "note": "+1. Hana reads the grief; Mrs. Endō tends it."
+    "note": "+1. Hana reads the grief; Mrs. Okuma tends it."
    },
    {
     "to": "hara-setsu",
@@ -10580,14 +10580,14 @@
    }
   ],
   "backstory": [
-   "Seventies, the woman who tends the riverside memorial, and the quiet keeper of a thin spot built entirely of sorrow. Endō has cared for the memorial so long that she knows its moods the way a gardener knows weather: when the grief gathered there peaks, when the water goes strange, and — on certain nights — what she has felt answer from the other side of it. She is gentle, unhurried, and entirely unafraid of the dead, having kept company with their leavings for decades.",
+   "Seventies, the woman who tends the riverside memorial, and the quiet keeper of a thin spot built entirely of sorrow. Okuma has cared for the memorial so long that she knows its moods the way a gardener knows weather: when the grief gathered there peaks, when the water goes strange, and — on certain nights — what she has felt answer from the other side of it. She is gentle, unhurried, and entirely unafraid of the dead, having kept company with their leavings for decades.",
    "For Rei she is the key to one of the city's reliable thin spots: at full trust she tells him when the memorial's grief peaks and what she has felt answer there, the timing that turns a haunting from a mystery into a schedule. Short of that, a gentle word at the water and the memorial's calendar of sorrow. She gives it to whoever treats the grief, and the dead it belongs to, with respect.",
    "Her flaw is her tenderness toward the place: she half-protects the thin spot, reluctant to hand over what might bring people to disturb the sorrow she has spent a life tending."
   ],
   "quest": {
    "tag": "Contact",
    "title": "When the grief peaks",
-   "hook": "Endō tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
+   "hook": "Okuma tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
    "stages": [
     "Treat the grief and its dead with respect at the water.",
     "Learn the memorial's calendar of sorrow.",
@@ -10596,7 +10596,7 @@
    "payoff": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it.",
    "goal": "What they want: To see the young ones not repeat old mistakes",
    "place": "A flat overlooking the river; close enough to tend daily",
-   "stake": "Endō tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
+   "stake": "Okuma tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
    "consequence": "A schedule for one of the city's reliable thin spots — a grief-haunting mapped by the woman who tends it."
   },
   "tier": "The Null",
@@ -10615,13 +10615,13 @@
    "loc:river",
    "knows:Kaneda Tōru",
    "knows:Kuroki Tatsuo",
-   "knows:Sato"
+   "knows:Kubo"
   ]
  },
  {
-  "id": "det-sgt-arai-goro",
-  "name": "Det. Sgt. Arai Goro",
-  "fullName": "Det. Sgt. Arai Goro,",
+  "id": "det-sgt-arai-makoto",
+  "name": "Det. Sgt. Arai Makoto",
+  "fullName": "Det. Sgt. Arai Makoto,",
   "faction": "street",
   "role": "48",
   "location": "A salaryman's flat in the ward with a wife who worries.",
@@ -10649,8 +10649,8 @@
    },
    "knows": [
     "Yushiro",
-    "Mori Haruto",
-    "Sugimoto Tatsuya"
+    "Nagai Haruto",
+    "Sugimoto Hiroshi"
    ],
    "look": "Japanese man, 48. Black brush-cut going grey, regulation-short. Seen-it-all, and one thing more. A detective’s rumpled suit, a cheap watch.",
    "facts": [],
@@ -10753,8 +10753,8 @@
    "adult",
    "loc:ojihome",
    "knows:Yushiro",
-   "knows:Mori Haruto",
-   "knows:Sugimoto Tatsuya"
+   "knows:Nagai Haruto",
+   "knows:Sugimoto Hiroshi"
   ]
  },
  {
@@ -11216,8 +11216,8 @@
    },
    "knows": [
     "Saeki Reno",
-    "Mori Haruto",
-    "Det. Sgt. Arai Goro"
+    "Nagai Haruto",
+    "Det. Sgt. Arai Makoto"
    ],
    "look": "Japanese woman, 58. Permed lavender-grey, the salon set of her generation. Sharp behind reading glasses. A shop apron over a neat cardigan, a charm of her own at her throat.",
    "facts": [],
@@ -11325,8 +11325,8 @@
    "adult",
    "loc:ojihome",
    "knows:Saeki Reno",
-   "knows:Mori Haruto",
-   "knows:Det. Sgt. Arai Goro"
+   "knows:Nagai Haruto",
+   "knows:Det. Sgt. Arai Makoto"
   ]
  },
  {

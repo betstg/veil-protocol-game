@@ -279,10 +279,10 @@
   "faction": "street"
  },
  {
-  "id": "mori",
-  "name": "Mori Haruto",
+  "id": "nagai",
+  "name": "Nagai Haruto",
   "role": "High-school kid. Sees things.",
-  "img": "char_mori-haruto",
+  "img": "char_nagai-haruto",
   "romance": false,
   "minor": true,
   "faction": "street"
@@ -307,9 +307,9 @@
  },
  {
   "id": "iwata",
-  "name": "Iwata Kenji",
+  "name": "Iwata Shūji",
   "role": "Handyman in your building.",
-  "img": "char_iwata-kenji",
+  "img": "char_iwata-shuji",
   "romance": false,
   "minor": false,
   "faction": "street"

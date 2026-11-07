@@ -1,7 +1,7 @@
 {
-  "id": "mori-haruto",
-  "name": "Mori Haruto",
-  "full_name": "Mori Haruto,",
+  "id": "nagai-haruto",
+  "name": "Nagai Haruto",
+  "full_name": "Nagai Haruto,",
   "faction": "street",
   "role": "17",
   "location": "Public housing in Kita-ku with a mother on nights and a younger sister he raises",
@@ -22,7 +22,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Sato",
+      "Kubo",
       "Pak Sun-ja",
       "Yushiro"
     ],

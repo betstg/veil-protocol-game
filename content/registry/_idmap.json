@@ -90,10 +90,10 @@
       "flag": "ok"
     },
     {
-      "root_id": "det-sgt-arai-goro",
-      "root_name": "Det. Sgt. Arai Goro",
+      "root_id": "det-sgt-arai-makoto",
+      "root_name": "Det. Sgt. Arai Makoto",
       "reg_id": "arai",
-      "reg_name": "Det. Sgt. Arai Goro, 新井 叉郎",
+      "reg_name": "Det. Sgt. Arai Makoto, 新井 誠",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
@@ -117,19 +117,19 @@
       "flag": "ok"
     },
     {
-      "root_id": "endo-sumi",
-      "root_name": "Endo Sumi",
-      "reg_id": "endo_sumi",
-      "reg_name": "Endo Sumi... the memorial keeper",
+      "root_id": "okuma-sumi",
+      "root_name": "Okuma Sumi",
+      "reg_id": "okuma_sumi",
+      "reg_name": "Okuma Sumi... the memorial keeper",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
     },
     {
-      "root_id": "father-anselm-mbeki",
-      "root_name": "Father Anselm Mbeki",
-      "reg_id": "father_anselm_mbeki",
-      "reg_name": "Father Anselm Mbeki... Catholic priest",
+      "root_id": "father-anselm-mabuchi",
+      "root_name": "Father Anselm Mabuchi",
+      "reg_id": "father_anselm_mabuchi",
+      "reg_name": "Father Anselm Mabuchi... Catholic priest",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
@@ -207,10 +207,10 @@
       "flag": "ok"
     },
     {
-      "root_id": "iwata-kenji",
-      "root_name": "Iwata Kenji",
-      "reg_id": "iwata_kenji",
-      "reg_name": "Iwata Kenji, 岩田 健二",
+      "root_id": "iwata-shuji",
+      "root_name": "Iwata Shūji",
+      "reg_id": "iwata_shuji",
+      "reg_name": "Iwata Shūji, 岩田 修二",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
@@ -369,10 +369,10 @@
       "flag": "ok"
     },
     {
-      "root_id": "mori-haruto",
-      "root_name": "Mori Haruto",
-      "reg_id": "mori_haruto",
-      "reg_name": "Mori Haruto, 森 陽太",
+      "root_id": "nagai-haruto",
+      "root_name": "Nagai Haruto",
+      "reg_id": "nagai_haruto",
+      "reg_name": "Nagai Haruto, 永井 陽太",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
@@ -468,10 +468,10 @@
       "flag": "ok"
     },
     {
-      "root_id": "sato",
-      "root_name": "Sato",
-      "reg_id": "sato",
-      "reg_name": "Sato... the blind busker",
+      "root_id": "kubo",
+      "root_name": "Kubo",
+      "reg_id": "kubo",
+      "reg_name": "Kubo... the blind busker",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"
@@ -504,10 +504,10 @@
       "flag": "ok"
     },
     {
-      "root_id": "sugimoto-tatsuya",
-      "root_name": "Sugimoto Tatsuya",
-      "reg_id": "sugimoto_tatsuya",
-      "reg_name": "Sugimoto Tatsuya, 杠本 達也",
+      "root_id": "sugimoto-hiroshi",
+      "root_name": "Sugimoto Hiroshi",
+      "reg_id": "sugimoto_hiroshi",
+      "reg_name": "Sugimoto Hiroshi, 杉本 浩",
       "confidence": 1.0,
       "has_persona": true,
       "flag": "ok"

@@ -33,7 +33,7 @@ Each road takes its approach to the spine and runs three acts: **Open** (how thi
 (a road-specific complication + a faction antagonist beat), **Converge** (how it feeds back into the Handwriting).
 
 ## Side missions (multi-scene, real stakes) — 15+
-Yua's debt · Mori's crush and the thing in the dorm · Tanizaki's drowned client · the animal-medium broker ·
+Yua's debt · Nagai's crush and the thing in the dorm · Tanizaki's drowned client · the animal-medium broker ·
 the bookseller's locked shelf · Kaneda's last bottle · the shrine that stopped answering · a Grid courier gone dark.
 **Plus the Thirteen-holder side-spine** (each a vignette: help the holder, learn what a seat costs, or feel a domain
 fail): Watanabe Jun (Despair VI, *weakening — urgent*) · Mori Takao (Rage II) · Nakashima Yuna (Fear IV) ·
@@ -41,7 +41,7 @@ Inoue Satoru (Hunger IX) · Park Junho (Longing XI). And institutional/Grid jobs
 favour that is free to take and ruinous to owe.
 
 ## Romances (multi-stage, fade-to-black ceiling; never minors) — 16+
-From the 25 romanceable **adults** (Mori 17 and Yua 16 are crush-only, never a route). Each runs four stages —
+From the 25 romanceable **adults** (Nagai 17 and Yua 16 are crush-only, never a route). Each runs four stages —
 **notice → trust → turn → fade-to-black** — with the *turn* gated on a real act done for them, not asked:
 Itsuki · Aoi · Hagiwara Mizuki · Katagiri Noa · Tendo Akira · Okada Shizuka · Shimizu Ren · Kato Ryusei ·
 Moriya Tatsuki · Usami&Ren (the Pair) · Tsukishiro Haruki · Choi Hana · Kurosawa Shou · Nakamura Aoi.

@@ -141,14 +141,14 @@ The player is caught between two demons who want opposite things:
 |---|---|---|---|
 | I | Grief | Asakura Mio (Kyoto) | Stable |
 | II | Rage | Mori Takao (Tokyo) | **Under pressure** |
-| III | Love | Sasaki Kei | Stable |
+| III | Love | Sakuma Kei | Stable |
 | IV | Fear | Nakashima Yuna | **Under pressure** |
 | V | Wonder | Chen Lian (Grid Archive) | Stable |
 | VI | Despair | Watanabe Jun | **Weakening (urgent)** |
 | VII | Joy | Hoshino Haru (Kita, Sakae St) | Stable |
 | VIII | Shame | Kobayashi Emi | Stable |
 | IX | Hunger | Inoue Satoru | **Under pressure** |
-| X | Courage | Fujiwara Natsumi | Stable |
+| X | Courage | Okabe Natsumi | Stable |
 | XI | Longing | Park Junho (Shin-Ōkubo) | **Under pressure** |
 | XII | Awe | Kasumi Shin | Stable |
 | **XIII** | **Duty** | **VACANT since 2009** | **CRITICAL — membrane thinning** |

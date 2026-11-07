@@ -1,7 +1,7 @@
 {
-  "id": "iwata-kenji",
-  "name": "Iwata Kenji",
-  "full_name": "Iwata Kenji,",
+  "id": "iwata-shuji",
+  "name": "Iwata Shūji",
+  "full_name": "Iwata Shūji,",
   "faction": "street",
   "role": "58",
   "location": "A super's flat on the ground floor of the block.",
@@ -22,7 +22,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Det. Sgt. Arai Goro",
+      "Det. Sgt. Arai Makoto",
       "Gotō Hideki",
       "Aizawa Yuto"
     ],

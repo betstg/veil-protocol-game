@@ -1,6 +1,6 @@
 # Veil Protocol — Romance Routes: "How to Win Them" (GM Book, Block 2)
 
-*Romance is a deliberate route the player chooses, never automatic. Attraction is earned and can be lost; a clumsy or mistimed advance moves it DOWN. Each route has a noble, a dark, and a tragic end. **Hard line: never romance, flirt with, or sexualize a minor under any framing.** Mori (17) and Yua (16) are crush-only — characterisation, not a route.*
+*Romance is a deliberate route the player chooses, never automatic. Attraction is earned and can be lost; a clumsy or mistimed advance moves it DOWN. Each route has a noble, a dark, and a tragic end. **Hard line: never romance, flirt with, or sexualize a minor under any framing.** Nagai (17) and Yua (16) are crush-only — characterisation, not a route.*
 
 
 ## The 25 romanceable adults
@@ -282,9 +282,9 @@
 
 ## Crush — one-sided, NO romance (minors)
 
-### Mori Haruto *(minor — crush only)*
-- **After:** A genuine friendship is established — Mori has stood by Rei through something real.
-- **Tone:** One-sided, unspoken or gently deflected. Rei is kind and clear; Mori is not mocked for it.
+### Nagai Haruto *(minor — crush only)*
+- **After:** A genuine friendship is established — Nagai has stood by Rei through something real.
+- **Tone:** One-sided, unspoken or gently deflected. Rei is kind and clear; Nagai is not mocked for it.
 - **Ceiling:** A promise to talk ‘when you’re older’ and a hug. No romance, no abilities, no more. This line does not move.
 
 ### Yua *(minor — crush only)*

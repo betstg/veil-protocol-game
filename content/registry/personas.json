@@ -115,7 +115,7 @@
     "knows": [
       "Sasaki Daiki",
       "Aizawa Yuto",
-      "Endo Sumi"
+      "Okuma Sumi"
     ],
     "look": "Japanese, adult. no fixed form — felt more than seen; when it borrows Gin's face, the eyes are too steady, too old.",
     "facts": [],
@@ -977,9 +977,9 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Endo Sumi",
+      "Okuma Sumi",
       "Serizawa",
-      "Iwata Kenji"
+      "Iwata Shūji"
     ],
     "look": "Japanese, 35. broad-shouldered, black hair going grey at the temples; practical, lived-in clothes that have seen the ward. Distinct look: broad build, a greying topknot, a neck tattoo just showing at the collar.",
     "facts": [],
@@ -1074,7 +1074,7 @@
     "knows": [
       "Komatsu Shigeru",
       "Miyamoto Kazuo",
-      "Father Anselm Mbeki"
+      "Father Anselm Mabuchi"
     ],
     "look": "Japanese, 63. broad-shouldered, a steel-grey crop; a weathered work jacket, hands that have done decades of something. Distinct look: broad build, a clean-shaven head, a faded scar through one eyebrow.",
     "facts": [
@@ -1106,7 +1106,7 @@
     "knows": [
       "The Beck's Man",
       "Komatsu Shigeru",
-      "Det. Sgt. Arai Goro"
+      "Det. Sgt. Arai Makoto"
     ],
     "look": "Japanese, 47. lean, neatly parted hair; practical, lived-in clothes that have seen the ward. Distinct look: lean build, a clean-shaven head, a faded scar through one eyebrow.",
     "facts": [],
@@ -1197,7 +1197,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Sato",
+      "Kubo",
       "Gotō Hideki",
       "Miyamoto Kazuo"
     ],
@@ -1230,7 +1230,7 @@
     "knows": [
       "Aizawa Yuto",
       "Kaneda Tōru",
-      "Mori Haruto"
+      "Nagai Haruto"
     ],
     "look": "Japanese, 51. lean, hair tied back severely; practical, lived-in clothes that have seen the ward. Distinct look: lean build, shoulder-length unwashed black hair, sharp cheekbones.",
     "facts": [],
@@ -1259,7 +1259,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Father Anselm Mbeki",
+      "Father Anselm Mabuchi",
       "Gotō Hideki",
       "The Beck's Man"
     ],
@@ -1291,7 +1291,7 @@
     },
     "knows": [
       "Mariko",
-      "Mori Haruto",
+      "Nagai Haruto",
       "Kuroki Tatsuo"
     ],
     "look": "Japanese, 18. slight, cropped black hair; hoodie, scuffed trainers, phone always in hand. Distinct look: slight build, close-cropped grey hair, deep crow’s-feet.",
@@ -1322,7 +1322,7 @@
     },
     "knows": [
       "Komatsu Shigeru",
-      "Mori Haruto",
+      "Nagai Haruto",
       "Kaneda Tōru"
     ],
     "look": "Japanese, 22. broad-shouldered, cropped black hair; practical, lived-in clothes that have seen the ward. Distinct look: broad build, white close-cropped hair, very thick eyebrows.",
@@ -1335,7 +1335,7 @@
     ],
     "_distinct": "Distinct look: broad build, white close-cropped hair, very thick eyebrows."
   },
-  "sugimoto_tatsuya": {
+  "sugimoto_hiroshi": {
     "voice": "An old hand of the ward. Slow, wry, tells it sideways; remembers everyone and everything; warmer than they let on.",
     "traits": "wry, weathered, knowing",
     "wants": "to see the young ones not repeat old mistakes",
@@ -1367,7 +1367,7 @@
     ],
     "_distinct": "Distinct look: compact build, a neat black side-part, a broken-and-set nose."
   },
-  "mori_haruto": {
+  "nagai_haruto": {
     "voice": "A street kid. Quick, slangy, guarded; tests you before trusting; bravado over the nerves.",
     "traits": "quick, wary, scrappy",
     "wants": "to be counted as one of the older ones",
@@ -1384,7 +1384,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Sato",
+      "Kubo",
       "Pak Sun-ja",
       "Yushiro"
     ],
@@ -1417,7 +1417,7 @@
     "knows": [
       "Kawai Yuki",
       "Saeki Reno",
-      "Det. Sgt. Arai Goro"
+      "Det. Sgt. Arai Makoto"
     ],
     "look": "Japanese, 63. rangy, bald, weathered scalp; a weathered work jacket, hands that have done decades of something. Distinct look: compact build, long hair tied back, going silver, sharp cheekbones.",
     "facts": [
@@ -1481,8 +1481,8 @@
     },
     "knows": [
       "Pak Sun-ja",
-      "Sato",
-      "Endo Sumi"
+      "Kubo",
+      "Okuma Sumi"
     ],
     "look": "Japanese, 44. stocky, hair tied back severely; practical, lived-in clothes that have seen the ward. Distinct look: heavyset build, thinning salt-and-pepper hair, heavy-lidded eyes.",
     "facts": [],
@@ -1526,7 +1526,7 @@
     ],
     "_distinct": "Distinct look: compact build, messy dyed-ash hair, a single stud earring."
   },
-  "iwata_kenji": {
+  "iwata_shuji": {
     "voice": "A ward regular. Plainspoken, already sized you up; helps if you're straight with them, shuts if you're not.",
     "traits": "plain, shrewd, fair",
     "wants": "to get by and keep their corner of the ward okay",
@@ -1543,7 +1543,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Det. Sgt. Arai Goro",
+      "Det. Sgt. Arai Makoto",
       "Gotō Hideki",
       "Aizawa Yuto"
     ],
@@ -1636,7 +1636,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Father Anselm Mbeki",
+      "Father Anselm Mabuchi",
       "Gotō Hideki",
       "Tanabe Isamu"
     ],
@@ -1669,8 +1669,8 @@
     },
     "knows": [
       "Gotō Hideki",
-      "Det. Sgt. Arai Goro",
-      "Iwata Kenji"
+      "Det. Sgt. Arai Makoto",
+      "Iwata Shūji"
     ],
     "look": "Japanese, 57. lean, a steel-grey crop; practical, lived-in clothes that have seen the ward. Distinct look: lean build, a blunt black bob, a jaw shadowed with stubble.",
     "facts": [],
@@ -1699,8 +1699,8 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Sugimoto Tatsuya",
-      "Endo Sumi",
+      "Sugimoto Hiroshi",
+      "Okuma Sumi",
       "Kaneda Tōru"
     ],
     "look": "Japanese, 52. wiry, neatly parted hair; plain robes or a worn cassock, prayer beads worn smooth. Distinct look: stocky build, a blunt black bob, very thick eyebrows.",
@@ -1793,9 +1793,9 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Father Anselm Mbeki",
+      "Father Anselm Mabuchi",
       "Gotō Hideki",
-      "Det. Sgt. Arai Goro"
+      "Det. Sgt. Arai Makoto"
     ],
     "look": "Japanese, 66. tall and narrow, bald, weathered scalp; a weathered work jacket, hands that have done decades of something. Distinct look: wiry build, a receding hairline combed over, a thin moustache.",
     "facts": [
@@ -1840,7 +1840,7 @@
     ],
     "_distinct": "Distinct look: stocky build, a clean-shaven head, a mole below the lip."
   },
-  "father_anselm_mbeki": {
+  "father_anselm_mabuchi": {
     "voice": "A faith figure of the ward. Speaks in parable and patience; listens more than talks; offers shelter before answers.",
     "traits": "calm, watchful, kind",
     "wants": "to keep their flock whole",
@@ -1857,7 +1857,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Det. Sgt. Arai Goro",
+      "Det. Sgt. Arai Makoto",
       "Yoshida Goro",
       "The Beck's Man"
     ],
@@ -1891,7 +1891,7 @@
     "knows": [
       "Mariko",
       "Maruyama Toshio",
-      "Endo Sumi"
+      "Okuma Sumi"
     ],
     "look": "Japanese, 63. broad-shouldered, deep lines and a soft white fringe; plain robes or a worn cassock, prayer beads worn smooth. Distinct look: broad build, shoulder-length unwashed black hair, a chipped front tooth.",
     "facts": [
@@ -1953,7 +1953,7 @@
     },
     "knows": [
       "The Beck's Man",
-      "Det. Sgt. Arai Goro",
+      "Det. Sgt. Arai Makoto",
       "Rev. Egami Jakū"
     ],
     "look": "Japanese, 64. stocky, silver hair in a neat bun; plain robes or a worn cassock, prayer beads worn smooth. Distinct look: heavyset build, a neat black side-part, sharp cheekbones.",
@@ -2018,7 +2018,7 @@
     },
     "knows": [
       "Yoshida Goro",
-      "Sato",
+      "Kubo",
       "Sone Kimiko"
     ],
     "look": "Japanese, 60. stocky, a steel-grey crop; a weathered work jacket, hands that have done decades of something. Distinct look: heavyset build, a clean-shaven head, sharp cheekbones.",
@@ -2032,7 +2032,7 @@
     ],
     "_distinct": "Distinct look: heavyset build, a clean-shaven head, sharp cheekbones."
   },
-  "sato": {
+  "kubo": {
     "voice": "A ward regular. Plainspoken, already sized you up; helps if you're straight with them, shuts if you're not.",
     "traits": "plain, shrewd, fair",
     "wants": "to get by and keep their corner of the ward okay",
@@ -2051,7 +2051,7 @@
     "knows": [
       "Miyamoto Kazuo",
       "Pak Sun-ja",
-      "Father Anselm Mbeki"
+      "Father Anselm Mabuchi"
     ],
     "look": "Japanese, 50. tall and narrow, neatly parted hair; practical, lived-in clothes that have seen the ward. Distinct look: wiry build, jet-black hair slicked back, deep crow’s-feet.",
     "facts": [],
@@ -2063,7 +2063,7 @@
     ],
     "_distinct": "Distinct look: wiry build, jet-black hair slicked back, deep crow’s-feet."
   },
-  "endo_sumi": {
+  "okuma_sumi": {
     "voice": "An old hand of the ward. Slow, wry, tells it sideways; remembers everyone and everything; warmer than they let on.",
     "traits": "wry, weathered, knowing",
     "wants": "to see the young ones not repeat old mistakes",
@@ -2082,7 +2082,7 @@
     "knows": [
       "Kaneda Tōru",
       "Kuroki Tatsuo",
-      "Sato"
+      "Kubo"
     ],
     "look": "Japanese, 70. broad-shouldered, white hair thinning at the crown; a weathered work jacket, hands that have done decades of something. Distinct look: broad build, close-cropped grey hair, a faded scar through one eyebrow.",
     "facts": [
@@ -2113,8 +2113,8 @@
     },
     "knows": [
       "Yushiro",
-      "Mori Haruto",
-      "Sugimoto Tatsuya"
+      "Nagai Haruto",
+      "Sugimoto Hiroshi"
     ],
     "look": "Japanese, 48. rangy, neatly parted hair; a creased off-the-rack jacket, cheap watch, watchful eyes. Distinct look: compact build, a clean-shaven head, sun-weathered skin.",
     "facts": [],
@@ -2238,8 +2238,8 @@
     },
     "knows": [
       "Saeki Reno",
-      "Mori Haruto",
-      "Det. Sgt. Arai Goro"
+      "Nagai Haruto",
+      "Det. Sgt. Arai Makoto"
     ],
     "look": "Japanese, 58. tall and narrow, bald, weathered scalp; practical, lived-in clothes that have seen the ward. Distinct look: wiry build, a high-and-tight cut, a faded scar through one eyebrow.",
     "facts": [],

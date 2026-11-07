@@ -1,7 +1,7 @@
 {
-  "id": "endo-sumi",
-  "name": "Endo Sumi",
-  "full_name": "Endo Sumi — the memorial keeper",
+  "id": "okuma-sumi",
+  "name": "Okuma Sumi",
+  "full_name": "Okuma Sumi — the memorial keeper",
   "faction": "street",
   "role": "70s",
   "location": "A flat overlooking the river; close enough to tend daily.",
@@ -24,7 +24,7 @@
     "knows": [
       "Kaneda Tōru",
       "Kuroki Tatsuo",
-      "Sato"
+      "Kubo"
     ],
     "look": "Japanese woman, 70. compact build, close-cropped grey hair, dark, tired, a weathered work jacket, decades-worn, guarded; warmth has to be earned.",
     "facts": [

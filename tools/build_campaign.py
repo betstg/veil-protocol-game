@@ -52,7 +52,7 @@ IMAGE_RULES = [
     (r'Itsuki', 'char_kuroda-itsuki.png'),
     (r'\bSei\b', 'char_kuroda-sei.png'),
     (r'Kanna|Kishin|Fukai', 'char_fukai-rinka-kishin.png'),
-    (r'\bSora\b', 'ch19_possessed_leader.png'),
+    (r'\bKaito\b', 'ch19_possessed_leader.png'),
     (r'Watanabe', 'thirteen_VI_watanabe_jun.png'),
     (r'Mori Takao|Rage seat', 'thirteen_II_mori_takao.png'),
     (r'Nakashima', 'thirteen_IV_nakashima_yuna.png'),
@@ -72,12 +72,12 @@ IMAGE_RULES = [
     (r'\bAoi\b', 'char_nakamura-aoi.png'),
     (r'Haruki|Tsukishiro', 'char_tsukishiro-haruki.png'),
     (r'\bHana\b|Choi', 'char_choi-hana.png'),
-    (r'Iwata', 'char_iwata-kenji.png'),
+    (r'Iwata', 'char_iwata-shuji.png'),
     (r'Komatsu', 'char_komatsu-shigeru.png'),
     (r'Kaneda', 'char_kaneda-t-ru.png'),
     (r'Kuroki', 'npc_kuroki.png'),
     (r'\bYua\b', 'npc_yua.png'),
-    (r'Mori Haruto|\bMori\b', 'char_mori-haruto.png'),
+    (r'Nagai Haruto|\bNagai\b', 'char_nagai-haruto.png'),
     (r'Miyamoto|fox-shrine|Inari', 'place_shinto.png'),
     (r'bookseller|Bookseller', 'char_the-bookseller.png'),
     (r'Switch', 'char_switch.png'),
@@ -131,7 +131,7 @@ CHAPTER_IMAGE = {
 
 SIDE_IMAGE = {
     's_yua': 'npc_yua.png',
-    's_dorm': 'char_mori-haruto.png',
+    's_dorm': 'char_nagai-haruto.png',
     's_drowned': 'place_riverside.png',
     's_broker': 'res_animals.png',
     's_shrine': 'place_shinto.png',
@@ -178,7 +178,7 @@ ROM_IDS = {
     'Tsukishiro Haruki': 'haruki', 'Choi Hana': 'hana', 'Kurosawa Shou': 'kurosawa',
 }
 SIDE_GIVER = {
-    's_yua': 'yua', 's_dorm': 'mori', 's_drowned': 'tanizaki', 's_kaneda': 'kaneda',
+    's_yua': 'yua', 's_dorm': 'nagai', 's_drowned': 'tanizaki', 's_kaneda': 'kaneda',
     's_courier': 'switch', 's_auditor': 'okada', 's_shrine': None,
 }
 
@@ -191,7 +191,7 @@ NAME_TO_ID = [
     (r'Usami|\bRen\b', 'usami'), (r'Mizuki|the Director\b', 'mizuki'),
     (r'Kaneda', 'kaneda'), (r'Switch', 'switch'), (r'\bSei\b', 'sei'),
     (r'Daiki', 'daiki'), (r'Iwata', 'iwata'), (r'Komatsu', 'komatsu'),
-    (r'Hara\b', 'hara'), (r'Majima', 'majima'), (r'\bYua\b', 'yua'), (r'\bMori\b', 'mori'),
+    (r'Hara\b', 'hara'), (r'Majima', 'majima'), (r'\bYua\b', 'yua'), (r'\bNagai\b', 'nagai'),
 ]
 
 # (chapter number 1-based, beat, choice) -> extra effects. Chapter numbers follow MAIN_SLUGS.

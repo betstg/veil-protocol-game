@@ -399,8 +399,8 @@
   "paths": {},
   "override": false
  },
- "sugimoto_tatsuya": {
-  "name": "Sugimoto Tatsuya",
+ "sugimoto_hiroshi": {
+  "name": "Sugimoto Hiroshi",
   "class_old": "Hidden burnt-out sensitive",
   "tier": "Sensitive",
   "letter": "E",
@@ -409,8 +409,8 @@
   },
   "override": false
  },
- "mori_haruto": {
-  "name": "Mori Haruto",
+ "nagai_haruto": {
+  "name": "Nagai Haruto",
   "class_old": "Hidden latent sensitive",
   "tier": "Sensitive",
   "letter": "E",
@@ -454,8 +454,8 @@
   "paths": {},
   "override": false
  },
- "iwata_kenji": {
-  "name": "Iwata Kenji",
+ "iwata_shuji": {
+  "name": "Iwata Shūji",
   "class_old": "Civilian",
   "tier": "The Null",
   "letter": "0",
@@ -536,8 +536,8 @@
   "paths": {},
   "override": false
  },
- "father_anselm_mbeki": {
-  "name": "Father Anselm Mbeki... Catholic priest",
+ "father_anselm_mabuchi": {
+  "name": "Father Anselm Mabuchi... Catholic priest",
   "class_old": "",
   "tier": "The Null",
   "letter": "0",
@@ -588,8 +588,8 @@
   "paths": {},
   "override": false
  },
- "sato": {
-  "name": "Sato... the blind busker",
+ "kubo": {
+  "name": "Kubo... the blind busker",
   "class_old": "Hidden sensitive (blind)",
   "tier": "Sensitive",
   "letter": "E",
@@ -598,8 +598,8 @@
   },
   "override": false
  },
- "endo_sumi": {
-  "name": "Endo Sumi... the memorial keeper",
+ "okuma_sumi": {
+  "name": "Okuma Sumi... the memorial keeper",
   "class_old": "Civilian",
   "tier": "The Null",
   "letter": "0",
@@ -607,7 +607,7 @@
   "override": false
  },
  "arai": {
-  "name": "Det. Sgt. Arai Goro",
+  "name": "Det. Sgt. Arai Makoto",
   "class_old": "",
   "tier": "The Null",
   "letter": "0",

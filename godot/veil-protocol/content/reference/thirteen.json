@@ -18,7 +18,7 @@
   {
     "seat": "III",
     "emotion": "Love",
-    "holder": "Sasaki Kei",
+    "holder": "Sakuma Kei",
     "location": "Tokyo",
     "status": "Stable",
     "demon": null
@@ -74,7 +74,7 @@
   {
     "seat": "X",
     "emotion": "Courage",
-    "holder": "Fujiwara Natsumi",
+    "holder": "Okabe Natsumi",
     "location": "Independent",
     "status": "Stable",
     "demon": null
@@ -101,6 +101,6 @@
     "holder": "VACANT since 2009",
     "location": "Kita district",
     "status": "CRITICAL — membrane thinning",
-    "demon": "Yushiro (intends to occupy the seat, via Gin)"
+    "demon": "Yushiro (wants the demon-side Duty seat; rides Gin to kill Kishin first)"
   }
 ]

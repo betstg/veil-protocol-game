@@ -17,7 +17,7 @@ VP.people = {
   itsuki:   {name:'Kuroda Itsuki', role:'Twenty. Oil painting student at Geidai. A Kuroda. Your best friend since school.', img:'char_kuroda-itsuki.png', start:45, status:'painting oji again. comes out wrong every time. don’t text before noon.', phone:{req:{}}, romance:{T:40}},
   daiki:    {name:'Sasaki Daiki', role:'Seventeen. Your closest friend from school. He knows nothing about any of this.', img:'char_sasaki-daiki.png', start:50, status:'gin’s bro is basically my bro', phone:{req:{}}},
   komatsu:  {name:'Komatsu Shigeru', role:'Seventy-four. The tobacco kiosk on your corner. He has watched you since you were small.', img:'char_komatsu-shigeru.png', start:30, status:'the young ones never listen.', phone:{req:{}}},
-  iwata:    {name:'Iwata Kenji', role:'Fifty-eight. Handyman for your building. He has the spare key.', img:'char_iwata-kenji.png', start:20, status:'mind your business and i’ll mind mine.', phone:{req:{}}},
+  iwata:    {name:'Iwata Shūji', role:'Fifty-eight. Handyman for your building. He has the spare key.', img:'char_iwata-shuji.png', start:20, status:'mind your business and i’ll mind mine.', phone:{req:{}}},
   okada:    {name:'Okada Shizuka', role:'Thirty-two. CVD. Gin asked her to watch for you.', img:'char_okada-shizuka.png', start:16, phone:{req:{any:[{path:'cvd'},{flag:'ch1_done'}]}}, romance:{T:65}},
   aoi:      {name:'Nakamura Aoi', role:'Twenty. CVD trainee, second year. Gin spoke about you to her.', img:'char_nakamura-aoi.png', start:15, status:'karaoke saturday?? someone say yes (´｡• ᵕ •｡`)', phone:{req:{flag:'hasBook'}}, romance:{T:40}},
   kato:     {name:'Kato Ryusei', role:'Twenty-one. CVD trainee and telepath. Email only. Answers fast.', img:'char_kato-ryusei.png', start:0, status:'busy. probably.', phone:{req:{flag:'hasBook'}}, romance:{T:60}},
@@ -37,7 +37,7 @@ VP.people = {
   'switch': {name:'Switch', role:'Grid quartermaster. Runs the Gathering. Never the same place twice.', img:'char_switch.png', start:0, phone:{req:{any:[{path:'grid'},{done:'m_briefing'}]}}},
   majima:   {name:'Majima Kenji', role:'Forty-one. Grid fixer. Vanguard. A dog works beside him.', img:'char_majima-kenji.png', start:0, status:'still here. surprising everyone, me included.', phone:{req:{any:[{career:GRID_WORK},{done:'m_ledger'}]}}},
   yua:      {name:'Yua', role:'Sixteen. A Toyoko kid in Kabukichō. She watches out for you.', img:'npc_yua.png', start:25, status:'not a kid. don’t.', phone:{req:{done:'m_archive'}}},
-  mori:     {name:'Mori Haruto', role:'Seventeen. Runs with a school gang. Raises his little sister.', img:'char_mori-haruto.png', start:15, status:'we run this block.', phone:{req:{done:'m_archive'}}}
+  nagai:     {name:'Nagai Haruto', role:'Seventeen. Runs with a school gang. Raises his little sister.', img:'char_nagai-haruto.png', start:15, status:'we run this block.', phone:{req:{done:'m_archive'}}}
 };
 
 VP.careers = {
@@ -224,7 +224,7 @@ contact('komatsu', {
 });
 
 contact('iwata', {
-  where:'The super’s door, ground floor', callImg:'char_iwata-kenji.png',
+  where:'The super’s door, ground floor', callImg:'char_iwata-shuji.png',
   call:['Iwata opens the door with a beer in his hand and the ball game on behind him. “Mind your business and I’ll mind mine,” he says. Then he waits, because you have not left.'],
   meetX:'Help him with a repair.', meetWhere:'The building, a leaking pipe', meetImg:'res_tools.png', meetFx:{stab:3},
   meet:['You hold the torch while he swears at a pipe. He is gruff. He is decent. He says thank you the way some men apologise, too fast and looking away.'],
@@ -460,8 +460,8 @@ contact('yua', {
   leaveX:'Hang up.'
 });
 
-contact('mori', {
-  where:'Mori Haruto', callImg:'char_mori-haruto.png',
+contact('nagai', {
+  where:'Nagai Haruto', callImg:'char_nagai-haruto.png',
   call:['“We run this block,” his status says. On the phone he is quieter. Measured. Honest.',
         'There is a little girl in the background asking for something. His voice goes soft and suddenly much older. His sister.'],
   meetX:'The riverbank, after his sister is asleep.', meetHint:'Be a steady older friend. Nothing more.',
@@ -706,7 +706,7 @@ VP.lore = [
   {tab:'factions', req:{flag:'cult_known'}, locked:'Something that feeds in warm places. You have not named it yet.', html:card('THE FAR-SHORE CIRCLE', ['A bereavement fellowship. The grieving come to put their grief down.', 'Some of them never pick themselves back up. The Circle calls its leader Kanna-sensei.'])},
   {tab:'thirteen', html:card('THIRTEEN SEATS', ['Supreme protectors of the veil. Each one aligned with a single emotion. Their existence is not public knowledge.', 'One seat is empty. Duty. The thirteenth. Everything stable depends on it, and no one holds it.'])},
   {tab:'thirteen', req:{done:'m_twelve'}, locked:'You do not know the holders yet.', html:'<div class="lore-card"><div class="lore-card-title">THE TWELVE WHO HOLD</div>'+
-    [['I','Grief. Asakura Mio'],['II','Rage. Mori Takao'],['III','Love. Sasaki Kei'],['IV','Fear. Nakashima Yuna'],['V','Wonder. Chen Lian'],['VI','Despair. Watanabe Jun, weakening'],['VII','Joy. Hoshino Haru'],['VIII','Shame. Kobayashi Emi'],['IX','Hunger. Inoue Satoru'],['X','Courage. Fujiwara Natsumi'],['XI','Longing. Park Junho'],['XII','Awe. Kasumi Shin'],['XIII','Duty. Vacant']]
+    [['I','Grief. Asakura Mio'],['II','Rage. Mori Takao'],['III','Love. Sakuma Kei'],['IV','Fear. Nakashima Yuna'],['V','Wonder. Chen Lian'],['VI','Despair. Watanabe Jun, weakening'],['VII','Joy. Hoshino Haru'],['VIII','Shame. Kobayashi Emi'],['IX','Hunger. Inoue Satoru'],['X','Courage. Okabe Natsumi'],['XI','Longing. Park Junho'],['XII','Awe. Kasumi Shin'],['XIII','Duty. Vacant']]
       .map(function(s){return '<div class="seat"><b>'+s[0]+'</b><span>'+s[1]+'</span></div>';}).join('')+'</div>'},
   {tab:'thirteen', req:{done:'m_word'}, locked:'There is a word for what is in your brother. You do not have it yet.', html:card('THE HEALER', ['The street word for the one that wears the Duty register and presents as help.', 'They do not consume the host. They employ him.'])},
   {tab:'ranks', html:card('THE RANKS', ['0 the Null. E Sensitive. D Postulate. C Adept. B Ritualist. A Arbiter. S Vanguard. SS Guardian. SSS Singularity.', 'Your file says D. Your file is a lie you have kept since before you could read.'])},

@@ -26,8 +26,8 @@
    "numeral": "III",
    "domain": "Love",
    "emotion": "Love",
-   "holder": "Sasaki Kei",
-   "holder_status": "Sasaki Kei",
+   "holder": "Sakuma Kei",
+   "holder_status": "Sakuma Kei",
    "location": "Tokyo",
    "status": "Stable",
    "pack": "content/domains/iii-love.js"
@@ -96,8 +96,8 @@
    "numeral": "X",
    "domain": "Courage",
    "emotion": "Courage",
-   "holder": "Fujiwara Natsumi",
-   "holder_status": "Fujiwara Natsumi",
+   "holder": "Okabe Natsumi",
+   "holder_status": "Okabe Natsumi",
    "location": "Independent",
    "status": "Stable",
    "pack": "content/domains/x-courage.js"

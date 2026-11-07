@@ -1,7 +1,7 @@
 {
-  "id": "father-anselm-mbeki",
-  "name": "Father Anselm Mbeki",
-  "full_name": "Father Anselm Mbeki — Catholic priest",
+  "id": "father-anselm-mabuchi",
+  "name": "Father Anselm Mabuchi",
+  "full_name": "Father Anselm Mabuchi — Catholic priest",
   "faction": "street",
   "role": "61",
   "location": "The parish house beside the church.",
@@ -22,7 +22,7 @@
       "close": "Tells Rei what they really know and feel — within their limits."
     },
     "knows": [
-      "Det. Sgt. Arai Goro",
+      "Det. Sgt. Arai Makoto",
       "Yoshida Goro",
       "The Beck's Man"
     ],

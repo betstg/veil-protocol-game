@@ -63,7 +63,7 @@
 
 **Payoff —** Access to the unmappable Grid and an Arbiter ally — and a mirror of the unregistered life Rei is one bad day from living.
 
-### Det. Sgt. Arai Goro — The files the record omits
+### Det. Sgt. Arai Makoto — The files the record omits
 *Arai has carried the cases the police report can't hold — alone, for years, and he is tired of it.*
 - ◻ Don't embarrass him; earn a look at a scene and a quiet word.
 - ◻ Show him you believe what he can't write down.
@@ -324,7 +324,7 @@
 
 **Payoff —** An ancient parallel system of divination and counter-measure the institution doesn't know exists — knowledge from entirely outside its walls.
 
-### Father Anselm Mbeki... Catholic priest — Conscience over the rite
+### Father Anselm Mabuchi... Catholic priest — Conscience over the rite
 *Father Anselm will perform the Roman rite — or hide someone the CVD wants — on his own judgement, not anyone's leave.*
 - ◻ Earn a priest's kindness and trust.
 - ◻ Show him a cause his conscience can stand behind.
@@ -367,8 +367,8 @@
 
 ## Contact
 
-### Endo Sumi... the memorial keeper — When the grief peaks
-*Endō tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.*
+### Okuma Sumi... the memorial keeper — When the grief peaks
+*Okuma tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.*
 - ◻ Treat the grief and its dead with respect at the water.
 - ◻ Learn the memorial's calendar of sorrow.
 - ◻ At full trust she tells when the grief peaks and what she's felt answer.
@@ -391,7 +391,7 @@
 
 **Payoff —** A safe corner in Kita and fifty years of the ward's hidden history — including thin-spot truths in no record.
 
-### Iwata Kenji — The door that locks itself
+### Iwata Shūji — The door that locks itself
 *Iwata maintains Gin's building and has noticed it stopped behaving like a building.*
 - ◻ Let him grumble and help; earn his trust on his own turf.
 - ◻ Hear the building gossip and what he's quietly uneasy about.
@@ -439,8 +439,8 @@
 
 **Payoff —** A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable.
 
-### Sato... the blind busker — When the underpass turns
-*Sato can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.*
+### Kubo... the blind busker — When the underpass turns
+*Kubo can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.*
 - ◻ Stop and listen to the busker instead of dropping a coin and leaving.
 - ◻ Learn from him whether it's safe down there now.
 - ◻ At full trust he gives the full schedule of when and how the underpass turns.
@@ -455,7 +455,7 @@
 
 **Payoff —** Genuine protective charms and a soft lead on who in the neighbourhood has quietly been touched by something.
 
-### Sugimoto Tatsuya — The buried history
+### Sugimoto Hiroshi — The buried history
 *Sugimoto holds the true, paved-over history behind the city's thin spots — if Rei can get him sober and listening.*
 - ◻ Listen past the rants for the three true facts in them.
 - ◻ Get him sober one afternoon — the real work.

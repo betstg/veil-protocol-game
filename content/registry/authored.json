@@ -21,10 +21,10 @@
     "yua"
    ],
    [
-    "Mori Haruto",
+    "Nagai Haruto",
     35,
     "loyal, has a crush",
-    "mori_haruto"
+    "nagai_haruto"
    ],
    [
     "Okada Shizuka",
@@ -110,7 +110,7 @@
     "shimizu_ren"
    ],
    [
-    "Det. Sgt. Arai Goro",
+    "Det. Sgt. Arai Makoto",
     50,
     "Kita police; quiet mutual cover",
     "arai"
@@ -338,11 +338,11 @@
    }
   }
  },
- "mori_haruto": {
-  "id": "mori_haruto",
+ "nagai_haruto": {
+  "id": "nagai_haruto",
   "minor": true,
   "cap": "You’re not like the others who come around here.",
-  "meta": "Mori Haruto · 17",
+  "meta": "Nagai Haruto · 17",
   "hot": [
    "Identity:Age",
    "Core Stats:Sensitivity",
@@ -350,12 +350,12 @@
   ],
   "back": [
    "Seventeen, runs with a school gang as the rival to Itō’s crew, and latently sensitive in a way no one has named for him — he reads rooms a beat before they turn, which keeps him alive and keeps him frightened. Hard outside, soft where it counts. He met Rei across a bad situation and decided, with a teenager’s whole heart, that Rei is the coolest and most decent person he has ever stood next to.",
-   "Mori develops a crush on Rei — and that is exactly where it stays. Rei is nineteen; Mori is a minor, and the story treats that line as absolute. The feeling is characterisation, not a route: it makes Mori braver, more loyal, occasionally reckless on Rei’s behalf, and quietly heartbroken in the ordinary way first crushes break. If it is ever spoken aloud, the most it becomes is a promise — that they could talk about it when Mori is older — and a hug, nothing more.",
-   "His latent sensitivity is a thread for later: untrained, he is the kind of kid the Grid recruits and the cults prey on. Keeping Mori ordinary may be a kindness Rei can’t actually afford to give."
+   "Nagai develops a crush on Rei — and that is exactly where it stays. Rei is nineteen; Nagai is a minor, and the story treats that line as absolute. The feeling is characterisation, not a route: it makes Nagai braver, more loyal, occasionally reckless on Rei’s behalf, and quietly heartbroken in the ordinary way first crushes break. If it is ever spoken aloud, the most it becomes is a promise — that they could talk about it when Nagai is older — and a hug, nothing more.",
+   "His latent sensitivity is a thread for later: untrained, he is the kind of kid the Grid recruits and the cults prey on. Keeping Nagai ordinary may be a kindness Rei can’t actually afford to give."
   ],
   "crush": {
-   "after": "A genuine friendship is established — Mori has stood by Rei through something real.",
-   "note": "One-sided, unspoken or gently deflected. Rei is kind and clear; Mori is not mocked for it.",
+   "after": "A genuine friendship is established — Nagai has stood by Rei through something real.",
+   "note": "One-sided, unspoken or gently deflected. Rei is kind and clear; Nagai is not mocked for it.",
    "ceiling": "A promise to talk ‘when you’re older’ and a hug. No romance, no abilities, no more. This line does not move."
   }
  },
@@ -371,7 +371,7 @@
   ],
   "back": [
    "Sixteen, part of the Toyoko-kids community that sleeps in the seams of Kabukichō, sharp the way you get when no one is coming to help. Yua survives on information — who is where, who is dangerous, which doors stay open — which makes her one of the most useful contacts in the district and one of the most guarded. She has been let down by enough adults to assume Rei is one more, right up until he isn’t.",
-   "She develops a one-sided crush on Rei, because Rei is cool and, more importantly, because he treats her like a person and not a problem. Like Mori’s, it stays a crush and nothing else — she is a minor and the story holds that line without exception. It shows as prickly loyalty, showing off her network to impress him, and a fierce, unspoken disappointment she would never admit to. Rei’s job is to be a steady, safe adult presence: the rarest thing in her life.",
+   "She develops a one-sided crush on Rei, because Rei is cool and, more importantly, because he treats her like a person and not a problem. Like Nagai’s, it stays a crush and nothing else — she is a minor and the story holds that line without exception. It shows as prickly loyalty, showing off her network to impress him, and a fierce, unspoken disappointment she would never admit to. Rei’s job is to be a steady, safe adult presence: the rarest thing in her life.",
    "Yua’s street network is a real game system — eyes in places the CVD and the Grid both miss. Earning it means earning her trust, and her trust is the slowest, most worthwhile currency in Kabukichō."
   ],
   "crush": {
@@ -396,10 +396,10 @@
     "gin"
    ],
    [
-    "Mori Haruto",
+    "Nagai Haruto",
     10,
     "knows him vaguely, through Rei's orbit",
-    "mori_haruto"
+    "nagai_haruto"
    ]
   ],
   "cap": "Text me when you’re alive. That’s the deal.",
@@ -1642,11 +1642,11 @@
    "payoff": "A method of genuine exorcism beyond the bureau's doctrine — the spiritual heavy artillery, given once and dearly."
   }
  },
- "father_anselm_mbeki": {
-  "id": "father_anselm_mbeki",
+ "father_anselm_mabuchi": {
+  "id": "father_anselm_mabuchi",
   "romanceable": false,
   "cap": "Rome has its rite. I have my conscience. When they disagree, the conscience wins.",
-  "meta": "Father Anselm Mbeki · Roman-rite exorcist",
+  "meta": "Father Anselm Mabuchi · Roman-rite exorcist",
   "hot": [
    "Identity:Occupation",
    "Identity:Lineage",
@@ -1756,11 +1756,11 @@
    "payoff": "An ancient parallel system of divination and counter-measure the institution doesn't know exists — knowledge from entirely outside its walls."
   }
  },
- "sugimoto_tatsuya": {
-  "id": "sugimoto_tatsuya",
+ "sugimoto_hiroshi": {
+  "id": "sugimoto_hiroshi",
   "romanceable": false,
   "cap": "I taught history for thirty years. Now I am history. Buy me a drink and I'll tell you the buried kind.",
-  "meta": "Sugimoto Tatsuya · ex-professor, homeless",
+  "meta": "Sugimoto Hiroshi · ex-professor, homeless",
   "hot": [
    "Identity:Status",
    "Identity:Sensitivity",
@@ -1843,25 +1843,25 @@
    "payoff": "A standing watch on the city's forgotten edge — a haunting half-solved by the man who already knows its timetable."
   }
  },
- "sato": {
-  "id": "sato",
+ "kubo": {
+  "id": "kubo",
   "romanceable": false,
   "cap": "I can't see the underpass. I don't need to. I hear when it turns.",
-  "meta": "Sato · the blind busker",
+  "meta": "Kubo · the blind busker",
   "hot": [
    "Identity:Sensitivity",
    "Reputation:Knows",
    "Identity:Occupation"
   ],
   "back": [
-   "Fifties, a blind busker who plays the station underpass for coins and, unknown to the commuters who pass him, hears the place the way no sighted person can. Sato is a blind sensitive: deprived of sight, his other readings are uncanny, and over years of playing the same tunnel he has mapped its moods by ear — when it is safe to be down there, when the air sours, when the underpass 'turns' into something that is no longer just a tunnel.",
+   "Fifties, a blind busker who plays the station underpass for coins and, unknown to the commuters who pass him, hears the place the way no sighted person can. Kubo is a blind sensitive: deprived of sight, his other readings are uncanny, and over years of playing the same tunnel he has mapped its moods by ear — when it is safe to be down there, when the air sours, when the underpass 'turns' into something that is no longer just a tunnel.",
    "For Rei he is a living instrument for one of the city's reliable thin spots: whether it's safe to be down there now, and — at full trust — exactly when and how the underpass turns, a schedule of a haunting he has learned through his fingertips and ears across a thousand nights. He gives it to the rare person who stops to actually listen to the busker rather than dropping a coin and walking on.",
    "His flaw is the performer's resignation: he is so used to being background that he'll pack up and be gone the moment he feels used rather than heard."
   ],
   "quest": {
    "tag": "Contact",
    "title": "When the underpass turns",
-   "hook": "Sato can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
+   "hook": "Kubo can't see the underpass but hears exactly when it stops being a tunnel — a haunting mapped by ear over years.",
    "stages": [
     "Stop and listen to the busker instead of dropping a coin and leaving.",
     "Learn from him whether it's safe down there now.",
@@ -2055,7 +2055,7 @@
   "id": "arai",
   "romanceable": false,
   "cap": "I file what the brass will believe. The rest I've been carrying alone. Maybe not anymore.",
-  "meta": "Det. Sgt. Arai Goro · Kita police",
+  "meta": "Det. Sgt. Arai Makoto · Kita police",
   "hot": [
    "Identity:Occupation",
    "Reputation:Knows",
@@ -2105,25 +2105,25 @@
    "payoff": "The true power-map of Tokyo from the man who has watched it seat itself — given freely, never sold."
   }
  },
- "endo_sumi": {
-  "id": "endo_sumi",
+ "okuma_sumi": {
+  "id": "okuma_sumi",
   "romanceable": false,
   "cap": "Grief gathers at the water like silt. I tend it. Some nights, something answers back.",
-  "meta": "Endō Sumi · memorial keeper",
+  "meta": "Okuma Sumi · memorial keeper",
   "hot": [
    "Identity:Occupation",
    "Identity:Sensitivity",
    "Reputation:Knows"
   ],
   "back": [
-   "Seventies, the woman who tends the riverside memorial, and the quiet keeper of a thin spot built entirely of sorrow. Endō has cared for the memorial so long that she knows its moods the way a gardener knows weather: when the grief gathered there peaks, when the water goes strange, and — on certain nights — what she has felt answer from the other side of it. She is gentle, unhurried, and entirely unafraid of the dead, having kept company with their leavings for decades.",
+   "Seventies, the woman who tends the riverside memorial, and the quiet keeper of a thin spot built entirely of sorrow. Okuma has cared for the memorial so long that she knows its moods the way a gardener knows weather: when the grief gathered there peaks, when the water goes strange, and — on certain nights — what she has felt answer from the other side of it. She is gentle, unhurried, and entirely unafraid of the dead, having kept company with their leavings for decades.",
    "For Rei she is the key to one of the city's reliable thin spots: at full trust she tells him when the memorial's grief peaks and what she has felt answer there, the timing that turns a haunting from a mystery into a schedule. Short of that, a gentle word at the water and the memorial's calendar of sorrow. She gives it to whoever treats the grief, and the dead it belongs to, with respect.",
    "Her flaw is her tenderness toward the place: she half-protects the thin spot, reluctant to hand over what might bring people to disturb the sorrow she has spent a life tending."
   ],
   "quest": {
    "tag": "Contact",
    "title": "When the grief peaks",
-   "hook": "Endō tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
+   "hook": "Okuma tends a thin spot made of sorrow and knows exactly when it stirs — and what answers from it.",
    "stages": [
     "Treat the grief and its dead with respect at the water.",
     "Learn the memorial's calendar of sorrow.",
@@ -2185,11 +2185,11 @@
    "payoff": "Ground-level eyes on Gin's own block — the small, true observations no official canvass would gather."
   }
  },
- "iwata_kenji": {
-  "id": "iwata_kenji",
+ "iwata_shuji": {
+  "id": "iwata_shuji",
   "romanceable": false,
   "cap": "Your brother's door locks itself now. I've fixed a lot of doors. That one's not mechanical.",
-  "meta": "Iwata Kenji · building handyman",
+  "meta": "Iwata Shūji · building handyman",
   "hot": [
    "Identity:Occupation",
    "Reputation:Knows",

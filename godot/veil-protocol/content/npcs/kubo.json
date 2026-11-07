@@ -1,7 +1,7 @@
 {
-  "id": "sato",
-  "name": "Sato",
-  "full_name": "Sato — the blind busker",
+  "id": "kubo",
+  "name": "Kubo",
+  "full_name": "Kubo — the blind busker",
   "faction": "street",
   "role": "50s",
   "location": "A shelter by night; the underpass by day, for coins and acoustics.",
@@ -24,7 +24,7 @@
     "knows": [
       "Miyamoto Kazuo",
       "Pak Sun-ja",
-      "Father Anselm Mbeki"
+      "Father Anselm Mabuchi"
     ],
     "look": "Japanese person, 50. wiry build, short black hair, sharp dark, layered worn clothes, a guitar case, guarded; warmth has to be earned.",
     "facts": [],
