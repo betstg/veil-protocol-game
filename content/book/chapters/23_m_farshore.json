@@ -4,7 +4,11 @@
  "src": "m_farshore",
  "blocks": [
   {
-   "p": "The newest knot in Gin's ledger had an address beside it, and Rei copied it onto the back of his hand. It was in Takinogawa, a quiet part of Kita west of Ōji station. In the evening he walked down to the Ōji-ekimae stop and waited for the Toden, the old single-car streetcar. Its platforms were no bigger than a bench, and its rails ran through back streets past houses close enough to touch. When the car came, its bell rang twice as it pulled in."
+   "img": "place_toden_tram.png",
+   "cap": "The Toden tram through the back streets of Kita"
+  },
+  {
+   "p": "The newest knot in Gin's ledger had an address beside it, and Rei copied it onto the back of his hand. It was in Takinogawa, a quiet part of Kita west of Ōji station. In the evening he walked down to the Ōji-ekimae stop and waited for the Toden. Its platforms were no bigger than a bench, and its rails ran through back streets past houses close enough to touch. When the car came, its bell rang twice as it pulled in."
   },
   {
    "p": "Inside, the air conditioning was weak and the windows were open. The car climbed slowly past the trees of Asukayama park, where the cicadas were so loud they drowned out the motor. An old woman sat opposite Rei with a paper bag of chrysanthemums for a grave. A boy in a baseball uniform slept with his cap over his face and his glove in his lap. Every few minutes the driver said the name of the next stop in a soft, tired voice. Rei got off at Takinogawa-itchōme and walked the rest of the way through narrow streets, past small houses with Obon lanterns by their doors and a vending machine humming alone on a corner."
