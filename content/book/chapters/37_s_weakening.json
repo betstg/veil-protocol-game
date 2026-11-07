@@ -4,8 +4,8 @@
  "src": "s_weakening",
  "blocks": [
   {
-   "img": "thirteen_VI_watanabe_jun.jpg",
-   "cap": "The library that dims by a half-step"
+   "img": "off_library.png",
+   "cap": "The library in Itabashi"
   },
   {
    "p": "Rei went back to the library in Itabashi because Higuchi had starred the name twice. A starred name in a climbing margin was the only kind of warning he had learned to obey."
@@ -50,10 +50,6 @@
    "p": "\"I don't suppose you came here to help. People don't, usually. But I find I'd very much like it if you had.\""
   },
   {
-   "img": "ch19_funnel.jpg",
-   "cap": "What Despair costs before breakfast"
-  },
-  {
    "p": "He let Rei shadow him for a day, and the day was the horror, because there was no scene in it."
   },
   {
@@ -85,10 +81,6 @@
   },
   {
    "p": "He looked at the window that faced north, toward Kita, toward the wound. For one second the gentleness slipped and Rei saw what was underneath it. A man being slowly poured out through a hole he had not made and could not plug."
-  },
-  {
-   "img": "thirteen_IV_nakashima_yuna.jpg",
-   "cap": "The room when a register lets go"
   },
   {
    "p": "It was not Watanabe who let go first."
@@ -130,14 +122,14 @@
    "p": "\"Then the succession reaches for someone else. The CVD keeps a list it doesn't show anyone. People they rank Singularity. Secret candidates for the Thirteen, in case one of us falls. Most of them have no idea that's what they're for.\" He looked up at Rei from the floor. \"I'm next, you understand. Nearest the wound, weakest of the lot. I've about a season left in me. Less, if another one goes. That's not me being sad. I stopped being sad years ago. That's just the arithmetic, and I thought you'd want it straight.\""
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "The settling taken instead of him"
-  },
-  {
    "break": "The memorial by the water"
   },
   {
    "p": "Rei walked Watanabe home from the danchi as the sky went the colour of dishwater. Neither of them wanted a train. Their way took them along the river, past a small memorial on the embankment where someone had set out fresh flowers, a cup of sake, and a single paper lantern that had not yet been lit."
+  },
+  {
+   "img": "ext_griefbeing.png",
+   "cap": "Okuma Sumi at the riverside memorial, and the grief that gathers there"
   },
   {
    "p": "An old woman was kneeling there, changing the water in a jar. She was well into her seventies, in a faded summer kimono with the sleeves tied back. She moved slowly and with great care, the way people move in a place they have been coming to every day for years."
@@ -213,10 +205,6 @@
   },
   {
    "p": "\"They don't want to take the thirteenth. They want it never filled. A vacant thirteenth means the Axis is holding it alone, stretched too thin. And a thing stretched that thin makes mistakes. They've been living off its mistakes for three years.\" He pushed the tea an inch closer to Rei. \"You shouldn't have learned any of this. But God help me, I'm glad someone finally did. I've been the only one who knew what it felt like for a very long time.\""
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "A cardigan two sizes too big"
   },
   {
    "p": "Through the rest of August, Watanabe Jun stayed in his cardigan at the returns cart, holding. That was what the seat was, and no one had given him a way out that did not cost a brother or a city."

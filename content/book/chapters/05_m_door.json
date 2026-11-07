@@ -6,14 +6,14 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "tools_trap.jpg",
-   "cap": "The handyman, on the cold spot by the genkan"
-  },
-  {
    "p": "There was a line on the floor of Gin's genkan where August stopped."
   },
   {
    "p": "It ran from wall to wall, a hand's width inside the door, exactly where the step up into the flat began. On one side of it, the wet heat of Obon week and the cicadas grinding through the open window. On the other, cold. Not the cold of a draught. The cold inside a well in summer, a coldness that had been kept rather than made."
+  },
+  {
+   "img": "ch11_clearance.png",
+   "cap": "Iwata Shūji, the building's handyman, at work in the flat"
   },
   {
    "p": "Iwata Shūji had fixed forty-one doors in this building over nineteen years, and he told Rei so before he told him anything else, because he wanted it understood from the start that he was not a man who believed in things. He knelt in the genkan of Gin's flat with his toolbox open and his reading glasses pushed down his nose, and he talked the whole time, the way men talk when the talking is a wall they are building against the quiet."
@@ -61,10 +61,6 @@
    "p": "He said it like a small accounting error. He did not yet hear what he had said. The building had been letting in someone who looked like Gin, on a day Gin was not here, through a door that had started to keep its own counsel."
   },
   {
-   "img": "char_iwata-kenji.jpg",
-   "cap": "The key that no longer fits"
-  },
-  {
    "p": "He showed Rei the lock, because the lock was the reason he had been called, and a lock was something he could hold. Gin's key, the one Rei had picked up cold off the walkway at four in the morning, slid halfway into the cylinder and stopped."
   },
   {
@@ -89,10 +85,6 @@
    "p": "Years ago, in the only voice of his that Rei had ever fully trusted, Gin had told him that a place holds the shape of whoever lives there, the way a glove holds a hand. This place was holding a shape. It was just not his brother's any more."
   },
   {
-   "img": "res_archive.jpg",
-   "cap": "What changes tenancy, and what stays to attest it"
-  },
-  {
    "p": "Iwata packed his toolbox the way a man folds a flag, slowly, with a ceremony he would have denied. At the door, which he now opened with his own master key, because Gin's no longer worked and he would not say so out loud again, he stopped and gave Rei the thing he had been circling for an hour."
   },
   {
@@ -106,6 +98,10 @@
   },
   {
    "p": "He did not go inside. He sat down on the warm side of the cold line with his back against the wall of the walkway and opened the archive on his knees, at the place he had reached in order. It was the end of Chapter Four, the section on suppression. The heading said <em>Read it twice. Nobody knows this exists. This is why high-rank practitioners die.</em> Halfway down, Gin had stopped writing as a field officer and started writing to him."
+  },
+  {
+   "img": "tk_suppression.png",
+   "cap": "Suppression, a gift held below the surface"
   },
   {
    "doc": {

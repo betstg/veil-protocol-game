@@ -4,10 +4,6 @@
  "src": "s_hunger",
  "blocks": [
   {
-   "img": "thirteen_IX_inoue_satoru.jpg",
-   "cap": "The man who will not sit down"
-  },
-  {
    "p": "Rei found the ninth seat the way sailors find weather. By where the city bent round it."
   },
   {
@@ -27,6 +23,10 @@
   },
   {
    "p": "The man was at a standing counter eating gyoza, and he was already half turned to leave before the plate was finished."
+  },
+  {
+   "img": "thirteen_IX_inoue_satoru.png",
+   "cap": "Inoue Satoru, holder of Hunger"
   },
   {
    "p": "He was in his late thirties and looked older. Tall, spare, all long limbs, his hair grown out and not recently cut. He was neat in a way that had gone threadbare at the cuffs. A jacket with too many pockets. A bag he could pick up in one movement. He had the economy of someone who owned only what he could carry and had learned to eat fast and walk faster."
@@ -60,10 +60,6 @@
   },
   {
    "p": "\"And before you ask the thing everyone asks. No. I cannot just put it down for one night and sleep. That is exactly the thing I cannot do. That is the whole job.\""
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "What the ninth seat costs to hold"
   },
   {
    "p": "He explained it as they crossed from Ueno toward Okachimachi, under the railway arches where the late izakaya were still going. He explained it walking, always walking, because explaining it standing still would have been demonstrating the problem."
@@ -115,10 +111,6 @@
   },
   {
    "p": "\"You've got an empty too,\" he said quietly. \"Walled up. I can feel the door from here. How do you stand it not eating you?\""
-  },
-  {
-   "img": "res_archive.jpg",
-   "cap": "The woman with the spare room"
   },
   {
    "p": "Rei asked him the question he asked all of them now. He had stopped believing in coincidence and started believing in a method."
@@ -175,10 +167,6 @@
    "p": "\"So before I walk myself to Nippori like I do every time, tell me what you are. Because I think you might be the only person who could make it so I don't have to.\""
   },
   {
-   "img": "ch3_thinspot.jpg",
-   "cap": "Carry the motion so he can be still"
-  },
-  {
    "p": "What Rei did was not the bed and it was not the road."
   },
   {
@@ -186,6 +174,10 @@
   },
   {
    "p": "So Rei gave him the third thing, the one nobody had offered in three years. He carried the motion for him."
+  },
+  {
+   "img": "ch2_class.png",
+   "cap": "The whole city moving through the Obon night"
   },
   {
    "p": "It was Obon, and the whole city was moving. Families were coming home from the graves. Lantern-lit processions wound through the streets. A slow river of people was heading down to the water for the tōrō nagashi, where paper lanterns are set out on the current to carry the dead back to the far shore."
@@ -219,10 +211,6 @@
   },
   {
    "p": "\"I didn't know it could be like this,\" Satoru said, watching the light go downstream. \"I thought stopping was the only way to rest. Nobody ever told me I could rest by being carried.\""
-  },
-  {
-   "img": "place_riverside.jpg",
-   "cap": "The room that keeps the bed made"
   },
   {
    "p": "Kitagawa-san was waiting near the bottom of the guesthouse lane when Rei walked him back up from the river."

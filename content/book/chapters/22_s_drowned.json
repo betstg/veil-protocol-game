@@ -4,8 +4,8 @@
  "src": "s_drowned",
  "blocks": [
   {
-   "img": "place_riverside.jpg",
-   "cap": "Tanizaki's back room above the shuttered tea shop, the second afternoon of Obon, rain not yet arrived but promised"
+   "img": "char_tanizaki-seiichi.png",
+   "cap": "Tanizaki Seiichi, who pours before he speaks"
   },
   {
    "p": "Tanizaki poured before he spoke. That was how Rei knew the matter was serious. The old man had spent forty years in Kita learning that nothing true gets said over an empty cup, and he had never once wasted the gesture on small business. The room above the shuttered tea shop smelled of roasted barley and of the river two streets over, the brown August smell of low tide and lantern wax that the whole district wore during Obon. Light came through the rice paper the colour of weak tea, flat and waiting."
@@ -35,10 +35,6 @@
    "p": "The rain had not started. Down toward the embankment, the first lantern sellers were setting out paper boats that no one had yet died recently enough to need."
   },
   {
-   "img": "res_apartmentempty.jpg",
-   "cap": "The Sumida embankment after dark, downstream of Kase's flat, the first lanterns going onto the water"
-  },
-  {
    "p": "After dark the river was a black road carrying small fires. Tōrō nagashi had begun upstream, and the lanterns came down in loose constellations. Each one was a paper box with a candle inside and a name brushed on the side, a family's grief made buoyant and sent out to float the dead home. Rei stood on the concrete embankment where the city's romance about the river ended and its plumbing began. He smelled diesel and silt and watched the little lights drift past him toward the bay."
   },
   {
@@ -55,10 +51,6 @@
   },
   {
    "p": "The lanterns turned their slow circles behind the pier. One of them, Rei noticed, had no name brushed on its side at all."
-  },
-  {
-   "img": "char_tanizaki-seiichi.jpg",
-   "cap": "Behind the third pier, knee-deep in slack water, the moment the river gives Kase up"
   },
   {
    "p": "Kase was where Rei knew he would be. He hung in the slack behind the footing with one sleeve snagged on rebar, face down, turning slowly in the eddy, his coat as heavy as a drowned animal. Rei waded in to his knees and took his wrist."
@@ -79,10 +71,6 @@
    "p": "Rei gave the river nothing. He unbuttoned the coat with numb fingers, took the waxed packet out and pushed it inside his own shirt, against his skin, where it was his to carry. Whatever he needed hidden, he would carry that too. He said so out loud, to the water, and felt foolish, and said it again."
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "On the embankment again, soaked, the body laid out under a tarp, deciding what the river is allowed to keep"
-  },
-  {
    "p": "He got Kase out. That much he did not let himself negotiate. He laid him on the concrete above the tide line under a courier's tarp that Tanizaki's network kept cached for exactly such nights, and he knelt there dripping while the lanterns kept coming past the pier, name after name floating out toward a sea that could not read. The ledger sat heavy and cold against his chest. The slack water behind the footing had gone ordinary again. It was just river. The awareness in it had lapsed back into current the moment it failed to get what it offered to hold. Rei understood he would never be able to tell anyone whether he had outwitted it or had simply not been worth keeping."
   },
   {
@@ -95,8 +83,8 @@
    "p": "Both registers were still half open and slow to close, the way they always were after running water. Through them Rei felt the shape of what he had really been doing down here. It was not a favour for an old man. He had come to the Sumida to practise the unbearable thing. To read a held person whom a patient power did not want to release. To take or refuse a hidden truth. To sit knee-deep in a thinned place and not be kept. Somewhere across the city his brother was held exactly like this, in slack water of a different kind, by a Healer glad to keep him. Rei did not yet have the nerve or the method to go in after him. Kase had been a rehearsal. The knowledge sat in him as cold as the river. He could perhaps find Gin the way he had found this man. Finding was the easy half. The water did not always give up what a person committed to taking."
   },
   {
-   "img": "ch19_funnel.jpg",
-   "cap": "Dawn, back in the room above the tea shop, the cup poured for a man who isn't coming"
+   "img": "res_gridmentor.png",
+   "cap": "Tanizaki and Rei at dawn in the room above the tea shop"
   },
   {
    "p": "At dawn Tanizaki had set out two cups and filled three. It was the old form, the third for the one who had gone. He did not explain it and Rei did not ask. Rei came in soaked to the river line with the night still on him and told him what he had found, all of it. Then he took the waxed packet out of his shirt and laid it on the table between the cups."

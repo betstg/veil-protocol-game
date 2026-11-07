@@ -4,10 +4,6 @@
  "src": "m_35th",
  "blocks": [
   {
-   "img": "char_iwata-kenji.jpg",
-   "cap": "The page that filled while he was out"
-  },
-  {
    "p": "Rei came back from Sumida in the killing afternoon heat, and the ledger had grown while the flat stood empty. It had never done that before. Every earlier addition had appeared in the small hours, in sleep's blind window. This one had come in daylight, while he was across the city with his hand on Iwata's thread. The timing was not lost on him."
   },
   {
@@ -33,6 +29,10 @@
   },
   {
    "p": "It was Tuesday. Rei remembered that with a small shock as the light went orange on the balcony. Gin's price list said that the ramen Gin always went to on Tuesdays was eight hundred and fifty yen for the tonkotsu. <em>Worth it.</em>"
+  },
+  {
+   "img": "place_tatsuya.png",
+   "cap": "The ramen counter where Gin ate on Tuesdays"
   },
   {
    "p": "Rei knew the place. He had been there with his brother a dozen times without ever understanding it was a habit. A narrow counter, eight stools, steam on the window. He sat on the stool Gin always took, ordered the tonkotsu, and ate all of it. The broth was thick and too salty and very good. The man behind the counter looked at him for a moment as if trying to remember where he had seen that jaw before, and then went back to his pots. Nobody asked Rei anything. It was the first full meal he had eaten in three days."
@@ -71,10 +71,6 @@
    "p": "Rei finished the coffee and thought about the woman on Thursday nights who asked Gin how he was. She would be here in two days. She would not know what to ask about. He hoped, absurdly, that she had noticed Gin had stopped coming."
   },
   {
-   "img": "res_pharmacist.jpg",
-   "cap": "Tired enough, and not yet"
-  },
-  {
    "p": "Night came the way Obon nights come, lantern-lit and full of the returning dead. Back in the flat Rei did the things Gin's pages told him to do, in order, because order was something he could hold. He poured a salt line across the inside of the threshold, one continuous stream from the tub, no gaps. He sprinkled iron filings along it, so that anything that forced the line would pay for it. He put Gin's heavy cast-iron pan on the stove, because a steel knife does nothing and a cast-iron skillet works, and because Gin had cooked in it every Sunday of Rei's life."
   },
   {
@@ -102,6 +98,10 @@
      "G.U. Keys on the hook."
     ]
    }
+  },
+  {
+   "img": "inventory_anchor.png",
+   "cap": "Gin's keys, the object he signed at the end of every page"
   },
   {
    "p": "Rei sat with the lighter in his palm for a long time. Then he looked at the empty hook by the door, where Gin's keys had hung every day since Rei was small enough to be lifted up to reach them. <em>Keys on the hook.</em> Gin had ended almost every page of the archive with those three words. He had written that his own object was a gap, and then signed the gap at the bottom of every page for six years."

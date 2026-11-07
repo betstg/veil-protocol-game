@@ -4,8 +4,8 @@
  "src": "m_trap",
  "blocks": [
   {
-   "img": "ch7_preconflict.jpg",
-   "cap": "Where the two seams meet, and the table is set"
+   "img": "map_tokyo.png",
+   "cap": "Tokyo, with the two patterns laid over one map"
   },
   {
    "p": "Rei laid the two maps over each other on the kitchen floor. One was the Healer's thirty-one bound favours, each a pencil dot on a ward map. The other was the Inverted God's scored and thinning seams, traced in red from what he had felt at the underpass and the widow's door. Under both of them he spread the pages Gin had headed <em>Disturbed Areas</em>. The Division's own map of Kita, Gin had written, was accurate and useless. It showed the streets. The real map was the one a person built with their feet, over years."
@@ -61,6 +61,10 @@
   },
   {
    "break": "The kit by the door"
+  },
+  {
+   "img": "tools_kit.png",
+   "cap": "Gin's field kit, salt, silver and paper wards"
   },
   {
    "p": "He could not sit in the flat with it. Before he went out he took Gin's field kit down from the hook in the genkan, where it had hung since the fourteenth. It was an ordinary grey shoulder bag. Gin had written that a good kit looks like someone who is prepared for a camping trip and nothing else. This one did. Inside were salt in a sealed tub, iron filings in a separate sealed jar, a small cloth pouch of silver, a flat case of folded paper glyphs, a notebook, a pen that worked, and a twist of cedar ash. In the left side front pocket, wrapped in a handkerchief, were three small glass vials, sealed, intact."
@@ -123,10 +127,6 @@
   },
   {
    "p": "To stop the Healer, he might have to let the Inverted God be stopped by it. To stop the Inverted God, he might have to hand the factions a reasonable ally wearing his brother's face. There was no move on this board that did not cost him something he was still pretending he got to keep."
-  },
-  {
-   "img": "ext_sojo.jpg",
-   "cap": "The Healer answers, reasonably, through Gin's mouth"
   },
   {
    "p": "It called him this time. The phone lit in the dark and it was Gin's number, and Rei knew before he answered which of the two voices would be on the line. The trap was sprung now. There was no further use in pretending to be only his brother. The evenness was total tonight. There was no frightened seam in it, no <em>go home</em>. Only the Healer, speaking through a mouth it had stopped sharing."

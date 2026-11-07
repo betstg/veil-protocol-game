@@ -25,6 +25,10 @@
    }
   },
   {
+   "img": "ch5_depletion.png",
+   "cap": "A practitioner running low on Stability"
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "What Depletes Stability",

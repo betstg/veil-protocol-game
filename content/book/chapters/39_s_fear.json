@@ -4,17 +4,21 @@
  "src": "s_fear",
  "blocks": [
   {
-   "img": "thirteen_IV_nakashima_yuna.jpg",
-   "cap": "The flight of stairs that nobody uses"
+   "p": "Before he went to the address Higuchi had given him, Rei went to the two people Gin's file said could feel Nakashima Yuna."
   },
   {
-   "p": "Before he went to the address Higuchi had given him, Rei went to the two people Gin's file said could feel Nakashima Yuna."
+   "img": "place_nightcircuit.png",
+   "cap": "The underpass where Kubo plays, his guitar case open"
   },
   {
    "p": "The underpass smelled of wet concrete and frying oil from the stand at the top of the steps. Water dripped somewhere in the dark between the lamps. Kubo, the blind busker, played there by day with his long grey ponytail tied back and his guitar case open at his feet. He could not see the underpass and did not need to. He heard when it turned. When Rei asked about the woman who carried Fear, Kubo stopped playing."
   },
   {
    "p": "\"I always hear her pass,\" he said. \"Like a draught going by with heels on. She hasn't passed in eleven days. The underpass doesn't know what to do with itself.\""
+  },
+  {
+   "img": "place_suzuran.png",
+   "cap": "The Suzuran at two in the morning"
   },
   {
    "p": "The Suzuran was a cramped place on a Kita corner pressed up against the worst of the thin spots, with one fridge humming too loudly and fluorescent light that made everyone look a day dead. People said the corner did not photograph. Rei believed it. The Woman at the Back sat where she always sat, in the back seat at the Suzuran at two in the morning, in the same coat she wore in every season, a lacquer pin in her long ash-grey hair. She did not look up when Rei stood by her table."
@@ -32,6 +36,10 @@
    "p": "He went into it."
   },
   {
+   "img": "ch21_entitysight.png",
+   "cap": "The north stairwell"
+  },
+  {
    "p": "The north stairwell was open to the air, concrete treads switchbacking up the outside of the block behind a waist-high wall. The moment his foot left the landing for the first step, the temperature changed. Not the temperature of the air, which was the same wet August heat as everywhere else in the city. The temperature of Rei. Some inner thermostat dropped all at once, as if he had stepped into water he could not see."
   },
   {
@@ -44,6 +52,10 @@
    "p": "Halfway up the first flight, on the half-landing where the stairs turned back on themselves, a woman sat on the bottom step of the next flight. Her back was against the wall and her knees were drawn up, and she was shaking."
   },
   {
+   "img": "thirteen_IV_nakashima_yuna.png",
+   "cap": "Nakashima Yuna, holder of Fear"
+  },
+  {
    "p": "She was about forty. Black hair with early grey at the hairline, coming loose from a knot that had once been neat. A good dark blazer lay folded on the step beside her, as if she had taken it off days ago meaning to put it back on. She wore a cardigan buttoned wrong and canvas shoes with the laces gone. She had the particular stillness of someone who had made herself small for a long time and had become frighteningly good at it."
   },
   {
@@ -51,10 +63,6 @@
   },
   {
    "p": "\"You can feel it,\" she said. It was not a question. Her voice was thin and even, and keeping it even was costing her. \"Most people just feel sick and leave. You came up anyway, and you can feel it, which means somebody sent you, which means it's worse than I thought.\" Her hands were pressed flat to the concrete on either side of her. \"Please don't make me explain who I am while I'm sitting in it. Just sit down where you are. Don't come higher. And tell me whether the two of you in there are lit, because I can't hold and read you at the same time any more.\""
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "What the fourth seat costs to hold"
   },
   {
    "p": "Her name was Nakashima Yuna. She was the fourth of the Thirteen, and she held Fear."
@@ -102,10 +110,6 @@
    "p": "\"You came up the stairs feeling it,\" she said. \"And your hands were steady. I watched them. How are your hands steady?\""
   },
   {
-   "img": "thirteen_II_mori_takao.jpg",
-   "cap": "Someone has been feeding the stairs"
-  },
-  {
    "p": "Rei asked her the question he had learned to ask every weakening holder. By now he had seen the shape twice, and he no longer believed in coincidence."
   },
   {
@@ -146,10 +150,6 @@
   },
   {
    "p": "\"So I need to know what you are before he gets here. Because I think you might be the only thing in this building that can stand on the landing between us and not break.\""
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "Brave in the right place, on purpose"
   },
   {
    "p": "The thing Rei did was not the one the stories would have chosen."
@@ -210,10 +210,6 @@
   },
   {
    "p": "\"No.\" She stood and looked at the plant-room door. \"That's the thing nobody tells you about the steadiest people. We can't steady ourselves. We were never built to. We were built to need someone on the stairs.\" She looked down at him. \"Twelve years I've been mapping what fear really is. It isn't one thing. Some of it attacks. Some of it defends. Some of it is just a very old alarm, ringing because it's been ringing since before there was a city here. The CVD took my list and put it in their manuals. They never took that part.\" She almost smiled. \"This one's an alarm. It was always an alarm. I forgot.\""
-  },
-  {
-   "img": "ch19_funnel.jpg",
-   "cap": "The man who came with tea"
   },
   {
    "p": "He arrived while they were still at the top."

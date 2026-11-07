@@ -4,10 +4,6 @@
  "src": "s_rage",
  "blocks": [
   {
-   "img": "thirteen_II_mori_takao.jpg",
-   "cap": "The man nobody is supposed to be able to find"
-  },
-  {
    "p": "Higuchi would not write this name down. He said it aloud, once, in the back room of the Crooked Shelf with the door shut and the radio turned up. Then he made Rei repeat it back with a hand laid over the margin, as if the ink might overhear."
   },
   {
@@ -29,7 +25,15 @@
    "p": "Tomi was the only one of them who was worth the walk."
   },
   {
+   "img": "place_freightyard.png",
+   "cap": "The condemned blocks beside the freight yard"
+  },
+  {
    "p": "The condemned blocks stood beside the freight yard like teeth left in a jaw. Most of the windows were boarded. The city had given up on them years ago, and the dead had not. Rei felt it from the street. Forty years of bad deaths, layered like old paint, so thick in places that the air seemed to bend. Gin's book said an hour inside was a possession risk for anyone with an open aperture. Rei did not go inside."
+  },
+  {
+   "img": "char_old-tomi.png",
+   "cap": "Old Tomi, the last man living in the blocks"
   },
   {
    "p": "He did not have to. A single window on the third floor had a light in it, and an old man sitting in it, watching the yard."
@@ -45,6 +49,10 @@
   },
   {
    "p": "In the end Rei came back to where he had started. The boiler room of a public bath in Kita. The wrong ward. The thin ward. A man tending a furnace forty metres from the wound in the world. A public bath at night was exactly where people went when they had nowhere left to go. Rei did not think any of it was an accident."
+  },
+  {
+   "img": "place_sento.png",
+   "cap": "The old bath, its Mount Fuji mural pale with steam"
   },
   {
    "p": "The bath was an old one, with a tall brick chimney and a tiled mural of Mount Fuji gone pale with steam. At the front desk sat an old woman in a cardigan, counting coins into a tray. She looked at Rei over her glasses, then at the empty air just behind his left shoulder, and nodded to it politely, as if to an acquaintance."
@@ -86,10 +94,6 @@
    "p": "Mori looked at him for a long moment, and then nodded once at the bench by the wall."
   },
   {
-   "img": "thirteen_VI_watanabe_jun.jpg",
-   "cap": "Banked, never out"
-  },
-  {
    "p": "He let Rei stay a shift. The shift taught Rei that Rage was the opposite of Despair in every way that mattered."
   },
   {
@@ -126,10 +130,6 @@
    "p": "\"Watanabe's going. You've seen him. Nakashima's let go. They'll all have been looking to me this week, the way they do, and I've had nothing to tell them except hold on.\" He wiped his face with the back of his wrist. \"Eldest. It mostly means you're the one who's been tired longest.\""
   },
   {
-   "img": "char_mori-haruto.jpg",
-   "cap": "The hand on the flue"
-  },
-  {
    "p": "Once Mori let himself look for it, he found the provocation. A Rage holder spends his life feeling for the things that try to light him. Now that someone had named the pattern out loud, he could point straight at it."
   },
   {
@@ -164,10 +164,6 @@
   },
   {
    "p": "\"So now you know why I made myself nobody for forty years,\" he said. \"It was never the strangers I was hiding from. It was the one who'd come talking soft. I always knew he'd come eventually. I just didn't think I'd be this tired when he did.\""
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "One night's relief"
   },
   {
    "p": "Rei gave him the night, because in the end Mori asked for it. He asked plainly, the way a man asks who has not asked for anything in forty years and has used up his pride doing it. One night off the shovel. One night when the furnace was not his alone. One night of sleep without one ear on the gauge."
@@ -219,10 +215,6 @@
   },
   {
    "p": "\"Forty years I've wondered if anyone else could. You did it one night and it nearly had you. Now you understand what you'd be saying yes to, if it's ever your chair. Most people learn that the easy way. By being told. You'll never be able to unfeel it.\""
-  },
-  {
-   "img": "ext_sojo.jpg",
-   "cap": "A furnace forty metres from the wound"
   },
   {
    "p": "The next night Mori Takao was back on the shovel. No one had handed him a way out of the boiler room that did not crack the membrane over his head. The second seat could not be left untended any more than the sixth."

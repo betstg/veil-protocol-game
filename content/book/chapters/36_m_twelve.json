@@ -4,14 +4,14 @@
  "src": "m_twelve",
  "blocks": [
   {
-   "img": "ch6_sixpaths.jpg",
-   "cap": "Despair VI, on a Tuesday, in a man who looks like nothing at all"
-  },
-  {
    "p": "Rei started with the sixth name because Higuchi had starred it twice in the climbing margin. <em>Watanabe Jun, Despair VI, weakening.</em> A weakening seat was the one place where the registry stopped being a page and became a person. A person Rei could ruin or save by knocking on the wrong door."
   },
   {
    "p": "The pencilled note sent him to Itabashi, to the quiet part of it near Tokiwadai. It was a district of planned streets laid out in the 1930s, straight and tidy, where very little happened on the other side. Gin's book called that kind of ground clean. The Grid kept safe houses there for practitioners who needed to read without noise. Rei understood at once why a man carrying Despair would choose to live in the quietest ground he could find."
+  },
+  {
+   "img": "npc_watanabe_jun.png",
+   "cap": "Watanabe Jun, holder of Despair"
   },
   {
    "p": "Watanabe Jun was not what Rei had braced for. Rei had been carrying the word holder around like a weight. Watanabe Jun was a slight man in a cardigan two sizes too big, shelving returns at a municipal library. He looked fifty. His file said thirty-five. He had the particular gentleness of a person who has decided not to take up much room in the world."
@@ -50,10 +50,6 @@
    "p": "\"Then I'm sorry for you,\" he said. \"That's worse than what's happening to me.\""
   },
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "What the held seats have in common, read across a city in one long night"
-  },
-  {
    "p": "Rei could not visit all twelve. There was not time. Some of the names lived in places he had no road into. One of them, the eleventh, Park Junho, Longing, was listed at the community centre in Shin-Ōkubo, with a note in Gin's hand that Rei did not yet understand. <em>Pak Sun-ja keeps his secret.</em> What secret, the note did not say."
   },
   {
@@ -61,6 +57,10 @@
   },
   {
    "p": "In Kita, down an alley behind a public bath, a boiler-room door stood propped open for the heat. Inside, a big grey-haired man in dark clothes was feeding a firebox one shovel at a time. Every movement was banked down to the minimum. No wasted gesture. No slammed door. Rei did not go in. He was not even sure he had found the right man, because Gin's file said the second seat was hard to find on purpose. But he watched the man work for a long minute, and it looked like a whole life built into one shape, a shape that gave the weather he carried somewhere to go that hurt no one. The heat poured off the firebox and never once reached his hands. It looked like a holder who had made his peace. Even so, while Rei watched, he glanced north twice, the way a man checks a sky he does not trust."
+  },
+  {
+   "img": "thirteen_VII_hoshino_haru.png",
+   "cap": "Hoshino Haru, holder of Joy, at his stockpot"
   },
   {
    "p": "On Sakae Street the light was on in a small noodle shop at two in the morning. Through the steamed glass Rei could see a stocky man in an apron skimming a stockpot. The broth took eight hours, Gin had written. Hoshino Haru, Joy, the seventh seat. The cleanest succession on record. Rei stood across the street and simply felt it for a while. It was the warmest thing he had felt all month, the plain satisfaction of something good done well. And even here, the steam from the pot drifted north when there was no wind to carry it."
@@ -90,7 +90,15 @@
    "break": "Dawn at the Akebono"
   },
   {
+   "img": "place_akebono.png",
+   "cap": "The Akebono Bakery at dawn"
+  },
+  {
    "p": "The first bakery on the night-bus route opened at five. Rei had not eaten. He stood outside the Akebono Bakery by the station while a woman in her late fifties raised the shutter and set out the first trays. The window glowed."
+  },
+  {
+   "img": "thirteen_III_sakuma_kei.png",
+   "cap": "Sakuma Kei, holder of Love"
   },
   {
    "p": "A man was already waiting. He was neat, unremarkable, with gold wire glasses and a collar one button open. The baker handed him a paper bag without being asked, and he thanked her, and for the few seconds she spoke to him she looked like the only person in the world. Then Rei saw that it went the other way too. The man was looking at her as if she were the only person in the world. It was not performed. It was simply what his attention did."

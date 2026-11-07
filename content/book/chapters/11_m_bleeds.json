@@ -6,8 +6,8 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "res_apartmentreiroom.jpg",
-   "cap": "3:11am, a text that doesn't sound like anyone trying to sound like anything"
+   "img": "res_apartmentreiroom.png",
+   "cap": "Rei's room in the dead hour of the night"
   },
   {
    "p": "At 3:11 the phone lit the ceiling white, and the buzz against the pillow went through his skull like a dentist's drill."
@@ -63,6 +63,10 @@
    "p": "Rei turned back a few pages to the part he had skimmed the first time, because he had not wanted it to be about anyone he knew."
   },
   {
+   "img": "ch5_possession.png",
+   "cap": "Partial possession, the host still in the chair"
+  },
+  {
    "doc": {
     "kind": "table",
     "title": "Gin's book. Chapter Six. Possession. The Two States.",
@@ -83,10 +87,6 @@
   },
   {
    "p": "Out the window the last Obon lanterns had guttered along the canal. The dead were presumably guided home. The living were left holding their phones. He did not text back yet. He made himself be a person who waited sixty seconds. He watched the screen for the smooth voice to come and clean up after the broken one."
-  },
-  {
-   "img": "char_kuroda-itsuki.jpg",
-   "cap": "What the smooth voice does next, and the tell in how fast it comes"
   },
   {
    "p": "At 3:16 the smooth voice arrived. The speed of it told him more than any sentence could."

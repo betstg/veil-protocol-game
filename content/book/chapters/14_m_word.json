@@ -6,10 +6,6 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "ext_sojo.jpg",
-   "cap": "What class of thing keeps a body in good repair"
-  },
-  {
    "p": "There were two lunchboxes on the steel table where the cup had been. Both were open. Both held the same rice, the same rolled egg, the same three slices of pickled radish, laid out with a care that did not belong in a room full of the residues of the dead."
   },
   {
@@ -26,6 +22,10 @@
   },
   {
    "break": "What a demon is"
+  },
+  {
+   "img": "ch9_encounter.png",
+   "cap": "Kurosawa and Rei in the cold room"
   },
   {
    "p": "He started further back than Rei expected. He pulled a stool out for Rei and sat on the edge of the steel table."
@@ -141,10 +141,6 @@
    "p": "\"There,\" he said. \"That is where I read him. Still partial. Still in. The fact that it is keeping him in good repair is the only good news I have. A thing that wants a working body does not hurry the end of the line. But it does not stop walking either.\""
   },
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "Why a tidy tenant keeps a man at his desk... the shape of the seat"
-  },
-  {
    "p": "Kurosawa did not know the plan. He had been redacted long before there was a plan to know. But he knew the grammar of his own field. When Rei pressed him, <em>why employ a man, why keep him working, working at what</em>, he gave the only structural answer a body-reader can give. It was enough to make the cold room colder."
   },
   {
@@ -209,6 +205,10 @@
   },
   {
    "p": "\"One more,\" he said. \"Because I can read the wake, but I have never been the wake. If you want to know what your brother is living through from the inside, there is a man in Ōtsuka you should meet.\""
+  },
+  {
+   "img": "char_fujimoto-kenji-abe-takes.png",
+   "cap": "Fujimoto Kenji, who was once Abe Takeshi of the CVD"
   },
   {
    "p": "He said the name carefully, as if it were two names. \"Fujimoto Kenji. He keeps a scholar's clutter of a flat and consults for the Directorate. Quiet hours in the Records Archive. Old casebooks, a cup of tea he forgets to drink. And he is not alone in there.\""

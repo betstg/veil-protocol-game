@@ -6,10 +6,6 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "res_archive.jpg",
-   "cap": "Gin's flat, the third drawer, the book he never showed you"
-  },
-  {
    "p": "The price sticker was still on the back. Three hundred and eighty yen, half peeled, curling up at one corner the way it must have curled for months every time Gin opened the drawer."
   },
   {
@@ -105,6 +101,10 @@
    "p": "He did not know yet. He put a pencil mark beside the Architect page and went on."
   },
   {
+   "img": "ch3_thinspot.png",
+   "cap": "The Kita thin spot from Observation Log 7-C"
+  },
+  {
    "p": "Near the middle there was a folder note, copied across from the big Archive, with a small piece of tape stuck to its corner. Gin had always taped the folders he did not trust, to see if anyone opened them."
   },
   {
@@ -117,6 +117,10 @@
      "Rei has walked past the thin spot twelve times in the last month. I've counted. I'm counting."
     ]
    }
+  },
+  {
+   "img": "cvdroom_laboratory.png",
+   "cap": "The CVD Research Division, where the stability mapping was done"
   },
   {
    "doc": {
@@ -163,10 +167,6 @@
    "p": "But he had read enough of Gin's casework to know that the impulse to un-see a thing is the impulse the thing is counting on. So he turned the page, into the entries the new hand had written."
   },
   {
-   "img": "res_apartmentreiroom.jpg",
-   "cap": "The order it wants you to read in, and the place your own thoughts go"
-  },
-  {
    "p": "The numbers in the margins were small and untroubled, the way a librarian's are. If he followed them, the journal stopped being a record and became an argument, beautifully shelved. Here was the grief of 2011 that had never been given its rite. Beside it, the membrane that had been weeping ever since. Beside that, the single seat at the Thirteen's table that had stood vacant long enough for the weeping to have a remedy, if only someone with the right grade and the right wound would consent to feel the obligation."
   },
   {
@@ -209,10 +209,6 @@
   },
   {
    "p": "Rei opened the journal again at the page he had left."
-  },
-  {
-   "img": "ext_sojo.jpg",
-   "cap": "The tell, near the back, where the warmth points the wrong way"
   },
   {
    "p": "In the end it was not a horror that gave it away. It was a kindness."

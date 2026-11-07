@@ -4,14 +4,14 @@
  "src": "m_inverted",
  "blocks": [
   {
-   "img": "ch19_possessed_leader.jpg",
-   "cap": "A second hand in the seams, working the opposite way"
-  },
-  {
    "p": "Rei followed the second aftertaste from the widow's door across three wards. It taught him something the Healer's threads never could. There was another worker in this city. Gin's mercy closed wounds and bound the grateful into one careful tally. This other thing tore."
   },
   {
    "break": "The underpass by the freight line"
+  },
+  {
+   "img": "place_underpass.png",
+   "cap": "The long pedestrian underpass beneath the freight line"
   },
   {
    "p": "The trail ended at the long pedestrian underpass beneath the station, where the freight line crossed overhead. The low end flooded whenever it rained, and the tiles there were stained to the height of a child. Rei knew this place from Gin's pages. He had read them so often that he could recite them."
@@ -59,6 +59,10 @@
    "break": "A back room the Grid kept that month"
   },
   {
+   "img": "ch8_grid.png",
+   "cap": "A back room the Grid kept that month"
+  },
+  {
    "p": "The Grid had a name for the one doing it. Rei got it in a back room above a shuttered shop, a room the Grid happened to be using that month and would not be using the next. He was there on a vouch. One of Gin's nodes, one of the people who owed his brother the dangerous kind of debt, had vouched for him to a man, and the man had sent him here. Nobody in the room was in charge. People came up the stairs, put something down or picked something up, and left. A courier sat on an upturned crate with a kit bag on her knees that had come, she said, through three pairs of hands before hers, and would go through one more before it reached the person who needed it."
   },
   {
@@ -78,10 +82,6 @@
   },
   {
    "p": "That was exactly the problem, and Rei felt the shape of it close around him in that back room like a hand. The moment there was a bigger monster, every faction with a grade and a grievance would turn toward it. And the quiet, reasonable, mercy-minting thing wearing his brother would become, by sheer comparison, the lesser evil. The manageable one. The one a sensible person might even ally with against the worse. The Healer had not summoned the Inverted God. But in its long patient existence it had never been handed a better gift than a rival monstrous enough to make it look like salvation."
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The sermon, and the true things stacked wrong"
   },
   {
    "break": "The drained pool"

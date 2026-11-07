@@ -4,10 +4,6 @@
  "src": "m_hunt",
  "blocks": [
   {
-   "img": "char_kurosawa-shou.jpg",
-   "cap": "The map of who they both need"
-  },
-  {
    "p": "In the grey hour after, on the floor of his apartment with the curtains still drawn against an Obon dawn, Rei did the only thing he knew how to do with a horror. He made it a document. He listed the grieving. The man from Sumida whom the circle had lightened. The widow. The mother. Kanna-sensei's thirty-five soothed faces. The man from the Ōedo line and the daughter whose name Rei had said out loud. And the crying courier whose name was Kaito, whose grief had apparently been the largest unattended account in the ward. Beside each name he drew which demon needed them, and how."
   },
   {
@@ -18,6 +14,10 @@
   },
   {
    "p": "He thought about calling it in. The CVD had a word for what to do with a room like the Far-Shore Circle. Gin's playbook said address, and Gin's playbook said that addressing was Reintegration's work. Rei had seen the word in the CVD's own brochures and never asked what it meant. He took Gin's book down from the shelf and found the chapter. It was the one place in the whole archive where his brother stopped writing to a reader and wrote to him."
+  },
+  {
+   "img": "rehab_cell.png",
+   "cap": "A reintegration cell in the suppression wing"
   },
   {
    "doc": {
@@ -70,6 +70,10 @@
    "p": "Two of the files were marked with a red pencil tick, as if Gin had meant to come back to them."
   },
   {
+   "img": "ext_climber.png",
+   "cap": "Kuroki Tatsuo, and the thing that climbs with him"
+  },
+  {
    "doc": {
     "kind": "case",
     "title": "Kuroki Tatsuo. The Climb. Possession in progress",
@@ -83,6 +87,10 @@
      "His soldier Wada Sho is the soft way in. Twenty-nine, a share-flat in Ōkubo, frightened more often than he shows. (G.U.)"
     ]
    }
+  },
+  {
+   "img": "ext_hunger.png",
+   "cap": "Aizawa Yuto, and the hunger latched onto him"
   },
   {
    "doc": {
@@ -99,10 +107,6 @@
   },
   {
    "p": "A rescue, not an exorcism. Rei underlined it twice. Gin had known. Gin had written down, in his own hand, the thing neither demon could see. Clearing the hunger was not enough. Somebody had to stay afterwards and help the person feel everything."
-  },
-  {
-   "img": "ch19_possessed_leader.jpg",
-   "cap": "Kaito at the window"
   },
   {
    "p": "Kaito came to him the next night, because of course he did. Rei was the table, and the table is where both of them set things down. He woke at 3:47. He always woke at 3:47 now, the kitchen's hour following him like a debt. The courier was sitting on the fire escape on the other side of the glass, knees drawn up, looking out at Kita, where the membrane held its hundred-year breath. He did not try the window. In the host's body he was almost peaceful, the flood gone quiet the way floods are quiet between rains."

@@ -4,10 +4,6 @@
  "src": "m_foreclosure",
  "blocks": [
   {
-   "img": "res_apartmentempty.jpg",
-   "cap": "The genkan, shoes already on, the pages folded into an inside pocket"
-  },
-  {
    "p": "Between the two bundles of washi in the bottom drawer there was a third sheet, and it was the colour of rust."
   },
   {
@@ -96,10 +92,6 @@
    "p": "Rei put his hand on the door. He did not feel ready. He had stopped believing readiness had ever been on the table. He felt, instead, the thing Higuchi's smallest letters had really been about. Not fear of the wall. The terrible privilege of being the one person who can feel both sides of a closing door, and has to decide anyway which side to be on when it shuts."
   },
   {
-   "img": "place_riverside.jpg",
-   "cap": "The embankment path, the doubled river ahead, the flat's door heard clicking shut behind"
-  },
-  {
    "p": "He heard his own door click shut behind him, and the sound was smaller than the thing it was, the way the important sounds always are. That was the real foreclosure. Not the river. This small click. The flat with its three pages no longer laid out, the version of the night where he stayed in the grey hour reading and never had to go, sealed away behind the sound a key makes."
   },
   {
@@ -109,13 +101,25 @@
    "p": "He went down through the shut streets toward the water, and the ward came out to meet him."
   },
   {
+   "img": "place_arcade.png",
+   "cap": "The dead market arcade, shutters down"
+  },
+  {
    "p": "He passed the dead market arcade two streets north of the market, its shutters down, its storm drains breathing cold air in August. Gin's book called it a crossing point and said <em>never stand over one you have not warded</em>. Rei walked in the middle of the road. Above the arcade, in a cheap flat, one window was lit. A man in a vest sat at it with his head in his hands, the posture of someone who has been tired for a year and thinks it is age. On the sill beside him a row of potted plants had died, all of them, but only on the side of the room nearest the arcade. The nameplate by the street door said Tachibana. Rei stopped dead on the tarmac. Then he made himself breathe. It was a common name. It was not the same man. It was only a tired stranger being slowly drunk by the arcade underneath him, and Rei had no hour to give him tonight. He filed the window with the others."
   },
   {
    "p": "He passed under the third railway arch, where a door with no handle stood in the brick and a bartender with a cigarette, Goro, leaned beside it watching the festival go by. Goro looked at Rei's face and then at the kit bag and lifted two fingers from his cigarette in a kind of salute. He did not say anything. At Kemuri, nobody ever did."
   },
   {
+   "img": "char_nagai-haruto.png",
+   "cap": "Nagai Haruto at the north bridge"
+  },
+  {
    "p": "At the north bridge a knot of kids sat on the concrete steps above the water with cans and phones, loud, too close to the edge. A boy of seventeen with a faded brown inch at the ends of his black hair stood a little apart from them with his hands in his pockets, turning something in one of them. A river stone. Nagai Haruto. Rei knew the name from the ward's talk about the riverside kids. He was the one the others listened to. As Rei watched, the boy glanced at a patch of water just downstream, as if someone had spoken from it, and then stepped between two of the others a second before one of them would have shoved the other in. The water was quieter where he stood. Rei, with his registers half up, saw what stood in it with him. A small boy, wet to the shoulders, keeping watch on the same stretch of river, so that no third child would join him."
+  },
+  {
+   "img": "ext_riverboy.png",
+   "cap": "The drowned boy who keeps watch beside him"
   },
   {
    "p": "Rei kept walking. He promised the two of them, silently, that he would come back."

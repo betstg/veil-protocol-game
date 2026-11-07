@@ -6,8 +6,8 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "res_apartmentginroom.jpg",
-   "cap": "A briefing he skipped, in a building that does not forget"
+   "img": "char_hayashi-fumiko.png",
+   "cap": "The doctor behind the blue curtain at the Akabane clinic"
   },
   {
    "p": "The woman behind the blue curtain held the discharge form up to the window, so that the light came through the paper and Gin's signature floated on it like something drowned."
@@ -61,6 +61,10 @@
    }
   },
   {
+   "img": "ch20_layered.png",
+   "cap": "Tokyo, an old city lived in for centuries"
+  },
+  {
    "p": "Old cities were thin cities, the chapter said. Tokyo had been lived in for centuries, and the weight of all its ended lives pressed against the membrane from the other side. A practitioner in Tokyo at low strength did not need to reach for the other side. It reached for them. And the morning of March 2011 had thinned it further. <em>The wave took close to twenty thousand,</em> Gin had written. <em>Four years on it is thinner than when I started, not thicker.</em>"
   },
   {
@@ -90,10 +94,6 @@
   },
   {
    "p": "Rei sat with the diagram on his knees for a long time. The low place, where the water remembers. He did not know which band it belonged to. But he understood now that the other side had a top and a bottom, and that the things at the bottom had politics, and that his brother had gone down there on purpose twice and written about it in the same small print he used for shopping lists."
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "What a top-grade of Duty does to a good man"
   },
   {
    "p": "He began, slowly and against his will, to understand the shape of it. Understanding was worse than not understanding, because it closed off the comfortable lie that his brother had simply been taken. Gin had not been taken. He had been <em>persuaded</em>, and he was being persuaded still. The cruelty of the thing wearing him was that it had never once asked him to want something selfish. It had asked him to do what was right."

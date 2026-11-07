@@ -4,11 +4,11 @@
  "src": "m_shove",
  "blocks": [
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "The chair's one answer to a man who is alive"
+   "p": "\"His brother,\" Rei said aloud. His voice came out small and flat in the not-air, the voice of a man in a kitchen. \"I'm his brother. That's all I am.\""
   },
   {
-   "p": "\"His brother,\" Rei said aloud. His voice came out small and flat in the not-air, the voice of a man in a kitchen. \"I'm his brother. That's all I am.\""
+   "img": "ch14_layer2.png",
+   "cap": "Rei before the man of light"
   },
   {
    "p": "The chair did not answer that. Behind it the man of light did not move. Kuga's eyes held his, yellow and patient, and Rei felt the cat beginning to tire in his arms, a faint restlessness in the weight, the first warning. He did not have long. He had one question. Gin's book had been very clear on the number."
@@ -86,10 +86,6 @@
    "p": "Okada crouched beside it and laid two fingers along its back, and her eyes went unfocused. Rei had seen her do the same to a stack of files. \"Small,\" she said at last. \"Low class. It came up the trace behind you, the way water comes up a footprint. It tried the gate and the snake bit it and it went back down.\" She took her fingers away and looked at him, and for once she did not look at his hands first. \"It followed you out, Rei. Something over there has your smell now.\""
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "Traces of abilities he does not own"
-  },
-  {
    "p": "His hands looked like his hands until they didn't. In the security light they were only hands, scraped at the heel from the concrete lip, shaking the ordinary way a man shakes after a fall. Then he turned them over and the marks were there. Faint as the afterimage of a window stared at too long, laid into the lines of his palms like a second set of prints under the first. He knew without being told that they were not decoration and not injury. They were the grain of the wound, printed onto the hand that had touched it. And under the grain, finer still, something else. The leftover warmth of the man at the centre, who had every path there was lit inside him to its ceiling, and who had answered Rei's question with a hand held out."
   },
   {
@@ -100,6 +96,10 @@
   },
   {
    "p": "He stood up too fast, and the world skipped."
+  },
+  {
+   "img": "prac_tp.png",
+   "cap": "A teleport flicker that is not his"
   },
   {
    "p": "One moment he was on his feet at the edge of the pool. The next he was three metres along it, by the pump-house wall, with nothing in between. No step. No sense of moving. Just here, and then there, and a hard sick lurch in his stomach as if he had missed a stair in the dark. Behind him on the wet concrete his footprints ran from the pool's edge and stopped, and then there was dry concrete, and then there was him."

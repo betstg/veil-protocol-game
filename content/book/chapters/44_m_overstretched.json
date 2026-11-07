@@ -4,10 +4,6 @@
  "src": "m_overstretched",
  "blocks": [
   {
-   "img": "char_the-axis.jpg",
-   "cap": "The Axis comes up between them without being called, and reaches for both brothers at the seam"
-  },
-  {
    "p": "The Axis surfaced the way weather surfaces. Rei did not summon it. It arrived."
   },
   {
@@ -21,6 +17,10 @@
   },
   {
    "p": "In that second Rei saw it."
+  },
+  {
+   "img": "char_the-axis.png",
+   "cap": "The face at the centre of the light, there and gone"
   },
   {
    "p": "Not a force. A face. It was there and gone at the centre of the light, the way a face is there in a window at night when the room behind the glass is lit. A young man, thirty perhaps, in a dark plain coat of a cut nobody had worn for a hundred and fifty years. His hair was tied back. His expression was serene and attentive and very tired. He was looking at Rei the way a man looks at a word he once knew and loved and has lost the meaning of. He had his back to everything else. His whole attention was on the wall."

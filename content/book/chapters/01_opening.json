@@ -6,8 +6,8 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "res_apartmentlivingroom.jpg",
-   "cap": "The kitchen, 3:47am"
+   "img": "res_apartmentempty.png",
+   "cap": "The kitchen of the Uedera flat before four in the morning"
   },
   {
    "p": "The plate was still upside down on the counter."
@@ -28,17 +28,21 @@
    "p": "Rei checked his phone. No message. He checked it again, because lately he checked everything twice. The lock. The stove. The date. For a few weeks now the city had felt to him like a held breath, and he had told nobody, because there was nothing to tell. Just a feeling. Just a habit he did not like."
   },
   {
-   "p": "In the black glass of the window his own face looked back at him. Tired eyes. A jaw more Gin's than his own. <em>Rei,</em> he thought, to make the reflection agree to the name. It agreed. He did not know why that felt like a relief."
+   "img": "char_rei.png",
+   "cap": "Uedera Rei, nineteen"
   },
   {
-   "img": "res_apartmentempty.jpg",
-   "cap": "The flat at 3:47, one lamp on"
+   "p": "In the black glass of the window his own face looked back at him. Tired eyes. A jaw more Gin's than his own. <em>Rei,</em> he thought, to make the reflection agree to the name. It agreed. He did not know why that felt like a relief."
   },
   {
    "p": "He switched on the living-room lamp. He never did that at night. Lately the dark had started to feel as if it was paying attention, and he wanted it to stop."
   },
   {
    "p": "Gin's door was shut. Rei knocked once, softly, feeling stupid, and opened it."
+  },
+  {
+   "img": "res_apartmentginroom.png",
+   "cap": "Gin's room, the bed made and the desk lamp burning"
   },
   {
    "p": "The bed was made with square corners. The chair was pushed all the way under the desk. And the desk lamp was on. A small yellow circle lay on the bare wood, as though Gin had been working under it a minute ago and stepped out to take a call. Nothing lay in the circle. No pen, no paper, no cup."
@@ -48,10 +52,6 @@
   },
   {
    "p": "The room did not feel empty. It felt left. Rei could not tell whether that was true or whether he was doing what Gin had always warned him about, finding shapes in the quiet because the quiet frightened him."
-  },
-  {
-   "img": "res_apartmentlivingroom.jpg",
-   "cap": "The kitchen at this hour"
   },
   {
    "p": "Back in the kitchen he filled the kettle and did not light the gas. Two cups sat upside down on the rack. Gin always set out two, though he was never home for the second."
@@ -67,10 +67,6 @@
   },
   {
    "p": "Now the hook was bare."
-  },
-  {
-   "img": "res_apartment.jpg",
-   "cap": "The walkway, the cold key on the concrete"
   },
   {
    "p": "He crossed to the front door. It was not locked. It was not even shut. The latch rested against the strike plate without catching, and the door stood a finger's width open onto the night."
@@ -92,10 +88,6 @@
   },
   {
    "p": "Rei looked left along the walkway, then right, down to the street. Empty. Asleep. Perfect. There was nothing else at all, and that was the part that would not leave him afterward. How completely nothing else there was."
-  },
-  {
-   "img": "res_apartmentginroom.jpg",
-   "cap": "Gin's field book, left on the table"
   },
   {
    "p": "He went back inside and shut the door, and this time he heard the latch catch."
@@ -182,10 +174,6 @@
   },
   {
    "p": "Rei did not need to say where he was going. They both knew Gin's way home. It ran down the long slope to the overpass at Ōji, and the overpass was the last place where anyone could say for certain that Gin had been ordinary."
-  },
-  {
-   "img": "place_underpass.jpg",
-   "cap": "The overpass... a cold spot where there should be none"
   },
   {
    "p": "Rei had crossed the Ōji overpass a thousand times without a thought. Tonight, halfway across, he walked into cold."

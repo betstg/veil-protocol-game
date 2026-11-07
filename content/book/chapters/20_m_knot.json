@@ -4,10 +4,6 @@
  "src": "m_knot",
  "blocks": [
   {
-   "img": "char_iwata-kenji.jpg",
-   "cap": "Sumida, the man whose grief was eaten"
-  },
-  {
    "p": "Sumida was two changes and two hundred and thirty yen away. Rei watched the river go past under the train and counted the coins left on his IC card, because counting small things was what he had instead of sleep."
   },
   {
@@ -41,11 +37,11 @@
    "p": "He thought of the fourth rule in Gin's Grid chapter. <em>Debt and reciprocity. When someone helps you, you help someone else.</em> The Grid's debts were meant to move on, from one hand to the next, until nobody could say who had started it. Iwata's debt did not move. It ran in one direction only, back to the hand that had made it, and it would wait there for as long as the hand wanted."
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "The thread goes taut in both hands"
+   "p": "Rei said his brother's name. He said <em>Gin</em> the way he had said it across a whole childhood. Soft. Claiming. The word he used to call him in from the dark."
   },
   {
-   "p": "Rei said his brother's name. He said <em>Gin</em> the way he had said it across a whole childhood. Soft. Claiming. The word he used to call him in from the dark."
+   "img": "ch10_feeding.png",
+   "cap": "Iwata in Sumida, and the tenant still at work behind him"
   },
   {
    "p": "The flat changed temperature. Not Iwata. Iwata only tilted his head, still smiling, and asked if Rei was all right. It was the air that answered. The cheap fluorescent tube over the sink dimmed by a breath, as if something far away had leaned its weight against a wall. And at the back of Rei's own skull, behind the two registers he kept pressed flat, he felt the thread he had reached for reach back."

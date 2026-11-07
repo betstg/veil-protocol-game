@@ -4,11 +4,11 @@
  "src": "m_counter",
  "blocks": [
   {
-   "img": "ch19_cults.jpg",
-   "cap": "The basement under the laundromat"
+   "p": "The address Kanna-sensei would not give him arrived the way the worst addresses always did. Not on paper but in a body. A man on the Ōedo line at ten past one in the morning was crying without any expression on his face, the tears running clean down a stillness that should not have been able to make them. Rei followed him because he had learned to follow the wrongness. Off at Ushigome-Kagurazaka, down a side street that smelled of bleach and standing water, to a laundromat closed long enough for the machines to fur with dust. Behind it was a basement door propped open with a rice cooker."
   },
   {
-   "p": "The address Kanna-sensei would not give him arrived the way the worst addresses always did. Not on paper but in a body. A man on the Ōedo line at ten past one in the morning was crying without any expression on his face, the tears running clean down a stillness that should not have been able to make them. Rei followed him because he had learned to follow the wrongness. Off at Ushigome-Kagurazaka, down a side street that smelled of bleach and standing water, to a laundromat closed long enough for the machines to fur with dust. Behind it was a basement door propped open with a rice cooker."
+   "img": "ch19_cults.png",
+   "cap": "The basement under the laundromat, Kaito at the centre"
   },
   {
    "p": "The crying man went down. Rei counted to forty, the way he would on a stairwell that might collapse, and went down after him. The low room was lit only by the screens of a dozen phones lying face-up on the floor. Each one played a different person's grief on mute. Standing in the middle of all that silent weeping was a young man in a delivery uniform. Rei understood at once that he was not the young man whose uniform it was."
@@ -29,10 +29,6 @@
    "p": "It watched him do the arithmetic behind his eyes. \"You see it,\" it said, pleased and terrible. \"You're the only one who sees both of us at once. That makes you the most useful person in Tokyo. To him. And to me.\""
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "What the sermon is made of"
-  },
-  {
    "p": "It preached, because that was what Kaito was for. The terrible thing was not that it lied. The terrible thing was that it didn't. It told Rei about the held dead the way a person tells a friend about a cruelty they witnessed and could not stop. The dead who were never seen home. The ones who died unregistered and unmourned and got no rite, kept the whole time behind the Kita membrane, not at rest but at attention. A hundred years of held breath, in a city that had decided their grief was a public-health problem to be managed quietly. It said the Healer's plan was worse than its own because it was kinder. A clean door, opened gently, let the institutions keep the schedule. It kept the membrane a managed valve and the dead on a permitted release."
   },
   {
@@ -51,8 +47,8 @@
    "p": "It was the most honest thing anyone had said to Rei since the kitchen at 3:47. It was wrong in the particular way the most honest things can be wrong, by being true about everything except the one life standing in front of it. Rei understood now why the Healer was hunting it, and why the Healer was afraid. Not because this was stronger. Because it was purer, a grief with no use for the gentle lie, and his brother's whole reasonable architecture depended on the lie holding. Two demons, one cup. One wanted to pour it out a careful drop at a time forever. One wanted to throw it. And both had just looked at Rei and decided, in the same breath, that he was the table the cup stood on."
   },
   {
-   "img": "ch19_possessed_leader.jpg",
-   "cap": "The Healer arrives wearing your brother"
+   "img": "ext_sojo.png",
+   "cap": "The Healer, wearing Gin's face"
   },
   {
    "p": "Rei felt Gin before he saw him, the way he had learned to feel the gentle register move into a room. The air's resistance lowered. Everything sharp seemed to have been asked, politely, to be softer. The basement door at the top of the stairs did not open so much as agree to be open. His brother came down into the weeping light. It was Gin's face and Gin's careful hands and Gin's way of pausing on a step to be sure of his footing, and it was the Healer wearing all of it like a coat tailored years ago and only now worn out into the rain."

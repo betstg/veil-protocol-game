@@ -6,11 +6,11 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "char_uedera-gin.jpg",
-   "cap": "A number you know, ringing out into the dark"
+   "p": "The call log had become a column of his brother's name. Gin, Gin, Gin, all the way down the screen in small red letters, like names cut into a memorial stone."
   },
   {
-   "p": "The call log had become a column of his brother's name. Gin, Gin, Gin, all the way down the screen in small red letters, like names cut into a memorial stone."
+   "img": "res_apartmentlivingroom.png",
+   "cap": "The kitchen table under the one lamp"
   },
   {
    "p": "Rei sat at the kitchen table under the one lamp and looked at it. Outside, the cicadas had not stopped since noon. Somewhere along the canal a neighbour was hanging the first Obon lantern of the week, and the paper box knocked against its pole in the warm wind with a sound like a knuckle on a door."
@@ -64,10 +64,6 @@
    "p": "Less time than it took to say a sentence. That was what his brother had been able to steal back."
   },
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "The two voices, learning to rhyme"
-  },
-  {
    "p": "The smooth voice did not hang up. That frightened him more than anything it said."
   },
   {
@@ -111,6 +107,10 @@
   },
   {
    "p": "He sat for a long time with the phone in his lap. The lantern outside knocked against its pole. Gin's coat still hung on the back of the other chair, where it had hung since May."
+  },
+  {
+   "img": "ch11_space.png",
+   "cap": "The flat at ten past two, after the line went dead"
   },
   {
    "p": "At ten past two the phone buzzed once. A voicemail. No call had come through. He played it with his thumb shaking."

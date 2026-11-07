@@ -4,11 +4,15 @@
  "src": "s_shrine",
  "blocks": [
   {
-   "img": "place_shinto.jpg",
-   "cap": "The Hozumi shrine in upper Kita, third morning of Obon... a fox-shrine the size of a shed, wedged between a parking tower and a shuttered noodle counter, and Miyamoto Kazuo waiting at the gate"
+   "img": "place_shinto.png",
+   "cap": "The Hozumi fox shrine in upper Kita"
   },
   {
    "p": "The old man was sweeping when Rei arrived, and that was the first wrong thing. The stones were already clean. He swept them anyway, with the slow going-nowhere stroke of a man keeping his hands busy so they would not shake."
+  },
+  {
+   "img": "char_miyamoto-kazuo.png",
+   "cap": "Miyamoto Kazuo, head priest of the Hozumi shrine"
   },
   {
    "p": "Miyamoto Kazuo was sixty-six, the head priest, a kannushi in white and indigo with his white hair tied in a small topknot. He told Rei who he was before Rei could ask. His father had kept this shrine before him, and his grandfather before that. His line had warded this ground for two hundred years. Every Obon a hand in his family renewed the wards that ringed the precinct. He recited it the way a man recites the deed to a house he is afraid is no longer his."
@@ -38,10 +42,6 @@
    "p": "\"We do not fight what comes,\" Miyamoto said. \"My father used to say Shinto does not exorcise so much as it tidies. Every night I walk the grounds. The lamps, the salt at the gate at dusk, the gate itself. I keep the place clean and named and in good repair, and things that should not cross find it does not want them. Once a year, at Obon, the cords are re-tied, and the water is asked to keep watching. That is all. It has been enough for two hundred years.\" He blew smoke at the camphor tree, then apologised to it. \"It has been enough until this week.\""
   },
   {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The basin under its little roof, the lane's paper lanterns burning unreflected three steps away, the water holding nothing"
-  },
-  {
    "p": "Up close the water was worse than Miyamoto had described. He had described an absence, and an absence is at least a clean thing. This was not clean. The basin was full to the lip and dead still. No wind reached it under the roof. When Rei leaned over it, the lanterns behind him did not appear, and neither did he. But the surface was not blank. It was busy, the way a held breath is busy. Under the flatness there was a faint slow churn, like something turning over far down in water that was only a hand deep."
   },
   {
@@ -64,10 +64,6 @@
   },
   {
    "p": "The honest answer was that Rei had seen the Healer's bedside manner wearing a two-hundred-year-old shrine like a clean white coat. He said, \"Yes.\" The lane kept burning. The basin kept its peace, which was the wrong kind of peace. It had been arranged."
-  },
-  {
-   "img": "res_archive.jpg",
-   "cap": "Inside the shrine office, a one-mat room behind the gate, Miyamoto's ledger of renewals open on the low table under a bare bulb"
   },
   {
    "p": "The shrine office was one mat wide, behind the gate. A curl of cedar smoke rose from a dish in the corner, as it had in this room, Miyamoto said, for as long as anyone remembered. The ledger of renewals was older than the bulb and older than the table. It was a stack of bound books in a cloth-wrapped pile, each one a generation of Obons recorded in the cramped hand of whoever held the broom that century."
@@ -94,6 +90,10 @@
    "p": "Rei went back out and stood at the basin with his hands in his pockets. The temptation came quietly, and it came in a reasonable voice. The Healer did not know he had found this. Leave the knot as it was, and the shrine would go on failing on its schedule, and the small cold current through the water would show him exactly where the larger thinning ran and what it was for. He could sit on these steps every night until Obon ended and take notes. It would cost an old man his basin, and a boundary his family had kept for two hundred years, and whatever else came through a draught while Rei stood beside it with a pencil."
   },
   {
+   "img": "med_benten.png",
+   "cap": "The three-coloured cat of the shrine"
+  },
+  {
    "p": "The cat came and sat beside his foot and looked up at him. Rei thought about Gin, who would have closed it without a second thought. Gin sat up all night with widows and wrote the case files afterwards. The voice that wanted the window open sounded sensible, and that was exactly what frightened him about it. It was the Healer's arithmetic. A hole in a neighbourhood's wall, kept open because the hole was useful. He would not learn to think like that."
   },
   {
@@ -104,10 +104,6 @@
   },
   {
    "p": "The re-tying took the rest of the afternoon. Miyamoto's hands knew every knot and could not hold them steady. Rei's hands were steady and knew nothing. So Rei held the cords taut and the old man tied. When they reached the last knot, Rei read along the cord with his fingertips and found the place where the stranger's thread had been lifted, the single strand pulled loose and laid back so that it would slip. He showed Miyamoto. Miyamoto bowed to the camphor tree, then to the basin, then bent and tied it the way his father had tied it. It was a plain knot. It did not slip."
-  },
-  {
-   "img": "place_riverside.jpg",
-   "cap": "The lane at dusk, lanterns lit, the basin's verdict settling... and Miyamoto at the gate waiting to learn what his two hundred years come to"
   },
   {
    "p": "The evening came as it always did on the third night. The neighbourhood came out. Old women in cotton yukata. Children with fox masks pushed up on their foreheads. They filed past the little shrine, clapped twice and bowed, and none of them felt the seam Rei had spent the day standing inside. That was the mercy and the horror of a forgotten shrine. Its failing was invisible to exactly the people it failed."

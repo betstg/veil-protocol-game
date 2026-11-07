@@ -21,6 +21,10 @@
    }
   },
   {
+   "img": "char_yamamoto-koji.png",
+   "cap": "Yamamoto Koji, the Archivist"
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "Yamamoto Koji. The Archivist",
@@ -82,6 +86,10 @@
   },
   {
    "p": "Under the Mediator's page was one more sheet. It was a photocopy of a CVD reference card with a red stamp in the corner, and Gin had written along its margin in pencil."
+  },
+  {
+   "img": "ch15_squad.png",
+   "cap": "A CVD squad in the field"
   },
   {
    "doc": {

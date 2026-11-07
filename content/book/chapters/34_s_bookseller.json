@@ -4,11 +4,15 @@
  "src": "s_bookseller",
  "blocks": [
   {
-   "img": "res_bookshop.jpg",
-   "cap": "A shop that smells of foxed paper and held breath"
+   "img": "res_bookshop.png",
+   "cap": "The Crooked Shelf, off Jinbōchō"
   },
   {
    "p": "The Crooked Shelf had no sign. It sat on a side street off Jinbōchō, the old book town, and the only way to know it was a shop at all was the one crooked shelf in the window, leaning a few degrees out of true as if it had given up arguing with gravity. Inside it was the kind of narrow that made Rei turn sideways between the stacks. Three floors of other people's libraries were pressed into a frontage barely wider than its door."
+  },
+  {
+   "img": "char_the-bookseller.png",
+   "cap": "Higuchi, the bookseller"
   },
   {
    "p": "The owner was a thin man in his late fifties with ink on his fingers, smudged glasses and a wispy grey comb-over gone pale with dust. His cardigan was dusted with old paper. His name was Higuchi, and Jinbōchō knew him as a careful dealer who read every book before he sold it. He did not look up when Rei came in. He finished the page he was on, the way booksellers do, to make it clear that the book outranked the customer."
@@ -32,10 +36,6 @@
    "p": "\"I keep the dangerous things locked,\" he said. \"The case opens when I decide what a person will do with what is inside it. I have refused it to people who could pay anything.\" He tapped the key that hung on a cord round his neck. \"But that top shelf I did not lock. The key turned itself, four years ago, the week your brother first stood where you are standing.\""
   },
   {
-   "img": "ch19_funnel.jpg",
-   "cap": "What objects keep when no one is looking"
-  },
-  {
    "p": "Higuchi made tea on a hotplate that should have been condemned a decade ago. While the water heated he told Rei the part the bureaus would file as folklore, the part Rei now knew to be field-accurate."
   },
   {
@@ -55,10 +55,6 @@
   },
   {
    "p": "\"Four years ago your brother came in,\" he said, \"white to the lips. He asked to be left alone with the case. I went into the back. When I came out he had his hand flat against the wood, and the lock on the top shelf had turned. I swear that on my wife's grave.\""
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The spine that remembers Gin"
   },
   {
    "p": "The lock did for Rei what it had done for Gin. It turned under his hand. The small brass tongue slid back with a click he felt in his teeth, and the shelf breathed four years of held quiet out into the shop."
@@ -83,10 +79,6 @@
   },
   {
    "p": "He had come across the city for exactly this. He opened it."
-  },
-  {
-   "img": "char_kuroda-itsuki.jpg",
-   "cap": "What it costs to read a kept threshold"
   },
   {
    "p": "The notebook did not narrate. It deposited."
@@ -128,10 +120,6 @@
    "p": "Gin had written it the way he wrote it at the end of every note, the habit of a man making sure his little brother was locked in safe. After that line the handwriting changed. Rei shut the book. The room let go of him slowly, the way a held breath goes out."
   },
   {
-   "img": "tools_trap.jpg",
-   "cap": "The lock, and who keeps it now"
-  },
-  {
    "p": "The shelf was Rei's problem now. It had been Higuchi's only by accident, and the old man knew it and was, in his dry way, relieved. He had kept a private membrane behind his counter for years out of nothing but a bookseller's refusal to burn a book. He was tired. And Rei was the first person to walk in with the right face and the wrong, useful gift."
   },
   {
@@ -163,6 +151,10 @@
   },
   {
    "p": "The bell over the door rang before Rei reached it."
+  },
+  {
+   "img": "char_mochizuki-sora.png",
+   "cap": "Mochizuki Sora at the door of the Crooked Shelf"
   },
   {
    "p": "A young woman stood on the step with a canvas bag of library books on her shoulder. She was a few years older than him, thin, with a quick, wary face. She had stopped dead on the threshold. Her eyes went to the back of the shop, then to the case, then to Rei. She had felt the cold from the street."

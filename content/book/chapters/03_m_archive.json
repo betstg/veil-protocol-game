@@ -6,8 +6,8 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "res_archive.jpg",
-   "cap": "The table, the book open to a page that wasn't there last night"
+   "img": "res_archive.png",
+   "cap": "Rei at the kitchen table with Gin's archive open"
   },
   {
    "p": "The index card had not been there last night."
@@ -185,8 +185,8 @@
    "p": "Rei looked at the two cups upturned on the rack. He thought about a man who had said goodbye to an empty chair in Nerima and come home the same night and asked his brother how the exam went."
   },
   {
-   "img": "tools_trap.jpg",
-   "cap": "Four nodes, four locks, four people you have never met"
+   "img": "agenda_board.png",
+   "cap": "Gin's map of the unregistered network of northern Tokyo"
   },
   {
    "p": "It took him the rest of the afternoon to see the shape of the whole thing. When he did, it resolved the way a face comes out of static once a person stops trying to see it. The archive was not a journal. It was a key-ring."
@@ -196,10 +196,6 @@
   },
   {
    "p": "None of them would speak to a stranger. All of them, the margins said in Gin's smallest hand, owed him. Not money. The dangerous kind of debt, the kind a careful man collects only once. He had never collected. He had left them for Rei instead. That was either the most generous thing his brother had ever done or the most damning, because to walk this map was to announce, to everyone Gin had protected, that the man who kept them safe was gone."
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The first node opens, and the city tilts a degree toward you"
   },
   {
    "p": "The first node was the baker."

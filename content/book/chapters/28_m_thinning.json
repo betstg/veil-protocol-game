@@ -4,10 +4,6 @@
  "src": "m_thinning",
  "blocks": [
   {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The membrane, drawn at last to its true scale"
-  },
-  {
    "p": "Thirty-one index cards covered the floor of Higuchi's back room at the Crooked Shelf, each one a favour the Healer had done in Gin's body, each one written out in Rei's cramped hand. Between them, in red pencil, ran the seams Kishin had scored through the city, the ones Kaito preached over in the drained pool. Rei knelt among them with the lamp pulled down low, moving a card a finger's width, then another. Around midnight he stopped seeing two patterns. Having the plan whole was worse than not having it had ever been. He saw one engine, and Kita-ku was the cylinder it fired in."
   },
   {
@@ -23,10 +19,6 @@
    "p": "He sat back on his heels in the lamplight and let himself feel the elegance of it, because he had to understand the thing to fight it, and he could not understand it from a safe distance. It was beautiful. It was the most patient cruelty he had ever been close to. No grade in the city would ever point to a crime, because there was no crime. There was only kindness, handed out and adding up, until on the right night, with the dead already moving and every ward looking outward at the obvious monster, the curtain over Kita would lift on its own. Then something with grateful hands would climb to the one chair tall enough for what it wanted. It would call that <em>finishing what death interrupted</em>. Rei, if he let himself, would call it the end of the difference between the living city and the other side."
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "What the thinning costs the people who still live there"
-  },
-  {
    "p": "He went up to Kita in the worst of the afternoon, when the heat sat on the rooftops like a second sky, and he made himself look at the people the plan treated as the inside of the cylinder. A woman watered morning glories on a balcony above a shuttered ramen counter. Children chalked a hopscotch grid on concrete that had not been right since 2011, concrete everyone stepped across without naming. An old man set a small dish of water on a windowsill for a wife the official records had closed years ago. None of them knew they lived at the seam. None of them had chosen to be the place where a demon decided the wall was already weak enough to be worth finishing."
   },
   {
@@ -34,6 +26,10 @@
   },
   {
    "p": "He stopped at the old man's window without meaning to, and that was when he saw the rats."
+  },
+  {
+   "img": "animal_rats.png",
+   "cap": "Rats in a Kita gutter, all facing the same way"
   },
   {
    "p": "There were rats in the gutter under the sill, which meant nothing in August. Then he counted them, because Gin had once told him to, across the kitchen table, in a voice so dry that Rei had laughed. <em>Count the rats.</em> Twelve. Twelve rats in a gutter, and every one of them still, and every one of them turned the same way, toward the chalk grid where the concrete was wrong. They did not twitch or wash or quarrel. They watched. Rei felt his skin go cold in the heat."
@@ -52,6 +48,10 @@
   },
   {
    "p": "The Grid runner met him on the roof of a coin laundry at dusk. She was a narrow woman with a cloth bundle under her arm and the look of someone who had slept in her clothes, and she did not give a name. Someone had passed Rei to her, and that was enough. She unwrapped the bundle as if something inside it were alive. It was a mirror, square, dark-backed, longer on its shortest side than Rei's forearm."
+  },
+  {
+   "img": "animal_crow.png",
+   "cap": "The Grid runner's crow on its scrying mirror"
   },
   {
    "p": "\"Three days,\" she said, before he could ask. \"Three days feeding the same crow out of my hand, so it decides you are interesting and not a threat. Then the rite, at dawn or dusk, because the half-light is the condition. Not the ceremony. The light.\" She showed him the back of the frame, where a strip of seal paper was tucked under the edge. On it was one character, 視, sight, written in dried brown. \"My own blood. The ink for the rest is charcoal and graveyard earth in water. Three black cords, each as long as your forearm. You lay the mirror face up and the paper face down on the glass, and you put food the crow already trusts at the edge. It has to land on the mirror. Not near it. On it. Then you draw the three cords across the glass from edge to edge without touching a feather, and you say the binding quietly. If it takes, the mirror shows you what the crow sees for one second. That second is the bond closing.\""
@@ -91,10 +91,6 @@
   },
   {
    "p": "Then she went down the fire stairs, and Rei stayed on the roof until the last of the light went, feeling the place where the attention had touched him."
-  },
-  {
-   "img": "place_riverside.jpg",
-   "cap": "The Healer's timetable, and why Obon was always the lock"
   },
   {
    "p": "Back in the heat-sick dark he finally understood the timing, and it landed like a key turning in a lock he had not known he was standing inside. It had to be Obon. Not as decoration, not as a pretty occasion for a haunting. As mechanism. Obon is the one stretch of the year when the dead are already moving toward the living, when the membrane works under its greatest load and holds against the strongest pull it ever faces. A wall is easiest to finish thinning when something is already leaning on it from the other side. The Healer had not weakened Kita and then waited for a convenient night. It had weakened Kita to the exact thinness at which the pull of Obon would do the last of the work for free, while every ward in the city read the rising pressure as nothing but the season."

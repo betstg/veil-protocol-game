@@ -4,10 +4,6 @@
  "src": "m_axis",
  "blocks": [
   {
-   "img": "char_the-axis.jpg",
-   "cap": "Down to where the seats are kept"
-  },
-  {
    "p": "There is no stair to the Axis. That was the first true thing Rei learned about it. Without admitting it, he had pictured a door in some sub-basement, a vault in a ward-house, an institutional secret the CVD kept behind a grade he did not have. There was none. The Axis was not below Tokyo the way a basement is below a house. It was below Tokyo the way the meaning of a sentence is below its words, present everywhere in the thing and nowhere he could point."
   },
   {
@@ -26,6 +22,10 @@
    "p": "He held on, and because he held on, he could see which way the slope ran."
   },
   {
+   "img": "off_tmg.png",
+   "cap": "Shinjuku, where every CVD map puts the city's source point"
+  },
+  {
    "p": "It did not run toward Shinjuku. Every CVD map he had seen put the city's source point under Shinjuku, the busiest crossing of grief and money in Japan. The slope did not care about the maps. It ran north, into Kita, and it bottomed out in a place he knew. Three hundred metres northeast of the kitchen he was sitting in. A few streets of shuttered shops, a short walk from this flat."
   },
   {
@@ -38,6 +38,10 @@
    "p": "Beneath the lattice, very faint, lay a second one in the same shape. Thirteen hollow places, dark, cut to fit each of the twelve and the thirteenth. Rei did not look at it long. He felt enough to know that the dark places wanted the light ones, and that one of them, in the place called Despair, was pressed so hard against its living twin that he could barely tell the two apart."
   },
   {
+   "img": "ch14_layer1.png",
+   "cap": "The figure at the hub of the lattice, holding the wall shut"
+  },
+  {
    "p": "At the hub, where all thirteen spokes met and the slope ran down into nothing, there was a figure. It stood in a light so cold and total that Rei's eyes watered even though he was not using his eyes. It had its back to him. It had its back to the whole world. Its attention was on the wall, all of it, and it was holding something shut. Rei could not see its face. He did not think anyone could. But it was shaped like a man. Not a god or a machine or a storm. A man, standing very still, the way a person stands when he has been carrying something for a long time and has stopped noticing his arms."
   },
   {
@@ -48,10 +52,6 @@
   },
   {
    "p": "And the thirteenth place was empty. The emptiness had a shape, and the shape was a wound."
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "The Thirteenth chair, and who was torn out of it"
   },
   {
    "p": "He made himself look at the vacancy, and the lattice, sensing attention the way still water senses a dropped stone, gave him its history. It did not use words. The Axis has no use for words. It gave him the history the way a wound remembers the blade."
@@ -67,10 +67,6 @@
   },
   {
    "p": "But Rei saw the lie folded inside the sincerity, small and absolute, the way he had seen the tremble in the old man's dish. To take that seat, the Healer had to finish tearing. The chair could not be climbed into while the lattice was still spending itself to hold the gap. The wall had to go fully thin. The held breath had to fully exhale. For the one hinge-hour it would take a new occupant to climb in and take the load, the door would stand open in both directions. What came through that open door while the Healer was busy becoming a law was not the Healer's problem. It was the problem of every living thing in Kita. The mercy was real. The mercy required a flood. And the demon had made its peace with the flood, because to a thing built for duty, drowning a district to seat itself correctly was not a price. It was a rounding error."
-  },
-  {
-   "img": "tools_trap.jpg",
-   "cap": "Two demons converge on the same open door"
   },
   {
    "p": "He felt them both come toward the wound from opposite directions, and the feeling was the worst kind of confirmation, the kind that ends the comfort of not being sure."

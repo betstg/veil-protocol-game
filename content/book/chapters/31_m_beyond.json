@@ -4,14 +4,14 @@
  "src": "m_beyond",
  "blocks": [
   {
-   "img": "ch21_entitysight.jpg",
-   "cap": "The hour the city forgets itself, on the wrong side of it"
-  },
-  {
    "p": "He went through at the node behind the Senju waterworks because it was the one Gin had marked smallest, in the back of the book, the way Gin marked the things he meant to come back to. <em>Smallest tear. Most likely to let a living man back out.</em> And because it was not in Kita. He had walked out of the ward with the carrier on his shoulder and felt the attention of the gutters slide off him somewhere around the river. The rats watched Kita. They did not watch Senju. Gin's book had said to change the district, and for one night he had."
   },
   {
    "p": "Okada was already there, kneeling at the edge of a concrete settling pool behind the pump house where the overflow water lay dead still under the security lights. She had brought two things in a cool-box. One was a towel. The other, when she lifted the lid, was a long, pale, patterned snake that poured itself over her wrist without hurry."
+  },
+  {
+   "img": "animal_snake.png",
+   "cap": "A rat snake set across the sill"
   },
   {
    "p": "\"Japanese rat snake,\" she said. \"Not venomous. The venom isn't the point.\" She set it across the sill of the yard gate and dusted the concrete in front of it with a handful of dark earth from a paper bag. \"Graveyard earth. It sharpens the snake at that one spot, gives us another forty minutes of good warning. Anything that tries to cross that gate, it strikes. It can't see what it's striking any better than we can. It just knows.\" She sat back on her heels. \"It strikes people too. So when you come back, you come back here, at the water. Not through the gate. Route yourself.\" She rubbed the snake's head with one thumb. \"Two hours, then it gets tired and starts snapping at its own side. We won't need two hours. Nobody holds a cat door past forty minutes.\""
@@ -78,6 +78,10 @@
    "p": "He went through the first layer so fast he barely had time to be afraid of it. Kuga carried him through it the way an express train carries a passenger past a crowded platform. For a few heartbeats there was noise everywhere, and the noise was people. The Threshold. Gin had written that the other side is not dark, it is loud, and here was the loud. The recent dead stood shoulder to shoulder like commuters in a stalled station, confused, turning, not yet sure which way they were meant to go. Mediums worked here. Exorcists worked here. A depleted practitioner who touched this layer was at risk of possession, not because anything hunted him, but because the crowd was so dense it pressed. Then the cat's gaze tipped, and the crowd fell away above Rei, and the quiet began."
   },
   {
+   "img": "ch20b_cat.png",
+   "cap": "Kuga, and the Deep's copy of Kita"
+  },
+  {
    "p": "Below the Threshold was the Deep, and the Deep had made itself a copy of his district. It was Kita rendered by something that had learned it secondhand. The konbini on the corner was lit and empty, and the rice balls behind the glass were the same four kinds forever, and the prices were right, and the little hand-lettered apology taped to the broken coffee machine was right, down to its worn fold. The door, when he tried it with one bare foot, opened onto more of the same street, because there was no inside here. There was only the surface things keep up to seem alive. <em>Entities that have had time to develop culture, alliances, hierarchies, territories, agendas,</em> Gin's book said of this layer. <em>They have had time to develop opinions about visitors.</em> Gin had been here twice. Both times on purpose."
   },
   {
@@ -88,10 +92,6 @@
   },
   {
    "p": "He felt the moment it happened, the way a person feels a stranger's eyes find the back of his neck in a crowd. A small wrongness became an attention. Every lantern on the canal turned, all at once and without swinging, to face the same way, which was him. Rei's sight climbed on its own, the way the page had said it would, and then climbed again, because this whole place was one great thin spot. The street became shapes, and the shapes became forms with registers he could read. <em>From here, entities see you back.</em> They did. The not-weather thickened. The konbini light behind him went from welcome to witness. Okada had been right about the cat. To every instrument in Tokyo he was a stray in a pool. To the things already here, he was perfectly visible. He had come in as a draft, and the far shore had just learned to count. The number it had reached was one too many. Somewhere ahead, past the place where the streets stopped pretending, something that had been very patient for a very long time set down what it was holding and began, unhurried, to come and see what was alive in its house."
-  },
-  {
-   "img": "ext_sojo.jpg",
-   "cap": "Where the streets stop pretending"
   },
   {
    "p": "Inward, the city gave up its pretence by degrees, and the degrees were worse than a clean edge would have been. First the lettering went. The konbini signs, the ward notices, the lost-cat flyer on the pole all kept their shape but lost their words, the way a name goes soft in the mouth after being said too many times. Then the depth went. Buildings became the idea of buildings, façades with the conviction of façades, and where two of them met he could see that there was nothing behind either. Only the seam. Only the place the far shore had not bothered to imagine, because no living eye was ever supposed to reach it."

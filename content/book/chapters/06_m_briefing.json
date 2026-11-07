@@ -6,10 +6,6 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "cvdroom_the_dispatch_center.jpg",
-   "cap": "Civil Veil Division, Kita, intake desk, 09:14"
-  },
-  {
    "p": "The building looked like a tax office. It was meant to."
   },
   {
@@ -50,6 +46,10 @@
   },
   {
    "break": "The waiting chairs"
+  },
+  {
+   "img": "ch9_identify.png",
+   "cap": "The waiting chairs in the intake hall"
   },
   {
    "p": "While he waited, he read what the hall gave him to read. On a clipboard chained to the counter there was a stack of registration intake forms, the kind people filled in when they walked in off the street to be measured. The second page was a grid of tick boxes. Gin had told him once, without explaining, that every number in the Directorate came from that one page."
@@ -121,10 +121,6 @@
    "p": "Rei sat with his hands between his knees until they stopped shaking. <em>Stay sloppy. Stay unremarkable.</em> It had worked. It had worked in the one building in the city built to catch him, and he could not decide whether that made him feel safe or entirely alone."
   },
   {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The liaison who agrees with everything"
-  },
-  {
    "p": "They sent him eventually to a man named Sekine, whose office was a glass box on the fourth floor with a view of the air-handling units and a plant doing the slow, patient work of dying in a corner. Sekine was kind in the way that costs nothing. He stood when Rei came in. He offered him the good chair. He used Gin's given name as if they had been at school together. Within ninety seconds Rei understood that the kindness was the interface, the soft cladding the building wore so that its hardness never had to touch anyone directly."
   },
   {
@@ -152,10 +148,6 @@
    "p": "The word <em>helped</em> went into Rei like cold water down a wall. He had heard it before, in his brother's flat, in the cadence of a thing that did favours. He knew now that the briefing they had kept quiet was never a briefing at all. It was a clearing of the room."
   },
   {
-   "img": "cvdroom_assessment_registry.jpg",
-   "cap": "The corridor, and the badge that still works"
-  },
-  {
    "p": "He left through the same turnstile he had come in by. On instinct, the bad, useful instinct of a person who has stopped believing the official story, he took out the visitor's lanyard they had clipped to him at the door and looked at it properly for the first time."
   },
   {
@@ -163,6 +155,10 @@
   },
   {
    "p": "For one impossible second Rei read it as a message from his brother, a hand reaching out of the machine. Then the colder reading arrived. The vacant chair was not empty. Something was sitting in it long enough to issue credentials, quietly, in his brother's authority, and it had just, by accident or by design, handed him the keys to the building that said Gin was not missing."
+  },
+  {
+   "img": "cvd_withheld.png",
+   "cap": "The corridor outside intake and the plain door halfway along"
   },
   {
    "p": "The corridor outside intake ran long and fluorescent toward the lifts. Halfway along it he passed a plain door with a plain plate. <em>Assessment and Registry.</em> Below it, on a slip of card in a holder, the names of that week's panel, and the second of them was <em>Okada S.</em> The door stood open a hand's width. Inside there was a single chair facing a desk, and an instrument on the desk, and nothing else. Rei knew that room from Gin's list too. <em>The intake chair. Where an aperture becomes a rank and a number. I have sat in it lying.</em> Six years of sitting in that chair and being measured wrong on purpose. <em>It is the most important work I ever did,</em> Gin had written, <em>and no one will ever know I did it.</em> Rei did not slow down. Slowing down would have been interesting."

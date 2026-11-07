@@ -4,10 +4,6 @@
  "src": "m_leans",
  "blocks": [
   {
-   "img": "thirteen_VI_watanabe_jun.jpg",
-   "cap": "The whole engine, finally, on one page in the back of Gin's book"
-  },
-  {
    "p": "Rei took everything back to the kitchen. The kitchen was where this had begun, and he had learned that month that he understood a thing best in the room where it had cost him the most."
   },
   {
@@ -67,6 +63,10 @@
    "p": "Rei did not burn it. He laid it flat beside Gin's book and opened the book to the chapter Gin had put off writing the longest, the one about who controlled what."
   },
   {
+   "img": "char_director-adachi-kenshin.png",
+   "cap": "Director Adachi Kenshin of the CVD"
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "Gin's book, Chapter Twenty-Three. The Political World",
@@ -85,6 +85,10 @@
   },
   {
    "p": "Rei read the last line about the map three times, the way he had read his own sentence. The middle of mine is left empty on purpose. Gin had drawn the city with a hole where the power should be. Hagiwara Mizuki wanted to fill that hole with a lid."
+  },
+  {
+   "img": "ch27_politics.png",
+   "cap": "The political world above the CVD"
   },
   {
    "p": "He understood her better than he wanted to. She sat in a glass office in Marunouchi above the CVD's public face, and she was the third position on Gin's page given a budget and a kind voice. Not cruelty. Tidiness. The public slept because someone kept the lie tidy, and she was the someone. Her lid did not save Gin. It did not save the twelve. It only made sure that whatever happened to them happened where no one would have to look at it. Rei crossed it out before he had finished reading it, and the crossing-out felt like the only easy decision of the month."

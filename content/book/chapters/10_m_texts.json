@@ -6,8 +6,8 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "res_apartmentreiroom.jpg",
-   "cap": "The train platform, Obon eve, your thumb over a name you have texted ten thousand times"
+   "img": "map_trains.png",
+   "cap": "The Yamanote platform on the eve of Obon"
   },
   {
    "p": "The departure board at the Yamanote platform flicked over, and over, and over, and Rei stayed where he was. A train came in, breathed out its doors, swallowed a family in matching yukata, and left without him."
@@ -40,6 +40,10 @@
    "p": "There was a line in Gin's book about that, in the list of ways to read a demon from inside a room. Gin had rated it low, because it took time to see. <em>The presentation is always slightly more consistent than a human would naturally be. A human has bad days, contradictions. A well-maintained cover has fewer of these. The smoothness itself is a tell. Real people are messier.</em>"
   },
   {
+   "img": "ch1_public.png",
+   "cap": "The station crowds on the eve of Obon"
+  },
+  {
    "p": "The Obon crowds moved around him in summer yukata. There were paper fans, and the smell of grilled corn from the station stalls, and families carrying small lanterns home to set out for their dead. He should have got on the train. He let three trains go."
   },
   {
@@ -47,10 +51,6 @@
   },
   {
    "p": "He watched the dots. The dots thought about it. They appeared, and rested, and vanished, and appeared again. In the whole recorded history of Rei's phone, Gin had never made the dots think. The thing about to answer was choosing. And the one thing in the world it was being careful not to give him was a place."
-  },
-  {
-   "img": "char_kurosawa-shou.jpg",
-   "cap": "The memory you set like a snare, and the answer that walks around it"
   },
   {
    "p": "He decided to spend something he could not get back. He would set a test with a false edge in it."
@@ -81,10 +81,6 @@
   },
   {
    "p": "He thought of another line, from the same chapter. Gin had called it instrumental orientation. <em>Genuine relationships modulate based on the other party's needs. Demon engagement increases pressure when the practitioner is vulnerable and decreases when the practitioner is stable.</em> Rei looked back up the thread. The warmest message had come in the minute after his hardest one. The thing had felt him sag on the bench, through a screen, and leaned in."
-  },
-  {
-   "img": "ch3_thinspot.jpg",
-   "cap": "The line it will not stop repeating, and the thing it is steering you away from"
   },
   {
    "p": "He started a new message. He typed <em>Gin</em>, and a question mark, and then he stopped with his thumb over send."

@@ -4,10 +4,6 @@
  "src": "m_ledgergrows",
  "blocks": [
   {
-   "img": "char_director-adachi-kenshin.jpg",
-   "cap": "The count that will not hold still"
-  },
-  {
    "p": "Rei began the way he had been taught to begin a body. First establish what is fixed. Only then trust anything that moves. Thirty-one entries, he had told himself. Thirty-one leashes in his brother's neat hand, a finite shape he could walk the edges of in a single sweltering Obon week."
   },
   {
@@ -18,10 +14,6 @@
   },
   {
    "p": "He counted once more, slowly, touching each line. Thirty-three. Two names he had never met had been added to his brother's list of the saved since he had decided to save Gin. The symmetry was so clean it turned his stomach. Every step he took toward Gin, the thing wearing Gin took a step into someone else, and the rope grew from both ends at once. Somewhere out there a man in Sumida was sleeping soundly for the first time in months. He would weep with gratitude if Rei told him why. And Rei was the only person in Tokyo who understood that the man's good night's sleep was a knot, and that Rei was standing at the end of the rope it was tied to."
-  },
-  {
-   "img": "ch19_possessed_leader.jpg",
-   "cap": "What the dates make when they are lined up"
   },
   {
    "p": "He gave in and built the timeline, because the dead had taught him that chronology is the one thing grief cannot argue with. He tore a long strip from the back of Gin's archive notebook and laid the favours along it by the day each was granted. The heat-thick room went quiet around him, the way rooms go quiet when a pattern that was hiding in plain noise finally stands up."
@@ -66,6 +58,10 @@
      "Fragment persistence. Absorbed souls remain as resonant structures inside the absorber. The more someone had, the more remains to echo."
     ]
    }
+  },
+  {
+   "img": "ch13_fragment.png",
+   "cap": "Fragment reading, case papers spread across a desk"
   },
   {
    "doc": {
@@ -115,11 +111,11 @@
    "p": "Then he found his own dates on the strip without meaning to look for them. The morning he came to the apartment. The night he read the archive in the order it demanded. The afternoon he stood in the drained pool listening to Kaito preach the true things stacked wrong. Beside each one, within a day, there was a fresh favour. The correlation was not perfect, and Rei made himself say that too, because false certainty is its own kind of possession. But it was close enough that the alternative, coincidence, now cost more belief than the truth did. He was being answered. Every question he asked of the dark got answered in the body of a stranger. The kindness of the reply was the cruelest part. There was no one he could warn who would not first have to stop being grateful."
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "The entry it wrote for Rei to find"
+   "p": "He fell asleep at the table sometime before dawn. When he woke, grey light was on the strip of dates and there was a thirty-fourth entry in the ledger."
   },
   {
-   "p": "He fell asleep at the table sometime before dawn. When he woke, grey light was on the strip of dates and there was a thirty-fourth entry in the ledger."
+   "img": "tools_trap.png",
+   "cap": "The sulfur line across the threshold"
   },
   {
    "p": "The first thing he did was check the sulfur. The yellow line across the threshold was exactly as he had laid it. So was the line beside the notebook, pale and dry and unchanged. Either nothing had crossed the door, or something had crossed it that had learned long ago not to leave a mark. <em>Assume trace suppression is active.</em> Gin's page could not tell him which, and neither could the sulfur."

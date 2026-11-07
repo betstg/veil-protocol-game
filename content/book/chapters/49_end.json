@@ -4,10 +4,6 @@
  "src": "end",
  "blocks": [
   {
-   "img": "char_the-axis.jpg",
-   "cap": "The end. The Anchor"
-  },
-  {
    "p": "All along the river the sending fires were being lit. Small fires of hemp stalks on doorsteps and in tin trays, one for every house that had a dead person to send home, thousands of them, so that from the embankment the whole of Kita looked like a city of candles laid out on black cloth. On the near bank the smoke went up straight. On the far bank, the one that was not there, the same smoke went up a degree crooked, and something tall and patient leaned over every fire to warm its hands."
   },
   {
@@ -75,6 +71,10 @@
   },
   {
    "break": "What the Healer wanted"
+  },
+  {
+   "img": "ext_sojo.png",
+   "cap": "Tachibana Yushiro, the Healer, speaking with Gin's face"
   },
   {
    "p": "\"I never wanted your chair,\" Tachibana Yushiro said."
@@ -218,6 +218,10 @@
    "break": "The man at the centre"
   },
   {
+   "img": "finale_two_thirteens.png",
+   "cap": "Rei and Kuze Kaname face to face at the centre"
+  },
+  {
    "p": "When Rei looked down again, the man at the centre was looking back at him."
   },
   {
@@ -338,10 +342,22 @@
    "p": "Mrs. Okuma taught him to light a lantern properly, the bad-anniversary lantern and the ordinary kind. She came down to the memorial every evening to see whether he was doing it right. He never quite was. She had to keep coming. By the next March she had stopped speaking of the river as a place she was going."
   },
   {
+   "img": "ext_kishi.png",
+   "cap": "Mr. Kishi, who never left Tsuru-no-yu"
+  },
+  {
    "p": "He went to Tsuru-no-yu, at last, the way Gin had been telling him to for years. Behind the market, under the brick chimney. Mrs. Hara looked up from the high desk and said, \"Mind the step,\" and then, to the empty bench by the far tub, \"That's the younger one, Kishi-san. Finally.\" The far tub was warm with no fire under it. Mr. Kishi had soaked there for forty years and died in 2009, the same year the thirteenth seat went empty, and simply stayed. Mrs. Hara was seventy-one. She had a list of every dead person in the ward and the corner each had died on, and she meant to teach it to one person before she went, so that whoever kept Mr. Kishi company after her would know who he was talking to. She had chosen Rei. He came on Tuesdays."
   },
   {
+   "img": "ext_child.png",
+   "cap": "The child in the empty seat at the Suzuran"
+  },
+  {
    "p": "At two in the morning one night, unable to sleep with the weight, he walked into the Suzuran, the little bar pressed up against the worst of the ward's thin spots, where a cat slept on the till and the rule was that nobody pointed at it. A woman with long ash-grey hair sat at the back in the same coat she wore in every season, murmuring to the empty seat beside her. A child sat in it. Only she could see him. Only she, and now Rei. Beside her, nursing a whisky somebody had bought him, sat Sugimoto Hiroshi, the homeless professor, the one person she would talk to. Rei did not try to clear anything. He sat with the two of them until four, and listened, and the second time he came Sugimoto had got her to say it out loud. A fire, years ago. She had been the neighbour who got out. The thing to release had never been the child. It was her guilt. It took a month. Then one night the seat beside her was empty, and she went home, and the next evening the barman said she had not come in, and Rei hoped with his whole heart that it was because she was asleep."
+  },
+  {
+   "img": "ext_mentor.png",
+   "cap": "Leo's teacher, the voice in the club mirror"
   },
   {
    "p": "He went back to Eomma's in Shin-Ōkubo on a Thursday, after Park Junho's class at the community centre, and found the young man in the good suit eating ramyeon alone at the corner table again. His working name was Leo. His real name was Sato. Rei sat down across from him and told him what he was. A medium, untrained, unregistered, reading the room at the club with a gift he had always called intuition. And that the voice he sometimes heard in the mirror before a hard table was real, and was a man who had loved him and taught him the trade and wanted him out of it before it ate him too. Leo cried into his noodles, very elegantly. The next time Rei passed the black window at the corner table, there was only one face in it."
@@ -357,6 +373,10 @@
   },
   {
    "p": "It took him a long time to come back. He was not the man who went in. He was slower. He forgot things and was frightened by the forgetting. Some mornings he stood at the cooker with the pan in his hand and could not remember what he had meant to make, and Rei would say <em>curry</em> or <em>the egg thing</em> and Gin would say <em>yes</em> as if Rei had handed him back a word. He did not wear the grey cardigan again. He threw it out himself. But he was there. He wrote again, in a hand that stood upright, and sometimes in the evenings he read aloud from the archive in a voice that was entirely his own, and if anything in him leaned, Rei never felt it."
+  },
+  {
+   "img": "char_sasaki-daiki.png",
+   "cap": "Sasaki Daiki, Rei's oldest friend"
   },
   {
    "p": "Daiki came round on the first Friday Gin was well enough to have people. Sasaki Daiki, two stops away on the line, Rei's oldest friend, who had kept texting all month without ever getting a straight answer and had never once stopped. He sat down at the kitchen table where the kettle had gone cold on the first morning and Gin put a plate in front of him, and Daiki ate like he had been starving. He had been, a little. He had been worried. He did not ask what had happened. He asked for seconds."

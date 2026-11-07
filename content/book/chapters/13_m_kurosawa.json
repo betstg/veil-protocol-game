@@ -6,11 +6,11 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "char_kurosawa-shou.jpg",
-   "cap": "Sub-level four, where the building keeps the bodies it would rather not believe"
+   "p": "He went down past the floors that had names, past the floors that had only numbers, to the floor the directory listed as <em>archival storage, climate-controlled</em>. Everyone who had been there called it the cold room."
   },
   {
-   "p": "He went down past the floors that had names, past the floors that had only numbers, to the floor the directory listed as <em>archival storage, climate-controlled</em>. Everyone who had been there called it the cold room."
+   "img": "char_kurosawa-shou.png",
+   "cap": "Kurosawa Shou, who reads what a possession leaves behind"
   },
   {
    "p": "Kurosawa was waiting the way a man waits who has spent two years deciding whether he is a coward. He was already on his feet when the lift opened, already reading Rei's face for how much he had guessed."
@@ -20,6 +20,10 @@
   },
   {
    "p": "Kurosawa looked at the cup longest. He did not ask why Rei had kept it. He understood keeping."
+  },
+  {
+   "img": "ch6_reading.png",
+   "cap": "The steel table on sub-level four"
   },
   {
    "p": "The cold room was not cold for the bodies. There were no bodies here. There were only their residues, the signatures that cling to objects the way smoke clings to wool. Kurosawa explained this while he laid a black cloth on the steel table and weighted its corners. His voice was low and even, pitched under the hum of machines that were not, he said, switched to record."
@@ -78,10 +82,6 @@
    "p": "So Rei stood very still and breathed shallow. He watched Kurosawa's hands over the cup his brother's mouth had touched, and he waited to be told what he already could not un-know."
   },
   {
-   "img": "res_archive.jpg",
-   "cap": "The under-image: what a possession looks like when it is not a fever"
-  },
-  {
    "p": "When Kurosawa finally spoke, it was not with the relief of a man delivering a diagnosis. It was with the unease of a man who has found something his training does not have a drawer for."
   },
   {
@@ -137,10 +137,6 @@
   },
   {
    "p": "\"It was the thing that is now wearing him. Preparing. Thinning the membrane toward him a little at a time, patient, and wearing the exact quality of structural attention he had been taught to expect. He had the framework for one and not the other.\" Kurosawa took his hand back. \"Do not blame him for that. The best practitioners in this building would have made the same mistake. They would have made it faster.\""
-  },
-  {
-   "img": "res_pharmacist.jpg",
-   "cap": "The mark a reading leaves, and the one Kurosawa cannot scrub off"
   },
   {
    "p": "He wrapped the cup again himself, slowly, the way a mourner wraps a thing that is going back into a grave. Then he stopped, and unwrapped one corner, and held his palm over it again with a frown, as if he had heard a second voice in a room he thought was empty."

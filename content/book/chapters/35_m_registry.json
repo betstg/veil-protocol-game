@@ -4,10 +4,6 @@
  "src": "m_registry",
  "blocks": [
   {
-   "img": "cvdroom_the_records_archive.jpg",
-   "cap": "The locked case gives up the page it was built to hide"
-  },
-  {
    "p": "The deep drawer at the bottom of Higuchi's case was the one closed door in Rei's whole month that had not locked itself. So it was the one he trusted least, and the one he put off longest."
   },
   {
@@ -15,6 +11,10 @@
   },
   {
    "p": "There was no grimoire. There was no spellbook, no contract that smelled of sulphur, none of the furniture the films had promised for a moment like this."
+  },
+  {
+   "img": "res_library.png",
+   "cap": "The ledger from the deep drawer, read by lamplight"
   },
   {
    "p": "There was a ledger. A plain accountant's ledger, the kind his father had kept, ruled in faint blue. The early pages were in an old, cramped hand, the dead exorcist's. Names had been entered there decades ago and crossed out and entered again as the years went by. The later pages were in Higuchi's careful script. Across the top of the newest page, in a hand so careful it must have taken the writer an hour, was one word."
@@ -66,10 +66,6 @@
   },
   {
    "p": "Rei sat back on the bookshop floor and understood, finally and completely, what his brother had been pulled toward all month. Not a throne. Not a power. A vacancy. The one unbearable thing the registry had been built never to allow. An office of the wall left unmanned, and leaning."
-  },
-  {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "How a chair leans, written out in careful blue ink"
   },
   {
    "p": "Higuchi had not only listed the thirteen. He had explained them, in a long note that ran sideways up the margin of the page. The writing got smaller and more frightened the higher it climbed. Rei turned the ledger on its side and read the only honest account of the wall he had ever been given."

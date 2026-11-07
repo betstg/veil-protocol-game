@@ -4,10 +4,6 @@
  "src": "m_offer",
  "blocks": [
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "Mercy, itemized, and held out in his brother's hands"
-  },
-  {
    "p": "It made him the offer on the second night, in the small hours, in the one place he had not expected it. His own kitchen. The cold kettle, the table, the chair, the exact geometry of the morning everything started. The Healer had spent a month in Gin's memories, and it knew precisely which room would do the most work for it."
   },
   {
@@ -18,10 +14,6 @@
   },
   {
    "p": "It was the most reasonable offer anyone had ever made him, and it was built entirely of true things. Rei sat in the chair from the morning everything started and felt the exact angle at which it drowned. Because it was not lying. He probably could take the seat. The wall probably would close. Gin probably would be set down whole. And the thing it did not itemize, because it did not need to, because it knew he could already feel it, was what became of the person who held the difference. There was no climbing back up from a Domain. Rei had seen the man at the hub. The load was permanent and total and not human. He would save his brother by becoming a pressure with a name Gin almost knew, a law instead of a brother, eyes in a dark room that Gin could feel and never again sit across a kitchen table from. It offered him everyone's life but his own. It offered it gently, and it meant it, and that was the worst part. The kindest exit in the structure was the one where he stopped, forever, being someone Gin could come home to."
-  },
-  {
-   "img": "char_uedera-gin.jpg",
-   "cap": "The brother in the gap, spending his last lucid strength"
   },
   {
    "p": "Gin surfaced while the offer was still warm on the table. The real one, coming up through the evenness for about as long as a held breath can last. Rei knew him instantly, because the mercy went out of the eyes and what came up behind it was tired and frightened and entirely Gin. He could not hold it long. He spent what he had on the only things that mattered, fast, the way a man speaks underwater."
@@ -57,10 +49,18 @@
    "p": "\"I'll show you what there is,\" she said. \"Then you choose. I won't choose for you.\""
   },
   {
+   "img": "cvdroom_training_hall.png",
+   "cap": "The CVD Training Hall"
+  },
+  {
    "p": "She walked him the long way, and he understood later that she had meant him to see it. They passed a wide window onto the Training Hall. There were mats on the floor and ward-lines burned black into the boards, and at the far end a low-class spirit on a tether, a smear of cold the new ones took turns practising their reading on. The trainees were young. Seventeen, most of them. One of them said something and the rest burst out laughing, the loud, specific laughter of frightened people covering for it, and an instructor told them to settle down without much heat. \"They teach the half that keeps the institution comfortable,\" Okada said. \"Your brother used to say that. He wrote the other half down.\""
   },
   {
    "p": "They passed the Sigil Room, and Rei smelled it before he saw it. Sumi and blood. Long benches, master hands, the scratch of brush on washi the only sound. At the back of the room a curtain hung across a single bench. \"That's where they make an operative into someone the registry can't read,\" Okada said, low. \"You don't watch them work, and you don't choose the artist. Gin learned his own keying so he'd never have to sit there again.\" She kept walking."
+  },
+  {
+   "img": "cvdroom_mirror_room.png",
+   "cap": "The Mirror Room, which never closes"
   },
   {
    "p": "There was a door with no window and a Surveillance seal, and a faint sound behind it like birds in a far-off tree. \"The Mirror Room,\" Okada said, without slowing. \"I told you about it once. Now you know what the mirrors are bound to. Every one of them a crow somebody fed for three days.\" She did not look at the door. \"It never closes.\" She tilted her head at the next door along, which had a number and nothing else. \"And that one is Special Cases. That's where the possession that should not work goes, and the operative who came back wrong. They study them gently and everyone calls it care.\" She stopped then, and looked at him. \"Ask me how many people have gone where you want to go. Then ask me how many came back right. Most of the ones who came back at all came back wrong, Rei. Some of them are very calm about it. One of them gardens. It's in the file.\""
@@ -69,7 +69,15 @@
    "p": "Rei did not answer. She nodded as if he had, and opened a door at the end of the corridor that ought to have opened onto a stairwell."
   },
   {
+   "img": "cvd_camp.png",
+   "cap": "The walled green three floors underground"
+  },
+  {
    "p": "It opened onto grass. A walled green under an open sky, impossible three floors underground, with a sparring circle worn down to dirt in the middle of it. At the far end, where the instructors could see and the new ones could not, two mediums were working live against each other, one of them on her knees and getting up again. \"Channel rank and above for that,\" Okada said. \"Forms for everybody else. You leave here knowing what your ability does when a hand is genuinely trying to end you.\" Along one wall stood an aviary, all racket and crow-squabble, and on a perch at its end sat a falcon with a hood pushed back off its head. It turned its eyes on Rei and held them. He had the clear sense of being seen on both sides of the wall at once. \"It can see the veil,\" Okada said. \"Trained. It frightened your brother more than the sparring did.\""
+  },
+  {
+   "img": "cvdroom_cattery.png",
+   "cap": "The cattery, five cats on five cushions"
   },
   {
    "p": "The last door was warm. The room behind it smelled of clean straw and old paper. Five cats lay on five cushions, each with a small brass tag. <em>Sera. Itou. Mochida. Hara. Kuga.</em> \"Names of five operatives who didn't come back,\" Okada said quietly. \"The handler named the cats for them.\" The senior handler was a woman who did not give her name and did not look up from the cat in her lap. Kuga was on the cushion by the window, a big grey animal with torn ears, and he did not look up either."
@@ -97,10 +105,6 @@
   },
   {
    "p": "Okada signed the cat out on a clipboard by the door, under her own name, and Rei watched her do it and knew exactly what rule she was breaking and how much she would hate herself for it later. She did not say anything about it. She only said, \"The node behind the Senju waterworks. Gin marked it smallest. The smallest tear is the one most likely to let a living man back out. I'll meet you there after dark with the water.\""
-  },
-  {
-   "img": "char_the-axis.jpg",
-   "cap": "The hinge, and the choice that sets which fire is lit"
   },
   {
    "p": "The third night came the way the bottom of a held breath comes. Rei stood at the seam in Kita with a cat carrier at his feet, and below him the first sending-fires were being lit, early, in the old streets, the way Kita lit everything early now. Okuribi, the gentle farewell. Small flames guiding the dead back to the other side, every one of them a family's tenderness, and every one of them, this year, a fraction of the pull the Healer had spent a month preparing to borrow. He could feel the hinge through his two opened paths. The great seasonal lean of the world was beginning to turn from welcome to farewell. And at the pitch of each small swing the curtain over the wound went from thin to almost nothing, and he could feel how it would be on the last night, when the swing was total and the door stood open in both directions at once."

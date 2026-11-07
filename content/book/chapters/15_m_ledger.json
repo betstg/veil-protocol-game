@@ -4,10 +4,6 @@
  "src": "m_ledger",
  "blocks": [
   {
-   "img": "currency_prices.jpg",
-   "cap": "Gin's accounts, kept in a hand that learned to be helpful"
-  },
-  {
    "p": "Rei spread his brother's papers across the low table the way a body is laid out for washing. He sorted them by region, then by what was left. The official case files were clean to the point of insult. Every margin was squared. Every closure was signed off in a fortnight, on cases that should have taken a season. The tidiness did not reassure him. It raised the hair on his arms, because he had learned this week that the thing wearing Gin loved order the way a tourniquet loves a limb."
   },
   {
@@ -27,6 +23,10 @@
   },
   {
    "p": "Rei laughed once, out loud, in the empty flat. It was true. Eighty thousand a month, and fifteen thousand of his own when the week began, and most of that gone now on trains and cold tea. Gin had written it down as if his little brother were a line in a field budget. Then he had added the joke about the coffee maker, because he could not help himself."
+  },
+  {
+   "img": "currency_prices.png",
+   "cap": "Gin's price list and the month's money"
   },
   {
    "p": "The next page was a price list, written in the same patient hand. Rei read it slowly. It was the closest thing he had to Gin's voice telling him how to live."
@@ -59,20 +59,24 @@
    "break": "The other ledger"
   },
   {
+   "img": "entity_accounts_open.png",
+   "cap": "The other ledger, a cheap notebook of favours"
+  },
+  {
    "p": "Under the files and the money, in a cheap notebook with a bent spine, was the other ledger. It was a list of favours. Each one was small. Each one was dated after the fourteenth. Each one was a person helped across some private threshold they could not cross alone."
   },
   {
    "p": "A widow in Adachi, whose husband would not stop knocking on the inside of the family altar. <em>Soothed,</em> Gin's note said. <em>Given rest, both of them.</em> A boy in Kita who heard the 2011 dead in the gutters when it rained. <em>Shown how to listen without drowning.</em> A pharmacist sinking under a debt no salary could touch. <em>Relieved.</em>"
   },
   {
+   "img": "res_pharmacist.png",
+   "cap": "A pharmacist sinking under a debt, one of the names in the ledger"
+  },
+  {
    "p": "Read one at a time, each entry was a kindness. That was the horror of it. Mercy and recruitment used the same handwriting. Rei sat in the Obon heat with the neighbours' incense drifting through the screen, and he understood that this was not a record of help. It was a map of leashes. Every grateful person on it was a thread the Healer was still holding."
   },
   {
    "p": "He counted the entries twice. There were thirty-one. Thirty-one people in this city who would, if he knocked tonight, tell him with shining eyes that his brother had saved them. And without knowing it, every one of them would lie to his face about where Gin slept. Gratitude is the cleanest counterfeit of love, and the thing in Gin had been minting it for a month."
-  },
-  {
-   "img": "ext_sojo.jpg",
-   "cap": "The widow who would not be saved from her saviour"
   },
   {
    "p": "He started with the widow, because she was first on the list and because Adachi was one change of train away. Her house was a narrow two-storey place with potted morning glories on the step. She opened the door, looked at his face for a long second, and said, \"You're his brother.\" Then she made him tea he did not want."

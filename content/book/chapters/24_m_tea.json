@@ -4,10 +4,6 @@
  "src": "m_tea",
  "blocks": [
   {
-   "img": "char_fukai-rinka-kishin.jpg",
-   "cap": "What it wants is never money"
-  },
-  {
    "p": "The tea was genmaicha, toasted and ordinary, and it was the most dangerous thing Rei had drunk all week precisely because it was so ordinary. Kishin understood that the way to a guarded person is not through fear. It is through the small kindness they have been too busy to receive. Rinka poured and asked, in the host's voice, whether he had eaten. Whether he was sleeping. Whether the heat was keeping him up. Each question landed in the part of him that no one had asked since the fourteenth, the part that had been holding his brother's vanishing alone in a city of nine million. He had to set the cup down to keep his hand from being read."
   },
   {
@@ -38,6 +34,10 @@
    "p": "Around them the circle was ending. People were stretching their legs and murmuring. An older woman in an apron moved round the ring with a lacquer box, and each person laid an envelope in it with a name written on the front. She carried the box to a cupboard and locked it and put the key on a cord round her neck. Then she checked the clock against a handwritten timetable taped inside the cupboard door and wrote something on it."
   },
   {
+   "img": "ch17_knowledge.png",
+   "cap": "The circle's Keeper, who holds the money, the room and the schedule"
+  },
+  {
    "p": "\"Our Keeper,\" Rinka said, following his eyes. \"She keeps the house. The money, the room, the schedule, the photographs on the wall. Without her none of this would stand up for a week.\""
   },
   {
@@ -62,10 +62,6 @@
    "p": "The rites were laid out in front of him if he chose to see them. The naming, when the ring first called the presence the Far Shore and spoke of it as a being owed devotion. The offering, the envelopes in the lacquer box, the names of the dead given every week. The proof, the cold shimmer at the centre, the moment each mourner heard a beloved voice in the ear exactly when doubt would have come. And somewhere past those, kept private, the binding rite. Gin said that if you could find a group's binding rite, you had found the exact line between its victims and its participants."
   },
   {
-   "img": "res_archive.jpg",
-   "cap": "The price named, almost"
-  },
-  {
    "p": "Rei named a price, because he would not leave owing a thing he could not see. He had watched what unseen debts did to the people in his brother's ledger. Kishin smiled through Rinka's mouth and told him the cost in the only currency it kept."
   },
   {
@@ -73,6 +69,10 @@
   },
   {
    "p": "So that was the binding rite. Not a blade or an oath. A seat on the eastern side and one evening's relief."
+  },
+  {
+   "img": "ch19_funnel.png",
+   "cap": "A circle of chairs, the funnel that draws people down"
   },
   {
    "p": "Rei mapped it then, the way he would map a poisoning, on the widow who had whispered to him. Gin had walked the funnel backward with enough former members to draw it, and it was the same shape almost every time. First the hook. A real experience of the veil. Her husband's voice in the tide at the seawall, a thing that had actually happened to her, and you cannot argue someone out of a thing that actually happened to them. Then the meeting. Someone who did not say she had imagined it. Someone who took both her hands and said I know what that was, and you are not alone, and there are others. The validation is the recruitment, Gin had written. Everything after is detail. Then the frame. A name for it, a doctrine, the far shore where the dead wait, and a being at the centre who could reach them and was owed something for it. Then the deepening. Come once. Come weekly. Bring a name in an envelope. Stop seeing the sister who said this was not healthy. A flat demand would be refused. A slope is walked. And last the lock. The thing you cannot take back. The eastern seat."

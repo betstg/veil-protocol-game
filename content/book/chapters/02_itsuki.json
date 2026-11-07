@@ -6,10 +6,6 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "char_kuroda-itsuki.jpg",
-   "cap": "Itsuki's studio at Geidai, before the cleaners"
-  },
-  {
    "p": "Eleven bridges leaned against the walls of the studio, and every one of them was wrong."
   },
   {
@@ -20,6 +16,10 @@
   },
   {
    "p": "“I never sold one,” Itsuki said. “People ask. I always say they're not finished.” He laughed, and it did not work. “They're not finished.”"
+  },
+  {
+   "img": "char_kuroda-itsuki.png",
+   "cap": "Kuroda Itsuki, with paint under every nail"
   },
   {
    "p": "Kuroda Itsuki was twenty. He had a grown-out bleached streak in his black hair, paint under every nail, and a laptop he had rebuilt three times balanced on a stool beside the easel, its screen full of code. He and Rei had been friends since middle school. For the last two years he had also been Gin's illustrator. Gin brought him pages of strange symbols, circles and broken lines and knots, and asked him to draw them clean. Itsuki drew them and thought they were diagrams. He had built Gin a search program for the archive, too, so Gin could find a case by a single word."
@@ -85,8 +85,8 @@
    "p": "Itsuki opened his mouth to argue. Then he closed it and picked up his jacket. That was how Rei knew how frightened he was."
   },
   {
-   "img": "tower_kuroda.jpg",
-   "cap": "The Kuroda compound, Nezu"
+   "img": "tower_kuroda.png",
+   "cap": "The Kuroda family, the Teleportation house in Nezu"
   },
   {
    "p": "Nezu was still dark when they came out of the station. Old money lived here, and old silence. The Kuroda compound did not have a sign. It had a wall that had outlived three governments, a gate of black wood, and over everything a stillness that was not peace. It was attention. The whole house felt like something holding its breath to hear better."
@@ -135,10 +135,6 @@
   },
   {
    "p": "The cousin studied him the way a buyer studies a price. Then she stepped aside."
-  },
-  {
-   "img": "char_kuroda-sei.jpg",
-   "cap": "Kuroda Sei, and the family's anchor-stone"
   },
   {
    "p": "Kuroda Sei received them in a room with nothing in it but a low table and the grey beginnings of light at the paper screens."

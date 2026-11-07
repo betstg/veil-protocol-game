@@ -4,11 +4,11 @@
  "src": "s_longing",
  "blocks": [
   {
-   "img": "thirteen_XI_park_junho.jpg",
-   "cap": "The street that smells like somewhere else"
+   "p": "Rei found the eleventh seat the way the bookseller's note told him to find it. Not by an address. By a hunger that was not his own, in a street that had spent thirty years learning to smell like home for people who had left theirs behind."
   },
   {
-   "p": "Rei found the eleventh seat the way the bookseller's note told him to find it. Not by an address. By a hunger that was not his own, in a street that had spent thirty years learning to smell like home for people who had left theirs behind."
+   "img": "place_toyoko.png",
+   "cap": "Shin-Ōkubo at midnight"
   },
   {
    "p": "Shin-Ōkubo at midnight, in the second week of Obon, was a long bright corridor of Korean signs and Korean cooking. The air was thick with grilling pork and fermented chilli and the sugar smoke of street toast. Under all of it, threading through the festival crowd the way the cold had threaded the stairwell, ran a low constant pull. Rei knew it now on contact. It was not the pull of <em>more</em>, the way the Hunger seat had pulled. It was the pull of <em>back</em>. A leaning toward something behind him. A reaching for a place that was always one country and several years away."
@@ -41,10 +41,6 @@
    "p": "\"This room makes people miss what they can't have,\" Park Junho said. He was still facing the altar, his shoulders set against the load. \"That's all it does. It doesn't lie. It turns the longing all the way up and won't let it down again. And during Obon, with the dead so close, that is a very dangerous thing to do to people who came here because they were already missing someone.\""
   },
   {
-   "img": "finale_two_thirteens.jpg",
-   "cap": "What the eleventh seat costs to hold"
-  },
-  {
    "p": "He told Rei the rest kneeling. To tell it standing he would have had to leave the altar, and the altar was where he kept the room from spilling out the second door into a street full of the homesick."
   },
   {
@@ -58,6 +54,10 @@
   },
   {
    "p": "The paper door slid behind them. A woman in her fifties came in without knocking, down the narrow stair from the rooms above the restaurant, a drumstick still tucked through her belt. She set a cup of barley tea at Park Junho's knee and another at Rei's, and looked at Rei for a long moment with small black eyes that missed nothing."
+  },
+  {
+   "img": "place_mudang.png",
+   "cap": "Pak Sun-ja, the mudang, at work in her shrine room"
   },
   {
    "p": "\"Pak Sun-ja,\" Park Junho said, by way of introduction, without lifting his eyes from the altar. \"She lives upstairs. Her shrine is behind the curtain up there. She keeps my secret, and she let me have this room when I needed a low place.\""
@@ -85,10 +85,6 @@
   },
   {
    "p": "\"You've got a home you can't get to either,\" he said quietly. \"Walled off. I can feel it leaking from here. How do you kneel in this room and not go under?\""
-  },
-  {
-   "img": "res_archive.jpg",
-   "cap": "The woman who called him son"
   },
   {
    "p": "Rei asked him the question he asked all of them now. He had stopped believing in coincidence and had learned to read the handwriting."
@@ -133,10 +129,6 @@
    "p": "\"So before I let her in, tell me what you are. Because I think you might be the only one who could kneel here in my place long enough for me to want this and not do it.\""
   },
   {
-   "img": "ch3_thinspot.jpg",
-   "cap": "Kneel in the lowest place so he can stand"
-  },
-  {
    "p": "The act was not the soup. It was not the flight home. Rei had knelt in the pool long enough to see the trap whole. Park Junho could not go home, because going home closed the gap and raised the flood. He could not stay, because staying meant kneeling forever in a cold he was bleeding into faster than he could drain. The woman offered him homecoming and poisoned it. The room offered him purpose and never let him arrive. It was the same sentence wearing two faces."
   },
   {
@@ -168,10 +160,6 @@
   },
   {
    "p": "Something in him had eased that the soup could never have eased. Not the longing. The longing was distance and would always be distance. What eased was the fifteen-year cramp of a man who thought the only roads open to him were a flight that flooded the street or a floor he knelt on until he died. Rei had not freed the eleventh seat. He had shown its holder that the lowest place could be shared, that a gap could be carried in company. That was the one thing the soft-voiced woman's homecoming could never give him, because hers closed the gap and Rei's only knelt beside it."
-  },
-  {
-   "img": "tools_trap.jpg",
-   "cap": "The soup that goes cold on the altar"
   },
   {
    "p": "Han-ssi came while Park Junho was still standing. She was exactly as he had described. A warm, ordinary woman in late middle age, a covered bowl held in a cloth against its heat. The steam of the <em>tteokguk</em> found the room before she did. It carried the smell of New Year and growing older and coming through."

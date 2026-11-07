@@ -4,10 +4,6 @@
  "src": "m_clocks",
  "blocks": [
   {
-   "img": "res_apartment.jpg",
-   "cap": "The flat, the last grey hours before the festival's final night, three pages laid corner to corner on the tatami"
-  },
-  {
    "p": "The square of washi sat on the tatami where Rei had put it down at dawn, and for three hours of bad sleep he had not let himself touch it."
   },
   {
@@ -26,6 +22,10 @@
    "break": "Three pages"
   },
   {
+   "img": "ch10_develop.png",
+   "cap": "Three pages laid out side by side"
+  },
+  {
    "p": "He cleared the low table and then the floor beneath it, because the table was not large enough. He laid the three things down corner to corner on the tatami the way a man lays out the clothes of someone who is not coming back. Carefully. So the creases fell right, as though neatness could still do them any good."
   },
   {
@@ -39,10 +39,6 @@
   },
   {
    "p": "He let his registers come halfway up. Only halfway, the way Kurosawa had taught him in the cold room, enough to read and not enough to be read. The flat took on the second grain it always had when he did this. Paper remembered being a tree. The dead leaned closer to anything that was paying attention. Under that grain the three pages stopped being documents and became what they had been all along. Schedules."
-  },
-  {
-   "img": "char_the-bookseller.jpg",
-   "cap": "The bookseller's smallest, most frightened letters, under the one lamp left burning"
   },
   {
    "p": "He started with the wall, because it was the honest one, and honesty was the only mercy in the room."
@@ -73,10 +69,6 @@
   },
   {
    "p": "The measurement was honest. The hand that recorded it had been afraid of Rei, specifically, reading it. Both things were true at the same time. That was the shape of the whole month."
-  },
-  {
-   "img": "cvdroom_assessment_registry.jpg",
-   "cap": "The registry page, the thirteenth line ruled and empty but for a date, turned to the lamp"
   },
   {
    "p": "The chair was the patient clock, and it frightened him in a different key."

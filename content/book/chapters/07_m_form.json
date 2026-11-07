@@ -6,11 +6,11 @@
  "part": "Book One. The Vanishing",
  "blocks": [
   {
-   "img": "cvdroom_assessment_registry.jpg",
-   "cap": "Registry sub-level, the room where absence is kept"
+   "p": "Somewhere in the dark ahead, a printer breathed out a page."
   },
   {
-   "p": "Somewhere in the dark ahead, a printer breathed out a page."
+   "img": "cvd_sublevel.png",
+   "cap": "The way down to the registry floor"
   },
   {
    "p": "The registry floor was two levels below the dying plant and the kind man, past a door that read his borrowed card and decided, after a pause long enough to make his scalp prickle, that he was allowed."
@@ -49,11 +49,11 @@
    "p": "Rei stood in the cold congregation with the proof in his hands, and he felt the shape of it close around him the way the cold closed around a stranger at Gin's threshold. Someone had begun this by hand. Someone had sat at a desk in late July and made the first false certification himself, willingly, gratefully, because a consultation had asked so little of him and given him, Rei could only assume, something he wanted very much. Then he had taught the machine to do the rest. He had set the absence to renew itself at six every morning and walked away into a personal leave for his health. And the form had been filing itself ever since. A wound that had learned to bleed on schedule, keeping Rei's brother present in the only ledger that could ever have declared him gone."
   },
   {
-   "img": "ext_sojo.jpg",
-   "cap": "The other drawers"
+   "p": "He should have left. He photographed the signed pages and he should have turned for the door. Instead the cold pulled him sideways, down a row he had no reason to enter, the way grief pulls a hand toward a drawer it should not open."
   },
   {
-   "p": "He should have left. He photographed the signed pages and he should have turned for the door. Instead the cold pulled him sideways, down a row he had no reason to enter, the way grief pulls a hand toward a drawer it should not open."
+   "img": "res_cvdarchive.png",
+   "cap": "The older cabinets of the registry, labelled with names"
   },
   {
    "p": "The cabinets here were older. Their labels were names, and the names had small coloured tabs, and after the third one he understood the colours. Green was active. Green was the lie. There were more green tabs in this row than a building should ever need. A whole quiet harvest of people the registry was certifying present, each with a tray, each with a printer somewhere breathing them alive at six in the morning. Beside each of the oldest, in the same brown ink, was the same initialled note. <em>Per consultation. Y.</em>"
@@ -103,10 +103,6 @@
   },
   {
    "p": "The favour had found him. It had not asked anything yet. For now it was only letting him read, letting him feel the seam between a brother kept present and a seat kept empty, and trusting, the way it trusted everyone, that once he saw how little it asked, he would want very much to be helped."
-  },
-  {
-   "img": "place_riverside.jpg",
-   "cap": "Street level, the lanterns, 11:40"
   },
   {
    "p": "He came up out of the building into the full weight of the August morning, and the city did not know. That was the thing that nearly took his legs out on the steps of the Directorate. Tokyo was going about Obon. The lantern strings were up between the lampposts for the dead who were allowed to come home. A woman was arranging chrysanthemums in a bucket outside a convenience store, and a child was being walked to the pool with a towel around his neck. And two floors below all of it a machine was certifying Rei's brother alive on a schedule, and none of these warm, ordinary, breathing people would ever take a ticket in that line."

@@ -80,6 +80,10 @@
    }
   },
   {
+   "img": "cvdroom_sigil_room.png",
+   "cap": "Glyphs drawn in advance, with time and a flat surface"
+  },
+  {
    "doc": {
     "kind": "note",
     "title": "How glyphs work",
@@ -148,6 +152,10 @@
      "Studying this gives understanding. It does not give the hand. R. will need someone to show him. Tanizaki for the standard set, Banishment, the Exorcism Circle, the Weight and the Arrest. Shimizu for the Burn. Kurosawa knows the offensive ones and will not volunteer it."
     ]
    }
+  },
+  {
+   "img": "res_washi.png",
+   "cap": "A washi shop in Kanda, where Gin bought his paper"
   },
   {
    "doc": {

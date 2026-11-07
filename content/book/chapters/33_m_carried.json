@@ -4,10 +4,6 @@
  "src": "m_carried",
  "blocks": [
   {
-   "img": "ext_sojo.jpg",
-   "cap": "The walk home with a stranger's tools in his hands"
-  },
-  {
    "p": "Okada took Kuga back to the grey block in a taxi, the carrier on her knees and the cat inside it sulking like a wet king, and Rei walked home along the canal. The trains had stopped. And a man with what was in his hands should not be underground, packed in with other people, until he understood what he was carrying."
   },
   {
@@ -17,10 +13,18 @@
    "p": "It did not help much. On the third bridge a drunk had left an empty can on the rail. Rei flinched at a car horn, and the can slid away from him along the rail and dropped into the water, though his hand was nowhere near it. Telekinesis. Force with no hand behind it, the most visible thing a practitioner can do. He stood looking at the ripples and thought of every page in Gin's book that said the people who could do that learned to hide young, the first time a cup moved at the dinner table."
   },
   {
+   "img": "prac_pkn.png",
+   "cap": "A streetlamp flaring as Rei passes beneath it"
+  },
+  {
    "p": "Under the expressway a streetlamp brightened as he passed beneath it, too bright, humming like a struck wire, and went out. The vending machine beside it stuttered its lights and reset. Rei walked faster. Somewhere a power log had just recorded a spike, and somewhere a camera had just lost three seconds. Psychokinesis did not leave a trail of footprints. It left a trail of paperwork."
   },
   {
    "p": "By the river stairs his scraped heel stopped stinging. He looked down at it under a lantern. The graze had closed over, pink and new. A moment later the cold came, a deep tiredness like the floor of a long day, and he had to sit on the step until his hands stopped shaking. Healing was not free. It took what it used from the one doing it. Psychometabolism, and he had spent something of himself to mend a scratch he had not even minded."
+  },
+  {
+   "img": "prac_telepath.png",
+   "cap": "Other people's thoughts, reaching Rei uninvited"
   },
   {
    "p": "He sat on the step and counted, because Gin had taught him to count things. The old woman's thought by the pool. The jump along the edge of the water. The can. The lamp. The heel. Five paths that were not his, firing one after another like a house settling at night. Six, with the Clairsentience he had always had. Every path there was. He had touched a man who had all of them lit at once, and the man's warmth had come home on his hands like flour."

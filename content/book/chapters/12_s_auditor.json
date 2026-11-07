@@ -6,8 +6,8 @@
  "part": "Book Two. The Handwriting",
  "blocks": [
   {
-   "img": "ch15_assessment.jpg",
-   "cap": "The white room again, and a sheet of paper that was supposed to be ash"
+   "img": "char_okada-shizuka.png",
+   "cap": "Okada Shizuka, CVD assessor"
   },
   {
    "p": "Okada Shizuka asked him back to the same small white room three days into Obon. This time there was no laminated card on the table. There was only a single thermal printout, curling at its edges the way thermal paper curls when a warm hand has held it too long. She did not slide it across to him. She laid her palm flat on top of it, as if the words might leave through the ceiling if she let go."
@@ -46,10 +46,18 @@
    "break": "The Audit floor"
   },
   {
+   "img": "cvdroom_internal_affairs_audit.png",
+   "cap": "The Internal Affairs and Audit floor"
+  },
+  {
    "p": "The way down to the array ran through Internal Affairs and Audit. Okada badged them through a door with no sign on it, and the noise of the building dropped away."
   },
   {
    "p": "It looked like the dullest room in the Directorate. Cabinets. Terminals. Very little talking. A plant on a windowsill that someone remembered to water. At the far desk a man in his thirties sat reading a file with his tea going cold beside him. He did not look up when they passed. Rei had the uncomfortable sense that he had been seen anyway, completely, by someone who was watching the whole room instead of the people in it."
+  },
+  {
+   "img": "char_moriya-tatsuki.png",
+   "cap": "Moriya Tatsuki, sixteen years in Internal Affairs"
   },
   {
    "p": "\"Moriya,\" Okada said quietly, when they were past. \"Sixteen years in Internal Affairs. He runs this floor. He's one of the good ones.\" She paused. \"Gin used to say that's exactly why the floor frightened him. A good man with the power to file is still a man with the power to file.\""
@@ -88,10 +96,6 @@
      "It may mean nothing. It may mean something that benefits me. It may mean something that does not. I continue to pass the assessments and I continue to note the irregularity."
     ]
    }
-  },
-  {
-   "img": "char_fujiwara-kage-sena.jpg",
-   "cap": "The reading room, and the instrument that used to be a person named Sena"
   },
   {
    "p": "The assessment array lived two floors further down, behind a door marked with nothing but a cycle number. The room was colder than the rest of the Directorate on purpose. It was the cold of a place built to keep something still."
@@ -149,10 +153,6 @@
    "p": "Now that he was inside the reading, he could feel the truth the page could only diagram. The knot was not in him. It was reaching for him, from a long way off, from a direction he knew. It was patient and fond and it wore a familiarity he would have recognised anywhere, because it was his brother's. It wore it like a borrowed coat, and it was not him."
   },
   {
-   "img": "char_okada-shizuka.jpg",
-   "cap": "The calibration log, and the place where a true reading is taught to lie"
-  },
-  {
    "p": "Okada showed him the thing she was always going to have to show him. He could not decide what the reading became until he knew it could become anything."
   },
   {
@@ -198,14 +198,14 @@
    "p": "Okada closed her eyes briefly. Then she nodded and did not touch the log."
   },
   {
-   "img": "cvdroom_assessment_registry.jpg",
-   "cap": "Eleven hours nearly gone, and the record the cycle will keep"
-  },
-  {
    "p": "They came out of the reading room into a corridor where the Obon lanterns had begun to come down. The festival was closing. The dead were being seen back out, and the building was quietly resuming the business of pretending it never crossed to them at all. Whatever the array now believed about him would walk out in his file ahead of him, into rooms he would never see."
   },
   {
    "p": "Okada walked him to the main lift and did not press the button. On the panel beside the doors one floor had no number, only a key slot. Rei looked at it."
+  },
+  {
+   "img": "cvdroom_containment_reintegration.png",
+   "cap": "Containment and Reintegration, where a closed domain goes"
   },
   {
    "p": "\"Containment and Reintegration,\" she said, following his eyes. \"That's where a closed domain goes. The cells. They call it rehabilitation, and they say it gently. The staff are kind. They bring the contained tea and learn their names and mean the word care. And they still close the door. Entry is by order, not request.\" She was quiet for a second. \"Gin walked that corridor once. He told me he counted the doors he didn't open, and he still hadn't decided if that was cowardice or mercy.\""
