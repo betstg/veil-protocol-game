@@ -100,6 +100,85 @@ if os.path.isdir(OVR):
                     out.append(g)
         part['chapters'] = out
 
+# Long chapters are split at their scene breaks into shorter chapters.
+# The content files are not touched: only the chapter boundaries move.
+# A break block where a split happens becomes the title of the new chapter.
+SPLIT_OVER, MIN_W, MAX_W, AIM_W = 2800, 1200, 2800, 2000
+MINOR = {'a', 'an', 'the', 'and', 'but', 'or', 'nor', 'for', 'so', 'yet', 'at', 'by',
+         'in', 'of', 'on', 'to', 'up', 'as', 'via', 'per', 'from', 'into', 'onto', 'with'}
+
+def title_case(s):
+    words = s.split(' ')
+    out = []
+    for i, w in enumerate(words):
+        core = w.lstrip('"\'‘“(')
+        lead = w[:len(w) - len(core)]
+        after_stop = i > 0 and re.search(r'[.:!?]$', words[i - 1])
+        if core and core[0].islower() and (i == 0 or i == len(words) - 1 or after_stop or core.lower() not in MINOR):
+            core = core[0].upper() + core[1:]
+        out.append(lead + core)
+    return ' '.join(out)
+
+def block_words(b):
+    if 'p' in b:
+        return len(b['p'].split())
+    if 'doc' in b:
+        return len(' '.join(b['doc'].get('lines', [])).split())
+    return 0
+
+def piece_cost(w):
+    # far outside the range costs most, then distance from the aim
+    out = max(0, MIN_W - w) + max(0, w - MAX_W)
+    return out * 1e6 + (w - AIM_W) ** 2
+
+def split_chapter(ch):
+    blocks = ch['blocks']
+    total = sum(block_words(b) for b in blocks)
+    cuts = [i for i, b in enumerate(blocks) if 'break' in b]
+    if ch.get('kind') == 'gin' or total <= SPLIT_OVER or not cuts:
+        return [ch]
+    # prefix words before each candidate cut, so a piece's length is a subtraction
+    pre = [0]
+    for b in blocks:
+        pre.append(pre[-1] + block_words(b))
+    pts = [0] + cuts + [len(blocks)]
+    # best[j] = (cost, previous point) for a piece ending at pts[j]
+    best = {0: (0, None)}
+    for j in range(1, len(pts)):
+        cand = []
+        for i in range(j):
+            if i in best:
+                w = pre[pts[j]] - pre[pts[i]]
+                cand.append((best[i][0] + piece_cost(w), i))
+        best[j] = min(cand)
+    chain, j = [], len(pts) - 1
+    while j:
+        i = best[j][1]
+        chain.append((pts[i], pts[j]))
+        j = i
+    chain.reverse()
+    if len(chain) == 1:
+        return [ch]
+    out = []
+    for k, (a, b) in enumerate(chain):
+        piece = {key: v for key, v in ch.items() if key != 'blocks'}
+        if k == 0:
+            piece['blocks'] = blocks[a:b]
+        else:
+            piece['title'] = title_case(blocks[a]['break'])
+            piece['blocks'] = blocks[a + 1:b]
+            piece['src'] = '%s#%d' % (ch.get('src', ''), k + 1)
+            if piece.get('kind') == 'ending':
+                piece['kind'] = 'main'
+        out.append(piece)
+    return out
+
+for part in parts:
+    split = []
+    for ch in part['chapters']:
+        split.extend(split_chapter(ch))
+    part['chapters'] = split
+
 def img_src(name):
     stem = os.path.splitext(name)[0]
     for ext in ('.png', '.jpg', '.jpeg'):
@@ -146,4 +225,7 @@ with open(os.path.join(ROOT, 'book', 'book.js'), 'w', encoding='utf8') as f:
     f.write('// Built by tools/build_book.py. Do not edit by hand.\nwindow.BOOK = ')
     json.dump({'parts': parts, 'words': words, 'pages': round(words / 275)}, f, ensure_ascii=False)
     f.write(';\n')
-print('chapters', n, 'words', words, 'pages', round(words / 275), 'missing', missing)
+print('chapters', n, 'interludes', sum(1 for p in parts for c in p['chapters'] if c.get('kind') == 'gin'),
+      'words', words, 'pages', round(words / 275), 'missing', missing)
+lens = [(sum(block_words(b) for b in c['blocks']), c['n'], c['title']) for p in parts for c in p['chapters'] if c.get('kind') != 'gin']
+print('shortest chapter', min(lens), 'longest chapter', max(lens))
