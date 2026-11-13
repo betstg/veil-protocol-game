@@ -119,3 +119,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Alguma coisa entra no Itsuki nessa missão. Nada se enrola na espinha.
 - Depois ele vai para a CVD, porque já não está mais com a família.
 - O Itsuki não treinava com os Kuroda. Ele só levou o Rei até eles.
+
+### O Far-Shore Circle
+- O capítulo da casa branca (rascunho 21) saiu. O Rei não segue o recrutador. Ele só é recrutado.
+- A Kanna-sensei é o nome que o Kishin usa no corpo da Fukai Rinka para guiar o Far-Shore Circle (Bible).
