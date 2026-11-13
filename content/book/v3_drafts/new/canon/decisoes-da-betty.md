@@ -182,3 +182,60 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 
 ### Vida Interior das fichas
 - Posso escrever a minha versão da Vida Interior de cada ficha onde ela não bate com o resto, e arrumar no Bible.
+
+## Decisões de 14 de novembro, quarta rodada
+
+### Tatuagens do Gin (imagem em Símbolos, sigilos e tatuagens no Bible)
+- Severance no centro do peito. Um dos selos mais fortes dele. Tatuado, precisa ser ativado toda vez, e o Gin não conseguiu ativar a tempo.
+- Comunicação num braço. Recusa Final numa costela. Na outra costela, talvez o Scatter, teleporte aleatório e fraco, só para se afastar.
+- Supressão pequena e escondida na nuca, sob o cabelo comprido que ele se recusa a cortar. Ele mesmo tatuou, para o tatuador da CVD não saber. Não fica na espinha.
+- Tem tatuagem até no pescoço e na mão. Muitos selos são inventados. Em papel o selo é de uso único. Tatuado, precisa ser ativado toda vez.
+- Ninguém sabe da supressão do Gin. Ele fez sozinho.
+
+### Rank do Gin
+- Registrado como Ritualist. É bem mais forte de verdade.
+
+### Ranks
+- Vanguard é o rank dos mestres. A presença deles afina a membrana, por isso muitos se aposentam e vivem suprimidos.
+- Guardian é ser um dos Treze.
+- Singularity vem depois do Guardian, quando a pessoa começa a ter mais habilidades. O mais forte dos Guardians, o que entende tudo, pode virar o novo Eixo.
+
+### Mestres
+- Todos os mestres saíram da CVD, menos uma exceção. O Tanaka Ryu entrou na CVD muito fraco, ficou pouco tempo e virou Vanguard muito rápido por causa do jeito dele de curar e exorcizar. Ninguém sabe que ele é Vanguard e todo mundo o menospreza. É considerado mestre no Grid.
+- O Yamamoto é Vanguard, mestre, arquivista. Não é independente. Trabalha dentro da CVD nos arquivos, mas não é registrado. Fica lá seguro, cercado de gente. Clarisciente.
+
+### Habilidades aprovadas
+- Adachi só Clarisenciência, por isso simpatiza com o Rei.
+- Yamamoto Clarisenciência. Katagiri Psicometabolismo. Kurosawa Psicometabolismo. Shimizu Telecinese. Choi Hana Teleporte. Sena Psicocinese. Uehara Clarisenciência, de família clarisciente.
+- Haruki não é Teleporte. Precisa ser um bom complemento para a Clarisenciência, porque trabalhou com o Gin e agora trabalha com o Rei. A definir.
+- Kato e Usami continuam telepatas. O Usami ajuda de fora primeiro, depois desenvolve Psicometabolismo e passa a fazer parte do grupo.
+- Não precisa mudar todos.
+
+### Personagens
+- A Mochizuki Sora sai do livro.
+- O Haruto é o menino do rio. Morreu afogado quando criança, se jogou no rio para salvar o cachorro e os dois morreram. Não quis ir embora. Guarda a margem para ninguém pular nem entrar, porque o rio é perigoso. Às vezes as pessoas veem o cachorro. Todo mundo sabe dele e ninguém liga. Não tem irmã. O Rei e o Itsuki só passam lá.
+- A cicatriz da Hana nunca é contada. Ela é impulsiva, vive se machucando e tendo cortes novos. Essa é bem maior e todo mundo quer saber. O leitor pode imaginar que foi culpa dela.
+- A Matsuda não sabia o que o Gin era e não sabe o que aconteceu. Ninguém sabe.
+- Ninguém na CVD liga para a papelada do Gin. A CVD é gigante. Sai a discrepância do Moriya.
+- O arranjo quebrado dos Kuroda sai.
+- O Kishin não sabe quem o Rei é. O Healer também não.
+- O Gin só assume o próprio corpo por causa do irmão, ou quando o demônio deixa.
+- A Rinka idolatra o Kishin.
+
+### Objetos e histórias
+- O relógio do Satō nunca parou e não volta sozinho. Sem emprego e sem comida, o Rei penhora o relógio. No fim o Gin vai lá e busca de volta. O Rei diz que teve que penhorar porque estava sem comer, e o Gin diz que tudo bem.
+- Os artefatos que o Gin deixa em casa caso algo aconteça são ideia da Betty. Ele sabe o que esconde sobre o irmão.
+- O Spirit Capturer, o aparelho da CVD que o chefe entrega ao Rei. Do tamanho de um pager, mostra a classe de A a E, sobem mensagens do espírito e dá para responder. Botões de capturar, liberar, devolver ao véu com uma frequência e hospedar. Carrega um por vez. Capturar exige lutar até o espírito enfraquecer. Exorcizar é difícil e às vezes ele só fica preso. O protótipo está em spirit-capture-test.html.
+- O bebê que nasceu carregando alguém. Uma família, talvez os Kuroda, tem um bebê reconhecido como reencarnação de um antigo membro. O Rei pergunta e a família explica numa espécie de aula os fins possíveis de uma pessoa.
+- O livro da Kasumi Shin, holder do Assombro, é um registro histórico de uma divisão de antes da CVD, a da época do Kuze. Fala dos Treze. Nada especial. Ninguém dos Treze é mais perto da Fonte que os outros.
+- Os Uedera nascem com duas habilidades, uma latente. Ninguém tocou um guardião.
+- O Rei tem duas habilidades desbloqueadas, usa uma e começa a usar a outra. E tem a cadeira do Dever. Ele vai atrás do irmão, ajuda todo mundo e desmascara os demônios infiltrados em entidades grandes, alguns confabulando com o Kishin.
+- O Gin limpava o Rei do ruído das cenas de crime.
+- A lavanderia de quinta. A mulher presa lá pergunta ao Rei por que o Gin parou de ir e conta que da última vez ele estava assustado e estranho, e nem falou com ela. O Rei pode ajudar ela.
+- The Tenth Door vira missão paga. Uma família da Torre paga bem para se livrar do culto.
+- The Loom sai.
+- A Uehara documenta a campanha das entidades, e o Rei descobre por que a habilidade dela está se deteriorando.
+- Sai a entrada de vinte e dois anos do Yamamoto que nomeia o Dever. Ninguém sabe que existe um demônio do Dever.
+- As duas pinturas do futuro do Itsuki. A primeira é uma seita sem rostos, porque ele não sabe quem está lá. A segunda é um lugar. Capítulos depois o narrador descreve esse mesmo lugar quase igual ao quadro, e o Gin entra nele. Ele diz olha o que eu fiz, ainda não entendo isso.
+- O Kato. As pessoas duvidam um pouco dele porque ele é telepata, sério e quieto, e ninguém sabe o que ele está fazendo.
+- O Aizawa e o espírito. Pode ser um espírito que se alimenta da depressão dele. Ele aceitou que ficasse se comesse a depressão, e os dois vivem super bem.
