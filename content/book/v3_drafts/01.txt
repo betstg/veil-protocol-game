@@ -2,6 +2,7 @@
 #part Book One. The Archive
 
 [img place_keihin_train_night.png | The Keihin-Tōhoku line at night]
+[need ch1_woman_not_swaying | Evening Keihin-Tōhoku carriage, tired commuters swaying, one pale woman in a white blouse standing perfectly upright by the connecting door, no reflection in the window, Rei by the door watching her]
 
 The train was full of people going home, and some of them were dead.
 
@@ -93,6 +94,7 @@ There was no answer. That was normal. During Obon week Gin sometimes worked unti
 Rei lay on the sofa with the television on and the sound off. He watched a cooking show without seeing it. At some point he closed his eyes.
 
 [break 3:47]
+[need ch1_key_walkway | 3:47am outside walkway of an old Tokyo apartment block, orange street lamp, moth at the lamp, a single brass key on a steel ring and half a cigarette on wet concrete by an open door]
 
 He woke because someone knocked on the door.
 

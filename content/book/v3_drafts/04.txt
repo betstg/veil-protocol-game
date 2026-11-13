@@ -83,6 +83,8 @@ The man said one more word. It was not in the deep voice. It was in a different 
 
 Then he stepped back off the edge.
 
+[need ch4_possessed_platform | Crowded Ōji station platform at dusk with Obon paper lanterns, a man in a grey suit by a vending machine holding a steaming can, head tilted back too far, face slack, eyes wide and pointing in two directions, mouth stretched in a smile up toward the ears with no warmth in the eyes, frightened commuters stepping away, horror but painterly]
+
 [break Personal injury accident]
 
 Rei did not see the train hit him. He had closed his eyes. He heard it. He heard the scream of the brakes, long and high and metal, and under it a sound he would hear for months afterward when he tried to sleep. A short, heavy, final sound. Then people screaming. Then the train, still sliding, still braking, the whole length of it going past him with its windows full of faces turning to look.
@@ -98,6 +100,7 @@ A voice came over the speakers, calm and recorded. *Due to a personal injury acc
 Here is something else you should know about Tokyo. When a person falls or jumps in front of a train, the announcement on the speakers calls it a *personal injury accident*. It happens often. Often enough that the city has a phrase for it, and the phrase is gentle, and it does not say anything at all. People on other platforms across the city would hear that announcement tonight and sigh, and check their phones, and look up another way home.
 
 [break The cleaning]
+[need ch4_public_confidence | After an accident on a station platform, calm smiling officials in good dark blue suits crouching beside shaken witnesses, handing them water and small white cards, a mother with two children nodding slowly]
 
 The CVD arrived in eleven minutes.
 
