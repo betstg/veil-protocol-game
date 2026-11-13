@@ -125,7 +125,7 @@ Every chapter gets [need slug | description] lines where a new image is needed. 
 - Ch3 fixes: Kumagai doesn't know Gin, says he's probably drunk/at a friend's/love hotel; Rei insists. Ono at front desk ("a nice girl at the dance"). NO CVD call to police. NO freezer food scene (looked premeditated). Rent paid through end of month stays. Arai knows Gin only from crime scenes, didn't know Rei.
 - (Betty 05:19) Dialogue must sound natural and urban, people talk like real people, not polite or politically correct (e.g. Ono: 'hooked up with some girl at the festival' / 'ficado com alguma mina na festa'). Reader voice: strictly pt-BR voices, female/male buttons, no voice picker.
 
-## VOICE SHEET (Betty 05:26, "medir a forma de falar de cada um"). Check every line against this before writing.
+## VOICES (Betty 05:26 and 05:32). Not a fixed sheet. Feel the character in each scene. Tone changes with WHO they talk to (boss, friend, stranger, someone important) and EVOLVES over the relationship (Rei with Kato starts serious and formal, slowly opens up, laughs, gets embarrassed, tells him "not the moment, man"). Rei respects the police station where he works even when he explodes. Baseline notes below are only a starting point.
 - REI (19, police intern): plain, controlled, polite by upbringing. When he explodes he swears hard but stays about the point and about Gin. Never crude about sex or women. Defends Gin's character ("He's not like that").
 - ITSUKI (20, artist, Kuroda): quick, teasing, lowercase texts, jokes to dodge, drops it instantly when it matters. Swears casually ("what the hell"). Clever, a bit arrogant about art.
 - HARUTO (17, street, school gang): slang, bravado, short sentences, hides being impressed. Never polished. No adult crude talk.
