@@ -124,3 +124,13 @@ Every chapter gets [need slug | description] lines where a new image is needed. 
 - (Betty 05:06) EVERY chapter is written in English AND Portuguese (pt/NN.txt, same markup, PT dialogue in quotes, no travessão). Reader built with ../build_reader.py: PT/EN toggle, paragraph first-line indent, read-aloud with browser voice and progressive yellow highlight.
 - Ch3 fixes: Kumagai doesn't know Gin, says he's probably drunk/at a friend's/love hotel; Rei insists. Ono at front desk ("a nice girl at the dance"). NO CVD call to police. NO freezer food scene (looked premeditated). Rent paid through end of month stays. Arai knows Gin only from crime scenes, didn't know Rei.
 - (Betty 05:19) Dialogue must sound natural and urban, people talk like real people, not polite or politically correct (e.g. Ono: 'hooked up with some girl at the festival' / 'ficado com alguma mina na festa'). Reader voice: strictly pt-BR voices, female/male buttons, no voice picker.
+
+## VOICE SHEET (Betty 05:26, "medir a forma de falar de cada um"). Check every line against this before writing.
+- REI (19, police intern): plain, controlled, polite by upbringing. When he explodes he swears hard but stays about the point and about Gin. Never crude about sex or women. Defends Gin's character ("He's not like that").
+- ITSUKI (20, artist, Kuroda): quick, teasing, lowercase texts, jokes to dodge, drops it instantly when it matters. Swears casually ("what the hell"). Clever, a bit arrogant about art.
+- HARUTO (17, street, school gang): slang, bravado, short sentences, hides being impressed. Never polished. No adult crude talk.
+- GIN (narrator voice + his book): dry, exact, long patient sentences, quiet acid humour, notes small details. Never crude.
+- KUMAGAI (inspector, 50s): tired, paternal, dismissive, blunt but professional. Can say "love hotel" plainly the way an old cop would.
+- ONO (front desk sergeant, 20 yrs): cheerful, calls interns "kid", worldly but still a COP talking to the public. No street slang ("mina" is wrong). "met someone at the festival", "went home with her".
+- ARAI (detective, 48): flat, few words, watches hands, trades information.
+- CVD front desk: smooth customer-service script, never off-script.

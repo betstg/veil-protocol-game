@@ -90,9 +90,10 @@ function langVoices(){var vs=synth?synth.getVoices():[];var want=lang==='pt'?'pt
 function quality(v){var n=v.name;var q=0;if(/natural|neural|online|premium|enhanced|siri/i.test(n))q+=4;if(/google/i.test(n))q+=2;if(v.localService===false)q+=1;if(/compact|eloquence|novelty/i.test(n))q-=4;return q}
 function genderOf(v){var n=v.name;if(MAS.test(n))return 'm';if(FEM.test(n))return 'f';if(/google (português|portugues)/i.test(n))return 'f';return '?'}
 var gender='f';try{gender=localStorage.getItem('vp-gender')||'f'}catch(e){}
-function fillVoices(){document.querySelectorAll('.gd button').forEach(function(b){b.classList.toggle('on',b.dataset.g===gender)});var w=$('#vwarn');if(!w)return;var vs=langVoices();w.hidden=!(synth&&synth.getVoices().length&&!vs.some(function(v){return lang!=='pt'||norm(v.lang)==='pt-br'}));}
-function pickVoice(){var vs=langVoices();if(!vs.length)return null;var g=vs.filter(function(v){return genderOf(v)===gender});var pool=g.length?g:vs.filter(function(v){return genderOf(v)==='?'}).concat(vs);
- pool.sort(function(a,b){return quality(b)-quality(a)});return pool[0]}
+function fillVoices(){document.querySelectorAll('.gd button[data-g]').forEach(function(b){b.classList.toggle('on',b.dataset.g===gender)});var w=$('#vwarn');if(!w)return;var vs=langVoices();w.hidden=!(synth&&synth.getVoices().length&&!vs.some(function(v){return lang!=='pt'||norm(v.lang)==='pt-br'}));}
+function pool(){var vs=langVoices();var g=vs.filter(function(v){return genderOf(v)===gender});var p=g.length?g:vs.filter(function(v){return genderOf(v)==='?'}).concat(vs.filter(function(v){return genderOf(v)!=='?'}));p.sort(function(a,b){return quality(b)-quality(a)});return p}
+function pickVoice(){var p=pool();if(!p.length)return null;var keep=null;try{keep=localStorage.getItem('vp-v-'+lang+'-'+gender)}catch(e){}var v=p.find(function(x){return x.name===keep})||p[0];var n=$('#vname');if(n)n.textContent=(lang==='pt'?'Voz: ':'Voice: ')+v.name+' ('+v.lang+')';return v}
+function nextVoice(){var p=pool();if(!p.length)return;var cur=pickVoice();var i=p.indexOf(cur);var v=p[(i+1)%p.length];try{localStorage.setItem('vp-v-'+lang+'-'+gender,v.name)}catch(e){}pickVoice();if(playing&&!paused)startAt(queue[qi])}
 function clearMarks(){document.querySelectorAll('.s.reading').forEach(function(e){e.classList.remove('reading')});document.querySelectorAll('.w.read').forEach(function(e){e.classList.remove('read')})}
 function sents(){return Array.prototype.slice.call(document.querySelectorAll('.book[data-lang="'+lang+'"] .s'))}
 function markUpTo(s,ci){s.querySelectorAll('.w').forEach(function(w){if(+w.dataset.o<=ci)w.classList.add('read')})}
@@ -116,8 +117,8 @@ document.addEventListener('click',function(e){var s=e.target.closest('.s');if(s&
 document.querySelectorAll('.lg button').forEach(function(b){b.onclick=function(){setLang(b.dataset.v)}});
 $('#play').onclick=toggle;$('#stopb').onclick=stop;
 document.querySelectorAll('.rate button').forEach(function(b){b.classList.toggle('on',+b.dataset.r===rate);b.onclick=function(){rate=+b.dataset.r;try{localStorage.setItem('vp-rate',rate)}catch(e){}document.querySelectorAll('.rate button').forEach(function(x){x.classList.toggle('on',x===b)});if(playing&&!paused)startAt(queue[qi])}});
-document.querySelectorAll('.gd button').forEach(function(b){b.onclick=function(){gender=b.dataset.g;try{localStorage.setItem('vp-gender',gender)}catch(e){}fillVoices();if(playing&&!paused)startAt(queue[qi])}});
-if(synth){synth.onvoiceschanged=fillVoices}
+document.querySelectorAll('.gd button[data-g]').forEach(function(b){b.onclick=function(){gender=b.dataset.g;try{localStorage.setItem('vp-gender',gender)}catch(e){}fillVoices();if(playing&&!paused)startAt(queue[qi])}});
+if(synth){synth.onvoiceschanged=fillVoices}$('#nextv').onclick=nextVoice;
 setLang(lang);
 })();
 '''
@@ -152,9 +153,9 @@ body.playing .s{{cursor:pointer}}
 @media(max-width:480px){{body{{font-size:19px}}main{{padding:16px 16px 120px}}h2{{font-size:25px}}figure{{width:92%}}p{{text-align:left}}}}
 </style></head><body>
 <div class="bar">
- <div class="lg"><button data-v="pt">PT</button><button data-v="en">EN</button></div>
+ <div class="lg"><button data-v="pt">PT-BR</button><button data-v="en">EN</button></div>
  <button id="play">▶ Ouvir</button><button id="stopb" {lbl('stop')}>Parar</button>
- <div class="extra"><div class="rate"><button data-r="0.85">0.85×</button><button data-r="1">1×</button><button data-r="1.2">1.2×</button><button data-r="1.4">1.4×</button></div><div class="gd"><button data-g="f" data-l="" data-en="Female voice" data-pt="Voz feminina">Voz feminina</button><button data-g="m" data-l="" data-en="Male voice" data-pt="Voz masculina">Voz masculina</button></div></div>
+ <div class="extra"><div class="rate"><button data-r="0.85">0.85×</button><button data-r="1">1×</button><button data-r="1.2">1.2×</button><button data-r="1.4">1.4×</button></div><div class="gd"><button data-g="f" data-l="" data-en="Female voice" data-pt="Voz feminina">Voz feminina</button><button data-g="m" data-l="" data-en="Male voice" data-pt="Voz masculina">Voz masculina</button><button id="nextv" data-l="" data-en="Other voice" data-pt="Outra voz">Outra voz</button></div><div class="hint" id="vname"></div></div>
  <div class="hint" id="vwarn" hidden data-l="" data-en="This device has no British or American voice installed." data-pt="Este aparelho não tem voz em português do Brasil instalada. Instale uma nas configurações de fala do sistema.">Este aparelho não tem voz em português do Brasil instalada.</div><div class="hint" {lbl('tap')}>Toque numa frase para ler a partir dali</div>
 </div>
 <main><div class="book" data-lang="pt">{''.join(secs['pt'])}</div><div class="book" data-lang="en" hidden>{''.join(secs['en'])}</div></main>
