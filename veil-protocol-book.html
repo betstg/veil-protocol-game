@@ -16828,4 +16828,114 @@ body:not(.vp-warden-ok) .gm-only-chapter{display:none !important}
  setTimeout(mark,400);
 })();
 </script>
+<!-- VP-SEARCH:start -->
+<style id="vps-style">
+#vps-wrap{flex:1 1 auto;min-width:0;max-width:420px;margin-left:auto;position:relative}
+#vps-input{width:100%;box-sizing:border-box;height:34px;border-radius:17px;border:1px solid #5a4a26;background:#16110a;color:#f0e6d2;padding:0 34px 0 14px;font:15px/1 'Crimson Pro',Georgia,serif;outline:none}
+#vps-input:focus{border-color:#C9A84C;background:#1d160c}
+#vps-input::placeholder{color:#8a7a5a}
+#vps-input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;display:none}
+#vps-clear{position:absolute;right:6px;top:5px;width:24px;height:24px;border:0;border-radius:12px;background:transparent;color:#C9A84C;font-size:16px;cursor:pointer;display:none}
+#vps-panel{position:fixed;top:var(--header-h,52px);right:0;width:min(440px,100vw);max-height:calc(100vh - var(--header-h,52px));overflow-y:auto;background:#14100a;border-left:1px solid #3a2f1a;border-bottom:1px solid #3a2f1a;box-shadow:-8px 8px 24px rgba(0,0,0,.45);z-index:1200;display:none;padding:10px 0 14px}
+#vps-panel.open{display:block}
+.vps-count{font:12px/1.4 'Special Elite',monospace;color:#a89870;padding:4px 16px 10px;letter-spacing:.5px}
+.vps-ch{font:700 12px/1.3 'Cinzel',serif;color:#C9A84C;letter-spacing:1px;text-transform:uppercase;padding:12px 16px 6px}
+.vps-ch small{display:block;font:italic 12px 'Crimson Pro',serif;color:#9a8a68;text-transform:none;letter-spacing:0;margin-top:2px}
+.vps-ch .vps-w{color:#d08a6a}
+.vps-hitbtn{display:block;width:100%;text-align:left;background:transparent;border:0;border-left:3px solid transparent;color:#e2d8bc;font:15px/1.45 'Crimson Pro',Georgia,serif;padding:8px 16px 8px 13px;cursor:pointer}
+.vps-hitbtn:hover,.vps-hitbtn:focus{background:#221a0e;border-left-color:#C9A84C;outline:none}
+.vps-hitbtn b{color:#1a1208;background:#e8c867;border-radius:3px;padding:0 2px;font-weight:600}
+.vps-more{font:12px 'Crimson Pro',serif;color:#9a8a68;padding:2px 16px 4px;font-style:italic}
+mark.vps-mark{background:#e8c867;color:#1a1208;border-radius:3px;padding:0 2px;box-shadow:0 0 0 3px rgba(232,200,103,.35)}
+@media(max-width:560px){#vp-logo{display:none}#vps-wrap{max-width:none}#vps-panel{width:100vw;border-left:0}}
+</style>
+<script id="vps-script">
+(function(){
+ 'use strict';
+ var PER_CH=6, MAX_TOTAL=300, idx=null;
+ function norm(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();}
+ function esc(s){return s.replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+ function build(){
+  if(idx) return idx; idx=[];
+  var all=(typeof getAllChs==='function')?getAllChs():[];
+  all.forEach(function(ch,i){
+   var el=document.getElementById('ch-content-'+ch.id); if(!el) return;
+   var raw=(el.textContent||'').replace(/\s+/g,' ');
+   var warden=(typeof chIsWarden==='function')?chIsWarden(ch):!!ch.is_warden;
+   idx.push({i:i,ch:ch,raw:raw,n:norm(raw),warden:warden});
+  });
+  return idx;
+ }
+ function search(q){
+  var nq=norm(q.trim()); if(nq.length<2) return null;
+  var out=[],total=0;
+  build().forEach(function(e){
+   var p=0,k=0,hits=[];
+   while((p=e.n.indexOf(nq,p))!==-1){
+    if(hits.length<PER_CH){var a=Math.max(0,p-70),b=Math.min(e.raw.length,p+nq.length+90);
+     hits.push({occ:k,pre:(a>0?'… ':'')+e.raw.slice(a,p),mid:e.raw.slice(p,p+nq.length),post:e.raw.slice(p+nq.length,b)+(b<e.raw.length?' …':'')});}
+    k++;p+=nq.length;
+   }
+   if(k){out.push({e:e,hits:hits,count:k});total+=k;}
+  });
+  return {groups:out,total:total};
+ }
+ function render(q){
+  var panel=document.getElementById('vps-panel'), r=search(q);
+  if(!r){panel.classList.remove('open');panel.innerHTML='';return;}
+  var h='<div class="vps-count">'+(r.total?r.total+' result'+(r.total>1?'s':'')+' in '+r.groups.length+' chapter'+(r.groups.length>1?'s':''):'Nothing found for “'+esc(q)+'”')+'</div>';
+  var shown=0;
+  r.groups.forEach(function(g){
+   if(shown>=MAX_TOTAL) return;
+   var c=g.e.ch;
+   h+='<div class="vps-ch">'+esc(String(c.title||c.id))+'<small>'+(c.num!=null?'Chapter '+esc(String(c.num))+' · ':'')+(g.e.warden?'<span class="vps-w">Warden’s Book</span> · ':'')+g.count+' match'+(g.count>1?'es':'')+'</small></div>';
+   g.hits.forEach(function(x){shown++;
+    h+='<button class="vps-hitbtn" data-i="'+g.e.i+'" data-o="'+x.occ+'">'+esc(x.pre)+'<b>'+esc(x.mid)+'</b>'+esc(x.post)+'</button>';});
+   if(g.count>g.hits.length) h+='<div class="vps-more">+'+(g.count-g.hits.length)+' more in this chapter</div>';
+  });
+  panel.innerHTML=h; panel.classList.add('open'); panel.scrollTop=0;
+ }
+ function clearMarks(){document.querySelectorAll('mark.vps-mark').forEach(function(m){var t=document.createTextNode(m.textContent);m.parentNode.replaceChild(t,m);t.parentNode.normalize();});}
+ function jump(i,occ,q){
+  var ch=getAllChs()[i]; if(!ch) return;
+  if(typeof goToChapter==='function') goToChapter(ch.id); else showChapter(i);
+  setTimeout(function(){
+   clearMarks();
+   var el=document.getElementById('ch-content-'+ch.id); if(!el) return;
+   var nq=norm(q.trim()), w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null), node, k=0, buf=[];
+   while((node=w.nextNode())) buf.push(node);
+   for(var j=0;j<buf.length;j++){
+    var t=buf[j], nt=norm(t.nodeValue), p=0;
+    while((p=nt.indexOf(nq,p))!==-1){
+     if(k===occ){
+      var r=document.createRange(); r.setStart(t,p); r.setEnd(t,Math.min(t.nodeValue.length,p+nq.length));
+      var m=document.createElement('mark'); m.className='vps-mark';
+      try{r.surroundContents(m);}catch(e){}
+      var g=m.closest&&m.closest('.spoilerGate'); if(g){g.classList.add('open');}
+      var go=function(){m.scrollIntoView({block:'center'});}; go(); setTimeout(go,400); setTimeout(go,1200); return;
+     }
+     k++; p+=nq.length;
+    }
+   }
+   el.scrollIntoView({block:'start'});
+  },120);
+ }
+ function init(){
+  var hdr=document.getElementById('vp-header'); if(!hdr||document.getElementById('vps-wrap')) return;
+  var wrap=document.createElement('div'); wrap.id='vps-wrap';
+  wrap.innerHTML='<input id="vps-input" type="search" placeholder="Search the whole book…" autocomplete="off" aria-label="Search the book"><button id="vps-clear" aria-label="Clear search">✕</button>';
+  var pi=document.getElementById('vp-page-info'); hdr.insertBefore(wrap,pi||null);
+  var panel=document.createElement('div'); panel.id='vps-panel'; document.body.appendChild(panel);
+  var inp=document.getElementById('vps-input'), clr=document.getElementById('vps-clear'), timer;
+  inp.addEventListener('input',function(){clr.style.display=inp.value?'block':'none';clearTimeout(timer);timer=setTimeout(function(){render(inp.value);},220);});
+  inp.addEventListener('focus',function(){if(inp.value.trim().length>1) render(inp.value);});
+  inp.addEventListener('keydown',function(e){if(e.key==='Escape'){panel.classList.remove('open');inp.blur();} if(e.key==='Enter'){var b=panel.querySelector('.vps-hitbtn'); if(b) b.click();}});
+  clr.addEventListener('click',function(){inp.value='';clr.style.display='none';panel.classList.remove('open');clearMarks();inp.focus();});
+  panel.addEventListener('click',function(e){var b=e.target.closest('.vps-hitbtn'); if(!b) return; panel.classList.remove('open'); jump(+b.dataset.i,+b.dataset.o,inp.value);});
+  document.addEventListener('click',function(e){if(!panel.contains(e.target)&&!wrap.contains(e.target)) panel.classList.remove('open');});
+ }
+ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
+})();
+</script>
+<!-- VP-SEARCH:end -->
 </body></html>
