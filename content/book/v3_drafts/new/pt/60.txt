@@ -18,7 +18,7 @@ Havia letras nela. Lentas. Uma de cada vez. Do jeito que a tela sempre escrevia,
 
 Rei ficou muito parado.
 
-*por favor não acenda a luz. Por favor não venha até a janela. Estou no telhado do prédio do outro lado da rua. Se você vier até a janela, eu vou embora. Preferia não ir. Vim de muito longe para bater à porta.*
+*por favor não acenda a luz. por favor não venha até a janela. estou no telhado do prédio do outro lado da rua. se você vier até a janela, eu vou embora. preferia não ir. vim de muito longe para bater à porta.*
 
 [break Bater]
 
@@ -34,9 +34,9 @@ Rei pegou o Capturador. As mãos não estavam firmes.
 
 A tela ficou em branco por um longo momento. Depois as letras voltaram, devagar.
 
-*você sabe o que eu sou. Não sabe quem. Tudo bem. Não são muitos que sabem. Menos a cada século.*
+*você sabe o que eu sou. não sabe quem. tudo bem. não são muitos que sabem. menos a cada século.*
 
-*eu observo você desde o corredor. Você também sabe disso. Você não é burro. Seu irmão me disse que você não era burro, muitas vezes, de muitos jeitos, geralmente quando eu mesmo estava fazendo alguma burrice.*
+*eu observo você desde o corredor. você também sabe disso. você não é burro. seu irmão me disse que você não era burro, muitas vezes, de muitos jeitos, geralmente quando eu mesmo estava fazendo alguma burrice.*
 
 A garganta de Rei se fechou.
 
@@ -46,7 +46,7 @@ Ele olhou para a janela preta sem ir até ela. "Ele está aí?"
 
 Rei apertou a caixinha contra o peito por um segundo, depois a afastou de novo para conseguir ler. "Ele consegue me ouvir?"
 
-*consegue. Está ouvindo com muita atenção. Ele sempre ouve com atenção quando é você.* Uma pausa. A luz da bondade tremulou. *ele diz que você não tem comido. Diz que a panela de arroz está cheia e você está magro. Diz que você anda dormindo no sofá com o pé para fora, coisa que ele mandou você parar de fazer quando você tinha doze anos. Diz para parar.*
+*consegue. está ouvindo com muita atenção. ele sempre ouve com atenção quando é você.* Uma pausa. A luz da bondade tremulou. *ele diz que você não tem comido. diz que a panela de arroz está cheia e você está magro. diz que você anda dormindo no sofá com o pé para fora, coisa que ele mandou você parar de fazer quando você tinha doze anos. diz para parar.*
 
 Rei pôs a mão livre na boca.
 
@@ -58,7 +58,7 @@ Quando conseguiu, ele tirou a mão.
 
 Houve uma pausa muito longa.
 
-*ele está rindo*, disse a tela. *não sei por que isso é engraçado. Ele diz que é engraçado porque é exatamente o que você diria. Diz que você é um idiota.* Outra pausa. *ele diz do jeito que diz para você. Eu ouvi a diferença. Levei algum tempo.*
+*ele está rindo*, disse a tela. *não sei por que isso é engraçado. ele diz que é engraçado porque é exatamente o que você diria. diz que você é um idiota.* Outra pausa. *ele diz do jeito que diz para você. eu ouvi a diferença. levei algum tempo.*
 
 [break O que ele queria]
 
@@ -68,15 +68,15 @@ Rei limpou o rosto com as costas do pulso, tranca e tudo. "Por que você está a
 
 A palavra ficou sozinha na tela verde por muito tempo.
 
-*eu nunca pedi nada a ninguém. Quero que você entenda isso antes que eu continue. Não digo para causar pena. Digo para que você entenda o que é isto. De onde eu venho, tudo é dívida. Tudo é devido e tudo é pago. Eu tomo o que me devem. Pago o que devo. Não peço. Pedir é coisa de criatura pequena, de criatura sem direito. Eu sempre tive direito sobre tudo que toquei.*
+*eu nunca pedi nada a ninguém. quero que você entenda isso antes que eu continue. não digo para causar pena. digo para que você entenda o que é isto. de onde eu venho, tudo é dívida. tudo é devido e tudo é pago. eu tomo o que me devem. pago o que devo. não peço. pedir é coisa de criatura pequena, de criatura sem direito. eu sempre tive direito sobre tudo que toquei.*
 
-*seu irmão diz que essa é a coisa mais triste que ele já ouviu. Levei muito tempo para entender.*
+*seu irmão diz que essa é a coisa mais triste que ele já ouviu. levei muito tempo para entender.*
 
 *estou aqui para pedir.*
 
 Rei segurou o Capturador e esperou.
 
-*você entrou na casa dela hoje. Entrou na casa dela e sentou no chão dela e ela pôs a mão na sua e ofereceu chá, e você não bebeu. Eu estava no telhado do banho público no fim da rua dela. Senti quando ela abriu a outra margem embaixo de você. Senti quando você fechou.* Uma pausa. *você não devia ter conseguido fechar. Não no seu nível. Não com a mão dela na sua. Seu irmão não teria conseguido na sua idade. Não sei se conseguiria agora.*
+*você entrou na casa dela hoje. entrou na casa dela e sentou no chão dela e ela pôs a mão na sua e ofereceu chá, e você não bebeu. eu estava no telhado do banho público no fim da rua dela. senti quando ela abriu a outra margem embaixo de você. senti quando você fechou.* Uma pausa. *você não devia ter conseguido fechar. não no seu nível. não com a mão dela na sua. seu irmão não teria conseguido na sua idade. não sei se conseguiria agora.*
 
 *senti você fazer isso, e decidi bater.*
 
@@ -86,29 +86,29 @@ Rei olhou para a janela. Para o escuro. Não foi até ela.
 
 A tela ficou em branco por muito tempo. A luz da bondade diminuía e aumentava, diminuía e aumentava, feito uma respiração lenta.
 
-*isso é verdade. E é mentira.*
+*isso é verdade. e é mentira.*
 
-*é verdade que eu devo a ela. Uma dívida muito antiga. Mais antiga que esta cidade. Não vou contar qual é esta noite. Não é uma história boa e você está cansado.*
+*é verdade que eu devo a ela. uma dívida muito antiga. mais antiga que esta cidade. não vou contar qual é esta noite. não é uma história boa e você está cansado.*
 
-*é verdade que ela poderia cobrar. E se cobrasse, eu teria que pagar. É o que eu sou. Não posso ser outra coisa. Se ela dissesse, me dá o irmão, eu teria que dar.*
+*é verdade que ela poderia cobrar. e se cobrasse, eu teria que pagar. é o que eu sou. não posso ser outra coisa. se ela dissesse, me dá o irmão, eu teria que dar.*
 
 *é mentira que ela daria ele a você.*
 
 A mão de Rei apertou a caixinha.
 
-*ela não dá. Nunca deu nada. Ela toma, do jeito que eu tomo, mas não paga. Comeu tudo que já puseram na frente dela, cada luto, cada criança sozinha, a mulher cujo rosto ela está usando, e nunca pagou por nada. Ela tiraria seu irmão de mim e o poria na parede junto com os outros. E tomaria você, na cadeira, e seria dona da sua dívida, e através de você seria dona do décimo terceiro assento. E a corrente correria para o lado errado.*
+*ela não dá. nunca deu nada. ela toma, do jeito que eu tomo, mas não paga. comeu tudo que já puseram na frente dela, cada luto, cada criança sozinha, a mulher cujo rosto ela está usando, e nunca pagou por nada. ela tiraria seu irmão de mim e o poria na parede junto com os outros. e tomaria você, na cadeira, e seria dona da sua dívida, e através de você seria dona do décimo terceiro assento. e a corrente correria para o lado errado.*
 
-*é isso que ela quer. Não você. Não ele. A cadeira. Ela quer as cadeiras há muito tempo. Já tem seis delas na cabeça, as que têm donos fracos ou cansados ou morrendo. Está tomando a cinzenta agora. Você sabe qual.*
+*é isso que ela quer. não você. não ele. a cadeira. ela quer as cadeiras há muito tempo. já tem seis delas na cabeça, as que têm donos fracos ou cansados ou morrendo. está tomando a cinzenta agora. você sabe qual.*
 
 Watanabe. O fio correndo para oeste. O cinza até os pulsos.
 
 Rei fez que sim para a tela, como se ela pudesse vê-lo. "Sei."
 
-*com a sua, ela teria sete. Com sete, na noite em que o véu está mais fino, ela pode abrir a outra margem e deixar aberta. E tudo que está do outro lado vai atravessar. Não algumas coisas. Tudo.*
+*com a sua, ela teria sete. com sete, na noite em que o véu está mais fino, ela pode abrir a outra margem e deixar aberta. e tudo que está do outro lado vai atravessar. não algumas coisas. tudo.*
 
-*seu irmão viu isso. Em julho passado. Na sala branca dela. Sentou no chão dela por uma hora e ouviu e viu. E quando saiu pela porta dela, eu estava esperando no degrau, porque eu também tinha sentido, e ele era o único que tinha visto, e eu precisava dele.*
+*seu irmão viu isso. em julho passado. na sala branca dela. sentou no chão dela por uma hora e ouviu e viu. e quando saiu pela porta dela, eu estava olhando, porque eu também tinha sentido, e ele era o único que tinha visto, e eu precisava dele. três semanas depois, na noite antes de os mortos voltarem para casa, eu estava esperando por ele no corredor da sua casa.*
 
-*ele não concordou. Quero que você saiba disso. Quero que você saiba que ele disse não. Eu não pedi. Não sabia pedir naquela época. Eu o tomei. Não foi uma coisa boa. Ele me diz isso todo dia há onze meses.*
+*ele não concordou. quero que você saiba disso. quero que você saiba que ele disse não. eu não pedi. não sabia pedir naquela época. eu o tomei. não foi uma coisa boa. ele me diz isso todo dia há onze meses.*
 
 [break Por favor]
 
@@ -118,11 +118,11 @@ Ele pôs o Capturador na mesa à sua frente, para não ter que segurar. "O que v
 
 As letras vieram muito devagar dessa vez. Mais devagar do que a noite inteira. Como se cada uma custasse alguma coisa.
 
-*quero acabar com ela. Não consigo sozinho. Não na casa dela. Não com o rebanho dela em volta, os ocos, os que tomaram o chá. Não antes da noite em que o véu fica fino. Ela é mais forte do que eu lá. Está comendo há muito tempo.*
+*quero acabar com ela. não consigo sozinho. não na casa dela. não com o rebanho dela em volta, os ocos, os que tomaram o chá. não antes da noite em que o véu fica fino. ela é mais forte do que eu lá. está comendo há muito tempo.*
 
-*preciso de alguém que consiga ficar na casa dela e não beber. Preciso de alguém que consiga fechar a outra margem quando ela abrir. Preciso de alguém que as seis cadeiras escutem. Preciso de alguém para quem a luz do centro olhou.*
+*preciso de alguém que consiga ficar na casa dela e não beber. preciso de alguém que consiga fechar a outra margem quando ela abrir. preciso de alguém que as seis cadeiras escutem. preciso de alguém para quem a luz do centro olhou.*
 
-*eu senti ela olhar para você. Na noite em que você perdeu um dia. Ela não olha para ninguém há quatrocentos anos. Ela olhou para você.*
+*eu senti ela olhar para você. na noite em que você perdeu um dia. ela não olha para ninguém há quatrocentos anos. ela olhou para você.*
 
 *então estou pedindo.*
 
@@ -140,13 +140,13 @@ Olhou em volta, pela cozinha escura. Para o gancho perto da porta. *Volta para c
 
 "Matar, não", ele disse por fim. "Não vou te ajudar a matar ninguém. Ela está vestindo uma mulher. A mulher já foi uma pessoa. Eu te ajudo a parar ela. Só isso."
 
-*a mulher não existe mais. Ela apagou as luzes uma por uma. Não sobrou ninguém para salvar naquele corpo.*
+*a mulher não existe mais. ela apagou as luzes uma por uma. não sobrou ninguém para salvar naquele corpo.*
 
 Rei balançou a cabeça para a tela. "Então a gente descobre isso quando chegar lá. Não antes."
 
 A pausa foi muito longa.
 
-*seu irmão está rindo de novo. Diz que é assim mesmo. Diz para eu me acostumar.* Outra pausa. *combinado. Parar ela.*
+*seu irmão está rindo de novo. diz que é assim mesmo. diz para eu me acostumar.* Outra pausa. *combinado. parar ela.*
 
 Rei ergueu um dedo, no escuro, para ninguém. "E Yua sai primeiro. Antes de qualquer coisa. Antes de você fazer qualquer coisa com aquela casa. Ela sai."
 
@@ -154,13 +154,13 @@ Rei ergueu um dedo, no escuro, para ninguém. "E Yua sai primeiro. Antes de qual
 
 Rei se inclinou para mais perto da luz verde. "É."
 
-*ela é nula. Você sabia. Não tem nada nela para a outra margem abrir. Ela não pode ser comida do jeito que os outros são comidos. É por isso que a coisa do vestido macio se interessa tanto por ela. Está tentando ensinar a menina a querer ser comida. É muito paciente. Tem sido muito gentil com ela. Ninguém nunca foi gentil com ela.*
+*ela é nula. você sabia. não tem nada nela para a outra margem abrir. ela não pode ser comida do jeito que os outros são comidos. é por isso que a coisa do vestido macio se interessa tanto por ela. está tentando ensinar a menina a querer ser comida. é muito paciente. tem sido muito gentil com ela. ninguém nunca foi gentil com ela.*
 
-*ela está aguentando. Eu também senti ela hoje. Ela está contando.*
+*ela está aguentando. eu também senti ela hoje. ela está contando.*
 
 Os olhos de Rei arderam. "Eu sei."
 
-*combinado. A menina primeiro.*
+*combinado. a menina primeiro.*
 
 "E quando acabar", disse Rei. A voz agora estava muito firme. Mais firme do que a noite inteira. "Quando ela tiver ido embora. Quando não tiver mais dívida nenhuma. Você devolve ele."
 
@@ -172,9 +172,9 @@ O polegar de Rei achou a borda do botão. "Então eu não posso..."
 
 As letras vieram mais depressa do que a noite inteira, cortando a frase dele.
 
-*escuta. Por favor. Não estou recusando. Estou te dizendo a verdade porque ele está ouvindo e vai saber se eu mentir. Não posso prometer porque não sei o que vou ser quando acabar. Não sei se vai ter uma porta para abrir. Não sei se ele vai querer passar por ela. Não sei o que acontece com um homem que é vestido por um ano, por dentro. Ninguém nunca voltou disso para me contar.*
+*escuta. por favor. não estou recusando. estou te dizendo a verdade porque ele está ouvindo e vai saber se eu mentir. não posso prometer porque não sei o que vou ser quando acabar. não sei se vai ter uma porta para abrir. não sei se ele vai querer passar por ela. não sei o que acontece com um homem que é vestido por um ano, por dentro. ninguém nunca voltou disso para me contar.*
 
-*posso prometer isto. Quando acabar, se eu conseguir abrir a porta, eu abro. E se não conseguir, te digo por quê, e fico e tento pelo tempo que for preciso. Isso é uma dívida. Estou te dizendo que estou assumindo essa dívida. De livre vontade. Nunca fiz isso também.*
+*posso prometer isto. quando acabar, se eu conseguir abrir a porta, eu abro. e se não conseguir, te digo por quê, e fico e tento pelo tempo que for preciso. isso é uma dívida. estou te dizendo que estou assumindo essa dívida. de livre vontade. nunca fiz isso também.*
 
 Rei leu duas vezes. Três. As letras verdes nadavam.
 
@@ -186,9 +186,9 @@ Rei pegou a caixinha de novo. "Como eu te chamo?"
 
 A tela ficou em branco por muito tempo.
 
-*ainda não. Nomes são dívidas, de onde eu venho. Um nome dado é um direito. Te dou o meu quando tiver pago por ele. Não antes.*
+*ainda não. nomes são dívidas, de onde eu venho. um nome dado é um direito. te dou o meu quando tiver pago por ele. não antes.*
 
-*seu irmão me chama de muitas coisas. A maioria eu não vou escrever nesta tela. às vezes, quando está cansado, ele me chama de velho. Desse eu não me importo.*
+*seu irmão me chama de muitas coisas. a maioria eu não vou escrever nesta tela. às vezes, quando está cansado, ele me chama de velho. desse eu não me importo.*
 
 [break Foi]
 
@@ -196,7 +196,7 @@ A luz da bondade foi se apagando devagar, do jeito que uma brasa se apaga. O bot
 
 Então, muito fraca, mais uma linha.
 
-*come alguma coisa. Ele está falando sério. Eu também, acho. Não tenho certeza. É estranho falar sério sobre uma coisa que não é devida.*
+*come alguma coisa. ele está falando sério. eu também, acho. não tenho certeza. é estranho falar sério sobre uma coisa que não é devida.*
 
 A tela apagou. O Capturador esfriou na mão dele.
 
