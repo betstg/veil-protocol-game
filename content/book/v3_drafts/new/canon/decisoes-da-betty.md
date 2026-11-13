@@ -125,7 +125,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - A Kanna-sensei é o nome que o Kishin usa no corpo da Fukai Rinka para guiar o Far-Shore Circle (Bible).
 
 ### Mestres
-- Os mestres são Vanguard aposentados da CVD, protegidos e suprimidos. Servem para ensinar os níveis altos que precisam de um treino que ninguém mais sabe dar, fora os Treze e a Fonte.
+- Os mestres são Vanguard aposentados da CVD, protegidos e suprimidos, porque rank alto mais velho é vulnerável e pode ser possuído, e ninguém quer um desses possuído. Servem para ensinar os níveis altos que precisam de um treino que ninguém mais sabe dar, fora os Treze e a Fonte.
 - O Adachi cuida da rede de mestres aposentados (Bible). Já ativou para o Kurosawa. É a rede que o Rei vai precisar.
 - Mestre é um conceito do livro. Não é alguém que se escolhe.
 
