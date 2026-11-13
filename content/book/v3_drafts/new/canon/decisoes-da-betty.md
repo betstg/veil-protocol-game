@@ -112,3 +112,10 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 
 ### O grupo de luta
 - São cinco. Rei, Tendo (Psicocinese), Usami (Telepatia, e Clarisenciência pelo Ren) e Itsuki. Falta definir um.
+
+### O que entra no Itsuki
+- Não é num treino. É numa missão do Itsuki com o Rei, fora.
+- Ninguém entra no véu porque quer. Não tem treino dentro do véu. Só se entra quando é preciso buscar uma informação extremamente importante lá dentro.
+- Alguma coisa entra no Itsuki nessa missão. Nada se enrola na espinha.
+- Depois ele vai para a CVD, porque já não está mais com a família.
+- O Itsuki não treinava com os Kuroda. Ele só levou o Rei até eles.
