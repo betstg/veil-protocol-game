@@ -33,5 +33,25 @@ Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm d
 - [ ] `ch8_cafe_asahi.png` Old kissaten in Shinjuku Ni-chōme, red leather seats and net curtains, Matsuda Keiko in a white apron behind the dark wood counter, a thick white coffee cup and buttered toast with red bean paste in front of Rei
 - [ ] `ch8_lilac_mug.png` A tiny purple bar called Lilac, a large woman in her sixties with big earrings and smeared make-up holding a plain white chipped coffee mug on the counter in front of an empty stool, Rei with wet cheeks
 
+## 09 Nezu
+- [ ] `ch9_kuroda_garden.png` Inside a high grey plaster wall in Nezu at dusk, an old Japanese estate garden with raked gravel, a dark pond, stone lanterns being lit, long low wooden houses with deep eaves, Itsuki in a dark ironed shirt and Rei in a black hooded jacket walking a stone path
+- [ ] `ch9_kuroda_soun.png` Kuroda Sōun, head of the Kuroda family, late fifties, upright, severe silver hair, dark formal haori, kneeling alone in an empty old tatami room with screens open to a dark garden, a tall black lacquered free-standing doorframe behind him
+
+## 10 The Six Paths
+- [ ] `ch10_training_hall.png` A long high old wooden training hall at dawn, wide dark floorboards worn into soft dips, tall open windows onto a wet garden, a single scroll with the kanji 門 at the end, young people in plain training clothes kneeling in a row
+
+## 11 Rats
+- [ ] `ch11_arakawa_night.png` The Arakawa river embankment at night in Kita, a long raised grass bank with a straight footpath on top, the dark wide river, distant lit bridge, a line of small dead rats evenly spaced along the path under a street lamp, two young men with torches
+
+## 12 Kato
+- [ ] `ch12_famires.png` A Japanese family restaurant at 11pm, big windows, booths, students studying, a trim young man in a neat dark jacket in a corner booth turning a small white chess king in his fingers, glasses of melon soda from the drink bar, Rei sliding in opposite
+
+## 13 One Question
+- [ ] `ch13_iwabuchi_gate.png` The old red brick and iron floodgate at Iwabuchi on the Arakawa at midnight, two square towers, the wide black river, three young men walking the grass bank with torches, a thin mist on the water
+- [ ] `ch13_white_light.png` A young man seen from behind, small and dark, standing at the edge of an endless soft white light with no horizon, a faint tall column of brighter white far ahead, everything else erased
+
+## d1 The Umbrella
+- [ ] `d1_healer_konbini.png` A rainy night konbini doorway in Tokyo, a tall man with long black hair loose past his jaw holding a new clear plastic umbrella and studying the catch on the handle with calm curiosity, a young clerk watching uneasily
+
 ## g1 Hands That Make Tea
 - [ ] `g1_gin_tea.png` A small old kitchen with yellow walls and a frosted window at night in the rain, Gin with long black hair pouring hōjicha from a clay teapot into one single cup, his reflection in the dark glass smiling a small wrong smile his face is not making
