@@ -18,7 +18,7 @@ Not the way people know ghost stories, with a shiver and a nervous laugh. The wa
 
 Most of what comes through is small and sad. A grandmother who keeps walking into the kitchen of the flat where she died, looking for her reading glasses. A cold patch on a staircase where a boy fell forty years ago, which every new tenant learns to step around without ever knowing why. The smell of one particular brand of cigarette in a car that has been sold three times and cleaned by every owner. Some of what comes through is not small. Some of it is hungry, and patient, and very old, and it does not want to go back.
 
-The government had an office for this, the way it had offices for fires and floods and stray dogs. It was called the Civil Veil Division, and everyone called it the CVD. Its officers went into the houses and streets where the veil had gone wrong and put things right, or tried to, or filled in a form explaining why they had not. There were posters in every train station in Tokyo. *Felt something strange? Call the CVD. Do not investigate alone.* There was a cartoon mascot, a round white owl in a little police cap, and children drew it at school and stuck it on the fridge. (Nobody at the CVD liked the owl. Nobody had ever been able to find out who approved it.)
+The government had an office for this, the way it had offices for fires and floods and stray dogs. It was called the Civil Veil Division, and everyone called it the CVD. Its officers went into the houses and streets where the veil had gone wrong and put things right, or tried to, or filled in a form explaining why they had not. There were posters in every train station in Tokyo. *Felt something strange? Call the CVD. Do not investigate alone.* There was a cartoon mascot, a round white owl in a little police cap, and children drew it at school and stuck it on the fridge. Nobody at the CVD liked the owl, and nobody had ever been able to find out who approved it.
 
 And everybody knew that in Obon week the veil grew thinner than at any other time of the year. The CVD put every officer it had on the streets. People who had lost someone stayed home with the lights on and the door unlocked, just in case.
 
@@ -38,9 +38,9 @@ He was wearing an enormous grey hoodie over a white shirt that had obviously cos
 
 Nagai Haruto was seventeen and belonged to nobody in particular. Itsuki had found him in the spring, under the railway bridge by the river, where Itsuki liked to sit and draw the trains and Haruto liked to sit and not go home. His mother worked nights, and the flat in the public housing block was small and hot and full of his little sister's crying, and so Haruto spent most of his evenings outside, by the river or on the steps of the konbini, with his hood up and his phone in his hand. He had decided, after about a week of Itsuki drawing him without asking, that Itsuki was weird but harmless. He had decided, after about a week of meeting Rei, that Rei was the coolest person he had ever stood next to. He would have died rather than say so.
 
-[img char_nagai-haruto.png | Nagai Haruto]
+He had thick black hair that fell messily over his forehead, the ends gone a faded brown from a dye he was quietly letting grow out. He wore a dark jacket with a hood over a plain white T-shirt, scuffed trainers, and an expression that was calm and level and much older than seventeen, the look of a boy who has learned to check who is watching before he says anything at all.
 
-He was small and wiry, with his hair cut close at the sides and the last inch of it a faded brown from a dye he was quietly letting grow out. He wore a hoodie two sizes too big that had belonged to somebody else first, and scuffed trainers, and an expression of permanent suspicion, as if the whole world had just tried to sell him something.
+[img char_nagai-haruto.png | Nagai Haruto]
 
 "Rei," said Haruto, the moment he saw him. He jumped off the wall. "Tell him. Tell him melon's the best ice. He's saying lemon. *Lemon.* Who picks lemon?"
 
@@ -68,9 +68,15 @@ Haruto went red to the ears and pulled his hood further down over his face, and 
 
 "Working. All night, probably. It's Obon."
 
-"He catching ghosts?"
+The hood came straight back down. Haruto's eyes had gone wide and bright, and for a second he forgot to look hard at all.
 
-"He's filling in forms about ghosts," said Rei. "Mostly. That's what he says."
+"Wait. Like, right now? He's out there catching ghosts right *now*?" He swung round to look at the dark lanes behind them, at the lanterns swinging by the doors, as if he might see a CVD officer go past at a run. "What does he do, when he finds one? Does he fight it? Has he got, like, a gun for them?"
+
+"He fills in forms about them," said Rei. "Mostly. That's what he says."
+
+"Forms." Haruto looked deeply betrayed. "That's the worst thing I've ever heard."
+
+"He also says the forms are the dangerous part."
 
 "Did he forget his keys again?" said Itsuki.
 
