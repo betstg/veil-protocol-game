@@ -123,3 +123,21 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 ### O Far-Shore Circle
 - O capítulo da casa branca (rascunho 21) saiu. O Rei não segue o recrutador. Ele só é recrutado.
 - A Kanna-sensei é o nome que o Kishin usa no corpo da Fukai Rinka para guiar o Far-Shore Circle (Bible).
+
+### Mestres
+- Os mestres são Vanguard aposentados da CVD, protegidos e suprimidos. Servem para ensinar os níveis altos que precisam de um treino que ninguém mais sabe dar, fora os Treze e a Fonte.
+- O Adachi cuida da rede de mestres aposentados (Bible). Já ativou para o Kurosawa. É a rede que o Rei vai precisar.
+- Mestre é um conceito do livro. Não é alguém que se escolhe.
+
+### Programa Vessel e contratos
+- Ninguém sai do Programa Vessel.
+- Demônio não quebra contrato. A origem da Watanabe Sora no cap. 18 do Bible (saiu do programa porque a entidade quebrou o contrato) está errada e espera uma nova.
+
+### O que as pessoas sabem
+- O povo não entende os sentimentos nem a ligação deles com o véu. Ninguém sabe que existe um demônio do Dever.
+
+### O celular do Gin
+- Não tem mensagem entre o Rei e o Gin. O demônio só usa o celular muito depois, quando o Gin meio que faz as pazes com ele.
+
+### Os Treze sob pressão
+- Só estão sob pressão os holders que o Bible marca assim. Mori Takao, Nakashima Yuna, Inoue Satoru e Park Junho. O Watanabe Jun está enfraquecendo.
