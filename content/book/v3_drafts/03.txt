@@ -1,142 +1,221 @@
-#title The Key
-#part Book One. The Archive
+#title The Book
 
-When Rei got home the flat was hot and smelled of cold ginger pork. He opened every window. The cicadas came in with the heat, a solid wall of noise from the trees on the hill, like a hundred small machines that would never be switched off.
+The Kita Ward Police headquarters stood on the main avenue, ten minutes' walk from the CVD, and it did not look like a tax office. It looked like a police station, which in its own way was worse.
 
-He lifted the plate off the plate. The pork had gone grey. The rice had dried at the edges. He scraped it into the bin and washed both plates and dried them and put them away. It felt important to do it properly. If he did small things properly, the big thing would wait.
+[img off_police.png | Kita Ward Police]
 
-Then he went to Gin's door.
+Rei had worked there for eighteen months as a criminal investigation intern. That sounds more exciting than it was. Mostly it meant photocopying, and filing, and carrying boxes up and down stairs, and making tea for detectives who did not say thank you. Sometimes it meant going out to a scene with one of the senior officers and standing behind the tape holding a clipboard while they did the real work. He liked those days and hated them in equal amounts. He liked them because he was good at it. He would stand at the edge of a room where something bad had happened, and before anyone told him anything he would know where it had happened, and roughly how, and sometimes roughly why. The detectives thought he had a good eye. He hated them because of what came home with him afterward. Eighteen months of other people's worst days, soaked into him a little at a time, the way smoke soaks into a coat. He dealt with that the way a lot of nineteen-year-olds deal with things. Badly, and with cigarettes, and by not thinking about it.
 
-He had not opened it last night. He had not wanted to. Now he knocked once, softly, feeling stupid, and pushed it open.
+(He had never told Gin about the scenes. Gin had never asked. Gin had simply started leaving a clean shirt on the back of the bathroom door on the evenings Rei came home from one, and a pot of hōjicha on the table, and had never said a word about either. The Uedera brothers were extremely good at not saying things. It was, in a way, the family business.)
 
-[img res_apartmentginroom.png | Gin's room]
+He was late. He had never been late before. The sergeant on the front desk looked at his face and at his creased shirt from the night before and said nothing, and waved him through.
 
-The bed was made with square corners. The chair was pushed all the way under the desk. The window was shut and the blind was half down, so the room was full of a dim yellow light. And the desk lamp was on. A small circle of light lay on the bare wood of the desk, as if Gin had been working under it a minute ago and had stepped out to take a call.
+[break The form]
 
-In the circle of light lay Gin's archive.
+His supervisor was a tired inspector in his fifties named Kumagai, who had a desk by the window on the second floor and a framed photograph of a very ugly dog. Rei waited until Kumagai had finished his coffee, because that was the rule on the second floor, and then stood in front of his desk and asked for three days' leave, and for a missing person report.
 
-That was what Gin called it. It was a thick field book with a black cover gone soft at the corners, and Gin carried it everywhere. Into places Rei was not allowed to know about, and out again, year after year. He wrote in it at the kitchen table late at night, and he always closed it when Rei came near. He did not leave it on tables. He did not leave it anywhere. And yet here it was, open, squared to the edge of the desk, as if someone had wanted it found by the first person to sit down.
+Kumagai looked at him over his glasses.
 
-Rei sat down.
+"Who's missing?"
 
-It was open at the first page. The handwriting was Gin's, small and exact, the handwriting of a man who trusted ink more than memory.
+"My brother. Uedera Gin. Twenty-eight. He didn't come home last night. He doesn't answer his phone. His key was outside our door at quarter to four this morning."
 
-[doc Personal Archive. Opening Note]
-If you found this: the keys were on the hook because I put them there. The lamp was on because I was working. The door was not quite closed because I heard something in the corridor and I looked up and then I kept writing and I forgot to go back and close it.
-Whatever you are looking for... the world is in here. I documented everything I know. Six years of field work, case files, entity taxonomy, practitioner profiles, the political landscape of who controls what and why. The archive is complete. It functions without me.
-Start at chapter one. Read in order the first time. The world builds on itself and some things will not make sense until other things do. The index is in the field kit, left pocket.
-I was going to annotate the later sections more thoroughly. I ran out of time. The notes in the margins are the annotations. Read the margins.
-Uedera Gin. Kita-ku, Tokyo, 2015.
-[/doc]
+"Your brother's the CVD one."
 
-Rei read it twice. Then he sat back in the chair and looked at the room.
+"Yes."
 
-The keys had not been on the hook. They had been on the walkway, cold and wet, at 3:47 in the morning. The note had been written for a different night. A night when Gin heard something outside, looked up, and went back to his writing. It had not been written for a night when he got up and went out to see what it was.
+Kumagai took his glasses off and rubbed the red marks on either side of his nose. He was not an unkind man. He was a man who had been doing this job for thirty years, and the job had worn him down to the shape of the job.
 
-Or it had been written for this night, by someone who already knew he would not come back. Rei did not know which was worse.
+"Uedera," he said, "it's Obon. Your brother works for the Civil Veil Division. In Obon week those people don't sleep, they don't eat, and they don't call their mothers. He's been gone, what, one night?"
 
-He turned the page. The next page was headed *The World*. It was dense, careful writing about openings and membranes, the kind of thing Gin said at dinner when he was tired and forgot who he was talking to. Halfway down, one sentence stopped Rei so hard that he put his palm flat on the desk.
+"He always comes home."
 
-[doc Personal Archive. The World]
-If you are reading this at 3:47 in the morning: that is approximately when Rei found it. That detail is in the archive for a reason. Keep reading.
-[/doc]
+"He's twenty-eight. He's a grown man with a job that keeps him out all night, in the one week of the year that job is busiest." Kumagai spread his hands. "You know what I'd write on that form, if I wrote it? *Adult male, did not come home for one night during a public festival. No sign of a crime.* They'd laugh at it upstairs. And then they'd ask why I'm wasting a missing person file on a CVD officer, when the CVD looks after its own and has its own procedures, and doesn't thank us for treading on them."
 
-He had not found it at 3:47. At 3:47 someone had knocked on the door. He had found the key at 3:47.
+"I went to the CVD. They said he's *on assignment.*"
 
-He looked at the time on his phone. It was 11:20 in the morning. The pressure began behind his eyes, slow and heavy, and he let it come for a moment, because he was alone and he was tired of always closing the door. The room changed. The yellow light went thin and greyish, like light through old paper. The air had a smell under it, very faint, of salt and of something burnt. And on the desk, in the circle of lamplight, there were two shapes pressed into the dust that he had not seen before. The shapes of two hands. Large hands, Gin's size, laid flat on the wood on either side of the book. Holding it down. Or holding on.
+"Well, then." Kumagai put his glasses back on. "He's on assignment."
 
-Rei shut the door in his chest. The latch dropped. The room was a room again. There was no dust on the desk. Gin never let dust stay anywhere.
+"They didn't know where. Or they wouldn't say."
 
-[need ch3_desk_hands | Gin's bedroom desk in dim yellow light, desk lamp making a circle of light on an open black field book, faint pale handprints in dust on both sides of the book]
+"That's what *on assignment* means, son. It means they won't say." He picked up a pen, which meant the conversation was finished. "Take today. Go home. Get some sleep. You look like you've been dug up. If he's not back in three or four days, and the CVD still can't tell you anything, come and see me and we'll think again."
 
-[break What the key is]
+"Three or four days."
 
-He read for three hours without stopping.
+"Adults don't go missing after one night, Uedera. They go out."
 
-He did not understand most of it. There were words he had never seen. Register. Membrane. Stability. Rank. There were tables of numbers and drawings of circles and long lists of case numbers with short notes beside them. Case 7-114. Elderly woman in Nerima. *Cohabiting with her late husband for four years.* Case 11-08. The Car. *The entity was not in the apartment. It was in the car.* He recognised some of the drawings. They were Itsuki's. A staircase with a pale blue smudge on the fourth step. A car seen from above. Gin had glued them into the margins and written beside them in pencil.
+Rei stood in front of the desk with his hands at his sides. He could feel the key in his trouser pocket, against his leg, cold through the cloth. He wanted to put it on the desk next to the photograph of the ugly dog and say, *feel that, feel it, tell me that's a man who went out.* He did not. He had seen enough people do that kind of thing at that kind of desk, over eighteen months, to know exactly how it ended. They ended up in the small room downstairs with a cup of tea and a female officer being very kind to them.
 
-And in the margins, there were other notes. Not about cases. About Rei.
+"Thank you, sir," he said, and bowed, and went.
 
-*A Wednesday. Rei missed his exam prep again. We ate ramen. He fell asleep on the couch before I finished cleaning up.*
+[break Arai]
 
-*Rei's light is still on under his door. He's supposed to be studying. I knocked and asked if he wanted food. He said he already ate. I checked the kitchen. He hadn't.*
+On the stairs he passed Detective Sergeant Arai Makoto, who was coming up with a paper cup of vending machine coffee and a face like a closed shop.
 
-*Rei is in the next room. I can hear him. That has been the most stable data point in the archive for six months.*
+Rei had worked in the building for eighteen months and had spoken to Arai perhaps three times. Arai was forty-eight, with grey brush-cut hair and a crumpled suit and a cheap watch, and he worked the cases that nobody else on the second floor wanted. The ones that did not fit. The deaths with no cause, the rooms that felt wrong, the files that got written up very carefully and then handed up some quiet channel and never mentioned again. People said he had been good once. People said a lot of things about Arai, quietly, when he was not there.
 
-Rei stopped reading for a while after that one.
+He stopped two steps above Rei and looked at him. Not at his face. At his hands. Rei realised, too late, that his right hand was in his trouser pocket, closed tight round the key.
 
-Then, about two hundred pages in, he found a section called *Grounding Objects*. He read it slowly, the way you read instructions for medicine.
+"Uedera," said Arai flatly. "The intern."
 
-Every practitioner, Gin wrote, has one object that keeps them in the world. It is not magic. It is something ordinary that you have carried for a long time and that means something to you. A grandfather's lighter. A bracelet. A photograph. When the veil gets too loud, when the job puts too much into you, you hold the object and it holds you. The longer you carry it, the more of you goes into it. After six years, Gin wrote, a grounding object is like a complete file on the person who carried it. Anyone with the right sight could read the whole of you from it. *That is why experienced practitioners do not leave their grounding objects in the field.*
+"Yes, sir."
 
-Then one more line, underlined.
+"Kumagai says no?"
 
-*It is also why the keychain I carry has been in my possession for six years. If something has happened to me, treat it as sensitive material.*
+Rei looked up at him, startled. Arai drank some of his coffee and made a face at it.
 
-Rei took the key out of his pocket and put it on the desk in the circle of light.
+"Walls are thin," he said. "And you talk like a man reading a statement when you're upset. Everybody on that floor heard it." He looked at Rei's pocket again. "Your brother's CVD."
 
-A brass door key on a plain steel ring, with a small dent in the ring from a car door years ago. It looked like nothing. It looked like a thousand other keys in a thousand other pockets in this city.
+"Yes."
 
-It was Gin's grounding object. It had been with him for six years. And it had been lying on the concrete outside the door at 3:47 in the morning, wet and cold, next to half a cigarette.
+"Kita district. Long hair. Polite. Smokes half a cigarette and puts the rest out like it owes him money." Arai shrugged at Rei's face. "I've stood behind the same tape as him. Four or five times. He's careful. He's the kind who checks the floor before he puts his feet down." He was quiet for a moment. "What's in your pocket?"
 
-Gin had not dropped it. Gin would never have dropped it. Someone had put it there for Rei to find. Or Gin had put it there himself, with his own hands, in the one moment he had them.
+Rei hesitated. Then he took the key out and held it up on his palm, the way he had held it out to the young man in the CVD lobby that morning.
 
-Rei picked the key up again. It was still cold. But the floor under the chair felt steadier, and the room felt more like a room, and the pressure behind his eyes stayed where it was. He understood something then, without words for it yet. Gin had carried this key for six years to stay in the world. Now Rei was carrying it. And it was working for him too.
+Arai did not reach for it either. He looked at it for a long moment, with his tired, watchful eyes. A little bead of water was running down the steel ring, though the stairwell was hot.
 
-He put it on a cord from the kitchen drawer and hung it round his neck, under his shirt, where he could feel it against his chest. It lay there like a cold coin.
-
-[break The phone call]
-
-At two in the afternoon he called the CVD.
-
-There was a number on the posters in every train station. Rei had never called it in his life. A recorded voice thanked him for calling the Civil Veil Division and asked him to choose from five options. He chose the fifth. *All other enquiries.* He waited for nine minutes while a piano played the same eight bars of something soft.
-
-Then a woman answered. She had a pleasant voice, warm and smooth, the voice of someone who had said these words a thousand times and still sounded like she meant them.
-
-Rei explained. His brother. Uedera Gin. Field officer, Kita district. Did not come home last night. The front door. The key. He did not say anything about knocking at 3:47. He did not say anything about cold door handles.
-
-"Thank you so much for calling," the woman said. "Could you hold for just one moment?"
-
-He held for four more minutes of piano.
-
-When she came back, her voice was exactly as warm as before. "Mr. Uedera, I've checked for you. Officer Uedera is currently on assignment. During Obon week our field officers sometimes work extended operations and are not able to contact family. I completely understand how worrying that is. I'm sure he'll be in touch with you as soon as he's able."
-
-"On assignment," Rei said. "Where?"
-
-"I'm afraid I can't share operational details. I hope you understand."
-
-"He left his keys on the walkway."
-
-There was the smallest pause. Less than a second. "I'll make a note of that for you," the woman said. "Is there anything else I can help you with today?"
-
-Rei said no. She thanked him again, wished him a peaceful Obon, and the line went dead.
-
-He sat holding the phone. Then he looked down at his hand, and saw that he had written something on the back of an envelope while he was on hold, without noticing. It was a list of the words she had used. *On assignment. Extended operation. As soon as he's able.* Under them, in letters that pressed hard into the paper, he had written one more thing.
-
-*She already knew.*
-
-[break The envelope]
-
-He turned the envelope over. It was a letter from the property company that owned the building. He had brought it in from the mailbox yesterday and not opened it. He opened it now.
-
-It was a polite reminder. Rent for September, eighty-four thousand yen, was due on the twenty-seventh of August. Thank you for your continued residence.
-
-Rei did the sums on the back of the envelope under the list of words. His internship paid him a little money each month for travel and lunch. It was not enough for rent. It was not enough for half of rent. Gin had always paid for the flat. Gin's salary came into the shared account on the twenty-fifth of every month, and Gin moved the rent across on the twenty-sixth, and Rei had never once had to think about it.
-
-If Gin was on assignment, his salary would come. If Gin was not on assignment, Rei did not know what would happen. He did not know if a missing man still got paid. He did not know who to ask.
-
-He folded the envelope and put it inside the archive like a bookmark.
-
-That night Itsuki came over with his laptop and two bags of food from the konbini. He found Gin's search program on the old computer in Gin's room. The last file Gin had opened was on Wednesday, at 2:14 in the morning. It was a scan of one of Itsuki's drawings. A long white room with cushions on the floor and a low table, and nothing in it at all.
-
-"I hate that drawing," Itsuki said quietly.
+"Put that away," he said quietly. "Don't show that to people."
 
 "Why?"
 
-"I don't know." He shut the laptop. "It makes me feel like I've been there."
+Arai did not answer. He went up two more steps, past Rei, with his coffee. Then he stopped again without turning round.
 
-They sat in the kitchen until late, not saying much. Itsuki smoked half a cigarette by the open window, then remembered whose habit that was and put it out quickly, and did not light another one. At midnight he fell asleep with his head on his arms on the kitchen table. Rei put a blanket over him and sat across from him with the archive and read until the sky went grey.
+"Kumagai's right about the form," he said to the wall. "There's no form for that. Not in this building." He started up the stairs again. "Go home, Uedera."
 
-At 3:47 he looked up from the page and listened.
+[break Night one]
 
-Nobody knocked.
+Itsuki came at seven with his laptop and two bags of food from the konbini and his hair still full of blue paint.
+
+He did not say anything when Rei opened the door. He just looked at him, and put the bags down in the genkan, and put both arms round him and held on, hard, for about five seconds, with his chin on Rei's shoulder and his laptop bag banging against Rei's back. Then he let go and went into the kitchen and started taking things out of the bags as if nothing had happened, talking about a man on the train who had been eating a whole cabbage like an apple.
+
+That was Itsuki. You got exactly five seconds, and then a cabbage.
+
+He set the laptop up on Gin's desk, next to the lamp with the green shade, beside the closed black book. He did not touch the book. He moved it very carefully two centimetres to the left to make room, with one finger, and then looked at Rei, and moved it back.
+
+"Sorry," he said. "Reflex."
+
+The program was on Gin's old computer, the one he used for the case notes he brought home. Itsuki typed. Itsuki swore. Itsuki typed more. Rei sat on the end of Gin's bed with his knees up and watched him and did not say anything, because there was nothing to say.
+
+"Okay," said Itsuki at last, very quietly. "Last file he opened. Wednesday. Two fourteen in the morning."
+
+He turned the screen round.
+
+It was a scan of one of his own drawings. Rei knew it from the folder that morning. A long white room with cushions on the floor and a low table in the middle, and nothing else in it at all.
+
+"I hate that drawing," said Itsuki.
+
+"Why?"
+
+"I don't know." He closed the laptop. "It makes me feel like I've been there."
+
+They sat in the kitchen until late, not saying much. They ate the konbini food without tasting it. Rei smoked three cigarettes by the open window, one after another, and Itsuki took one from the packet and smoked half of it and then stopped with it halfway to his mouth, because he had remembered whose habit that was. He put it out very quickly against the windowsill and did not light another.
+
+At midnight he fell asleep with his head on his arms on the kitchen table, the way he used to when they were fourteen and Gin had kept them up doing maths. Rei put a blanket over him. Then he sat across from him in the dark with the key on the table between them, and did not sleep, and at 3:47 he looked up and listened, and nothing happened at all.
+
+[break Day two]
+
+On the second day he went back to the CVD.
+
+A different young man at the counter. The same smile. The same twenty-five minutes on the plastic chair under the white owl. The same words. *On assignment. Extended operations. As soon as he's able.* This time there was a business card, too, held out with both hands and a little bow, for a Public Confidence officer whose name Rei did not recognise and who, when he rang the number from the pavement outside, did not answer.
+
+He walked the routes he knew Gin walked. Down the hill to the station. Along the river to the floodgate. Past the shrine where the dance had been, the tower already half taken down, a pile of red and white lanterns stacked on the steps. He stood outside the konbini at the bottom of the street where Gin bought his coffee every morning and asked the girl at the till if she had seen a tall man with long hair, in a dark coat, who always bought the same black canned coffee and said thank you in a voice like a radio announcer. She thought about it. She said he had come in yesterday, early, about six. He had bought his coffee. He had said thank you. He had seemed fine.
+
+*He had seemed fine.*
+
+Rei walked home and stood in the genkan and looked at the empty brass hook for a long time.
+
+He did not eat. He sent Gin eleven messages. He called Gin's phone until the battery of his own phone ran down, and then he plugged it in and called some more. Itsuki texted every hour, short messages in lowercase, *anything?* and *eat something* and *i'm coming over at 7 again dont argue*. Haruto texted once, a photo of the river with the words *is he back yet*, and Rei looked at it for a long time and could not think how to answer a seventeen-year-old who wanted to be taken to see the lanterns.
+
+At six o'clock that evening he went back to the police station.
+
+He did not go to Kumagai. He went to the front desk and filled in the missing person form himself, every box, in his neatest handwriting, the way he had seen a hundred frightened people fill it in. Name. Age. Height. Clothing when last seen. Distinguishing features. *Long black hair past the jaw. Tattoos on both arms. Carries a black notebook.* He signed it and handed it over.
+
+The sergeant on the front desk read it, slowly, from the top to the bottom. Then he went into the back office with it, and was gone for a long time.
+
+When he came back he had the form in his hand, and a slightly embarrassed expression, the expression of a man who has been told something over the phone and does not much like it.
+
+"Uedera-kun," he said, not quite meeting Rei's eyes. "We've had a call. From the Division. Upstairs got it about an hour ago." He put the form down on the counter between them, face up, as if to show Rei he had not torn it. "Your brother's on an operation. A classified one. They've asked us, very politely, not to open a file on a serving officer while he's in the field. It could put him in danger, they said." He tapped the form with one finger. "I'm sorry, son. I can't take this."
+
+Rei looked at the form on the counter.
+
+"They called you," he said. "Before I even came in. They called *you*."
+
+"Upstairs got a call," said the sergeant again, as if that answered it.
+
+"How did they know I'd come?"
+
+The sergeant did not say anything at all.
+
+Rei picked up the form. He folded it in half, very neatly, along the line, and then in half again. He put it in his pocket, next to the cold key. And then something inside him that had been holding very still for two days, very carefully, like a full glass, just tipped over.
+
+"Fuck this," he said. Quite quietly. And then not quietly at all. "Fuck this. Fuck the form. Fuck *on assignment*. Fuck the Division and fuck upstairs and fuck everybody in this building who's going to tell me to go home and get some sleep."
+
+The sergeant looked at him. Two officers by the door turned round. A woman sitting on the bench by the wall with a little boy put her hand over the boy's ears.
+
+"Sorry," said Rei to the woman. He meant it. He bowed to her, and to the boy. Then he turned round and walked out of the Kita Ward Police headquarters, and he did not bow to anybody else on the way.
+
+[break The book]
+
+He went home and stood in the doorway of Gin's room.
+
+It was half past seven. Itsuki was on his way. The sky outside the window was turning the colour of a bruise, and the lamp with the green shade was off, and the book lay where it always lay, closed, squared to the edge of the desk, waiting.
+
+Rei had never opened it. In all his life, not once. He had watched Gin write in it at the kitchen table a thousand times, page after page in that small exact hand, and Gin had always closed it, gently, without hurry, when Rei came near. And Rei had never minded. It was Gin's. Some things you leave alone because you love the person they belong to, and that had always been enough.
+
+It was not enough now.
+
+He sat down in Gin's chair. He switched on the lamp. The circle of yellow light fell on the black cover, worn soft and pale at the corners from years of being carried in a coat pocket.
+
+"Sorry," he said, out loud, to nobody. To Gin. "Sorry. You can shout at me later."
+
+He opened it.
+
+[img res_archive.png | Gin's book]
+
+The first page was not about ghosts. It was not about the CVD or the veil or anything that had happened on the twelfth of August. It was dated a long time ago, years ago, and it began with coffee.
+
+[doc Foreword. Written in the morning.]
+Coffee going cold on the left. I almost forgot my keys again today. I do this every morning. I put them on the hook by the door because I read somewhere that building habits around physical anchors helps people like us stay grounded. People whose minds tend to slip sideways before the rest of them catches up. I put them on the hook. I make coffee. I smoke half a cigarette on the step outside because Rei complains about the smell in the apartment even though he leaves his own cigarettes everywhere. I come back in lightheaded and slightly late and reach for the keys and they are exactly where I put them and I am surprised every time.
+
+Rei thinks this is funny. He has started moving them slightly, just a few centimetres, to see if I notice. I notice. I don't tell him I notice. It's the most reliable part of my morning.
+[/doc]
+
+Rei stopped reading.
+
+He sat in his brother's chair with both hands flat on the desk on either side of the book, and he did not cry, because he did not know how to start and was afraid that if he did he would not know how to stop. He sat there and breathed. In for four. Hold for four. Out for six. The latch dropped in his chest. He took the key out of his pocket and put it on the desk, in the circle of lamplight, next to the book, and it lay there, cold, with its little bead of water.
+
+Then he turned the page.
+
+[doc Foreword, continued.]
+If you are reading this and I am not available to explain it, use it. All of it. The official sections are accurate. The personal notes are more accurate. The things I have not written explicitly but have gestured toward in the margins, those are the most accurate of all, and I trust you to read them correctly.
+
+If you are reading this and I am still around, hello. Stop reading my notes. Go eat something.
+
+Rei, if this is you, and I know there is a reasonable chance this is you, the rent is paid through the end of the month. There is food in the freezer. The contact number on page 47 is someone who will help you if you ask correctly. Do not lead with what you need. Ask how they are first. They will respect that.
+[/doc]
+
+Rei got up.
+
+He walked into the kitchen, and opened the freezer, and stood there in the cold white light with the door open.
+
+It was full. He had not looked inside it properly for weeks. Rows and rows of plastic containers, neatly stacked, each one with a strip of masking tape on the lid and a label in Gin's small exact handwriting. *Curry. Ginger pork (too much ginger, as instructed). Miso soup, just add tofu. Rice, 1 portion. Rice, 1 portion. Rice, 1 portion.* At the very front, on top of all the others, there was one more container with a strip of tape on it that said, simply, *Eat this first.*
+
+He did not know when Gin had made all of it. He had not noticed. Some night, or many nights, while Rei was asleep on the sofa with the television on, his brother had stood in this kitchen and cooked for weeks ahead and labelled every box. As if he had known. As if he had been getting ready for exactly this.
+
+Rei stood in front of the open freezer until his hands were as cold as the key.
+
+Then he took out the box that said *Eat this first*, and put it in the microwave, because he had been told to, and went back into Gin's room, and sat down in the chair, and turned to the next page. And the next. And the next.
+
+When Itsuki let himself in at eight through the door Rei had left unlocked for him, with two more bags of konbini food, he found Rei at the desk under the green lamp with the book open in front of him and an empty plastic box beside it, reading. He did not look up.
+
+Itsuki stood in the doorway for a moment. Then he put the bags down very quietly and went and sat on the end of Gin's bed with his knees up, and waited, and did not say anything at all.
+
+At a quarter to four in the morning Rei turned a page and found a single line, written in a slightly different ink, as if it had been added later, at the bottom of a page about how thin the veil grows in August.
+
+[doc]
+If you are reading this at 3:47 in the morning, that is approximately when Rei found it. That detail is in this book for a reason. Keep reading.
+[/doc]
+
+He looked at the clock on the desk.
+
+It was 3:47.

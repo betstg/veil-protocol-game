@@ -1,5 +1,4 @@
 #title Itsuki
-#part Book One. The Archive
 
 Rei did not sleep again. He sat at the kitchen table with the cold key in his fist until the window over the sink turned from black to dark blue to the grey of dirty dishwater, and at half past four, when he could not bear the quiet of the flat for one more minute, he put on his shoes and went out.
 
@@ -53,9 +52,11 @@ He told it badly, in the wrong order. He started with the plate of ginger pork g
 
 The key lay on his palm. A plain brass door key on a plain steel ring. It did not look like anything.
 
-"That's your spare," said Itsuki slowly. "The one from the hook. I've used it." He frowned. "You said Gin had it."
+Itsuki looked at it, and went very still.
 
-"He did. He took it yesterday morning."
+"That's Gin's," he said slowly. "That's his key. With the dent in the ring." He looked up at Rei. "He never goes anywhere without that. He'd go out without his trousers before he went out without that key."
+
+"He took it off the hook yesterday morning," said Rei. "I heard him. Six o'clock. He moved it back two centimetres to the right first."
 
 Itsuki reached out and picked it up between his finger and thumb. Then he made a small sharp sound, half a gasp and half a laugh, and nearly dropped it, and caught it again clumsily against his chest.
 
@@ -167,11 +168,21 @@ They had canned coffee from the vending machine on the landing and two egg sandw
 
 "Okay," said Itsuki, licking egg off his thumb. "Plan."
 
-"I go home. I look in his room properly. I read the book. I look at everything."
+"I go home. I look round his room. I look at everything."
+
+"And the book?"
+
+Rei did not answer at once.
+
+"It's his," he said at last. "I've never opened it. Not once."
+
+"Rei."
+
+"I know." He turned the cold key over in his fingers. "Not yet. He'll be home tonight and he'll know I read it. He always knows."
 
 "And you call the CVD."
 
-"And say what? *My brother didn't come home and his spare key is freezing cold?*"
+"And say what? *My brother didn't come home and his key is freezing cold?*"
 
 "Yes. Exactly that. Word for word." Itsuki pointed the last corner of his sandwich at him. "He's one of theirs, Rei. One of their own officers. They'll look for him. That's what they do."
 
@@ -193,7 +204,7 @@ Itsuki studied his face with narrowed eyes.
 
 "You built him a search program?"
 
-"For his archive. He had too much paper, he was drowning in it. I scanned about four hundred pages for him over the winter and made him a thing where you type a word and it finds every page with that word on." Itsuki grinned, for the first time that morning, a quick crooked grin that changed his whole face. "I'm a genius. I keep telling people this."
+"For his case notes. Not the book, the work ones. He had too much paper, he was drowning in it. I scanned about four hundred pages for him over the winter and made him a thing where you type a word and it finds every page with that word on." Itsuki grinned, for the first time that morning, a quick crooked grin that changed his whole face. "I'm a genius. I keep telling people this."
 
 "You do keep telling people," Rei agreed.
 
@@ -211,4 +222,60 @@ Rei went. At the top of the stairs he looked back through the open door.
 
 Itsuki had not gone back to his easel. He was sitting on the stool with the sketchbook on his knees again, turned over, looking at the walkway and the small careful key. As Rei watched, he took the pencil out of his hair and, very slowly, began to draw again on the next page. Rei could not see what.
 
-He went down the stairs and out into the bright morning and across the park full of crows, toward the station, and home.
+He went down the stairs and out into the bright morning and across the park full of crows, toward the station. He did not go home.
+
+[break The tax office]
+
+The CVD building stood one minute from the east exit of Ōji station, and it looked exactly like a tax office, because it was meant to.
+
+It was a grey block of no particular shape, several storeys of concrete and dusty windows, with a car park at the side and a row of bicycles chained to a railing and a vending machine by the door that sold hot corn soup even in August. Your eye slid off it. Thousands of people walked past it every day on their way to the trains and never once looked up. Rei had walked past it his whole life. Gin had walked into it every morning for six years, with his coffee and his half cigarette inside him and his key on its hook at home, and come out again every night, and that had been the whole of what Rei knew about it.
+
+(Here is a thing nobody tells you about the Civil Veil Division. It is built on the worst ground in the district on purpose. The thinnest point in the whole of Kita runs right underneath that car park, and the Division sits on top of it, looking bored, the way a large dog lies across a doorway it has been told to guard. Rei did not know that yet. He would.)
+
+He went in at nine o'clock exactly, when the doors opened.
+
+The lobby was cool and grey and smelled of floor polish and cheap coffee. There was a row of plastic chairs along one wall, and a rack of leaflets about what to do if the dead came into your kitchen, and a poster of the white owl in its little police cap, smiling. Behind a long counter a young man in a white shirt and a lanyard was arranging pens in a pot. He looked up and smiled at Rei with the bright, smooth, untroubled smile of someone whose whole job was to be the first face people saw when they were frightened.
+
+"Good morning! How can I help you today?"
+
+"My name is Uedera Rei," said Rei. "My brother is Uedera Gin. He's a field officer here. Kita district." He heard his own voice come out flat and careful, the way he talked at the police station when he was reading a statement back to someone. "He didn't come home last night. He doesn't answer his phone. I'd like to speak to someone in Field Operations, please."
+
+The young man's smile did not change at all. But his hand, arranging the pens, stopped for about half a second, and then went on arranging them.
+
+"Of course," he said. "Please take a seat. I'll just call up for you."
+
+Rei sat on a plastic chair. The young man picked up the phone on his desk and turned away a little, the way people do when they do not want you to read their lips, and spoke into it very quietly for a long time. Then he put it down and typed something. Then he picked it up again and spoke for longer. A woman with a stack of folders came down the stairs and went past the counter and glanced at Rei, once, and went out of the front door. A man in a creased suit came in from the street with two coffees and went up the stairs without looking at anyone. The white owl on the poster went on smiling.
+
+Rei held the key in his pocket. It was still cold.
+
+After twenty-five minutes the young man came round from behind the counter. He did not sit down. He stood in front of Rei with his hands clasped politely in front of him and the same smile, very slightly more careful now, the way you carry a full cup.
+
+"Mr. Uedera, thank you so much for waiting. I've checked for you. Officer Uedera is currently on assignment. During Obon our field officers often work extended operations, and sometimes they're not able to contact family for a little while. I completely understand how worrying that must be. I'm sure he'll be in touch as soon as he's able."
+
+"On assignment where?"
+
+"I'm afraid I can't share operational details. I hope you understand."
+
+"Can I speak to someone on his team? His supervisor?"
+
+"Everyone in Field Operations is out on Obon duties this morning." The smile did not move. "But I've passed your concern up, and someone will contact you if there's anything you need to know."
+
+"His key was on the walkway outside our door," said Rei. "At quarter to four this morning. It was wet. It was cold. It's still cold. Feel it." He took it out of his pocket and held it out. "Please. Just feel it."
+
+The young man looked at the key on Rei's palm.
+
+He did not touch it. He looked at it for a little too long, and something went across his face very quickly, the way a cloud goes across a car park, and then the smile came back.
+
+"I'll make a note of that for you," he said gently. "Is there anything else I can help you with today?"
+
+Rei looked at him. He looked at the stairs, where the man with the two coffees had gone up. He looked at the poster of the owl.
+
+"No," he said. "Thank you."
+
+He stood up and bowed, because Gin had brought him up properly and there was no point letting that go to waste on a morning like this one, and walked out through the glass doors into the heat.
+
+He stood on the pavement outside for a while with the key in his fist and the trains going past behind him. Then he looked up, without quite knowing why, at the grey face of the building. Rows and rows of dusty windows. On the third floor, in one of them, someone was standing with a cup in their hand, looking down at the street. At him. When he looked up, they stepped back from the glass, and the window was empty.
+
+It was half past nine in the morning. Six hours had passed since a cold key turned up on the walkway, and the building where Gin had worked for six years had just told his brother, very politely, to go home and wait.
+
+Rei went to work instead.
