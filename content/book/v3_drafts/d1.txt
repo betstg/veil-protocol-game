@@ -1,80 +1,94 @@
-#title The Umbrella
+#title Small Machines
 #part Book One. The Archive
 
 *The Healer.*
 
-It had been a very long time since the Healer had worn a body. It had forgotten how many small things a body had to do.
+It had been a very long time since the Healer had worn a body. It had forgotten how many small things a body had to do. And the world the body lived in had filled up, while it was not looking, with small machines.
 
-It stood in the doorway of a convenience store in the rain, in the borrowed body of Uedera Gin, and watched a man open an umbrella.
+It stood in front of a ticket machine in Ōji station at eleven at night, in the borrowed body of Uedera Gin, and did not know what to press.
 
-The man was young, in a cheap black suit, with a paper bag of food in one hand. He held the umbrella in the other hand with the point down. He pressed something with his thumb, a small catch on the handle, and the umbrella jumped open with a soft snap, like a black flower opening all at once. Then he lifted it over his head and walked out into the rain and did not get wet.
+The machine was a wall of buttons and lights. Numbers. Station names. A little screen that changed every few seconds, showing a smiling cartoon train, then a list of prices, then a warning about pickpockets. People came up to the machines on either side, pressed three buttons without looking, took a small paper ticket and walked away. It took them four seconds.
 
-The Healer found this very interesting.
+The Healer had been standing there for nine minutes.
 
-It had a body's memories to draw on. It knew, in the way you know a word in a language you speak badly, that this was called an umbrella, that you bought them in places like this for five hundred yen, that people lost them all the time and did not mind. Gin had owned perhaps forty umbrellas in his life and lost thirty-nine. But knowing a thing from inside someone else's memory is like knowing a city from a map. It is not the same as walking in it.
+It had the body's memories. It knew, in the way you know a word in a language you speak badly, that you did not need the machine at all. That there was a small plastic card in the coat pocket that you touched to the gate. Gin had done it ten thousand times without thinking. But knowing a thing from inside someone else's memory is like knowing a city from a map. When the Healer reached for the knowledge, it found it, and then it found that the hand did not know how fast to move, or how hard to press, or what the beep meant. Every small machine asked it a question in a language it almost spoke.
 
-It bought an umbrella.
+[need d1_healer_ticket_machine | Late night in a Tokyo station, a tall man with long black hair loose past his jaw standing very still in front of a bright wall of ticket machine buttons, studying it with grave calm, commuters moving past him in a blur]
 
-[need d1_healer_konbini | A rainy night konbini doorway in Tokyo, a tall man with long black hair loose past his jaw holding a new clear plastic umbrella and studying the catch on the handle with calm curiosity, a young clerk watching uneasily]
+In the end it walked to the gate and touched the card to the grey square, the way the body remembered. The gate gave a sharp angry double beep and its little doors snapped shut against its legs. A red light flashed. The man behind it sighed loudly.
 
-That was another interesting thing. Paying. The body's hand knew to take out a small plastic card and touch it to a small grey square by the till. The square made a bright little sound, and the clerk said *thank you very much*, and that was all. No coin changed hands. No promise was spoken. The Healer stood for a moment and looked at the little grey square and thought about what it meant. A debt, paid by touching. A whole city of people paying their debts all day long without speaking. It thought, perhaps, that it had misjudged the living. It had thought them careless. Perhaps they were only fast.
+The Healer looked at the closed gate for a long moment. It did not understand what it had done wrong. It did not understand why a small grey box had the right to refuse it.
 
-The clerk was a girl of about twenty with tired eyes. She was looking at the Healer with an expression it could not read.
+A young station attendant in a blue cap came over and looked at the card and said something about *charge* and *balance* and pointed at the machine again. The Healer understood perhaps half. It nodded gravely and thanked him, very formally, with a deep bow, the way it would have thanked a magistrate. The attendant looked at it strangely and went away.
+
+[break Money]
+
+Money was worse.
+
+It understood debts. It had always understood debts. It was made of them. A debt was a weight between two people, held until it was paid. A bag of rice owed for a field ploughed. A life owed for a life saved. Heavy, real things.
+
+But the money of the living was not heavy. It was paper. Small, light, coloured paper with old men's faces printed on it, and round bits of metal with holes in the middle. The Healer stood at the counter of a konbini with a bottle of tea that cost a hundred and thirty yen and a handful of coins in its palm, and could not make them add up.
+
+It counted them. A large silver one. Several small brown ones. A gold one with a hole. Some tiny white ones, light as leaves. It laid them out on the counter in a row and moved them about, slowly, carefully, the way you move stones in a game you do not know the rules of. The girl behind the counter waited. Behind the Healer, a queue began to form.
+
+In the end it took a paper note out of the body's wallet. A large one. Ten thousand yen. It laid it on the counter.
+
+The girl looked at the note. Then at the bottle of tea. Then at the Healer. She opened the till and counted out a great deal of change, papers and coins, nine thousand eight hundred and seventy yen, and put it in its hand, and said *thank you very much*, and stepped back.
+
+The Healer stood holding a fistful of paper and metal.
+
+*A promise,* it thought slowly. *All of this is only a promise.* A piece of paper that said *this is worth a thousand bowls of rice*. And everyone in the city simply agreed to believe it. Every day. Millions of people, handing each other promises printed on paper, and trusting that the next person would honour them.
+
+It had thought the living were careless with their debts. It began to suspect they were something stranger. That they were so used to trusting each other that they had forgotten they were doing it.
+
+The girl behind the counter was looking at it with an expression it could not read. It was the same expression people had made at it all week. A small pulling back. As if they had seen something in its face that they did not have a word for. It did not know that it was the eyes. That its pupils were always wide and black, even under the bright shop lights. That it looked at a girl at a till the way no tired man at eleven at night ever looks at anything. With all of its attention. Feeling everything in the room. Already wanting.
 
 "Are you alright, sir?" she said.
 
 "Yes," said the Healer, in Gin's voice. "Thank you. I am very well."
 
-The girl's face changed a little. It was the same expression people had made at it all week, in shops and stations and on the street. A small pulling back. As if they had seen something in its face that they did not have a word for. The Healer did not know what they saw. It had looked at the face in many mirrors. It seemed to it to be a perfectly good face. A tired, handsome face with dark eyes and long black hair. It smiled at the girl to reassure her.
-
-The girl stepped back from the counter.
-
-The Healer took its umbrella and went out.
+It smiled at her to reassure her. The girl stepped back from the counter.
 
 [break Sorry]
 
-It walked for a long time in the rain, holding the new umbrella. It practised the catch on the handle. Open. Close. Open. It found that if you held it slightly forward when walking into the wind, the rain did not reach your knees. It was pleased with this discovery.
-
-On a crowded crossing near a station, a woman walking fast with her head down bumped into its shoulder.
+Outside, on a crowded crossing near the station, a woman walking fast with her head down bumped into its shoulder.
 
 "Ah, sorry, sorry," she said, bowing quickly, and was gone into the crowd.
 
 The Healer stood still on the crossing while the lights changed and people flowed round it.
 
-*Sorry.* She had said sorry. To a stranger. For a small touch on the shoulder that had cost nothing and harmed nothing. She had owed it nothing, and she had paid anyway, and walked on without waiting to see if her payment was accepted.
+That, it understood at once.
 
-It turned this over and over, the way it had turned the umbrella. It did not understand it. In all its long existence it had understood debts. It had understood obligations, and duties, and what is owed by one to another. It had built itself out of them. It *was* them. A debt was a chain. You were bound by it until it was paid. That was the whole shape of the world.
+She had touched it, and so she owed it something, a very small thing, and she had paid it immediately, with a word, before walking on. *Sorry.* A debt made and settled in one breath. It was exactly right. It was the most correct thing it had seen since it came into this body. The Healer felt something close to pleasure. Here at least was a rule it knew. Here at least the living behaved as they should.
 
-But this woman had made herself a tiny debt, and paid it, in the same breath. As if the chain were nothing. As if it were only a way of saying *I see you are there*.
+It watched the crowd for a while, after that, from the corner of the crossing. It saw a man step on a child's foot and bow. It saw a cyclist brush a bag and call *excuse me* over his shoulder. It saw two old women at a bus stop bow to each other over and over, each apologising for being in the other's way. A whole city settling small debts all day long. It found this very satisfying. It thought perhaps it had misjudged the living after all.
 
-It thought that perhaps the living used debts the way they used umbrellas. Lightly. Many of them. Losing them all the time and not minding.
-
-It did not know what to do with this thought. It put it away carefully, to look at later.
-
-[break The finger]
+[break The phone]
 
 Inside the body, very deep down, the man was asleep.
 
-The Healer could feel him there, the way you feel the weight of a sleeping cat on your legs in the night. Uedera Gin. It held him down gently, like a hand on the shoulder of a fevered patient. It was not cruel to him. It did not believe in cruelty. It kept the body warm and fed and rested. It drank his tea and slept in his clothes and did not let anything harm him. He had carried too much for too long. Anyone could see it. It was only right that someone else should carry it now.
+The Healer could feel him there, the way you feel the weight of a sleeping cat on your legs in the night. Uedera Gin. It held him down gently, like a hand on the shoulder of a fevered patient. It was not cruel to him. It did not believe in cruelty. It kept the body warm and fed and rested. He had carried too much for too long. It was only right that someone else should carry it now.
 
 But twice this week he had woken.
 
-Once in the kitchen, over the tea, when the phone buzzed. Once in the night, for one breath, when it walked past a train station and a train went by with a sky-blue stripe. Both times it had felt him surge up from the bottom of the body like a swimmer kicking toward the light. Both times it had been the younger one that woke him. A message. A train line the younger one rode.
+Once in the kitchen, over the tea, when the phone buzzed. Once in the night, for one breath, when it walked past a train going by with a sky-blue stripe. Both times it had felt him surge up from the bottom of the body like a swimmer kicking toward the light. Both times it had been the younger one that woke him.
 
 And once his finger had moved.
 
-The Healer thought about that finger often. One centimetre. Toward the phone. It had not expected that. In all its long experience, the ones it held did not move. They slept and grew quiet and, in time, they stopped. That was the way of things. It was a kindness. A long rest for a tired person.
+The Healer took the phone out of the coat pocket. It held it in both hands, flat, like a small heavy tablet of stone. The screen was black. It did not know how to make it light. It pressed the glass with its thumb. Nothing. It pressed harder. Nothing. It turned the phone over and looked at the back, and turned it over again. In the end its thumb found a small button on the side, the way the body remembered, and the screen lit up and asked for a number.
 
-This one had moved his finger.
+It knew the number. It was in the body's memory, a string of six digits, the birthday of the younger one. It pressed them, one at a time, very slowly, with one finger, like a man writing in a language he has only read. It got the fourth one wrong. The phone shook itself, angrily, a small cold refusal. It tried again.
 
-It stood under its new umbrella on a quiet street in the rain, outside a small apartment building it did not know, and looked up at the lit windows. It was not here by accident. Somewhere across the river, very far away, something old and cold and hungry was moving through the city, laying its rats down one by one. Something the Healer knew. Something it had a very old debt with.
-
-*Not yet,* it told itself. *Not yet. First, what is owed.*
-
-And then, because the thought of the younger one would not leave it alone, it took out the phone and looked at the last message again. It read it through slowly, the way it had studied the catch on the umbrella.
+When the screen opened, the message was there.
 
 *I helped someone today. In Jūjō. With salt and anpan. I think I did it right.*
 
-The Healer did not understand why it read the message a second time. Or a third.
+The Healer read it.
 
-It did not reply. It put the phone away, and opened and closed the umbrella once more, just to feel the soft snap of it, and walked on into the rain.
+It had a debt with no one called Rei. There was nothing between them, owed or paid. It had no reason to read the message. It did not understand why it read it a second time. Or a third.
+
+Somewhere across the river, very far away, something old and cold and hungry was moving through the city, laying its rats down one by one. Something the Healer knew. Something it had a very old debt with.
+
+*Not yet,* it told itself. *Not yet. First, what is owed.*
+
+It did not reply to the message. It did not know how. It turned the phone face down, carefully, and put it back in the pocket, and walked on into the night with nine thousand eight hundred and seventy yen of promises in its other hand, still not sure what they were for.

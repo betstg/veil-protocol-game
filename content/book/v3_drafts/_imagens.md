@@ -73,8 +73,24 @@ Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm d
 ## 22 The Heads of the Houses
 - [ ] `ch22_council.png` A great old tatami hall in a Bunkyō estate at night lit by paper lamps, seven elderly heads of families kneeling in a wide circle in formal black, an immaculate woman in her fifties in a grey suit kneeling in the centre reporting from a folder, two young men in plain black at the back with tea trays
 
-## d1 The Umbrella
-- [ ] `d1_healer_konbini.png` A rainy night konbini doorway in Tokyo, a tall man with long black hair loose past his jaw holding a new clear plastic umbrella and studying the catch on the handle with calm curiosity, a young clerk watching uneasily
+## 23 Bones of the Trade
+- [ ] `ch23_threshold.png` An old training hall, a black lacquered free-standing doorframe with a grey shimmering emptiness inside it, a thin young man in training clothes standing just beyond it in a cold grey nothing, a silver-haired father with his hand on the post, a young man watching from the side with his hand at his chest
+
+## 26 The First One
+- [ ] `ch26_shimizu.png` A lean still woman of about thirty in a plain dark suit with short practical hair, a small line between her eyebrows, standing on a cold winter street in Jūjō beside an old green public telephone box, a young man in a slightly wrong tie holding a small black pager-like device
+
+## 27 Partners
+- [ ] `ch27_kuma.png` A broad tan-and-white Akita dog with a braided prayer-cord round its neck standing very still and stiff-legged at the bottom of a narrow apartment staircase, ears flat, staring up, a lean woman in a dark suit beside it, two young men behind
+
+## 28 What Remains
+- [ ] `ch28_evidence_archive.png` A long low basement evidence archive under fluorescent strip lights, endless grey metal shelves of labelled boxes and plastic bags, two young trainees in suits with clipboards, one holding a small old wristwatch up to the light
+- [ ] `ch28_fujimoto.png` A cluttered scholar's flat in Ōtsuka, papers in tall stacks in a logic only one person understands, a cold room with the window open in winter, a medium-built man in his thirties sitting very still at a desk with a cup of tea, smiling politely at visitors
+
+## 29 Lowercase
+- [ ] `ch29_three_at_table.png` A tiny Tokyo kitchen at night, a small table built for two with three young men squeezed round it eating ginger pork and rice, one sitting on an upturned plastic crate with a cushion, one turning a white chess king, one with a key on a cord round his neck, warm yellow light, steamed-up window
+
+## d1 Small Machines
+- [ ] `d1_healer_ticket_machine.png` Late night in a Tokyo station, a tall man with long black hair loose past his jaw standing very still in front of a bright wall of ticket machine buttons, studying it with grave calm, commuters moving past him in a blur
 
 ## g1 Hands That Make Tea
 - [ ] `g1_gin_tea.png` A small old kitchen with yellow walls and a frosted window at night in the rain, Gin with long black hair pouring hōjicha from a clay teapot into one single cup, his reflection in the dark glass smiling a small wrong smile his face is not making
