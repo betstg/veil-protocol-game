@@ -141,3 +141,44 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 
 ### Os Treze sob pressão
 - Só estão sob pressão os holders que o Bible marca assim. Mori Takao, Nakashima Yuna, Inoue Satoru e Park Junho. O Watanabe Jun está enfraquecendo.
+
+## Decisões de 13 de novembro, terceira rodada
+
+### A janela do Gin
+- O prazo é de um ano.
+- Quanto mais coisa ruim o demônio faz com o corpo do Gin, menos o Gin quer ficar dentro do próprio corpo, e a janela encurta um pouco.
+- No começo o demônio não liga para o Gin. O Gin não é ninguém para ele, ele tem uma missão maior.
+- Isso muda quando o Gin faz as pazes com o demônio. Os dois entram num acordo e o demônio decide não fazer a fusão.
+
+### CVD
+- O Yamamoto é de dentro da CVD. Não existe arquivista externo.
+- O prédio da CVD fica num lugar central de Tóquio. Escolha minha, aprovada para decidir, Marunouchi, porque o Bible já põe o escritório da Hagiwara em Marunouchi em cima da fachada pública da CVD.
+- O Adachi é viúvo e vive pela CVD.
+- O Moriya é de Operações de Campo, porque Psicometabolismo é muito necessário em batalha. Mora em Nakano.
+- O Haruki é investigador da CVD. É de um ramo distante dos Tsukishiro, não usa o nome e não tem afiliação com a Torre. Não é menino de ouro. A família o aprecia porque ele é forte. Não é investigador independente. Não é clarisciente. O rank fica acima de Ritualist, a confirmar.
+
+### Mestres e quem sai da CVD
+- Quem sai da CVD continua ligado à CVD. Não existe ex CVD afiliado ao Grid. Tirar isso de todas as fichas.
+- Os mestres são independentes depois que saem. Não têm registro de aposentadoria nem nome lá dentro. Só o pessoal da CVD conhece eles. Não têm relação com o Grid.
+- Se alguém de fora da CVD estiver numa situação de nível alto e precisar de ajuda, eles ajudam, porque o dever deles é manter todo mundo estável.
+
+### Uehara
+- O Uehara é mulher. É Vanguard, rank S. A habilidade está se deteriorando, por isso ela não usa mais os poderes e serve só para treinamento. Está afastada e protegida, como uma mestre. Saiu da CVD há oito anos. Não é afiliada ao Grid.
+
+### Habilidades
+- Menos gente telepata e clarisciente, porque são as mais raras. Espalhar mais Teleporte, Psicocinese e as outras. Arrumar as fichas, inclusive skills e combate.
+
+### Fukai Rinka
+- Ela não tenta avisar ninguém. Ela se entregou ao Kishin como uma zelota, uma cultista, e se orgulha disso. Não foi consumida por inteiro. O Kishin a mantém viva.
+
+### Nomes
+- A guardiã do memorial do rio é a Okuma Sumi. Sai Sra. Endō.
+
+### Tanaka Ryu e o exorcismo que ninguém faz
+- O Tanaka é independente e não regulado, Psicometabolismo, muito forte. Para o Grid ele é como um policial. A CVD gosta dele, ele não gosta da CVD. É difícil de achar, se muda com frequência. Calmo, de poucas palavras, muito gentil, e as pessoas não percebem porque ele é o músculo.
+- O fato que muda o exorcismo é o jeito dele, que não é ortodoxo. Espíritos e demônios não são criaturas inconscientes e irracionais. Se você entende e cura o que aflige eles, o exorcismo acontece de forma muito mais natural e pacífica.
+- Ele acredita que todo mundo consegue ser curado, mesmo com um demônio extremamente agressivo.
+- Ninguém sabe disso. Ele já conseguiu fazer exorcismos assim, a muito custo. É sofrimento para o médium, para o espírito ou demônio e para a pessoa, que fica contida e travada tendo que ouvir, falar e entender. E não há garantia de que o demônio não mentiu só para escapar e ir para outra pessoa.
+
+### Vida Interior das fichas
+- Posso escrever a minha versão da Vida Interior de cada ficha onde ela não bate com o resto, e arrumar no Bible.
