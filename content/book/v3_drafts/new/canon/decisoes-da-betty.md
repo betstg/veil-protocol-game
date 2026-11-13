@@ -49,7 +49,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 ## Lugares e pessoas
 - O Tanizaki mora numa casa velha pequena no bairro antigo de Kita, como diz a ficha dele. Sai Koenji.
 - A loja de macarrão da rua Sakae é do Hoshino Haru. A Sra. Suzuki trabalha lá.
-- O Sasaki Daiki não é colega de escola do Rei. Não perguntar de novo.
+- O Sasaki Daiki está fora do livro. O Rei só tem o Itsuki. O menino de rua que o Rei e o Itsuki cuidam é o Nagai Haruto.
 - Pode usar os lugares do Bible e do mapa do jogo. Alguns se repetem de propósito.
 
 ## CVD
@@ -103,9 +103,12 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 
 ### Kato Ryusei
 - O Kato não é o traidor e não morre.
-- Ele é sério, com humor ácido, muito esquisito, humor negro. Adorável de tão estranho.
+- A personalidade é a da ficha do Bible. Medido, preciso, às vezes arrogante sem perceber. Sob pressão fica mais quieto e mais preciso. Com quem confia fica caloroso e mais engraçado do que parece. Quando se importa não diz, faz. Humor ácido e esquisito, humor negro.
+- Ele não faz piada para chegar perto das pessoas. Isso era meu e está errado.
+- O objeto de aterramento é um cavalo de xadrez de marfim que o avô deu, no bolso de dentro do paletó. Não é um rei branco.
+- Ele trabalha no Arsenal da CVD, no subsolo.
 - Ele fica fora do grupo de luta. É o irmão que ajuda de fora, um mentor esquisito e engraçado, como o Jiraiya. O Gin diz no Bible que ele é muito mais inteligente e útil do que parece.
 - Isso também resolve ter dois telepatas no grupo, porque o Usami fica no grupo e o Kato fora.
 
 ### O grupo de luta
-- Rei, Tendo (Psicocinese), Usami (Telepatia, e Clarisenciência pelo Ren). Faltam definir os outros três.
+- São cinco. Rei, Tendo (Psicocinese), Usami (Telepatia, e Clarisenciência pelo Ren) e Itsuki. Falta definir um.
