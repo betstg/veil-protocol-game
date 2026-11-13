@@ -46,7 +46,7 @@ def parse(path):
         l=t[i]
         if l.startswith('[img'):
             flush(); f,cap=[x.strip() for x in l[4:-1].split('|')]
-            if os.path.exists(IMG+f): img64(f); body.append(f'<figure><img data-img="{f}" alt="{html.escape(cap)}"><figcaption>{html.escape(cap)}</figcaption></figure>')
+            if os.path.exists(IMG+f): img64(f); body.append(f'<figure><img data-img="{f}" alt="{html.escape(cap)}"></figure>')
         elif l.startswith('[need'): flush()
         elif l.startswith('[break'):
             flush(); body.append(render_para(l[6:-1].strip(),'h3'))
