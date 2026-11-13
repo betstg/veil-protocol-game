@@ -78,11 +78,21 @@ function setLang(l){lang=l;document.documentElement.lang=l==='pt'?'pt-BR':'en';
  document.querySelectorAll('[data-l]').forEach(function(e){e.textContent=e.dataset[l]});
  document.querySelectorAll('.lg button').forEach(function(b){b.classList.toggle('on',b.dataset.v===l)});
  try{localStorage.setItem('vp-lang',l)}catch(e){} stop(); fillVoices();}
-function voicesFor(){var vs=synth?synth.getVoices():[];var pre=lang==='pt'?'pt':'en';return vs.filter(function(v){return v.lang&&v.lang.toLowerCase().indexOf(pre)===0})}
-function fillVoices(){var sel=$('#vsel');if(!sel)return;var vs=voicesFor();var keep=null;try{keep=localStorage.getItem('vp-voice-'+lang)}catch(e){}
- sel.innerHTML='';vs.forEach(function(v){var o=document.createElement('option');o.value=v.name;o.textContent=v.name.replace(/Microsoft |Google /,'')+' ('+v.lang+')';if(v.name===keep)o.selected=true;sel.appendChild(o)});
- if(!keep){var pref=vs.find(function(v){return lang==='pt'?/pt-BR/i.test(v.lang):/en-GB/i.test(v.lang)});if(pref)sel.value=pref.name}}
-function pickVoice(){var sel=$('#vsel');var vs=voicesFor();return vs.find(function(v){return v.name===sel.value})||vs[0]||null}
+var FEM=/luciana|francisca|thalita|fernanda|maria|vit[oó]ria|raquel|helena|leila|camila|yara|brenda|elza|giovanna|manuela|leticia|samantha|karen|moira|tessa|fiona|serena|kate|susan|hazel|libby|sonia|ava|allison|zira|aria|jenny|emma|female|mulher|feminin|martha|catherine|victoria|joanna|nicky|zoe|amy|olivia/i;
+var MAS=/felipe|antonio|ant[oô]nio|daniel|ricardo|diego|f[aá]bio|julio|donato|humberto|nicolau|valerio|alex|fred|tom\b|oliver|arthur|george|ryan|guy|eric|david|mark|thomas|rishi|male|homem|masculin|aaron|gordon|lee|reed|rocko|grandpa/i;
+function norm(l){return (l||'').replace('_','-').toLowerCase()}
+function langVoices(){var vs=synth?synth.getVoices():[];var want=lang==='pt'?'pt-br':'en-gb';var base=lang==='pt'?'pt':'en';
+ var exact=vs.filter(function(v){return norm(v.lang)===want});
+ if(lang==='en'){var us=vs.filter(function(v){return norm(v.lang)==='en-us'});exact=exact.concat(us)}
+ if(exact.length)return exact;
+ if(lang==='pt')return vs.filter(function(v){return norm(v.lang).indexOf('pt')===0&&norm(v.lang)!=='pt-pt'}).concat(vs.filter(function(v){return norm(v.lang)==='pt-pt'}));
+ return vs.filter(function(v){return norm(v.lang).indexOf(base)===0})}
+function quality(v){var n=v.name;var q=0;if(/natural|neural|online|premium|enhanced|siri/i.test(n))q+=4;if(/google/i.test(n))q+=2;if(v.localService===false)q+=1;if(/compact|eloquence|novelty/i.test(n))q-=4;return q}
+function genderOf(v){var n=v.name;if(MAS.test(n))return 'm';if(FEM.test(n))return 'f';if(/google (português|portugues)/i.test(n))return 'f';return '?'}
+var gender='f';try{gender=localStorage.getItem('vp-gender')||'f'}catch(e){}
+function fillVoices(){document.querySelectorAll('.gd button').forEach(function(b){b.classList.toggle('on',b.dataset.g===gender)});var w=$('#vwarn');if(!w)return;var vs=langVoices();w.hidden=!(synth&&synth.getVoices().length&&!vs.some(function(v){return lang!=='pt'||norm(v.lang)==='pt-br'}));}
+function pickVoice(){var vs=langVoices();if(!vs.length)return null;var g=vs.filter(function(v){return genderOf(v)===gender});var pool=g.length?g:vs.filter(function(v){return genderOf(v)==='?'}).concat(vs);
+ pool.sort(function(a,b){return quality(b)-quality(a)});return pool[0]}
 function clearMarks(){document.querySelectorAll('.s.reading').forEach(function(e){e.classList.remove('reading')});document.querySelectorAll('.w.read').forEach(function(e){e.classList.remove('read')})}
 function sents(){return Array.prototype.slice.call(document.querySelectorAll('.book[data-lang="'+lang+'"] .s'))}
 function markUpTo(s,ci){s.querySelectorAll('.w').forEach(function(w){if(+w.dataset.o<=ci)w.classList.add('read')})}
@@ -95,7 +105,7 @@ function speakNext(){clearInterval(timer);if(qi>=queue.length){stop();return}
  u.onend=function(){if(curU!==u)return;clearInterval(timer);markUpTo(s,1e9);qi++;if(playing&&!paused)speakNext()};
  u.onerror=function(){if(curU!==u)return;clearInterval(timer);qi++;if(playing&&!paused)speakNext()};
  synth.speak(u)}
-function startAt(el){if(!synth){alert('Este navegador não tem leitura em voz alta.');return}synth.cancel();clearMarks();var all=sents();var i=el?all.indexOf(el):-1;
+function startAt(el){if(!synth){alert('Este navegador não tem leitura em voz alta.');return}if(!synth.getVoices().length){synth.onvoiceschanged=function(){fillVoices();startAt(el)};synth.getVoices();return}synth.cancel();clearMarks();var all=sents();var i=el?all.indexOf(el):-1;
  if(i<0){i=all.findIndex(function(s){return s.getBoundingClientRect().bottom>80});if(i<0)i=0}
  queue=all;qi=i;playing=true;paused=false;document.body.classList.add('playing');updBtn();speakNext()}
 function stop(){playing=false;paused=false;curU=null;clearInterval(timer);if(synth)synth.cancel();clearMarks();document.body.classList.remove('playing');updBtn()}
@@ -106,7 +116,7 @@ document.addEventListener('click',function(e){var s=e.target.closest('.s');if(s&
 document.querySelectorAll('.lg button').forEach(function(b){b.onclick=function(){setLang(b.dataset.v)}});
 $('#play').onclick=toggle;$('#stopb').onclick=stop;
 document.querySelectorAll('.rate button').forEach(function(b){b.classList.toggle('on',+b.dataset.r===rate);b.onclick=function(){rate=+b.dataset.r;try{localStorage.setItem('vp-rate',rate)}catch(e){}document.querySelectorAll('.rate button').forEach(function(x){x.classList.toggle('on',x===b)});if(playing&&!paused)startAt(queue[qi])}});
-$('#vsel').onchange=function(){try{localStorage.setItem('vp-voice-'+lang,this.value)}catch(e){}if(playing&&!paused)startAt(queue[qi])};
+document.querySelectorAll('.gd button').forEach(function(b){b.onclick=function(){gender=b.dataset.g;try{localStorage.setItem('vp-gender',gender)}catch(e){}fillVoices();if(playing&&!paused)startAt(queue[qi])}});
 if(synth){synth.onvoiceschanged=fillVoices}
 setLang(lang);
 })();
@@ -122,7 +132,7 @@ page=f'''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta nam
 .bar{{position:sticky;top:0;z-index:10;background:rgba(255,253,248,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:8px 12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}}
 .bar button,.bar select{{font:600 15px/1 system-ui,sans-serif;border:1.5px solid var(--acc2);background:#fff;color:var(--acc);border-radius:20px;padding:9px 14px;cursor:pointer}}
 .bar button.on{{background:var(--hl2);border-color:var(--acc2);color:#3a2a00}}
-.lg,.rate{{display:flex;gap:4px}}.rate button{{padding:9px 10px}}
+.lg,.rate,.gd{{display:flex;gap:4px}}#vwarn{{display:block;color:#a33}}#vwarn[hidden]{{display:none}}.rate button{{padding:9px 10px}}
 .bar select{{max-width:150px;padding:8px 10px}}
 #stopb{{display:none}}body.playing #stopb{{display:inline-block}}
 .extra{{display:none;width:100%;justify-content:center;gap:8px;flex-wrap:wrap}}body.playing .extra{{display:flex}}
@@ -144,8 +154,8 @@ body.playing .s{{cursor:pointer}}
 <div class="bar">
  <div class="lg"><button data-v="pt">PT</button><button data-v="en">EN</button></div>
  <button id="play">▶ Ouvir</button><button id="stopb" {lbl('stop')}>Parar</button>
- <div class="extra"><div class="rate"><button data-r="0.85">0.85×</button><button data-r="1">1×</button><button data-r="1.2">1.2×</button><button data-r="1.4">1.4×</button></div><select id="vsel" aria-label="Voice"></select></div>
- <div class="hint" {lbl('tap')}>Toque numa frase para ler a partir dali</div>
+ <div class="extra"><div class="rate"><button data-r="0.85">0.85×</button><button data-r="1">1×</button><button data-r="1.2">1.2×</button><button data-r="1.4">1.4×</button></div><div class="gd"><button data-g="f" data-l="" data-en="Female voice" data-pt="Voz feminina">Voz feminina</button><button data-g="m" data-l="" data-en="Male voice" data-pt="Voz masculina">Voz masculina</button></div></div>
+ <div class="hint" id="vwarn" hidden data-l="" data-en="This device has no British or American voice installed." data-pt="Este aparelho não tem voz em português do Brasil instalada. Instale uma nas configurações de fala do sistema.">Este aparelho não tem voz em português do Brasil instalada.</div><div class="hint" {lbl('tap')}>Toque numa frase para ler a partir dali</div>
 </div>
 <main><div class="book" data-lang="pt">{''.join(secs['pt'])}</div><div class="book" data-lang="en" hidden>{''.join(secs['en'])}</div></main>
 <script>var IMGS={json.dumps(imgcache)};document.querySelectorAll('img[data-img]').forEach(function(i){{i.src='data:image/jpeg;base64,'+IMGS[i.dataset.img]}});</script><script>{JS}</script></body></html>'''
