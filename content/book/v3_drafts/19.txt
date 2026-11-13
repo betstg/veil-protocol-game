@@ -13,13 +13,9 @@ But some of it was the white room. Every night since Kabukichō he had closed hi
 
 [break The stairs]
 
-[need ch19_flats | An empty five-storey Tokyo apartment block at night waiting for demolition, outside walkways, broken windows, a single young man with a torch and a backpack climbing the outside stairs, a crow on the railing]
+[need ch19_flats | An empty five-storey Tokyo apartment block at night waiting for demolition, outside walkways, broken windows, a single young man with a torch and a backpack climbing the outside stairs]
 
-He went in on Saturday night at nine, after the bath. Gorō came with him as far as the outside stairs, walking up them one step at a time like a fat old man, and then stopped on the third-floor landing and would not go further. He fluffed his feathers and made the low kettle noise in his throat.
-
-"I know," said Rei. "I'll be quick."
-
-Gorō did not look as if he believed him.
+He went in on Saturday night at nine, after the bath.
 
 The fourth floor was a long concrete walkway with doors along one side and a railing on the other, exactly like the building Rei lived in. The railing looked out over the street. He could see the lights of a konbini on the corner, and a man walking a dog. Ordinary. He opened the door in his chest a finger's width.
 
