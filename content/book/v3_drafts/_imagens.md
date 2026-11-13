@@ -50,8 +50,34 @@ Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm d
 - [ ] `ch13_iwabuchi_gate.png` The old red brick and iron floodgate at Iwabuchi on the Arakawa at midnight, two square towers, the wide black river, three young men walking the grass bank with torches, a thin mist on the water
 - [ ] `ch13_white_light.png` A young man seen from behind, small and dark, standing at the edge of an endless soft white light with no horizon, a faint tall column of brighter white far ahead, everything else erased
 
+## 14 Tsuru-no-yu
+- [ ] `ch14_sento.png` An old Tokyo public bath house at dusk with a tall thin brick chimney, curved temple-like roof, dark blue cloth curtain over the door printed with 湯, a bicycle with a drying towel leaning on the wall
+
+## 15 The Gathering
+- [ ] `ch15_empty_pool.png` A closed old public swimming pool at night, the pool drained and dry, forty people standing and sitting along the tiled edge and down in the empty basin, lit by camping lanterns and phone torches, a stocky person with hair tied back severely standing on the diving board
+
+## 17 Two Sides
+- [ ] `ch17_pawn_shop.png` A small pawn shop in Ueno at evening, glass counter full of old watches and cameras, an old man with a jeweller's loupe examining a plain silver wristwatch, Rei on the other side of the counter not looking at it
+- [ ] `ch17_toyoko.png` Kabukichō at night, the plaza by the cinema tower crowded with Toyoko kids, teenagers in dark hoodies and pale make-up sitting on the pavement with phones, neon reflected on wet ground, a stocky sixteen-year-old girl with buzzed sides and a hoodie looking up warily
+
+## 18 Gorō
+- [ ] `ch18_goro.png` A large glossy black crow with a ragged feather in its left wing perched on an ivy-covered stone lantern in a wild overgrown garden, head tilted, looking at a young man in a black hooded jacket holding out a boiled egg in his palm
+
+## 19 The Message
+- [ ] `ch19_flats.png` An empty five-storey Tokyo apartment block at night waiting for demolition, outside walkways, broken windows, a single young man with a torch and a backpack climbing the outside stairs, a crow on the railing
+- [ ] `ch19_bridge_door.png` A grey concrete apartment corridor with a door opening not onto a room but onto a night bridge over a dark river with a single light on the water, cold air rushing in, a young man stumbling through the door toward another young man in slippers reaching out his hand
+
+## 20 Itsuki at the Grid
+- [ ] `ch20_bowling.png` A closed old bowling alley lit by camping lanterns, dusty lanes with pins still standing, rows of old red and blue bowling shoes on shelves behind a counter, a crowd of ordinary people of all ages sitting on plastic seats, two young men standing near the entrance
+
+## 22 The Heads of the Houses
+- [ ] `ch22_council.png` A great old tatami hall in a Bunkyō estate at night lit by paper lamps, seven elderly heads of families kneeling in a wide circle in formal black, an immaculate woman in her fifties in a grey suit kneeling in the centre reporting from a folder, two young men in plain black at the back with tea trays
+
 ## d1 The Umbrella
 - [ ] `d1_healer_konbini.png` A rainy night konbini doorway in Tokyo, a tall man with long black hair loose past his jaw holding a new clear plastic umbrella and studying the catch on the handle with calm curiosity, a young clerk watching uneasily
 
 ## g1 Hands That Make Tea
 - [ ] `g1_gin_tea.png` A small old kitchen with yellow walls and a frosted window at night in the rain, Gin with long black hair pouring hōjicha from a clay teapot into one single cup, his reflection in the dark glass smiling a small wrong smile his face is not making
+
+## g2 Someone Dies
+- [ ] `g2_gin_road.png` A wet black city road at night in light rain, a fallen delivery bicycle with its wheel still spinning and food containers scattered, a young rider lying in the road, and on the pavement a tall man with long black hair standing perfectly still under a clear umbrella, watching
