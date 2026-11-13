@@ -2,13 +2,6 @@
 
 Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm dark cinematic occult-noir palette, atmospheric, no text.
 
-## 01 Obon
-- [ ] `ch1_woman_not_swaying.png` Evening Keihin-Tōhoku carriage, tired commuters swaying, one pale woman in a white blouse standing perfectly upright by the connecting door, no reflection in the window, Rei by the door watching her
-- [ ] `ch1_key_walkway.png` 3:47am outside walkway of an old Tokyo apartment block, orange street lamp, moth at the lamp, a single brass key on a steel ring and half a cigarette on wet concrete by an open door
-
-## 02 Itsuki
-- [ ] `ch2_itsuki_studio.png` Geidai studio at dawn, Itsuki in an oversized grey hoodie with blue paint on his hands, unlit cigarette behind his ear, in front of a tall canvas of a bridge over a dark river, Rei in a black hooded jacket beside him
-
 ## 03 The Key
 - [ ] `ch3_desk_hands.png` Gin's bedroom desk in dim yellow light, desk lamp making a circle of light on an open black field book, faint pale handprints in dust on both sides of the book
 
@@ -79,12 +72,9 @@ Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm d
 ## 26 The First One
 - [ ] `ch26_shimizu.png` A lean still woman of about thirty in a plain dark suit with short practical hair, a small line between her eyebrows, standing on a cold winter street in Jūjō beside an old green public telephone box, a young man in a slightly wrong tie holding a small black pager-like device
 
-## 26b The Aviary
+## 26b The Building
 - [ ] `ch26b_corridor.png` A plain grey Japanese government office corridor with grey carpet tiles and humming lights, but small white paper seals tucked into the corners of every door frame, a line of salt along the skirting board, and a young man in a cheap new suit with a lanyard looking around, lost
-- [ ] `ch26b_cattery.png` A warm dim basement room with low shelves and old filing cabinets turned into beds with cushions, five cats each on its own cushion with a small brass name tag, the largest dark cat on the highest shelf looking down, a woman in a grey cardigan sitting on a low stool holding a mug, a young man in a suit standing at the door holding a box of paper
-- [ ] `ch26b_camp.png` Through an ordinary office fire door with a green exit sign, a walled green field under a winter sky, worn grass, a sparring circle worn down to bare dirt, and along one wall a long tall wire aviary full of black crows and, in the shadows at one end, sleeping owls
-- [ ] `ch26b_mirror_room.png` A long narrow windowless room like a cloakroom, shelves along both walls holding rows of ordinary mirrors of every kind, bathroom mirrors, round shaving mirrors, a pink plastic hand mirror, most covered with cloths, each with a paper name tag tied on with string, one or two older mirrors in carved dark frames on a high shelf apart
-- [ ] `ch26b_goro.png` Close up of a large piebald crow, black splashed with uneven white patches on the back and one wing and chest, one black eye and one pale winter-blue eye, perched on the shoulder of a young man in a suit inside a wire aviary, staring sideways into his face from very close
+- [ ] `ch26b_roof.png` The flat concrete roof of an eight-storey grey office building in Akabane in December, air conditioning units and a water tank, a low wall at the edge, and beyond it the whole of north Tokyo spread out under a cold pale sky, railway lines, the wide grey Arakawa river, a young man in a suit and coat standing at the edge with his hands in his pockets, and a black and white crow on the wall a few metres away
 
 ## 27 Partners
 - [ ] `ch27_kuma.png` A broad tan-and-white Akita dog with a braided prayer-cord round its neck standing very still and stiff-legged at the bottom of a narrow apartment staircase, ears flat, staring up, a lean woman in a dark suit beside it, two young men behind
@@ -92,10 +82,6 @@ Estilo de todas. Painterly oil-painting, loose impressionistic brushwork, warm d
 ## 28 What Remains
 - [ ] `ch28_evidence_archive.png` A long low basement evidence archive under fluorescent strip lights, endless grey metal shelves of labelled boxes and plastic bags, two young trainees in suits with clipboards, one holding a small old wristwatch up to the light
 - [ ] `ch28_fujimoto.png` A cluttered scholar's flat in Ōtsuka, papers in tall stacks in a logic only one person understands, a cold room with the window open in winter, a medium-built man in his thirties sitting very still at a desk with a cup of tea, smiling politely at visitors
-
-## 28b Gorō
-- [ ] `ch28b_uruma_room.png` A narrow windowless office crowded with brushes in jars and sheets of white seal paper hanging on lines to dry like washing, a very tall thin man with a tattooed shaved head and many silver earrings sitting cross-legged on top of a desk in a dark apron, grinding grey-brown ink on a stone
-- [ ] `ch28b_mirror_bind.png` At dusk on cold grass, a square dark-backed mirror lying face up with three black cords laid across it and a piebald crow standing on the glass looking down, and in the mirror not the sky but a strange view from far above of a young man kneeling in the grass, as the crow sees him, violet twilight light
 
 ## 29 Lowercase
 - [ ] `ch29_three_at_table.png` A tiny Tokyo kitchen at night, a small table built for two with three young men squeezed round it eating ginger pork and rice, one sitting on an upturned plastic crate with a cushion, one turning a white chess king, one with a key on a cord round his neck, warm yellow light, steamed-up window
