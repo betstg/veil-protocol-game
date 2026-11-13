@@ -1,0 +1,215 @@
+#title The Building
+
+On his second morning at the Division, Rei got lost.
+
+The Division building was a block of grey concrete one minute from the east exit of Ōji station, beside the railway lines. The directory in the lobby said eight floors. From the outside it looked like a tax office. Inside it looked like a tax office too, mostly. Long corridors with grey carpet tiles. Fluorescent lights that hummed. Doors with little brass plates. Photocopiers that jammed. Men in tired suits carrying files up the stairs because the lift was always full.
+
+But it was not a tax office, and once you had worked there for a day you began to notice.
+
+[need ch31_corridor | A plain grey Japanese government office corridor with grey carpet tiles and humming lights, but small white paper seals tucked into the corners of every door frame, a line of salt along the skirting board, and a young man in a cheap new suit with a lanyard looking around, lost]
+
+On the second floor, where the trainees sat, there was a small white paper seal tucked into the top corner of every door frame. On the third floor, outside Assessment, the skirting boards had a thin line of salt along them that the cleaners swept round, very carefully, and never into. In the lift there was a mirror, as in every lift, but this one was covered with a cloth, and someone had written on a sticky note on the cloth, *DO NOT UNCOVER. YES, YOU, TAKAHASHI.* On the fourth floor a man walked past Rei carrying a cardboard box with holes in it, and the box said something in a small cross voice, and the man said, "I know. I know. Nearly there."
+
+Rei had been sent to fetch printer paper. He had found the stationery cupboard on the first floor, and then he had taken the wrong stairs back up, and now he was in a corridor he did not recognise, with a box of paper in his arms.
+
+At the end of the corridor a woman was walking toward him with a mug in both hands.
+
+She was perhaps forty. Tall, with brown hair going grey at the temples, pulled back. A soft grey cardigan over her work clothes. She walked the way some people walk through their own house at night, without needing to look. She was going to pass him. Then she looked at his face, and slowed down.
+
+"You're lost," she said, kindly, the way you tell someone they have a leaf in their hair.
+
+"I'm looking for the second floor."
+
+"You're on the fourth." She looked at him a moment longer. Her eyes were warm and brown and tired around the edges, as if she had been tired a long time ago and had kept the lines as a souvenir. "You're the new trainee. Shimizu's."
+
+"Uedera," said Rei, and bowed as well as he could with a box of paper. Then, because he had been brought up by someone who would have said it, he said, "Sorry to stop you. Are you alright? You look like you were going somewhere."
+
+The woman stopped walking altogether.
+
+For a second something went across her face that Rei could not read. Then she smiled. It was a small smile, but it went all the way up.
+
+"Nobody asks that in this building," she said. "Katagiri. Field Support. I keep the cats." She lifted the mug a little. "And yes. I was going somewhere. I'm going to sit with a cat."
+
+"A cat?"
+
+"Come on. You can carry your paper. It's on the way."
+
+[break The Cattery]
+
+The Cattery was at the bottom of a back staircase that Rei would never have found on his own, behind a door with no plate on it at all.
+
+It was warm, and dim, and smelled of paper and cat and dried bonito. Low shelves round the walls. Old filing cabinets with the drawers taken out and cushions put in. And on five of the cushions, five cats. A tortoiseshell. A grey. A white one with odd ears. A fat orange one asleep upside down. And on the highest shelf, by itself, a large dark cat with a heavy head and very still yellow eyes, which looked at Rei the way a judge looks at a man in the dock.
+
+[img cvdroom_cattery.png | The Cattery]
+
+Each cushion had a small brass tag on it with a name. Sera. Itou. Mochida. Hara. Kuga.
+
+"They're named after people," said Katagiri, sitting down on a low stool under the high shelf with her mug. "Five people from this building who went out and didn't come back." She said it simply. "The cats are doors. For the handlers. When something has to get somewhere fast, and there's no time for trains." She looked up at the big dark cat on the high shelf. "That's Kuga. He's the strongest. When it really matters, the handlers go through Kuga and nobody else." She paused. "If he agrees. It's always his choice. He outranks all of us."
+
+Kuga looked at Rei. Rei looked at Kuga. Then, very slowly, because it seemed the polite thing, Rei bowed to the cat.
+
+Kuga closed his eyes.
+
+"Oh," said Katagiri softly. "He likes you." She drank her tea. "He doesn't like anyone. He barely likes me, and I come down here every afternoon." She did not say why she came down here every afternoon. She did not need to. She sat under the shelf with the mug in both hands and her shoulder almost touching the edge of Kuga's cushion, and the big dark cat let her.
+
+Rei understood, then, that the Cattery was not only for crossing.
+
+"I knew your brother," said Katagiri, after a while, not looking at him. "He used to talk about you. *The Kita one,* he called you. For years. I kept saying, bring him in, I want to meet him, and he kept saying, *not yet.*" She turned the mug round in her hands. "I'm glad you came anyway."
+
+Rei did not know what to say to that. So he said thank you, and picked up his printer paper, and went back up the stairs. He got lost twice more on the way. He did not mind.
+
+[break Records]
+
+On the third day Okada Shizuka came to find him at his desk with a trolley.
+
+Okada belonged to Investigation, but she spent half her life down in Records, and she had the expression of a woman who had read every file in the building and had not enjoyed a single one of them.
+
+"Shimizu says you can't fill in a form," she said. "Come with me."
+
+[img cvdroom_the_records_archive.png | Records]
+
+Records was on the first floor, behind two sets of heavy doors, and it was the biggest room Rei had ever seen inside an office. It went back and back, shelf after shelf, metal and wood, packed from the floor to the ceiling with boxes and folders and bundles of paper tied with string. Long tables ran down the middle, under green lamps, and at every table someone was reading, or writing, or sorting paper into piles with the slow careful movements of people who have been told that losing one sheet means losing their job. It smelled of dust and old paper and, very faintly, of something burnt.
+
+"Every case this Division has ever touched," said Okada, walking fast between the shelves with the trolley. "Since 1952. Some older. Everything that goes out of this building in an officer's pocket comes back in here as paper." She stopped at a table and put a file down in front of him. "Sit. Read that. Tell me what's wrong with it."
+
+Rei sat and read it. It was a short report about a cold spot in a flat in Nerima. The officer had gone, measured it, put down salt, and closed the case.
+
+"It looks fine," he said.
+
+"Look again."
+
+He looked again. And then, slowly, he saw it. The report gave the date the officer went. It gave the time. It gave the temperature in the room and the size of the cold spot in centimetres. It did not say who had called the Division in the first place, or why.
+
+"Nobody asked who lived there," he said.
+
+Okada looked at him for a long moment. Her face did not change at all. But she took the file back from him and put it on the trolley in a different pile.
+
+"Good," she said. "Most trainees take a week to see that. Your brother saw it in two minutes." She pushed the trolley on. "Come on. There are three hundred more of those and you're doing the boring half."
+
+They worked until lunch. She did not talk much. But every time he got something right she moved the file to the other pile without a word, and every time he got something wrong she tapped the place on the page with one finger, once, and waited until he found it himself. By the end of the morning Rei had learned how a case file was built, which copy went to which floor, and why the third copy of every file went upstairs to a floor that nobody would name.
+
+"Where does it go?" he asked.
+
+"Upstairs," said Okada, and that was all she said.
+
+[break Gin's desk]
+
+Kato took him to Field Operations, because Rei asked him to.
+
+[img cvdroom_field_operations_floor.png | Field Operations]
+
+It was on the third floor, a big open office full of desks pushed together in islands, with maps of the city pinned to every wall, covered in coloured pins and little handwritten flags. Phones rang. People came and went in coats with their bags over their shoulders, eating rice balls on their feet. Somebody had a radio on low, playing old enka songs. On a whiteboard by the door, under the words OBON STATS, somebody had drawn a table of numbers, and somebody else had drawn a little crying owl in a police cap underneath it.
+
+"That one," said Kato quietly, and nodded.
+
+Gin's desk was by the window, at the end of an island of four. It was very clean. There was nothing on it except a closed laptop, a pot of pens, and a small cactus in a blue pot, which someone had been watering. The chair was pushed in neatly. The other three desks in the island were a mess of paper and cups and phone chargers, and the people at them were working, and none of them looked at the clean desk at the end. They had all learned not to.
+
+Rei stood beside it with his hands in his pockets.
+
+"Who waters the cactus?" he said.
+
+"Nobody knows," said Kato. He turned his chess king over and over in his fingers. "I've listened. Everybody thinks somebody else does it. Every morning it's been watered." He was quiet for a moment. "I think it's a few of them. Taking turns. Without telling each other."
+
+Rei touched the edge of the blue pot with one finger. The soil was damp.
+
+"Thank you," he said, to nobody in particular, quite loudly, and a woman at the next desk looked up, and then looked down again very fast, with her ears turning red.
+
+[break Dispatch]
+
+On the way back Kato showed him Dispatch, on the same floor, through a glass wall.
+
+[img cvdroom_the_dispatch_center.png | Dispatch]
+
+It was a dim room full of screens and telephones, with a huge map of Tokyo across the back wall, lit from behind, and tiny lights moving across it. A dozen people sat at long desks in headsets, talking quietly and steadily, typing, pointing at the map. Every call in Tokyo that went to the number on the posters came here first. *Felt something strange? Call the CVD.*
+
+"Most of it's nothing," said Kato. "Old pipes. Bad dreams. People who've had a fight with their husband and want somebody official to tell them the house is haunted so it's not their fault." He watched a woman at the nearest desk listening to a call with her eyes closed. "One in thirty is real. One in three hundred is bad. They have about four seconds to tell which."
+
+"How do they tell?"
+
+"Practice. And they're Sensitives, most of them. Not strong enough for the field. Strong enough to hear something wrong in a voice on a phone." Kato put his king back in his pocket. "It's the hardest job in the building. Nobody thinks so. They're paid less than the cleaners."
+
+Rei watched the woman with her eyes closed. She opened them, said something short into her headset, and pressed a button, and on the big map a small red light came on somewhere in the east of the city, and started blinking.
+
+[break The Sigil Room]
+
+On Friday Aoi took him to meet the people who made the seals.
+
+Nakamura Aoi was twenty and had been at the Division two years. She was small and quick and very calm, with a bracelet of ceramic beads on her left wrist that she turned round and round when she was thinking. She asked Rei how he was every single morning, and the strange thing was that she listened to the answer.
+
+"You've got a tattoo," she said on the stairs, glancing at his wrist. "So you'll want to see this. It's where all the ink in the building comes from."
+
+[img cvdroom_sigil_room.png | The Sigil Room]
+
+The Sigil Room took up half of the fifth floor. It was long and low and lit by hanging lamps, and the walls were covered from top to bottom with sheets of paper pinned up to dry, every one of them painted with characters and circles and lines in black and red and grey. Long tables ran down the room, covered in brushes and inkstones and bowls of salt and little dishes of something dark. People in aprons bent over the tables, painting. On the floor in the middle of the room, a woman was kneeling on a huge sheet of paper, drawing a circle round herself with a brush on a long pole, very slowly, without lifting it once.
+
+And at the far end, sitting cross-legged on top of a table with his long legs folded under him like a heron, was Uruma.
+
+He saw Rei and his whole face lit up.
+
+"*Gin-kun's little brother*," he said, much too loudly, and every head in the room turned. "In my room. In a *suit*." He swung his legs down and came striding over between the tables, stepping round the kneeling woman without even looking. "Look at you. You look like an insurance salesman. A sad one. Aoi-chan, why have you brought me a sad insurance salesman?"
+
+"He wanted to see where the ink comes from," said Aoi, unbothered.
+
+"The ink comes from me," said Uruma. "Everything good in this building comes from me." He took Rei's left wrist without asking and turned it over and looked at the latch tattoo, at the edge of his cuff, very closely, the way a doctor looks at a stitch. "It's settled. Good. It's taken properly. Does it go cold?"
+
+"Every day. On the train. At the station."
+
+"Of course it does. You live in Tokyo." Uruma let go of his wrist and patted it. Then he turned, and picked up something from the nearest table, and held it out. It was a strip of white paper about the length of a finger, with a single character painted on it in grey-brown ink.
+
+"For your desk," he said. "Under the keyboard. Where nobody looks."
+
+"What is it?"
+
+"A little *quiet*," said Uruma. "The second floor is very noisy, for people like you. Phones. Kato thinking. Shimizu thinking even louder. That will help." He giggled. "Your brother had one under his keyboard for six years. Don't tell anybody. It's not on the list of approved items. Nothing I like is on the list."
+
+Rei took it. It was very slightly warm.
+
+On the way out, Aoi turned her bracelet round once and said, without looking at him, "He doesn't give people things, you know. I've been here two years. He's never given me anything but a hard time."
+
+[break The roof]
+
+That was the week Rei found the roof.
+
+He found it on Saturday, by accident, the way he found most things in that building. He had been sent up to the eighth floor with an envelope for the Director's secretary, and on the way back down he took the wrong staircase again, and instead of going down it went up. One more flight. A heavy steel door at the top with a sign on it that said NO ENTRY and, under it, in smaller letters someone had added in marker pen, SERIOUSLY. The door was not locked.
+
+He pushed it open, and the wind hit him in the face, and there was the whole city.
+
+[need ch31_roof | The flat concrete roof of a grey office building beside Ōji station in December, air conditioning units and a water tank, a low wall at the edge, and beyond it the whole of north Tokyo spread out under a cold pale sky, railway lines, the wide grey Arakawa river, a young man in a suit and coat standing at the edge with his hands in his pockets, and a black and white crow on the wall a few metres away]
+
+The roof was flat and grey and empty except for the big humming boxes of the air conditioning and a rusty water tank on legs. A low wall ran round the edge, about waist high. And beyond the wall, in every direction, Tokyo. The railway lines below, a great silver bundle of them, curving away south toward the middle of the city with trains sliding along them like beads on a string. The rooftops of Kita, thousands of them, grey and brown and blue. To the north, the wide grey band of the Arakawa river, with the old red floodgate at the bend and the bridges crossing it. And just across the tracks, so close he could have thrown a stone at it, the hill above Ōji. The bare trees of the park on top. And just below them, half hidden, the old concrete building with the walkway on the third floor, and the flat with nobody in it. He had been working one minute's walk from his own front door for four days and had not once looked up.
+
+He stood at the wall with his hands in his coat pockets for a long time.
+
+It was the first time in four months he had been somewhere high enough to see all of it at once. The whole city. Every street Gin might have walked down. Every building he might be in. It should have made him feel small and hopeless. Instead, strangely, it made him feel calmer. Down there, in the streets, he was always looking at one thing at a time. Up here, the city lay still, and let itself be looked at.
+
+He was still standing there when the crow landed on the wall.
+
+It came down out of nowhere and landed about three metres away from him, on top of the low wall, with a scrape of claws on concrete. A big crow. Bigger than the ones in Ueno park. And the wrong colour. Black mostly, but splashed with white, across the back and one wing and down the chest, in uneven patches, as if somebody had flicked a brush of white paint at it and not bothered to finish. One of its eyes was black, like any crow's. The other was a pale, pale blue, the colour of a winter sky.
+
+[img med_goro.png | The piebald crow]
+
+It looked at Rei with the blue eye.
+
+Rei looked back.
+
+Then the crow walked along the top of the wall toward him, with the slow rolling swagger crows have, as if it owned the roof and the building and possibly the whole of Kita ward, and stopped about a metre away, and looked pointedly at his coat pocket.
+
+There was a rice ball in his coat pocket. He had bought it at the konbini that morning and forgotten it.
+
+"No," said Rei.
+
+The crow looked at the pocket. It looked at Rei. It looked at the pocket again, and made a small low sound in its throat, like a creaky door.
+
+"It's mine," said Rei. "It's tuna mayonnaise. You wouldn't like it."
+
+The crow tilted its head all the way to one side, so that the blue eye was on top, and looked at him as if he had said something very stupid.
+
+Rei laughed. It surprised him. He had not laughed out loud for weeks. He took the rice ball out of his pocket, unwrapped it, broke off a corner, and held it out on the flat of his hand.
+
+The crow looked at the piece of rice ball for a long, long time. Then it hopped down off the wall, took the whole rice ball out of his other hand instead, the big piece, the one he had not offered, and flew away with it over the edge of the roof, low and fast and absolutely delighted with itself.
+
+Rei stood there with a corner of rice ball in his palm and nothing else.
+
+"Okay," he said to the empty sky. "Okay. That's fair."
+
+He went back down to the second floor with seaweed on his fingers and no lunch. And the next Tuesday, when he had a free half hour after lunch, he went back up to the roof. He told himself it was to look at the city. He took two rice balls.
