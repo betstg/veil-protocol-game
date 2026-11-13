@@ -18,7 +18,7 @@ Não do jeito que as pessoas conhecem histórias de fantasma, com um arrepio e u
 
 Quase tudo o que atravessa é pequeno e triste. Uma avó que continua entrando na cozinha do apartamento onde morreu, procurando os óculos de leitura. Um ponto frio numa escada onde um menino caiu quarenta anos atrás, que todo inquilino novo aprende a contornar sem nunca saber por quê. O cheiro de uma marca específica de cigarro num carro que já foi vendido três vezes e limpo por cada dono. Mas algumas coisas que atravessam não são pequenas. Algumas são famintas, pacientes e muito antigas, e não querem voltar.
 
-O governo tinha um órgão para isso, do jeito que tinha órgãos para incêndio, enchente e cachorro de rua. Chamava-se Civil Veil Division, a Divisão Civil do Véu, e todo mundo dizia só CVD. Os agentes dela iam às casas e ruas onde o véu tinha dado errado e consertavam as coisas, ou tentavam, ou preenchiam um formulário explicando por que não tinham conseguido. Havia cartazes em todas as estações de trem de Tóquio. *Sentiu algo estranho? Ligue para a CVD. Não investigue sozinho.* Havia até um mascote, uma coruja branca e redonda com um quepe de polícia, sorrindo, que as crianças desenhavam na escola e grudavam na geladeira. Ninguém na CVD gostava da coruja, e ninguém nunca conseguiu descobrir quem tinha aprovado aquilo.
+O governo tinha um órgão para isso, do jeito que tinha órgãos para incêndio, enchente e cachorro de rua. Chamava-se Civil Veil Division, a Divisão Civil do Véu, e todo mundo dizia só CVD. Os agentes dela iam às casas e ruas onde o véu tinha dado errado e consertavam as coisas, ou tentavam, ou preenchiam um formulário explicando por que não tinham conseguido. Havia cartazes em todas as estações de trem de Tóquio. *Sentiu algo estranho? Ligue para a CVD. Não investigue sozinho.*
 
 E todo mundo sabia que na semana do Obon o véu ficava mais fino do que em qualquer outra época do ano. A CVD botava todos os agentes que tinha na rua. Quem tinha perdido alguém ficava em casa com as luzes acesas e a porta destrancada, por via das dúvidas.
 
@@ -26,63 +26,53 @@ O irmão mais velho de Rei, Uedera Gin, era um desses agentes. Fazia seis anos q
 
 [break A dança]
 
-Itsuki e Haruto estavam esperando no pé do morro, sentados no muro baixo na frente do santuário, discutindo.
+Itsuki e Haruto estavam esperando no pé do morro, sentados no muro baixo na frente do santuário.
 
-Rei ouviu os dois da metade da viela. Haruto segurava um espetinho de lula grelhada como se fosse uma faca e apontava para a cara de Itsuki para defender seu ponto. Itsuki tinha um caderno de desenho aberto no joelho e desenhava a multidão sem levantar os olhos, e a cada poucos segundos dizia alguma coisa curta e calma que fazia Haruto apontar a lula com mais força.
+Itsuki estava falando. Tinha um caderno de desenho aberto no joelho e desenhava a multidão sem levantar os olhos, e falava ao mesmo tempo, rápido e animado, sobre um jogo que tinha passado a noite acordado para terminar. Haruto estava sentado um pouco afastado, com as mãos nos bolsos da jaqueta, e não dizia nada, o que no caso de Haruto queria dizer que tinha ouvido cada palavra.
 
-Kuroda Itsuki tinha vinte anos, um a mais que Rei, e era o melhor amigo dele desde a primeira semana do ginásio, quando sentou do lado de Rei no almoço sem pedir licença e comeu metade do arroz dele. Depois disso ele praticamente cresceu no apartamento do morro. A família dele morava numa casa muito antiga e muito grande em Nezu, cheia de gente que sabia fazer coisas com o véu, e nenhum deles nunca teve muita utilidade para um menino que preferia pintar. Então Gin dava comida para ele, ajudava com a lição de casa e aparecia na escola quando ninguém de Nezu aparecia, e nunca fez caso disso. Agora Itsuki estudava pintura a óleo na escola de arte mais famosa do país e falava disso, quando falava, como se tivesse entrado por engano e estivesse esperando ser descoberto.
+Kuroda Itsuki tinha vinte anos, um a mais que Rei, e os dois eram melhores amigos desde a escola. Ele praticamente cresceu no apartamento do morro. A família dele morava numa casa muito antiga e muito grande em Nezu, cheia de gente que sabia fazer coisas com o véu, e nenhum deles nunca teve muita utilidade para um menino que preferia pintar. Então Gin dava comida para ele, sentava ele na mesa da cozinha para fazer a lição de casa e aparecia na escola quando ninguém de Nezu aparecia, e nunca fez caso disso. Gin criou os dois na mesma mesa. Agora Itsuki estudava pintura a óleo na Geidai, a escola de arte mais famosa do país, e falava disso, quando falava, como se tivesse entrado por engano e estivesse esperando ser descoberto.
 
 [img char_kuroda-itsuki.png | Kuroda Itsuki]
 
-Ele usava um moletom cinza enorme por cima de uma camisa branca que claramente tinha custado mais do que todo o guarda-roupa de Rei junto. Tinha um fone de ouvido pendurado no pescoço que ele nunca parecia escutar, um lápis enfiado no coque atrás da cabeça e um cigarro apagado atrás da orelha. Tinha tinta azul seca nas dobras dos dedos, porque sempre tinha tinta em algum lugar do Itsuki. Gente que conhecia ele havia anos nunca tinha visto as mãos dele limpas.
+Ele estava vestido como sempre, com roupa grande demais e cheia de manchas de tinta, de capuz mesmo no calor de agosto. Tinha um fone de ouvido pendurado no pescoço, um lápis atrás de uma orelha e um cigarro atrás da outra. O cabelo era preto, com uma mecha descolorida na frente crescendo, que ele sempre dizia que ia retocar, e tinha tinta nela também. Sempre tinha tinta em algum lugar do Itsuki. Gente que conhecia ele havia anos nunca tinha visto as mãos dele limpas.
 
-Nagai Haruto tinha dezessete anos e não pertencia a ninguém em particular. Itsuki tinha encontrado ele na primavera, debaixo da ponte do trem perto do rio, onde Itsuki gostava de sentar para desenhar os trens e Haruto gostava de sentar para não ir para casa. A mãe dele trabalhava de noite, e o apartamento no conjunto habitacional era pequeno, quente e cheio do choro da irmãzinha, então Haruto passava a maior parte das noites na rua, perto do rio ou na escada da loja de conveniência, de capuz e com o celular na mão. Depois de mais ou menos uma semana com Itsuki desenhando ele sem pedir, Haruto decidiu que Itsuki era esquisito mas inofensivo. Depois de mais ou menos uma semana conhecendo Rei, decidiu que Rei era a pessoa mais legal do lado de quem ele já tinha ficado. Preferia morrer a dizer isso.
+Nagai Haruto tinha dezessete anos. Itsuki tinha encontrado ele na primavera, debaixo da ponte do trem perto do rio, onde Itsuki gostava de sentar para desenhar os trens e Haruto passava as noites com os meninos da escola dele. A mãe de Haruto trabalhava de noite. O apartamento no conjunto habitacional era pequeno e quente, a irmãzinha dele estava lá dentro, e era Haruto quem cuidava dela. Os meninos do rio faziam o que Haruto mandava. Ele não era o maior deles. Só nunca perdia a cabeça, e parecia sempre saber um segundo antes quando uma coisa ia dar errado.
 
-Ele tinha o cabelo preto e grosso caindo bagunçado na testa, as pontas num castanho desbotado de uma tinta que ele estava deixando crescer quietinho. Usava uma jaqueta escura com capuz por cima de uma camiseta branca lisa, tênis surrado e uma expressão calma, firme e muito mais velha que dezessete anos, o olhar de um menino que aprendeu a ver quem está olhando antes de dizer qualquer coisa.
+O cabelo dele era preto e comum, menos os últimos centímetros, num castanho desbotado de uma tinta que ele estava deixando crescer quietinho. Usava roupa simples e limpa, que nenhum professor olharia duas vezes. Os olhos eram calmos, firmes e muito mais velhos que dezessete anos.
 
 [img char_nagai-haruto.png | Nagai Haruto]
 
-"Rei", disse Haruto, assim que viu o amigo. Pulou do muro. "Fala pra ele. Fala que raspadinha de melão é a melhor. Ele tá dizendo limão. *Limão.* Quem escolhe limão?"
+"Você tá atrasado", disse Haruto, quando Rei sentou. Não falou como reclamação. Falou do jeito que se diz as horas para alguém.
 
-"Eu escolho limão", disse Itsuki, sem levantar os olhos. "Sou artista. Faço escolhas corajosas."
+"Eu sei."
 
-"Não é coragem, é azedo."
+"Itsuki disse que você ia atrasar." Haruto virou alguma coisa no bolso. Rei sabia que era uma pedra do rio, lisa e cinza. Haruto sempre tinha ela. "Eu disse que não. Então eu devo uma raspadinha pra ele."
 
-"Morango", disse Rei.
+"Nunca aposta contra mim, Haruto", disse Itsuki, ainda desenhando. "Eu sei tudo."
 
-Haruto olhou para ele como se Rei tivesse traído o garoto pessoalmente na frente da turma inteira. O canto da boca de Itsuki tremeu.
+Haruto pensou antes de responder. Ele sempre pensava antes de responder.
 
-"Dois contra um", disse Itsuki. "Isso é democracia, Haruto. Sinto muito. Você pode reclamar com as avós."
+"Você sabia que ele ia atrasar porque ele sempre atrasa no Obon", disse. "Isso não é saber tudo. Isso é conhecer o Rei."
 
-"Morango nem é lado. Morango é só rosa." Haruto espetou o ar com a lula. "E você tá atrasado. O Itsuki disse que você ia se atrasar. Eu disse que não, o Rei nunca se atrasa, o Rei é tipo um trem. Aí você se atrasou, e agora eu devo um cigarro pra ele."
+Itsuki riu e não levantou os olhos.
 
-"Você não fuma", disse Rei.
-
-"Eu fumo às vezes."
-
-"Você roubou um de um taxista semana passada e tossiu dez minutos", disse Itsuki, todo simpático, virando a página. "Eu desenhei. É meu melhor trabalho."
-
-Haruto ficou vermelho até as orelhas e puxou o capuz mais para cima do rosto. Rei sentou no muro do lado de Itsuki e pegou o último pedaço de lula do espeto antes que Haruto pudesse reclamar. Estava frio, borrachudo e grudento de molho doce, e estava perfeito.
-
-"Cadê seu irmão?", disse Haruto, de dentro do capuz.
+"Cadê seu irmão?", perguntou Haruto.
 
 "Trabalhando. A noite toda, provavelmente. É Obon."
 
-O capuz caiu na hora. Os olhos do Haruto tinham ficado arregalados e brilhando, e por um segundo ele esqueceu de fazer cara de mau.
+Haruto olhou para as vielas escuras atrás deles, para as lanternas balançando nas portas. Por um segundo o rosto dele não estava nada calmo. Estava curioso, e novo.
 
-"Pera. Tipo, agora? Ele tá lá fora pegando fantasma *agora*?" Ele se virou para olhar as vielas escuras atrás deles, as lanternas balançando nas portas, como se fosse ver um agente da CVD passar correndo. "O que ele faz quando acha um? Ele briga com ele? Ele tem, tipo, uma arma pra isso?"
+"Ele tá lá agora", disse. "Com eles."
 
-"Ele preenche formulário sobre eles", disse Rei. "Na maior parte do tempo. É o que ele diz."
+"Ele tá lá preenchendo formulário sobre eles", disse Rei. "É o que ele diz. Ele diz que os formulários são a parte perigosa."
 
-"Formulário." Haruto pareceu profundamente traído. "Essa é a pior coisa que eu já ouvi."
+"Ele esqueceu as chaves de novo?", perguntou Itsuki.
 
-"Ele também diz que o formulário é a parte perigosa."
+Rei riu. "Não. Eu mudei elas de lugar ontem à noite. Dois centímetros pra esquerda no gancho. Ele achou do mesmo jeito hoje de manhã. Não falou nada, mas mudou de volta dois centímetros pra direita."
 
-"Ele esqueceu a chave de novo?", perguntou Itsuki.
+Haruto olhou de um para o outro.
 
-Rei riu. "Não. Eu mudei a chave de lugar ontem à noite. Dois centímetros para a esquerda, no gancho. Ele achou do mesmo jeito hoje de manhã. Não falou nada, mas mudou de volta dois centímetros para a direita."
-
-"Vocês dois são muito estranhos", disse Haruto, com profundo respeito.
+"Vocês dois são estranhos", disse. Disse com carinho.
 
 [break A roda]
 
@@ -104,51 +94,35 @@ Eles entraram na roda entre uma avó com um leque de papel e um menininho de uns
 
 "Então aprende. Pega a água. Assim. Macio." Ela deu um tapinha no pulso dele com o leque. "Mais macio. Você não tá batendo em ninguém."
 
-Haruto olhou por cima do ombro para Rei com uma expressão de puro desespero. Rei riu tanto que perdeu o ritmo inteiro, e o menininho do yukata de peixinhos, que estava olhando as mãos de Rei e copiando muito sério, perdeu o ritmo também, exatamente no mesmo ponto. Rei teve que se recompor na hora, por pura responsabilidade, para a criança não aprender a dança errado pelo resto da vida.
+Haruto olhou por cima do ombro para Rei com um olhar calmo que pedia ajuda. Rei riu tanto que perdeu o ritmo inteiro, e o menininho do yukata de peixinhos, que estava olhando as mãos de Rei e copiando muito sério, perdeu o ritmo também, exatamente no mesmo ponto. Rei teve que se recompor na hora, por pura responsabilidade, para a criança não aprender a dança errado pelo resto da vida.
 
-Na segunda volta da torre Haruto tinha parado de fazer cara feia. Na terceira estava fazendo direito, pegando a água, o rosto escondido no capuz mas as mãos macias e cuidadosas, e a avó fez que sim com a cabeça uma vez, seca, do jeito que uma professora acena para uma resposta certa. Rei viu as orelhas dele ficarem vermelhas de novo.
+Na segunda volta da torre Haruto tinha parado de fazer cara feia. Na terceira estava fazendo direito, pegando a água, o rosto escondido no capuz mas as mãos macias e cuidadosas, e a avó fez que sim com a cabeça uma vez, seca, do jeito que uma professora acena para uma resposta certa. Rei viu as orelhas dele ficarem vermelhas.
 
 Estava quente, barulhento, o tambor não parava, e Rei percebeu que estava sorrindo, e que estava sorrindo havia um tempo sem notar.
 
 [break Raspadinha]
 
-Depois Haruto pagou a dívida com o Itsuki com uma raspadinha em vez de um cigarro, porque Itsuki disse que preferia a raspadinha e também preferia que Haruto não morresse de câncer de pulmão antes de ele terminar o quadro. Compraram três na barraca do portão, melão para Haruto, morango para Rei, limão para Itsuki, e sentaram nos degraus de pedra do santuário com os joelhos para cima e as costas na pedra morna, olhando a dança girar lá embaixo.
+Depois Haruto pagou a dívida. Comprou três raspadinhas na barraca do portão, melão para ele, morango para Rei, limão para Itsuki. Sentaram na escada de pedra do santuário com os joelhos para cima e as costas na pedra quente e ficaram olhando a dança girar lá embaixo.
 
-"Como vocês se conheceram?", perguntou Haruto de repente, apontando a colher para Itsuki e olhando para Rei. "Ele nunca fala. Só diz *faz muito tempo*, igual velho."
+Haruto olhou o copo de Itsuki. "Limão", disse. Só isso.
 
-"Ele sentou do meu lado no almoço", disse Rei, "no primeiro dia do ginásio, e comeu metade do meu arroz."
+"Eu sou artista", disse Itsuki. "Eu faço escolhas corajosas."
 
-"Eu tava com fome", disse Itsuki.
+Ficou quieto um segundo, olhando a dança. Depois disse "O Gin faz um curry muito bom", como se isso respondesse alguma coisa, e de certo jeito respondia. "Ele me fazia terminar a lição de casa na mesa da cozinha de vocês antes de me deixar comer. Eu odiava ele demais."
 
-"Ele não pediu."
-
-"Você ia dizer não."
-
-"Eu ia dizer não", concordou Rei. "Aí ele foi pra minha casa depois da aula, porque disse que a casa dele era chata. E meu irmão fez janta pra ele. E aí ele simplesmente continuou voltando."
-
-"O Gin faz um curry muito bom", disse Itsuki, como se isso explicasse tudo, e de certo modo explicava. Ele olhava a dança, e alguma coisa no rosto dele ficou muito quieta por um segundo, e depois voltou. "Ele me fazia fazer a lição de matemática na mesa da cozinha de vocês antes de me dar comida. Eu odiava ele. Ele ficava ali parado com o prato na mão e dizia *Questão sete, Itsuki*, com aquela voz."
-
-"Aquela voz", disse Rei, e os dois fizeram ao mesmo tempo, grave, paciente e completamente inabalável, *Questão sete, Itsuki*, e Haruto riu tanto que saiu xarope verde pelo nariz.
-
-Quando parou de engasgar, limpou o rosto na manga e fingiu que nada tinha acontecido, disse, um pouco casual demais: "Seu irmão dá medo? Parece que dá medo."
+Haruto virou para Rei. "Seu irmão dá medo?"
 
 Rei pensou.
 
-"Não", disse. "Ele é a pessoa que menos dá medo que eu conheço. Ele só é muito difícil de discutir."
+"Não", disse. "Ele só é muito difícil de contrariar."
 
-"Ele dá medo", disse Itsuki. "Ele só não sabe. Dá medo do jeito que uma montanha dá medo. Ele não *faz* nada. Ele só tá ali e você não consegue tirar ele do lugar."
+"Dá medo sim", disse Itsuki. "Ele só não sabe. Ele não *faz* nada. Ele só tá ali, e você não consegue tirar ele do lugar."
 
-"Quero conhecer ele", disse Haruto.
-
-"Vai conhecer", disse Rei. "Quando o Obon acabar. Ele disse que leva a gente pro rio na última noite, pra ver as lanternas. Ano passado chamaram ele no trabalho. Esse ano ele prometeu."
-
-"Sério?"
-
-"Ele prometeu", disse Rei. "Ele não quebra essas."
+"Eu queria conhecer ele", disse Haruto, e virou a pedra no bolso.
 
 [break Ela]
 
-Haruto voltou até a barraca para tentar convencer o velho a dar uma segunda raspadinha de graça, e Itsuki abriu o caderno de novo enquanto Rei terminava a dele. Fez isso sem pensar, do jeito que algumas pessoas pegam o celular, do jeito que você coça uma coceira. O lápis saiu do cabelo, a mão começou a se mexer, e o rosto dele foi para longe, como se uma parte dele tivesse saído da sala.
+Haruto desceu até o portão para ligar para a irmã, e Itsuki abriu o caderno de novo enquanto Rei terminava a dele. Fez isso sem pensar, do jeito que algumas pessoas pegam o celular, do jeito que você coça uma coceira. O lápis saiu de trás da orelha, a mão começou a se mexer, e o rosto dele foi para longe, como se uma parte dele tivesse saído da sala.
 
 Ele desenhava a dança. A torre, as lanternas, as mãos girando. A avó do leque. O menininho do yukata de peixinhos. Linhas rápidas e soltas que pegavam o jeito das pessoas se mexerem melhor do que qualquer foto.
 
@@ -164,13 +138,15 @@ Ninguém olhava para ela. O homem de yukata azul-escuro dançava bem do lado, t�
 
 Rei sentiu a pressão conhecida começar atrás dos olhos. Sempre começava ali, um peso suave, como a sensação logo antes de uma dor de cabeça, e sempre crescia. Se ele deixasse, as cores do festival iam ficar ralas e pálidas, a música ia soar como se viesse do fim de um corredor comprido, e a senhora ia virar a cabeça, devagar, no meio da dança, e ver que ele conseguia ver ela.
 
-Então ele fez o que o irmão tinha ensinado quando ele era pequeno.
+Então ele fez o que sempre fazia. Nem chegou a decidir fazer.
 
-Inspirou contando até quatro. Segurou até quatro. Soltou contando até seis, devagar, pelo nariz. E na expiração imaginou uma porta dentro do peito, uma porta pesada e antiga de madeira com uma tranca de ferro, se fechando, e ouviu a tranca cair.
+Respirou devagar, do jeito que Gin tinha ensinado, entrando e saindo, até ficar calmo. E disse para si mesmo o que dizia desde pequeno. Não tem nada ali. Você tá cansado. Você tá apertando o olho.
 
-[img scene_kitchen_lesson.png | Gin e Rei na mesa da cozinha]
+[need ch01_park | A park in Kita in daylight, a young man with long black hair crouching and gently covering a small boy's eyes with his hand, and far behind them, half hidden by a tree, a faint broken figure coming apart at the edges]
 
-Gin tinha ensinado isso na mesa da cozinha quando Rei tinha oito anos e não conseguia dormir por causa das coisas que via de noite. *É um truque para noites ruins*, Gin tinha dito, sentado na frente dele com uma xícara de chá esfriando entre as mãos, muito sério, do jeito que ensinava tudo a Rei, como se fosse uma coisa tão comum e tão importante quanto amarrar o sapato. *Fecha a porta. Nada entra se você não convidar.* Durante anos Rei acreditou que era só um truque para dormir. Aos dezenove sabia que não. Não sabia exatamente o que sabia. Só sabia que a porta funcionava, e não tinha a menor vontade de descobrir o que acontecia no dia em que não funcionasse.
+Tinha começado num parque, quando Rei era bem pequeno. Ele puxou a manga de Gin e apontou. *Gin, tem uma pessoa esquisita lá.* Gin olhou. O que Gin viu foi um morto, muito machucado, se desfazendo nas beiradas como papel molhado. Gin se agachou, cobriu os olhos de Rei com a mão, devagar, e disse *Não tem nada ali. Às vezes quando você aperta o olho assim acaba vendo alguma coisa, mas é só efeito no seu olho. Abre bem o olho.* Rei abriu bem o olho, e não tinha nada ali.
+
+Rei acreditou. Ainda acreditava, quase sempre. Sabia o que Gin fazia da vida. Não acreditava nem por um segundo que ele também conseguia. Trabalhava numa delegacia, e não ia ser o estagiário que via fantasma, e não ia dar ao irmão mais uma coisa para se preocupar. Só queria uma vida sossegada. Então de vez em quando ele via um, respirava, olhava para outro lado, e quase sempre isso bastava.
 
 A pressão diminuiu e parou. O festival voltou, alto, claro e perto. Quando ele olhou de novo para a roda havia um espaço entre o homem de yukata azul-escuro e a menina do leque, mais ou menos da largura de uma senhora pequenina. A dança girava. O espaço girava junto, debaixo das lanternas, e depois a roda se fechou e ele sumiu.
 
@@ -186,41 +162,37 @@ Era a dança. A torre, as lanternas, a avó, o menino, o homem de yukata azul-es
 
 "Quem é essa?", perguntou Rei, com muito cuidado.
 
-"Não faço ideia." Itsuki inclinou o caderno para a luz das lanternas, e depois para longe. "Eu não vi ela. Só desenhei." Deu uma risada curta e desconfortável e não olhou para Rei. "Minha mão faz isso às vezes. Põe gente que não tá ali. Meus professores acham que é um estilo. Chamam de *assombrado* e me dão nota boa." Fechou o caderno com um estalo e enfiou o lápis de volta no cabelo. "Não me olha assim. Não é nada. Tô acordado desde ontem."
+"Não faço ideia." Itsuki inclinou o caderno para a luz das lanternas, e depois para longe. "Eu não vi ela. Só desenhei." Deu uma risada curta e desconfortável e não olhou para Rei. "Minha mão faz isso às vezes. Põe gente que não tá ali. Meus professores acham que é um estilo. Chamam de *assombrado* e me dão nota boa." Fechou o caderno com um estalo e enfiou o lápis de volta atrás da orelha. "Não me olha assim. Não é nada. Tô acordado desde ontem."
 
-Rei não disse nada. Olhou o lugar na roda onde a senhora tinha estado. Um dia, pensou, ia ter que contar para o Itsuki sobre a porta no peito. Não hoje. Hoje era raspadinha, peixinho-dourado e as orelhas vermelhas do Haruto. Mas um dia.
+Rei não disse nada. Olhou o lugar na roda onde a senhora tinha estado. Foi a luz das lanternas, disse para si mesmo. Ele era muito bom em dizer isso para si mesmo.
 
 [break Cedo para casa]
 
 Ele foi embora às oito e meia.
 
-"É *Obon*", disse Haruto, que tinha voltado pela escada sem a segunda raspadinha e com a cara ofendida de quem tinha ouvido um não. "Ninguém vai pra casa oito e meia no Obon."
-
-"Vai ter karaokê", disse Itsuki. "Tem um homem ali com um violão e uma cara muito triste. Eu preciso saber o que ele vai cantar. Preciso disso mais do que já precisei de qualquer coisa."
+"É *Obon*", disse Itsuki. "Ninguém vai pra casa às oito e meia no Obon. Vai ter karaokê. Tem um homem ali com um violão e uma cara muito triste. Eu preciso saber o que ele vai cantar. Eu preciso disso mais do que já precisei de qualquer coisa."
 
 "Eu trabalho amanhã", disse Rei.
 
 "Você é *estagiário*", disse Itsuki. "Estagiário não trabalha. Estagiário tira xerox e chora no banheiro."
 
-"Então eu tiro xerox amanhã." Rei hesitou, e depois disse o motivo de verdade, porque nunca adiantava mentir para o Itsuki, e o Haruto ia adivinhar de qualquer jeito. "O Gin pode chegar cedo."
+"Então eu tiro xerox amanhã." Rei hesitou, e depois disse o motivo de verdade, porque nunca adiantava mentir para o Itsuki. "O Gin pode chegar cedo."
 
-Haruto parou com o copinho vazio a meio caminho do lixo.
+Haruto tinha voltado pela escada com o celular na mão. Olhou para Rei.
 
-"No *Obon*?"
+"Você disse que ele nunca volta no Obon."
 
-"Pode."
+"Pode ser que volte", disse Rei.
 
-"Você disse que ele nunca volta pra casa no Obon."
+Itsuki olhou para ele um instante, e o rosto dele ficou macio, do jeito que quase nunca ficava quando tinha outras pessoas por perto.
 
-"Pode", disse Rei.
-
-Itsuki olhou para ele por um instante, e o rosto dele amoleceu, do jeito que quase nunca amolecia quando tinha gente por perto. Depois esticou a mão e puxou o capuz do Haruto para baixo até cobrir os olhos, para ele parar de falar.
-
-"Vai lá, então", disse. "Vai pra casa deixar o arroz quentinho pro seu irmão mais velho." Sorriu, para tirar o peso. "Eu vou voltar pro ateliê pintar. Não vou conseguir dormir mesmo. Me manda mensagem quando ele chegar. Pra eu saber que você não tá sentado na porta a noite inteira feito cachorro abandonado."
+"Vai, então", disse. "Vai pra casa deixar o arroz quentinho pro seu irmão mais velho." Sorriu, para tirar o peso. "Eu vou voltar pro ateliê pintar. Me manda mensagem quando ele chegar. Pra eu saber que você não tá sentado na porta a noite inteira feito cachorro abandonado."
 
 "Eu não faço isso."
 
-"Você faz exatamente isso", disseram Itsuki e Haruto ao mesmo tempo, Haruto de dentro do capuz, e Haruto empurrou o capuz para cima só para ver a cara do Itsuki, encantado.
+"Você faz exatamente isso", disse Itsuki.
+
+Haruto não disse nada. Não precisava.
 
 [break O apartamento]
 
@@ -259,8 +231,6 @@ Essa era a coisa com o Gin. Às vezes ele chegava tarde. Às vezes muito tarde. 
 Rei mandou mensagem para o Itsuki. *Em casa. Ele ainda não voltou.*
 
 A resposta veio na hora. *chocante. vai dormir. ele vai te acordar às 3 comendo teu porco com a mão igual guaxinim.*
-
-E um minuto depois, de um número que Rei tinha salvo como *Haruto NÃO DAR DINHEIRO*, uma mensagem sem nenhuma palavra, só a foto de uma segunda raspadinha, de melão, verde-viva, erguida em triunfo contra as lanternas. O velho da barraca tinha cedido.
 
 Rei sorriu para a tela. Deitou no sofá com a televisão ligada e sem som. Um programa de culinária. Um senhor fazendo soba à mão, dobrando a massa sem parar numa tábua de madeira e cortando com uma faca quadrada enorme em fios finos como barbante. Rei assistia sem ver de verdade. Lá no pé do morro, bem fraquinho agora, ainda dava para ouvir o tambor do Bon odori, dando voltas e voltas.
 
