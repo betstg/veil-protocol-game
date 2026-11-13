@@ -60,10 +60,9 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Uruma era da Sala dos Sigilos e começou a tatuar. As tatuagens são feitas dentro da Sala dos Sigilos, porque tatuagem é sigilo.
 
 ## Programa Vessel
-- Quem está no programa não tem casa própria nem vida social. Mora num lugar monitorado da CVD. Os amigos são os outros do programa e o pessoal da CVD. O programa tem dado certo.
+- Quem está no programa não tem casa própria nem vida social fora. Todos moram juntos num apartamento dentro do prédio da CVD, porque às vezes precisam participar de várias coisas da Divisão. Vivem como colegas de casa e têm cozinha. A referência é o Esquadrão Quinx de Tokyo Ghoul, que mora na casa dada pela CCG. Os amigos são os outros do programa e o pessoal da CVD. O programa tem dado certo.
 - Fujimoto Kenji, história nova. Ele foi possuído em campo por um espírito maligno forte. O exorcismo não deu certo e o espírito estava matando ele. A CVD tinha o Abe, espírito forte e calmo, preso e sendo entrevistado. Dois espíritos não cabem num corpo. O Kenji aceitou o Abe de bom grado, o Abe entrou e o espírito maligno saiu e foi preso. O Kenji não tem mais condição física de viver sem um espírito dentro. Os dois coabitam.
 - O Kenji não tem família. Os pais morreram. A vida dele é a CVD. Sai a família pondo a mesa.
-- Alguém do Programa Vessel entra no grupo do Rei e conhece todos os lados. A Betty quer que seja o do Amor, o Usami Hinata com o Ren.
 
 ## Objetos
 - O relógio do caso Satō é o de bolso de prata do Bible.
@@ -75,3 +74,38 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 ## Estrutura
 - A ordem dos capítulos precisa ser arrumada. Os buracos do Gorō e dos capítulos 21 e 31 precisam ser resolvidos.
 - Fazer uma matriz de rastreamento, com fluxo de causa e efeito e controle de pontas soltas, e manter ela durante a reescrita.
+
+## Decisões de 13 de novembro, segunda rodada
+
+### Usami Hinata e Ren
+- O Usami está vivo. Sai do Bible que ele morreu e a fala "Dois de nós aqui dentro. Ele fala e eu quero".
+- Ele não trabalha em padaria, não sai à noite e não tem quarto em Kōenji. Ele mora no apartamento do Programa Vessel dentro da CVD.
+- Ele é querido e amável, adora coisas fofas e cozinha para os outros, faz doces.
+- A habilidade dele é Telepatia. O Ren, o demônio dentro dele, é clarisciente. Mais tarde ele desenvolve Psicometabolismo, porque ele se importa com as pessoas.
+- Ele entra no grupo de luta do Rei.
+
+### Regra das habilidades
+- Uma pessoa tem uma habilidade só, a não ser que vá até a Fonte e treine. Ninguém sabe disso ainda.
+- Quem está no Programa Vessel é forte porque tem duas, a própria e a da entidade dentro dele.
+- O Rei descobre a Fonte e volta lá várias vezes para fazer perguntas. Num momento ele propõe que todos se segurem pela mão e vão juntos, porque quem vai sozinho faz uma pergunta e volta destruído. No fim cada um vai no seu momento.
+- Na volta o Rei diz "Não olhe para o rosto de Deus" e depois identifica o que cada um absorveu. Por exemplo "você absorveu o psicometabolismo da Fonte". A habilidade dura uma semana e se dispersa. Se treinar, ela fica ancorada.
+
+### Itsuki
+- Ele entra em briga, sim. Pelos amigos ele bate. Ele é rebelde.
+- Ele entra nas salas e ajuda todo mundo. Como é bom de computador resolve muita coisa por ali. Como joga, sabe disfarçar de um jeito convincente.
+
+### O cachorro
+- O cachorro é da CVD, não do Tendo. O Tendo usa o cachorro. As pessoas gostam do cachorro, mas muitas vezes o cachorro fica de cara com o Tendo.
+- O Tendo é o traidor do Livro Três.
+- Depois da traição o cachorro volta para a CVD e fica com o Diretor Adachi. O Adachi pede desculpa ao cachorro e deixa ele na sala dele.
+- O Adachi vira um bobo com o cachorro, como o chefe da Equipe Rocket com o Persian. O Rei entra e ele está escovando o cachorro, "só um momento, estou terminando aqui", e fala com o cachorro "você gosta disso, né, seu safado". Cama de veludo do lado da mesa, ossinho. Depois senta e volta a ser sério. Só em alguns momentos.
+- Na batalha final o Adachi leva o cachorro, e o cachorro está ainda mais forte.
+
+### Kato Ryusei
+- O Kato não é o traidor e não morre.
+- Ele é sério, com humor ácido, muito esquisito, humor negro. Adorável de tão estranho.
+- Ele fica fora do grupo de luta. É o irmão que ajuda de fora, um mentor esquisito e engraçado, como o Jiraiya. O Gin diz no Bible que ele é muito mais inteligente e útil do que parece.
+- Isso também resolve ter dois telepatas no grupo, porque o Usami fica no grupo e o Kato fora.
+
+### O grupo de luta
+- Rei, Tendo (Psicocinese), Usami (Telepatia, e Clarisenciência pelo Ren). Faltam definir os outros três.
