@@ -273,7 +273,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Primeira habilidade, Telecinese. Fica forte a ponto de ser como o Magneto sem a restrição de metal. Um poder destrutivo, para ele descer o cacete do nada. Mais legal que soltar fogo ou raio.
 - Depois pega Psicocinese. Por último Teleporte, porque vai ficando muito forte. O Rei chega a dizer que é impossível e que espera ser amigo dele para sempre.
 - Tem muita raiva e rancor da família e reprime. Por fora fica bonzinho e quietinho. É esquentado e sai na porrada com as pessoas por causa do Rei. Aos poucos se acalma, e o Rei acalma ele.
-- A relação com o Rei é um bromance. Não é romântica, mas é quase. Um amor de infância que a sociedade japonesa nunca entenderia. Confiança extrema. Sentar na cama do outro até ele dormir, dizer pode descansar que se ligarem eu atendo. Lembrar um do outro, levar chá, proteger com a alma.
+- A relação com o Rei é um bromance. Um amor de infância que a sociedade japonesa nunca entenderia. Confiança extrema. Sentar na cama do outro até ele dormir, dizer pode descansar que se ligarem eu atendo. Lembrar um do outro, levar chá, proteger com a alma.
 - A família rejeitou o Itsuki, e por isso o Gin meio que adotou ele.
 
 ## Decisões de 14 de novembro, oitava rodada
@@ -281,12 +281,19 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Itsuki se reprimiu muito e o poder desperta tarde, mais para frente no livro, não no começo.
 - Nessa época ele e o Rei quase moram juntos, ou moram, porque o Rei vai cuidar dele, já que ele não tem poder.
 - Numa batalha em que o Rei sempre defende ele, o Itsuki percebe que o Rei está se ferrando por causa dele. Na primeira crise ele sai do latente para algo muito avançado e já joga um carro numa pessoa.
+- O jeito absurdo do primeiro uso depende do contexto, não precisa ser um carro.
 - Depois tenta de novo e não consegue. Começa o treinamento, e ele precisa de alguém que o treine.
 
 ### O tom da relação do Itsuki com o Rei
-- Bem sutil. O leitor percebe sem ninguém dizer, acha bonitinho e fica com uma pulga atrás da orelha. Não é romance. O protagonista não é queer e fica bem travado. A ideia é não afastar quem se sente desconfortável com esse tipo de relação.
+- Bem sutil. O leitor percebe sem ninguém dizer, acha bonitinho e fica com uma pulga atrás da orelha. Nunca escrever que não é romance, para não cortar o clima. O protagonista não é queer e fica bem travado. A ideia é não afastar quem se sente desconfortável com esse tipo de relação.
 - Referências da Betty. Sherlock e Watson da BBC, Merlin e Arthur, Dean e Castiel, Gojo e Geto, Dazai e Chuuya, Hinata e Kageyama, Kuroko e Kagami, Vanitas e Noé, William e Sherlock de Moriarty the Patriot. Nenhum é canonicamente gay. O nível é o de "eu vou atrás de você, você não vai morrer sozinho".
 
 ### A Fonte
-- Todo mundo acha que ir à Fonte e voltar dá ressaca e deixa um resquício de algo que não é seu. Na verdade a Fonte estimula a habilidade que a pessoa já tem latente.
+- Todo mundo acha que ir à Fonte e voltar dá ressaca e deixa um resquício de algo que não é seu. Na verdade a Fonte estimula o que a pessoa já tem e está latente.
 - O grupo descobre isso e usa como um cheat, um Game Shark que ninguém mais conhece. É assim que o Itsuki ganha a Psicocinese e o Teleporte.
+
+## Decisões de 14 de novembro, nona rodada. Itsuki e Rei
+- São amigos desde a escola e têm a mesma idade.
+- O Itsuki vivia na casa do Rei e o Rei na casa do Itsuki. O Gin ia à casa do Itsuki. Para o Itsuki o Gin era um irmão mais velho e uma figura de pai, porque a família o rejeitou. A autoestima dele era muito baixa.
+- Em algum momento o Rei vai morar na casa dele.
+- O "half-loved Rei for years" da ficha está certo. Eles se amam mais do que amigos, mais do que namorados, mais do que família. Se entendem de verdade. É amor incondicional.
