@@ -2,11 +2,11 @@
 
 Without Itsuki the days had a hole in them. Rei filled it with work.
 
-He went to the police station every weekday and sorted files and made tea and let Ono call him *the monk*, though there had been no incense on him for a week now. He went to Tanizaki on Saturdays and sat for an hour, and then to Tsuru-no-yu and sat in the hot water and then in Hara Setsu's kitchen and told her how he was. Properly. *Not fine.* On Fridays he went to Nezu and drank Haruki's coffee. On Tuesdays he went to Café Asahi, and Matsuda Keiko put toast and coffee in front of him and, some weeks, a folded square of paper.
+He went to the Kuroda training hall every morning at six and knelt on the soft old boards and was told he was doing it wrong. He went to Tanizaki on Saturdays and sat for an hour, and then to Tsuru-no-yu and sat in the hot water and then in Hara Setsu's kitchen and told her how he was. Properly. *Not fine.* On Fridays he went to Nezu and drank Haruki's coffee. On Tuesdays he went to Café Asahi, and Matsuda Keiko made the coffee for the empty stool and moved it across to him, and neither of them said anything about the window.
 
-The squares of paper were work. Grid work. A family in Ōji whose new baby screamed every night at three o'clock, in the room where the grandmother had died. A taxi driver whose car kept smelling of a perfume his dead wife used to wear, and who wanted it to stop, and then cried when it did. A small temple in Takinogawa where the bell rang by itself at dusk. They paid ten thousand yen, twenty, once forty. Sometimes they paid in food. The family with the baby gave him a whole box of mandarin oranges and a hand-knitted hat for Gin.
+The work came through Hara Setsu now, written on the backs of bath house tickets in her small upright hand. Grid work. A family in Ōji whose new baby screamed every night at three o'clock, in the room where the grandmother had died. A taxi driver whose car kept smelling of a perfume his dead wife used to wear, and who wanted it to stop, and then cried when it did. A primary school in Itabashi where the third-floor toilets went cold every afternoon at a quarter past three. They paid ten thousand yen, twenty, once forty. Sometimes they paid in food. The family with the baby gave him a whole box of mandarin oranges and a hand-knitted hat for Gin.
 
-He was getting better. He did not fall over afterwards any more. He opened the door in his chest slowly, a finger's width, the way Sōun had taught him, and closed it slowly, and only shook a little. He went to the konbini after every job and ate something hot under the bright lights and felt himself fill up again.
+He was getting better. He did not fall over afterwards any more. He opened the door in his chest slowly, a finger's width, as Sōun had taught him, and closed it slowly, and only shook a little. He went to the konbini after every job and ate something hot under the bright lights and felt himself fill up again.
 
 It was still not enough money.
 
@@ -14,7 +14,7 @@ It was still not enough money.
 
 [need ch20_pawn_shop | A small pawn shop in Ueno at evening, glass counter full of old watches and cameras, an old man with a jeweller's loupe examining a plain silver wristwatch, Rei on the other side of the counter not looking at it]
 
-The rent for November was due on the twenty-seventh of October. On the twentieth Rei counted everything he had and was thirty-one thousand yen short.
+The rent for November was due on the twenty-seventh of October. On the twentieth Rei counted everything he had and was thirty-one thousand yen short. There was half a bag of rice in the kitchen and nothing else, and he had been eating the free tofu the old woman at Kamiya gave him for two days.
 
 He sat for a long time at the kitchen table that night. Then he went into Gin's room and opened the top drawer of the desk.
 
@@ -36,73 +36,45 @@ All of that was true. It did not help at all.
 
 [break The cat]
 
-That night he sent Kato a cat.
+That night he sent Kato a cat. The answer came in a minute. A photograph of a different cat, very fat, asleep in a flowerpot. Under it, *Wednesday. Same place.*
 
-They met at the family restaurant in Itabashi at eleven. Kato was already in the corner booth with his back to the wall and two melon sodas. He looked up as Rei sat down and put his king piece on the table.
+Kato was already in the corner booth when Rei came in, in a dark overcoat over a dark suit, with a cup of black coffee he had not touched. The ivory knight stood on the table, lined up with the edge of the napkin. He looked up as Rei sat down.
 
 "You sold something," he said.
 
 "Don't."
 
-"Sorry. You're thinking about it really loudly." Kato pushed a melon soda across. "It was his, wasn't it."
+"You're thinking about it very loudly." Kato looked at him for a moment. "It was his."
 
 "I said don't."
 
-"Okay." Kato held up both hands. "Okay. Not doing it. Thinking about the weather. It's very nice weather. October. Lovely." He picked up a menu and held it in front of his face. From behind it he said, "I'm sorry about the watch."
+"All right." Kato picked up the menu and opened it and looked at it, though Rei was fairly sure he knew it by heart. From behind it he said, "Order the curry. You haven't eaten properly since Tuesday."
 
-Rei laughed, despite himself. It came out shaky. "You're an idiot, you know that?"
+Rei laughed, despite himself. It came out shaky.
 
-He heard himself say it and was surprised. A month ago he had sat on the other side of this table with his hands on his knees like a boy at a job interview. Kato heard him be surprised, and looked very pleased about it, and hid that behind the menu as well.
-
-"I'm a very useful idiot." Kato put the menu down. His face was serious now. "I found out what *upstairs* means."
-
-[break Upstairs]
-
-"Our building by Ōji station has nine floors," said Kato. He was speaking very quietly, though the nearest table was empty. "If you look at the directory in the lobby, it lists eight. One to eight. Personnel, Investigation, Field, Assessment, Records, all that. There's no nine." He turned the king between his fingers. "The lifts only go to eight. The stairs stop at eight. There's a door on the eighth floor at the end of the corridor with no handle on the outside and a card reader that's never been used by anyone I've ever seen."
-
-"So what's on nine?"
-
-"Nobody says. Nobody even thinks about it, most of the time. Which is weird, right? A whole floor nobody thinks about. I listened for two weeks. In the lifts. In the canteen. In the copy room." He put the king down. "And every so often, somebody would think one word, very fast, and then think about something else. Like stepping off a hot stone."
-
-"What word?"
-
-"*Protocol.*"
-
-Rei frowned. "Veil Protocol? Like the name of the... like everything?"
-
-"The Division calls itself the Civil Veil Division on the posters. But in the old paperwork, the stuff from the seventies, it's the Civil Veil Division, *Veil Protocol section*. Like a department. I thought it was just the old name." Kato looked at the table. "It's not. It's still there. It's a whole department inside the Division that doesn't appear on any directory. And they don't police the veil. Not really. They study it." He swallowed. "They study us. People who can see. They keep a list of everyone. Registered and unregistered. What they can do. Where they live. Who their family is."
-
-Rei thought of the man in the expensive suit, standing up in the empty pool. *They have a list.*
-
-"The Grid says that," he said slowly. "Somebody at the Gathering said exactly that."
-
-"Yeah, well." Kato did not smile. "The Grid's right more often than the Division likes to admit." He hesitated. "Your brother's file went upstairs. That's what they meant. Not that he's dead. That he's become something Protocol is interested in."
-
-"Interested how?"
-
-"I don't know yet." Kato met his eyes. "But I know nobody comes down."
+He heard himself laugh and was surprised. A month ago he had sat on the other side of this table with his hands on his knees like a boy at a job interview. Kato heard him be surprised. A strand of his hair came down over his forehead, and he left it there, and turned a page of the menu he was not reading.
 
 [break The trade]
 
-Before they left, Kato took a folded paper from his jacket.
+When the curry had come and gone, Kato took a folded paper from the inside of his jacket.
 
-"This is the Division's list of every thin spot reported in Kita and Itabashi in the last month," he said. "Thirty-one of them. Fourteen are marked for response. Seventeen are marked *monitor only*." He pushed it across. "Seventeen places where something's coming through and nobody official is going to do anything about it."
+"Everybody in the building brings their kit back to my counter," he said. "And when they bring it back, they stand there and think about where they've been, and where they're going next, and where they aren't going, because nobody's told them to." He put the paper on the table and squared it with the edge. "This is every thin spot reported in Kita and Itabashi in the last month. Thirty-one of them. Fourteen are getting a response. Seventeen are marked *monitor only*. Seventeen places where something is coming through and nobody official is going to go."
 
 Rei looked at the paper. Then at Kato.
 
 "You want me to give this to the Grid."
 
-"I didn't say that." Kato stood up and put on his jacket. "I said I was giving it to you. What you do with it is your business. I'm just a trainee who makes copies." He put a thousand-yen note on the table. "But if somebody in an empty swimming pool happened to know where seventeen thin spots were, I bet a lot of grandmothers would sleep better."
+"I didn't say that." Kato stood and buttoned his overcoat. "I said I was giving it to you. What you do with it is your business." He put a thousand-yen note under the edge of the plate and straightened it. "But if somebody in an empty swimming pool happened to know where seventeen thin spots were, a lot of old people would sleep better."
 
 "And what does the Grid give you back?"
 
-Kato stopped. He thought about it.
+Kato stopped with one hand on the knight.
 
-"There's a woman in Shin-Ōkubo who reads situations faster than anyone the Division has ever trained," he said. "She worked with Gin once. Choi something. If she ever wanted to tell somebody what she knows about the Vessel Program, I'd want to listen." He shrugged. "I'm not asking for anything. I'm just saying what I'd want. If I were asking."
+"There's a woman in Shin-Ōkubo who moves faster than anyone the Division has ever trained," he said. "Choi something. She worked with Gin once. If she ever wanted to tell somebody what she knows about how the Division recruits from the street, I'd want to listen." He put the knight in his pocket. "I'm not asking for anything. I'm just saying what I'd want. If I were asking."
 
 Rei watched him go out under the green sign.
 
-He understood, sitting there with the paper in his hand, what Switch had meant. *You can't sit on the edge of the pool forever.* He was not sitting on the edge. He was standing in the middle, with one foot on each side, carrying things across. From the Division to the Grid. From the Grid to the Division. Like a boy carrying water in his hands from one bucket to another, and losing a little every time.
+He understood, sitting there with the paper in his hand, what Switch had meant. *You can't sit on the edge of the pool forever.* He was not sitting on the edge. He was standing in the middle, with one foot on each side, carrying things across. From the Division to the Grid. From the Grid to the Division. Losing a little every time.
 
 He thought of Itsuki. *They're going to use you.*
 
@@ -124,6 +96,40 @@ Switch looked at him with mild interest, as if a cat had asked for the newspaper
 
 "I don't know where she is. She moves." Switch was quiet for a moment. "But I know how she finds people. She sends someone to Kabukichō. To the kids."
 
+Then Switch was gone, round the corner, and Rei was alone in the doorway of the closed launderette.
+
+He had not looked at it properly. Now he did. It was a narrow shop with a glass front, the glass dusty, a hand-written sign taped inside it. *Closed. Thank you for many years. Nishida.* Through the glass he could see two rows of big white machines, their round doors open like mouths, and a long folding table at the back with a plastic chair beside it. On the table there was a cardboard box of lost socks. On the wall above it hung a calendar from a rice shop, still on March.
+
+He would have walked away. But the door in his chest was open a crack, as it always was now after work, and something on the other side of the glass had turned round to look at him.
+
+An old woman. Small, in a flowered apron and a cardigan, sitting on the plastic chair by the folding table with her hands in her lap. Rei could not see her. He could feel exactly where she was, and the shape of her, and the way she was leaning forward to see him better.
+
+*Oh,* she said. Not out loud. *Oh. You've got his face.*
+
+Rei put his hand flat on the cold glass.
+
+*Thursdays,* she said. *He came on Thursdays. Every week, since spring, after I passed. He didn't bring any washing. He'd sit on the bench by number four and eat his dinner out of a konbini bag and tell me about his day. Nobody else talks to me. They walk past.* She leaned further forward. *Why did he stop coming?*
+
+"He's missing," Rei said quietly, to the glass. "Since August."
+
+The old woman was quiet for a moment.
+
+*The last time,* she said, *he was frightened. I've never seen him frightened. He stood in the door there, where you are, and he didn't come in. He looked at me and he didn't say hello. He looked at me like he wasn't sure who was looking.* Her hands moved in her lap. *Then he went away. He didn't even say goodnight.*
+
+Rei stood very still with his hand on the glass. He thought of Gin's book, the last pages, the ones he had not been able to read yet, because the handwriting changed and he did not know why.
+
+*Is there anything,* he said, *anything at all I can do for you, Nishida-san?*
+
+She thought about it. *Nobody locked the back,* she said at last. *When they took me out. They were in a hurry. Thirty-one years I locked that door every night. I can't go home with the back open.*
+
+The back door was in the alley. It was a plain steel door, and it was unlocked, and it opened onto a dark little room with a mop in a bucket and a kettle on a shelf. A ring of keys hung on a nail just inside, with a plastic tag shaped like a fish. Rei stepped out, and pulled the door shut, and found the right key on the third try, and turned it, and heard the lock go across.
+
+He hung the keys on the outside handle, where somebody would find them.
+
+"It's locked, Nishida-san," he said. "You can go home."
+
+When he came back round to the front, the plastic chair by the folding table was only a plastic chair.
+
 [need ch20_toyoko | Kabukichō at night, the plaza by the cinema tower crowded with Toyoko kids, teenagers in dark hoodies and pale make-up sitting on the pavement with phones, neon reflected on wet ground, a stocky sixteen-year-old girl with buzzed sides and a hoodie looking up warily]
 
 Kabukichō is the entertainment district on the other side of Shinjuku station, the opposite of Ni-chōme. It is enormous and loud and bright all night, full of bars and host clubs and karaoke and love hotels and huge glowing signs. In the middle of it stands a tall cinema tower with a giant model of Godzilla's head looking down over the roofs. And on the pavement at the foot of that tower, every night, sit the Toyoko kids.
@@ -142,7 +148,7 @@ She was sixteen. Stocky and solid, in a huge black hoodie, with her hair shaved 
 
 "Switch sent me."
 
-That made her look up. Her eyes were small and sharp and very tired, and they went over him fast, the way Choi Hana's had. Not the same sight. Just the plain hard look of someone who has had to read strangers to stay alive.
+That made her look up. Her eyes were small and sharp and very tired, and they went over him fast. The plain hard look of someone who has had to read strangers to stay alive.
 
 "Yua," she said, after a moment. "Five thousand for the first answer. Cash. And you buy me a hamburger."
 
