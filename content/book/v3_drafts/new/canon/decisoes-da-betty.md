@@ -266,3 +266,12 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Quando estiver forte, ir ao plano dos espíritos, se já esteve lá uma vez.
 - Mandar um fantasma de volta ao plano de origem. Demora mais para voltar, mas quem é forte volta.
 - Não funciona com pessoas possuídas.
+
+## Decisões de 14 de novembro, sétima rodada. O Itsuki
+- Não tem mediunidade ativa, por isso não foi registrado. Não é regulado.
+- Pinta porque é profeta. Não é clarisciente nem telepata.
+- Primeira habilidade, Telecinese. Fica forte a ponto de ser como o Magneto sem a restrição de metal. Um poder destrutivo, para ele descer o cacete do nada. Mais legal que soltar fogo ou raio.
+- Depois pega Psicocinese. Por último Teleporte, porque vai ficando muito forte. O Rei chega a dizer que é impossível e que espera ser amigo dele para sempre.
+- Tem muita raiva e rancor da família e reprime. Por fora fica bonzinho e quietinho. É esquentado e sai na porrada com as pessoas por causa do Rei. Aos poucos se acalma, e o Rei acalma ele.
+- A relação com o Rei é um bromance. Não é romântica, mas é quase. Um amor de infância que a sociedade japonesa nunca entenderia. Confiança extrema. Sentar na cama do outro até ele dormir, dizer pode descansar que se ligarem eu atendo. Lembrar um do outro, levar chá, proteger com a alma.
+- A família rejeitou o Itsuki, e por isso o Gin meio que adotou ele.
