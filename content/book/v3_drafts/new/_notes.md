@@ -206,3 +206,6 @@ Loose ends to weave: Hana scar attempts 2-5 (each interrupted), Haruto recurring
 - ch2 fixed: walkway painting with the key is Itsuki's FIRST future painting (four in the book, walkway, faceless cult, place Gin enters, one TBD), no Nerima prophecy, CVD HQ in Marunouchi (Keihin-Tōhoku Ueno to Tokyo, 4 stops).
 - ch3: police HQ is in Kita below Ōji station, not next to CVD.
 - Guardian needs only one path maximised. Rei never reaches six. Only the Font (Kuze Kaname) holds six.
+- NEW ORDER day one (Aug 13): studio with Itsuki (ch2) > police, Kumagai and Ono, Rei only mentions Arai by text to Itsuki (ch3) > konbini > opens the book at 2pm, page 47 contact, messages it asking how they are, no reply > CVD Marunouchi lobby 4pm > Itsuki 7pm, laptop, white room file > reads all night > 3:47 line.
+- Walkway painting finished at MIDNIGHT, Itsuki's last painting before starting the umbrellas.
+- Page 47 contact identity not decided yet.
