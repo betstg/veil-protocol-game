@@ -297,3 +297,17 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Itsuki vivia na casa do Rei e o Rei na casa do Itsuki. O Gin ia à casa do Itsuki. Para o Itsuki o Gin era um irmão mais velho e uma figura de pai, porque a família o rejeitou. A autoestima dele era muito baixa.
 - Em algum momento o Rei vai morar na casa dele.
 - O "half-loved Rei for years" da ficha está certo. Eles se amam mais do que amigos, mais do que namorados, mais do que família. Se entendem de verdade. É amor incondicional.
+
+## Decisões de 14 de novembro, décima rodada
+- A primeira tatuagem do Rei é feita na CVD, na Sala dos Sigilos. Não é num estúdio do Grid.
+- O Gin assume o corpo só quando o demônio deixa. O Rei não chega perto do Gin até ele fazer as pazes com o Healer.
+- O Rei vê o corpo do Gin fazendo coisa ruim uma vez e não consegue resolver, porque ainda é fraco. Depois vê o irmão de relance no meio de um caso, e ali é o Healer, não o Gin. Na terceira vez o Gin já fez as pazes com o Healer e vem a explicação.
+- A Katagiri não amava o Gin. Ela é mais velha.
+- O Tendo ajuda o grupo até certo ponto e não trai de propósito. Ele sucumbe a um poder maior. Numa visita à seita, sozinho e sem avisar ninguém, recebe o convite de um demônio forte que não é nenhum dos três. Aceita sem pensar e leva o demônio, pondo os colegas em perigo. Sem contrato, o demônio ia suprimir e matar ele para ficar com o corpo. A CVD prende o Tendo numa cela de contenção e depois ele vai preso, porque foi como um ato de terrorismo, buscar poder pondo os outros em risco.
+- A missão do Yamamoto não é guardar o arquivo. É mostrar ao Rei a última consulta do Gin.
+- O Adachi tem várias missões. Manter a divisão de pé, lidar com a corrupção das famílias, lidar com a batalha final e cuidar do cachorro.
+- A Takahashi Aiko está a ponto de surtar. A crise não está a três anos.
+- O Haruto pode pedir aos meninos, que conseguem ver ele, para brincar uma última vez de pega-pega ou esconde-esconde. Ele precisa ter alguma informação. Falta decidir qual.
+- A Keiko do café pergunta ao Rei por que o Gin não apareceu, se ele vem toda terça. Ela sabe alguma coisa. Falta decidir o quê.
+- O Haruki precisa de mais missões, que mostrem por que ele trabalhava com o Gin e o quanto ele é forte.
+- A matriz precisa listar a quest pessoal e o Ally Enemy Track de cada personagem ativo e de quem precisa confiar no Rei, quem é do Vessel, quem tem alguém dentro e o que os demônios precisam. Isso está na aba Confiança da matriz.
