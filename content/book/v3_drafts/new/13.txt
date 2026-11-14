@@ -96,50 +96,44 @@ Somewhere up the river, something cold and hungry had begun to move through the 
 
 It did not reply to the message. It did not know how. It turned the phone face down, carefully, and put it back in the pocket.
 
-[break The umbrella]
+[break The machine that said no]
 
-It began to rain on the walk back.
+By the end of the week the paper promises had run out.
 
-The Healer had never been rained on. It stood still on the pavement under a dark sky and let it happen, interested, while the water ran down the body's face and into the collar and soaked the grey jacket through. It was cold. It was a great many small cold things, all at once, each of them a little different. It thought it could have stood there all night, learning them.
+The Healer went to a cash machine in the wall of a bank by Tabata station, because the body remembered that money came out of walls. It put the card in. It pressed the number, slowly, the right one this time. The machine thought about it. Then it gave the card back, and a small message came up on the screen, polite and final.
 
-Around it the street bloomed. Umbrellas came up all at once, as if somebody had given an order. Clear plastic ones, black ones, a red one with white dots, a child's yellow one with a frog's face on top. Hundreds of them, in a few seconds, tilting and bumping and passing over each other's heads like the scales of something enormous and polite. The Healer watched them with great attention. It did not have one. It had not known that you were supposed to.
+*This transaction cannot be completed. Please contact your bank.*
 
-A man stopped beside it. An ordinary man in a white shirt, with a briefcase, about fifty, with the face of somebody who had worked too late and was going to miss the last train if he stood still. He looked at the Healer, soaked, standing in the rain with its arms by its sides and its face turned up. He did not say anything. He held out a clear plastic umbrella, the cheap kind they sell at every konbini for five hundred yen, and when the Healer did not take it, he pushed the handle into its hand and closed its fingers round it.
+It tried again. The same message. It tried the next machine along. The same.
 
-Then he put his briefcase over his head and ran for the station.
+The Healer stood in front of the wall with the card in its hand. It did not need much. It did not need anything, itself. But the body needed food, and the body was getting thin, and a thin body does not last. It had work to do, and the work needed the body to last.
 
-The Healer stood there with the umbrella in its hand.
+It went back to the small yellow kitchen and sat down at the table and, for the first time since August, let the man come up.
 
-It did not know his name. It did not know where he lived. It would never see him again. He had given it something, and walked away, and there was no way in the world to pay him back. A debt with no one at the other end of it. It felt it settle in the body's chest like a stone dropped into a well.
-
-It did not like this at all.
-
-It walked the rest of the way under the umbrella, holding it very straight, as if it were carrying something in a procession. When it got back to the small yellow kitchen it shut the umbrella and stood it in the sink, and looked at it, and the stone in its chest did not go anywhere.
-
-For the first time since August, the Healer let the man come up.
-
-Not all the way. Only enough. It was like letting a little water into a lock.
+Not all the way. Only enough. Like letting a little water into a lock.
 
 *Uedera Gin,* it said.
 
 From the bottom of the body, slow and furious and thick with sleep, something answered. *What.*
 
-*A man gave me this,* said the Healer. *I do not know his name. I will not see him again. How is it paid?*
+*The machine will not give money. It says to contact the bank.*
 
-There was a silence inside the body for so long that the Healer thought he had gone back down.
+There was a silence inside the body. The Healer felt him looking, through its eyes, at the card on the table. Felt him understand something, quickly, the way he understood things. And then felt something it had not expected. Not fear. A short, sour laugh, coming up through a great deal of dark water.
 
-Then Gin laughed. It was not much of a laugh. It came up from very far away, through a great deal of dark water, and it hurt him to do it. But it was a laugh.
+*They froze it,* said Gin. *The Division. That's what they do when an officer goes missing. They hold the salary and wait to see if he turns up.* The laugh again, worse. *So they think I'm gone. Good to know.*
 
-*It isn't,* he said. *You don't pay it back. You pass it on. Next time it rains you give it to some idiot standing in the street with his face up.*
+*How is money got, then?*
 
-The Healer considered this.
+*You work for it. Like everybody else.*
 
-*That is not how debts work,* it said.
+*I have work.*
 
-*It is here,* said Gin. And then, because he was a man who had never once in his life wasted a chance, even half drowned, even at the bottom of his own body, *Where's my brother.*
+*Then you have a problem,* said Gin. *Because nobody pays for whatever you're doing.* A pause. The Healer felt him gather himself, small and stubborn at the bottom of the dark. *Where's my brother.*
 
-*Rest,* said the Healer, and pressed him gently down again, like a lid onto a pot.
+*I do not know,* said the Healer, *and he is not my concern.* It pressed him gently down again, like a lid onto a pot.
 
-But afterwards it stood in the dark kitchen for a long time, looking at the umbrella in the sink. And when it went out again the next night, it took the umbrella with it, though there was not a cloud in the sky.
+But afterwards it sat at the table for a long time, looking at the useless card. It had not thought it would need him for anything. It had thought the body would be enough. It was beginning to understand that the body came with a great many things it did not know, and that the only one who knew them was the one it was holding down.
 
-[need d1_umbrella_sink | A small old kitchen with faded yellow walls at night, a wet clear plastic konbini umbrella standing closed in a steel sink, a man with long black hair standing very still in the dark looking at it]
+It did not like that at all.
+
+[need d1_card_table | A small old kitchen with faded yellow walls at night, a bank card lying alone on a bare wooden table under a weak bulb, a man with long black hair sitting very still looking at it]
