@@ -311,3 +311,14 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - A Keiko do café pergunta ao Rei por que o Gin não apareceu, se ele vem toda terça. Ela sabe alguma coisa. Falta decidir o quê.
 - O Haruki precisa de mais missões, que mostrem por que ele trabalhava com o Gin e o quanto ele é forte.
 - A matriz precisa listar a quest pessoal e o Ally Enemy Track de cada personagem ativo e de quem precisa confiar no Rei, quem é do Vessel, quem tem alguém dentro e o que os demônios precisam. Isso está na aba Confiança da matriz.
+
+## Decisões de 14 de novembro, décima primeira rodada
+- O Haruki entra na mente do Gin no resgate. No Bible, só um telepata que entra consegue achar o Gin e não só o demônio.
+- O Moriya não precisa de quest.
+- O Itsuki tem o bloco de quest no perfil dos não regulamentados. A quest pessoal é achar o Gin. Ele quer virar um Kuroda, não admite, e quer ser visto como mais que o menino que a família jogou fora. O que o Rei ganha no fim é o maior aliado dele.
+- A quest da Yua é sair da rua e achar um adulto cuja bondade não tem preço.
+- O Abe segue a quest do Fujimoto.
+- O vazamento do R39 vem do demônio que o Tendo trouxe. Esse demônio é telepata e ninguém sabe. Como o Kato é o único telepata do grupo, desconfiam dele. O Rei não desconfia.
+- Nada em inglês na matriz. Traduzir.
+- O Rei e o Itsuki têm 20 anos e fazem 21 durante a missão. Cada um faz o aniversário do outro numa situação bem tensa, lá pela metade do prazo de um ano do Gin.
+- Depois de descobrir que o Gin está possuído, o Rei vai ao Diretor Adachi e pergunta como quem não quer nada, sem contar o que sabe, quanto tempo uma pessoa dura se o demônio que a possui não quer dividir o corpo. Pode ser no meio de perguntas sobre o Programa Vessel. O Adachi diz que é um ano e que, mesmo com médium forte, nunca viu ninguém passar disso. Manda o Rei passar na contenção e olhar a ala dos possuídos.
