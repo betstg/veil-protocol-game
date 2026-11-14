@@ -275,3 +275,18 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Tem muita raiva e rancor da família e reprime. Por fora fica bonzinho e quietinho. É esquentado e sai na porrada com as pessoas por causa do Rei. Aos poucos se acalma, e o Rei acalma ele.
 - A relação com o Rei é um bromance. Não é romântica, mas é quase. Um amor de infância que a sociedade japonesa nunca entenderia. Confiança extrema. Sentar na cama do outro até ele dormir, dizer pode descansar que se ligarem eu atendo. Lembrar um do outro, levar chá, proteger com a alma.
 - A família rejeitou o Itsuki, e por isso o Gin meio que adotou ele.
+
+## Decisões de 14 de novembro, oitava rodada
+### O despertar do Itsuki
+- O Itsuki se reprimiu muito e o poder desperta tarde, mais para frente no livro, não no começo.
+- Nessa época ele e o Rei quase moram juntos, ou moram, porque o Rei vai cuidar dele, já que ele não tem poder.
+- Numa batalha em que o Rei sempre defende ele, o Itsuki percebe que o Rei está se ferrando por causa dele. Na primeira crise ele sai do latente para algo muito avançado e já joga um carro numa pessoa.
+- Depois tenta de novo e não consegue. Começa o treinamento, e ele precisa de alguém que o treine.
+
+### O tom da relação do Itsuki com o Rei
+- Bem sutil. O leitor percebe sem ninguém dizer, acha bonitinho e fica com uma pulga atrás da orelha. Não é romance. O protagonista não é queer e fica bem travado. A ideia é não afastar quem se sente desconfortável com esse tipo de relação.
+- Referências da Betty. Sherlock e Watson da BBC, Merlin e Arthur, Dean e Castiel, Gojo e Geto, Dazai e Chuuya, Hinata e Kageyama, Kuroko e Kagami, Vanitas e Noé, William e Sherlock de Moriarty the Patriot. Nenhum é canonicamente gay. O nível é o de "eu vou atrás de você, você não vai morrer sozinho".
+
+### A Fonte
+- Todo mundo acha que ir à Fonte e voltar dá ressaca e deixa um resquício de algo que não é seu. Na verdade a Fonte estimula a habilidade que a pessoa já tem latente.
+- O grupo descobre isso e usa como um cheat, um Game Shark que ninguém mais conhece. É assim que o Itsuki ganha a Psicocinese e o Teleporte.
