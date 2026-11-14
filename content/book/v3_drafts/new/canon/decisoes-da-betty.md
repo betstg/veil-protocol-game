@@ -457,3 +457,6 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Não existe caso dos ratos. Os ratos não têm destaque e ninguém percebe os ratos.
 - O Healer é demônio. Não fica preocupado com dívida de guarda-chuva. O motivo para ele acordar o Gin tem que fazer sentido, como dinheiro, comida e o celular.
 - A Fonte é só uma luz. Ninguém sabe o que ela é. O Rei descobre que ela está em transe depois de ir lá muitas vezes. Não aparece homem nenhum e ninguém olha para a Fonte.
+- Quem olha para a Fonte enlouquece. Ninguém olha.
+- Os demônios da Alegria e da Fome só aparecem na batalha. Antes disso ninguém menciona eles, ninguém sabe deles.
+- O caso dos ratos sai. No lugar entra o Sr. Tachibana do Bible, o homem cansado em cima da galeria morta do mercado. A Betty pode trocar.
