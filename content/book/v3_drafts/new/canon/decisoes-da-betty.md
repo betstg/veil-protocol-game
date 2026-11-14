@@ -251,3 +251,18 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O sargento Arai não aparece na história. O Rei comenta quando sai da polícia que trabalhava com ele decidindo o que ia para a CVD, que o sargento agora não acredita no sumiço do Gin, e que a polícia não pode fazer nada.
 - Saíram da matriz o quarto de hotel de 2011, o anpan, a porta que tranca sozinha, o pátio de carga do Velho Tomi, o Majima e a filha, a Aoi e o caminho errado, o Escalador do Kuroki e o memorial do rio.
 - Psicometabolismo ajuda no corpo e em ferimentos, não no poder mediúnico.
+
+## Decisões de 14 de novembro, sexta rodada
+- O Healer não aparece no caderno da travessia nem em lugar nenhum. Ele conta o nome ao Gin quando o Gin percebe que os dois estão do mesmo lado.
+- Psicometabolismo pode estabilizar o outro, mas de forma muito leve. Ajuda principalmente no corpo e em ferimentos.
+- O Haruki é Telepata. Ele é estrategista. Curar não bate com a personalidade dele.
+- O Itsuki não é regulado, porque as pessoas acham que ele não tem poder nenhum.
+
+### Teleporte, o que a habilidade faz além de mover a si mesmo e aos outros
+- Redirecionar ataque. Teleportar para outro lugar a energia ou o objeto mandado contra ele, como um raio ou uma cadeira.
+- Desarmar. Teleportar objetos.
+- Anular a queda. Se jogar de um prédio e teleportar para o chão.
+- Trocar de posição e assumir o lugar de um amigo.
+- Quando estiver forte, ir ao plano dos espíritos, se já esteve lá uma vez.
+- Mandar um fantasma de volta ao plano de origem. Demora mais para voltar, mas quem é forte volta.
+- Não funciona com pessoas possuídas.
