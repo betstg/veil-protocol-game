@@ -448,3 +448,8 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Rei conhece todos os Treze numa reunião. Ele tem uma admiração especial pelo Sakuma Kei, do Amor, que tem um lado paternal. Um amor paternal. O Rei diz que ele é uma pessoa muito boa. Os Treze se envolvem de verdade, vivem as vidas deles e encontram o Rei no meio da rua.
 - O epílogo. O Itsuki dá dicas ao Gin, como não ir de gravata. O Rei pergunta se o Gin vai a uma reunião dos Treze e brinca que, se ele já assumiu o Dever, o Gin quer derrubar o irmão. O Gin reclama que tem que parar em todo lugar porque ela fica maravilhada com tudo, e diz que ela tem um ar de artista muito fofo. O Gin devolve a zoação, diz que parece que os dois irmãos têm semelhanças e manda o Rei ficar com o namorado pintor dele. O Rei e o Itsuki ficam putos. O Gin fecha a porta e vai ao encontro. O encontro aparece, e ele está feliz. No fim o Rei vira para o Itsuki e diz que é hora de trabalhar, que tem uma caçada. O Itsuki responde que nem é da CVD, que é rico e chefe da família e não precisa trabalhar. Eles trocam umas últimas piadas e começa o trabalho de manter o equilíbrio entre o mundo dos vivos e o dos mortos. O Rei vê alguns espíritos vivendo em harmonia entre os humanos.
 - Proposta minha aceita por silêncio, a revisar. Os treze demônios se chamam os Treze de Yomi no livro, em vez de Qliphoth.
+
+## Decisões de 14 de novembro, vigésima terceira rodada
+- O Gin é oficial e anda bem, reto. Não anda curvado.
+- No começo o Healer não liga para o Rei. Ele não fica longe de propósito, só não quer distração. Dizer que fica longe para proteger o Rei vem depois, quando ele já é amigo do Gin.
+- A mãe do Itsuki pinta, mas também treina. Ela não é só pintora.
