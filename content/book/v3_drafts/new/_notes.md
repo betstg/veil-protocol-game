@@ -203,4 +203,6 @@ Loose ends to weave: Hana scar attempts 2-5 (each interrupted), Haruto recurring
 
 ## Redo state (14 Nov)
 - ch1 fixed: age 20, Haruto removed, Itsuki alone at the festival.
-- ch2 fixed: no prophetic key sketch, no Nerima prophecy, CVD HQ in Marunouchi (Keihin-Tōhoku Ueno to Tokyo, 4 stops).
+- ch2 fixed: walkway painting with the key is Itsuki's FIRST future painting (four in the book, walkway, faceless cult, place Gin enters, one TBD), no Nerima prophecy, CVD HQ in Marunouchi (Keihin-Tōhoku Ueno to Tokyo, 4 stops).
+- ch3: police HQ is in Kita below Ōji station, not next to CVD.
+- Guardian needs only one path maximised. Rei never reaches six. Only the Font (Kuze Kaname) holds six.
