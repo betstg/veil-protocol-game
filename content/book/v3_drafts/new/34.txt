@@ -1,16 +1,16 @@
 #title What Remains
 
-The evidence archive was in the second basement, one floor below Reintegration, and trainees were sent there as a punishment.
+The evidence archive was in the third basement, one floor below Containment, and trainees were sent there as a punishment.
 
-Not officially. Officially it was *inventory*. Every year, someone had to go down and check every box and every bag and every object on every shelf against the list, and every year, the job went to the most junior people in the building. In the second week of January it went to Rei and Kato.
+Not officially. Officially it was *inventory*. Every year, someone had to go down and check every box and every bag and every object on every shelf against the list, and every year, the job went to the most junior people in the building. In the last week of February it went to Rei and Kato.
 
-"It's because I made a joke in the canteen," said Kato, carrying a box of files down the stairs. "About the ninth floor. Somebody laughed. Somebody else wrote it down."
+"It's because I told the head of Assessment what she was thinking in a meeting," said Kato, carrying a box of files down the stairs. "She'd asked a question. I answered the one she meant."
 
-"What was the joke?"
+"Was it bad?"
 
-"I'm not telling you. It wasn't that good." Kato pushed the heavy door open with his shoulder. "It was quite good."
+"It was accurate." Kato pushed the heavy door open with his shoulder. "In this building that's worse."
 
-[need ch34_evidence_archive | A long low basement evidence archive under fluorescent strip lights, endless grey metal shelves of labelled boxes and plastic bags, two young trainees in suits with clipboards, one holding a small old wristwatch up to the light]
+[need ch34_evidence_archive | A long low basement evidence archive under fluorescent strip lights, endless grey metal shelves of labelled boxes and plastic bags, two young trainees in suits with clipboards, one holding an old silver pocket watch up to the light]
 
 The archive was enormous. It was one long low room, stretching away under the building, with grey metal shelves from floor to ceiling in rows so long that you could not see the end of them. Fluorescent lights buzzed overhead. It was cold, and it smelled of dust and cardboard and something faintly sour, like old pennies. Every shelf was full of boxes, and every box was full of things. Clothes in plastic bags. Toys. Kitchen knives. Photographs. Letters. A wedding dress in a long white bag. A child's bicycle. Every object that had ever been part of a case in Kita, for forty years, labelled and numbered and put away.
 
@@ -30,15 +30,19 @@ They checked numbers. For two days, they checked numbers. They found a box of le
 
 They put it back, and did not talk about it.
 
-[break 3:14]
+[break The watch]
 
 On the third day, in row fifty-one, Rei found the watch.
 
-It was in a small clear plastic bag on a shelf by itself, with a white label. *Case 04-1187. Satō. Wristwatch, gentleman's. Do not remove from archive.* Under the label, in pen, in handwriting Rei knew at once, someone had added a note. *Removed twice. Returned both times. Leaving it here. Monitoring. G.U.*
+It was in a small clear plastic bag on a shelf by itself, with a white label. *Case 04-1187. Satō. Pocket watch, silver. Do not remove from archive.* Under the label, in pen, in handwriting Rei knew at once, someone had added a note. *Still running. Nobody winds it. G.U.*
 
-It was a plain old watch with a steel case and a brown leather strap, worn soft and dark at the buckle. The glass was scratched. The hands had stopped. They said fourteen minutes past three.
+It was an old silver pocket watch on a short silver chain, the kind a man's grandfather might have carried. The case was worn smooth and pale at the edges from years in a pocket. Through the plastic Rei could see the face, cream-coloured, with thin black hands.
 
-Rei had read about it. Months ago, in Gin's book at the kitchen table, in the chapter on objects. *There is a watch in the Kita evidence archive from the 2004 Satō case. It stopped at 3:14am on the night of the case and has not run since. I have replaced the battery three times. It keeps returning to the evidence archive. I have removed it twice. It is there when I come back.*
+The second hand was moving.
+
+He heard it before he saw it. A tiny steady tick, in the cold silence of the archive. Tick. Tick. Tick.
+
+Rei had read about it. Months ago, in Gin's book at the kitchen table, in the chapter on objects. *There is a silver pocket watch in the Kita evidence archive from the 2004 Satō case. It was wound once, by Satō himself, on the night of the case. It has not stopped since. Eleven years. Nobody has wound it. Nobody needs to.*
 
 "Don't," said Kato, behind him.
 
@@ -46,7 +50,7 @@ Rei had read about it. Months ago, in Gin's book at the kitchen table, in the ch
 
 "You're thinking about touching it. You're thinking really loudly about touching it."
 
-"Gin replaced the battery three times," said Rei. "He took it out of here twice. He wrote about it in his book. He was trying to work out what it was." He looked at the watch. "He was about to write a whole chapter on it. The Satō case. He said so. He said he'd write it, and then he'd look at the family files. And then he disappeared."
+"It's been running for eleven years," said Rei. "With nobody winding it. Gin wrote about it in his book. He was trying to work out why." He looked at the watch. "He said he'd write a whole chapter on the Satō case. And then he disappeared."
 
 Kato was quiet.
 
@@ -70,7 +74,7 @@ It was very cold. Not like the key. The key was cold the way a stone in a river 
 
 He opened the door in his chest a finger's width, and the latch held it there.
 
-A hospital room. Night. 2004. A narrow bed with metal rails. A machine beeping, slow and slower. In the bed, a man of about sixty, thin and grey and very ill, with a tube in his nose and a watch on his wrist, this watch, too big for his thin wrist now, sliding round. His wife was asleep in a chair beside the bed with her head on the blanket. The man was awake. He was looking at the ceiling. He was dying, and he knew he was dying, and he did not want to.
+A hospital room. Night. 2004. A narrow bed with metal rails. A machine beeping, slow and slower. In the bed, a man of about sixty, thin and grey and very ill, with a tube in his nose and a silver pocket watch held in one thin hand on the blanket, this watch, open, ticking. He had wound it himself that evening, slowly, because his father had told him a man always winds his watch before bed. His wife was asleep in a chair beside the bed with her head on the blanket. The man was awake. He was looking at the ceiling. He was dying, and he knew he was dying, and he did not want to.
 
 He did not want to so much that Rei felt it like a hand round his own throat.
 
@@ -84,7 +88,7 @@ And the man in the bed, with his *not yet, not yet, not yet*, pulled.
 
 He did not know he was doing it. He did not mean to. His wanting was so strong, so desperate, that it made a kind of hole in the air of the room. A drain. And the passing soul, going by, was caught in it. Pulled sideways. Pulled in. Into the room. Into the bed. Into the man.
 
-The watch on the thin wrist stopped. Three fourteen.
+In the thin hand on the blanket, the watch went on ticking. Louder, Rei thought. Or he was only listening harder.
 
 The machine beside the bed beeped faster. The man's eyes opened wider. His wife woke up and lifted her head and saw him looking at her and began to cry, because the doctor had said he would not see morning, and here he was, looking at her, his colour coming back.
 
@@ -118,7 +122,7 @@ Kato looked at the watch too. He did not touch it.
 
 "What happened to her?"
 
-"I don't know." Rei picked up the watch, carefully, by the strap, and put it back in its plastic bag. "That's why it keeps coming back here. That's what it wants. Somebody to find out what happened to her."
+"I don't know." Rei picked up the watch, carefully, by the chain, and put it back in its plastic bag. It went on ticking inside the plastic. "He died last year. In the spring. It's in the file. And the watch hasn't stopped." He looked at it. "So maybe she hasn't either. Maybe she's still somewhere, waiting for somebody to find out who she was."
 
 [break Fujimoto]
 
@@ -128,54 +132,96 @@ That evening Okada found them in the canteen. She sat down at their table with h
 
 "How did you know?"
 
-"Because you look like your brother did the day he read it." She opened the middle notebook. "There's something I need to show you. I've been watching an anomaly in the district numbers for four years. Every two months, in the assessments, the readings across Kita jump. Just for a day. Just a little. Nobody else sees it as a pattern." She turned the notebook round. Columns of numbers, very small and neat. "It started in 2011. And the centre of it, the place the jump comes from, every time, is a flat in Ōtsuka."
+"Because you look like your brother did the day he read it." She drank her tea. "Two people in one body, and one of them never chose it. That's what you saw."
 
-"Whose flat?"
+"Yes."
 
-"A man called Fujimoto Kenji." She closed the notebook. "He's in the Vessel Program. He's been their model case for seven years. Voluntary cohabitation. A man and a spirit sharing a body by contract. The Program shows him to visitors. They call him a success." She looked at Rei. "Your brother went to see him in July. He came back and didn't say anything about it for three days. Then he asked me, *Shizuka, how do you tell the difference between a man who has a guest in him and a guest who has a man in him?*" She drank her tea. "I didn't have an answer."
+"Then you should meet two people in one body who did." She stood up. "Come on. Both of you. It's dinner time upstairs."
 
-[need ch34_fujimoto | A cluttered scholar's flat in Ōtsuka, papers in tall stacks in a logic only one person understands, a cold room with the window open in winter, a medium-built man in his thirties sitting very still at a desk with a cup of tea, smiling politely at visitors]
+[need ch34_vessel_kitchen | A warm shared kitchen in an apartment inside an office building at night, a long table with mismatched chairs, rice cooker steaming, a medium-built man in his thirties in a cardigan stirring a pot and smiling, other young residents setting the table, two visitors in suits in the doorway]
 
-They went to Ōtsuka the next day, Rei and Kato and Okada, on a Division visit. *Routine wellbeing check.*
+Upstairs was the Vessel apartment.
 
-The flat was full of paper. Stacks of it, on the floor, on the chairs, on the table, in towers that leaned against each other, in an order nobody but the owner could see. It was very cold. The window was open, in January, and the room was colder than the street. A man sat at a desk by the window. Medium build. Unhurried. In his thirties. He stood up when they came in, and bowed, and smiled a polite, pleasant, slightly absent smile.
+Rei had heard of it. Everybody in the building had. Nobody he knew had ever been inside. It took up the whole of one of the top floors, at the end of a corridor with a keypad door, and when Okada pressed the bell and the door opened, it opened onto a warm, untidy, ordinary home.
 
-"Officer Okada," he said. "How nice. And trainees. Please sit, if you can find a chair. I'm afraid I'm not very tidy."
+A long hallway with shoes in a heap. Coats on hooks. A noticeboard with a cleaning rota and a takeaway menu and a child's drawing of a cat. Doors off the hall to small bedrooms, some open, one with a guitar on the bed. And at the end, a big kitchen with a long table and mismatched chairs, and steam coming off a rice cooker, and the smell of curry.
 
-"Mr. Fujimoto," said Okada.
+There were five or six people in the kitchen. Young, mostly. A girl doing homework at the end of the table. A tall boy in an apron chopping spring onions very badly. And at the stove, stirring a pot, a man of about thirty-five in a grey cardigan, medium height, with tidy hair and round cheeks and a calm face. He looked up when they came in and smiled.
 
-"Yes," said the man. And then, after a very small pause, as if checking, "Yes. That's right."
+"Okada-san," he said. "You've brought guests. There's enough curry. There's always enough curry."
 
-Rei felt Kato go still beside him.
+Then his face changed. Not much. The smile stayed. But his eyes went slightly different, a little sharper, a little older, and he looked at Rei and Kato as if he were seeing them for the first time.
 
-They sat on the edges of chairs among the paper. The man made tea, a particular green tea from a particular tin, with great care. He talked about his work. He catalogued old letters for a university. He loved it. He talked about the Program, which was very kind to him. He talked about the cold, which he preferred. He was polite and clever and easy to talk to.
+"Trainees," he said, in the same voice, but slower. "Field, by the shoes. Good evening."
 
-And all the time, Rei felt his wrist go colder and colder. And all the time, Kato sat beside him without saying a word, with his king piece clenched in his hand so hard that his knuckles were white.
+"Good evening," said Rei.
 
-"Mr. Fujimoto," said Rei at last. "Can I ask you something?"
+"Fujimoto Kenji," said Okada. "And Abe."
 
-"Of course."
+The man laughed. The first part of the laugh was quick and warm. The second part was lower and drier. They overlapped in the middle.
 
-"Is Kenji there?"
+"Sit," he said. "Both of us insist."
 
-The man stopped with his tea cup halfway to his mouth.
+[break Two]
 
-He did not drop it. He did not change. He put it down, gently, on the desk. He looked at Rei. The polite, pleasant, slightly absent smile stayed exactly where it was.
+They ate curry at the long table with the Vessel residents, who did not seem to find anything strange about two trainees and an Investigation officer turning up for dinner. The girl doing homework asked Kato for help with a maths problem, and Kato did it in his head in four seconds and then explained it very slowly, three times, without once being unkind. The boy in the apron asked Rei if it was true he had a crow. Rei said yes. The boy said that was the best thing he had ever heard.
 
-"Kenji is in the filing," he said.
+And Fujimoto Kenji sat at the head of the table and talked.
 
-The room was very quiet.
+"Eight years ago," he said, "I went out on a call in Saitama. Field. An old farmhouse. Something in the barn." He spooned curry. "It got into me. A bad thing. Old and angry and strong. They tried to get it out. They tried for three days. It didn't come. And it was killing me." He said this as calmly as he might have said it had been raining. "My heart was stopping. My lungs were going. I could feel it eating me from the middle out."
 
-"He loved the filing," said the man, softly. "He made it. All of this. The order of it. He was so organised. So curious. So lonely. His parents died when he was twenty-five, and he had no one, and he was afraid of being alone in a room. So he signed the contract. Seven years ago. *Cohabitation*. *Partnership*. *You will never be alone again.*" The smile did not move. "I promised him that. In the contract. In writing. *You will never be alone again.* And I have kept my word. I have kept every word." He touched a tower of paper beside him, gently, the way you touch the hair of someone asleep. "We are not two any more. We are one. He is never alone. Not for one second. Not ever."
+"And at that time," said the man, and his voice was the slower one now, the drier one, "I was sitting in a room on the floor below Containment, answering questions."
 
-Rei could not speak.
+Rei put his spoon down.
 
-"Abe," said Okada quietly. "Your name is Abe Takeshi."
+"I died in 1971," said Abe. "In a fall. On a building site. I didn't cross. I don't know why. I stayed on the site for thirty years until they built an office block on it, and then I stayed in the office block, and in 2001 the Division found me in the lift shaft and asked me, very politely, if I would come and help them understand people like me." He drank some water. "So I came. I'm good at talking. I'm calm. They asked me questions for seven years."
 
-"Yes," said the man. "And also Kenji. Both. Neither." He picked up his tea again. "I am a spirit, Officer. Not a demon. I want you to know that. I died eight years ago, in a fall, and when I crossed I saw the light, and I did not want it. I chose this instead. A body, and a mind to share it with, by contract. I am honest about contracts." He drank. "I simply did not understand, when I signed, what *never alone* would mean. Neither did he."
+"Two spirits don't fit in one body," said Kenji, quick and warm again. "Everybody knows that. One pushes the other out. So somebody in Containment had an idea. A terrible idea. A brilliant idea." He smiled. "They asked Abe if he would come into me. And they asked me if I'd let him."
 
-He smiled at them over the cup. It was a perfectly kind smile.
+"He said yes before they finished the question," said Abe.
 
-On the stairs going down, Kato stopped halfway and sat on a step and put his head in his hands.
+"I was dying. I'd have said yes to a cat." Kenji laughed. "He came in. The bad thing came out, because there wasn't room for both of them, and Abe is very stubborn about room. They caught it in the corridor and it's been in a cell ever since." He tapped his own chest. "And Abe stayed."
 
-"There's only one," he said, through his fingers. "In there. Only one layer. One voice. I listened the whole time. For Kenji. For anything. Underneath." He lifted his head. His eyes were wet. "There's nothing underneath, Rei. He kept his promise. There's nobody left to be alone."
+"I had to," said Abe. "The bad thing broke a lot on its way out. Without me, this heart doesn't keep time. Without me, he stops." He said it simply. "So I stay."
+
+The kitchen was quiet for a moment. The rice cooker clicked off.
+
+Kato was looking at Fujimoto very hard. Rei knew that look. It was the look of somebody listening to two radios.
+
+"Two," said Kato at last, very quietly. "There's two of you. I can hear both. Side by side." He frowned. "You're not fighting."
+
+"We fought for the first year," said Kenji.
+
+"Mostly about the television," said Abe.
+
+"He likes historical dramas. I like cooking programmes. It was a war." Kenji grinned. "Now we watch both. He tells me when the history's wrong. I tell him when the cooking's wrong. It's a very good arrangement."
+
+"Do you have a family?" said Rei, and then wished he had not.
+
+"My parents died when I was twenty," said Kenji. "No brothers. No sisters. No wife." He looked round the table. At the girl with the homework. At the boy in the apron. At Okada, with her tea. "This is my family. This floor. This building. I've got no house anywhere else. I don't need one." He shrugged. "I go to work downstairs and I come home upstairs. The Division is the whole of my life. People outside think that's sad."
+
+"People outside think we're monsters," said Abe, mildly. "They think there's a thing behind our eyes eating us."
+
+Rei thought of the man in the expensive suit, standing up in an empty swimming pool. *The thing behind her eyes looked at me like a meal.*
+
+"They're wrong," said Kenji. "Mostly. Some of us have bad days. Everybody has bad days." He stood up and started collecting plates. "Who wants more curry? There's always more curry."
+
+[break The stairs]
+
+On the stairs going down, Kato stopped halfway and leaned on the rail.
+
+"The watch," he said. "Two people in one body, and one of them never had a choice. Screaming for eleven years." He looked up the stairwell, toward the warm floor and the smell of curry. "And then that. Two people in one body, arguing about cooking programmes."
+
+"Same thing," said Rei. "Different."
+
+"Different how?"
+
+Rei thought about it. About a young woman pulled sideways out of the air of a hospital at night. About an old ghost in a lift shaft saying yes before they finished the question.
+
+"Somebody asked," he said.
+
+Kato was quiet for a long time. He took the ivory knight out of his pocket and turned it over in his fingers.
+
+"Somebody asked," he said. "Yes." He put the knight away. "I'm going to remember that. I'm going to be very annoying about it."
+
+They went on down the stairs.
