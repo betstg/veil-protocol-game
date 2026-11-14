@@ -471,3 +471,4 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Healer acorda o Gin porque o corpo está com fome. O Healer come almas, mas o corpo morre se não comer. O Gin ensina a sacar dinheiro e o Healer prova lámen pela primeira vez, sem saber o nome das comidas de hoje, e pede opinião.
 - O Healer foi humano há muito tempo. A escrita e os nomes da época dele eram diferentes.
 - O Kato pode fazer uma piada ou outra, mas não liga. Está acostumado a não gostarem dele. Depois começa a soltar mais piadas perto do Rei, porque percebe que o Rei não tem medo de ter a mente lida.
+- O homem cansado do Bible se chama Tachibana, mas Tachibana é o sobrenome do Healer. Para não confundir, no livro ele virou Sr. Hirose. A galeria é a Kamiya Ginza, o peixeiro morto é o Ōta Kichizō da peixaria Uokichi. Invenção minha, a aprovar.
