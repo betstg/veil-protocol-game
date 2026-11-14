@@ -389,3 +389,11 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O time da CVD tem cinco. Rei, Kato, Tendo, Shimizu e mais um a definir. O Tendo é substituído pelo Usami. O Itsuki é o sexto membro, não é da CVD e aparece porque não desgruda do Rei.
 - A Shimizu morre. A habilidade dela é Telecinese e precisa ser trocada nas fichas.
 - Pode morrer um dos jovens problemáticos que estão perto da Yua.
+
+## Decisões de 14 de novembro, décima quinta rodada
+- O Tanizaki moldou só o Gin, não o Healer. Quando o Tanizaki morre, o que o Healer sente é o luto do Gin, uma tristeza grande demais para o Gin ignorar. O Healer não reprime. Deixa o Gin sentir e sente junto.
+- O Rei vê o Gin andando na rua depois de ir reclamar na polícia e na CVD que não acha o irmão, quando ainda anda pelo Grid e antes de entrar na CVD. O encontro em que o Healer solta o espírito mau vem depois.
+- Quando o Healer encara o Kishin, o Rei está lá e também não consegue resolver a situação. Pode ser uma das primeiras visitas dele. Adaptar em algum momento.
+- O Moriya é o quinto do time da CVD, com Psicometabolismo. É forte e pode ajudar o Itsuki.
+- Na quest do Moriya as pessoas começam a agradecer, porque são legais. Principalmente depois que entra o Usami, que agradece o tempo todo, por tudo, a todo mundo. O Usami é muito querido, doce, gentil e fofo.
+- O Itō Kenta pode morrer, mas não basta. Matar traficante é fácil e não faz sentir que é guerra. Tem que morrer outro jovem, mais novo, das crianças que ficam pelas ruas. Elas são como os irregulares de Baker Street e servem de menininhos de recado para todas as facções.
