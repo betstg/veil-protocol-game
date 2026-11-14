@@ -26,9 +26,9 @@ O irmão mais velho de Rei, Uedera Gin, era um desses agentes. Fazia seis anos q
 
 [break A dança]
 
-Itsuki e Haruto estavam esperando no pé do morro, sentados no muro baixo na frente do santuário.
+Itsuki estava esperando no pé do morro, sentado no muro baixo na frente do santuário.
 
-Itsuki estava falando. Tinha um caderno de desenho aberto no joelho e desenhava a multidão sem levantar os olhos, e falava ao mesmo tempo, rápido e animado, sobre um jogo que tinha passado a noite acordado para terminar. Haruto estava sentado um pouco afastado, com as mãos nos bolsos da jaqueta, e não dizia nada, o que no caso de Haruto queria dizer que tinha ouvido cada palavra.
+Tinha um caderno de desenho aberto no joelho e desenhava a multidão sem levantar os olhos. O lápis não parava enquanto a boca falava sozinha, rápido e animado, sobre um jogo que ele tinha passado a noite acordado para terminar.
 
 Kuroda Itsuki tinha vinte anos, a mesma idade de Rei, e os dois eram melhores amigos desde a escola. Ele praticamente cresceu no apartamento do morro. A família dele morava numa casa muito antiga e muito grande em Nezu, cheia de gente que sabia fazer coisas com o véu, e nenhum deles nunca teve muita utilidade para um menino que preferia pintar. Então Gin dava comida para ele, sentava ele na mesa da cozinha para fazer a lição de casa e aparecia na escola quando ninguém de Nezu aparecia, e nunca fez caso disso. Gin criou os dois na mesma mesa. Agora Itsuki estudava pintura a óleo na Geidai, a escola de arte mais famosa do país, e falava disso, quando falava, como se tivesse entrado por engano e estivesse esperando ser descoberto.
 
@@ -36,43 +36,35 @@ Kuroda Itsuki tinha vinte anos, a mesma idade de Rei, e os dois eram melhores am
 
 Ele estava vestido como sempre, com roupa grande demais e cheia de manchas de tinta, de capuz mesmo no calor de agosto. Tinha um fone de ouvido pendurado no pescoço, um lápis atrás de uma orelha e um cigarro atrás da outra. O cabelo era preto, com uma mecha descolorida na frente crescendo, que ele sempre dizia que ia retocar, e tinha tinta nela também. Sempre tinha tinta em algum lugar do Itsuki. Gente que conhecia ele havia anos nunca tinha visto as mãos dele limpas.
 
-Nagai Haruto tinha dezessete anos. Itsuki tinha encontrado ele na primavera, debaixo da ponte do trem perto do rio, onde Itsuki gostava de sentar para desenhar os trens e Haruto passava as noites com os meninos da escola dele. A mãe de Haruto trabalhava de noite. O apartamento no conjunto habitacional era pequeno e quente, a irmãzinha dele estava lá dentro, e era Haruto quem cuidava dela. Os meninos do rio faziam o que Haruto mandava. Ele não era o maior deles. Só nunca perdia a cabeça, e parecia sempre saber um segundo antes quando uma coisa ia dar errado.
-
-O cabelo dele era preto e comum, menos os últimos centímetros, num castanho desbotado de uma tinta que ele estava deixando crescer quietinho. Usava roupa simples e limpa, que nenhum professor olharia duas vezes. Os olhos eram calmos, firmes e muito mais velhos que dezessete anos.
-
-[img char_nagai-haruto.png | Nagai Haruto]
-
-"Você tá atrasado", disse Haruto, quando Rei sentou. Não falou como reclamação. Falou do jeito que se diz as horas para alguém.
+"Você tá atrasado", disse Itsuki, quando Rei sentou. Não levantou os olhos do desenho.
 
 "Eu sei."
 
-"Itsuki disse que você ia atrasar." Haruto virou alguma coisa no bolso. Rei sabia que era uma pedra do rio, lisa e cinza. Haruto sempre tinha ela. "Eu disse que não. Então eu devo uma raspadinha pra ele."
+"Eu sabia que você ia atrasar. Falei pro moço da barraca de raspadinha que você ia atrasar. Ele não ligou, mas eu falei."
 
-"Nunca aposta contra mim, Haruto", disse Itsuki, ainda desenhando. "Eu sei tudo."
+"Como você sabia?"
 
-Haruto pensou antes de responder. Ele sempre pensava antes de responder.
+"Porque você sempre atrasa no Obon." O lápis continuou andando. "Você fica meia hora na janela olhando as lanternas antes de sair de casa. Não diz que não. O Gin me contou."
 
-"Você sabia que ele ia atrasar porque ele sempre atrasa no Obon", disse. "Isso não é saber tudo. Isso é conhecer o Rei."
+"O Gin fala demais."
 
-Itsuki riu e não levantou os olhos.
-
-"Cadê seu irmão?", perguntou Haruto.
+"O Gin fala umas nove palavras por dia. Quatro são sobre você." Itsuki finalmente levantou os olhos. "Cadê ele?"
 
 "Trabalhando. A noite toda, provavelmente. É Obon."
 
-Haruto olhou para as vielas escuras atrás deles, para as lanternas balançando nas portas. Por um segundo o rosto dele não estava nada calmo. Estava curioso, e novo.
+Itsuki olhou para as vielas escuras atrás deles, para as lanternas balançando nas portas.
 
 "Ele tá lá agora", disse. "Com eles."
 
 "Ele tá lá preenchendo formulário sobre eles", disse Rei. "É o que ele diz. Ele diz que os formulários são a parte perigosa."
 
-"Ele esqueceu as chaves de novo?", perguntou Itsuki.
+"Ele esqueceu as chaves de novo?"
 
 Rei riu. "Não. Eu mudei elas de lugar ontem à noite. Dois centímetros pra esquerda no gancho. Ele achou do mesmo jeito hoje de manhã. Não falou nada, mas mudou de volta dois centímetros pra direita."
 
-Haruto olhou de um para o outro.
+Itsuki balançou a cabeça devagar, do jeito que a gente balança a cabeça para dois gatos que brigam pela mesma almofada há anos.
 
-"Vocês dois são estranhos", disse. Disse com carinho.
+"Vocês dois são muito estranhos", disse. Disse como se fosse a coisa mais bonita que ele conhecia.
 
 [break A roda]
 
@@ -80,13 +72,17 @@ O Bon odori era no pátio do santuário, como todo ano. No meio havia uma torre 
 
 A dança em si era muito antiga e muito simples. Bate palma. Passo para a frente. Gira as mãos na frente do corpo, devagar, como se estivesse pegando água de um riacho. Passo para trás. Bate palma de novo. Ela dava voltas e mais voltas em torno da torre a noite inteira sem parar, porque é uma dança para os mortos, e os mortos, dizem, gostam de coisas que dão a volta e retornam ao ponto onde começaram.
 
-"Eu não vou dançar", disse Haruto na hora.
+"Eu não vou dançar", disse Itsuki na hora, e fechou o caderno.
 
-"Ninguém pediu pra você dançar", disse Itsuki, fechando o caderno. "Nós vamos dançar. Você vai ficar ali do lado fazendo cara de mau, e em dez minutos uma avó vai te puxar pelo capuz, e vai ser a melhor coisa que vai me acontecer no ano inteiro."
+"Ninguém pediu pra você dançar", disse Rei. "Eu vou dançar. Você vai ficar ali do lado fazendo cara de tragédia, e em dez minutos uma avó vai te puxar pelo capuz."
+
+"Aposto uma raspadinha que não vai."
+
+"Aposto uma raspadinha que vai."
 
 Levou seis minutos.
 
-Eles entraram na roda entre uma avó com um leque de papel e um menininho de uns seis anos de yukata estampado com peixinhos-dourados azuis. Itsuki era péssimo, o que não surpreendeu ninguém, porque se concentrava tanto nas mãos que esquecia de mexer os pés. Rei era um pouco menos péssimo, porque olhava a avó de perto e copiava. Haruto aguentou exatamente seis minutos na beira da multidão, carrancudo, com as mãos nos bolsos, antes de a avó do leque esticar o braço para fora da roda sem nem virar a cabeça, agarrar firme o capuz dele e puxar o garoto para o lado dela.
+Rei entrou na roda entre uma avó com um leque de papel e um menininho de uns seis anos de yukata estampado com peixinhos-dourados azuis. Não era muito bom, mas olhava a avó de perto e copiava as mãos dela. Itsuki ficou na beira da multidão com as mãos nos bolsos, o capuz na cabeça e uma cara de grande sofrimento artístico, e aguentou exatamente seis minutos, antes de a avó do leque esticar o braço para fora da roda sem nem virar a cabeça, agarrar firme o capuz dele e puxar o rapaz para o lado dela.
 
 "Tira a mão do bolso", ela disse. "Você não tá na estação."
 
@@ -94,35 +90,31 @@ Eles entraram na roda entre uma avó com um leque de papel e um menininho de uns
 
 "Então aprende. Pega a água. Assim. Macio." Ela deu um tapinha no pulso dele com o leque. "Mais macio. Você não tá batendo em ninguém."
 
-Haruto olhou por cima do ombro para Rei com um olhar calmo que pedia ajuda. Rei riu tanto que perdeu o ritmo inteiro, e o menininho do yukata de peixinhos, que estava olhando as mãos de Rei e copiando muito sério, perdeu o ritmo também, exatamente no mesmo ponto. Rei teve que se recompor na hora, por pura responsabilidade, para a criança não aprender a dança errado pelo resto da vida.
+Itsuki era péssimo, o que não surpreendeu ninguém, porque se concentrava tanto nas mãos que esquecia de mexer os pés. Olhou por cima do ombro para Rei com um olhar que dizia *me ajuda*, *eu te odeio* e *a culpa é sua*, tudo ao mesmo tempo. Rei riu tanto que perdeu o ritmo inteiro, e o menininho do yukata de peixinhos, que estava olhando as mãos de Rei e copiando muito sério, perdeu o ritmo também, exatamente no mesmo ponto. Rei teve que se recompor na hora, por pura responsabilidade, para a criança não aprender a dança errado pelo resto da vida.
 
-Na segunda volta da torre Haruto tinha parado de fazer cara feia. Na terceira estava fazendo direito, pegando a água, o rosto escondido no capuz mas as mãos macias e cuidadosas, e a avó fez que sim com a cabeça uma vez, seca, do jeito que uma professora acena para uma resposta certa. Rei viu as orelhas dele ficarem vermelhas.
+Na segunda volta da torre Itsuki tinha parado de reclamar. Na terceira estava fazendo direito, pegando a água, o rosto escondido no capuz mas as mãos sujas de tinta macias e cuidadosas, e a avó fez que sim com a cabeça uma vez, seca, do jeito que uma professora acena para uma resposta certa. Rei viu as orelhas dele ficarem vermelhas.
 
 Estava quente, barulhento, o tambor não parava, e Rei percebeu que estava sorrindo, e que estava sorrindo havia um tempo sem notar.
 
 [break Raspadinha]
 
-Depois Haruto pagou a dívida. Comprou três raspadinhas na barraca do portão, melão para ele, morango para Rei, limão para Itsuki. Sentaram na escada de pedra do santuário com os joelhos para cima e as costas na pedra quente e ficaram olhando a dança girar lá embaixo.
+Depois Itsuki pagou a dívida. Comprou duas raspadinhas na barraca do portão, morango para Rei e limão para ele. Sentaram na escada de pedra do santuário com os joelhos para cima e as costas na pedra quente e ficaram olhando a dança girar lá embaixo.
 
-Haruto olhou o copo de Itsuki. "Limão", disse. Só isso.
+Rei olhou o copo dele. "Limão", disse. Só isso.
 
 "Eu sou artista", disse Itsuki. "Eu faço escolhas corajosas."
 
 Ficou quieto um segundo, olhando a dança. Depois disse "O Gin faz um curry muito bom", como se isso respondesse alguma coisa, e de certo jeito respondia. "Ele me fazia terminar a lição de casa na mesa da cozinha de vocês antes de me deixar comer. Eu odiava ele demais."
 
-Haruto virou para Rei. "Seu irmão dá medo?"
+"Ele não é tão ruim assim."
 
-Rei pensou.
+"Ele dá medo", disse Itsuki. "Ele só não sabe. Ele não *faz* nada. Ele só tá ali, e você não consegue tirar ele do lugar."
 
-"Não", disse. "Ele só é muito difícil de contrariar."
-
-"Dá medo sim", disse Itsuki. "Ele só não sabe. Ele não *faz* nada. Ele só tá ali, e você não consegue tirar ele do lugar."
-
-"Eu queria conhecer ele", disse Haruto, e virou a pedra no bolso.
+Rei pensou, e viu que não tinha como discordar.
 
 [break Ela]
 
-Haruto desceu até o portão para ligar para a irmã, e Itsuki abriu o caderno de novo enquanto Rei terminava a dele. Fez isso sem pensar, do jeito que algumas pessoas pegam o celular, do jeito que você coça uma coceira. O lápis saiu de trás da orelha, a mão começou a se mexer, e o rosto dele foi para longe, como se uma parte dele tivesse saído da sala.
+Itsuki abriu o caderno de novo enquanto Rei terminava a dele. Fez isso sem pensar, do jeito que algumas pessoas pegam o celular, do jeito que você coça uma coceira. O lápis saiu de trás da orelha, a mão começou a se mexer, e o rosto dele foi para longe, como se uma parte dele tivesse saído da sala.
 
 Ele desenhava a dança. A torre, as lanternas, as mãos girando. A avó do leque. O menininho do yukata de peixinhos. Linhas rápidas e soltas que pegavam o jeito das pessoas se mexerem melhor do que qualquer foto.
 
@@ -178,9 +170,7 @@ Ele foi embora às oito e meia.
 
 "Então eu tiro xerox amanhã." Rei hesitou, e depois disse o motivo de verdade, porque nunca adiantava mentir para o Itsuki. "O Gin pode chegar cedo."
 
-Haruto tinha voltado pela escada com o celular na mão. Olhou para Rei.
-
-"Você disse que ele nunca volta no Obon."
+"Ele nunca volta no Obon", disse Itsuki.
 
 "Pode ser que volte", disse Rei.
 
@@ -191,8 +181,6 @@ Itsuki olhou para ele um instante, e o rosto dele ficou macio, do jeito que quas
 "Eu não faço isso."
 
 "Você faz exatamente isso", disse Itsuki.
-
-Haruto não disse nada. Não precisava.
 
 [break O apartamento]
 

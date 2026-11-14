@@ -8,7 +8,7 @@ Prose rules: plain English, short sentences, narrator explains Japan and lore, e
 - Flat. Third floor, old concrete building on the hill above Ōji station, outside walkway, brass hook in genkan. Two rooms and kitchen. Rei sleeps on living-room sofa. Rice cooker with cracked lid.
 - Rei. 20 (turns 21 mid-mission, Itsuki same age, birthdays in a tense situation), intern at criminal investigation section, Ōji police station, studying for investigator exam. Messy black hair over forehead, dark eyes, slim, black hooded jacket, backpack. Suppression trick from Gin at age 8 (breath 4/4/6, closing a wooden door with iron latch in his chest). Pressure behind eyes when sight rises. Mother died (plate-over-plate habit).
 - Gin. 28, long black hair loose past jaw, CVD field officer 6 years. Half cigarette each morning on step. Brings Itsuki food, Itsuki draws for archive. Last message to Itsuki Tuesday (ramen photo).
-- Itsuki. 20, Geidai oil painting, studio 3rd floor smells of turpentine. Grey oversized hoodie over expensive white shirt, paint everywhere, unlit cigarette behind ear, narrow face, quick tired eyes. Paints the same bridge for two years (in ch2 a tall long-haired figure appears on it). Built Gin a search program, scanned 400 pages. Texts lowercase. Says "I see what I paint." Hates being a Kuroda. Latent blocked Kuroda teleportation. Friends since 12.
+- Itsuki. 20, Geidai oil painting, studio 3rd floor smells of turpentine. Grey oversized hoodie over expensive white shirt, paint everywhere, unlit cigarette behind ear, narrow face, quick tired eyes. Built Gin a search program, scanned 400 pages. Texts lowercase. Says "I see what I paint." Hates being a Kuroda. Not regulated, no active mediumship. Paints because he is a prophet (only two future paintings in the book, a faceless cult and a place Gin later enters). His hand puts the wrongness into drawings without him seeing it. Powers awaken late (Telekinesis, then Psychokinesis and Teleport via the Font). Friends since school, same age as Rei. Nagai Haruto removed from ch1 (Haruto is the drowned river boy).
 - Daiki is OUT of the book (Betty). Rei only has Itsuki.
 - Archive. Black field book. Opening note and "3:47" line. Margin notes about Rei. Grounding Objects section. Itsuki drawings glued in. White room drawing (Far-Shore Circle), column of light drawing with "Don't." (the Font).
 - CVD phone. Pleasant woman says "on assignment", "extended operation". Rei wrote "She already knew."
@@ -200,3 +200,7 @@ Loose ends to weave: Hana scar attempts 2-5 (each interrupted), Haruto recurring
   - The FONT is NOT human. It was human, hundreds of years ago maybe, not anymore. That is why the 13 do not remember anything about it, not even its face.
 - PROGRESSO DA LEITURA DO BIBLE: lido até a posição 1995524 de (FIM). BIBLE INTEIRO LIDO 1995524. Índice em canon/indice-bible.md. Continuar dali.
 - BETTY 13 Nov 18:24: ler o Bible INTEIRO e os documentos do GM (veil-protocol-quests-gm.md, romance-gm, sidequests-gm). Do jogo, só as poucas mecânicas. NÃO ler a história do jogo, ela vai ser adaptada depois que o livro estiver pronto e aprovado.
+
+## Redo state (14 Nov)
+- ch1 fixed: age 20, Haruto removed, Itsuki alone at the festival.
+- ch2 fixed: no prophetic key sketch, no Nerima prophecy, CVD HQ in Marunouchi (Keihin-Tōhoku Ueno to Tokyo, 4 stops).
