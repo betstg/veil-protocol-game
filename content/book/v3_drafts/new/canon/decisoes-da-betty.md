@@ -322,3 +322,46 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Nada em inglês na matriz. Traduzir.
 - O Rei e o Itsuki têm 20 anos e fazem 21 durante a missão. Cada um faz o aniversário do outro numa situação bem tensa, lá pela metade do prazo de um ano do Gin.
 - Depois de descobrir que o Gin está possuído, o Rei vai ao Diretor Adachi e pergunta como quem não quer nada, sem contar o que sabe, quanto tempo uma pessoa dura se o demônio que a possui não quer dividir o corpo. Pode ser no meio de perguntas sobre o Programa Vessel. O Adachi diz que é um ano e que, mesmo com médium forte, nunca viu ninguém passar disso. Manda o Rei passar na contenção e olhar a ala dos possuídos.
+
+## Decisões de 14 de novembro, décima segunda rodada
+
+### Gin e Rei
+- O Healer não propõe aliança ao Rei pelo Spirit Capturer. O Spirit Capturer só conversa com o espírito ou demônio que está preso dentro dele, e o Healer está possuindo uma pessoa.
+- Não existem interações entre o Gin e o Rei que a Betty não mencionou.
+- A Katagiri não entrega o Gin. O R51 como está não faz sentido.
+- Os irmãos só conversam bem depois das pazes. Quando o Gin e o Healer já são parceiros, o Gin pede ao Healer para falar com o irmão. O Healer diz que eles estão numa missão para salvar o mundo e que falar com o irmão põe o Rei em perigo. Eles não falam. Em algum momento o Gin se aproxima mesmo assim. O Itsuki fica furioso e cobra por que ele largou os dois, por que não veio quando já se dava bem com o demônio, e se achou que eles não estariam procurando. Eles discutem. O Rei conta tudo o que sabe e tudo o que está acontecendo. O Gin percebe que não pode só largar os dois, mas tem a missão dele e prometeu ao Healer que ia ajudar. Não foi contrato, foi promessa. Combinam desenrolar isso depois.
+
+### CVD
+- O registro do Rei sai com nível inferior. Não é erro. A leitura está certa, porque a supressão baixa o nível dele.
+- O Spirit Capturer não é dado quando o Rei entra. Vem bem mais para frente, porque ainda não confiam nele.
+- Supressão é segredo. Só os Vanguards, o Diretor, o Gin, os líderes de seita e as pessoas mais fortes sabem. O Rei descobre depois, lendo. O Gin pode ter suprimido algumas pessoas. O Diretor suprime os Vanguards que podem afinar o véu, e antes dele eram os mestres. Não existe divisão nem especialista em supressão. A Shimizu não é de Supressão.
+- O Rei precisa passar por todas as áreas da CVD durante o livro.
+- As áreas. Andar de Operações, onde recebem todo mundo. Relações Públicas, onde os chefes se reúnem, e o Adachi só vai lá para lidar com a polícia e coisas menores. Avaliação e Registro. Assuntos Internos e Auditoria, onde ficam os segredos. Sala do Espelho. Contenção e Reintegração, que contém e tenta reintegrar. Salão de Treino, poderes e luta. Gatil. Aviário, o campo de treino dos pássaros. Sala de Cultivo, com espíritos presos que aceitaram ajudar a CVD, onde um médium é possuído e depois despossuído e onde educam os demônios que um dia vão entrar no Programa Vessel. Laboratório, artefatos e causas de eventos nunca vistos. Sala dos Sigilos. Sala de Preparação, mapa, plano e equipamento antes de ir a campo. Arsenal, adagas consagradas, sigilos prontos, corrente com prata, água benta, sem arma de fogo. Sala de Descanso, uma sala de estar cercada de cabines com sigilos. Sala de Casos Especiais, casos fechados e os mais difíceis. Sala dos Artefatos. Subnível, a prisão bem escondida, para onde vai o Tendo. A sala sem número na Auditoria.
+- Cada área tem um responsável. Às vezes é só um NPC.
+- O Adachi é o chefe, mas há outros chefes sem nome que não precisam ser nomeados. É por eles que a corrupção das famílias entra na CVD. Em algum momento o Adachi diz que não roda a CVD sozinho e que tem gente importante lá que ele nunca conheceu.
+- A sala sem número na Auditoria não tem número e tem uma fechadura que ninguém reconhece. Nem o Gin sabe o que tem dentro. Guarda um dos demônios dos treze sentimentos, preso num pager. Perto do fim, com a situação grave, o Adachi pede formalmente para falar com os chefes e conhece todos. Eles falam com as famílias e liberam o Rei para falar com o demônio. É uma cadeira, uma mesa e um pager no meio. Ninguém sabe que ele é um dos treze, porque ninguém entende o conceito dos treze sentimentos. O Rei sabe. O demônio barganha, diz que pode entrar no corpo do Rei como o outro entrou no irmão e trazer os treze. O Rei conta que o Kishin já está fazendo isso e que o plano do Kishin começou antes de esse demônio ser preso. O demônio diz que então o nível é outro e dá uma ideia que ajuda o Rei.
+
+### Fora da CVD
+- O Grid fica nas ruas.
+- Os mestres têm as próprias casas. O arquivista é a exceção e fica na CVD.
+- As famílias têm casas, não mansões. A Torre é um conglomerado, uma empresa de fachada onde as famílias se reúnem.
+
+### Itsuki e o Uruma
+- O Itsuki não sabe fazer sigilo. A primeira tatuagem do Rei não tem desenho dele. Ele acha sigilo uma forma de arte, e o Uruma diz que ele é a primeira pessoa a ver assim, e não como defesa ou arma. O Itsuki não entra na CVD como o Rei, mas está sempre lá e vai aprendendo aos poucos conversando com o Uruma.
+
+### Pedidos
+- Mover o Gorō e a tatuagem para depois de o Rei entrar na CVD.
+- Tirar o Usami do grupo no R30.
+- A Shimizu pode morrer.
+- Inventar uma quest para o Moriya que faça sentido.
+
+### O fim
+- O Adachi diz que está na hora de se aposentar. Quem assume a CVD é o telepata engraçado em quem ninguém confia, melhor amigo do Gin, parceiro de campo do Gin e do Rei. Nessa altura ele já é Vanguard. Um telepata como chefe da CVD, ninguém mente para ele.
+- Bem depois, o Itsuki vira um dos Treze. A situação dos Treze melhora muito, porque agora estão todos presentes e a Fonte está consciente. Os Treze não sofrem mais tanto.
+- Os demônios dos treze sentimentos voltam para guardar o além do véu, como deuses invertidos. Invertidos não porque são maus, mas porque estão no mundo dos mortos. Outros demônios podem assumir.
+- Descobrem que é possível viver no mundo além do véu, assim como espíritos e demônios podem viver no mundo dos vivos em harmonia. Alguém do Programa Vessel diz que sai do programa e vai para lá com o Ren.
+- O Gin, o Rei e o Itsuki moram juntos numa situação bem melhor. O Itsuki assumiu a família, mas se recusa a morar lá, porque é muito grande. Ele quer o canto dele para pintar. Lá enchem o saco dele, e ele responde, ajuda e decide coisas. O treino ficou com os mais velhos. Ele é o herdeiro, mesmo tendo sido mandado embora quando não tinha poder.
+- O Gin se arruma para um encontro com uma das mulheres que não morrem, da CVD ou do Grid. Ele voltou para a CVD.
+- O demônio preso na sala sem número foi devolvido para o lado de lá do véu.
+- Quem fazia os exorcismos não ortodoxos vira o líder do Grid e ensina as pessoas a respeitar mais os espíritos e pelo menos tentar conversar.
+- O livro fecha com o Gin dizendo que essa é a história de como ele voltou para o irmão depois de ser possuído por um demônio e salvar o mundo.
