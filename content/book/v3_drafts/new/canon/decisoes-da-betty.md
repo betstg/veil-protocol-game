@@ -378,3 +378,14 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Majima Kenji é homem. É do Grid, Arbiter, não é mestre, tem teto alto. Ajuda as pessoas, faz amizade com o grupo e morre numa batalha.
 - A Shimizu pode morrer.
 - Pode morrer mais gente, porque é uma guerra. Pode morrer uma das crianças, menos a Yua. Tem que morrer alguém próximo, do time deles. O time ainda não está definido.
+
+## Decisões de 14 de novembro, décima quarta rodada
+- O Healer não procura um corpo por necessidade. Procura por afinidade. Para ficar forte de verdade ele precisa de alguém do mesmo sentimento, um corpo compatível que não diminua a força dele. Os demônios mais fortes, os treze, sabem disso. O Gin já é muito forte e não está protegido, então o véu em volta dele já está mais fino. Ele está tendo que lidar com o irmão.
+- Aos poucos o Healer conversa com o Gin porque precisa de comida, dinheiro, do celular e de opinião. Em alguns momentos ele está sozinho pensando no plano e não tem ninguém para conversar.
+- Os encontros do Rei com o Gin. Primeiro o Rei vê o Gin andando na rua de longe, vai atrás e não acha. Logo depois, o Healer vê o Rei de longe, o Rei vê o Gin, e o Healer usa um poder do Gin para soltar um espírito mau numa pessoa e desviar os olhos do Rei, porque reconhece o irmão. O Gin pode até dizer meu irmão. Isso vem antes de o Healer encarar o Kishin. Espíritos entrando por onde o Healer passa não é normal nem comum.
+- O Tanizaki pode morrer.
+- O Kato é o que as pessoas não confiam. Era parceiro do Gin e tem uns 24 anos quando o Rei tem 21. Não é trainee do segundo ano. Está registrado no nível da leitura que o Gin manipulou com a supressão. Em um ano ele evolui e vira Vanguard.
+- O Haruki é Vanguard, então saiu da CVD. É mestre. Isso substitui a decisão de que ele era investigador da CVD.
+- O time da CVD tem cinco. Rei, Kato, Tendo, Shimizu e mais um a definir. O Tendo é substituído pelo Usami. O Itsuki é o sexto membro, não é da CVD e aparece porque não desgruda do Rei.
+- A Shimizu morre. A habilidade dela é Telecinese e precisa ser trocada nas fichas.
+- Pode morrer um dos jovens problemáticos que estão perto da Yua.
