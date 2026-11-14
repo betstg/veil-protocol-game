@@ -453,3 +453,4 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Gin é oficial e anda bem, reto. Não anda curvado.
 - No começo o Healer não liga para o Rei. Ele não fica longe de propósito, só não quer distração. Dizer que fica longe para proteger o Rei vem depois, quando ele já é amigo do Gin.
 - A mãe do Itsuki pinta, mas também treina. Ela não é só pintora.
+- O Itsuki foi para a Geidai pintar porque gostava de ver a mãe pintar, que era o momento em que ela não era médium da família. Como ele acha que não é médium, se afastou e foi fazer o que gostava, e entrou na faculdade para pintar melhor.
