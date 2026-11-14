@@ -467,3 +467,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Por ser profeta, o Itsuki decide parar de pintar para ter uma vida mais sossegada. Isso substitui o "quer o canto dele para pintar" da décima segunda rodada.
 - Se alguém chega com um caso realmente grave, ele resolve. Isso quase não acontece, porque a vida está muito mais tranquila. Ele pode dizer ao Rei que, se continuar pintando, vai acabar descobrindo coisas do futuro que não precisa saber, que gosta de viver o presente, mas que se alguém precisar ele está por aqui e pode pintar uma resposta.
 - Ele não é "o Profeta", nem uma figura fora do mundo. É vidência, um tipo de mediunidade que quase não aparece. Não consta nem nos arquivos da CVD, porque é tão raro e tem tanto charlatão que ninguém leva a sério que pode ser real.
+- A CVD não congela o salário do Gin. O salário continua caindo, e o Rei só não tem acesso à conta. Isso mantém o banco para o Tetsuya depois.
+- O Healer acorda o Gin porque o corpo está com fome. O Healer come almas, mas o corpo morre se não comer. O Gin ensina a sacar dinheiro e o Healer prova lámen pela primeira vez, sem saber o nome das comidas de hoje, e pede opinião.
+- O Healer foi humano há muito tempo. A escrita e os nomes da época dele eram diferentes.
+- O Kato pode fazer uma piada ou outra, mas não liga. Está acostumado a não gostarem dele. Depois começa a soltar mais piadas perto do Rei, porque percebe que o Rei não tem medo de ter a mente lida.
