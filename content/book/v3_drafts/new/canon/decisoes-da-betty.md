@@ -432,3 +432,8 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - As notas dos contatos no capítulo 3 são as do Bible, as páginas The Ones Worth Knowing. Usar o texto delas, não notas inventadas.
 - O Diretor é contato direto. O Rei manda mensagem, fica lida e sem resposta. Ninguém na CVD diz que o Diretor não está disponível. O Rei só manda a mensagem e depois vai à CVD.
 - O Rei e o Kato não precisam se encontrar no começo. Podem se encontrar, e o Kato diz que vai observar e que, se encontrar alguma coisa, avisa. Ele não encontra nada. Quando o Rei aparece na CVD depois, os dois se conhecem de verdade e viram amigos, e o Kato conta que encontrou coisas.
+
+## Decisões de 14 de novembro, vigésima primeira rodada
+- O Diretor não responde na hora. Logo depois, no dia seguinte, ele responde dizendo para o Rei ir à CVD, que ele vai atender o Rei pessoalmente.
+- O objeto do Kato é o cavalo. Ele é estrategista, o cavalo tem movimentos mais complexos, é versátil, e é com ele que se resolve o começo ou o meio do jogo.
+- O Rei sabe onde é o bar do Haruki. Sabe tudo sobre os lugares onde o irmão toma café e vai ao bar, e já ouviu o nome do bar algumas vezes. Depois de um tempo ele vai lá.
