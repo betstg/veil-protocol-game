@@ -74,7 +74,7 @@ And then, a second later, in lowercase:
 
 [break Itsuki]
 
-It took Itsuki twenty-six minutes. Rei found out later that he had run from the Kuroda house in Nezu to Nishi-Nippori station, in slippers, and taken the Keihin-Tōhoku north, and run from Higashi-Jūjō station to the building, in slippers, with Mrs. Fujii's voice following him down the lane asking if the young master needed a coat.
+It took Itsuki twenty-six minutes. Rei found out later that he had come back from Kamakura on Thursday without telling anybody, and that he had been lying on the floor of his flat near Ueno looking at the ceiling when the message came, and that he had run to the station in his slippers and taken the Keihin-Tōhoku north and run from Higashi-Jūjō station to the building, still in his slippers, with his oldest sketchbook under his arm, because he always took it, the way other people take their keys.
 
 Rei did not know any of that. He knew only that he was sitting against the blank wall with his eyes closing, and the crying had become a lullaby, and then his phone buzzed again.
 
@@ -84,67 +84,65 @@ Rei opened his eyes. He was sitting against a grey wall. There was no railing.
 
 *I can't see you,* he typed. *there's a wall.*
 
-*there's no wall. there's a railing. you're looking right at me and you can't see me.* A pause. *ok. ok. this is the thing. this is the thing my father does. ok.*
+*there's no wall. there's a railing. you're looking right at me and you can't see me.* A pause. *ok. ok. hold on. I'm going to draw it.*
+
+*itsuki this isn't the time for art.*
+
+*shut up. it's always the time for art. stay there.*
 
 A long pause. Rei watched the screen. The battery was at four percent.
 
-*I'm going to try something,* Itsuki wrote. *don't laugh.*
+Down on the street, under the one working streetlight, Kuroda Itsuki sat on the kerb in his slippers with his oldest sketchbook open on his knees and a pencil in his hand, and drew the building. Fast. Not looking at the page much. Looking up at the fourth floor, and down, and up. He did not think about what he was drawing. He never did. He let his hand go, and his hand put in the walkway, and the railing, and the row of doors, twelve of them, and the small dark shape of his friend sitting on the concrete with his knees up.
 
-*I won't laugh.*
+Then his hand did something he did not tell it to do.
 
-*you'll laugh. I've never done it. I've never done it all the way. if it goes wrong I'm going to be really embarrassed in front of you.*
+It drew eleven of the doors shut. Flat, plain, closed. And the ninth door it drew standing open. Wide open. And through the open doorway it drew, not a dark flat, but a railing, and a street, and a streetlight, and a small figure sitting on a kerb under the light with a book on its knees.
 
-*itsuki I'm going to die in a corridor. I promise I won't laugh.*
+Itsuki looked at it for a long time. His hand had gone cold.
 
-*don't say die. not this week.* A pause. *put your hand on the door. the fourth one. the crying one. and don't open it until I say.*
+Rei's phone buzzed. A photograph. A pencil drawing of the building, quick and sure, every line right. Eleven doors shut. The ninth one open, and through it, impossibly, the street outside.
 
-Rei got up. His legs nearly gave way. He walked to the fourth door and put his palm flat on it. It was cold and slightly damp, like the side of a fish tank. Behind it the lullaby went on.
+*my hand did that,* Itsuki wrote. *I didn't. I don't know what it means. door 9.*
 
-He waited.
+*the crying's behind door 4.*
 
-Outside, far away, on the street below a railing he could not see, Kuroda Itsuki stood in his slippers in front of the concrete entrance of an empty building, with his hand flat on the cold metal frame of the front door, and closed his eyes.
+*I know. my drawing doesn't care about door 4. door 9. go.*
 
-Rei felt it.
+Rei got up. His legs nearly gave way. He walked along the corridor, past the fourth door, where the lullaby went on and on, and he did not open it. He counted. Five. Six. Seven. Eight.
 
-Through the door under his palm. Through the walls and the floor and the folded concrete. Something opening. Not slowly, the way Sōun opened the black frame in his room. Badly. Clumsily. Like a boy shouldering open a door that has been painted shut for twenty years, in one desperate shove. A wrench. A crack. And then air, real air, cold November air, coming from somewhere that was not this corridor. Smelling of river.
+He put his palm flat on the ninth door. It was cold and slightly damp, like the side of a fish tank.
 
-*now,* said the phone.
+He opened it.
 
-Rei opened the door.
+Cold air came in. Real air, November air, smelling of exhaust and wet leaves and somebody's cooking. Through the doorway was the walkway, the real one, with the green-painted railing and the street below. And under the streetlight on the far kerb, a skinny figure in a grey hoodie and slippers, with a sketchbook on his knees, looking up.
 
-[need ch22_bridge_door | A grey concrete apartment corridor with a door opening not onto a room but onto a night bridge over a dark river with a single light on the water, cold air rushing in, a young man stumbling through the door toward another young man in slippers reaching out his hand]
+Rei stepped through. Behind him, the corridor folded shut like a wet newspaper, and the crying stopped, and there was nothing behind him but a dark empty flat with a broken window and a calendar on the wall from a year that had finished long ago.
 
-[break The bridge]
+[need ch22_door_nine | A pencil drawing in an old sketchbook of a five-storey apartment block at night, eleven doors on one floor drawn shut and the ninth door drawn wide open showing the street outside, held on the knees of a young man in slippers sitting on a kerb under a streetlight]
 
-He fell through it onto stone.
+[break The kerb]
 
-Cold stone, wet with dew. Above him, a dark sky. Beside him, a low iron railing painted green. Under the railing, a long way down, a black river moving slowly, with the lights of the city broken up on it. He was lying on a bridge. A pedestrian bridge, narrow, old, with green iron rails and old-fashioned lamps every ten metres. He knew it. He had never stood on it in his life. But he had seen it once, years ago, in oil paint, on a small canvas Itsuki had done at fourteen and never sold and never hung, that lived face to the wall behind the radiator in his studio. A dark river, a narrow old bridge, one light on the water. And he had seen it again, for half a second, through an empty black doorframe in a training hall in Nezu.
+He did not remember the stairs. He remembered sitting down on the kerb next to Itsuki, very suddenly, because his legs had decided for him.
 
-Itsuki's bridge.
+Itsuki was shaking from head to foot. His nose was running in the cold. He was holding the sketchbook open on his knees and staring at the drawing.
 
-Itsuki was on his knees beside him in the middle of the bridge in a pair of grey house slippers and a thin T-shirt, shaking from head to foot. His nose was bleeding. His eyes were enormous.
+"I didn't do that," he said. His voice was high and strange. "I mean I did. But I didn't. I drew the building. I was drawing the building. And then my hand drew that door open, and I didn't tell it to, and I didn't know why, and it was *right*." He looked at Rei. "Rei. It was right."
 
-"It's real," he said. His voice was high and strange. "It's real. It's a real bridge. I thought I made it up. I painted it when I was a kid and I thought I made it up and it's real. It's the Shirahige bridge. No. It's the little one next to it. The old footbridge. I've walked over it. I must have walked over it when I was a kid. I must have..."
+"I know."
 
-"Itsuki."
+"How was it right? How does my hand know which door?"
 
-"I opened it. Rei. I opened a door. I opened a door from Higashi-Jūjō to the Sumida river. That's four kilometres. That's four kilometres, that's a real door, I opened a real..."
+Rei thought of a small wet canvas in a studio at Geidai. A walkway at night, and a key lying on the concrete. Finished at midnight. Four hours before the key was there.
 
-"Itsuki."
+"It does that," he said. "Your hand. It always has. You just don't usually see it happen."
 
-Itsuki stopped. He looked at Rei. He was crying. He had not noticed.
+Itsuki looked at the drawing for a long time. Then he closed the sketchbook and held it shut against his chest with both arms, the way a child holds a book it does not want taken away.
 
 "You're wearing slippers," said Rei.
 
-Itsuki looked down at his feet. Then he looked back at Rei. And he laughed. It came out of him all at once, a huge, helpless, hiccupping laugh, and he could not stop it, and it set Rei off, and the two of them sat in the middle of the old footbridge over the Sumida at eleven at night, Itsuki in his slippers with blood on his lip and Rei with salt on his knees and four percent battery, and laughed until they could not breathe.
+Itsuki looked down at his feet. Then he looked back at Rei. And he laughed. It came out of him all at once, a huge, helpless, hiccupping laugh, and he could not stop it, and it set Rei off, and the two of them sat on the kerb outside an empty building in Higashi-Jūjō at eleven at night, Itsuki in his slippers with a runny nose and Rei with salt on his knees and four percent battery, and laughed until they could not breathe. A man walking a dog crossed to the other side of the road.
 
-"You promised you wouldn't laugh," Itsuki gasped.
-
-"You said I would."
-
-"I hate that you listen to me."
-
-When the laughter ran out, they sat with their backs against the green iron railing, side by side, looking at the river.
+When the laughter ran out, they sat side by side with their backs against a lamp post, looking at the empty building.
 
 "I'm sorry I shoved you," said Rei.
 
@@ -152,7 +150,7 @@ When the laughter ran out, they sat with their backs against the green iron rail
 
 "I'm saying it with my mouth."
 
-"Okay." Itsuki wiped his nose with the back of his hand and looked at the blood. "I'm sorry I said Gin was gone." He did not look at Rei. "I didn't mean it. I've never meant anything less in my life. I said it because I was scared and it was the worst thing I could think of."
+"Okay." Itsuki wiped his nose with the back of his hand. "I'm sorry I said Gin was gone." He did not look at Rei. "I didn't mean it. I've never meant anything less in my life. I said it because I was scared and it was the worst thing I could think of."
 
 "I know."
 
@@ -168,7 +166,7 @@ When the laughter ran out, they sat with their backs against the green iron rail
 
 "That's a lot of people dead."
 
-"It's a tragedy. It's a whole tragedy. I'd paint it." Itsuki put his head back against the railing. "Don't do it again."
+"It's a tragedy. It's a whole tragedy. I'd paint it." Itsuki put his head back against the lamp post. "Don't do it again."
 
 "I won't."
 
@@ -176,16 +174,10 @@ When the laughter ran out, they sat with their backs against the green iron rail
 
 "I promise."
 
-They sat for a while. A late train went over a bridge further down the river, a line of yellow windows, very small and far away.
+They sat for a while. A late train went over the bridge at the end of the street, a line of yellow windows, slow and bright.
 
-"Rei," said Itsuki.
+Rei reached over and put his hand on top of Itsuki's, on the cold kerb between them, and left it there.
 
-"Yeah."
-
-"My father's going to see this on my face tomorrow. He's going to know I did it. And I didn't do it properly in front of him like I wanted. I did it in my slippers for an idiot in an empty building." He was smiling. "I'm so glad. I'm so glad I didn't do it for him."
-
-Rei did not say anything. He reached over and put his hand on top of Itsuki's, on the cold stone of the bridge, and left it there.
-
-Itsuki looked at their hands. Then he looked at the river.
+Itsuki looked at their hands. Then he looked at the building.
 
 "Tomorrow," he said, after a while, "you're taking me to your stupid Grid."
