@@ -397,3 +397,10 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Moriya é o quinto do time da CVD, com Psicometabolismo. É forte e pode ajudar o Itsuki.
 - Na quest do Moriya as pessoas começam a agradecer, porque são legais. Principalmente depois que entra o Usami, que agradece o tempo todo, por tudo, a todo mundo. O Usami é muito querido, doce, gentil e fofo.
 - O Itō Kenta pode morrer, mas não basta. Matar traficante é fácil e não faz sentir que é guerra. Tem que morrer outro jovem, mais novo, das crianças que ficam pelas ruas. Elas são como os irregulares de Baker Street e servem de menininhos de recado para todas as facções.
+
+## Decisões de 14 de novembro, décima sexta rodada
+- Revisar as habilidades dos Treze e espalhar melhor. A Okabe Natsumi, da Coragem, fica ofensiva, porque é assim que ela defende os outros e por isso é tão corajosa. O Medo e a Alegria com Psicometabolismo fazem sentido. A proposta de distribuição está na aba Habilidades da matriz.
+- O Gin tem Clarisenciência e Teleporte. O Healer pode usar o Teleporte do Gin para sumir. O Healer tem habilidades próprias que ainda precisam ser definidas.
+- O Rei tem o mesmo perfil do Gin, mas não os mesmos poderes. Desperta Clarisenciência e pode ser Teleporte. Depois ganha outra, que pode ser uma Telecinese mais fraca que a do Itsuki. Aos poucos ele chega a quatro.
+- Só o traficante, o Itō Kenta, morre entre os jovens por enquanto. Civis morrem, pode ser um jovem pequeno que ninguém sabe o nome. Morrem outros membros da CVD. É uma guerra. Depois decide.
+- Começar a escrever.

@@ -6,10 +6,10 @@ Prose rules: plain English, short sentences, narrator explains Japan and lore, e
 ## Established facts
 - 2015-08-12 Wed night. Gin does not come home. 3:47 three even knocks. Gin's key (his six-year grounding object, keychain with dent from car door) on walkway, cold and wet, half cigarette. Rei wears key on a cord under shirt. Key stays cold, steadies him.
 - Flat. Third floor, old concrete building on the hill above Ōji station, outside walkway, brass hook in genkan. Two rooms and kitchen. Rei sleeps on living-room sofa. Rice cooker with cracked lid.
-- Rei. 19, intern at criminal investigation section, Ōji police station, studying for investigator exam. Messy black hair over forehead, dark eyes, slim, black hooded jacket, backpack. Suppression trick from Gin at age 8 (breath 4/4/6, closing a wooden door with iron latch in his chest). Pressure behind eyes when sight rises. Mother died (plate-over-plate habit).
+- Rei. 20 (turns 21 mid-mission, Itsuki same age, birthdays in a tense situation), intern at criminal investigation section, Ōji police station, studying for investigator exam. Messy black hair over forehead, dark eyes, slim, black hooded jacket, backpack. Suppression trick from Gin at age 8 (breath 4/4/6, closing a wooden door with iron latch in his chest). Pressure behind eyes when sight rises. Mother died (plate-over-plate habit).
 - Gin. 28, long black hair loose past jaw, CVD field officer 6 years. Half cigarette each morning on step. Brings Itsuki food, Itsuki draws for archive. Last message to Itsuki Tuesday (ramen photo).
 - Itsuki. 20, Geidai oil painting, studio 3rd floor smells of turpentine. Grey oversized hoodie over expensive white shirt, paint everywhere, unlit cigarette behind ear, narrow face, quick tired eyes. Paints the same bridge for two years (in ch2 a tall long-haired figure appears on it). Built Gin a search program, scanned 400 pages. Texts lowercase. Says "I see what I paint." Hates being a Kuroda. Latent blocked Kuroda teleportation. Friends since 12.
-- Daiki. 17, school friend, loud texter, Jujo summer festival Saturday.
+- Daiki is OUT of the book (Betty). Rei only has Itsuki.
 - Archive. Black field book. Opening note and "3:47" line. Margin notes about Rei. Grounding Objects section. Itsuki drawings glued in. White room drawing (Far-Shore Circle), column of light drawing with "Don't." (the Font).
 - CVD phone. Pleasant woman says "on assignment", "extended operation". Rei wrote "She already knew."
 - Rent 84,000 yen due 27 Aug. Gin's salary arrives 25th.
