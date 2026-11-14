@@ -427,3 +427,8 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Kishin tem um exército de possuídos por demônios menores e por espíritos. São os cultistas dele. Com tanto poder, outros espíritos começam a vir do mundo dos mortos para o mundo dos vivos para participar da batalha, alguns mal intencionados.
 - Antes de se aposentar, o Diretor diz que aceita se o Rei garantir que o demônio da Coragem vai ficar do lado deles. O Rei garante, porque tem muita gente corajosa do lado do bem.
 - O contato da página 47 vira as páginas de contato do livro do Gin. O Rei manda mensagem para o Kato, que no livro tem a nota de ser para quando o Gin precisa da CVD sem papelada. O Rei conhece o Kato logo de cara. Os dois viram brothers até começarem a trabalhar juntos quando o Rei entra na CVD, e o Kato está sem parceiro porque ninguém confia nele. O Rei liga para a Katagiri, porque o livro diz para ligar e não escrever, e ela diz que no que puder ajudar vai dar uma olhada. Manda mensagem para o Haruki. Manda mensagem para o Diretor, e o Diretor diz para ele ir até a CVD.
+
+## Decisões de 14 de novembro, vigésima rodada
+- As notas dos contatos no capítulo 3 são as do Bible, as páginas The Ones Worth Knowing. Usar o texto delas, não notas inventadas.
+- O Diretor é contato direto. O Rei manda mensagem, fica lida e sem resposta. Ninguém na CVD diz que o Diretor não está disponível. O Rei só manda a mensagem e depois vai à CVD.
+- O Rei e o Kato não precisam se encontrar no começo. Podem se encontrar, e o Kato diz que vai observar e que, se encontrar alguma coisa, avisa. Ele não encontra nada. Quando o Rei aparece na CVD depois, os dois se conhecem de verdade e viram amigos, e o Kato conta que encontrou coisas.
