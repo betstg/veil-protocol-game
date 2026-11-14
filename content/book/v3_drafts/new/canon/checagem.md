@@ -48,3 +48,7 @@ Tirada do documento de decisões. Rodar antes de cada commit, junto com o check.
 - Pouco "the way" e pouco "read it twice".
 - Sem recapitulação em "plain words".
 - Figurantes do trem variados.
+- História realista, crua e natural. Sem frase de impacto, sem frase de efeito no fim do parágrafo.
+- Descrever as salas, os lugares, por onde passam, os rostos e as roupas. Não jogar um monte de fato.
+- Mostrar interação. O Rei tendo momentos bons com o Itsuki, o Haruki e o Kato. O Healer e o Gin trocando histórias quando ficam amigos.
+- O Healer acabou de chegar. Observou, mas não sabe como as coisas funcionam nem o nome delas.
