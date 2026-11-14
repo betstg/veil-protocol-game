@@ -2,17 +2,17 @@
 
 The Division came in forty minutes. Not the blue suits. The other ones.
 
-Four people in grey with the white owl on their chests, carrying a folding stretcher and two heavy metal cases. A woman in her forties led them, short and broad, with a calm face and hands that never stopped moving. She knelt beside Itsuki on the blood-drawn floor and laid her palm flat on his breastbone, the way Grandmother Mitsu had, and closed her eyes for a long time.
+Four people in grey with the white owl on their chests, carrying a folding stretcher and two heavy metal cases. A woman in her forties led them, short and broad, with a calm face and hands that never stopped moving. She knelt beside Itsuki on the old boards and laid her palm flat on his breastbone, as Grandmother Mitsu had, and closed her eyes for a long time.
 
-"Class C," she said at last. "Threshold dweller. Wrapped round the spinal cord from the third vertebra down. Not driving. Sleeping. Very tight." She opened her eyes and looked at Sōun. "You did well to pull it off the top. If it had stayed in the brain he'd be gone."
+"It's deep," she said at last. "Curled up in the middle of him, holding on to everything it can reach. Not driving. Sleeping. Very tight." She opened her eyes and looked at Rei. "Whoever held him when it let go of the body, they did well. If it had kept driving, he'd be on a train to somewhere by now, and we'd be looking for him for a year."
 
 Sōun said nothing. He was still kneeling with his son's head in his lap.
 
-"We'll take him to Reintegration," said the woman. "Ōji. We have a room ready. It's a slow process. Weeks. Maybe months." She was already opening one of the metal cases. Inside, packed in grey foam, were rolls of white paper covered in black writing, and small heavy iron bars, and a glass jar full of something that looked like coarse grey sand. "He'll be sealed in. No visitors inside the room. Family can come to the door."
+"We'll take him to Containment and Reintegration," said the woman. "Marunouchi. We have a room ready. It's a slow process. Weeks. Maybe months." She was already opening one of the metal cases. Inside, packed in grey foam, were rolls of white paper covered in black writing, and small heavy iron bars, and a glass jar full of something that looked like coarse grey sand. "He'll be sealed in. No visitors inside the room. Family can come to the door."
 
 "I'll come," said Rei.
 
-The woman looked up at him for the first time. She looked at his face. At the blood on his hands from the floor. At his left wrist.
+The woman looked up at him for the first time. She looked at his face. At the swelling along his cheekbone. At the blood on his coat.
 
 "You're not family," she said.
 
@@ -24,11 +24,11 @@ She looked at him a moment longer. Then she went back to her case. "The door, th
 
 [img cvdroom_containment_reintegration.png | Reintegration]
 
-The Reintegration ward was in the basement of the Division building by Ōji station, two floors under the street, at the end of a long corridor with a polished floor that reflected the lights in the ceiling like water.
+Containment and Reintegration was in the basement of the Division building in Marunouchi, two floors under the street, at the end of a long corridor with a polished floor that reflected the lights in the ceiling like water.
 
 Down both sides of the corridor were doors. Heavy grey doors with a small window in each one at head height, a square of thick glass with wire inside it. Round each door, on the walls, someone had painted seals in black ink. Circles inside circles. Lines of tiny writing. Shapes Rei half knew from the back of Gin's book. The air smelled of disinfectant and old paper and, under that, very faint, of something sweet and burnt, like sugar left too long in a pan.
 
-His wrist was cold the whole way down the corridor.
+The key under his shirt was cold the whole way down the corridor.
 
 Itsuki's room was the ninth on the left. Through the small window Rei could see a white bed, a white chair, a white table. Walls covered with white paper sheets, each one written all over in black. Iron bars set into the floor in a square round the bed. And Itsuki, lying very still on the bed, with his left arm in a hard grey cast and his chest strapped tight under a white hospital shirt, and his eyes closed.
 
@@ -56,15 +56,15 @@ His voice came through the little speaker thin and crackly, like a voice on an o
 
 "You sound terrible."
 
-"*I* sound terrible? You've got three broken ribs and a demon in your spine."
+"*I* sound terrible? You've got two broken ribs and something living in you."
 
-"Two broken ribs. One's just cracked. Moriya said." A pause. "The demon's fine, thanks for asking."
+"One broken rib. One's just cracked. Moriya said." A pause. "The something's fine, thanks for asking."
 
 Rei laughed. It came out of him like a cough, half a sob. Beside him, Okada looked at the floor.
 
 Through the window he could see Itsuki turn his head on the white pillow, slowly, toward the door. Both his eyes were the same now. Dark and tired and ordinary. His face moved on both sides when he talked. His nose was not bleeding.
 
-"I can feel it," said Itsuki. "Right here. In my back. Like a cold wire. When I'm awake it's quiet. When I sleep..." He stopped. "When I sleep I dream about doors. All the doors I could open. It shows them to me. It wants me to open them."
+"I can feel it," said Itsuki. "Right in the middle of me. Curled up, like a cat that's cold. When I'm awake it's quiet. When I sleep..." He stopped. "When I sleep I dream about doors. All the doors I could open. It shows them to me. It wants me to open them."
 
 "Don't open them."
 
@@ -116,7 +116,7 @@ The intercom clicked. Five minutes.
 
 "Yeah."
 
-"Don't go back to Nezu," said Itsuki. "Not without me. I mean it. The threshold's not safe for you. You're not a Kuroda. And my family will call you bones too, if it happens to you. They'll be very sad and they'll call you bones." The static hissed. "I'm not having that. Okay? Promise."
+"Don't go back to Nezu," said Itsuki. "Not for me, I mean it. Not to train. You're not a Kuroda. And my family will call you bones too, if something happens to you. They'll be very sad and they'll call you bones." The static hissed. "I'm not having that. Okay? Promise."
 
 The intercom clicked off before Rei could answer.
 
@@ -124,7 +124,7 @@ The intercom clicked off before Rei could answer.
 
 He came every day for two weeks.
 
-He came in the morning before work and in the evening after. In the evenings the man who checked on Room Nine was not a nurse at all. He was a stocky, tired officer in a slept-in suit called Moriya, from Internal Affairs on the fifth floor, who was also the only psychometabolist in the building, and so spent his evenings in Reintegration reading the bodies of the people sealed in the rooms, the way a doctor takes a pulse. He did not say much. He let Rei have five minutes at each end of the day instead of one, because Okada asked him to, and because, he said, Rei was the only visitor Room Nine got. When Rei brought a box of soft charcoal pencils and a thick pad of grey paper, Moriya checked every pencil and passed them through a slot in the door, and every evening took the finished pages out again and checked them for doors. There were never any doors. There were trains. There were crows. There was a fat old cat asleep on a cushion. There was Rei, again and again, from the other side of the little window, with his face too close to the glass.
+He came in the morning and in the evening. In the evenings the man who checked on Room Nine was not a nurse at all. He was a stocky, tired field officer in a slept-in suit called Moriya, from Field Operations, who had the hand that reads the body and mends it, and so spent his evenings after his shift in Containment reading the bodies of the people sealed in the rooms, as a doctor takes a pulse. He did not say much. He let Rei have five minutes at each end of the day instead of one, because Okada asked him to, and because, he said, Rei was the only visitor Room Nine got. When Rei brought a box of soft charcoal pencils and a thick pad of grey paper, Moriya checked every pencil and passed them through a slot in the door, and every evening took the finished pages out again and checked them for doors. There were never any doors. There were trains. There were crows. There was a fat old cat asleep on a cushion. There was Rei, again and again, from the other side of the little window, with his face too close to the glass.
 
 They talked through the door.
 
@@ -154,9 +154,9 @@ On the fourteenth day, at the end of five minutes, Itsuki said, "Are you going b
 
 Rei had been thinking about it for two weeks, standing in this corridor, looking through this glass.
 
-The families voted on Gin like a temple in Saitama. The Grid was brave and kind and full of people who would sell your name for a couch. Tanizaki taught him to sit. Haruki taught him to rest. Okada had lied in a report to keep him safe. And every day, for fourteen days, she had stood in this corridor with two cups of tea, in this building, two floors under the street, under the noses of the people who had emptied his brother's desk.
+The families voted on Gin like a temple in Saitama. The Grid was brave and kind and full of people who would sell your name for a couch. Tanizaki taught him to sit. Haruki taught him to rest. And every day, for fourteen days, Okada had stood in this corridor with two cups of tea, in this building, two floors under the street, under the noses of the people who told him every month that his brother was on assignment.
 
-You could not find out what was on the ninth floor from outside the building.
+You could not find out who the directors were from outside the building.
 
 "I'm going to call the front of the card," said Rei.
 
@@ -180,7 +180,7 @@ Itsuki was quiet for a long time. The static hissed softly in the little speaker
 
 "Yes."
 
-"And then you'll be inside." It was not a question. Itsuki was smiling, a little, on both sides of his face. "Inside the building. With the ninth floor."
+"And then you'll be inside." It was not a question. Itsuki was smiling, a little, on both sides of his face. "Inside the building. With all of them."
 
 "Yes."
 
@@ -194,10 +194,66 @@ The intercom clicked off.
 
 Rei stood in the corridor with his forehead on the glass. Behind him, at the far end, the lift doors opened, and Okada came out with two paper cups of tea. She walked toward him down the polished floor, and stopped, and looked at his face.
 
-She did not ask. She had read him twice already, the way she read everything, and she already knew.
+She did not ask. She had already read it on his face.
 
 "Tomorrow morning," she said. "Nine o'clock. Assessment, third floor." She gave him the tea. "Wear a suit. If you don't have one, I'll lend you money for one." She turned away. "And Rei."
 
 "Yes?"
 
 "When they measure you," said Okada, not looking at him, "don't try to impress anyone. Just tell them what you feel. Nothing more, nothing less." She walked back toward the lift. "It's the only advice your brother ever took from me."
+
+[break Shizue]
+
+That night Rei sat at the kitchen table with Gin's book and read every page that had the word *Assessment* on it. There were not many. Gin had not liked writing about the Division.
+
+Near the back, on a page about something else entirely, a page of notes about a hotel in Kabukichō, there was a line squeezed into the margin in very small pencil. Rei had read the page before. He had never seen the line. It was written so small and so light that you would only see it if you were looking for exactly that word.
+
+*If Rei is ever measured, send him to Shizue the night before. She knows. Don't rush her.*
+
+Under it, the name of a hotel. A room number.
+
+He went at eleven.
+
+The hotel was a residential one, in a back street of Kabukichō behind the cinema tower, the kind where people live by the week. A narrow lobby with a vending machine and a sleeping clerk. A lift that smelled of cigarettes and rain. A corridor of identical doors on the fifth floor. He knocked on 507.
+
+The door opened on a chain.
+
+The woman behind it was about twenty-seven. Small and pale, in a long grey cardigan with the sleeves over her hands, with her hair in a loose knot and a pencil stuck through it. She looked at him through the gap for a long moment. She did not seem surprised.
+
+"You're Gin's," she said.
+
+"Yes."
+
+"He said you might come one day. I hoped you wouldn't." She closed the door, and took off the chain, and opened it again. "Come in. Don't touch anything. Don't hurry."
+
+The room was very small. A bed, a desk, a window with the blind down, a kettle. And cranes. Paper cranes, everywhere, hundreds and hundreds of them, folded from every kind of paper. White ones and red ones and ones made from newspaper and from the pages of old books and from sweet wrappers. They hung from the ceiling on threads. They stood in rows along the windowsill and on the desk and on the top of the small fridge. They covered the bed except for one narrow space where she must sleep. When the door closed behind him, a thousand of them turned very slightly on their threads in the draught, and then were still.
+
+The pressure behind Rei's eyes, which had been there faintly all day, all week, all year, went quiet. Completely quiet. As if somebody had shut a window on a noisy street.
+
+"Sit," said Shizue. She pointed at the floor. He sat. She sat on the edge of the bed, very carefully, so as not to crush anything, and picked up a square of thin white paper from a pile on the desk, and began to fold.
+
+"They'll measure you tomorrow," she said. It was not a question.
+
+"How do you know?"
+
+"Because you're here. Gin told me the only reason you'd ever come." Her hands moved slowly, precisely. A fold. Another fold. "Your brother asked me to make you one of these two years ago. He paid for it. He said, *keep it until he comes.* I've had it in a drawer." She did not look up. "I don't like giving them to people. But he paid."
+
+"What does it do?"
+
+Shizue was quiet for a while. She finished the fold she was doing and started another.
+
+"When they measure you," she said, "they'll put you in a room with a machine and a person who reads. Before they start, ask to go to the toilet. They'll let you. They always do. They'll check your pockets. They'll find a wallet and a key and a paper crane, and they won't care about the crane." She opened the drawer of the desk and took out a small white crane, very neatly folded, a little yellow with age, and put it in his hand. "In the toilet, tear it in half. Then go back in and let them measure you."
+
+"And what happens?"
+
+"They get a number," said Shizue. "A real number. True. Just smaller than it would have been." She went back to her folding. "Don't ask me why your brother wanted that. I didn't ask him. He didn't tell me."
+
+Rei looked at the little crane in his hand. It weighed nothing at all.
+
+"Is it safe?"
+
+"Nothing's safe," said Shizue. "This is safer than not." She glanced up at him, once, and for a second her eyes were very old in her young face. "Your brother was in a hurry his whole life. Everybody said so. He was in a hurry about this too. About you. Two years ago he sat where you're sitting and he was frightened, and he didn't say of what." She looked down at her hands. "Don't rush. That's all I've got. Whatever you find in there. Don't rush."
+
+He put the crane in his wallet, next to Okada's card and the photograph of a cat.
+
+When he went out, a thousand paper cranes turned slowly on their threads, all together, as the door opened, and then were still.
