@@ -365,3 +365,16 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O demônio preso na sala sem número foi devolvido para o lado de lá do véu.
 - Quem fazia os exorcismos não ortodoxos vira o líder do Grid e ensina as pessoas a respeitar mais os espíritos e pelo menos tentar conversar.
 - O livro fecha com o Gin dizendo que essa é a história de como ele voltou para o irmão depois de ser possuído por um demônio e salvar o mundo.
+
+## Decisões de 14 de novembro, décima terceira rodada
+- O Healer volta para o outro lado do véu no fim.
+- Os demônios dos treze sentimentos não viram deuses e não querem ser deuses. Eles viram os treze do mundo dos mortos. Isso corrige o "deuses invertidos" da rodada anterior.
+- O Programa Vessel muda porque o fim muda o mundo de verdade. A Fonte acordou, a barreira está mais firme, existe aceitação de todo mundo e são poucos os casos de algo ruim acontecendo.
+- O Usami e o Ren se amam de verdade, numa relação quase homoafetiva. O Ren salvou a vida do Usami, que ia morrer. O Usami não quer ficar preso no programa e vai com o Ren para o outro lado. O Ren assume uma das cadeiras de lá, dentro do Usami, e o Usami vive entre os mortos como humano. O novo chefe da CVD é telepata, entende o que o Usami viveu e libera.
+- O pager da sala sem número é um Spirit Capturer modificado, o único feito assim, criado para conter esse demônio específico, que entrou numa pessoa há muito tempo. O Adachi pode explicar que o Spirit Capturer que deu ao Rei só funciona até certo nível.
+- O Healer aprender coisas pequenas é quando ele começa a falar com o Gin, antes das pazes. Ele precisa alimentar o corpo do Gin, não tem comida nem dinheiro, tem um celular que não sabe usar e a carteira do Gin, e pergunta ao Gin o que fazer. Aos poucos vai aprendendo.
+- Quem assume a CVD é o Kato. O Kato era parceiro do Gin. Ele começa como parceiro do Rei dentro da CVD e depois junta uma equipe de cinco quando veem que o buraco é mais embaixo. No fim já é Vanguard.
+- O Haruki é o melhor amigo do Gin e um jovem mestre. Para o Rei ele é uma figura de sabedoria e de treino.
+- O Majima Kenji é homem. É do Grid, Arbiter, não é mestre, tem teto alto. Ajuda as pessoas, faz amizade com o grupo e morre numa batalha.
+- A Shimizu pode morrer.
+- Pode morrer mais gente, porque é uma guerra. Pode morrer uma das crianças, menos a Yua. Tem que morrer alguém próximo, do time deles. O time ainda não está definido.
