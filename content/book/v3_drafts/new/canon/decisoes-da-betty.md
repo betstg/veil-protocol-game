@@ -437,3 +437,14 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Diretor não responde na hora. Logo depois, no dia seguinte, ele responde dizendo para o Rei ir à CVD, que ele vai atender o Rei pessoalmente.
 - O objeto do Kato é o cavalo. Ele é estrategista, o cavalo tem movimentos mais complexos, é versátil, e é com ele que se resolve o começo ou o meio do jogo.
 - O Rei sabe onde é o bar do Haruki. Sabe tudo sobre os lugares onde o irmão toma café e vai ao bar, e já ouviu o nome do bar algumas vezes. Depois de um tempo ele vai lá.
+
+## Decisões de 14 de novembro, vigésima segunda rodada. Antes de escrever o livro
+- O livro pode ser longo. Não precisa cortar um terço. Existem livros premiados de mil páginas.
+- Escrever sempre primeiro em inglês. A versão em português vem depois.
+- O que a Keiko sabe e a informação que o Haruto guarda são decisões minhas, de quem escreve.
+- O Healer tem Psicometabolismo, porque é o curador, e Psicocinese. Junto com a Clarisenciência e o Teleporte do Gin, isso faz do Gin uma arma na batalha.
+- As missões do Rei. Achar o irmão. Assumir a cadeira do Dever. Descobrir por que a Fonte deixou tudo isso acontecer e conhecer a Fonte. Limpar a corrupção da CVD. Entender aos poucos os espíritos, o mundo além do véu e os demônios, e criar um equilíbrio entre os dois mundos.
+- O Gin sai no epílogo com a Chen Lian, do Encanto. Ela é clarisciente, pesquisadora do Arquivo do Grid, inteligentíssima, lê muito, é bonita e pinta, tem os dedos sujos de tinta e os pincéis atrás. É empolgada e se impressiona fácil com tudo. Ela ajuda muito o Rei a achar o irmão depois que eles conhecem os Treze.
+- O Rei conhece todos os Treze numa reunião. Ele tem uma admiração especial pelo Sakuma Kei, do Amor, que tem um lado paternal. Um amor paternal. O Rei diz que ele é uma pessoa muito boa. Os Treze se envolvem de verdade, vivem as vidas deles e encontram o Rei no meio da rua.
+- O epílogo. O Itsuki dá dicas ao Gin, como não ir de gravata. O Rei pergunta se o Gin vai a uma reunião dos Treze e brinca que, se ele já assumiu o Dever, o Gin quer derrubar o irmão. O Gin reclama que tem que parar em todo lugar porque ela fica maravilhada com tudo, e diz que ela tem um ar de artista muito fofo. O Gin devolve a zoação, diz que parece que os dois irmãos têm semelhanças e manda o Rei ficar com o namorado pintor dele. O Rei e o Itsuki ficam putos. O Gin fecha a porta e vai ao encontro. O encontro aparece, e ele está feliz. No fim o Rei vira para o Itsuki e diz que é hora de trabalhar, que tem uma caçada. O Itsuki responde que nem é da CVD, que é rico e chefe da família e não precisa trabalhar. Eles trocam umas últimas piadas e começa o trabalho de manter o equilíbrio entre o mundo dos vivos e o dos mortos. O Rei vê alguns espíritos vivendo em harmonia entre os humanos.
+- Proposta minha aceita por silêncio, a revisar. Os treze demônios se chamam os Treze de Yomi no livro, em vez de Qliphoth.
