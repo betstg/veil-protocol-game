@@ -460,3 +460,10 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Quem olha para a Fonte enlouquece. Ninguém olha.
 - Os demônios da Alegria e da Fome só aparecem na batalha. Antes disso ninguém menciona eles, ninguém sabe deles.
 - O caso dos ratos sai. No lugar entra o Sr. Tachibana do Bible, o homem cansado em cima da galeria morta do mercado. A Betty pode trocar.
+
+## Decisões de 14 de novembro, vigésima quarta rodada. O fim do Itsuki
+- No fim o Itsuki é consultado e é importante de verdade. A família dele vira a melhor e a mais importante das famílias, e ele é o líder mais honesto entre elas.
+- O pai, o Kuroda Sōun, não morre. Ele passa o "trono" para o Itsuki.
+- Por ser profeta, o Itsuki decide parar de pintar para ter uma vida mais sossegada. Isso substitui o "quer o canto dele para pintar" da décima segunda rodada.
+- Se alguém chega com um caso realmente grave, ele resolve. Isso quase não acontece, porque a vida está muito mais tranquila. Ele pode dizer ao Rei que, se continuar pintando, vai acabar descobrindo coisas do futuro que não precisa saber, que gosta de viver o presente, mas que se alguém precisar ele está por aqui e pode pintar uma resposta.
+- Ele não é "o Profeta", nem uma figura fora do mundo. É vidência, um tipo de mediunidade que quase não aparece. Não consta nem nos arquivos da CVD, porque é tão raro e tem tanto charlatão que ninguém leva a sério que pode ser real.
