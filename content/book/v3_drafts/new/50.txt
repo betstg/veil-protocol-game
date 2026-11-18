@@ -10,9 +10,9 @@ It was not the Circle. That was the first thing Switch said.
 
 [break The hall]
 
-[need ch50_bright_sky | A shabby upstairs hall above a neon pachinko parlour in Itabashi at night, rows of followers in white kneeling on cheap carpet facing a stage where a smiling middle-aged man in white stands under a painted blue sky on the ceiling, a narrow blue door at the back with a brown rat snake coiled on dark grave earth across its threshold]
+[need ch50_bright_sky | A shabby upstairs hall above a neon pachinko parlour in Itabashi at night, rows of followers in white kneeling on cheap carpet facing a stage where a smiling middle-aged man in white stands under a painted blue sky on the ceiling, a narrow blue door at the back with a brown snake coiled on dark grave earth across its threshold]
 
-The Hall of the Bright Sky was on the second floor of a building in Itabashi, above a pachinko parlour so loud that the floor shook. A pachinko parlour is a kind of gambling hall, full of noisy upright machines like pinball, where people sit for hours feeding steel balls into the machines and watching them bounce. The noise of ten thousand steel balls came up through the floorboards like rain on a tin roof.
+The Hall of the Bright Sky was on the second floor of a building in Itabashi, above a pachinko parlour so loud that the floor shook. The noise of ten thousand steel balls came up through the floorboards like rain on a tin roof, and the stairwell smelled of cigarettes and the cheap air freshener they sprayed downstairs every hour.
 
 The hall itself was one big room with cheap blue carpet and folding chairs pushed against the walls. Someone had painted the whole ceiling sky blue, with white clouds, badly. At the front was a low stage. On the stage stood a man.
 
@@ -22,7 +22,9 @@ He was about fifty. Ordinary. A little heavy, with thinning hair and a round, pl
 
 Forty faces looked up at the badly painted ceiling. Forty mouths opened. Forty pairs of eyes filled with tears.
 
-Rei, at the back of the room in a borrowed white shirt, kneeling between Itsuki and Hana, opened the door in his chest one finger.
+Rei, at the back of the room in a borrowed white shirt, kneeling beside Hana, opened the door in his chest one finger.
+
+Itsuki was not in the room. He was in the alley behind the building, under the overhang of a shuttered noodle shop, with his sketchbook on his knees and a pencil going. Rei had asked him to draw the building before they went in. The first drawing had been the hall. The second had been a staircase going down. The third had been nine mats in a row, and a snake across a door, and Itsuki had texted *don't use your thing near the door. i don't know why. it's in the drawing.*
 
 He felt it at once. A great wash of something, coming off the man on the stage like heat off a fire. Not fear. Not hunger. Something huge and bright and overwhelming. The feeling you have standing at the edge of a cliff over the sea. Looking at the stars on a clear night in the mountains. Seeing something so big and so beautiful that your mind cannot hold it, and you forget your own name.
 
@@ -32,29 +34,25 @@ And the man on the stage was pouring it out. Into them. Forty people kneeling on
 
 The man smiled. His pupils were huge. Black. Wet. Shining. Taking in all forty of them at once, like a farmer looking at a field.
 
-"*He's riding it,*" whispered Hana, beside Rei. She had her sleeves pulled down over her hands. Her eyes were narrow and fast and moving round the room, reading it, the way she read everything. "*A demon of Awe. In the man. It's not even hiding. It doesn't need to. They'd die for it. Some of them already have.*"
+"*He's riding it,*" whispered Hana, beside Rei. She had her sleeves pulled down over her hands. Her eyes were narrow and fast and moving round the room. "*A demon of Awe. In the man. It's not even hiding. It doesn't need to. They'd die for it. Some of them already have.*"
 
 Rei looked at her.
 
 "*There,*" said Hana. "*Back of the room. The door.*"
 
-[break The door]
+[break The snake]
 
 At the back of the hall, behind the last row of kneeling people, there was a narrow door. Plain, wooden, painted the same blue as the ceiling. It led down. Rei could feel it. Stairs going down to a basement under the pachinko parlour, under the noise. Nine people down there. Nine small, faint, flickering lights, very weak, very cold.
 
 The sill of the door was dusted with dark earth. Grave earth. And lying across the threshold, coiled on the earth, was a snake.
 
-It was an ordinary snake. A Japanese rat snake, long and brown and olive, as thick as Rei's wrist, the kind that lives in old farmhouses and eats mice. It lay with its head raised a little off its coils and its tongue flickering, and it was not looking at any of them. It was watching the empty air in the doorway, very closely, as if the empty air were the most interesting thing in Tokyo.
+It was an ordinary snake. An aodaishō, long and brown and olive, as thick as Rei's wrist, the kind that lives in old farmhouses and eats mice. It lay with its head raised a little off its coils and its tongue flickering, and it was not looking at any of them. It was watching the empty air in the doorway, very closely, as if the empty air were the most interesting thing in Tokyo.
 
 Rei knew what it was. He had read about it in Gin's book. *Set a snake at the threshold. It bites what it cannot see.* A snake that feels the veil. Laid on grave earth across a door, it lets ordinary people walk past. A man in socks. A woman with a tray. It does not care about them. It strikes at anything that crosses which the eye cannot see. A spirit. A thing from the far side. A practitioner with the door in his chest open, pushing his sight ahead of him into the dark.
 
 The thing on the stage had not put it there to stop the police. It had put it there to stop people like him.
 
-"*Your gate,*" breathed Hana, beside him. "*Don't even think about it. You open a door through that doorway and it'll have your hand.*"
-
-"*I know,*" whispered Itsuki.
-
-"*And you,*" said Hana, to Rei. "*You've got your door open. I can feel it from here. You walk past that thing like that and it'll bite you in the leg, and whatever's on the stage will feel it like a bell.*"
+"*So that's what the painter saw,*" breathed Hana, beside him. "*If I jump past that, it'll have my leg. Anything that goes through the veil, it bites.*" She looked at Rei. "*And you've got your door open. I can feel it from here. You walk past that thing like that and it'll bite you in the leg, and whatever's on the stage will feel it like a bell.*"
 
 Rei looked at the snake. At its small black ordinary eyes, watching the air.
 
@@ -76,7 +74,7 @@ It was like going deaf. Like going blind. The hall went flat and ordinary and gr
 
 He had not realised how much he had come to rely on it. How frightening the world was without it.
 
-Hana walked first. She did it the way you do it on a crowded train, quietly, with her shoulders down, a girl in white going to the toilet. She stepped over the sill. The snake did not move. Its tongue flickered at the air beside her ankle and found nothing it cared about.
+Hana walked first. She went quietly, with her shoulders down, a girl in white going to the toilet. She stepped over the sill. The snake did not move. Its tongue flickered at the air beside her ankle and found nothing it cared about.
 
 Rei followed.
 
@@ -94,7 +92,7 @@ The stairs went down into concrete and cold. At the bottom there was one bare bu
 
 Rei lifted the latch.
 
-It came back all at once, the way hearing comes back after a loud noise. The cold. The thin place under the floor, worn through, like a hole in a sock. And the nine. Eight small, weak, flickering lights. And one that was not flickering any more.
+It came back all at once, like hearing after a loud noise. The cold. The thin place under the floor, worn through, like a hole in a sock. And the nine. Eight small, weak, flickering lights. And one that was not flickering any more.
 
 They were thin. Very thin. Weeks thin. They wore white clothes gone grey with dirt. They lay on their backs with their eyes open, looking up at the concrete ceiling, at nothing. All of them were smiling. Soft, sweet, peaceful smiles. Awe. The demon had filled them with awe and then left them down here in the dark, over the thin place, to be drunk from, slowly, like the old people on the Arakawa.
 
@@ -102,23 +100,33 @@ Hana knelt beside the one who was not breathing. A young man, about twenty, with
 
 "Eight," she said. "Get them up."
 
-Rei took out his phone and sent one word to the number upstairs.
+"How many can you carry?" said Rei.
 
-*now*
+Hana looked at the high window at the top of the wall, at street level, with bars on it and the wet black alley behind. She looked at the eight.
 
-The basement had one small high window, at street level, with bars on it and the wet black alley behind. In the alley, Itsuki was waiting. Rei felt him put his hand on the outside wall. Felt him think of a bridge. Felt the wall under the window go soft, like a road in the heat, and open.
+"One at a time," she said. "Out there. It's twenty metres." She pushed her sleeves up. "Eight times twenty metres. I've never done eight." She took a breath. "Hold them up for me. Sitting. I need to see their faces."
 
-Not through the threshold. Not past the snake. Through the side of the building, from the alley straight into the basement, with nothing in between.
+Rei got the first one sitting up, a girl of about seventeen with her hair cut short, her head lolling on his shoulder. Hana put her hand on the girl's wrist and closed her eyes.
 
-Cold wet air came in, smelling of rain and petrol.
+The girl was gone. The weight left Rei's arm all at once. Through the bars of the window he heard a small wet sound in the alley, and Itsuki's voice, quite close, saying "I've got her, I've got her," and the scrape of a sketchbook being dropped on wet concrete.
 
-They carried them out through Itsuki's door. One at a time. Rei and Hana with an arm each, walking them through, into the alley, where Itsuki stood with his palm flat on the wall and his face white and his nose starting to bleed, and did not let go until the eighth one was through.
+Hana opened her eyes. "Next."
+
+They did it eight times. Rei held them up one by one, the girl and the two brothers and the old woman with the bad hip and the boy who kept smiling, and Hana took each one by the wrist and sent them through the veil and out into the rain, where Itsuki caught them and sat them against the wall under the noodle shop's overhang and put his jacket over the first one and then had nothing else to put over the others. By the fifth Hana was grey. By the sixth there was blood coming out of her nose, dripping off her chin onto her white shirt, and she did not wipe it. By the eighth she was holding the wall.
+
+"Now you," said Rei.
+
+"Can't." She laughed. It came out thin. "Not two more. Not you and me. You go up the stairs. Past the snake. Latch shut. Just walk."
+
+"I'm not leaving you down here."
+
+"Then we both walk," said Hana, and wiped her nose at last, on her sleeve, and looked at the blood on it with something like interest. "Give me a minute."
 
 [break The sky]
 
 Upstairs, the man on the stage was screaming. Rei heard it through the ceiling, over the pachinko noise.
 
-Not in his own voice. In the demon's. A high, wild, joyful shriek, like a child on a rollercoaster. It had felt the cold air from the alley. It had felt the door in the wall. It had felt eight of its herd go out of its reach at once. And it did what demons do. It did not think. It wanted, and it moved.
+Not in his own voice. In the demon's. A high, wild, joyful shriek, like a child on a rollercoaster. It had felt eight of its herd go out of its reach, one after another, through the veil, like teeth being pulled. And it did what demons do. It did not think. It wanted, and it moved.
 
 It wanted Rei.
 
@@ -128,11 +136,11 @@ He put his hand on his wrist.
 
 He did not lift the latch. He held it. He felt the wave hit the closed door in his chest and break on it, like the sea on a wall.
 
-And Gorō came through the wall.
+And Gorō came through the window.
 
-Through Itsuki's door, from the wet alley, a big black and white crow with one pale blue eye came in at full speed, low over the mats, and hit the man in the face with both feet and his heavy beak, screaming *kaa kaa kaa* like an alarm. The man fell. He hit the concrete hard, on his back, with the crow on his chest, pecking.
+Between the bars, from the wet alley, folding his wings flat at the last moment, a big black and white crow with one pale blue eye came in at full speed, low over the mats, and hit the man in the face with both feet and his heavy beak, screaming *kaa kaa kaa* like an alarm. The man fell. He hit the concrete hard, on his back, with the crow on his chest, pecking.
 
-Hana was there. She had a handful of iron filings. She pressed them flat against the man's forehead with her palm and held them there.
+Hana came off the wall. She had a handful of iron filings in her pocket, as Grid people always do. She pressed them flat against the man's forehead with her palm and held them there.
 
 The demon came out of him like steam out of a kettle. A shriek. A rush of something bright and enormous and empty, going up, up, through the concrete and the pachinko parlour and the badly painted sky in the hall above, and away.
 
@@ -148,21 +156,27 @@ Some of them cried. Some of them walked out without a word and went home. Some o
 
 The man in the white robe sat on the basement stairs with his head in his hands until the police came. He did not try to run. He kept saying the same thing. *I only wanted to show them something beautiful. I only wanted to show them something beautiful.*
 
-The rat snake was still coiled on its grave earth across the blue door, guarding nothing now. Hana put it in a cardboard box to take to someone in the Grid who kept animals. "It did its job," she said. "It's not its fault the job was stupid."
+The snake was still coiled on its grave earth across the blue door, guarding nothing now. Hana put it in a cardboard box to take to someone in the Grid who kept animals. "It did its job," she said. "It's not its fault the job was stupid."
 
-Outside, in the rain, Itsuki sat on the kerb with a towel against his bleeding nose. Hana stood beside him, smoking.
+Outside, in the rain, Hana sat on the kerb with a towel against her nose. Itsuki sat beside her with his wet sketchbook open on his knees. The fourth drawing was on the page, and he had not shown it to anyone. It was Hana, sitting on a kerb, with a towel.
 
-"You held that door for nine minutes," she said. "With nine people going through it."
+"You drew this before," said Hana, looking at it. "Before we went in."
 
-"Eight," said Itsuki.
+"Yes."
 
-"Eight." She looked at the cigarette. "You're good. For a Kuroda."
+"And you didn't tell me."
+
+"You'd have done it anyway," said Itsuki. "And then you'd have been cross with me as well."
+
+Hana looked at the drawing for a long time. Then she took the cigarette out of her mouth.
+
+"You're good," she said. "For a Kuroda."
 
 "Thank you," said Itsuki. "That's the nicest thing a Grid person has ever said to me."
 
 "Don't get used to it."
 
-Rei sat on the kerb on Itsuki's other side. Gorō landed on his shoulder, wet and furious, with one tail feather bent sideways and a smear of the man's blood on his beak, and pressed his head against Rei's ear.
+Rei sat on the kerb on Hana's other side. Gorō landed on his shoulder, wet and furious, with one tail feather bent sideways and a smear of the man's blood on his beak, and pressed his head against Rei's ear.
 
 "Kaa," he said quietly.
 
