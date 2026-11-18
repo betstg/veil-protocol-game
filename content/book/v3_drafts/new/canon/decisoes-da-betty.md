@@ -472,3 +472,24 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Healer foi humano há muito tempo. A escrita e os nomes da época dele eram diferentes.
 - O Kato pode fazer uma piada ou outra, mas não liga. Está acostumado a não gostarem dele. Depois começa a soltar mais piadas perto do Rei, porque percebe que o Rei não tem medo de ter a mente lida.
 - O homem cansado do Bible se chama Tachibana, mas Tachibana é o sobrenome do Healer. Para não confundir, no livro ele virou Sr. Hirose. A galeria é a Kamiya Ginza, o peixeiro morto é o Ōta Kichizō da peixaria Uokichi. Invenção minha, a aprovar.
+
+## Decisões de 19 de novembro
+
+### A mente por dentro
+- Quando um telepata entra na mente de alguém, existe um lugar lá dentro e ele faz uma pequena jornada por esse lugar, como no Dragon Age com o Lucanis.
+- O lugar tem a cara de quem manda no corpo. Na possessão, o demônio assumiu o corpo, e o dono fica sozinho no fundo da própria mente. O demônio não fica sentado ao lado dele.
+- A mente do Gin com o Healer dentro não pode ser ruim, porque o Healer é bom.
+- A mente da Rinka com o Kishin é um purgatório, só coisa ruim.
+- A mente do Usami é fofa. Fã de Pokémon, um parque da Nintendo enorme, Hello Kitty, tudo o que ele ama. Todos os amigos estão lá, até quem não gosta dele. Totalmente gentil.
+
+### Coisas sem nexo
+- O Tanaka resolvendo com bolinho de arroz era estúpido. Não pode ter solução boba. Revisar se existe outra coisa assim.
+- Umeboshi se escreve umeboshi. Não traduzir como ameixa.
+
+### O dinheiro do Gin
+- A mensagem do banco não chega no dia da batalha. Chega antes, e o Rei usa o dinheiro aos poucos para ajudar a resistência, chamar a Grid para o lado dele, montar o próprio arsenal, comprar roupa e pagar alguma coisa para um amigo.
+
+### Poderes
+- O novo diretor é o telepata em quem ninguém confia, e no fim ele fica fortíssimo.
+- Fazer o que cada habilidade faz em cada nível, com poderes num nível absurdo, porque isso vai para o jogo. Telepatia quase como um Mangekyou Sharingan.
+- O teleporte cruza dimensões, e isso é descoberto depois. No alto nível o teleportador põe uma casa inteira ou um bairro inteiro numa dimensão intermediária por um tempo.
