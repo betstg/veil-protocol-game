@@ -14,3 +14,4 @@ Os arquivos ainda têm a numeração antiga. Na revisão final eles serão renum
 - 31.txt e a antiga proposta do Healer continuam fora do livro.
 - 76a.txt (The Listener) e 76b.txt (Hearts) entram depois do 76 e antes do 77. São capítulos da mesma noite em outros pontos de Kita, Ōji com o Kato e o Usami, Tabata com o Moriya, a Okada e o Sena, e o canal de Higashi-Jūjō com o Mori, o Hoshino e o Inoue Satoru.
 - 35a.txt é o capítulo novo "Twenty-One". Os aniversários do Rei (sexta da terceira semana de janeiro) e do Itsuki (18 de fevereiro), com o Itsuki na Sala Nove. Vem depois do 35 e antes do 36.
+- 86a.txt é o capítulo novo "The Level Under" (outubro). O 49º dia da Shimizu em Kawaguchi, a visita ao Tendo no B5 no lugar dela, a Rinka na Sala Nove com o Tanaka e a pedra, o Itsuki e o Uruma desenhando o selo do Tendo. Vem depois do 86.
