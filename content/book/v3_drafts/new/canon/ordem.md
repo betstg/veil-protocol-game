@@ -8,3 +8,7 @@ Os arquivos ainda têm a numeração antiga. Na revisão final eles serão renum
 - Cronologia final. O livro termina no Obon, um ano depois da possessão. Do R40 em diante o tempo aperta. Junho R40 a R42, julho R43 a R46, fim de julho e começo de agosto R47 em diante, e a última semana até o Obon.
 - 70a.txt é o capítulo novo "A sala sem número" (The Room Without a Number). Vem logo depois do 70 (R58). O demônio da Coragem dá a ideia de pedir aos mortos do Obon que voltem pelas portas da Kanna todos de uma vez.
 - 68, 69 e 70 acontecem na noite do dia dezesseis. O R59 em diante também.
+- 85.txt agora é "Morning", a manhã do dia dezessete e as três noites na mesa da cozinha em que o Healer volta para o outro lado.
+- 86.txt é o capítulo novo "Os quadros" (The Paintings). O Soun passa a casa ao Itsuki.
+- 87.txt é o epílogo "Lanterns", no Obon do ano seguinte. Fecha com o Gin escrevendo a última linha.
+- 31.txt e a antiga proposta do Healer continuam fora do livro.
