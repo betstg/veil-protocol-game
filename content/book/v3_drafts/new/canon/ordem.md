@@ -12,3 +12,4 @@ Os arquivos ainda têm a numeração antiga. Na revisão final eles serão renum
 - 86.txt é o capítulo novo "Os quadros" (The Paintings). O Soun passa a casa ao Itsuki.
 - 87.txt é o epílogo "Lanterns", no Obon do ano seguinte. Fecha com o Gin escrevendo a última linha.
 - 31.txt e a antiga proposta do Healer continuam fora do livro.
+- 76a.txt (The Listener) e 76b.txt (Hearts) entram depois do 76 e antes do 77. São capítulos da mesma noite em outros pontos de Kita, Ōji com o Kato e o Usami, Tabata com o Moriya, a Okada e o Sena, e o canal de Higashi-Jūjō com o Mori, o Hoshino e o Inoue Satoru.
