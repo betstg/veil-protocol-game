@@ -62,3 +62,22 @@ Mais capítulos, cada um com um lugar e um trabalho.
 8. O Kishin. O Haruki entra na mente do Gin e acha o Gin no fundo. O Gin acorda a Severance com medo. O Healer remenda (R68).
 9. A Fonte, a cadeira e o fim (R69, R70).
 - Plantado no 30. A lista de promessas no fim do livro do Gin termina em *Okada, the thing she asked*. Pagar quando a Okada contar ao Rei qual foi a confidência (de preferência na manhã depois da batalha ou no epílogo).
+
+## Estado em 18 de novembro
+
+Feito
+- 82 reescrito. Luta do Healer com os dons do Gin, o Riki e o Adachi, o Haruki na mente do Gin, a Severance com medo, o Kurosawa lendo o corpo.
+- 81 ganhou a cena do Tanaka curando antes do exorcismo.
+- 85 paga a Okada (a ligação antes de ir olhar algo sozinho).
+- 73 ganhou a ligação do Imai Tetsuya.
+- 35a novo, Twenty-One, os aniversários.
+- 86a novo, The Level Under. Shimizu, Tendo, Rinka, Uruma e Itsuki.
+- 86b novo, Seven Stars. Katagiri, o rádio, a reunião das famílias, Sena, chefes sem nome.
+
+Fora de propósito
+- Os círculos em washi na gaveta. Nunca foram plantados no texto.
+- O chaveiro reserva. A chave do passadiço já é o chaveiro, e volta ao gancho no 85.
+- A Recusa Final fica dormindo. O Kurosawa diz isso no 82.
+
+Falta
+- Revisão de ritmo e frase de efeito nos capítulos 51 a 81 e 83 a 87.
