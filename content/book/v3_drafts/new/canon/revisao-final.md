@@ -61,3 +61,4 @@ Mais capítulos, cada um com um lugar e um trabalho.
 7. As perdas. A Shimizu e o Majima. O menino sem nome. O Tanaka cura antes de exorcizar (R67).
 8. O Kishin. O Haruki entra na mente do Gin e acha o Gin no fundo. O Gin acorda a Severance com medo. O Healer remenda (R68).
 9. A Fonte, a cadeira e o fim (R69, R70).
+- Plantado no 30. A lista de promessas no fim do livro do Gin termina em *Okada, the thing she asked*. Pagar quando a Okada contar ao Rei qual foi a confidência (de preferência na manhã depois da batalha ou no epílogo).
