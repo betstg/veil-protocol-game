@@ -3,253 +3,235 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Inter:wght@400;500;600&display=swap">
 <style>
-/* Layout. A wheel of six paths on top, a ladder of four tiers under it. Light page only, for reading. */
+/* Layout. Wheel of six paths on top. Under it, the ladder of Betty's ranks, Axis at the top. Light page only, for reading. */
 :root{
   --bg:#fbfaf7; --paper:#ffffff; --ink:#1f2430; --soft:#5d6472; --line:#e6e2da;
   --clair:#2f7fd8; --tele:#8a4fd6; --meta:#1f9e6e; --tk:#d9822b; --pk:#e0475b; --tp:#0fa3b1;
-  --bible:#6b7280; --betty:#d63a8a; --prop:#e09a1a;
+  --bible:#6b7280; --betty:#d63a8a; --real:#2f9e44; --prop:#e09a1a; --book:#3b6fd8;
   --display:"Zen Maru Gothic","Hiragino Maru Gothic ProN",system-ui,sans-serif;
   --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
   color-scheme:light;
 }
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
-.wrap{max-width:1080px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);letter-spacing:.01em;margin:0;text-wrap:balance}
-.lead{color:var(--soft);max-width:62ch;margin:8px 0 0}
-.legend{display:flex;flex-wrap:wrap;gap:14px;margin:16px 0 0;font-size:13px;color:var(--soft)}
+.wrap{max-width:1100px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);margin:0;text-wrap:balance}
+.lead{color:var(--soft);max-width:66ch;margin:8px 0 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:14px 0 0;font-size:13px;color:var(--soft)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
 .dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
-.top{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:28px;margin-top:24px;align-items:start}
+.top{display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:24px;margin-top:22px;align-items:start}
 @media (max-width:820px){.top{grid-template-columns:minmax(0,1fr)}}
-.wheel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:14px}
+.wheel{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:12px}
 .wheel svg{width:100%;height:auto;display:block}
-.wedge{cursor:pointer;transition:opacity .2s, transform .2s;transform-origin:200px 200px}
-.wedge:hover{opacity:.9}
+.wedge{cursor:pointer;transition:opacity .2s,transform .2s;transform-origin:200px 200px}
 .wedge:focus{outline:none}
 .wedge:focus-visible path{stroke:var(--ink);stroke-width:3}
-.wedge.off{opacity:.62}
+.wedge.off{opacity:.6}
 .wedge.on{transform:scale(1.035)}
-.wlabel{font-family:var(--display);font-weight:700;font-size:12.5px;fill:#fff;paint-order:stroke;stroke:rgba(0,0,0,.18);stroke-width:2px;pointer-events:none}
+.wlabel{font-family:var(--display);font-weight:700;font-size:12.5px;fill:#fff;pointer-events:none;paint-order:stroke;stroke:rgba(0,0,0,.18);stroke-width:2px}
 .center-t{font-family:var(--display);font-weight:900;font-size:15px;fill:var(--ink)}
 .center-s{font-size:10px;fill:var(--soft)}
-.wheel-note{font-size:12.5px;color:var(--soft);margin:10px 4px 2px}
-.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 14px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px}
 .head h2{font-family:var(--display);font-weight:900;font-size:clamp(24px,4vw,32px);margin:0;color:var(--c)}
 .head .kanji{font-family:var(--display);font-size:22px;color:var(--c);opacity:.75}
-.tagline{color:var(--soft);margin:4px 0 0;max-width:60ch}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:14px}
+.tagline{color:var(--soft);margin:4px 0 0;max-width:62ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:12px}
 .fact{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-width:0}
 .fact b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:600;margin-bottom:4px}
 .fact p{margin:0;font-size:13.5px}
-.people{display:flex;flex-wrap:wrap;gap:6px}
-.person{font-size:12.5px;padding:3px 9px;border-radius:999px;background:color-mix(in srgb,var(--c) 12%,#fff);color:var(--ink);border:1px solid color-mix(in srgb,var(--c) 30%,#fff)}
-.ladder{margin-top:26px;display:flex;flex-direction:column;gap:12px}
-.tier{display:grid;grid-template-columns:116px minmax(0,1fr);gap:14px;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px;position:relative;overflow:hidden}
-.tier::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--c);opacity:var(--a)}
-@media (max-width:560px){.tier{grid-template-columns:minmax(0,1fr)}}
-.lvl{font-family:var(--display);padding-left:6px}
-.lvl strong{display:block;font-size:17px;font-weight:900;color:var(--c)}
-.lvl small{color:var(--soft);font-size:12px}
-.groups{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
-@media (max-width:720px){.groups{grid-template-columns:minmax(0,1fr)}}
+.ladder{margin-top:24px;display:flex;flex-direction:column;gap:10px}
+.rank{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.rank > button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;cursor:pointer;position:relative}
+.rank > button::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--c);opacity:var(--a)}
+.rank > button:focus-visible{outline:2px solid var(--c);outline-offset:-2px;border-radius:16px}
+@media (max-width:560px){.rank > button{grid-template-columns:minmax(0,1fr) auto}.rank .sum{grid-column:1/-1;grid-row:2}}
+.rname{font-family:var(--display);padding-left:8px}
+.rname strong{display:block;font-size:17px;font-weight:900;color:var(--c)}
+.rname small{color:var(--soft);font-size:12px}
+.sum{font-size:13.5px;color:var(--soft);min-width:0}
+.count{font-size:12px;color:var(--c);font-weight:600;white-space:nowrap}
+.rank .body{padding:0 14px 14px 22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:720px){.rank .body{grid-template-columns:minmax(0,1fr)}}
+.rank:not(.open) .body{display:none}
 .gtitle{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-weight:600;margin:0 0 6px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{font-size:13px;line-height:1.35;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);display:inline-flex;gap:7px;align-items:flex-start;max-width:100%}
 .chip .dot{margin-top:4px}
 .chip em{font-style:normal;color:var(--soft);font-size:12px}
 .std .chip{background:color-mix(in srgb,var(--c) 8%,#fff);border-color:color-mix(in srgb,var(--c) 25%,#fff)}
-.cost{margin-top:10px;font-size:13px;color:var(--soft)}
+.who .chip{background:#fff}
+.cost{margin-top:12px;font-size:13.5px;color:var(--soft);background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
 .cost b{color:var(--ink);font-weight:600}
-.outside{margin-top:40px}
-.outside h3,.extra h3{font-family:var(--display);font-weight:900;font-size:22px;margin:0 0 10px}
+.notes{margin-top:36px}
+.notes h3{font-family:var(--display);font-weight:900;font-size:22px;margin:0 0 10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px 16px;min-width:0}
-.card h4{font-family:var(--display);font-weight:700;font-size:17px;margin:0 0 4px}
+.card h4{font-family:var(--display);font-weight:700;font-size:16px;margin:0 0 6px}
 .card p{margin:4px 0;font-size:13.5px}
-.extra{margin-top:40px}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
-.step{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
-.step b{font-family:var(--display);font-size:16px;display:block}
-.step p{margin:4px 0 0;font-size:13px;color:var(--soft)}
-.src{margin-top:40px;font-size:12.5px;color:var(--soft)}
-.src a{color:var(--clair)}
 @media (prefers-reduced-motion:reduce){.wedge{transition:none}}
 </style>
 
 <div class="wrap">
   <h1>Roda dos Poderes</h1>
-  <p class="lead">Os seis caminhos do Bible, cada um em quatro faixas. Em cada faixa tem o que todo médium daquele caminho faz e o que depende do médium. Toque num caminho da roda.</p>
+  <p class="lead">Os seis caminhos do Bible nos ranks que você definiu. Em cada rank está o que ele abre, o que é usado em luta, o que muda de médium para médium e quem está ali no livro. Toque num caminho e depois num rank.</p>
   <div class="legend" aria-label="Origem de cada poder">
-    <span><i class="dot" style="background:var(--bible)"></i>Vem do Bible</span>
-    <span><i class="dot" style="background:var(--betty)"></i>Ideia da Betty</span>
+    <span><i class="dot" style="background:var(--bible)"></i>Bible</span>
+    <span><i class="dot" style="background:var(--betty)"></i>Decisão da Betty</span>
+    <span><i class="dot" style="background:var(--real)"></i>Base real, proposta para aprovar</span>
     <span><i class="dot" style="background:var(--prop)"></i>Proposta minha, para aprovar</span>
+    <span><i class="dot" style="background:var(--book)"></i>Já usado no livro, para aprovar</span>
   </div>
 
   <div class="top">
-    <div class="wheel">
-      <svg id="wheel" viewBox="0 0 400 400" role="group" aria-label="Roda dos seis caminhos"></svg>
-      <p class="wheel-note">Cada caminho é vizinho dos dois do lado. Um vizinho pode ser aberto treinando com quem tem. O do outro lado da roda exige abrir o do meio primeiro.</p>
-    </div>
+    <div class="wheel"><svg id="wheel" viewBox="0 0 400 400" role="group" aria-label="Roda dos seis caminhos"></svg></div>
     <div id="info"></div>
   </div>
 
   <div class="ladder" id="ladder"></div>
+  <div class="cost" id="cost"></div>
 
-  <section class="outside">
-    <h3>Fora da roda</h3>
-    <div class="cards" id="outside"></div>
+  <section class="notes">
+    <h3>Como os ranks foram encaixados</h3>
+    <div class="cards">
+      <div class="card"><h4>Rank e nível</h4><p>O rank é a abertura com que a pessoa nasce e não se treina. O nível, de 1 a 10, é o quanto ela treinou dentro do caminho. O rank é o teto do nível (Bible).</p></div>
+      <div class="card"><h4>Proposta de encaixe</h4><p>Sensitivo chega ao nível 1. Postulado ao 2. Adepto ao 3. Ritualista ao 5. Árbitro ao 8. Vanguarda ao 9. Guardião ao 10. Singularidade abre um segundo caminho. Axis não é rank, é estado. O Bible já dá Árbitro 8, Vanguarda 9 e Guardião 10.</p></div>
+      <div class="card"><h4>Onde o Bible briga com você</h4><p>O Bible tem o Channel entre Ritualista e Árbitro, e você não tem. O Bible põe a Singularidade antes do Guardião, e a sua decisão põe depois. O Bible dá Telecinese de mestre à Shimizu como Clarisenciência e Teleporte ao Kurosawa. O Bible deixa o teleporte levar o corpo de um possuído para o círculo de sal, e você decidiu que teleporte não funciona com possuído. Em tudo isso vale a sua palavra, e o Bible vai ser corrigido.</p></div>
+    </div>
   </section>
-
-  <section class="extra">
-    <h3>Graus de possessão</h3>
-    <div class="steps" id="steps"></div>
-  </section>
-
-  <p class="src">Base real usada. Kardec, <a href="https://kardecpedia.com/en/study-guide/884/the-mediums-book/7287/part-second-spirit-manifestations/chapter-xvi-special-mediums/synoptical-list-of-the-different-varieties-of-mediums" target="_blank" rel="noopener">O Livro dos Médiuns, quadro dos tipos de médiuns</a>. <a href="https://en.wikipedia.org/wiki/Exorcism_in_the_Catholic_Church" target="_blank" rel="noopener">Exorcismo na Igreja Católica</a>. <a href="https://lordofthemysteries.fandom.com/wiki/Sequence" target="_blank" rel="noopener">Sequências de Lord of the Mysteries</a>. Budismo japonês (chūu, o estado do meio de 49 dias), xintoísmo (oharai, kotodama), Shugendō (kaji kitō, fogo goma), Umbanda (descarrego, ponto riscado).</p>
 </div>
 
 <script>
-const B="bible",T="betty",P="prop";
+const B="bible",T="betty",R="real",P="prop",L="book";
+const oc={bible:"var(--bible)",betty:"var(--betty)",real:"var(--real)",prop:"var(--prop)",book:"var(--book)"};
+const rankNames=[["Sensitivo","nível 1"],["Postulado","nível 2"],["Adepto","nível 3"],["Ritualista","níveis 4 e 5"],["Árbitro","níveis 6 a 8"],["Vanguarda","nível 9"],["Guardião","nível 10, os Treze"],["Singularidade","segundo caminho"],["Axis","estado, não rank"]];
+const second=[["Abre um segundo caminho sem perder a sanidade.",T]];
+const axis=[["A Fonte. Percebe e segura a cidade inteira, vivos e mortos.",B]];
 const paths=[
- {id:"clair",name:"Clarisenciência",kanji:"感",c:"--clair",tag:"O caminho da percepção. Sentir o que está ali e o que já esteve.",
-  real:"Médiuns sensitivos, videntes e audientes de Kardec. Psicometria, a leitura de objetos. O pressentimento.",
-  people:["Gin","Rei","Adachi","Yamamoto","Okada","Uehara"],
-  tiers:[
-   {std:[["Sente presença no corpo. Frio, peso, cheiro.",B],["Lê o clima de um lugar. Não desliga.",B],["Sente uma entidade a vinte metros.",B]],
-    var:[["Ouve os mortos (audiente).",P],["Vê sombras e formas (vidente).",P],["Lê um objeto tocado nos últimos meses.",B]]},
-   {std:[["Percebe mentira na superfície de uma pessoa.",B],["Vê a dupla camada de um possuído.",B],["Reconstrói uma cena de anos atrás no lugar onde ela aconteceu.",B]],
-    var:[["Lê a vida inteira de um objeto ou de uma casa.",B,"Okada"],["Prevê o próximo golpe numa luta.",B],["Segue uma assinatura pela cidade como um cheiro.",P]]},
-   {std:[["Leitura profunda de memória e intenção.",B],["Acha fragmentos de alma.",B],["Vê do que a entidade tem medo.",B]],
-    var:[["A cidade fica transparente.",B,"Kurosawa"],["Inunda de sensação quem tenta ler você.",B],["Quebra a supressão de outra pessoa.",B]]},
-   {std:[["Isolamento de frequência. Acha uma consciência dentro de um possuído e uma pessoa em Tóquio inteira.",B]],
-    var:[["Ler a cidade. Todas as almas acesas como um mapa.",P],["Meio segundo à frente. Nada acerta quem vive antes dos outros.",P]]}
-  ],
-  cost:"Dor atrás dos olhos, nariz sangrando, insônia. O mundo não desliga e as vozes acumulam."},
- {id:"tele",name:"Telepatia",kanji:"念",c:"--tele",tag:"O caminho da mente. Entrar na água onde a clarisenciência só vê a superfície.",
-  real:"Médiuns inspirados e falantes de Kardec. A doutrinação espírita. O kotodama japonês, a força que mora na palavra dita.",
-  people:["Kato","Usami","Haruki","Tanizaki"],
-  tiers:[
-   {std:[["Recebe quem sofre perto, sem querer.",B],["Lê a superfície com consentimento.",B],["Sente a intenção antes do gesto.",B]],
-    var:[["Ouve em imagens.",P],["Ouve em palavras.",P],["Sente a emoção do outro no próprio corpo.",P]]},
-   {std:[["Leitura dirigida.",B],["Manda emoção para outra cabeça.",B],["Conversa com espíritos.",B]],
-    var:[["Ouve duas camadas num possuído.",B,"Kato"],["Liga várias mentes ao mesmo tempo, como mesa telefônica.",P,"Haruki"],["Transmite dor.",B]]},
-   {std:[["Sugestão pela palavra, o kotodama que obriga.",B],["Navegação de consciência. Entra na mente e anda pela paisagem dela.",B],["Interface com demônio.",B]],
-    var:[["Segura cem pessoas paradas com uma palavra.",P,"Kato"],["Fratura de consciência. Força o demônio a brigar com o dono do corpo.",B],["Entra no sonho de quem dorme.",P]]},
-   {std:[["Ressonância total com outra mente.",B]],
-    var:[["A Sala. Puxa até cem mentes para um lugar interior onde ele manda e o tempo corre como ele quer.",P,"Kato"],["O Coro. Fala dentro de todas as cabeças de um bairro.",P],["Desliga uma possessão sem contrato fazendo o demônio e o dono se ouvirem por inteiro.",P]]}
-  ],
-  cost:"Carrega para sempre o que leu. Na Sala perde pedaços das próprias lembranças. Ninguém confia em quem lê mentes."},
- {id:"meta",name:"Psicometabolismo",kanji:"身",c:"--meta",tag:"O caminho do corpo. Ajuda no corpo e nos ferimentos, não no poder mediúnico.",
-  real:"Médiuns curadores de Kardec. O passe e a imposição de mãos. O Reiki, criado no Japão por Usui em 1922.",
-  people:["Moriya","Tanaka","Katagiri","Kurosawa","o Healer"],
-  tiers:[
-   {std:[["Estabiliza o próprio corpo.",B],["Lê ferimento e doença pelo toque.",B],["Alivia a dor de outra pessoa.",B]],
-    var:[["Sente veneno ou droga no sangue.",P],["Aquece ou esfria o próprio corpo.",P]]},
-   {std:[["Acelera a recuperação.",B],["Mantém outra pessoa de pé.",B],["Diminui o coração e a respiração de outro.",B],["Lê a causa de uma morte de até uma semana.",B]],
-    var:[["Puxa a febre ou a dor para a própria mão.",P,"Tanaka"],["Empresta batidas do próprio coração.",P,"Moriya"],["Segura o corpo de um possuído parado.",B]]},
-   {std:[["Segura o hospedeiro no exorcismo para ele não sair junto.",B],["Influência biológica.",B],["Limpa o resíduo do véu do corpo.",B]],
-    var:[["Choque metabólico. Desmaio ou paralisia num toque.",B],["Lê o corpo de um possuído e diz quanto ele aguenta.",P,"Kurosawa"],["Trava o outro como estátua.",P]]},
-   {std:[["Leitura metabólica total.",B]],
-    var:[["Um só coração. Cem pessoas batendo junto com ele.",P],["Segurar um bairro vivo por uma noite.",P],["Remendar alma, pedaço por pedaço. Só o Healer.",P,"Healer"]]}
-  ],
-  cost:"Quem cura paga com o próprio corpo. Mãos queimadas, coração disparado, laços com quem foi curado."},
- {id:"tk",name:"Telecinese",kanji:"力",c:"--tk",tag:"O caminho da força. A mais visível e a que mais faz barulho do outro lado.",
-  real:"Médiuns de efeitos físicos de Kardec. Batidas na madeira, objetos que andam, a levitação de D. D. Home. O poltergeist.",
-  people:["Shimizu","Majima","Itsuki"],
-  tiers:[
-   {std:[["Empurra e puxa coisas leves.",B],["Bate na madeira e na parede.",P],["Segura uma porta fechada.",P]],
-    var:[["Só funciona com raiva.",P],["Move água.",P]]},
-   {std:[["Ponto de força, o golpe reforçado.",B,"Majima"],["Para um objeto no ar.",P],["Segura um peso grande por pouco tempo.",P]],
-    var:[["Arquitetura de contenção, o método Orimoto.",B],["Escudo na frente do corpo.",P],["Levita o próprio corpo.",P]]},
-   {std:[["Segura um teto.",P],["Para um carro.",P],["Move muitas coisas ao mesmo tempo.",P]],
-    var:[["Gravidade num cômodo.",B],["Despedaça de dentro para fora.",P]]},
-   {std:[["Domínio da arquitetura do espaço.",B]],
-    var:[["Segura um prédio que desaba.",P],["Levanta a água de um rio.",P],["Magneto sem precisar de metal.",T,"Itsuki"]]}
-  ],
-  cost:"Veia na testa, joelhos cedendo, coração disparado. Faz muito barulho do outro lado e chama atenção."},
- {id:"pk",name:"Psicocinese",kanji:"気",c:"--pk",tag:"O caminho da energia. Calor, frio, raio, som, luz.",
-  real:"As pessoas elétricas de Kardec. O poltergeist que mexe em aparelhos. O fogo-fátuo japonês, kitsunebi e hitodama. O fogo goma de Fudō Myōō.",
-  people:["Sena","Tendo","Inoue Misaki","o Healer"],
-  tiers:[
-   {std:[["Mexe em eletrônicos. A luz pisca, o rádio chia.",B],["Esquenta ou esfria a mão.",B],["Estática na pele.",P]],
-    var:[["Só fogo.",P],["Só frio.",P],["Só som.",P]]},
-   {std:[["Muda a temperatura de um cômodo.",B],["Descarga elétrica.",B],["Acende ou apaga uma chama.",P]],
-    var:[["Raio.",P,"Sena"],["Congela água e estoura pneu.",P,"Sena"],["Queimadura de membrana. Queima espírito sem queimar gente.",B]]},
-   {std:[["Pressão de membrana.",B],["Cortina de calor ou de frio.",P],["Null Space, até dez metros onde nada vê de fora.",B,"Misaki"]],
-    var:[["Chama que só queima espírito, como o fogo goma.",P],["Apaga a luz de um quarteirão.",P],["Onda de som que derruba.",P]]},
-   {std:[["Domínio da energia num bairro.",P]],
-    var:[["Tempestade sobre um bairro.",P],["Ferver um canal.",P,"Mori"],["Null Space do tamanho de um estádio.",P]]}
-  ],
-  cost:"Febre, mãos queimadas ou geladas. Aparelhos morrem perto. O corpo vira um farol do outro lado."},
- {id:"tp",name:"Teleporte",kanji:"渡",c:"--tp",tag:"O caminho do trânsito. Quem salta passa pela camada do meio entre um lugar e outro.",
-  real:"Transporte e transladação de Kardec. A bilocação dos santos. O kamikakushi japonês. O chūu 中有, o estado do meio onde o morto passa 49 dias.",
-  people:["Gin","Hana","Kuroda Sei","Inoue Satoru"],
-  tiers:[
-   {std:[["Salta até trinta metros vendo o lugar.",B],["Salta até quinhentos metros para lugar conhecido.",B]],
-    var:[["Só objetos, não o corpo.",P],["Só para lugares onde já dormiu.",P]]},
-   {std:[["Leva um passageiro.",B],["Trânsito silencioso.",B],["Desarma. Tira o objeto da mão do outro.",T]],
-    var:[["Troca de lugar com um amigo.",T],["Anula a queda. Pula do prédio e chega ao chão.",T],["Redireciona o ataque. O raio vai para outro lugar.",T]]},
-   {std:[["Até cinco quilômetros.",B],["Até quatro pessoas.",B],["Chega à borda do Limiar.",B]],
-    var:[["Põe sal, prata ou ferro dentro do círculo do outro.",B],["Leva o possuído para dentro de um círculo de sal pronto.",B],["Manda um fantasma de volta ao plano dele.",T],["Leva armas e equipamento.",P]]},
-   {std:[["Travessia do Limiar para buscar alma expulsa.",B],["Vai ao plano dos espíritos se já esteve lá.",T]],
-    var:[["A Dobra. Guarda uma casa ou um bairro inteiro na camada do meio e devolve depois.",T],["Leva um grupo inteiro de uma vez.",P]]}
-  ],
-  cost:"Náusea, minutos perdidos, voltar com frio de morto. Não funciona com gente possuída (Betty). Na Dobra, se ele cair, o bairro fica lá."}
+{id:"clair",name:"Clarisenciência",kanji:"感",c:"--clair",tag:"O caminho da percepção. Ler o que está num lugar, numa pessoa ou num objeto, e o que já esteve.",
+ nb:"Telepatia e Teleporte",
+ real:"Os médiuns sensitivos, videntes, audientes e de pressentimento de Kardec. A psicometria, leitura de objetos. A visão à distância.",
+ cost:"Dor atrás dos olhos, nariz sangrando, insônia. Quem lê também pode ser lido. O resíduo das cenas acumula e precisa ser limpo (Bible).",
+ ranks:[
+  {open:[["Sente o peso emocional de um lugar, sem detalhe. Não desliga.",B]],fight:[],vary:[["Frio ou arrepio onde houve morte.",R],["Cheiro de incenso, flor ou podre sem fonte.",R],["Sonha com quem morou na casa.",R],["Fica mal em hospital e cemitério.",P]],who:[]},
+  {open:[["Sabe que há uma entidade a vinte metros e mais ou menos a classe, sem ver.",B]],fight:[],vary:[["Sabe pelo corpo se o espírito é bom ou ruim.",R],["Ouve batidas e passos.",R],["Vê sombra pelo canto do olho.",R],["Ouve o próprio nome chamado.",R]],who:[["Rei, como está registrado",B]]},
+  {open:[["Lê a história emocional de um objeto tocado nos últimos seis meses.",B]],fight:[],vary:[["Lê fotografia.",P],["Lê carta e letra de mão.",R],["Lê a roupa de quem sumiu.",P],["Sente vagamente onde o dono do objeto está.",P]],who:[["Ren",B]]},
+  {open:[["Lê o estado emocional de uma pessoa e percebe mentira.",B],["Vê entidades e a camada dupla de um possuído.",B]],fight:[["Leitura preditiva. Sabe onde o golpe vai cair antes.",B]],vary:[["Lê a biografia de objetos e lugares.",B,"Okada"],["Ouve o que o morto repete.",R],["Vê o animal dentro de um possuído por raposa ou cão.",R],["Sente doença no corpo de alguém.",R]],who:[["Okada",T]]},
+  {open:[["Reconstrói a história de um lugar de um a cinco anos.",B],["Leitura profunda de memória e intenção. Sem consentimento é violação.",B],["Vê fragmentos de alma absorvidos por uma entidade.",B]],fight:[["Inundação sensorial. Joga a história do lugar na cabeça do outro.",B],["Trava de assinatura. Ninguém se esconde dele, nem com supressão.",B]],vary:[["Vê um lugar longe dali.",R],["Pressentimento de morte.",R],["Percebe quem está sendo enganado por um espírito sem saber.",R],["Lê décadas de um lugar, e não só anos.",P]],who:[["Rei, de verdade",B]]},
+  {open:[["Visão arquitetônica. Lê a sala inteira de uma vez, quem mente, do que a entidade tem medo, para que o prédio serviu. Não desliga.",B]],fight:[["Leitura total. Diz ao time os fatos escondidos que importam.",B]],vary:[["Lê um demônio pelo rastro de dias antes.",P],["A cidade fica transparente.",B]],who:[["Gin, de verdade",B],["Adachi, aposentado do campo",B],["Yamamoto",T],["Uehara",T]]},
+  {open:[["Isolamento de frequência. Acha uma consciência dentro de um possuído, uma pessoa em Tóquio inteira, e alcança a Fonte.",B]],fight:[],vary:[["Sente todos que carregam o mesmo sentimento dele na cidade.",P],["Sente o véu afinando em qualquer bairro.",P]],who:[]},
+  {open:second,fight:[],vary:[["Vive meio segundo à frente dos outros.",P],["Lê o passado de um bairro inteiro.",P]],who:[]},
+  {open:axis,fight:[],vary:[],who:[["Kuze Kaname",T]]}
+ ]},
+{id:"tele",name:"Telepatia",kanji:"念",c:"--tele",tag:"O caminho da mente. A clarisenciência sabe que você está com raiva. A telepatia sabe por quê (Bible).",
+ nb:"Clarisenciência e Psicometabolismo",
+ real:"Os médiuns inspirados, falantes e escreventes de Kardec. A doutrinação espírita. As itako que emprestam a voz aos mortos. O kotodama japonês, a força que mora na palavra dita.",
+ cost:"Quem leu alguém fundo carrega isso para sempre (Bible). É o praticante de quem mais se desconfia (Bible).",
+ ranks:[
+  {open:[["Recebe o sofrimento de quem está a dez metros. Parece sentimento alheio sem explicação. Não desliga.",B]],fight:[],vary:[["Confundido com ansiedade a vida inteira.",B],["Sente o que um trem lotado sente.",P],["Recebe como se fosse pensamento próprio.",R]],who:[]},
+  {open:[["Lê a superfície de quem deixa, como um aperto de mão.",B]],fight:[],vary:[["Recebe em imagem e peso, não em palavras.",B],["Só funciona com toque.",P],["Só funciona com quem conhece.",P]],who:[]},
+  {open:[["Sente a intenção de quem está perto. Veio ajudar ou machucar. Está com medo. Está mentindo.",B]],fight:[["Leitura forçada. O outro sente a intrusão e perde o ritmo.",B]],vary:[["Sabe quem está mentindo numa sala cheia.",P]],who:[]},
+  {open:[["Leitura dirigida de uma memória ou intenção.",B],["Manda uma emoção ou impressão para outra pessoa.",B]],fight:[["Dor transmitida.",B]],vary:[["Ouve duas camadas num possuído.",L,"Kato"],["Escreve o que outra mente pensa.",R],["Empresta a voz a um morto, como as itako.",R]],who:[]},
+  {open:[["Conversa com espíritos e com demônios que ainda pensam.",B],["Sugestão. Planta uma vontade.",B],["Navegação de consciência. Entra na mente de alguém e anda lá dentro.",B]],fight:[["Intrusão de memória. Arranca uma lembrança ou apaga o que a pessoa estava fazendo.",B]],vary:[["A palavra que obriga, o kotodama.",R],["Liga várias mentes como uma mesa telefônica.",L,"Haruki"],["Conversa com um espírito obsessor até ele ir embora.",R],["Vê a paisagem da mente, a vida da pessoa por dentro.",T]],who:[]},
+  {open:[["Interface com demônio. Atrapalha o demônio de segurar a possessão.",B]],fight:[["Fratura de consciência. Força o demônio a brigar com o dono do corpo, e o dono sobe por inteiro.",B]],vary:[["Segura cem pessoas paradas com uma palavra.",L,"Kato"],["Fala em várias cabeças ao mesmo tempo.",P],["Ninguém consegue mentir para ele.",T]],who:[["Kato, no fim do livro",T],["Haruki",T],["Tanizaki",B]]},
+  {open:[["Ressonância total com outra mente. É como os Treze falam entre si.",B]],fight:[],vary:[],who:[]},
+  {open:second,fight:[],vary:[["Puxa várias mentes para dentro de um lugar só dele.",P]],who:[]},
+  {open:axis,fight:[],vary:[],who:[]}
+ ]},
+{id:"meta",name:"Psicometabolismo",kanji:"身",c:"--meta",tag:"O caminho do corpo. Ajuda no corpo e nos ferimentos, não no poder mediúnico (Betty).",
+ nb:"Telepatia e Telecinese",
+ real:"Os médiuns curadores de Kardec. O passe e a imposição de mãos. A benzedeira brasileira. O reiki japonês. Os ascetas que aguentam frio e fome.",
+ cost:"Quem cura paga com o próprio corpo. O médico vira infraestrutura e o time esquece que ele é gente (Bible). Ficam laços com quem ele segurou por horas (Bible).",
+ ranks:[
+  {open:[["Acalma o próprio corpo antes de uma ação.",B]],fight:[],vary:[["Aguenta frio e fome mais que os outros.",R],["Baixa o próprio coração.",R]],who:[]},
+  {open:[["Lê ferimento, droga e estado do corpo de alguém. Causa de morte de até uma semana.",B]],fight:[["Sabe onde o outro já está ferido.",B]],vary:[["Sente o quebranto no corpo de uma criança, como a benzedeira.",R],["Sente veneno.",P]],who:[]},
+  {open:[["Acalma outra pessoa de leve e paga com o próprio corpo.",T]],fight:[],vary:[["Imposição de mãos, o passe.",R],["Estanca sangue com reza.",R]],who:[]},
+  {open:[["Recupera o próprio corpo mais rápido.",B],["Mantém outro de pé quando ele já devia ter caído.",B]],fight:[["Aumenta a dor de quem já está ferido.",B]],vary:[["Puxa a febre ou a dor do outro para a própria mão.",L,"Tanaka"],["Empresta batidas do próprio coração.",L,"Moriya"],["Reiki.",R]],who:[]},
+  {open:[["Tira a dor de alguém por um tempo.",B],["Influência no corpo. Acalma, baixa febre, ajuda o sangue a coagular.",B],["Segura o hospedeiro no exorcismo para ele não sair junto.",B]],fight:[["Abala o corpo de quem usa poder.",B],["Choque metabólico. Desmaio ou paralisia num toque.",B]],vary:[["Segura um possuído parado e acordado enquanto o espírito fala.",T],["Corpo fechado contra golpe e veneno.",R],["Lê o corpo de um possuído e diz quanto ele aguenta.",L,"Kurosawa"]],who:[["Katagiri",T]]},
+  {open:[["Limpa o resíduo do véu de quem trabalhou demais, sessão por sessão.",B]],fight:[],vary:[["Exorcismo pela cura. Entende e cura o que aflige o espírito.",T,"Tanaka"],["Mantém um time inteiro de pé numa noite longa.",P]],who:[["Tanaka",T],["Higashiyama Riko",B]]},
+  {open:[["Leitura total do corpo e do véu de qualquer ser vivo, inclusive da Fonte em quem se aproxima dela.",B]],fight:[],vary:[],who:[]},
+  {open:second,fight:[],vary:[],who:[]},
+  {open:axis,fight:[],vary:[],who:[]}
+ ]},
+{id:"tk",name:"Telecinese",kanji:"力",c:"--tk",tag:"O caminho da força. A mais visível e a que mais chama atenção do outro lado (Bible).",
+ nb:"Psicometabolismo e Psicocinese",
+ real:"Os médiuns de efeitos físicos de Kardec. Batidas, mesas que se mexem, escrita sem mão, música sem toque. A levitação de D. D. Home. O poltergeist.",
+ cost:"Veia na testa, joelhos cedendo, coração disparado. Deixa rastro que dura horas e anuncia o praticante (Bible).",
+ ranks:[
+  {open:[["Move objetos do tamanho da mão sem tocar. Deixa rastro.",B]],fight:[],vary:[["Batidas na madeira.",R],["Só mexe com raiva, como um poltergeist.",R],["Move água.",P]],who:[]},
+  {open:[["Move coisas até o peso de uma pessoa. Trancas e portas.",B]],fight:[],vary:[["Mesa que se mexe sozinha.",R],["Segura uma porta fechada.",P]],who:[]},
+  {open:[["Ponto de força. O golpe reforçado, a força chega junto com o soco.",B,"Majima"]],fight:[["Atordoa três segundos com um golpe na cabeça.",B]],vary:[["Levita o próprio corpo um pouco.",R]],who:[]},
+  {open:[["Organiza o espaço. Barreira, caminho livre.",B],["Desloca o material onde um ser sofredor está preso.",B]],fight:[],vary:[["A caneta escreve sozinha.",R],["Toca um instrumento sem encostar.",R],["Arremessa objetos.",P]],who:[["Shimizu",T]]},
+  {open:[["Arquitetura de contenção. O método Orimoto.",B],["Mantém o campo por muito tempo em vários alvos.",B],["Golpe de precisão num ponto dentro do alvo.",B]],fight:[["Desfaz a coerência de uma entidade por um momento.",B]],vary:[["Segura um teto que cai.",L,"Majima"],["Escudo à frente do corpo.",P],["Para um carro.",P]],who:[["Majima",T]]},
+  {open:[["Muda a gravidade num espaço.",B]],fight:[],vary:[["Fecha eventos grandes.",B,"Ishida Ryō"]],who:[["Ishida Ryō",B]]},
+  {open:[["Domínio da arquitetura do espaço. A sala inteira vira arma.",B]],fight:[],vary:[],who:[]},
+  {open:second,fight:[],vary:[],who:[]},
+  {open:axis,fight:[],vary:[],who:[]}
+ ]},
+{id:"pk",name:"Psicocinese",kanji:"気",c:"--pk",tag:"O caminho da energia. Elétrica, calor, frio, som, e no fim a energia do próprio véu (Bible).",
+ nb:"Telecinese e Teleporte",
+ real:"As pessoas elétricas de Kardec. O poltergeist que mexe em aparelhos e o rádio que pega vozes. O fogo-fátuo japonês, kitsunebi e hitodama. O fogo goma de Fudō Myōō.",
+ cost:"O caminho que mais faz barulho e o mais difícil de usar em silêncio (Bible). Febre, mão queimada ou gelada.",
+ ranks:[
+  {open:[["Desliga aparelhos simples a cinco metros. Deixa rastro.",B]],fight:[],vary:[["A luz pisca quando ele chega.",R],["O rádio chia e pega vozes.",R],["O relógio para.",R]],who:[]},
+  {open:[["Muda a temperatura de um cômodo e cria uma zona sem som.",B]],fight:[],vary:[["Ponto frio.",R],["Estática na pele.",R]],who:[]},
+  {open:[["Descarga elétrica à distância.",B]],fight:[["Derruba uma pessoa com choque.",B]],vary:[["Só calor.",P],["Só frio.",P]],who:[]},
+  {open:[["Pressão de membrana contra espírito e ser sofredor.",B],["Derruba câmera, rádio e rede.",B]],fight:[],vary:[["Fogo-fátuo.",R],["Acende e apaga chama.",P]],who:[]},
+  {open:[["Usa a energia do lugar como arma.",B],["Queimadura de membrana. Fere demônio alto.",B],["Mantém um campo de energia por muito tempo.",B]],fight:[],vary:[["Raio.",L,"Sena"],["Congela e estoura pneu.",L,"Sena"],["Fogo que só queima espírito, como o goma.",R]],who:[["Tendo",T],["Sena",T]]},
+  {open:[["Null Space. Dez metros onde nada vê de fora.",B,"Misaki"]],fight:[],vary:[["Tempestade num quarteirão.",P],["Ferve a água de um canal.",L,"Mori"]],who:[["Inoue Misaki",B]]},
+  {open:[["Membrana crua. Usa a energia do véu direto.",B]],fight:[],vary:[],who:[]},
+  {open:second,fight:[],vary:[],who:[]},
+  {open:axis,fight:[],vary:[],who:[]}
+ ]},
+{id:"tp",name:"Teleporte",kanji:"渡",c:"--tp",tag:"O caminho do trânsito. Dobra a distância pela membrana (Bible). Cruza dimensões, e isso é descoberto depois (Betty).",
+ nb:"Psicocinese e Clarisenciência",
+ real:"O transporte de objetos de Kardec. A bilocação dos santos. O kamikakushi japonês, gente escondida pelos deuses. O chūu, o estado do meio do budismo.",
+ cost:"Não funciona com gente possuída (Betty). Deixa rastro que dura horas (Bible). Perto do Limiar, as entidades do outro lado veem ele (Bible).",
+ ranks:[
+  {open:[["Salta até trinta metros vendo o lugar.",B]],fight:[["Golpe relâmpago. Aparece e bate antes do outro perceber.",B]],vary:[["Só salta sozinho.",P]],who:[]},
+  {open:[["Salta até quinhentos metros para um lugar que conhece.",B]],fight:[],vary:[["Traz um objeto pequeno de longe.",R]],who:[]},
+  {open:[["Pousa no ponto exato.",B]],fight:[["Põe sal, prata, ferro ou um selo dentro da guarda do outro.",B]],vary:[["Desarma. Tira o objeto da mão do outro.",T],["Anula a queda.",T]],who:[]},
+  {open:[["Leva um passageiro que aceita.",B],["Três saltos seguidos.",B]],fight:[["Aparece onde o outro ia, e o golpe dele perde o sentido.",B]],vary:[["Troca de lugar com um amigo.",T],["Redireciona o ataque para outro lugar.",T]],who:[["Hana",T]]},
+  {open:[["Salto silencioso.",B],["Chega à borda do Limiar.",B],["Até cinco quilômetros.",B]],fight:[["Leva a âncora de um espírito para longe dele.",B]],vary:[["Manda um fantasma de volta ao plano dele.",T],["Leva armas e equipamento.",P],["Aparece em dois lugares, como a bilocação.",R]],who:[]},
+  {open:[["Leva até quatro pessoas.",B]],fight:[],vary:[["Vai ao plano dos espíritos onde já esteve.",T],["Some com alguém por um tempo, como o kamikakushi.",R]],who:[["Gin, de verdade",B],["Kuroda Sei",B]]},
+  {open:[["Atravessa o Limiar para buscar uma alma expulsa antes que ela se desfaça.",B]],fight:[],vary:[["A Dobra. Guarda uma casa ou um bairro inteiro na dimensão do meio.",T]],who:[]},
+  {open:second,fight:[],vary:[],who:[]},
+  {open:axis,fight:[],vary:[],who:[]}
+ ]}
 ];
-const tierNames=[["Inicial","níveis 1 a 3",".35"],["Desenvolvido","níveis 4 a 6",".55"],["Mestre","níveis 7 a 9",".8"],["Despertar","nível 10 e acima","1"]];
-const originColor={bible:"var(--bible)",betty:"var(--betty)",prop:"var(--prop)"};
-const svg=document.getElementById("wheel");
-const NS="http://www.w3.org/2000/svg";
-function arc(i){const a0=(i*60-120)*Math.PI/180,a1=((i+1)*60-120)*Math.PI/180,R=190,r=78,cx=200,cy=200;
- const p=(a,rr)=>[cx+rr*Math.cos(a),cy+rr*Math.sin(a)];
- const [x0,y0]=p(a0,R),[x1,y1]=p(a1,R),[x2,y2]=p(a1,r),[x3,y3]=p(a0,r);
- return `M${x0},${y0} A${R},${R} 0 0 1 ${x1},${y1} L${x2},${y2} A${r},${r} 0 0 0 ${x3},${y3} Z`;}
-paths.forEach((pa,i)=>{
- const g=document.createElementNS(NS,"g");g.setAttribute("class","wedge");g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label",pa.name);g.dataset.id=pa.id;
+const svg=document.getElementById("wheel"),NS="http://www.w3.org/2000/svg";
+function arc(i){const a0=(i*60-120)*Math.PI/180,a1=((i+1)*60-120)*Math.PI/180,Rr=190,r=78,cx=200,cy=200;const p=(a,rr)=>[cx+rr*Math.cos(a),cy+rr*Math.sin(a)];const[x0,y0]=p(a0,Rr),[x1,y1]=p(a1,Rr),[x2,y2]=p(a1,r),[x3,y3]=p(a0,r);return`M${x0},${y0} A${Rr},${Rr} 0 0 1 ${x1},${y1} L${x2},${y2} A${r},${r} 0 0 0 ${x3},${y3} Z`}
+paths.forEach((pa,i)=>{const g=document.createElementNS(NS,"g");g.setAttribute("class","wedge");g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label",pa.name);g.dataset.id=pa.id;
  const p=document.createElementNS(NS,"path");p.setAttribute("d",arc(i));p.style.fill=`var(${pa.c})`;p.setAttribute("stroke","#fff");p.setAttribute("stroke-width","3");g.appendChild(p);
  const mid=(i*60-90)*Math.PI/180,tx=200+134*Math.cos(mid),ty=200+134*Math.sin(mid);
  const k=document.createElementNS(NS,"text");k.setAttribute("x",tx);k.setAttribute("y",ty-4);k.setAttribute("text-anchor","middle");k.setAttribute("class","wlabel");k.style.fontSize="24px";k.textContent=pa.kanji;g.appendChild(k);
  const t=document.createElementNS(NS,"text");t.setAttribute("x",tx);t.setAttribute("y",ty+16);t.setAttribute("text-anchor","middle");t.setAttribute("class","wlabel");t.textContent=pa.name;g.appendChild(t);
- g.addEventListener("click",()=>select(pa.id));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(pa.id)}});
- svg.appendChild(g);
-});
-const c1=document.createElementNS(NS,"circle");c1.setAttribute("cx",200);c1.setAttribute("cy",200);c1.setAttribute("r",72);c1.setAttribute("fill","#fff");c1.setAttribute("stroke","#e6e2da");svg.appendChild(c1);
+ g.addEventListener("click",()=>select(pa.id));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(pa.id)}});svg.appendChild(g)});
+[["circle",{cx:200,cy:200,r:72,fill:"#fff",stroke:"#e6e2da"}]].forEach(([n,a])=>{const el=document.createElementNS(NS,n);for(const k in a)el.setAttribute(k,a[k]);svg.appendChild(el)});
 const ct=document.createElementNS(NS,"text");ct.setAttribute("x",200);ct.setAttribute("y",198);ct.setAttribute("text-anchor","middle");ct.setAttribute("class","center-t");ct.textContent="A Fonte";svg.appendChild(ct);
 const cs=document.createElementNS(NS,"text");cs.setAttribute("x",200);cs.setAttribute("y",216);cs.setAttribute("text-anchor","middle");cs.setAttribute("class","center-s");cs.textContent="nenhum vivo chegou";svg.appendChild(cs);
-function chip(item){const [txt,o,who]=item;return `<span class="chip"><i class="dot" style="background:${originColor[o]}"></i><span>${txt}${who?` <em>· ${who}</em>`:""}</span></span>`}
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+function chip([t,o,who]){return`<span class="chip"><i class="dot" style="background:${oc[o]}"></i><span>${esc(t)}${who?` <em>· ${esc(who)}</em>`:""}</span></span>`}
+function group(title,list,cls){return list.length?`<div class="${cls}"><p class="gtitle">${title}</p><div class="chips">${list.map(chip).join("")}</div></div>`:""}
+let openSet=new Set([0,4]);
 function select(id){
  const pa=paths.find(p=>p.id===id);
  document.querySelectorAll(".wedge").forEach(w=>{w.classList.toggle("on",w.dataset.id===id);w.classList.toggle("off",w.dataset.id!==id)});
  const info=document.getElementById("info");info.style.setProperty("--c",`var(${pa.c})`);
- const i=paths.indexOf(pa),nb=[paths[(i+5)%6].name,paths[(i+1)%6].name];
- info.innerHTML=`<div class="head"><h2>${pa.name}</h2><span class="kanji">${pa.kanji}</span></div>
- <p class="tagline">${pa.tag}</p>
- <div class="facts">
-  <div class="fact"><b>Quem tem no livro</b><div class="people">${pa.people.map(p=>`<span class="person">${p}</span>`).join("")}</div></div>
-  <div class="fact"><b>Vizinhos na roda</b><p>${nb.join(" e ")}</p></div>
-  <div class="fact"><b>Base real</b><p>${pa.real}</p></div>
- </div>`;
+ info.innerHTML=`<div class="head"><h2>${pa.name}</h2><span class="kanji">${pa.kanji}</span></div><p class="tagline">${pa.tag}</p>
+ <div class="facts"><div class="fact"><b>Vizinhos na roda</b><p>${pa.nb}</p></div><div class="fact"><b>Base real</b><p>${pa.real}</p></div></div>`;
  const lad=document.getElementById("ladder");lad.style.setProperty("--c",`var(${pa.c})`);
- lad.innerHTML=pa.tiers.map((t,k)=>({t,k})).reverse().map(({t,k})=>`<div class="tier" style="--a:${tierNames[k][2]}">
-  <div class="lvl"><strong>${tierNames[k][0]}</strong><small>${tierNames[k][1]}</small></div>
-  <div class="groups">
-   <div class="std"><p class="gtitle">Todo médium deste caminho</p><div class="chips">${t.std.map(chip).join("")}</div></div>
-   <div class="var"><p class="gtitle">Depende do médium</p><div class="chips">${t.var.map(chip).join("")}</div></div>
-  </div></div>`).join("")+`<p class="cost"><b>Custo no corpo.</b> ${pa.cost}</p>`;
+ const alphas=[.2,.28,.36,.45,.55,.66,.78,.9,1];
+ lad.innerHTML=pa.ranks.map((r,k)=>({r,k})).reverse().map(({r,k})=>{
+  const n=r.open.length+r.fight.length+r.vary.length;
+  const sum=r.open[0]?r.open[0][0]:"";
+  return`<div class="rank${openSet.has(k)?" open":""}" data-k="${k}"><button aria-expanded="${openSet.has(k)}" style="--a:${alphas[k]}">
+  <span class="rname"><strong>${rankNames[k][0]}</strong><small>${rankNames[k][1]}</small></span>
+  <span class="sum">${esc(sum)}</span><span class="count">${n} poderes</span></button>
+  <div class="body">${group("Abre neste rank",r.open,"std")}${group("Em luta",r.fight,"std")}${group("Varia de médium para médium",r.vary,"var")}${group("Quem está aqui no livro",r.who,"who")}</div></div>`}).join("");
+ lad.querySelectorAll(".rank > button").forEach(b=>b.addEventListener("click",()=>{const box=b.parentElement,k=+box.dataset.k;box.classList.toggle("open");const on=box.classList.contains("open");b.setAttribute("aria-expanded",on);on?openSet.add(k):openSet.delete(k)}));
+ const cost=document.getElementById("cost");cost.innerHTML=`<b>Custo no corpo.</b> ${pa.cost}`;
  try{localStorage.setItem("roda-sel",id)}catch(e){}
 }
-document.getElementById("outside").innerHTML=[
- ["Vidência","Itsuki","Pinta o que é verdade, passado ou futuro, sem saber o que está pintando. É raríssima e a CVD nem registra.","Base real. Médiuns pintores e proféticos de Kardec.","No Despertar (proposta), pinta um lugar com tanta verdade que dá para atravessar."],
- ["Portas dos Kuroda","Sōun, a família","Abrem passagem entre lugares de Tóquio por uma moldura.","Base real. O torii como passagem entre o mundo comum e o sagrado.","No Despertar, a porta do tamanho de um distrito que o Sōun abre na batalha."],
- ["Sigilos e tatuagens","Uruma, o Gin","Não é poder. É técnica. Funciona por precisão, não por fé (Bible). No papel é de uso único, tatuado precisa ser acordado.","Base real. O ponto riscado da Umbanda, os ofuda xintoístas, os selos do Ars Goetia.","Qualquer caminho usa. Quem desenha melhor tem selo mais forte."]
-].map(([t,w,a,b,c])=>`<div class="card"><h4>${t}</h4><p style="color:var(--soft);font-size:12.5px">${w}</p><p>${a}</p><p>${b}</p><p>${c}</p></div>`).join("");
-document.getElementById("steps").innerHTML=[
- ["Infestação","Um lugar ocupado. Batidas, frio, objetos que andam.","Igreja Católica"],
- ["Obsessão simples","Um espírito gruda e incomoda. A pessoa sabe que não é ela.","Kardec"],
- ["Fascinação","A pessoa acha que as ideias do espírito são dela.","Kardec"],
- ["Subjugação","O espírito manda no corpo em alguns momentos.","Kardec"],
- ["Possessão","O corpo é tomado. Fala línguas que nunca aprendeu, sabe coisas escondidas, tem força fora do normal.","Rituale Romanum"]
-].map(([t,a,b])=>`<div class="step"><b>${t}</b><p>${a}</p><p><em>${b}</em></p></div>`).join("");
-let start="tele";try{start=localStorage.getItem("roda-sel")||"tele"}catch(e){}
-select(start);
+let start="clair";try{start=localStorage.getItem("roda-sel")||"clair"}catch(e){}
+select(paths.some(p=>p.id===start)?start:"clair");
 </script>
