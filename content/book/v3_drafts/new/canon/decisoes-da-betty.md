@@ -88,7 +88,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Uma pessoa tem uma habilidade só, a não ser que vá até a Fonte e treine. Ninguém sabe disso ainda.
 - Quem está no Programa Vessel é forte porque tem duas, a própria e a da entidade dentro dele.
 - O Rei descobre a Fonte e volta lá várias vezes para fazer perguntas. Num momento ele propõe que todos se segurem pela mão e vão juntos, porque quem vai sozinho faz uma pergunta e volta destruído. No fim cada um vai no seu momento.
-- Na volta o Rei diz "Não olhe para o rosto de Deus" e depois identifica o que cada um absorveu. Por exemplo "você absorveu o psicometabolismo da Fonte". A habilidade dura uma semana e se dispersa. Se treinar, ela fica ancorada.
+- "Não olhe nos olhos de Deus" é regra geral da CVD, que todo mundo conhece, porque várias pessoas já foram, olharam e enlouqueceram (corrigido em 19 nov, não é fala do Rei). Na volta o Rei identifica o que cada um absorveu. Por exemplo "você absorveu o psicometabolismo da Fonte". A habilidade dura uma semana e se dispersa. Se treinar, ela fica ancorada.
 
 ### Itsuki
 - Ele entra em briga, sim. Pelos amigos ele bate. Ele é rebelde.
@@ -517,4 +517,5 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O catálogo de técnicas não substitui a Roda. Soma a ela.
 - Teleporte pode redirecionar ataque.
 - Teleporte pode mandar um fantasma de volta para o plano dele só quando o fantasma não está numa pessoa. Tirar de uma pessoa é exorcismo e precisa de ritual.
-- "Olhar nos olhos de Deus" é o que as pessoas dizem sobre a Fonte. Fica.
+- "Não olhe nos olhos de Deus" é regra da CVD que todo mundo conhece. Várias pessoas já foram à Fonte, olharam e enlouqueceram.
+- A Betty vai arrumar o catálogo de técnicas com o domínio e com as técnicas agrupadas também por domínio. Depois eu acrescento o que falta.
