@@ -556,7 +556,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O relógio do Satō fica na gaveta da mesa do Gin, nunca parou e ninguém dá corda.
 - No fim do capítulo 14 o Gin não tem a conversa com o Rei. Ele quer ter e não consegue, e tudo fica no arquivo. Assim o Rei descobre lendo.
 - O capítulo dos Mestres agora é sobre os três que o Gin conhece, Tanizaki, Haruki e Yamamoto, todos Guardião. O Ishida saiu. A Watanabe Sora saiu do capítulo porque a origem dela ainda não existe.
-- O Programa Vessel não tem nome de grupo. São as pessoas possuídas que estão no programa, o Fujimoto com o Abe, o Usami com o Ren, o Hashimoto com a Nao, o Sato com o Haru e a Watanabe Sora (origem ainda a decidir). O nome Kairo saiu. O time de campo da CVD continua Rei, Kato, Tendo (depois Usami), Shimizu e Moriya.
+- O Programa Vessel não tem nome de grupo. São as pessoas possuídas que estão no programa, o Fujimoto com o Abe, o Usami com o Ren, o Hashimoto com a Nao, o Sato com o Haru e a Watanabe Sora, que está com um espírito (origem ainda a decidir). O nome Kairo saiu. O time de campo da CVD continua Rei, Kato, Tendo (depois Usami), Shimizu e Moriya.
 - Os rios de Kita são o Ara, o Sumida e o Shakujii (o texto dizia Kanda).
 - A Clarisenciência e a Telepatia são as mais raras também nas porcentagens do capítulo 4.
 
@@ -569,3 +569,4 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Yushiro é o demônio do Dever e ocupa o assento do Dever entre os mortos. O Kishin é o demônio do Desespero. Os dois são dos Treze de Yomi, que por enquanto são doze.
 - O Dever fica vago só entre os humanos. Entre os mortos só o Amor fica vago.
 - A Alegria e a Fome estão passeando felizes no mundo dos vivos. Não sabem que não podiam sair, e isso enfraquece ainda mais o mundo dos mortos. Ninguém sabe exatamente para que servem os assentos.
+- A Watanabe Sora está com um espírito, não com um demônio (19 nov).
