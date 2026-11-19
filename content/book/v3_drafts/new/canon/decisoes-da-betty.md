@@ -548,7 +548,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - As cenas que fazem essas regras valerem estão na aba Missões da matriz, no bloco "Partes do livro que as regras pedem".
 - Um lugar pode aparecer em dois planos numa mesma cena. O leitor entende os planos pela cena, sem explicação.
 
-### O que eu inventei na revisão do Bible (19 de novembro, a aprovar)
+### O que eu inventei na revisão do Bible (19 de novembro, aprovado pela Betty)
 - O marido do caso de Nerima (7-114) virou Shigeru, porque Kenji já é o Fujimoto e o Majima.
 - O homem absorvido do caso Satō virou Satō Hideaki, porque Haruki é o melhor amigo do Gin.
 - A CVD tem a sede em Marunouchi e um escritório de distrito em Kita, ao lado da saída leste da estação Ōji. As distâncias do mapa contam a partir desse escritório.
@@ -556,6 +556,11 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O relógio do Satō fica na gaveta da mesa do Gin, nunca parou e ninguém dá corda.
 - No fim do capítulo 14 o Gin não tem a conversa com o Rei. Ele quer ter e não consegue, e tudo fica no arquivo. Assim o Rei descobre lendo.
 - O capítulo dos Mestres agora é sobre os três que o Gin conhece, Tanizaki, Haruki e Yamamoto, todos Guardião. O Ishida saiu. A Watanabe Sora saiu do capítulo porque a origem dela ainda não existe.
-- O esquadrão Vessel da CVD (Kairo) tem o Fujimoto com o Abe e o Usami com o Ren. Hashimoto e Sato, com demônios da Maravilha e da Coragem, saíram.
+- Kairo é só o nome do grupo de quem mora no Programa Vessel, o Fujimoto com o Abe e o Usami com o Ren. Não é o time de campo do Rei. Hashimoto e Sato, com demônios da Maravilha e da Coragem, saíram. O time de campo da CVD continua Rei, Kato, Tendo (depois Usami), Shimizu e Moriya.
 - Os rios de Kita são o Ara, o Sumida e o Shakujii (o texto dizia Kanda).
 - A Clarisenciência e a Telepatia são as mais raras também nas porcentagens do capítulo 4.
+
+### O reencontro dos irmãos (19 de novembro)
+- O Rei descobre tudo lendo o arquivo. O Gin já escreveu muito e não chega a ter a conversa.
+- O Rei só volta a encontrar e conversar com o Gin depois que o Gin e o Healer estão bem, numa situação melhor e mais felizes juntos.
+- O Rei diz que já está envolvido e que não tem mais como protegê-lo. O Gin aceita e diz que então eles vão ajudar o irmão. A partir daí os três trabalham juntos.
