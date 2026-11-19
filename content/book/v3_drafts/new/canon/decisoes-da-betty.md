@@ -125,7 +125,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - A Kanna-sensei é o nome que o Kishin usa no corpo da Fukai Rinka para guiar o Far-Shore Circle (Bible).
 
 ### Mestres
-- Os mestres são Vanguard aposentados da CVD, protegidos e suprimidos, porque rank alto mais velho é vulnerável e pode ser possuído, e ninguém quer um desses possuído. Servem para ensinar os níveis altos que precisam de um treino que ninguém mais sabe dar, fora os Treze e a Fonte.
+- Os mestres são Guardião (decisão de 19 nov), saíram da CVD, protegidos e suprimidos, porque rank alto mais velho é vulnerável e pode ser possuído, e ninguém quer um desses possuído. Servem para ensinar os níveis altos que precisam de um treino que ninguém mais sabe dar, fora os Treze e a Fonte.
 - O Adachi cuida da rede de mestres aposentados (Bible). Já ativou para o Kurosawa. É a rede que o Rei vai precisar.
 - Mestre é um conceito do livro. Não é alguém que se escolhe.
 
@@ -163,7 +163,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Se alguém de fora da CVD estiver numa situação de nível alto e precisar de ajuda, eles ajudam, porque o dever deles é manter todo mundo estável.
 
 ### Uehara
-- O Uehara é mulher. É Vanguard, rank S. A habilidade está se deteriorando, por isso ela não usa mais os poderes e serve só para treinamento. Está afastada e protegida, como uma mestre. Saiu da CVD há oito anos. Não é afiliada ao Grid.
+- O Uehara é mulher. É Guardião, porque é mestre (decisão de 19 nov). A habilidade está se deteriorando, por isso ela não usa mais os poderes e serve só para treinamento. Está afastada e protegida, como uma mestre. Saiu da CVD há oito anos. Não é afiliada ao Grid.
 
 ### Habilidades
 - Menos gente telepata e clarisciente, porque são as mais raras. Espalhar mais Teleporte, Psicocinese e as outras. Arrumar as fichas, inclusive skills e combate.
@@ -196,13 +196,11 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Registrado como Ritualist. É bem mais forte de verdade.
 
 ### Ranks
-- Vanguard é o rank dos mestres. A presença deles afina a membrana, por isso muitos se aposentam e vivem suprimidos.
-- Guardian é ser um dos Treze.
-- Singularity vem depois do Guardian, quando a pessoa começa a ter mais habilidades. O mais forte dos Guardians, o que entende tudo, pode virar o novo Eixo.
+- Substituído em 19 de novembro. Ver Ranks na seção de 19 de novembro.
 
 ### Mestres
-- Todos os mestres saíram da CVD, menos uma exceção. O Tanaka Ryu entrou na CVD muito fraco, ficou pouco tempo e virou Vanguard muito rápido por causa do jeito dele de curar e exorcizar. Ninguém sabe que ele é Vanguard e todo mundo o menospreza. É considerado mestre no Grid.
-- O Yamamoto é Vanguard, mestre, arquivista. Não é independente. Trabalha dentro da CVD nos arquivos, mas não é registrado. Fica lá seguro, cercado de gente. Clarisciente.
+- Todos os mestres saíram da CVD, menos uma exceção. O Tanaka Ryu entrou na CVD muito fraco, ficou pouco tempo e virou Guardião muito rápido por causa do jeito dele de curar e exorcizar. Ninguém sabe que ele é Guardião e todo mundo o menospreza. É considerado mestre no Grid.
+- O Yamamoto é Guardião, mestre, arquivista. Não é independente. Trabalha dentro da CVD nos arquivos, mas não é registrado. Fica lá seguro, cercado de gente. Clarisciente.
 
 ### Habilidades aprovadas
 - Adachi só Clarisenciência, por isso simpatiza com o Rei.
@@ -334,7 +332,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 ### CVD
 - O registro do Rei sai com nível inferior. Não é erro. A leitura está certa, porque a supressão baixa o nível dele.
 - O Spirit Capturer não é dado quando o Rei entra. Vem bem mais para frente, porque ainda não confiam nele.
-- Supressão é segredo. Só os Vanguards, o Diretor, o Gin, os líderes de seita e as pessoas mais fortes sabem. O Rei descobre depois, lendo. O Gin pode ter suprimido algumas pessoas. O Diretor suprime os Vanguards que podem afinar o véu, e antes dele eram os mestres. Não existe divisão nem especialista em supressão. A Shimizu não é de Supressão.
+- Supressão é segredo. Só os Vanguards, o Diretor, o Gin, os líderes de seita e as pessoas mais fortes sabem. O Rei descobre depois, lendo. O Gin pode ter suprimido algumas pessoas. O Diretor suprime os Guardiões, que afinam o véu. Não existe divisão nem especialista em supressão. A Shimizu não é de Supressão.
 - O Rei precisa passar por todas as áreas da CVD durante o livro.
 - As áreas. Andar de Operações, onde recebem todo mundo. Relações Públicas, onde os chefes se reúnem, e o Adachi só vai lá para lidar com a polícia e coisas menores. Avaliação e Registro. Assuntos Internos e Auditoria, onde ficam os segredos. Sala do Espelho. Contenção e Reintegração, que contém e tenta reintegrar. Salão de Treino, poderes e luta. Gatil. Aviário, o campo de treino dos pássaros. Sala de Cultivo, com espíritos presos que aceitaram ajudar a CVD, onde um médium é possuído e depois despossuído e onde educam os demônios que um dia vão entrar no Programa Vessel. Laboratório, artefatos e causas de eventos nunca vistos. Sala dos Sigilos. Sala de Preparação, mapa, plano e equipamento antes de ir a campo. Arsenal, adagas consagradas, sigilos prontos, corrente com prata, água benta, sem arma de fogo. Sala de Descanso, uma sala de estar cercada de cabines com sigilos. Sala de Casos Especiais, casos fechados e os mais difíceis. Sala dos Artefatos. Subnível, a prisão bem escondida, para onde vai o Tendo. A sala sem número na Auditoria.
 - Cada área tem um responsável. Às vezes é só um NPC.
@@ -385,7 +383,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Os encontros do Rei com o Gin. Primeiro o Rei vê o Gin andando na rua de longe, vai atrás e não acha. Logo depois, o Healer vê o Rei de longe, o Rei vê o Gin, e o Healer usa um poder do Gin para soltar um espírito mau numa pessoa e desviar os olhos do Rei, porque reconhece o irmão. O Gin pode até dizer meu irmão. Isso vem antes de o Healer encarar o Kishin. Espíritos entrando por onde o Healer passa não é normal nem comum.
 - O Tanizaki pode morrer.
 - O Kato é o que as pessoas não confiam. Era parceiro do Gin e tem uns 24 anos quando o Rei tem 21. Não é trainee do segundo ano. Está registrado no nível da leitura que o Gin manipulou com a supressão. Em um ano ele evolui e vira Vanguard.
-- O Haruki é Vanguard, então saiu da CVD. É mestre. Isso substitui a decisão de que ele era investigador da CVD.
+- O Haruki é Guardião, então saiu da CVD. É mestre. Isso substitui a decisão de que ele era investigador da CVD.
 - O time da CVD tem cinco. Rei, Kato, Tendo, Shimizu e mais um a definir. O Tendo é substituído pelo Usami. O Itsuki é o sexto membro, não é da CVD e aparece porque não desgruda do Rei.
 - A Shimizu morre. A habilidade dela é Telecinese e precisa ser trocada nas fichas.
 - Pode morrer um dos jovens problemáticos que estão perto da Yua.
@@ -493,3 +491,16 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O novo diretor é o telepata em quem ninguém confia, e no fim ele fica fortíssimo.
 - Fazer o que cada habilidade faz em cada nível, com poderes num nível absurdo, porque isso vai para o jogo. Telepatia quase como um Mangekyou Sharingan.
 - O teleporte cruza dimensões, e isso é descoberto depois. No alto nível o teleportador põe uma casa inteira ou um bairro inteiro numa dimensão intermediária por um tempo.
+
+### Ranks (19 de novembro, substitui a decisão de 14 de novembro)
+- A ordem é Nenhum, Sensitivo, Postulado, Adepto, Ritualista, Árbitro, Vanguarda, Guardião, Singularidade, Axis. É a ordem do site e da Matriz de Estabilidade do Bible.
+- Postulado já trabalha na CVD. Quem entra na CVD já vê entidades.
+- Vanguarda é gente absurdamente forte que trabalha. Líder da CVD, chefe de família. Não é mestre.
+- Guardião é o Vanguarda que ficou ainda mais forte. Não pode agir porque desestabiliza o véu. Fica isolado e a CVD suprime. Todo mestre é Guardião. Os demônios dos Treze também estão no nível de Guardião, e por isso o nome é Guardião, porque eles guardam o além do véu.
+- Singularidade são os Treze humanos, com lugar junto do Axis. Podem ser mestres que estavam isolados ou gente que nasceu e ficou forte. O Inoue Satoru é Singularidade.
+- Depois da Singularidade só existe o Axis.
+- Os mestres passam a Guardião. Tanaka, Yamamoto, Uehara, Haruki, Majima e Kurosawa.
+- A Inoue Misaki não é Singularidade. Precisa ser arrumada.
+- O Ren não é fraco. Está mais ou menos no nível de Ritualista, como o Usami. No fim ele assume o Amor entre os demônios dos Treze e chega a Guardião. O Usami chega a Guardião junto.
+- O Gin é Vanguarda e está registrado como Adepto. O Rei é Árbitro e está registrado como Postulado.
+
