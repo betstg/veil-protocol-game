@@ -502,5 +502,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Os mestres passam a Guardião. Tanaka, Yamamoto, Uehara, Haruki e Kurosawa. O Majima continua Árbitro, porque não é mestre (13 nov).
 - A Inoue Misaki não é Singularidade. Precisa ser arrumada.
 - O Ren não é fraco. Está mais ou menos no nível de Ritualista, como o Usami. No fim ele assume o Amor entre os demônios dos Treze e chega a Guardião. O Usami chega a Guardião junto.
-- O Gin é Vanguarda e está registrado como Adepto. O Rei é Árbitro e está registrado como Postulado.
+- O Gin é Vanguarda e está registrado como Ritualista (decisão de 14 nov, o site dizia Adepto). O Rei é Árbitro e está registrado como Postulado.
+- Singularidade se estabiliza sozinha. Guardião não, por isso não pode agir.
+- Qualquer pessoa, em qualquer rank, consegue abrir um segundo caminho. Ninguém sabe. Os Treze humanos não têm segundo caminho. Quem descobre que é possível são o Axis e o Rei, porque os Uedera já nascem com dois caminhos.
 
