@@ -513,3 +513,8 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Uma técnica não é exclusiva de uma pessoa. O jeito de executar pode ser. Dois telecinéticos podem dominar a mesma técnica de contenção, e um espalha a força em superfícies largas enquanto o outro concentra em pontos minúsculos. A diferença individual não vira poder novo.
 - O domínio é o sentimento. Cada pessoa é ancorada no sentimento mais forte nela. O Axis tem todos. Ele só se tornou o Axis porque habilitou todos os sentimentos, e com isso desbloqueou todas as habilidades e todas as técnicas.
 - A base de trabalho é o catálogo de técnicas da Betty (veil_protocol_technique_catalogue.xlsx).
+- O domínio é de cada pessoa. Não decide quais técnicas ela tem. Decide como ela usa.
+- O catálogo de técnicas não substitui a Roda. Soma a ela.
+- Teleporte pode redirecionar ataque.
+- Teleporte pode mandar um fantasma de volta para o plano dele só quando o fantasma não está numa pessoa. Tirar de uma pessoa é exorcismo e precisa de ritual.
+- "Olhar nos olhos de Deus" é o que as pessoas dizem sobre a Fonte. Fica.
