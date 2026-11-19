@@ -533,5 +533,6 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 ### Ranks resolvidos e missões (19 de novembro, a Betty pediu que eu resolvesse)
 - Inoue Misaki é Guardião. É mestre de Psicocinese, independente, nunca registrada, e organizou a vida para não usar o poder.
 - Kuroda Aya é Vanguarda. Tem 23 anos, Teleporte nível 9, trabalha e age, então não é mestre isolada.
-- Tanizaki é Árbitro. É o mentor do Gin, mas não é mestre por rank. Na nota do Gin sobre os três Guardiões que ele conhece, o Tanizaki foi trocado pelo Haruki.
+- Tanizaki era mestre, então é Guardião, de Psicocinese (correção da Betty, 19 nov, substitui a escolha de Árbitro).
+- O Tanizaki é atacado por ser mestre. Ele não morre do nada. Ele é possuído, mesmo sem ser um dos Treze, e isso mostra o que acontece quando um mestre é possuído. Ele vira um inimigo forte e é triste ter que matar ele. Precisa dos cinco do time da CVD, da intervenção do chefe da CVD e de mais gente, até juntar a Resistência, o que mostra um começo de união.
 - O Bible é um documento do mundo e não precisa de missões. Saíram a campanha em atos, as rotas e finais, as cinco estradas, as missões paralelas, o fim de jogo, o "como seguir", o demônio antigo do distrito, a linha do tempo de oito semanas e os cartões de missão pessoal das fichas. Ficam os casos do passado que o Gin comenta, como exemplos de como o mundo funciona.
