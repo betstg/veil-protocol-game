@@ -506,3 +506,10 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Singularidade se estabiliza sozinha. Guardião não, por isso não pode agir.
 - Qualquer pessoa, em qualquer rank, consegue abrir um segundo caminho. Ninguém sabe. Os Treze humanos não têm segundo caminho. Quem descobre que é possível são o Axis e o Rei, porque os Uedera já nascem com dois caminhos.
 
+
+### Técnicas (19 de novembro)
+- Habilidade é a habilidade mediúnica, o caminho. Dentro dela existem técnicas. O nome é técnica, não skill.
+- Pessoas diferentes podem ter técnicas diferentes dentro da mesma habilidade.
+- Uma técnica não é exclusiva de uma pessoa. O jeito de executar pode ser. Dois telecinéticos podem dominar a mesma técnica de contenção, e um espalha a força em superfícies largas enquanto o outro concentra em pontos minúsculos. A diferença individual não vira poder novo.
+- O domínio é o sentimento. Cada pessoa é ancorada no sentimento mais forte nela. O Axis tem todos. Ele só se tornou o Axis porque habilitou todos os sentimentos, e com isso desbloqueou todas as habilidades e todas as técnicas.
+- A base de trabalho é o catálogo de técnicas da Betty (veil_protocol_technique_catalogue.xlsx).
