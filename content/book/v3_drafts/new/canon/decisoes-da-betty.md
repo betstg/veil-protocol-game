@@ -499,7 +499,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Guardião é o Vanguarda que ficou ainda mais forte. Não pode agir porque desestabiliza o véu. Fica isolado e a CVD suprime. Todo mestre é Guardião. Os demônios dos Treze também estão no nível de Guardião, e por isso o nome é Guardião, porque eles guardam o além do véu.
 - Singularidade são os Treze humanos, com lugar junto do Axis. Podem ser mestres que estavam isolados ou gente que nasceu e ficou forte. O Inoue Satoru é Singularidade.
 - Depois da Singularidade só existe o Axis.
-- Os mestres passam a Guardião. Tanaka, Yamamoto, Uehara, Haruki, Majima e Kurosawa.
+- Os mestres passam a Guardião. Tanaka, Yamamoto, Uehara, Haruki e Kurosawa. O Majima continua Árbitro, porque não é mestre (13 nov).
 - A Inoue Misaki não é Singularidade. Precisa ser arrumada.
 - O Ren não é fraco. Está mais ou menos no nível de Ritualista, como o Usami. No fim ele assume o Amor entre os demônios dos Treze e chega a Guardião. O Usami chega a Guardião junto.
 - O Gin é Vanguarda e está registrado como Adepto. O Rei é Árbitro e está registrado como Postulado.
