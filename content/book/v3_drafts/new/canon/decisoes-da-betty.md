@@ -547,3 +547,15 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - "Domínio" tem dois sentidos, o pilar cósmico e o sentimento de cada pessoa. Cada emoção tem dois assentos, um entre os vivos (Treze humanos, Singularidade) e um entre os mortos (Treze de Yomi, Guardião). O Dever está vago entre os vivos e o Amor entre os mortos.
 - As cenas que fazem essas regras valerem estão na aba Missões da matriz, no bloco "Partes do livro que as regras pedem".
 - Um lugar pode aparecer em dois planos numa mesma cena. O leitor entende os planos pela cena, sem explicação.
+
+### O que eu inventei na revisão do Bible (19 de novembro, a aprovar)
+- O marido do caso de Nerima (7-114) virou Shigeru, porque Kenji já é o Fujimoto e o Majima.
+- O homem absorvido do caso Satō virou Satō Hideaki, porque Haruki é o melhor amigo do Gin.
+- A CVD tem a sede em Marunouchi e um escritório de distrito em Kita, ao lado da saída leste da estação Ōji. As distâncias do mapa contam a partir desse escritório.
+- O objeto de aterramento da Katagiri é o primeiro caderno de campo dela. O kintsugi saiu.
+- O relógio do Satō fica na gaveta da mesa do Gin, nunca parou e ninguém dá corda.
+- No fim do capítulo 14 o Gin não tem a conversa com o Rei. Ele quer ter e não consegue, e tudo fica no arquivo. Assim o Rei descobre lendo.
+- O capítulo dos Mestres agora é sobre os três que o Gin conhece, Tanizaki, Haruki e Yamamoto, todos Guardião. O Ishida saiu. A Watanabe Sora saiu do capítulo porque a origem dela ainda não existe.
+- O esquadrão Vessel da CVD (Kairo) tem o Fujimoto com o Abe e o Usami com o Ren. Hashimoto e Sato, com demônios da Maravilha e da Coragem, saíram.
+- Os rios de Kita são o Ara, o Sumida e o Shakujii (o texto dizia Kanda).
+- A Clarisenciência e a Telepatia são as mais raras também nas porcentagens do capítulo 4.
