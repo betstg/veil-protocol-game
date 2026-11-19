@@ -519,3 +519,13 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Teleporte pode mandar um fantasma de volta para o plano dele só quando o fantasma não está numa pessoa. Tirar de uma pessoa é exorcismo e precisa de ritual.
 - "Não olhe nos olhos de Deus" é regra da CVD que todo mundo conhece. Várias pessoas já foram à Fonte, olharam e enlouqueceram.
 - A Betty vai arrumar o catálogo de técnicas com o domínio e com as técnicas agrupadas também por domínio. Depois eu acrescento o que falta.
+
+### Cosmologia (19 de novembro, documento "A Fonte, Axis e o Equilíbrio dos Planos")
+- O documento está em canon/cosmologia-fonte-axis.md e vale como base.
+- A Fonte é a totalidade. O Axis é o humano que se fundiu com ela e mantém o equilíbrio entre os planos. O Axis não é a Fonte e não é Deus.
+- Convergência é o nome definitivo. É o lugar onde o Axis se fundiu à Fonte para manter o equilíbrio.
+- O Kuze Kaname é o Axis. Ele perdeu o nome quando se tornou o todo, porque para se tornar o todo a pessoa abdica do nome e do ego.
+- As pessoas não enxergam o Axis porque não têm o entendimento. O Rei, com as perguntas, muito treino e muito entendimento da função dele, chega a ver o Axis e conversa com ele como pessoa.
+- Ninguém sabe desde quando o assento do Dever está vago. Não usar data.
+- As letras (E a SSS e as classes A a E) eram para os demônios e saíram. Demônios e espíritos usam os mesmos ranks das pessoas.
+- A reencarnação existe e já estava no Bible.
