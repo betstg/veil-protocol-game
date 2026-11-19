@@ -574,3 +574,5 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Depois do acidente ela descobriu uma leucemia grave. Não ia matar no ano seguinte, mas o tratamento provavelmente acabaria com o trabalho de campo. A CVD perguntou ao Takumi se ele aceitava trabalhar com ela e ele aceitou.
 - O corpo de quem é possuído para quando o espírito entra. Quem está dentro mantém tudo funcionando. O Takumi cura o corpo dela enquanto ela vai a campo, e ela não precisa de tratamento. Sem ele, ela morre.
 - Todo mundo acha que só dá para ter uma habilidade, e que só quem sofreu possessão pode ter mais de uma, a do médium e a de quem está dentro. Por isso os Vessels são considerados bem mais fortes que os investigadores comuns.
+- A origem da Sora parece com a do Kenji de propósito. Mostra o quanto o campo é perigoso e que gente se fere mortalmente com mais frequência do que se espera.
+- O Takumi e o Abe são amigos. Às vezes a Sora e o Kenji deixam os dois assumirem os corpos para sair, tomar um chá e conversar.
