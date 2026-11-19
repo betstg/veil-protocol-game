@@ -75,7 +75,7 @@ h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);mar
   <h1>Roda dos Poderes</h1>
   <p class="lead">Os seis caminhos do Bible nos ranks que você definiu. Em cada rank está o que ele abre, o que é usado em luta, o que muda de médium para médium e quem está ali no livro. Toque num caminho e depois num rank.</p>
   <div class="legend" aria-label="Origem de cada poder">
-    <span><i class="dot" style="background:var(--bible)"></i>Bible</span>
+    <span><i class="dot" style="background:var(--bible)"></i>Bible e site</span>
     <span><i class="dot" style="background:var(--betty)"></i>Decisão da Betty</span>
     <span><i class="dot" style="background:var(--real)"></i>Base real, proposta para aprovar</span>
     <span><i class="dot" style="background:var(--prop)"></i>Proposta minha, para aprovar</span>
@@ -94,7 +94,7 @@ h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);mar
     <h3>Como os ranks foram encaixados</h3>
     <div class="cards">
       <div class="card"><h4>Rank e nível</h4><p>O rank é a abertura com que a pessoa nasce e não se treina. O nível, de 1 a 10, é o quanto ela treinou dentro do caminho. O rank é o teto do nível (Bible).</p></div>
-      <div class="card"><h4>Proposta de encaixe</h4><p>Sensitivo chega ao nível 1. Postulado ao 2. Adepto ao 3. Ritualista ao 5. Árbitro ao 8. Vanguarda ao 9. Guardião ao 10. Singularidade abre um segundo caminho. Axis não é rank, é estado. O Bible já dá Árbitro 8, Vanguarda 9 e Guardião 10.</p></div>
+      <div class="card"><h4>Rank e nível no site</h4><p>A lista de ranks é a do site e da Matriz de Estabilidade do Bible. No site o rank não trava o nível como eu tinha proposto. A Hara Setsu é Sensitivo com nível 4 de Clarisenciência. Os poderes estão agrupados por rank como proposta. Quem está em cada rank segue o site.</p></div>
       <div class="card"><h4>Onde o Bible briga com você</h4><p>O Bible tem o Channel entre Ritualista e Árbitro, e você não tem. O Bible põe a Singularidade antes do Guardião, e a sua decisão põe depois. O Bible dá Telecinese de mestre à Shimizu como Clarisenciência e Teleporte ao Kurosawa. O Bible deixa o teleporte levar o corpo de um possuído para o círculo de sal, e você decidiu que teleporte não funciona com possuído. Em tudo isso vale a sua palavra, e o Bible vai ser corrigido.</p></div>
     </div>
   </section>
@@ -130,9 +130,9 @@ const paths=[
   {open:[["Recebe o sofrimento de quem está a dez metros. Parece sentimento alheio sem explicação. Não desliga.",B]],fight:[],vary:[["Confundido com ansiedade a vida inteira.",B],["Sente o que um trem lotado sente.",P],["Recebe como se fosse pensamento próprio.",R]],who:[]},
   {open:[["Lê a superfície de quem deixa, como um aperto de mão.",B]],fight:[],vary:[["Recebe em imagem e peso, não em palavras.",B],["Só funciona com toque.",P],["Só funciona com quem conhece.",P]],who:[]},
   {open:[["Sente a intenção de quem está perto. Veio ajudar ou machucar. Está com medo. Está mentindo.",B]],fight:[["Leitura forçada. O outro sente a intrusão e perde o ritmo.",B]],vary:[["Sabe quem está mentindo numa sala cheia.",P]],who:[]},
-  {open:[["Leitura dirigida de uma memória ou intenção.",B],["Manda uma emoção ou impressão para outra pessoa.",B]],fight:[["Dor transmitida.",B]],vary:[["Ouve duas camadas num possuído.",L,"Kato"],["Escreve o que outra mente pensa.",R],["Empresta a voz a um morto, como as itako.",R]],who:[]},
+  {open:[["Leitura dirigida de uma memória ou intenção.",B],["Manda uma emoção ou impressão para outra pessoa.",B]],fight:[["Dor transmitida.",B]],vary:[["Ouve duas camadas num possuído.",L,"Kato"],["Escreve o que outra mente pensa.",R],["Empresta a voz a um morto, como as itako.",R]],who:[["Kato, no começo",B],["Haruki",B]]},
   {open:[["Conversa com espíritos e com demônios que ainda pensam.",B],["Sugestão. Planta uma vontade.",B],["Navegação de consciência. Entra na mente de alguém e anda lá dentro.",B]],fight:[["Intrusão de memória. Arranca uma lembrança ou apaga o que a pessoa estava fazendo.",B]],vary:[["A palavra que obriga, o kotodama.",R],["Liga várias mentes como uma mesa telefônica.",L,"Haruki"],["Conversa com um espírito obsessor até ele ir embora.",R],["Vê a paisagem da mente, a vida da pessoa por dentro.",T]],who:[]},
-  {open:[["Interface com demônio. Atrapalha o demônio de segurar a possessão.",B]],fight:[["Fratura de consciência. Força o demônio a brigar com o dono do corpo, e o dono sobe por inteiro.",B]],vary:[["Segura cem pessoas paradas com uma palavra.",L,"Kato"],["Fala em várias cabeças ao mesmo tempo.",P],["Ninguém consegue mentir para ele.",T]],who:[["Kato, no fim do livro",T],["Haruki",T],["Tanizaki",B]]},
+  {open:[["Interface com demônio. Atrapalha o demônio de segurar a possessão.",B]],fight:[["Fratura de consciência. Força o demônio a brigar com o dono do corpo, e o dono sobe por inteiro.",B]],vary:[["Segura cem pessoas paradas com uma palavra.",L,"Kato"],["Fala em várias cabeças ao mesmo tempo.",P],["Ninguém consegue mentir para ele.",T]],who:[["Kato, no fim do livro",T]]},
   {open:[["Ressonância total com outra mente. É como os Treze falam entre si.",B]],fight:[],vary:[],who:[]},
   {open:second,fight:[],vary:[["Puxa várias mentes para dentro de um lugar só dele.",P]],who:[]},
   {open:axis,fight:[],vary:[],who:[]}
@@ -146,8 +146,8 @@ const paths=[
   {open:[["Lê ferimento, droga e estado do corpo de alguém. Causa de morte de até uma semana.",B]],fight:[["Sabe onde o outro já está ferido.",B]],vary:[["Sente o quebranto no corpo de uma criança, como a benzedeira.",R],["Sente veneno.",P]],who:[]},
   {open:[["Acalma outra pessoa de leve e paga com o próprio corpo.",T]],fight:[],vary:[["Imposição de mãos, o passe.",R],["Estanca sangue com reza.",R]],who:[]},
   {open:[["Recupera o próprio corpo mais rápido.",B],["Mantém outro de pé quando ele já devia ter caído.",B]],fight:[["Aumenta a dor de quem já está ferido.",B]],vary:[["Puxa a febre ou a dor do outro para a própria mão.",L,"Tanaka"],["Empresta batidas do próprio coração.",L,"Moriya"],["Reiki.",R]],who:[]},
-  {open:[["Tira a dor de alguém por um tempo.",B],["Influência no corpo. Acalma, baixa febre, ajuda o sangue a coagular.",B],["Segura o hospedeiro no exorcismo para ele não sair junto.",B]],fight:[["Abala o corpo de quem usa poder.",B],["Choque metabólico. Desmaio ou paralisia num toque.",B]],vary:[["Segura um possuído parado e acordado enquanto o espírito fala.",T],["Corpo fechado contra golpe e veneno.",R],["Lê o corpo de um possuído e diz quanto ele aguenta.",L,"Kurosawa"]],who:[["Katagiri",T]]},
-  {open:[["Limpa o resíduo do véu de quem trabalhou demais, sessão por sessão.",B]],fight:[],vary:[["Exorcismo pela cura. Entende e cura o que aflige o espírito.",T,"Tanaka"],["Mantém um time inteiro de pé numa noite longa.",P]],who:[["Tanaka",T],["Higashiyama Riko",B]]},
+  {open:[["Tira a dor de alguém por um tempo.",B],["Influência no corpo. Acalma, baixa febre, ajuda o sangue a coagular.",B],["Segura o hospedeiro no exorcismo para ele não sair junto.",B]],fight:[["Abala o corpo de quem usa poder.",B],["Choque metabólico. Desmaio ou paralisia num toque.",B]],vary:[["Segura um possuído parado e acordado enquanto o espírito fala.",T],["Corpo fechado contra golpe e veneno.",R],["Lê o corpo de um possuído e diz quanto ele aguenta.",L,"Kurosawa"]],who:[["Katagiri",T],["Moriya",T]]},
+  {open:[["Limpa o resíduo do véu de quem trabalhou demais, sessão por sessão.",B]],fight:[],vary:[["Exorcismo pela cura. Entende e cura o que aflige o espírito.",T,"Tanaka"],["Mantém um time inteiro de pé numa noite longa.",P]],who:[["Tanaka",T],["Kurosawa",T],["Higashiyama Riko",B]]},
   {open:[["Leitura total do corpo e do véu de qualquer ser vivo, inclusive da Fonte em quem se aproxima dela.",B]],fight:[],vary:[],who:[]},
   {open:second,fight:[],vary:[],who:[]},
   {open:axis,fight:[],vary:[],who:[]}
@@ -160,9 +160,9 @@ const paths=[
   {open:[["Move objetos do tamanho da mão sem tocar. Deixa rastro.",B]],fight:[],vary:[["Batidas na madeira.",R],["Só mexe com raiva, como um poltergeist.",R],["Move água.",P]],who:[]},
   {open:[["Move coisas até o peso de uma pessoa. Trancas e portas.",B]],fight:[],vary:[["Mesa que se mexe sozinha.",R],["Segura uma porta fechada.",P]],who:[]},
   {open:[["Ponto de força. O golpe reforçado, a força chega junto com o soco.",B,"Majima"]],fight:[["Atordoa três segundos com um golpe na cabeça.",B]],vary:[["Levita o próprio corpo um pouco.",R]],who:[]},
-  {open:[["Organiza o espaço. Barreira, caminho livre.",B],["Desloca o material onde um ser sofredor está preso.",B]],fight:[],vary:[["A caneta escreve sozinha.",R],["Toca um instrumento sem encostar.",R],["Arremessa objetos.",P]],who:[["Shimizu",T]]},
-  {open:[["Arquitetura de contenção. O método Orimoto.",B],["Mantém o campo por muito tempo em vários alvos.",B],["Golpe de precisão num ponto dentro do alvo.",B]],fight:[["Desfaz a coerência de uma entidade por um momento.",B]],vary:[["Segura um teto que cai.",L,"Majima"],["Escudo à frente do corpo.",P],["Para um carro.",P]],who:[["Majima",T]]},
-  {open:[["Muda a gravidade num espaço.",B]],fight:[],vary:[["Fecha eventos grandes.",B,"Ishida Ryō"]],who:[["Ishida Ryō",B]]},
+  {open:[["Organiza o espaço. Barreira, caminho livre.",B],["Desloca o material onde um ser sofredor está preso.",B]],fight:[],vary:[["A caneta escreve sozinha.",R],["Toca um instrumento sem encostar.",R],["Arremessa objetos.",P]],who:[]},
+  {open:[["Arquitetura de contenção. O método Orimoto.",B],["Mantém o campo por muito tempo em vários alvos.",B],["Golpe de precisão num ponto dentro do alvo.",B]],fight:[["Desfaz a coerência de uma entidade por um momento.",B]],vary:[["Segura um teto que cai.",L,"Majima"],["Escudo à frente do corpo.",P],["Para um carro.",P]],who:[["Shimizu",T]]},
+  {open:[["Muda a gravidade num espaço.",B]],fight:[],vary:[["Fecha eventos grandes.",B,"Ishida Ryō"]],who:[["Majima",T],["Ishida Ryō",B]]},
   {open:[["Domínio da arquitetura do espaço. A sala inteira vira arma.",B]],fight:[],vary:[],who:[]},
   {open:second,fight:[],vary:[],who:[]},
   {open:axis,fight:[],vary:[],who:[]}
@@ -177,9 +177,9 @@ const paths=[
   {open:[["Descarga elétrica à distância.",B]],fight:[["Derruba uma pessoa com choque.",B]],vary:[["Só calor.",P],["Só frio.",P]],who:[]},
   {open:[["Pressão de membrana contra espírito e ser sofredor.",B],["Derruba câmera, rádio e rede.",B]],fight:[],vary:[["Fogo-fátuo.",R],["Acende e apaga chama.",P]],who:[]},
   {open:[["Usa a energia do lugar como arma.",B],["Queimadura de membrana. Fere demônio alto.",B],["Mantém um campo de energia por muito tempo.",B]],fight:[],vary:[["Raio.",L,"Sena"],["Congela e estoura pneu.",L,"Sena"],["Fogo que só queima espírito, como o goma.",R]],who:[["Tendo",T],["Sena",T]]},
-  {open:[["Null Space. Dez metros onde nada vê de fora.",B,"Misaki"]],fight:[],vary:[["Tempestade num quarteirão.",P],["Ferve a água de um canal.",L,"Mori"]],who:[["Inoue Misaki",B]]},
+  {open:[["Null Space. Dez metros onde nada vê de fora.",B,"Misaki"]],fight:[],vary:[["Tempestade num quarteirão.",P],["Ferve a água de um canal.",L,"Mori"]],who:[]},
   {open:[["Membrana crua. Usa a energia do véu direto.",B]],fight:[],vary:[],who:[]},
-  {open:second,fight:[],vary:[],who:[]},
+  {open:second,fight:[],vary:[],who:[["Inoue Misaki",B]]},
   {open:axis,fight:[],vary:[],who:[]}
  ]},
 {id:"tp",name:"Teleporte",kanji:"渡",c:"--tp",tag:"O caminho do trânsito. Dobra a distância pela membrana (Bible). Cruza dimensões, e isso é descoberto depois (Betty).",
@@ -190,9 +190,9 @@ const paths=[
   {open:[["Salta até trinta metros vendo o lugar.",B]],fight:[["Golpe relâmpago. Aparece e bate antes do outro perceber.",B]],vary:[["Só salta sozinho.",P]],who:[]},
   {open:[["Salta até quinhentos metros para um lugar que conhece.",B]],fight:[],vary:[["Traz um objeto pequeno de longe.",R]],who:[]},
   {open:[["Pousa no ponto exato.",B]],fight:[["Põe sal, prata, ferro ou um selo dentro da guarda do outro.",B]],vary:[["Desarma. Tira o objeto da mão do outro.",T],["Anula a queda.",T]],who:[]},
-  {open:[["Leva um passageiro que aceita.",B],["Três saltos seguidos.",B]],fight:[["Aparece onde o outro ia, e o golpe dele perde o sentido.",B]],vary:[["Troca de lugar com um amigo.",T],["Redireciona o ataque para outro lugar.",T]],who:[["Hana",T]]},
-  {open:[["Salto silencioso.",B],["Chega à borda do Limiar.",B],["Até cinco quilômetros.",B]],fight:[["Leva a âncora de um espírito para longe dele.",B]],vary:[["Manda um fantasma de volta ao plano dele.",T],["Leva armas e equipamento.",P],["Aparece em dois lugares, como a bilocação.",R]],who:[]},
-  {open:[["Leva até quatro pessoas.",B]],fight:[],vary:[["Vai ao plano dos espíritos onde já esteve.",T],["Some com alguém por um tempo, como o kamikakushi.",R]],who:[["Gin, de verdade",B],["Kuroda Sei",B]]},
+  {open:[["Leva um passageiro que aceita.",B],["Três saltos seguidos.",B]],fight:[["Aparece onde o outro ia, e o golpe dele perde o sentido.",B]],vary:[["Troca de lugar com um amigo.",T],["Redireciona o ataque para outro lugar.",T]],who:[["Kuroda Sei",B]]},
+  {open:[["Salto silencioso.",B],["Chega à borda do Limiar.",B],["Até cinco quilômetros.",B]],fight:[["Leva a âncora de um espírito para longe dele.",B]],vary:[["Manda um fantasma de volta ao plano dele.",T],["Leva armas e equipamento.",P],["Aparece em dois lugares, como a bilocação.",R]],who:[["Hana",T]]},
+  {open:[["Leva até quatro pessoas.",B]],fight:[],vary:[["Vai ao plano dos espíritos onde já esteve.",T],["Some com alguém por um tempo, como o kamikakushi.",R]],who:[["Gin, de verdade",B]]},
   {open:[["Atravessa o Limiar para buscar uma alma expulsa antes que ela se desfaça.",B]],fight:[],vary:[["A Dobra. Guarda uma casa ou um bairro inteiro na dimensão do meio.",T]],who:[]},
   {open:second,fight:[],vary:[],who:[]},
   {open:axis,fight:[],vary:[],who:[]}
