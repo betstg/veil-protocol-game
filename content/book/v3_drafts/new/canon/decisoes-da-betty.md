@@ -536,3 +536,13 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Tanizaki era mestre, então é Guardião, de Psicocinese (correção da Betty, 19 nov, substitui a escolha de Árbitro).
 - O Tanizaki é atacado por ser mestre. Ele não morre do nada. Ele é possuído, mesmo sem ser um dos Treze, e isso mostra o que acontece quando um mestre é possuído. Ele vira um inimigo forte e é triste ter que matar ele. Precisa dos cinco do time da CVD, da intervenção do chefe da CVD e de mais gente, até juntar a Resistência, o que mostra um começo de união.
 - O Bible é um documento do mundo e não precisa de missões. Saíram a campanha em atos, as rotas e finais, as cinco estradas, as missões paralelas, o fim de jogo, o "como seguir", o demônio antigo do distrito, a linha do tempo de oito semanas e os cartões de missão pessoal das fichas. Ficam os casos do passado que o Gin comenta, como exemplos de como o mundo funciona.
+
+### Regras que eu apliquei no Bible para fechar buracos (19 de novembro, precisam do sim da Betty)
+- Guardião pode agir, mas cada uso afina o véu em volta dele e chama o outro lado. Por isso só age quando nada mais resolve, e por isso o Diretor suprime os Guardiões. Os mestres que agem na história pagam esse preço.
+- Técnica pertence ao caminho pelo que ela faz. Ler a mentira pelo que a pessoa irradia é Clarisenciência, ler dentro da mente é Telepatia. Acalmar pelo corpo é Psicometabolismo, acalmar mandando um sentimento é Telepatia.
+- Contrato e possessão são estados diferentes. Com contrato o hospedeiro vive, fala e divide o corpo. Sem contrato fica preso e não fala. O prazo de um ano vale só sem contrato.
+- Exorcismo sempre precisa de ritual. Ver se é doença, fazer o teste, equipe com quem segura o círculo, quem segura o corpo e quem fala, perguntar quem é e por que entrou, várias sessões. Pode falhar, pular para outra pessoa, levar o hospedeiro junto, possuir quem faz, ou o espírito mentir e voltar. Deixa resíduo e Madness. Cada facção usa a sua tradição real.
+- No papel a CVD responde ao Ministério do Interior. Na prática responde às famílias, pelos chefes que o Adachi nunca conheceu.
+- Só entra no Programa Vessel quem ia morrer. Por isso ninguém sai.
+- "Domínio" tem dois sentidos, o pilar cósmico e o sentimento de cada pessoa. Cada emoção tem dois assentos, um entre os vivos (Treze humanos, Singularidade) e um entre os mortos (Treze de Yomi, Guardião). O Dever está vago entre os vivos e o Amor entre os mortos.
+- As cenas que fazem essas regras valerem estão na aba Missões da matriz, no bloco "Partes do livro que as regras pedem".
