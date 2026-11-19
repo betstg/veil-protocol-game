@@ -271,7 +271,7 @@ No roteiro o Gorō vem logo depois de Dois Lados, ainda com o Itsuki fora. Eu pa
 - O caso de Takinogawa, o espelho do banheiro embaçando em forma de mão, o velho morto há quatro dias na casa ao lado e a coisa sentando com ele.
 - "Não faça só o que mandam."
 - O rito com plateia (o Diretor, a Shimizu, o Kato, a Aoi, a Katagiri, o Uruma comendo biscoito de arroz), o espelho de pinho de guarda roupa, o ovo cozido, o Tendo segurando a mão do Rei para fazer os traços. O Bible pede tinta de carvão e terra de cemitério e três dias dando comida na mão, que eu não usei.
-- O nome ōma-ga-toki para a hora do crepúsculo. (É o mesmo nome do Twilight Office, que você ainda não decidiu.)
+- O nome ōma-ga-toki para a hora do crepúsculo. (É o mesmo nome da instituição Ōmagatoki.)
 - O Rei levando o espelho para casa.
 - A primeira vez voando, o olho azul vendo os mortos, o fio cinza indo para oeste até a casa branca, o sangue do nariz e o Gorō dormindo do lado dele no tatame.
 

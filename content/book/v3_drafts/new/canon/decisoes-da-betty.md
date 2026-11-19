@@ -3,9 +3,9 @@
 Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escrevi.
 
 ## Nomes
-- O Twilight Office se chama Ōmagatoki (逢魔時) e não se traduz. É nome antigo de instituição e ninguém traduz.
+- A instituição antiga se chama Ōmagatoki (逢魔時). O nome não se traduz.
 - Sobrenome dos irmãos é 植寺 (Uedera). É a única das três grafias do Bible que se lê Uedera. 植 é plantar e 寺 é templo.
-- O nome do Gin é 銀, prata. É a grafia que aparece duas vezes no Bible (prefácio e ficha resumida). O 銘 da outra ficha se lê Mei e sai.
+- O nome do Gin é 銀, prata.
 - O Rei continua 零.
 - A Okada Shizuka é mulher. O Yamamoto Koji é homem. Pronome segue o nome, sem perguntar de novo.
 
@@ -469,7 +469,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Healer acorda o Gin porque o corpo está com fome. O Healer come almas, mas o corpo morre se não comer. O Gin ensina a sacar dinheiro e o Healer prova lámen pela primeira vez, sem saber o nome das comidas de hoje, e pede opinião.
 - O Healer foi humano há muito tempo. A escrita e os nomes da época dele eram diferentes.
 - O Kato pode fazer uma piada ou outra, mas não liga. Está acostumado a não gostarem dele. Depois começa a soltar mais piadas perto do Rei, porque percebe que o Rei não tem medo de ter a mente lida.
-- O homem cansado do Bible se chama Tachibana, mas Tachibana é o sobrenome do Healer. Para não confundir, no livro ele virou Sr. Hirose. A galeria é a Kamiya Ginza, o peixeiro morto é o Ōta Kichizō da peixaria Uokichi. Invenção minha, a aprovar.
+- O homem cansado em cima da galeria é o Sr. Hirose. A galeria é a Kamiya Ginza, o peixeiro morto é o Ōta Kichizō da peixaria Uokichi.
 
 ## Decisões de 19 de novembro
 
@@ -537,7 +537,7 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - O Tanizaki é atacado por ser mestre. Ele não morre do nada. Ele é possuído, mesmo sem ser um dos Treze, e isso mostra o que acontece quando um mestre é possuído. Ele vira um inimigo forte e é triste ter que matar ele. Precisa dos cinco do time da CVD, da intervenção do chefe da CVD e de mais gente, até juntar a Resistência, o que mostra um começo de união.
 - O Bible é um documento do mundo e não precisa de missões. Saíram a campanha em atos, as rotas e finais, as cinco estradas, as missões paralelas, o fim de jogo, o "como seguir", o demônio antigo do distrito, a linha do tempo de oito semanas e os cartões de missão pessoal das fichas. Ficam os casos do passado que o Gin comenta, como exemplos de como o mundo funciona.
 
-### Regras que eu apliquei no Bible para fechar buracos (19 de novembro, precisam do sim da Betty)
+### Regras que fecham buracos (19 de novembro, a Betty mandou resolver)
 - Guardião pode agir, mas cada uso afina o véu em volta dele e chama o outro lado. Por isso só age quando nada mais resolve, e por isso o Diretor suprime os Guardiões. Os mestres que agem na história pagam esse preço.
 - Técnica pertence ao caminho pelo que ela faz. Ler a mentira pelo que a pessoa irradia é Clarisenciência, ler dentro da mente é Telepatia. Acalmar pelo corpo é Psicometabolismo, acalmar mandando um sentimento é Telepatia.
 - Contrato e possessão são estados diferentes. Com contrato o hospedeiro vive, fala e divide o corpo. Sem contrato fica preso e não fala. O prazo de um ano vale só sem contrato.
@@ -546,3 +546,4 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Só entra no Programa Vessel quem ia morrer. Por isso ninguém sai.
 - "Domínio" tem dois sentidos, o pilar cósmico e o sentimento de cada pessoa. Cada emoção tem dois assentos, um entre os vivos (Treze humanos, Singularidade) e um entre os mortos (Treze de Yomi, Guardião). O Dever está vago entre os vivos e o Amor entre os mortos.
 - As cenas que fazem essas regras valerem estão na aba Missões da matriz, no bloco "Partes do livro que as regras pedem".
+- Um lugar pode aparecer em dois planos numa mesma cena. O leitor entende os planos pela cena, sem explicação.
