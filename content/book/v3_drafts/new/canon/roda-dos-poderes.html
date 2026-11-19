@@ -96,7 +96,7 @@ h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);mar
       <div class="card"><h4>Os ranks de cima (Betty, 19 de novembro)</h4><p>Vanguarda é gente absurdamente forte que trabalha, líder da CVD ou chefe de família. Guardião é o Vanguarda que ficou ainda mais forte, não pode agir porque afina o véu, vive isolado e suprimido. Todo mestre é Guardião. Os demônios dos Treze também estão nesse nível. Singularidade são os Treze humanos, com lugar junto do Axis, como o Inoue Satoru. Eles se estabilizam sozinhos. Depois só existe o Axis.</p></div>
       <div class="card"><h4>O segundo caminho (Betty, 19 de novembro)</h4><p>Qualquer pessoa, em qualquer rank, consegue abrir um segundo caminho. Ninguém sabe. Os Treze humanos não têm. Quem descobre são o Axis e o Rei, porque os Uedera já nascem com dois caminhos.</p></div>
       <div class="card"><h4>Rank e nível</h4><p>O rank é a abertura com que a pessoa nasce e não se treina. O nível, de 1 a 10, é o quanto ela treinou dentro do caminho. O rank é o teto do nível (Bible).</p></div>
-      <div class="card"><h4>Rank e nível no site</h4><p>A lista de ranks é a do site e da Matriz de Estabilidade do Bible. No site o rank não trava o nível como eu tinha proposto. A Hara Setsu é Sensitivo com nível 4 de Clarisenciência. Os poderes estão agrupados por rank como proposta. Quem está em cada rank segue o site.</p></div>
+      <div class="card"><h4>Rank e nível no site</h4><p>A lista de ranks é a do site e da Matriz de Estabilidade do Bible. O teto de nível de cada rank segue o Bible. Postulado até 3, Adepto até 5, Ritualista até 6, Árbitro até 8, Vanguarda até 9, Guardião até 10. A Hara Setsu passa desse teto no site, por isso a regra ainda está em aberto. Quem está em cada rank segue o site e as suas decisões.</p></div>
       <div class="card"><h4>Onde o Bible briga com você</h4><p>O Bible tem o Channel entre Ritualista e Árbitro, e você não tem. O Bible põe a Singularidade antes do Guardião, e a sua decisão põe depois. O Bible dá Telecinese de mestre à Shimizu como Clarisenciência e Teleporte ao Kurosawa. O Bible deixa o teleporte levar o corpo de um possuído para o círculo de sal, e você decidiu que teleporte não funciona com possuído. Em tudo isso vale a sua palavra, e o Bible vai ser corrigido.</p></div>
     </div>
   </section>
@@ -105,101 +105,69 @@ h1{font-family:var(--display);font-weight:900;font-size:clamp(28px,5vw,42px);mar
 <script>
 const B="bible",T="betty",R="real",P="prop",L="book";
 const oc={bible:"var(--bible)",betty:"var(--betty)",real:"var(--real)",prop:"var(--prop)",book:"var(--book)"};
-const rankNames=[["Sensitivo","nível 1"],["Postulado","nível 2"],["Adepto","nível 3"],["Ritualista","níveis 4 e 5"],["Árbitro","níveis 6 a 8"],["Vanguarda","nível 9"],["Guardião","os mestres isolados"],["Singularidade","os Treze humanos"],["Axis","estado, não rank"]];
+const rankNames=[["Sensitivo","latente, sem treino"],["Postulado","até o nível 3"],["Adepto","até o nível 5"],["Ritualista","até o nível 6"],["Árbitro","até o nível 8"],["Vanguarda","até o nível 9"],["Guardião","até o 10, os mestres isolados"],["Singularidade","nível 10, os Treze humanos"],["Axis","estado, não rank"]];
 const second=[["Se estabiliza sozinho. Não afina o véu como o Guardião, por isso pode agir.",T],["Não tem segundo caminho e não sabe que é possível.",T]];
 const axis=[["A Fonte. Percebe e segura a cidade inteira, vivos e mortos.",B]];
-const paths=[
-{id:"clair",name:"Clarisenciência",kanji:"感",c:"--clair",tag:"O caminho da percepção. Ler o que está num lugar, numa pessoa ou num objeto, e o que já esteve.",
- nb:"Telepatia e Teleporte",
- real:"Os médiuns sensitivos, videntes, audientes e de pressentimento de Kardec. A psicometria, leitura de objetos. A visão à distância.",
- cost:"Dor atrás dos olhos, nariz sangrando, insônia. Quem lê também pode ser lido. O resíduo das cenas acumula e precisa ser limpo (Bible).",
- ranks:[
-  {open:[["Sente o peso emocional de um lugar, sem detalhe. Não desliga.",B]],fight:[],vary:[["Frio ou arrepio onde houve morte.",R],["Cheiro de incenso, flor ou podre sem fonte.",R],["Sonha com quem morou na casa.",R],["Fica mal em hospital e cemitério.",P]],who:[]},
-  {open:[["Vê entidades. Quem entra na CVD já vê.",T],["Sabe que há uma entidade a vinte metros e a classe dela.",B]],fight:[],vary:[["Sabe pelo corpo se o espírito é bom ou ruim.",R],["Ouve batidas e passos.",R],["Vê sombra pelo canto do olho.",R],["Ouve o próprio nome chamado.",R]],who:[["Rei, como está registrado",B]]},
-  {open:[["Lê a história emocional de um objeto tocado nos últimos seis meses.",B]],fight:[],vary:[["Lê fotografia.",P],["Lê carta e letra de mão.",R],["Lê a roupa de quem sumiu.",P],["Sente vagamente onde o dono do objeto está.",P]],who:[]},
-  {open:[["Lê o estado emocional de uma pessoa e percebe mentira.",B],["Vê a camada dupla de um possuído.",B]],fight:[["Leitura preditiva. Sabe onde o golpe vai cair antes.",B]],vary:[["Lê a biografia de objetos e lugares.",B,"Okada"],["Ouve o que o morto repete.",R],["Vê o animal dentro de um possuído por raposa ou cão.",R],["Sente doença no corpo de alguém.",R]],who:[["Okada",T],["Ren, o demônio do Usami",T],["Gin, como está registrado",T]]},
-  {open:[["Reconstrói a história de um lugar de um a cinco anos.",B],["Leitura profunda de memória e intenção. Sem consentimento é violação.",B],["Vê fragmentos de alma absorvidos por uma entidade.",B]],fight:[["Inundação sensorial. Joga a história do lugar na cabeça do outro.",B],["Trava de assinatura. Ninguém se esconde dele, nem com supressão.",B]],vary:[["Vê um lugar longe dali.",R],["Pressentimento de morte.",R],["Percebe quem está sendo enganado por um espírito sem saber.",R],["Lê décadas de um lugar, e não só anos.",P]],who:[["Rei, de verdade",B]]},
-  {open:[["Visão arquitetônica. Lê a sala inteira de uma vez, quem mente, do que a entidade tem medo, para que o prédio serviu. Não desliga.",B]],fight:[["Leitura total. Diz ao time os fatos escondidos que importam.",B]],vary:[["Lê um demônio pelo rastro de dias antes.",P],["A cidade fica transparente.",B]],who:[["Gin, de verdade",B],["Adachi",B]]},
-  {open:[["Isolamento de frequência. Acha uma consciência dentro de um possuído, uma pessoa em Tóquio inteira, e alcança a Fonte.",B]],fight:[],vary:[["Sente todos que carregam o mesmo sentimento dele na cidade.",P],["Sente o véu afinando em qualquer bairro.",P]],who:[["Yamamoto",T],["Uehara",T],["Ren e Usami, no fim",T]]},
-  {open:second,fight:[],vary:[["Vive meio segundo à frente dos outros.",P],["Lê o passado de um bairro inteiro.",P]],who:[]},
-  {open:axis,fight:[],vary:[],who:[["Kuze Kaname",T]]}
- ]},
-{id:"tele",name:"Telepatia",kanji:"念",c:"--tele",tag:"O caminho da mente. A clarisenciência sabe que você está com raiva. A telepatia sabe por quê (Bible).",
- nb:"Clarisenciência e Psicometabolismo",
- real:"Os médiuns inspirados, falantes e escreventes de Kardec. A doutrinação espírita. As itako que emprestam a voz aos mortos. O kotodama japonês, a força que mora na palavra dita.",
- cost:"Quem leu alguém fundo carrega isso para sempre (Bible). É o praticante de quem mais se desconfia (Bible).",
- ranks:[
-  {open:[["Recebe o sofrimento de quem está a dez metros. Parece sentimento alheio sem explicação. Não desliga.",B]],fight:[],vary:[["Confundido com ansiedade a vida inteira.",B],["Sente o que um trem lotado sente.",P],["Recebe como se fosse pensamento próprio.",R]],who:[]},
-  {open:[["Lê a superfície de quem deixa, como um aperto de mão.",B]],fight:[],vary:[["Recebe em imagem e peso, não em palavras.",B],["Só funciona com toque.",P],["Só funciona com quem conhece.",P]],who:[]},
-  {open:[["Sente a intenção de quem está perto. Veio ajudar ou machucar. Está com medo. Está mentindo.",B]],fight:[["Leitura forçada. O outro sente a intrusão e perde o ritmo.",B]],vary:[["Sabe quem está mentindo numa sala cheia.",P]],who:[]},
-  {open:[["Leitura dirigida de uma memória ou intenção.",B],["Manda uma emoção ou impressão para outra pessoa.",B]],fight:[["Dor transmitida.",B]],vary:[["Ouve duas camadas num possuído.",L,"Kato"],["Escreve o que outra mente pensa.",R],["Empresta a voz a um morto, como as itako.",R]],who:[["Kato, no começo",B],["Usami",T]]},
-  {open:[["Conversa com espíritos e com demônios que ainda pensam.",B],["Sugestão. Planta uma vontade.",B],["Navegação de consciência. Entra na mente de alguém e anda lá dentro.",B]],fight:[["Intrusão de memória. Arranca uma lembrança ou apaga o que a pessoa estava fazendo.",B]],vary:[["A palavra que obriga, o kotodama.",R],["Liga várias mentes como uma mesa telefônica.",L,"Haruki"],["Conversa com um espírito obsessor até ele ir embora.",R],["Vê a paisagem da mente, a vida da pessoa por dentro.",T]],who:[]},
-  {open:[["Interface com demônio. Atrapalha o demônio de segurar a possessão.",B]],fight:[["Fratura de consciência. Força o demônio a brigar com o dono do corpo, e o dono sobe por inteiro.",B]],vary:[["Segura cem pessoas paradas com uma palavra.",L,"Kato"],["Fala em várias cabeças ao mesmo tempo.",P],["Ninguém consegue mentir para ele.",T]],who:[["Kato, no fim do livro",T]]},
-  {open:[["Ressonância total com outra mente. É como os Treze falam entre si.",B]],fight:[],vary:[],who:[["Haruki",T]]},
-  {open:second,fight:[],vary:[["Puxa várias mentes para dentro de um lugar só dele.",P]],who:[]},
-  {open:axis,fight:[],vary:[],who:[]}
- ]},
-{id:"meta",name:"Psicometabolismo",kanji:"身",c:"--meta",tag:"O caminho do corpo. Ajuda no corpo e nos ferimentos, não no poder mediúnico (Betty).",
- nb:"Telepatia e Telecinese",
- real:"Os médiuns curadores de Kardec. O passe e a imposição de mãos. A benzedeira brasileira. O reiki japonês. Os ascetas que aguentam frio e fome.",
- cost:"Quem cura paga com o próprio corpo. O médico vira infraestrutura e o time esquece que ele é gente (Bible). Ficam laços com quem ele segurou por horas (Bible).",
- ranks:[
-  {open:[["Acalma o próprio corpo antes de uma ação.",B]],fight:[],vary:[["Aguenta frio e fome mais que os outros.",R],["Baixa o próprio coração.",R]],who:[]},
-  {open:[["Lê ferimento, droga e estado do corpo de alguém. Causa de morte de até uma semana.",B]],fight:[["Sabe onde o outro já está ferido.",B]],vary:[["Sente o quebranto no corpo de uma criança, como a benzedeira.",R],["Sente veneno.",P]],who:[]},
-  {open:[["Acalma outra pessoa de leve e paga com o próprio corpo.",T]],fight:[],vary:[["Imposição de mãos, o passe.",R],["Estanca sangue com reza.",R]],who:[]},
-  {open:[["Recupera o próprio corpo mais rápido.",B],["Mantém outro de pé quando ele já devia ter caído.",B]],fight:[["Aumenta a dor de quem já está ferido.",B]],vary:[["Puxa a febre ou a dor do outro para a própria mão.",L,"Tanaka"],["Empresta batidas do próprio coração.",L,"Moriya"],["Reiki.",R]],who:[]},
-  {open:[["Tira a dor de alguém por um tempo.",B],["Influência no corpo. Acalma, baixa febre, ajuda o sangue a coagular.",B],["Segura o hospedeiro no exorcismo para ele não sair junto.",B]],fight:[["Abala o corpo de quem usa poder.",B],["Choque metabólico. Desmaio ou paralisia num toque.",B]],vary:[["Segura um possuído parado e acordado enquanto o espírito fala.",T],["Corpo fechado contra golpe e veneno.",R],["Lê o corpo de um possuído e diz quanto ele aguenta.",L,"Kurosawa"]],who:[["Katagiri",T],["Moriya",T]]},
-  {open:[["Limpa o resíduo do véu de quem trabalhou demais, sessão por sessão.",B]],fight:[],vary:[["Exorcismo pela cura. Entende e cura o que aflige o espírito.",T,"Tanaka"],["Mantém um time inteiro de pé numa noite longa.",P]],who:[]},
-  {open:[["Leitura total do corpo e do véu de qualquer ser vivo, inclusive da Fonte em quem se aproxima dela.",B]],fight:[],vary:[],who:[["Tanaka",T],["Kurosawa",T],["Higashiyama Riko",B]]},
-  {open:second,fight:[],vary:[],who:[]},
-  {open:axis,fight:[],vary:[],who:[]}
- ]},
-{id:"tk",name:"Telecinese",kanji:"力",c:"--tk",tag:"O caminho da força. A mais visível e a que mais chama atenção do outro lado (Bible).",
- nb:"Psicometabolismo e Psicocinese",
- real:"Os médiuns de efeitos físicos de Kardec. Batidas, mesas que se mexem, escrita sem mão, música sem toque. A levitação de D. D. Home. O poltergeist.",
- cost:"Veia na testa, joelhos cedendo, coração disparado. Deixa rastro que dura horas e anuncia o praticante (Bible).",
- ranks:[
-  {open:[["Move objetos do tamanho da mão sem tocar. Deixa rastro.",B]],fight:[],vary:[["Batidas na madeira.",R],["Só mexe com raiva, como um poltergeist.",R],["Move água.",P]],who:[]},
-  {open:[["Move coisas até o peso de uma pessoa. Trancas e portas.",B]],fight:[],vary:[["Mesa que se mexe sozinha.",R],["Segura uma porta fechada.",P]],who:[]},
-  {open:[["Ponto de força. O golpe reforçado, a força chega junto com o soco.",B,"Majima"]],fight:[["Atordoa três segundos com um golpe na cabeça.",B]],vary:[["Levita o próprio corpo um pouco.",R]],who:[]},
-  {open:[["Organiza o espaço. Barreira, caminho livre.",B],["Desloca o material onde um ser sofredor está preso.",B]],fight:[],vary:[["A caneta escreve sozinha.",R],["Toca um instrumento sem encostar.",R],["Arremessa objetos.",P]],who:[]},
-  {open:[["Arquitetura de contenção. O método Orimoto.",B],["Mantém o campo por muito tempo em vários alvos.",B],["Golpe de precisão num ponto dentro do alvo.",B]],fight:[["Desfaz a coerência de uma entidade por um momento.",B]],vary:[["Segura um teto que cai.",L,"Majima"],["Escudo à frente do corpo.",P],["Para um carro.",P]],who:[["Shimizu",T],["Majima",T]]},
-  {open:[["Muda a gravidade num espaço.",B]],fight:[],vary:[["Fecha eventos grandes.",B,"Ishida Ryō"]],who:[]},
-  {open:[["Domínio da arquitetura do espaço. A sala inteira vira arma.",B]],fight:[],vary:[],who:[["Ishida Ryō",B]]},
-  {open:second,fight:[],vary:[],who:[]},
-  {open:axis,fight:[],vary:[],who:[]}
- ]},
-{id:"pk",name:"Psicocinese",kanji:"気",c:"--pk",tag:"O caminho da energia. Elétrica, calor, frio, som, e no fim a energia do próprio véu (Bible).",
- nb:"Telecinese e Teleporte",
- real:"As pessoas elétricas de Kardec. O poltergeist que mexe em aparelhos e o rádio que pega vozes. O fogo-fátuo japonês, kitsunebi e hitodama. O fogo goma de Fudō Myōō.",
- cost:"O caminho que mais faz barulho e o mais difícil de usar em silêncio (Bible). Febre, mão queimada ou gelada.",
- ranks:[
-  {open:[["Desliga aparelhos simples a cinco metros. Deixa rastro.",B]],fight:[],vary:[["A luz pisca quando ele chega.",R],["O rádio chia e pega vozes.",R],["O relógio para.",R]],who:[]},
-  {open:[["Muda a temperatura de um cômodo e cria uma zona sem som.",B]],fight:[],vary:[["Ponto frio.",R],["Estática na pele.",R]],who:[]},
-  {open:[["Descarga elétrica à distância.",B]],fight:[["Derruba uma pessoa com choque.",B]],vary:[["Só calor.",P],["Só frio.",P]],who:[]},
-  {open:[["Pressão de membrana contra espírito e ser sofredor.",B],["Derruba câmera, rádio e rede.",B]],fight:[],vary:[["Fogo-fátuo.",R],["Acende e apaga chama.",P]],who:[]},
-  {open:[["Usa a energia do lugar como arma.",B],["Queimadura de membrana. Fere demônio alto.",B],["Mantém um campo de energia por muito tempo.",B]],fight:[],vary:[["Raio.",L,"Sena"],["Congela e estoura pneu.",L,"Sena"],["Fogo que só queima espírito, como o goma.",R]],who:[["Tendo",T],["Sena",T]]},
-  {open:[["Null Space. Dez metros onde nada vê de fora.",B,"Misaki"]],fight:[],vary:[["Tempestade num quarteirão.",P],["Ferve a água de um canal.",L,"Mori"]],who:[]},
-  {open:[["Membrana crua. Usa a energia do véu direto.",B]],fight:[],vary:[],who:[["Inoue Misaki, a definir",P]]},
-  {open:second,fight:[],vary:[],who:[]},
-  {open:axis,fight:[],vary:[],who:[]}
- ]},
-{id:"tp",name:"Teleporte",kanji:"渡",c:"--tp",tag:"O caminho do trânsito. Dobra a distância pela membrana (Bible). Cruza dimensões, e isso é descoberto depois (Betty).",
- nb:"Psicocinese e Clarisenciência",
- real:"O transporte de objetos de Kardec. A bilocação dos santos. O kamikakushi japonês, gente escondida pelos deuses. O chūu, o estado do meio do budismo.",
- cost:"Não funciona com gente possuída (Betty). Deixa rastro que dura horas (Bible). Perto do Limiar, as entidades do outro lado veem ele (Bible).",
- ranks:[
-  {open:[["Salta até trinta metros vendo o lugar.",B]],fight:[["Golpe relâmpago. Aparece e bate antes do outro perceber.",B]],vary:[["Só salta sozinho.",P]],who:[]},
-  {open:[["Salta até quinhentos metros para um lugar que conhece.",B]],fight:[],vary:[["Traz um objeto pequeno de longe.",R]],who:[]},
-  {open:[["Pousa no ponto exato.",B]],fight:[["Põe sal, prata, ferro ou um selo dentro da guarda do outro.",B]],vary:[["Desarma. Tira o objeto da mão do outro.",T],["Anula a queda.",T]],who:[]},
-  {open:[["Leva um passageiro que aceita.",B],["Três saltos seguidos.",B]],fight:[["Aparece onde o outro ia, e o golpe dele perde o sentido.",B]],vary:[["Troca de lugar com um amigo.",T],["Redireciona o ataque para outro lugar.",T]],who:[["Kuroda Sei",B]]},
-  {open:[["Salto silencioso.",B],["Chega à borda do Limiar.",B],["Até cinco quilômetros.",B]],fight:[["Leva a âncora de um espírito para longe dele.",B]],vary:[["Manda um fantasma de volta ao plano dele, só quando ele não está numa pessoa. Tirar de uma pessoa é exorcismo e precisa de ritual. Um fantasma forte volta.",T],["Leva armas e equipamento.",P],["Aparece em dois lugares, como a bilocação.",R]],who:[["Hana",T]]},
-  {open:[["Leva até quatro pessoas.",B]],fight:[],vary:[["Vai ao plano dos espíritos onde já esteve.",T],["Some com alguém por um tempo, como o kamikakushi.",R]],who:[["Gin, de verdade",B]]},
-  {open:[["Atravessa o Limiar para buscar uma alma expulsa antes que ela se desfaça.",B]],fight:[],vary:[["A Dobra. Guarda uma casa ou um bairro inteiro na dimensão do meio.",T]],who:[]},
-  {open:second,fight:[],vary:[],who:[]},
-  {open:axis,fight:[],vary:[],who:[]}
- ]}
-];
+const paths=[{"id":"clair","name":"Clarisenciência","kanji":"感","c":"--clair","tag":"O caminho da percepção. Ler o que está num lugar, numa pessoa ou num objeto, e o que já esteve.","nb":"Telepatia e Teleporte","real":"Os médiuns sensitivos, videntes, audientes e de pressentimento de Kardec. A psicometria, leitura de objetos. A visão à distância.","cost":"Dor atrás dos olhos, nariz sangrando, insônia. Quem lê também pode ser lido. O resíduo das cenas acumula e precisa ser limpo (Bible).","ranks":[
+  {"open":[["Sente o peso emocional de um lugar, sem detalhe. Não desliga.",B]],"fight":[],"vary":[["Frio ou arrepio onde houve morte.",R],["Cheiro de incenso, flor ou podre sem fonte.",R],["Sonha com quem morou na casa.",R],["Fica mal em hospital e cemitério.",P]],"who":[]},
+  {"open":[["Vê entidades. Quem entra na CVD já vê.",T],["Sabe que há uma entidade a vinte metros e a classe dela.",B],["Lê a história emocional de um objeto tocado nos últimos seis meses.",B]],"fight":[],"vary":[["Sabe pelo corpo se o espírito é bom ou ruim.",R],["Ouve batidas e passos.",R],["Vê sombra pelo canto do olho.",R],["Ouve o próprio nome chamado.",R],["Lê fotografia.",P],["Lê carta e letra de mão.",R],["Lê a roupa de quem sumiu.",P],["Sente vagamente onde o dono do objeto está.",P]],"who":[["Rei, como está registrado",B]]},
+  {"open":[["Lê o estado emocional de uma pessoa e percebe mentira.",B],["Vê a camada dupla de um possuído.",B]],"fight":[["Leitura preditiva. Sabe onde o golpe vai cair antes.",B]],"vary":[["Lê a biografia de objetos e lugares.",B,"Okada"],["Ouve o que o morto repete.",R],["Vê o animal dentro de um possuído por raposa ou cão.",R],["Sente doença no corpo de alguém.",R]],"who":[]},
+  {"open":[["Reconstrói a história de um lugar de um a cinco anos.",B]],"fight":[["Inundação sensorial. Joga a história do lugar na cabeça do outro.",B]],"vary":[["Vê um lugar longe dali.",R],["Pressentimento de morte.",R]],"who":[["Okada",T],["Ren, o demônio do Usami",T],["Gin, como está registrado",T]]},
+  {"open":[["Leitura profunda de memória e intenção. Sem consentimento é violação.",B],["Vê fragmentos de alma absorvidos por uma entidade.",B]],"fight":[["Trava de assinatura. Ninguém se esconde dele, nem com supressão.",B]],"vary":[["Percebe quem está sendo enganado por um espírito sem saber.",R],["Lê décadas de um lugar, e não só anos.",P]],"who":[["Rei, de verdade",B]]},
+  {"open":[["Visão arquitetônica. Lê a sala inteira de uma vez, quem mente, do que a entidade tem medo, para que o prédio serviu. Não desliga.",B]],"fight":[["Leitura total. Diz ao time os fatos escondidos que importam.",B]],"vary":[["Lê um demônio pelo rastro de dias antes.",P],["A cidade fica transparente.",B]],"who":[["Gin, de verdade",B],["Adachi",B]]},
+  {"open":[["Isolamento de frequência. Acha uma consciência dentro de um possuído, uma pessoa em Tóquio inteira, e alcança a Fonte.",B]],"fight":[],"vary":[["Sente todos que carregam o mesmo sentimento dele na cidade.",P],["Sente o véu afinando em qualquer bairro.",P]],"who":[["Yamamoto",T],["Uehara",T],["Ren e Usami, no fim",T]]},
+  {"open":second,"fight":[],"vary":[["Vive meio segundo à frente dos outros.",P],["Lê o passado de um bairro inteiro.",P]],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[["Kuze Kaname",T]]}]},
+{"id":"tele","name":"Telepatia","kanji":"念","c":"--tele","tag":"O caminho da mente. A clarisenciência sabe que você está com raiva. A telepatia sabe por quê (Bible).","nb":"Clarisenciência e Psicometabolismo","real":"Os médiuns inspirados, falantes e escreventes de Kardec. A doutrinação espírita. As itako que emprestam a voz aos mortos. O kotodama japonês, a força que mora na palavra dita.","cost":"Quem leu alguém fundo carrega isso para sempre (Bible). É o praticante de quem mais se desconfia (Bible).","ranks":[
+  {"open":[["Recebe o sofrimento de quem está a dez metros. Parece sentimento alheio sem explicação. Não desliga.",B]],"fight":[],"vary":[["Confundido com ansiedade a vida inteira.",B],["Sente o que um trem lotado sente.",P],["Recebe como se fosse pensamento próprio.",R]],"who":[]},
+  {"open":[["Lê a superfície de quem deixa, como um aperto de mão.",B],["Sente a intenção de quem está perto. Veio ajudar ou machucar. Está com medo. Está mentindo.",B]],"fight":[["Leitura forçada. O outro sente a intrusão e perde o ritmo.",B]],"vary":[["Recebe em imagem e peso, não em palavras.",B],["Só funciona com toque.",P],["Só funciona com quem conhece.",P],["Sabe quem está mentindo numa sala cheia.",P]],"who":[]},
+  {"open":[["Leitura dirigida de uma memória ou intenção.",B],["Manda uma emoção ou impressão para outra pessoa.",B]],"fight":[["Dor transmitida.",B]],"vary":[["Ouve duas camadas num possuído.",L,"Kato"],["Escreve o que outra mente pensa.",R],["Empresta a voz a um morto, como as itako.",R]],"who":[]},
+  {"open":[["Conversa com espíritos e com demônios que ainda pensam.",B]],"fight":[],"vary":[["Conversa com um espírito obsessor até ele ir embora.",R]],"who":[["Kato, no começo",B],["Usami",T]]},
+  {"open":[["Sugestão. Planta uma vontade.",B],["Navegação de consciência. Entra na mente de alguém e anda lá dentro.",B]],"fight":[["Intrusão de memória. Arranca uma lembrança ou apaga o que a pessoa estava fazendo.",B]],"vary":[["A palavra que obriga, o kotodama.",R],["Liga várias mentes como uma mesa telefônica.",L,"Haruki"],["Vê a paisagem da mente, a vida da pessoa por dentro.",T]],"who":[]},
+  {"open":[["Interface com demônio. Atrapalha o demônio de segurar a possessão.",B]],"fight":[["Fratura de consciência. Força o demônio a brigar com o dono do corpo, e o dono sobe por inteiro.",B]],"vary":[["Segura cem pessoas paradas com uma palavra.",L,"Kato"],["Fala em várias cabeças ao mesmo tempo.",P],["Ninguém consegue mentir para ele.",T]],"who":[["Kato, no fim do livro",T]]},
+  {"open":[["Ressonância total com outra mente. É como os Treze falam entre si.",B]],"fight":[],"vary":[],"who":[["Haruki",T]]},
+  {"open":second,"fight":[],"vary":[["Puxa várias mentes para dentro de um lugar só dele.",P]],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[]}]},
+{"id":"meta","name":"Psicometabolismo","kanji":"身","c":"--meta","tag":"O caminho do corpo. Ajuda no corpo e nos ferimentos, não no poder mediúnico (Betty).","nb":"Telepatia e Telecinese","real":"Os médiuns curadores de Kardec. O passe e a imposição de mãos. A benzedeira brasileira. O reiki japonês. Os ascetas que aguentam frio e fome.","cost":"Quem cura paga com o próprio corpo. O médico vira infraestrutura e o time esquece que ele é gente (Bible). Ficam laços com quem ele segurou por horas (Bible).","ranks":[
+  {"open":[["Acalma o próprio corpo antes de uma ação.",B]],"fight":[],"vary":[["Aguenta frio e fome mais que os outros.",R],["Baixa o próprio coração.",R]],"who":[]},
+  {"open":[["Lê ferimento, droga e estado do corpo de alguém. Causa de morte de até uma semana.",B],["Acalma outra pessoa de leve e paga com o próprio corpo.",T]],"fight":[["Sabe onde o outro já está ferido.",B]],"vary":[["Sente o quebranto no corpo de uma criança, como a benzedeira.",R],["Sente veneno.",P],["Imposição de mãos, o passe.",R],["Estanca sangue com reza.",R]],"who":[]},
+  {"open":[["Recupera o próprio corpo mais rápido.",B],["Mantém outro de pé quando ele já devia ter caído.",B]],"fight":[["Aumenta a dor de quem já está ferido.",B]],"vary":[["Puxa a febre ou a dor do outro para a própria mão.",L,"Tanaka"],["Empresta batidas do próprio coração.",L,"Moriya"],["Reiki.",R]],"who":[]},
+  {"open":[["Tira a dor de alguém por um tempo.",B]],"fight":[["Abala o corpo de quem usa poder.",B]],"vary":[["Corpo fechado contra golpe e veneno.",R]],"who":[]},
+  {"open":[["Influência no corpo. Acalma, baixa febre, ajuda o sangue a coagular.",B],["Segura o hospedeiro no exorcismo para ele não sair junto.",B]],"fight":[["Choque metabólico. Desmaio ou paralisia num toque.",B]],"vary":[["Segura um possuído parado e acordado enquanto o espírito fala.",T],["Lê o corpo de um possuído e diz quanto ele aguenta.",L,"Kurosawa"]],"who":[["Katagiri",T],["Moriya",T]]},
+  {"open":[["Limpa o resíduo do véu de quem trabalhou demais, sessão por sessão.",B]],"fight":[],"vary":[["Exorcismo pela cura. Entende e cura o que aflige o espírito.",T,"Tanaka"],["Mantém um time inteiro de pé numa noite longa.",P]],"who":[]},
+  {"open":[["Leitura total do corpo e do véu de qualquer ser vivo, inclusive da Fonte em quem se aproxima dela.",B]],"fight":[],"vary":[],"who":[["Tanaka",T],["Kurosawa",T],["Higashiyama Riko",B]]},
+  {"open":second,"fight":[],"vary":[],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[]}]},
+{"id":"tk","name":"Telecinese","kanji":"力","c":"--tk","tag":"O caminho da força. A mais visível e a que mais chama atenção do outro lado (Bible).","nb":"Psicometabolismo e Psicocinese","real":"Os médiuns de efeitos físicos de Kardec. Batidas, mesas que se mexem, escrita sem mão, música sem toque. A levitação de D. D. Home. O poltergeist.","cost":"Veia na testa, joelhos cedendo, coração disparado. Deixa rastro que dura horas e anuncia o praticante (Bible).","ranks":[
+  {"open":[["Move objetos do tamanho da mão sem tocar. Deixa rastro.",B]],"fight":[],"vary":[["Batidas na madeira.",R],["Só mexe com raiva, como um poltergeist.",R],["Move água.",P]],"who":[]},
+  {"open":[["Move coisas até o peso de uma pessoa. Trancas e portas.",B],["Ponto de força. O golpe reforçado, a força chega junto com o soco.",B,"Majima"]],"fight":[["Atordoa três segundos com um golpe na cabeça.",B]],"vary":[["Mesa que se mexe sozinha.",R],["Segura uma porta fechada.",P],["Levita o próprio corpo um pouco.",R]],"who":[]},
+  {"open":[["Organiza o espaço. Barreira, caminho livre.",B],["Desloca o material onde um ser sofredor está preso.",B]],"fight":[],"vary":[["A caneta escreve sozinha.",R],["Toca um instrumento sem encostar.",R],["Arremessa objetos.",P]],"who":[]},
+  {"open":[["Arquitetura de contenção. O método Orimoto.",B]],"fight":[],"vary":[["Segura um teto que cai.",L,"Majima"],["Escudo à frente do corpo.",P]],"who":[]},
+  {"open":[["Mantém o campo por muito tempo em vários alvos.",B],["Golpe de precisão num ponto dentro do alvo.",B]],"fight":[["Desfaz a coerência de uma entidade por um momento.",B]],"vary":[["Para um carro.",P]],"who":[["Shimizu",T],["Majima",T]]},
+  {"open":[["Muda a gravidade num espaço.",B]],"fight":[],"vary":[["Fecha eventos grandes.",B,"Ishida Ryō"]],"who":[]},
+  {"open":[["Domínio da arquitetura do espaço. A sala inteira vira arma.",B]],"fight":[],"vary":[],"who":[["Ishida Ryō",B]]},
+  {"open":second,"fight":[],"vary":[],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[]}]},
+{"id":"pk","name":"Psicocinese","kanji":"気","c":"--pk","tag":"O caminho da energia. Elétrica, calor, frio, som, e no fim a energia do próprio véu (Bible).","nb":"Telecinese e Teleporte","real":"As pessoas elétricas de Kardec. O poltergeist que mexe em aparelhos e o rádio que pega vozes. O fogo-fátuo japonês, kitsunebi e hitodama. O fogo goma de Fudō Myōō.","cost":"O caminho que mais faz barulho e o mais difícil de usar em silêncio (Bible). Febre, mão queimada ou gelada.","ranks":[
+  {"open":[["Desliga aparelhos simples a cinco metros. Deixa rastro.",B]],"fight":[],"vary":[["A luz pisca quando ele chega.",R],["O rádio chia e pega vozes.",R],["O relógio para.",R]],"who":[]},
+  {"open":[["Muda a temperatura de um cômodo e cria uma zona sem som.",B],["Descarga elétrica à distância.",B]],"fight":[["Derruba uma pessoa com choque.",B]],"vary":[["Ponto frio.",R],["Estática na pele.",R],["Só calor.",P],["Só frio.",P]],"who":[]},
+  {"open":[["Pressão de membrana contra espírito e ser sofredor.",B],["Derruba câmera, rádio e rede.",B]],"fight":[],"vary":[["Fogo-fátuo.",R],["Acende e apaga chama.",P]],"who":[]},
+  {"open":[["Usa a energia do lugar como arma.",B]],"fight":[],"vary":[["Raio.",L,"Sena"],["Congela e estoura pneu.",L,"Sena"]],"who":[]},
+  {"open":[["Queimadura de membrana. Fere demônio alto.",B],["Mantém um campo de energia por muito tempo.",B]],"fight":[],"vary":[["Fogo que só queima espírito, como o goma.",R]],"who":[["Tendo",T],["Sena",T]]},
+  {"open":[["Null Space. Dez metros onde nada vê de fora.",B,"Misaki"]],"fight":[],"vary":[["Tempestade num quarteirão.",P],["Ferve a água de um canal.",L,"Mori"]],"who":[]},
+  {"open":[["Membrana crua. Usa a energia do véu direto.",B]],"fight":[],"vary":[],"who":[["Inoue Misaki, a definir",P]]},
+  {"open":second,"fight":[],"vary":[],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[]}]},
+{"id":"tp","name":"Teleporte","kanji":"渡","c":"--tp","tag":"O caminho do trânsito. Dobra a distância pela membrana (Bible). Cruza dimensões, e isso é descoberto depois (Betty).","nb":"Psicocinese e Clarisenciência","real":"O transporte de objetos de Kardec. A bilocação dos santos. O kamikakushi japonês, gente escondida pelos deuses. O chūu, o estado do meio do budismo.","cost":"Não funciona com gente possuída (Betty). Deixa rastro que dura horas (Bible). Perto do Limiar, as entidades do outro lado veem ele (Bible).","ranks":[
+  {"open":[["Salta até trinta metros vendo o lugar.",B]],"fight":[["Golpe relâmpago. Aparece e bate antes do outro perceber.",B]],"vary":[["Só salta sozinho.",P]],"who":[]},
+  {"open":[["Salta até quinhentos metros para um lugar que conhece.",B],["Pousa no ponto exato.",B]],"fight":[["Põe sal, prata, ferro ou um selo dentro da guarda do outro.",B]],"vary":[["Traz um objeto pequeno de longe.",R],["Desarma. Tira o objeto da mão do outro.",T],["Anula a queda.",T]],"who":[]},
+  {"open":[["Leva um passageiro que aceita.",B],["Três saltos seguidos.",B]],"fight":[["Aparece onde o outro ia, e o golpe dele perde o sentido.",B]],"vary":[["Troca de lugar com um amigo.",T],["Redireciona o ataque para outro lugar.",T]],"who":[]},
+  {"open":[["Salto silencioso.",B]],"fight":[],"vary":[["Leva armas e equipamento.",P]],"who":[["Kuroda Sei",B]]},
+  {"open":[["Chega à borda do Limiar.",B],["Até cinco quilômetros.",B]],"fight":[["Leva a âncora de um espírito para longe dele.",B]],"vary":[["Manda um fantasma de volta ao plano dele, só quando ele não está numa pessoa. Tirar de uma pessoa é exorcismo e precisa de ritual. Um fantasma forte volta.",T],["Aparece em dois lugares, como a bilocação.",R]],"who":[["Hana",T]]},
+  {"open":[["Leva até quatro pessoas.",B]],"fight":[],"vary":[["Vai ao plano dos espíritos onde já esteve.",T],["Some com alguém por um tempo, como o kamikakushi.",R]],"who":[["Gin, de verdade",B]]},
+  {"open":[["Atravessa o Limiar para buscar uma alma expulsa antes que ela se desfaça.",B]],"fight":[],"vary":[["A Dobra. Guarda uma casa ou um bairro inteiro na dimensão do meio.",T]],"who":[]},
+  {"open":second,"fight":[],"vary":[],"who":[]},
+  {"open":axis,"fight":[],"vary":[],"who":[]}]}];
 const svg=document.getElementById("wheel"),NS="http://www.w3.org/2000/svg";
 function arc(i){const a0=(i*60-120)*Math.PI/180,a1=((i+1)*60-120)*Math.PI/180,Rr=190,r=78,cx=200,cy=200;const p=(a,rr)=>[cx+rr*Math.cos(a),cy+rr*Math.sin(a)];const[x0,y0]=p(a0,Rr),[x1,y1]=p(a1,Rr),[x2,y2]=p(a1,r),[x3,y3]=p(a0,r);return`M${x0},${y0} A${Rr},${Rr} 0 0 1 ${x1},${y1} L${x2},${y2} A${r},${r} 0 0 0 ${x3},${y3} Z`}
 paths.forEach((pa,i)=>{const g=document.createElementNS(NS,"g");g.setAttribute("class","wedge");g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label",pa.name);g.dataset.id=pa.id;
