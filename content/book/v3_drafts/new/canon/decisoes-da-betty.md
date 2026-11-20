@@ -576,3 +576,4 @@ Respostas de 13 de novembro de 2026. Valem acima do Bible e acima do que eu escr
 - Todo mundo acha que só dá para ter uma habilidade, e que só quem sofreu possessão pode ter mais de uma, a do médium e a de quem está dentro. Por isso os Vessels são considerados bem mais fortes que os investigadores comuns.
 - A origem da Sora parece com a do Kenji de propósito. Mostra o quanto o campo é perigoso e que gente se fere mortalmente com mais frequência do que se espera.
 - O Takumi e o Abe são amigos. Às vezes a Sora e o Kenji deixam os dois assumirem os corpos para sair, tomar um chá e conversar.
+- Nas lutas o médium e quem está dentro podem trocar de lugar. Se o médium entra em pânico, a entidade, cultivada e treinada pela CVD, assume sozinha, tranca o médium lá dentro para ele não ver nem ouvir, termina a missão e tenta acalmá-lo. Esse é o ponto forte dos Vessels (20 nov).
